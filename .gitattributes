@@ -1,1 +1,15 @@
 * text=auto !eol
+/Makefile -text
+/README -text
+/apertium-id-ms.id-ms.dix -text
+/apertium-id-ms.id-ms.t1x -text
+/apertium-id-ms.id.lexc -text
+/apertium-id-ms.id.metadix -text
+/apertium-id-ms.id.xfst -text
+/apertium-id-ms.ms.lexc -text
+/apertium-id-ms.ms.xfst -text
+dev/story.id.txt -text
+dev/story.ms.txt -text
+/id-ms.prob -text svneol=unset#unset
+/main-id.foma -text
+/main-ms.foma -text

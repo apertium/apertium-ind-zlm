@@ -1,0 +1,14 @@
+! apertium-id-ms.ms.xfst
+
+define AssimDelRules [ "{N}" -> m || _ [ p | b | f ] ,,
+[ p | f ] -> 0 || "{N}" _ ]
+.o.
+[ "{N}" -> n || _ [ t | d | c | j | s y | z ] ,,
+t -> 0 || "{N}" _ ]
+.o.
+[ "{N}" -> n y || _ s ,, s -> 0 || "{N}" _ ]
+.o.
+[ "{N}" -> n g || _ [ a | e | i | o | u | k | g | h ] ,,
+k -> 0 || "{N}" _ ]
+.o.
+"{N}" -> 0 || _ [ m | n | l | r | w | y ] ;

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transfer>
+
+	<section-def-cats>
+		<def-cat n="noun">
+			<cat-item tags="dummy.*"/>
+		</def-cat>
+		<def-cat n="pref">
+			<cat-item tags="ber.*"/>
+		</def-cat>
+	</section-def-cats>
+	
+	<section-def-attrs>
+		<def-attr n="a_pos">
+			<attr-item tags="vblex"/>
+			<attr-item tags="n"/>
+			<attr-item tags="adj"/>
+			<attr-item tags="num"/>
+			<attr-item tags="prn"/>
+			<attr-item tags="cnjsub"/>
+			<attr-item tags="cnjcoo"/>
+			<attr-item tags="det"/>
+			<attr-item tags="pr"/>
+   	 	</def-attr>
+   	 	<def-attr n="a_noun">
+   	 		<attr-item tags="n"/>
+   	 	</def-attr>
+   	 	<def-attr n="a_num">
+   			<attr-item tags="sg"/>
+   			<attr-item tags="pl"/>
+   		</def-attr>
+   		<def-attr n="a_pref">
+   			<attr-item tags="ber"/>
+   		</def-attr>
+	</section-def-attrs>
+
+	<section-def-vars>
+		<def-var n="number"/>
+	</section-def-vars>
+
+	<section-rules>
+		<rule>
+			<pattern>
+				<pattern-item n="noun"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_noun"/>
+						<clip pos="1" side="tl" part="a_num"/>
+					</lu>
+				</out>
+			</action>			
+		</rule>
+	</section-rules>
+	
+</transfer>

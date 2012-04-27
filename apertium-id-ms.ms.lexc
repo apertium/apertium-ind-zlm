@@ -1,0 +1,670 @@
+! apertium-id-ms.ms.lexc
+
+Multichar_Symbols
+
+! Part-of-Speech
+%<n%>           ! Noun
+%<vblex%>       ! Standard verb
+%<vbhaver%>     ! Verb 'to have'
+%<adj%>         ! Adjective
+%<adv%>         ! Adverb
+%<prn%>         ! Pronoun
+%<num%>         ! Numeral
+%<np%>          ! Proper noun
+%<pr%>          ! Preposition
+%<cnjcoo%>      ! Co-ordinating conjunction
+%<cnjsub%>      ! Sub-ordinating conjunction
+%<part%>        ! Particle
+%<mod%>         ! Modal
+%<det%>         ! Determiner
+
+! Person
+%<p1%> ! First person
+%<p2%> ! Second person
+%<p3%> ! Third person
+
+! Number
+%<sg%> ! Singular
+%<pl%> ! Plural
+
+! Numeral
+%<card%> ! Cardinal
+%<ord%>  ! Ordinal
+
+! Voice Type
+%<actv%> ! Active
+%<pasv%> ! Passive
+
+! Transitivity Mark
+%<appl%> ! Applicative
+%<caus%> ! Causative
+
+! Question
+%<qst%> ! Question
+
+! Awalan
+%<men%>
+%<di%>
+%<ber%>
+%<per%>
+%<ter%>
+%<ke%>
+%<se%>
+
+! Akhiran
+%<an%>
+%<i%>
+%<kan%>
+%<nya%>
+
+! Reduplikasi
+%<redup%>
+
+! Flag diacritics
+@P.PREF.meN@ @R.PREF.meN@
+@P.PREF.di@ @R.PREF.di@
+@P.PREF.ber@ @R.PREF.ber@
+@P.PREF.per@ @R.PREF.per@
+@P.PREF.ter@ @R.PREF.ter@
+@P.PREF.peN@ @R.PREF.peN@
+@P.PREF.ke@ @R.PREF.ke@
+@P.PREF.se@ @R.PREF.se@
+@P.PREF.Redup@ @R.PREF.Redup@
+@D.PREF@
+
+! Morphophoneme
+%{N%} ! underspecified nasal
+%{H%} ! reduplication hyphen
+
+
+LEXICON Root
+
+Prefixes ;
+
+ProperNouns ;
+Conjunctions ;
+Questions ;
+Prepositions ;
+Pronouns ;
+Particles ;
+
+
+LEXICON Prefixes
+
+Stems ;
+PrefixMeN ;
+PrefixDi ;
+PrefixBer ;
+PrefixPer ;
+PrefixTer ;
+PrefixKe ;
+PrefixSe ;
+
+
+LEXICON Stems
+
+Nouns ;
+Verbs ;
+Adjectives ;
+Adverbs ;
+Numerals ;
+
+
+LEXICON PrefixMeN
+
+< [ 0 .x. m e "{N}" ] "@P.PREF.meN@" > Stems ;
+
+
+LEXICON PrefixDi
+
+< [ 0 .x. d i ] "@P.PREF.di@" > Stems ;
+
+
+LEXICON PrefixBer
+
+< [ 0 .x. b e r ] "@P.PREF.ber@" > Stems ;
+
+
+LEXICON PrefixPer
+
+< [ 0 .x. p e r ] "@P.PREF.per@" > Stems ;
+
+
+LEXICON PrefixTer
+
+< [ 0 .x. t e r ] "@P.PREF.ter@" > Stems ;
+
+
+LEXICON PrefixKe
+
+< [ 0 .x. k e ] "@P.PREF.ke@" > Stems ;
+
+
+LEXICON PrefixSe
+
+< [ 0 .x. s e ] "@P.PREF.se@" > Stems ;
+
+
+LEXICON Nouns
+
+adik Noun-Sg ;
+air Noun-Sg ;
+anak Noun-Sg ;
+anjing Noun-Sg ;
+apapun Noun-Sg ;
+bawah Noun-Sg ;
+belakang Noun-Sg ;
+buah Noun-Sg ;
+bunyi Noun-Sg ;
+burung Noun-Sg ;
+cuaca Noun-Sg ;
+dalam Noun-Sg ;
+depan Noun-Sg ;
+ekor Noun-Sg ;
+haiwan Noun-Sg ;
+hari Noun-Sg ;
+ibu Noun-Sg ;
+jawab Noun-Sg ;
+jawapan Noun-Sg ;
+jendela Noun-Sg ;
+kata Noun-Sg ;
+kebun Noun-Sg ;
+kelmarin Noun-Sg ;
+kepala Noun-Sg ;
+kucing Noun-Sg ;
+kursi Noun-Sg ;
+luar Noun-Sg ;
+manusia Noun-Sg ;
+mata Noun-Sg ;
+meja Noun-Sg ;
+milik Noun-Sg ;
+orang Noun-Sg ;
+pohon Noun-Sg ;
+putera Noun-Sg ;
+puteri Noun-Sg ;
+rumah Noun-Sg ;
+saksi Noun-Sg ;
+sekarang Noun-Sg ;
+sekitaran Noun-Sg ;
+seorang Noun-Sg ;
+tahun Noun-Sg ;
+taman Noun-Sg ;
+tangan Noun-Sg ;
+tawa Noun-Sg ;
+tingkap Noun-Sg ;
+ujar Noun-Sg ;
+umur Noun-Sg ;
+usia Noun-Sg ;
+waktu Noun-Sg ;
+
+main Noun-Sg-Per-An ;
+
+buah Noun-Sg-Se ;
+ekor Noun-Sg-Se ;
+
+
+LEXICON Verbs
+
+ada Verb ;
+adalah Verb ;
+balas Verb ;
+bicara Verb ;
+bisa Verb ;
+boleh Verb ;
+cakap Verb ;
+cari Verb ;
+cuba Verb ;
+dapat Verb ;
+datang Verb ;
+dengar Verb ;
+duduk Verb ;
+fikir Verb ;
+gesa Verb ;
+hitung Verb ;
+ialah Verb ;
+jadi Verb ;
+jalan Verb ;
+laku Verb ;
+lalu Verb ;
+lari Verb ;
+lewat Verb ;
+lihat Verb ;
+main Verb ;
+makan Verb ;
+masuk Verb ;
+mempunyai Verb ;
+minum Verb ;
+pergi Verb ;
+punya Verb ;
+selesai Verb ;
+sembunyi Verb ;
+suka Verb ;
+tahu Verb ;
+tanya Verb ;
+temu Verb ;
+tergesa%-gesa Verb ;
+toleh Verb ;
+tutup Verb ;
+
+baik Verb-MeN ;
+balas Verb-MeN ;
+besar Verb-MeN ;
+cari Verb-MeN ;
+cuba Verb-MeN ;
+dapat Verb-MeN ;
+dekat Verb-MeN ;
+dengar Verb-MeN ;
+ekor Verb-MeN ;
+hangat Verb-MeN ;
+hitung Verb-MeN ;
+jadi Verb-MeN ;
+jawab Verb-MeN ;
+kecil Verb-MeN ;
+lihat Verb-MeN ;
+makan Verb-MeN ;
+minum Verb-MeN ;
+putih Verb-MeN ;
+tahun Verb-MeN ;
+toleh Verb-MeN ;
+tua Verb-MeN ;
+tutup Verb-MeN ;
+
+laku Verb-Di-Kan ;
+
+air Verb-MeN-I ;
+bawah Verb-MeN-I ;
+belakang Verb-MeN-I ;
+buah Verb-MeN-I ;
+cermat Verb-MeN-I ;
+cuba Verb-MeN-I ;
+cukup Verb-MeN-I ;
+dalam Verb-MeN-I ;
+dapat Verb-MeN-I ;
+datang Verb-MeN-I ;
+dekat Verb-MeN-I ;
+duduk Verb-MeN-I ;
+hangat Verb-MeN-I ;
+hitung Verb-MeN-I ;
+ingin Verb-MeN-I ;
+jalan Verb-MeN-I ;
+kepala Verb-MeN-I ;
+lalu Verb-MeN-I ;
+lebih Verb-MeN-I ;
+lewat Verb-MeN-I ;
+makan Verb-MeN-I ;
+masuk Verb-MeN-I ;
+milik Verb-MeN-I ;
+minum Verb-MeN-I ;
+suka Verb-MeN-I ;
+tangan Verb-MeN-I ;
+tanya Verb-MeN-I ;
+temu Verb-MeN-I ;
+tidur Verb-MeN-I ;
+tutup Verb-MeN-I ;
+
+ada Verb-MeN-Kan ;
+bahagia Verb-MeN-Kan ;
+baik Verb-MeN-Kan ;
+balas Verb-MeN-Kan ;
+bawah Verb-MeN-Kan ;
+belakang Verb-MeN-Kan ;
+besar Verb-MeN-Kan ;
+bicara Verb-MeN-Kan ;
+buah Verb-MeN-Kan ;
+bunyi Verb-MeN-Kan ;
+cari Verb-MeN-Kan ;
+cermat Verb-MeN-Kan ;
+cuba Verb-MeN-Kan ;
+cukup Verb-MeN-Kan ;
+dalam Verb-MeN-Kan ;
+dapat Verb-MeN-Kan ;
+datang Verb-MeN-Kan ;
+dekat Verb-MeN-Kan ;
+dengar Verb-MeN-Kan ;
+duduk Verb-MeN-Kan ;
+fikir Verb-MeN-Kan ;
+hangat Verb-MeN-Kan ;
+hitung Verb-MeN-Kan ;
+indah Verb-MeN-Kan ;
+ingin Verb-MeN-Kan ;
+jadi Verb-MeN-Kan ;
+jalan Verb-MeN-Kan ;
+jawab Verb-MeN-Kan ;
+jelas Verb-MeN-Kan ;
+kecil Verb-MeN-Kan ;
+lain Verb-MeN-Kan ;
+laku Verb-MeN-Kan ;
+lalu Verb-MeN-Kan ;
+lari Verb-MeN-Kan ;
+lebih Verb-MeN-Kan ;
+lewat Verb-MeN-Kan ;
+lihat Verb-MeN-Kan ;
+main Verb-MeN-Kan ;
+makan Verb-MeN-Kan ;
+masuk Verb-MeN-Kan ;
+pasti Verb-MeN-Kan ;
+punya Verb-MeN-Kan ;
+putih Verb-MeN-Kan ;
+rumah Verb-MeN-Kan ;
+saksi Verb-MeN-Kan ;
+sama Verb-MeN-Kan ;
+selesai Verb-MeN-Kan ;
+sembunyi Verb-MeN-Kan ;
+seronok Verb-MeN-Kan ;
+suka Verb-MeN-Kan ;
+tanya Verb-MeN-Kan ;
+temu Verb-MeN-Kan ;
+tentu Verb-MeN-Kan ;
+tidur Verb-MeN-Kan ;
+toleh Verb-MeN-Kan ;
+tua Verb-MeN-Kan ;
+tutup Verb-MeN-Kan ;
+ujar Verb-MeN-Kan ;
+
+ada Verb-Ber ;
+bahagia Verb-Ber ;
+bicara Verb-Ber ;
+cakap Verb-Ber ;
+fikir Verb-Ber ;
+hitung Verb-Ber ;
+jalan Verb-Ber ;
+jendela Verb-Ber ;
+kata Verb-Ber ;
+laku Verb-Ber ;
+lalu Verb-Ber ;
+lari Verb-Ber ;
+main Verb-Ber ;
+sama Verb-Ber ;
+sembunyi Verb-Ber ;
+tanya Verb-Ber ;
+temu Verb-Ber ;
+ujar Verb-Ber ;
+umur Verb-Ber ;
+usia Verb-Ber ;
+
+gesa Verb-Ter ;
+tawa Verb-Ter ;
+tidur Verb-Ter ;
+
+
+LEXICON Adjectives
+
+bahagia Adj ;
+baik Adj ;
+besar Adj ;
+cerah Adj ;
+cermat Adj ;
+cukup Adj ;
+dekat Adj ;
+dingin Adj ;
+hangat Adj ;
+indah Adj ;
+jelas Adj ;
+kecil Adj ;
+lain Adj ;
+lebih Adj ;
+mungil Adj ;
+pasti Adj ;
+perlahan Adj ;
+putih Adj ;
+sama Adj ;
+sejuk Adj ;
+senang Adj ;
+seronok Adj ;
+tentu Adj ;
+tidur Adj ;
+tua Adj ;
+
+
+LEXICON ProperNouns
+
+Maria Np ;
+Yakub Np ;
+
+
+LEXICON Adverbs
+
+akhirnya Adv ;
+amatlah Adv ;
+bukan Adv ;
+ingin Adv ;
+jangan Adv ;
+juga Adv ;
+lagi Adv ;
+masih Adv ;
+mungkin Adv ;
+pernah Adv ;
+sahaja Adv ;
+saja Adv ;
+sangat Adv ;
+sedang Adv ;
+selalu Adv ;
+sudah Adv ;
+tak Adv ;
+telah Adv ;
+tentunya Adv ;
+tidak Adv ;
+
+
+LEXICON Conjunctions
+
+atau Cnjcoo ;
+dan Cnjcoo ;
+namun Cnjcoo ;
+tapi Cnjcoo ;
+tetapi Cnjcoo ;
+
+bahawa Cnjsub ;
+jika Cnjsub ;
+kalau Cnjsub ;
+kerana Cnjsub ;
+kemudian Cnjsub ;
+ketika Cnjsub ;
+maka Cnjsub ;
+makanya Cnjsub ;
+meski Cnjsub ;
+meskipun Cnjsub ;
+oleh% itu Cnjsub ;
+saat Cnjsub ;
+
+
+LEXICON Questions
+
+apa Qst ;
+apakah Qst ;
+di% mana Qst ;
+di% manakah Qst ;
+ke% mana Qst ;
+ke% manakah Qst ;
+mana Qst ;
+mengapa Qst ;
+
+tahukah Qst ;
+mungkinkah Qst ;
+
+
+LEXICON Prepositions
+dari Pr ;
+daripada Pr ;
+dengan Pr ;
+di Pr ;
+ke Pr ;
+kepada Pr ;
+pada Pr ;
+untuk Pr ;
+
+LEXICON Pronouns
+
+ini Prn ;
+itu Prn ;
+mana%-mana Prn ;
+sana Prn ;
+sesuatu Prn ;
+
+aku Prn-Sg-P1 ;
+
+anda Prn-Sg-P2 ;
+kamu Prn-Sg-P2 ;
+kau Prn-Sg-P2 ;
+
+dia Prn-Sg-P3 ;
+ia Prn-Sg-P3 ;
+
+mereka Prn-Pl-P3 ;
+
+
+LEXICON Numerals
+
+dua Num-Card ;
+lima Num-Card ;
+enam Num-Card ;
+dua Num-Ord ;
+lima Num-Ord ;
+enam Num-Ord ;
+
+
+LEXICON Particles
+
+nah Part ;
+si Part ;
+yang Part ;
+
+
+!****************** Tagger ******************
+
+LEXICON Noun-Sg
+
+< [ "<n>" "<sg>" .x. 0 ] "@D.PREF@" > # ;
+
+LEXICON Noun-Sg-Nya
+
+< [ "<n>" "<sg>" "<nya>" .x. n y a ] "@D.PREF@" > # ;
+
+LEXICON Noun-Sg-An
+
+< [ "<n>" "<sg>" "<an>" .x. a n ] "@D.PREF@" > # ;
+
+LEXICON Noun-Sg-Ke-An
+
+< [ "<n>" "<sg>" "<ke>" "<an>" .x. a n ] "@R.PREF.ke@" > # ;
+
+LEXICON Noun-Sg-Per-An
+
+< [ "<n>" "<sg>" "<per>" "<an>" .x. a n ] "@R.PREF.per@" > # ;
+
+LEXICON Noun-Sg-Per-An-Nya
+
+< [ "<n>" "<sg>" "<per>" "<an>" "<nya>" .x. a n n y a ] "@R.PREF.per@" >  # ;
+
+LEXICON Noun-Sg-Se
+
+< [ "<n>" "<sg>" "<se>" .x. 0 ] "@R.PREF.se@" > # ;
+
+
+
+LEXICON Verb
+
+< [ "<vblex>" .x. 0 ] "@D.PREF@" > # ;
+
+LEXICON Verb-MeN
+
+< [ "<vblex>" "<men>" .x. 0 ] "@R.PREF.meN@" > # ;
+
+LEXICON Verb-MeN-I
+
+< [ "<vblex>" "<men>" "<i>" .x. i ] "@R.PREF.meN@" > # ;
+
+LEXICON Verb-MeN-Kan
+
+< [ "<vblex>" "<men>" "<kan>" .x. k a n ] "@R.PREF.meN@" > # ;
+
+LEXICON Verb-Di-Kan
+
+< [ "<vblex>" "<di>" "<kan>" .x. k a n ] "@R.PREF.di@" > # ;
+
+LEXICON Verb-Ber
+
+< [ "<vblex>" "<ber>" .x. 0 ] "@R.PREF.ber@" > # ;
+
+LEXICON Verb-Ter
+
+< [ "<vblex>" "<ter>" .x. 0 ] "@R.PREF.ter@" > # ;
+
+
+
+LEXICON Adj
+
+< [ "<adj>" .x. 0 ] "@D.PREF@" > # ;
+
+
+LEXICON Adv
+
+< [ "<adv>" .x. 0 ] "@D.PREF@" > # ;
+
+
+LEXICON Np
+
+%<np%>: # ;
+
+
+LEXICON Cnjcoo
+
+%<cnjcoo%>: # ;
+
+
+LEXICON Cnjsub
+
+%<cnjsub%>: # ;
+
+
+LEXICON Qst
+
+%<qst%>: # ;
+
+
+LEXICON Pr
+
+%<pr%>: # ;
+
+
+LEXICON Prn
+
+%<prn%>: # ;
+
+LEXICON Prn-Sg-P1
+
+%<prn%>%<sg%>%<p1%>: # ;
+
+LEXICON Prn-Sg-P2
+
+%<prn%>%<sg%>%<p2%>: # ;
+
+LEXICON Prn-Sg-P3
+
+%<prn%>%<sg%>%<p3%>: # ;
+
+LEXICON Prn-Pl-P1
+
+%<prn%>%<pl%>%<p1%>: # ;
+
+LEXICON Prn-Pl-P2
+
+%<prn%>%<pl%>%<p2%>: # ;
+
+LEXICON Prn-Pl-P3
+
+%<prn%>%<pl%>%<p3%>: # ;
+
+
+LEXICON Num-Card
+
+< [ "<num>" "<card>" .x. 0 ] "@D.PREF@" > # ;
+
+LEXICON Num-Ord
+
+< [ "<num>" "<ord>" .x. 0 ] "@R.PREF.ke@" > # ;
+
+
+LEXICON Part
+
+%<part%>: # ;

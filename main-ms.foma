@@ -1,0 +1,13 @@
+read lexc < apertium-id-ms.ms.lexc
+
+eliminate flag PREF
+
+define initialnet
+
+source apertium-id-ms.ms.xfst
+
+read regex initialnet .o. AssimDelRules ;
+
+save stack xfst-ms.bin
+
+exit
