@@ -1,19 +1,25 @@
 * text=auto !eol
-/Makefile -text
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/INSTALL -text
+/Makefile.am -text
+/NEWS -text
 /README -text
 /apertium-id-ms.id-ms.dix -text
 /apertium-id-ms.id-ms.t1x -text
-/apertium-id-ms.id.lexc -text
 /apertium-id-ms.id.metadix -text
-/apertium-id-ms.id.xfst -text
-/apertium-id-ms.ms.lexc -text
 /apertium-id-ms.ms.metadix -text
-/apertium-id-ms.ms.xfst -text
+/autogen.sh -text
+/buscaPar.xsl -text
+/configure.ac -text
 dev/story.id.txt -text
 dev/story.ms.txt -text
 /empty.t1x -text
 /id-ms.prob -text svneol=unset#unset
 /main-id.foma -text
 /main-ms.foma -text
+/modes.xml -text
+/principal.xsl -text
 words/id.conjunction -text
 words/id.interjection -text
