@@ -76,7 +76,7 @@
 		<e><p><l>adalah<s n="vblex"/></l><r>adalah<s n="vblex"/></r></p></e>
 		<e><p><l>bahagia<s n="vblex"/></l><r>bahagia<s n="vblex"/></r></p></e>
 		<e><p><l>balas<s n="vblex"/></l><r>balas<s n="vblex"/></r></p></e>
-		<e><p><l>bicara<s n="vblex"/></l><r>cakap<s n="vblex"/></r></p></e>
+		<e><p><l>bicara<s n="vblex"/></l><r>bicara<s n="vblex"/></r></p></e>
 		<e><p><l>bisa<s n="vblex"/></l><r>boleh<s n="vblex"/></r></p></e>
 		<e><p><l>cari<s n="vblex"/></l><r>cari<s n="vblex"/></r></p></e>
 		<e><p><l>coba<s n="vblex"/></l><r>cuba<s n="vblex"/></r></p></e>
@@ -109,7 +109,7 @@
 		<e><p><l>sama<s n="vblex"/></l><r>sama<s n="vblex"/></r></p></e>
 		<e><p><l>selesai<s n="vblex"/></l><r>selesai<s n="vblex"/></r></p></e>
 		<e><p><l>sembunyi<s n="vblex"/></l><r>sembunyi<s n="vblex"/></r></p></e>
-		<e><p><l>senang<s n="vblex"/></l><r>seronok<s n="vblex"/></r></p></e>
+		<e><p><l>senang<s n="vblex"/></l><r>senang<s n="vblex"/></r></p></e>
 		<e><p><l>suka<s n="vblex"/></l><r>suka<s n="vblex"/></r></p></e>
 		<e><p><l>tahu<s n="vblex"/></l><r>tahu<s n="vblex"/></r></p></e>
 		<e><p><l>tawa<s n="vblex"/></l><r>tawa<s n="vblex"/></r></p></e>
@@ -129,7 +129,7 @@
 		<e><p><l>cermat<s n="adj"/></l><r>cermat<s n="adj"/></r></p></e>
 		<e><p><l>cukup<s n="adj"/></l><r>cukup<s n="adj"/></r></p></e>
 		<e><p><l>dekat<s n="adj"/></l><r>dekat<s n="adj"/></r></p></e>
-		<e><p><l>dingin<s n="adj"/></l><r>sejuk<s n="adj"/></r></p></e>
+		<e><p><l>dingin<s n="adj"/></l><r>dingin<s n="adj"/></r></p></e>
 		<e><p><l>hangat<s n="adj"/></l><r>hangat<s n="adj"/></r></p></e>
 		<e><p><l>indah<s n="adj"/></l><r>indah<s n="adj"/></r></p></e>
 		<e><p><l>jelas<s n="adj"/></l><r>jelas<s n="adj"/></r></p></e>
@@ -148,7 +148,7 @@
 		
 		<!-- Proper Noun -->
 		<e><p><l>Maria<s n="np"/></l><r>Maria<s n="np"/></r></p></e>
-		<e><p><l>Yakobus<s n="np"/></l><r>Yakub<s n="np"/></r></p></e>
+		<e><p><l>Yakobus<s n="np"/></l><r>Yakobus<s n="np"/></r></p></e>
 
 		<!-- Adv -->
 		<e><p><l>akhirnya<s n="adv"/></l><r>akhirnya<s n="adv"/></r></p></e>
@@ -205,7 +205,7 @@
 		<e><p><l>mungkinkah<s n="qst"/></l><r>mungkinkah<s n="qst"/></r></p></e>
 
 		<!-- Preposition -->
-		<e><p><l>dari<s n="pr"/></l><r>daripada<s n="pr"/></r></p></e>
+		<e><p><l>dari<s n="pr"/></l><r>dari<s n="pr"/></r></p></e>
 		<e><p><l>dengan<s n="pr"/></l><r>dengan<s n="pr"/></r></p></e>
 		<e><p><l>di<s n="pr"/></l><r>di<s n="pr"/></r></p></e>
 		<e><p><l>ke<s n="pr"/></l><r>ke<s n="pr"/></r></p></e>
