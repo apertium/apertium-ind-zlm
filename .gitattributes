@@ -13,3 +13,5 @@ dev/story.ms.txt -text
 /id-ms.prob -text svneol=unset#unset
 /main-id.foma -text
 /main-ms.foma -text
+words/id.conjunction -text
+words/id.interjection -text
