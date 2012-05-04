@@ -8,34 +8,31 @@ Install all the following dependencies:
 
 * lttoolbox (http://wiki.apertium.org/wiki/Lttoolbox)
 * apertium (http://wiki.apertium.org/wiki/Installation)
-* hfst3 (http://wiki.apertium.org/wiki/Hfst)
-* foma (http://wiki.apertium.org/wiki/Foma)
 
 Installation
 ============
-Run make to install the linguistic data:
+Run configure to generate a Makefile file:
+
+$ ./configure
+
+and then run make inside this directory.
 
 $ make
 
 Testing
 ============
-Test the installation by running the following command:
 
-$ make test
+$ echo "Oleh karena itu mereka tidak bisa bermain di luar." | apertium -d . id-ms
 
-which will translate the story in dev/ directory.
+Oleh itu mereka tidak boleh bermain di luar.
 
 List of files
 =============
-* apertium-id-ms.id.lexc   - Monolingual dictionary for Indonesian
-* apertium-id-ms.id.xfst   - xfst rules for Indonesian
-* main-id.foma             - foma script for Indonesian
-* id-ms.prob               - Tagger model for Indonesian
-* apertium-id-ms.ms.lexc   - Monolingual dictionary for Malaysian
-* apertium-id-ms.ms.xfst   - xfst rules for Malaysian
-* main-ms.foma             - foma script for Malaysian
-* apertium-id-ms.id-ms.t1x - Transfer rules for Indonesian-to-Malaysian translation
-* apertium-id-ms.id-ms.dix - Bilingual dictionary
+* apertium-id-ms.id.metadix   - Monolingual dictionary for Indonesian
+* id-ms.prob                  - Tagger model for Indonesian
+* apertium-id-ms.ms.metadix   - Monolingual dictionary for Malaysian
+* apertium-id-ms.id-ms.t1x    - Transfer rules for Indonesian-to-Malaysian translation
+* apertium-id-ms.id-ms.dix    - Bilingual dictionary
 
 Technical information
 =====================
