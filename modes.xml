@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="id-ms" install="no">
+  <mode name="id-ms" install="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="id-ms.automorf.bin"/>
