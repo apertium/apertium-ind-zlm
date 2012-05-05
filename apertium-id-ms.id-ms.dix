@@ -46,7 +46,7 @@
 		<e><p><l>kemarin<s n="n"/></l><r>kelmarin<s n="n"/></r></p></e>
 		<e><p><l>kepala<s n="n"/></l><r>kepala<s n="n"/></r></p></e>
 		<e><p><l>kucing<s n="n"/></l><r>kucing<s n="n"/></r></p></e>
-		<e><p><l>kursi<s n="n"/></l><r>kursi<s n="n"/></r></p></e>
+		<e><p><l>kursi<s n="n"/></l><r>kerusi<s n="n"/></r></p></e>
 		<e><p><l>luar<s n="n"/></l><r>luar<s n="n"/></r></p></e>
 		<e><p><l>main<s n="n"/></l><r>main<s n="n"/></r></p></e>
 		<e><p><l>manusia<s n="n"/></l><r>manusia<s n="n"/></r></p></e>
@@ -57,6 +57,7 @@
 		<e><p><l>pohon<s n="n"/></l><r>pohon<s n="n"/></r></p></e>
 		<e><p><l>putra<s n="n"/></l><r>putera<s n="n"/></r></p></e>
 		<e><p><l>putri<s n="n"/></l><r>puteri<s n="n"/></r></p></e>
+		<e><p><l>rasa<s n="n"/></l><r>rasa<s n="n"/></r></p></e>
 		<e><p><l>rumah<s n="n"/></l><r>rumah<s n="n"/></r></p></e>
 		<e><p><l>saksi<s n="n"/></l><r>saksi<s n="n"/></r></p></e>
 		<e><p><l>sekarang<s n="n"/></l><r>sekarang<s n="n"/></r></p></e>
@@ -64,6 +65,7 @@
 		<e><p><l>seorang<s n="n"/></l><r>seorang<s n="n"/></r></p></e>
 		<e><p><l>taman<s n="n"/></l><r>taman<s n="n"/></r></p></e>
 		<e><p><l>tangan<s n="n"/></l><r>tangan<s n="n"/></r></p></e>
+		<e><p><l>tanya<s n="n"/></l><r>tanya<s n="n"/></r></p></e>
 		<e><p><l>tahun<s n="n"/></l><r>tahun<s n="n"/></r></p></e>
 		<e><p><l>tawa<s n="n"/></l><r>tawa<s n="n"/></r></p></e>
 		<e><p><l>ujar<s n="n"/></l><r>ujar<s n="n"/></r></p></e>
@@ -106,7 +108,9 @@
 		<e><p><l>pikir<s n="vblex"/></l><r>fikir<s n="vblex"/></r></p></e>
 		<e><p><l>punya<s n="vblex"/></l><r>punya<s n="vblex"/></r></p></e>
 		<e><p><l>mempunyai<s n="vblex"/></l><r>mempunyai<s n="vblex"/></r></p></e>
+		<e><p><l>rasa<s n="vblex"/></l><r>rasa<s n="vblex"/></r></p></e>
 		<e><p><l>sama<s n="vblex"/></l><r>sama<s n="vblex"/></r></p></e>
+		<e><p><l>sebut<s n="vblex"/></l><r>sebut<s n="vblex"/></r></p></e>
 		<e><p><l>selesai<s n="vblex"/></l><r>selesai<s n="vblex"/></r></p></e>
 		<e><p><l>sembunyi<s n="vblex"/></l><r>sembunyi<s n="vblex"/></r></p></e>
 		<e><p><l>senang<s n="vblex"/></l><r>senang<s n="vblex"/></r></p></e>
@@ -125,11 +129,13 @@
 		<e><p><l>bahagia<s n="adj"/></l><r>bahagia<s n="adj"/></r></p></e>
 		<e><p><l>baik<s n="adj"/></l><r>baik<s n="adj"/></r></p></e>
 		<e><p><l>besar<s n="adj"/></l><r>besar<s n="adj"/></r></p></e>
+		<e><p><l>buah<s n="adj"/></l><r>buah<s n="adj"/></r></p></e>
 		<e><p><l>cerah<s n="adj"/></l><r>cerah<s n="adj"/></r></p></e>
 		<e><p><l>cermat<s n="adj"/></l><r>cermat<s n="adj"/></r></p></e>
 		<e><p><l>cukup<s n="adj"/></l><r>cukup<s n="adj"/></r></p></e>
 		<e><p><l>dekat<s n="adj"/></l><r>dekat<s n="adj"/></r></p></e>
 		<e><p><l>dingin<s n="adj"/></l><r>dingin<s n="adj"/></r></p></e>
+		<e><p><l>ekor<s n="adj"/></l><r>ekor<s n="adj"/></r></p></e>
 		<e><p><l>hangat<s n="adj"/></l><r>hangat<s n="adj"/></r></p></e>
 		<e><p><l>indah<s n="adj"/></l><r>indah<s n="adj"/></r></p></e>
 		<e><p><l>jelas<s n="adj"/></l><r>jelas<s n="adj"/></r></p></e>
@@ -227,6 +233,7 @@
 		<e><p><l>dia<s n="prn"/></l><r>dia<s n="prn"/></r></p></e>
 		<e><p><l>ia<s n="prn"/></l><r>ia<s n="prn"/></r></p></e>
 		<e><p><l>kau<s n="prn"/></l><r>kau<s n="prn"/></r></p></e>
+		<e><p><l>ku<s n="prn"/></l><r>ku<s n="prn"/></r></p></e>
 		<e><p><l>mereka<s n="prn"/></l><r>mereka<s n="prn"/></r></p></e>
 
 		<!-- Number -->
