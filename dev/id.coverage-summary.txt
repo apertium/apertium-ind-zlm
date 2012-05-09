@@ -1,0 +1,15 @@
+Number of tokenised words in the corpus:  28371909
+Number of known words in the corpus:  8759938
+Coverage: 30.8 %
+Top unknown words in the corpus:
+138182 ^oleh/*oleh$
+136452 ^sebagai/*sebagai$
+113202 ^Indonesia/*Indonesia$
+96179 ^merupakan/*merupakan$
+84936 ^satu/*satu$
+64071 ^Pranala/*Pranala$
+58488 ^desa/*desa$
+55129 ^akan/*akan$
+54167 ^salah/*salah$
+53256 ^kecamatan/*kecamatan$
+Tokens needed to get 80 %: 13937589 . Corresponding wordlist in /tmp/corpus-stat-needed.txt

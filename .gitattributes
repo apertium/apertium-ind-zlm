@@ -12,6 +12,8 @@
 /autogen.sh -text
 /buscaPar.xsl -text
 /configure.ac -text
+dev/id.coverage-summary.txt -text
+dev/ms.coverage-summary.txt -text
 dev/story.id.txt -text
 dev/story.ms.txt -text
 /empty.t1x -text
