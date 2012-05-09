@@ -15,17 +15,17 @@ echo "" > $OUT;
 
 date >> $OUT
 $ECHOE  "===============================================" >> $OUT
-$ECHOE  "POS\tTotal\tClean\tWith @\tWith #\tClean %" >> $OUT
+$ECHOE  "POS	Total	Clean	With @	With #	Clean %" >> $OUT
 for i in $POS; do
-	#if [ "$i" = "det" ]; then
-		#TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<n>' -e '<np>' | grep -v REGEX | wc -l`; 
-		#AT=`cat $INC | grep "<$i>" | grep '@' | grep -v -e '<n>' -e '<np>'  | grep -v REGEX | wc -l`;
-		#HASH=`cat $INC | grep "<$i>" |  sed 's/~#/#/g' |grep '>  *#' | grep -v -e '<n>' -e '<np>' | grep -v REGEX |  wc -l`;
-	#elif [ "$i" = "preadv" ]; then
-		#TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<adj>' -e '<adv>' | grep -v REGEX | wc -l`; 
-		#AT=`cat $INC | grep "<$i>" | grep '@' | grep -v -e '<adj>' -e '<adv>'  | grep -v REGEX | wc -l`;
-		#HASH=`cat $INC | grep "<$i>" |  sed 's/~#/#/g' |grep '>  *#' | grep -v -e '<adj>' -e '<adv>' | grep -v REGEX |  wc -l`;
-	if [ "$i" = "adj" ]; then
+	if [ "$i" = "det" ]; then
+		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<n>' -e '<np>' | grep -v REGEX | wc -l`; 
+		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v -e '<n>' -e '<np>'  | grep -v REGEX | wc -l`;
+		HASH=`cat $INC | grep "<$i>" |  sed 's/~#/#/g' |grep '>  *#' | grep -v -e '<n>' -e '<np>' | grep -v REGEX |  wc -l`;
+	elif [ "$i" = "preadv" ]; then
+		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<adj>' -e '<adv>' | grep -v REGEX | wc -l`; 
+		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v -e '<adj>' -e '<adv>'  | grep -v REGEX | wc -l`;
+		HASH=`cat $INC | grep "<$i>" |  sed 's/~#/#/g' |grep '>  *#' | grep -v -e '<adj>' -e '<adv>' | grep -v REGEX |  wc -l`;
+	elif [ "$i" = "adj" ]; then
 		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<part>' -e '<qst>' -e '<cnj' -e '<v'  | grep -v REGEX | wc -l`; 
 		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v -e '<part>' -e '<qst>' -e '<cnj' -e '<v'  | grep -v REGEX | wc -l`;
 		HASH=`cat $INC | grep "<$i>" |  sed 's/~#/#/g' |grep '>  *#' | grep -v -e '<part>' -e '<qst>' -e '<cnj' -e '<v' | grep -v REGEX |  wc -l`;
