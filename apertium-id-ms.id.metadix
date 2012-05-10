@@ -44,21 +44,31 @@
     <sdef n="kan" />
     <sdef n="nya" />
     <sdef n="redup" />
+    <sdef n="sent" />
   </sdefs>
   <pardefs>
+    <pardef n="separa">
+    <e>
+      <re>[.\?;:!]</re>
+      <p>
+        <l></l>
+        <r><s n="sent"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="Yakobus__np">
     <e>
       <p>
-      <l></l>
-      <r><s n="np"/><s n="m"/><s n="sg"/></r>
+        <l></l>
+        <r><s n="np"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
     <pardef n="Maria__np">
     <e>
       <p>
-      <l></l>
-      <r><s n="np"/><s n="f"/><s n="sg"/></r>
+        <l></l>
+        <r><s n="np"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -422,6 +432,14 @@
       </p>
     </e>
     </pardef>
+    <pardef n="aduh__ij">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="ij"/></r>
+      </p>
+    </e>
+    </pardef>
   </pardefs>
   <section id="main" type="standard">
 <!-- Proper Nouns -->
@@ -750,5 +768,59 @@
     <e lm="dua"><p><l>berdua</l><r>dua</r></p><par n="berdua__num"/></e>
     <e lm="lima"><p><l>berlima</l><r>lima</r></p><par n="berdua__num"/></e>
     <e lm="enam"><p><l>berenam</l><r>enam</r></p><par n="berdua__num"/></e>
+<!-- Interjection -->
+    <e lm="aduh"><i>aduh</i><par n="aduh__ij"/></e>
+    <e lm="aduhai"><i>aduhai</i><par n="aduh__ij"/></e>
+    <e lm="ah"><i>ah</i><par n="aduh__ij"/></e>
+    <e lm="aho"><i>aho</i><par n="aduh__ij"/></e>
+    <e lm="ai"><i>ai</i><par n="aduh__ij"/></e>
+    <e lm="alamak"><i>alamak</i><par n="aduh__ij"/></e>
+    <e lm="alhamdulillah"><i>alhamdulillah</i><par n="aduh__ij"/></e>
+    <e lm="amboi"><i>amboi</i><par n="aduh__ij"/></e>
+    <e lm="astaga"><i>astaga</i><par n="aduh__ij"/></e>
+    <e lm="ayo"><i>ayo</i><par n="aduh__ij"/></e>
+    <e lm="cah"><i>cah</i><par n="aduh__ij"/></e>
+    <e lm="cih"><i>cih</i><par n="aduh__ij"/></e>
+    <e lm="cis"><i>cis</i><par n="aduh__ij"/></e>
+    <e lm="cuh"><i>cuh</i><par n="aduh__ij"/></e>
+    <e lm="duh"><i>duh</i><par n="aduh__ij"/></e>
+    <e lm="eh"><i>eh</i><par n="aduh__ij"/></e>
+    <e lm="emat"><i>emat</i><par n="aduh__ij"/></e>
+    <e lm="ha"><i>ha</i><par n="aduh__ij"/></e>
+    <e lm="hai"><i>hai</i><par n="aduh__ij"/></e>
+    <e lm="halo"><i>halo</i><par n="aduh__ij"/></e>
+    <e lm="hayo"><i>hayo</i><par n="aduh__ij"/></e>
+    <e lm="hem"><i>hem</i><par n="aduh__ij"/></e>
+    <e lm="his"><i>his</i><par n="aduh__ij"/></e>
+    <e lm="hoi"><i>hoi</i><par n="aduh__ij"/></e>
+    <e lm="horas"><i>horas</i><par n="aduh__ij"/></e>
+    <e lm="hore"><i>hore</i><par n="aduh__ij"/></e>
+    <e lm="huh"><i>huh</i><par n="aduh__ij"/></e>
+    <e lm="hus"><i>hus</i><par n="aduh__ij"/></e>
+    <e lm="kursemangat"><i>kursemangat</i><par n="aduh__ij"/></e>
+    <e lm="lho"><i>lho</i><par n="aduh__ij"/></e>
+    <e lm="lo"><i>lo</i><par n="aduh__ij"/></e>
+    <e lm="maaf"><i>maaf</i><par n="aduh__ij"/></e>
+    <e lm="nah"><i>nah</i><par n="aduh__ij"/></e>
+    <e lm="oh"><i>oh</i><par n="aduh__ij"/></e>
+    <e lm="oi"><i>oi</i><par n="aduh__ij"/></e>
+    <e lm="ong"><i>ong</i><par n="aduh__ij"/></e>
+    <e lm="puah"><i>puah</i><par n="aduh__ij"/></e>
+    <e lm="pus"><i>pus</i><par n="aduh__ij"/></e>
+    <e lm="sampai jumpa"><i>sampai<b/>jumpa</i><par n="aduh__ij"/></e>
+    <e lm="selamat datang"><i>selamat<b/>datang</i><par n="aduh__ij"/></e>
+    <e lm="selamat jalan"><i>selamat<b/>jalan</i><par n="aduh__ij"/></e>
+    <e lm="syabas"><i>syabas</i><par n="aduh__ij"/></e>
+    <e lm="terima kasih"><i>terima<b/>kasih</i><par n="aduh__ij"/></e>
+    <e lm="uh"><i>uh</i><par n="aduh__ij"/></e>
+    <e lm="waduh"><i>waduh</i><par n="aduh__ij"/></e>
+    <e lm="wah"><i>wah</i><par n="aduh__ij"/></e>
+    <e lm="wahai"><i>wahai</i><par n="aduh__ij"/></e>
+    <e lm="wai"><i>wai</i><par n="aduh__ij"/></e>
+    <e lm="walah"><i>walah</i><par n="aduh__ij"/></e>
+    <e lm="weh"><i>weh</i><par n="aduh__ij"/></e>
+  </section>
+  <section id="final" type="inconditional">
+    <e><par n="separa"/></e>
   </section>
 </dictionary>
