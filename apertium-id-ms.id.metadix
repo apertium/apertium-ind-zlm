@@ -2,49 +2,50 @@
 <dictionary>
   <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
   <sdefs>
-    <sdef n="n" />
-    <sdef n="np" />
-    <sdef n="sg" />
-    <sdef n="pl" />
-    <sdef n="f" />
-    <sdef n="m" />
-    <sdef n="mf" />
-    <sdef n="prn" />
-    <sdef n="subj" />
-    <sdef n="p1" />
-    <sdef n="p2" />
-    <sdef n="p3" />
-    <sdef n="vblex" />
-    <sdef n="num" />
-    <sdef n="card" />
-    <sdef n="ord" />
-    <sdef n="coll" />
-    <sdef n="cnjcoo" />
-    <sdef n="cnjsub" />
-    <sdef n="adj" />
-    <sdef n="sup" />
-    <sdef n="pst" />
-    <sdef n="adv" />
-    <sdef n="pr" />
-    <sdef n="mod" />
-    <sdef n="det" />
-    <sdef n="part" />
-    <sdef n="neg" />
-    <sdef n="ij" />
-    <sdef n="cop" />
-    <sdef n="qst" />
-    <sdef n="ber" />
-    <sdef n="per" />
-    <sdef n="ter" />
-    <sdef n="se" />
-    <sdef n="men" />
-    <sdef n="di" />
-    <sdef n="i" />
-    <sdef n="an" />
-    <sdef n="kan" />
-    <sdef n="nya" />
-    <sdef n="redup" />
-    <sdef n="sent" />
+    <sdef n="n"/>
+    <sdef n="np"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="f"/>
+    <sdef n="m"/>
+    <sdef n="mf"/>
+    <sdef n="prn"/>
+    <sdef n="subj"/>
+    <sdef n="p1"/>
+    <sdef n="p2"/>
+    <sdef n="p3"/>
+    <sdef n="vblex"/>
+    <sdef n="num"/>
+    <sdef n="card"/>
+    <sdef n="ord"/>
+    <sdef n="coll"/>
+    <sdef n="cnjcoo"/>
+    <sdef n="cnjsub"/>
+    <sdef n="cnjadv"/>
+    <sdef n="adj"/>
+    <sdef n="sup"/>
+    <sdef n="pst"/>
+    <sdef n="adv"/>
+    <sdef n="pr"/>
+    <sdef n="mod"/>
+    <sdef n="det"/>
+    <sdef n="part"/>
+    <sdef n="neg"/>
+    <sdef n="ij"/>
+    <sdef n="cop"/>
+    <sdef n="qst"/>
+    <sdef n="ber"/>
+    <sdef n="per"/>
+    <sdef n="ter"/>
+    <sdef n="se"/>
+    <sdef n="men"/>
+    <sdef n="di"/>
+    <sdef n="i"/>
+    <sdef n="an"/>
+    <sdef n="kan"/>
+    <sdef n="nya"/>
+    <sdef n="redup"/>
+    <sdef n="sent"/>
   </sdefs>
   <pardefs>
     <pardef n="separa">
@@ -384,6 +385,14 @@
       </p>
     </e>
     </pardef>
+    <pardef n="oleh karena itu__cnjadv">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="cnjadv"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="apa__qst">
     <e>
       <p>
@@ -716,22 +725,56 @@
     <!-- Coordinating conjunctions -->
     <e lm="atau"><i>atau</i><par n="dan__cnjcoo"/></e>
     <e lm="dan"><i>dan</i><par n="dan__cnjcoo"/></e>
+    <e lm="melainkan"><i>melainkan</i><par n="dan__cnjcoo"/></e>
     <e lm="namun"><i>namun</i><par n="dan__cnjcoo"/></e>
+    <e lm="padahal"><i>padahal</i><par n="dan__cnjcoo"/></e>
+    <e lm="sedangkan"><i>sedangkan</i><par n="dan__cnjcoo"/></e>
+    <e lm="serta"><i>serta</i><par n="dan__cnjcoo"/></e>
     <e lm="tapi"><i>tapi</i><par n="dan__cnjcoo"/></e>
     <e lm="tetapi"><i>tetapi</i><par n="dan__cnjcoo"/></e>
     <!-- Subordinating conjunctions -->
+    <e lm="agar"><i>agar</i><par n="jika__cnjsub"/></e>
+    <e lm="alhasil"><i>alhasil</i><par n="jika__cnjsub"/></e>
+    <e lm="apalagi"><i>apalagi</i><par n="jika__cnjsub"/></e>
+    <e lm="bahkan"><i>bahkan</i><par n="jika__cnjsub"/></e>
     <e lm="bahwa"><i>bahwa</i><par n="jika__cnjsub"/></e>
+    <e lm="bahwasanya"><i>bahwasanya</i><par n="jika__cnjsub"/></e>
+    <e lm="biar"><i>biar</i><par n="jika__cnjsub"/></e>
+    <e lm="bilamana"><i>bilamana</i><par n="jika__cnjsub"/></e>
+    <e lm="hubaya-hubaya"><i>hubaya-hubaya</i><par n="jika__cnjsub"/></e>
+    <e lm="ialah"><i>ialah</i><par n="jika__cnjsub"/></e>
     <e lm="jika"><i>jika</i><par n="jika__cnjsub"/></e>
-    <e lm="karena"><i>karena</i><par n="jika__cnjsub"/></e>
+    <e lm="jikalau"><i>jikalau</i><par n="jika__cnjsub"/></e>
     <e lm="kalau"><i>kalau</i><par n="jika__cnjsub"/></e>
-    <e lm="kemudian"><i>kemudian</i><par n="jika__cnjsub"/></e>
-    <e lm="ketika"><i>ketika</i><par n="jika__cnjsub"/></e>
+    <e lm="kalau-kalau"><i>kalau-kalau</i><par n="jika__cnjsub"/></e>
+    <e lm="kalaupun"><i>kalaupun</i><par n="jika__cnjsub"/></e>
+    <e lm="karena"><i>karena</i><par n="jika__cnjsub"/></e>
     <e lm="maka"><i>maka</i><par n="jika__cnjsub"/></e>
     <e lm="makanya"><i>makanya</i><par n="jika__cnjsub"/></e>
+    <e lm="manakala"><i>manakala</i><par n="jika__cnjsub"/></e>
     <e lm="meski"><i>meski</i><par n="jika__cnjsub"/></e>
     <e lm="meskipun"><i>meskipun</i><par n="jika__cnjsub"/></e>
-    <e lm="oleh karena itu"><i>oleh<b/>karena<b/>itu</i><par n="jika__cnjsub"/></e>
+    <e lm="nan"><i>nan</i><par n="jika__cnjsub"/></e>
     <e lm="saat"><i>saat</i><par n="jika__cnjsub"/></e>
+    <e lm="sanya"><i>sanya</i><par n="jika__cnjsub"/></e>
+    <e lm="sehabis"><i>sehabis</i><par n="jika__cnjsub"/></e>
+    <e lm="sehingga"><i>sehingga</i><par n="jika__cnjsub"/></e>
+    <e lm="sejak"><i>sejak</i><par n="jika__cnjsub"/></e>
+    <e lm="sekalipun"><i>sekalipun</i><par n="jika__cnjsub"/></e>
+    <e lm="sungguhpun"><i>sungguhpun</i><par n="jika__cnjsub"/></e>
+    <e lm="supaya"><i>supaya</i><par n="jika__cnjsub"/></e>
+    <e lm="supaya jangan"><i>supaya<b/>jangan</i><par n="jika__cnjsub"/></e>
+    <e lm="tatkala"><i>tatkala</i><par n="jika__cnjsub"/></e>
+    <e lm="waima"><i>waima</i><par n="jika__cnjsub"/></e>
+    <e lm="walakin"><i>walakin</i><par n="jika__cnjsub"/></e>
+    <e lm="walau"><i>walau</i><par n="jika__cnjsub"/></e>
+    <e lm="walaupun"><i>walaupun</i><par n="jika__cnjsub"/></e>
+    <e lm="yaitu"><i>yaitu</i><par n="jika__cnjsub"/></e>
+    <e lm="yakni"><i>yakni</i><par n="jika__cnjsub"/></e>
+    <e lm="yang"><i>yang</i><par n="jika__cnjsub"/></e>
+    <e lm="yang-yang"><i>yang-yang</i><par n="jika__cnjsub"/></e>
+    <!-- Conjunctive adverb -->
+    <e lm="oleh karena itu"><i>oleh<b/>karena<b/>itu</i><par n="oleh karena itu__cnjadv"/></e>
 <!-- Questions -->
     <e lm="apa"><i>apa</i><par n="apa__qst"/></e>
     <e lm="apakah"><i>apakah</i><par n="apa__qst"/></e>

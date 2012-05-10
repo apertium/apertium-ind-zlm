@@ -22,7 +22,5 @@ dev/testvoc-summary.id-ms.txt -text
 dev/testvoc.sh -text
 /empty.t1x -text
 /id-ms.prob -text svneol=unset#unset
-/main-id.foma -text
-/main-ms.foma -text
 /modes.xml -text
 /principal.xsl -text

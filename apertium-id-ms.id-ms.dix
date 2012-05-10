@@ -11,8 +11,9 @@
     <sdef n="num" c="Numeral"/>
     <sdef n="np" c="Proper noun"/>
     <sdef n="pr" c="Preposition"/>
-    <sdef n="cnjcoo" c="Co-ordinating Conjunction"/>
-    <sdef n="cnjsub" c="Sub-ordinating Conjunction"/>    
+    <sdef n="cnjcoo" c="Coordinating Conjunction"/>
+    <sdef n="cnjsub" c="Subordinating Conjunction"/>
+    <sdef n="cnjadv" c="Conjunctive adverb"/>
     <sdef n="part" c="Particle"/>
     <sdef n="mod" c="Modal"/>
     <sdef n="det" c="Determiner"/>
@@ -182,23 +183,58 @@
     <!-- Cnjcoo -->
     <e><p><l>atau<s n="cnjcoo"/></l><r>atau<s n="cnjcoo"/></r></p></e>
     <e><p><l>dan<s n="cnjcoo"/></l><r>dan<s n="cnjcoo"/></r></p></e>
-    <e><p><l>namun<s n="cnjcoo"/></l><r>namun<s n="cnjcoo"/></r></p></e>
+    <e><p><l>melainkan<s n="cnjcoo"/></l><r>namun<s n="cnjcoo"/></r></p></e>
+    <e><p><l>namun<s n="cnjcoo"/></l><r>melainkan<s n="cnjcoo"/></r></p></e>
+    <e><p><l>padahal<s n="cnjcoo"/></l><r>padahal<s n="cnjcoo"/></r></p></e>
+    <e><p><l>sedangkan<s n="cnjcoo"/></l><r>sedangkan<s n="cnjcoo"/></r></p></e>
+    <e><p><l>serta<s n="cnjcoo"/></l><r>serta<s n="cnjcoo"/></r></p></e>
     <e><p><l>tapi<s n="cnjcoo"/></l><r>tapi<s n="cnjcoo"/></r></p></e>
     <e><p><l>tetapi<s n="cnjcoo"/></l><r>tetapi<s n="cnjcoo"/></r></p></e>
 
     <!-- Cnjsub -->
+    <e><p><l>agar<s n="cnjsub"/></l><r>agar<s n="cnjsub"/></r></p></e>
+    <e><p><l>alhasil<s n="cnjsub"/></l><r>alhasil<s n="cnjsub"/></r></p></e>
+    <e><p><l>apalagi<s n="cnjsub"/></l><r>apalagi<s n="cnjsub"/></r></p></e>
+    <e><p><l>bahkan<s n="cnjsub"/></l><r>bahkan<s n="cnjsub"/></r></p></e>
     <e><p><l>bahwa<s n="cnjsub"/></l><r>bahawa<s n="cnjsub"/></r></p></e>
+    <e><p><l>bahwasanya<s n="cnjsub"/></l><r>bahawasanya<s n="cnjsub"/></r></p></e>
+    <e><p><l>biar<s n="cnjsub"/></l><r>biar<s n="cnjsub"/></r></p></e>
+    <e><p><l>bilamana<s n="cnjsub"/></l><r>bilamana<s n="cnjsub"/></r></p></e>
+    <e><p><l>hubaya-hubaya<s n="cnjsub"/></l><r>hubaya-hubaya<s n="cnjsub"/></r></p></e>
+    <e><p><l>ialah<s n="cnjsub"/></l><r>ialah<s n="cnjsub"/></r></p></e>
     <e><p><l>jika<s n="cnjsub"/></l><r>jika<s n="cnjsub"/></r></p></e>
-    <e><p><l>karena<s n="cnjsub"/></l><r>kerana<s n="cnjsub"/></r></p></e>
+    <e><p><l>jikalau<s n="cnjsub"/></l><r>jikalau<s n="cnjsub"/></r></p></e>
     <e><p><l>kalau<s n="cnjsub"/></l><r>kalau<s n="cnjsub"/></r></p></e>
-    <e><p><l>kemudian<s n="cnjsub"/></l><r>kemudian<s n="cnjsub"/></r></p></e>
-    <e><p><l>ketika<s n="cnjsub"/></l><r>ketika<s n="cnjsub"/></r></p></e>
+    <e><p><l>kalau-kalau<s n="cnjsub"/></l><r>kalau-kalau<s n="cnjsub"/></r></p></e>
+    <e><p><l>kalaupun<s n="cnjsub"/></l><r>kalaupun<s n="cnjsub"/></r></p></e>
+    <e><p><l>karena<s n="cnjsub"/></l><r>kerana<s n="cnjsub"/></r></p></e>
     <e><p><l>maka<s n="cnjsub"/></l><r>maka<s n="cnjsub"/></r></p></e>
     <e><p><l>makanya<s n="cnjsub"/></l><r>makanya<s n="cnjsub"/></r></p></e>
+    <e><p><l>manakala<s n="cnjsub"/></l><r>manakala<s n="cnjsub"/></r></p></e>
     <e><p><l>meski<s n="cnjsub"/></l><r>meski<s n="cnjsub"/></r></p></e>
     <e><p><l>meskipun<s n="cnjsub"/></l><r>meskipun<s n="cnjsub"/></r></p></e>
-    <e><p><l>oleh<b/>karena<b/>itu<s n="cnjsub"/></l><r>oleh<b/>itu<s n="cnjsub"/></r></p></e>
+    <e><p><l>nan<s n="cnjsub"/></l><r>nan<s n="cnjsub"/></r></p></e>
     <e><p><l>saat<s n="cnjsub"/></l><r>saat<s n="cnjsub"/></r></p></e>
+    <e><p><l>sanya<s n="cnjsub"/></l><r>sanya<s n="cnjsub"/></r></p></e>
+    <e><p><l>sehabis<s n="cnjsub"/></l><r>sehabis<s n="cnjsub"/></r></p></e>
+    <e><p><l>sehingga<s n="cnjsub"/></l><r>sehingga<s n="cnjsub"/></r></p></e>
+    <e><p><l>sejak<s n="cnjsub"/></l><r>sejak<s n="cnjsub"/></r></p></e>
+    <e><p><l>sekalipun<s n="cnjsub"/></l><r>sekalipun<s n="cnjsub"/></r></p></e>
+    <e><p><l>sungguhpun<s n="cnjsub"/></l><r>sungguhpun<s n="cnjsub"/></r></p></e>
+    <e><p><l>supaya<s n="cnjsub"/></l><r>supaya<s n="cnjsub"/></r></p></e>
+    <e><p><l>supaya<b/>jangan<s n="cnjsub"/></l><r>supaya<b/>jangan<s n="cnjsub"/></r></p></e>
+    <e><p><l>tatkala<s n="cnjsub"/></l><r>tatkala<s n="cnjsub"/></r></p></e>
+    <e><p><l>waima<s n="cnjsub"/></l><r>waima<s n="cnjsub"/></r></p></e>
+    <e><p><l>walakin<s n="cnjsub"/></l><r>walakin<s n="cnjsub"/></r></p></e>
+    <e><p><l>walau<s n="cnjsub"/></l><r>walau<s n="cnjsub"/></r></p></e>
+    <e><p><l>walaupun<s n="cnjsub"/></l><r>walaupun<s n="cnjsub"/></r></p></e>
+    <e><p><l>yaitu<s n="cnjsub"/></l><r>iaitu<s n="cnjsub"/></r></p></e>
+    <e><p><l>yakni<s n="cnjsub"/></l><r>yakni<s n="cnjsub"/></r></p></e>
+    <e><p><l>yang<s n="cnjsub"/></l><r>yang<s n="cnjsub"/></r></p></e>
+    <e><p><l>yang-yang<s n="cnjsub"/></l><r>yang-yang<s n="cnjsub"/></r></p></e>
+    
+    <!-- Cnjadv -->
+    <e><p><l>oleh<b/>karena<b/>itu<s n="cnjadv"/></l><r>oleh<b/>itu<s n="cnjadv"/></r></p></e>
     
     <!-- Qst -->
     <e><p><l>apa<s n="qst"/></l><r>apa<s n="qst"/></r></p></e>

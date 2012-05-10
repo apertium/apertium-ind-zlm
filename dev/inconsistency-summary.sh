@@ -1,6 +1,6 @@
 INC=$1
 OUT=testvoc-summary.$2.txt
-POS="adj adv cm cnjcoo det guio ij n np num pr prn vblex vaux cnjsub"
+POS="adj adv cnjcoo det ij n np num pr prn vblex vaux cnjsub"
 
 ECHOE="echo -e"
 SED=sed
