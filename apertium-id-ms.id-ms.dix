@@ -183,8 +183,8 @@
     <!-- Cnjcoo -->
     <e><p><l>atau<s n="cnjcoo"/></l><r>atau<s n="cnjcoo"/></r></p></e>
     <e><p><l>dan<s n="cnjcoo"/></l><r>dan<s n="cnjcoo"/></r></p></e>
-    <e><p><l>melainkan<s n="cnjcoo"/></l><r>namun<s n="cnjcoo"/></r></p></e>
-    <e><p><l>namun<s n="cnjcoo"/></l><r>melainkan<s n="cnjcoo"/></r></p></e>
+    <e><p><l>melainkan<s n="cnjcoo"/></l><r>melainkan<s n="cnjcoo"/></r></p></e>
+    <e><p><l>namun<s n="cnjcoo"/></l><r>namun<s n="cnjcoo"/></r></p></e>
     <e><p><l>padahal<s n="cnjcoo"/></l><r>padahal<s n="cnjcoo"/></r></p></e>
     <e><p><l>sedangkan<s n="cnjcoo"/></l><r>sedangkan<s n="cnjcoo"/></r></p></e>
     <e><p><l>serta<s n="cnjcoo"/></l><r>serta<s n="cnjcoo"/></r></p></e>
@@ -192,7 +192,7 @@
     <e><p><l>tetapi<s n="cnjcoo"/></l><r>tetapi<s n="cnjcoo"/></r></p></e>
 
     <!-- Cnjsub -->
-    <e><p><l>agar<s n="cnjsub"/></l><r>agar<s n="cnjsub"/></r></p></e>
+        <e><p><l>agar<s n="cnjsub"/></l><r>agar<s n="cnjsub"/></r></p></e>
     <e><p><l>alhasil<s n="cnjsub"/></l><r>alhasil<s n="cnjsub"/></r></p></e>
     <e><p><l>apalagi<s n="cnjsub"/></l><r>apalagi<s n="cnjsub"/></r></p></e>
     <e><p><l>bahkan<s n="cnjsub"/></l><r>bahkan<s n="cnjsub"/></r></p></e>
@@ -208,6 +208,9 @@
     <e><p><l>kalau-kalau<s n="cnjsub"/></l><r>kalau-kalau<s n="cnjsub"/></r></p></e>
     <e><p><l>kalaupun<s n="cnjsub"/></l><r>kalaupun<s n="cnjsub"/></r></p></e>
     <e><p><l>karena<s n="cnjsub"/></l><r>kerana<s n="cnjsub"/></r></p></e>
+    <e><p><l>kemudian<s n="cnjsub"/></l><r>kemudian<s n="cnjsub"/></r></p></e>
+    <e><p><l>ketika<s n="cnjsub"/></l><r>ketika<s n="cnjsub"/></r></p></e>
+    <e><p><l>lalu<s n="cnjsub"/></l><r>lalu<s n="cnjsub"/></r></p></e>
     <e><p><l>maka<s n="cnjsub"/></l><r>maka<s n="cnjsub"/></r></p></e>
     <e><p><l>makanya<s n="cnjsub"/></l><r>makanya<s n="cnjsub"/></r></p></e>
     <e><p><l>manakala<s n="cnjsub"/></l><r>manakala<s n="cnjsub"/></r></p></e>
@@ -232,7 +235,7 @@
     <e><p><l>yakni<s n="cnjsub"/></l><r>yakni<s n="cnjsub"/></r></p></e>
     <e><p><l>yang<s n="cnjsub"/></l><r>yang<s n="cnjsub"/></r></p></e>
     <e><p><l>yang-yang<s n="cnjsub"/></l><r>yang-yang<s n="cnjsub"/></r></p></e>
-    
+
     <!-- Cnjadv -->
     <e><p><l>oleh<b/>karena<b/>itu<s n="cnjadv"/></l><r>oleh<b/>itu<s n="cnjadv"/></r></p></e>
     
@@ -280,9 +283,7 @@
     <e><p><l>enam<s n="num"/></l><r>enam<s n="num"/></r></p></e>
     
     <!-- Particle -->
-    <e><p><l>nah<s n="part"/></l><r>nah<s n="part"/></r></p></e>
     <e><p><l>si<s n="part"/></l><r>si<s n="part"/></r></p></e>
-    <e><p><l>yang<s n="part"/></l><r>yang<s n="part"/></r></p></e>
     
     <!-- Interjection -->
     <e><p><l>aduh<s n="ij"/></l><r>aduh<s n="ij"/></r></p></e>

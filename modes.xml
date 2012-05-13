@@ -48,6 +48,7 @@
       <program name="apertium-tagger -g $2">
         <file name="id-ms.prob"/>
       </program>
+	  <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
         <file name="apertium-id-ms.id-ms.t1x"/>
         <file name="id-ms.t1x.bin"/>

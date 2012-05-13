@@ -43,8 +43,7 @@
     <sdef n="i"/>
     <sdef n="an"/>
     <sdef n="kan"/>
-    <sdef n="nya"/>
-    <sdef n="redup"/>
+    <sdef n="enc"/>
     <sdef n="sent"/>
   </sdefs>
   <pardefs>
@@ -85,7 +84,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        <r><s n="prn"/><s n="subj"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -93,7 +92,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        <r><s n="prn"/><s n="subj"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -101,7 +100,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        <r><s n="prn"/><s n="subj"/><s n="p2"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -109,7 +108,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        <r><s n="prn"/><s n="subj"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -117,7 +116,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+        <r><s n="prn"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -125,7 +124,15 @@
     <e>
       <p>
         <l></l>
-        <r><s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        <r><s n="prn"/><s n="subj"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="nya__prn">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -147,7 +154,7 @@
     <e>
       <p>
         <l>nya</l>
-        <r><s n="n"/><s n="sg"/><s n="nya"/></r>
+        <r><s n="n"/><s n="sg"/><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -161,7 +168,7 @@
     <e>
       <p>
         <l>nya</l>
-        <r><s n="n"/><s n="sg"/><s n="nya"/></r>
+        <r><s n="n"/><s n="sg"/><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     <e>
@@ -181,7 +188,7 @@
     <e>
       <p>
         <l>annya</l>
-        <r><s n="an"/><s n="nya"/></r>
+        <r><s n="an"/><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -209,7 +216,7 @@
     <e>
       <p>
         <l>nya</l>
-        <r><s n="vblex"/><s n="nya"/></r>
+        <r><s n="vblex"/><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -223,7 +230,7 @@
     <e>
       <p>
         <l>nya</l>
-        <r><s n="nya"/></r>
+        <r><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     <e>
@@ -235,7 +242,7 @@
     <e>
       <p>
         <l>inya</l>
-        <r><s n="i"/><s n="nya"/></r>
+        <r><s n="i"/><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     <e>
@@ -247,7 +254,7 @@
     <e>
       <p>
         <l>kannya</l>
-        <r><s n="kan"/><s n="nya"/></r>
+        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -261,7 +268,7 @@
     <e>
       <p>
         <l>nya</l>
-        <r><s n="nya"/></r>
+        <r><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     <e>
@@ -273,7 +280,7 @@
     <e>
       <p>
         <l>kannya</l>
-        <r><s n="kan"/><s n="nya"/></r>
+        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -287,7 +294,7 @@
     <e>
       <p>
         <l>inya</l>
-        <r><s n="i"/><s n="nya"/></r>
+        <r><s n="i"/><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     <e>
@@ -299,7 +306,7 @@
     <e>
       <p>
         <l>kannya</l>
-        <r><s n="kan"/><s n="nya"/></r>
+        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -313,7 +320,7 @@
     <e>
       <p>
         <l>inya</l>
-        <r><s n="i"/><s n="nya"/></r>
+        <r><s n="i"/><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -327,7 +334,7 @@
     <e>
       <p>
         <l>kannya</l>
-        <r><s n="kan"/><s n="nya"/></r>
+        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -341,7 +348,7 @@
     <e>
       <p>
         <l>kannya</l>
-        <r><s n="kan"/><s n="nya"/></r>
+        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -409,7 +416,7 @@
       </p>
     </e>
     </pardef>
-    <pardef n="yang__part">
+    <pardef n="si__part">
     <e>
       <p>
         <l></l>
@@ -476,6 +483,8 @@
     <e lm="dia"><i>dia</i><par n="dia__prn"/></e>
     <e lm="ia"><i>ia</i><par n="dia__prn"/></e>
     <e lm="mereka"><i>mereka</i><par n="mereka__prn"/></e>
+    <!-- Enclitic -->
+	<e lm="dia"><p><l>nya</l><r>dia</r></p><par n="nya__prn"/></e>	
 <!-- Nouns -->
     <!-- simple nouns -->
     <e lm="air"><i>air</i><par n="anak/__n"/></e>
@@ -669,7 +678,7 @@
     <e lm="usia"><p><l>berusia</l><r>usia<s n="vblex"/><s n="ber"/></r></p></e>
     <!-- prefix ter- -->
     <e lm="gesa"><p><l>tergesa</l><r>gesa<s n="vblex"/><s n="ter"/></r></p></e>
-    <e lm="gesa"><p><l>tergesa-gesa</l><r>gesa<s n="vblex"/><s n="ter"/><s n="redup"/></r></p></e>
+    <e lm="gesa"><p><l>tergesa-gesa</l><r>gesa<s n="vblex"/><s n="ter"/><s n="pl"/></r></p></e>
     <e lm="sebut"><p><l>tersebut</l><r>sebut<s n="vblex"/><s n="ter"/></r></p></e>
     <e lm="tawa"><p><l>tertawa</l><r>tawa<s n="vblex"/><s n="ter"/></r></p></e>
     <e lm="tidur"><p><l>tertidur</l><r>tidur<s n="vblex"/><s n="ter"/></r></p></e>
@@ -747,7 +756,10 @@
     <e lm="kalau"><i>kalau</i><par n="jika__cnjsub"/></e>
     <e lm="kalau-kalau"><i>kalau-kalau</i><par n="jika__cnjsub"/></e>
     <e lm="kalaupun"><i>kalaupun</i><par n="jika__cnjsub"/></e>
+    <e lm="kemudian"><i>kemudian</i><par n="jika__cnjsub"/></e>
     <e lm="kerana"><i>kerana</i><par n="jika__cnjsub"/></e>
+    <e lm="ketika"><i>ketika</i><par n="jika__cnjsub"/></e>
+    <e lm="lalu"><i>lalu</i><par n="jika__cnjsub"/></e>
     <e lm="maka"><i>maka</i><par n="jika__cnjsub"/></e>
     <e lm="makanya"><i>makanya</i><par n="jika__cnjsub"/></e>
     <e lm="manakala"><i>manakala</i><par n="jika__cnjsub"/></e>
@@ -794,9 +806,7 @@
     <e lm="pada"><i>pada</i><par n="dari__pr"/></e>
     <e lm="untuk"><i>untuk</i><par n="dari__pr"/></e>
 <!-- Particles -->
-    <e lm="nah"><i>nah</i><par n="yang__part"/></e>
-    <e lm="si"><i>si</i><par n="yang__part"/></e>
-    <e lm="yang"><i>yang</i><par n="yang__part"/></e>
+    <e lm="si"><i>si</i><par n="si__part"/></e>
 <!-- Numerals -->
     <!-- ordinal -->
     <e lm="dua"><i>dua</i><par n="dua__num"/></e>
