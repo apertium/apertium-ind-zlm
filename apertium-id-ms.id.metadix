@@ -912,24 +912,35 @@
 <!-- Conjunctions -->
     <!-- Coordinating conjunctions -->
     <e lm="atau"><i>atau</i><par n="dan__cnjcoo"/></e>
+    <e lm="akan tetapi"><i>akan<b/>tetapi</i><par n="dan__cnjcoo"/></e>
     <e lm="dan"><i>dan</i><par n="dan__cnjcoo"/></e>
+    <e lm="kemudian"><i>kemudian</i><par n="dan__cnjcoo"/></e>
+    <e lm="lalu"><i>lalu</i><par n="dan__cnjcoo"/></e>
     <e lm="melainkan"><i>melainkan</i><par n="dan__cnjcoo"/></e>
     <e lm="namun"><i>namun</i><par n="dan__cnjcoo"/></e>
-    <e lm="padahal"><i>padahal</i><par n="dan__cnjcoo"/></e>
+    <e lm="sambil"><i>sambil</i><par n="dan__cnjcoo"/></e>
     <e lm="sedangkan"><i>sedangkan</i><par n="dan__cnjcoo"/></e>
+    <e lm="sementara"><i>sementara</i><par n="dan__cnjcoo"/></e>
     <e lm="serta"><i>serta</i><par n="dan__cnjcoo"/></e>
     <e lm="tapi"><i>tapi</i><par n="dan__cnjcoo"/></e>
     <e lm="tetapi"><i>tetapi</i><par n="dan__cnjcoo"/></e>
     <!-- Subordinating conjunctions -->
     <e lm="agar"><i>agar</i><par n="jika__cnjsub"/></e>
     <e lm="alhasil"><i>alhasil</i><par n="jika__cnjsub"/></e>
+    <e lm="andaikata"><i>andaikata</i><par n="jika__cnjsub"/></e>
+    <e lm="apabila"><i>apabila</i><par n="jika__cnjsub"/></e>
     <e lm="apalagi"><i>apalagi</i><par n="jika__cnjsub"/></e>
+    <e lm="asal"><i>asal</i><par n="jika__cnjsub"/></e>
+    <e lm="asalkan"><i>asalkan</i><par n="jika__cnjsub"/></e>
     <e lm="bahkan"><i>bahkan</i><par n="jika__cnjsub"/></e>
     <e lm="bahwa"><i>bahwa</i><par n="jika__cnjsub"/></e>
     <e lm="bahwasanya"><i>bahwasanya</i><par n="jika__cnjsub"/></e>
     <e lm="biar"><i>biar</i><par n="jika__cnjsub"/></e>
+    <e lm="biarpun"><i>biarpun</i><par n="jika__cnjsub"/></e>
+    <e lm="bila"><i>bila</i><par n="jika__cnjsub"/></e>
     <e lm="bilamana"><i>bilamana</i><par n="jika__cnjsub"/></e>
-    <e lm="hubaya-hubaya"><i>hubaya-hubaya</i><par n="jika__cnjsub"/></e>
+    <e lm="dengan"><i>dengan</i><par n="jika__cnjsub"/></e>
+    <e lm="hingga"><i>hingga</i><par n="jika__cnjsub"/></e>
     <e lm="ialah"><i>ialah</i><par n="jika__cnjsub"/></e>
     <e lm="jika"><i>jika</i><par n="jika__cnjsub"/></e>
     <e lm="jikalau"><i>jikalau</i><par n="jika__cnjsub"/></e>
@@ -937,35 +948,43 @@
     <e lm="kalau-kalau"><i>kalau-kalau</i><par n="jika__cnjsub"/></e>
     <e lm="kalaupun"><i>kalaupun</i><par n="jika__cnjsub"/></e>
     <e lm="karena"><i>karena</i><par n="jika__cnjsub"/></e>
-    <e lm="kemudian"><i>kemudian</i><par n="jika__cnjsub"/></e>
+    <e lm="kendati"><i>kendati</i><par n="jika__cnjsub"/></e>
+    <e lm="kendatipun"><i>kendatipun</i><par n="jika__cnjsub"/></e>
     <e lm="ketika"><i>ketika</i><par n="jika__cnjsub"/></e>
-    <e lm="lalu"><i>lalu</i><par n="jika__cnjsub"/></e>
+    <e lm="lantaran"><i>lantaran</i><par n="jika__cnjsub"/></e>
     <e lm="maka"><i>maka</i><par n="jika__cnjsub"/></e>
     <e lm="makanya"><i>makanya</i><par n="jika__cnjsub"/></e>
     <e lm="manakala"><i>manakala</i><par n="jika__cnjsub"/></e>
     <e lm="meski"><i>meski</i><par n="jika__cnjsub"/></e>
     <e lm="meskipun"><i>meskipun</i><par n="jika__cnjsub"/></e>
-    <e lm="nan"><i>nan</i><par n="jika__cnjsub"/></e>
-    <e lm="oleh"><i>oleh</i><par n="jika__cnjsub"/></e>
-    <e lm="oleh karena itu"><i>oleh<b/>karena<b/>itu</i><par n="jika__cnjsub"/></e>
+    <e lm="oleh karena"><i>oleh<b/>karena</i><par n="jika__cnjsub"/></e>
+    <e lm="oleh sebab"><i>oleh<b/>sebab</i><par n="jika__cnjsub"/></e>
+    <e lm="padahal"><i>padahal</i><par n="jika__cnjsub"/></e>
     <e lm="saat"><i>saat</i><par n="jika__cnjsub"/></e>
-    <e lm="sanya"><i>sanya</i><par n="jika__cnjsub"/></e>
+    <e lm="sampai"><i>sampai</i><par n="jika__cnjsub"/></e>
+    <e lm="seakan-akan"><i>seakan-akan</i><par n="jika__cnjsub"/></e>    
+    <e lm="seandainya"><i>seandainya</i><par n="jika__cnjsub"/></e>    
+    <e lm="sebelum"><i>sebelum</i><par n="jika__cnjsub"/></e>
     <e lm="sehabis"><i>sehabis</i><par n="jika__cnjsub"/></e>
     <e lm="sehingga"><i>sehingga</i><par n="jika__cnjsub"/></e>
     <e lm="sejak"><i>sejak</i><par n="jika__cnjsub"/></e>
     <e lm="sekalipun"><i>sekalipun</i><par n="jika__cnjsub"/></e>
+    <e lm="sekiranya"><i>sekiranya</i><par n="jika__cnjsub"/></e>
+    <e lm="seolah-olah"><i>seolah-olah</i><par n="jika__cnjsub"/></e>
+    <e lm="sesudah"><i>sesudah</i><par n="jika__cnjsub"/></e>
+    <e lm="setelah"><i>setelah</i><par n="jika__cnjsub"/></e>
     <e lm="sungguhpun"><i>sungguhpun</i><par n="jika__cnjsub"/></e>
     <e lm="supaya"><i>supaya</i><par n="jika__cnjsub"/></e>
     <e lm="supaya jangan"><i>supaya<b/>jangan</i><par n="jika__cnjsub"/></e>
+    <e lm="tanpa"><i>tanpa</i><par n="jika__cnjsub"/></e>
     <e lm="tatkala"><i>tatkala</i><par n="jika__cnjsub"/></e>
-    <e lm="waima"><i>waima</i><par n="jika__cnjsub"/></e>
-    <e lm="walakin"><i>walakin</i><par n="jika__cnjsub"/></e>
+    <e lm="untuk"><i>untuk</i><par n="jika__cnjsub"/></e>
+    <e lm="waktu"><i>waktu</i><par n="jika__cnjsub"/></e>
     <e lm="walau"><i>walau</i><par n="jika__cnjsub"/></e>
     <e lm="walaupun"><i>walaupun</i><par n="jika__cnjsub"/></e>
     <e lm="yaitu"><i>yaitu</i><par n="jika__cnjsub"/></e>
     <e lm="yakni"><i>yakni</i><par n="jika__cnjsub"/></e>
     <e lm="yang"><i>yang</i><par n="jika__cnjsub"/></e>
-    <e lm="yang-yang"><i>yang-yang</i><par n="jika__cnjsub"/></e>
 <!-- Questions -->
     <e lm="apa"><i>apa</i><par n="apa/__prn" prm="apa"/></e>
     <e lm="siapa"><i>siapa</i><par n="apa/__prn" prm="siapa"/></e>
@@ -983,19 +1002,31 @@
     <e lm="kenapa"><i>kenapa</i><par n="mengapa/__adv"/></e>
 <!-- Prepositions -->
     <e lm="adapun"><i>adapun</i><par n="dari__pr"/></e>
+    <e lm="antara"><i>antara</i><par n="dari__pr"/></e>
     <e lm="bagaikan"><i>bagaikan</i><par n="dari__pr"/></e>
     <e lm="bagi"><i>bagi</i><par n="dari__pr"/></e>
     <e lm="bahagi"><i>bahagi</i><par n="dari__pr"/></e>
-    <e lm="bagi"><i>bagi</i><par n="dari__pr"/></e>
+    <e lm="dalam"><i>dalam</i><par n="dari__pr"/></e>
     <e lm="dari"><i>dari</i><par n="dari__pr"/></e>
     <e lm="daripada"><i>daripada</i><par n="dari__pr"/></e>
     <e lm="demi"><i>demi</i><par n="dari__pr"/></e>
     <e lm="dengan"><i>dengan</i><par n="dari__pr"/></e>
     <e lm="di"><i>di</i><par n="dari__pr"/></e>
+    <e lm="karena"><i>karena</i><par n="dari__pr"/></e>
     <e lm="ke"><i>ke</i><par n="dari__pr"/></e>
     <e lm="kepada"><i>kepada</i><par n="dari__pr"/></e>
+    <e lm="oleh"><i>oleh</i><par n="dari__pr"/></e>
+    <e lm="oleh karena"><i>oleh<b/>karena</i><par n="dari__pr"/></e>
     <e lm="pada"><i>pada</i><par n="dari__pr"/></e>
+    <e lm="sampai"><i>sampai</i><par n="dari__pr"/></e>
+    <e lm="sebab"><i>sebab</i><par n="dari__pr"/></e>
     <e lm="sebagai"><i>sebagai</i><par n="dari__pr"/></e>
+    <e lm="sebelum"><i>sebelum</i><par n="dari__pr"/></e>
+    <e lm="sehabis"><i>sesudah</i><par n="dari__pr"/></e>
+    <e lm="selama"><i>selama</i><par n="dari__pr"/></e>
+    <e lm="seperti"><i>seperti</i><par n="dari__pr"/></e>
+    <e lm="sesudah"><i>sesudah</i><par n="dari__pr"/></e>
+    <e lm="tanpa"><i>tanpa</i><par n="dari__pr"/></e>
     <e lm="tentang"><i>tentang</i><par n="dari__pr"/></e>
     <e lm="terhadap"><i>terhadap</i><par n="dari__pr"/></e>
     <e lm="untuk"><i>untuk</i><par n="dari__pr"/></e>
@@ -1017,6 +1048,53 @@
     <e lm="seratus"><i>seratus</i><par n="dua__num"/></e>
     <e lm="seribu"><i>seribu</i><par n="dua__num"/></e>
     <e lm="sejuta"><i>sejuta</i><par n="dua__num"/></e>
+    <e lm="separuh"><i>separuh</i><par n="dua__num"/></e>
+    <e lm="setengah"><i>setengah</i><par n="dua__num"/></e>
+    <e lm="sepertiga"><i>sepertiga</i><par n="dua__num"/></e>
+    <e lm="seperempat"><i>seperempat</i><par n="dua__num"/></e>
+    <e lm="seperlima"><i>seperlima</i><par n="dua__num"/></e>
+    <e lm="seperenam"><i>seperenam</i><par n="dua__num"/></e>
+    <e lm="sepertujuh"><i>sepertujuh</i><par n="dua__num"/></e>
+    <e lm="seperdelapan"><i>seperdelapan</i><par n="dua__num"/></e>
+    <e lm="sepersembilan"><i>sepersembilan</i><par n="dua__num"/></e>
+    <e lm="sepersepuluh"><i>sepersepuluh</i><par n="dua__num"/></e>
+    <e lm="perdua"><i>perdua</i><par n="dua__num"/></e>
+    <e lm="pertiga"><i>pertiga</i><par n="dua__num"/></e>
+    <e lm="perempat"><i>perempat</i><par n="dua__num"/></e>
+    <e lm="perlima"><i>perlima</i><par n="dua__num"/></e>
+    <e lm="perenam"><i>perenam</i><par n="dua__num"/></e>
+    <e lm="pertujuh"><i>pertujuh</i><par n="dua__num"/></e>
+    <e lm="perdelapan"><i>perdelapan</i><par n="dua__num"/></e>
+    <e lm="persembilan"><i>persembilan</i><par n="dua__num"/></e>
+    <e lm="persepuluh"><i>persepuluh</i><par n="dua__num"/></e>
+    <e lm="puluh"><i>puluh</i><par n="dua__num"/></e>
+    <e lm="belas"><i>belas</i><par n="dua__num"/></e>
+    <e lm="ratus"><i>ratus</i><par n="dua__num"/></e>
+    <e lm="ribu"><i>ribu</i><par n="dua__num"/></e>
+    <e lm="juta"><i>juta</i><par n="dua__num"/></e>
+    <e lm="milyar"><i>milyar</i><par n="dua__num"/></e>
+    <e lm="semua"><i>semua</i><par n="dua__num"/></e>
+    <e lm="segala"><i>segala</i><par n="dua__num"/></e>
+    <e lm="seluruh"><i>seluruh</i><par n="dua__num"/></e>
+    <e lm="segenap"><i>segenap</i><par n="dua__num"/></e>
+    <e lm="seantero"><i>seantero</i><par n="dua__num"/></e>
+    <e lm="sebagian"><i>sebagian</i><par n="dua__num"/></e>
+    <e lm="tiap"><i>tiap</i><par n="dua__num"/></e>
+    <e lm="tiap-tiap"><i>tiap-tiap</i><par n="dua__num"/></e>
+    <e lm="setiap"><i>setiap</i><par n="dua__num"/></e>
+    <e lm="banyak"><i>banyak</i><par n="dua__num"/></e>
+    <e lm="beberapa"><i>beberapa</i><par n="dua__num"/></e>
+    <e lm="sedikit"><i>sedikit</i><par n="dua__num"/></e>
+    <e lm="bermacam-macam"><i>bermacam-macam</i><par n="dua__num"/></e>
+    <e lm="berbagai"><i>berbagai</i><par n="dua__num"/></e>
+    <e lm="pelbagai"><i>pelbagai</i><par n="dua__num"/></e>
+    <e lm="sejumlah"><i>sejumlah</i><par n="dua__num"/></e>
+    <e lm="kebanyakan"><i>kebanyakan</i><par n="dua__num"/></e>
+    <e lm="salah satu"><i>salah<b/>satu</i><par n="dua__num"/></e>
+    <e lm="salah seorang"><i>salah<b/>seorang</i><par n="dua__num"/></e>
+    <e lm="masing-masing"><i>masing-masing</i><par n="dua__num"/></e>
+    <e lm="aneka"><i>aneka</i><par n="dua__num"/></e>
+    <e lm="sembarang"><i>sembarang</i><par n="dua__num"/></e>
     <!-- ordinal -->
     <e lm="pertama"><i>pertama</i><par n="kedua__num"/></e>
     <e lm="satu"><p><l>kesatu</l><r>satu</r></p><par n="kedua__num"/></e>
@@ -1029,7 +1107,6 @@
     <e lm="delapan"><p><l>kedelapan</l><r>delapan</r></p><par n="kedua__num"/></e>
     <e lm="sembilan"><p><l>kesembilan</l><r>sembilan</r></p><par n="kedua__num"/></e>
     <e lm="sepuluh"><p><l>kesepuluh</l><r>sepuluh</r></p><par n="kedua__num"/></e>
-    <e lm="sebelas"><p><l>kesebelas</l><r>sebelas</r></p><par n="kedua__num"/></e>
     <!-- collective -->
     <e lm="dua"><p><l>berdua</l><r>dua</r></p><par n="berdua__num"/></e>
     <e lm="tiga"><p><l>bertiga</l><r>tiga</r></p><par n="berdua__num"/></e>
@@ -1040,103 +1117,34 @@
     <e lm="delapan"><p><l>berdelapan</l><r>delapan</r></p><par n="berdua__num"/></e>
     <e lm="sembilan"><p><l>bersembilan</l><r>sembilan</r></p><par n="berdua__num"/></e>
     <e lm="sepuluh"><p><l>bersepuluh</l><r>sepuluh</r></p><par n="berdua__num"/></e>
-    <e lm="sebelas"><p><l>bersebelas</l><r>sebelas</r></p><par n="berdua__num"/></e>
-    <!-- etc -->
-    <e lm="alaf"><i>alaf</i><par n="dua__num"/></e>
-    <e lm="ampat"><i>ampat</i><par n="dua__num"/></e>
-    <e lm="amung"><i>amung</i><par n="dua__num"/></e>
-    <e lm="aneka"><i>aneka</i><par n="dua__num"/></e>
-    <e lm="antero"><i>antero</i><par n="dua__num"/></e>
-    <e lm="beberapa"><i>beberapa</i><par n="dua__num"/></e>
-    <e lm="biliun"><i>biliun</i><par n="dua__num"/></e>
-    <e lm="binokular"><i>binokular</i><par n="dua__num"/></e>
-    <e lm="ceban"><i>ceban</i><par n="dua__num"/></e>
-    <e lm="ceceng"><i>ceceng</i><par n="dua__num"/></e>
-    <e lm="cepek"><i>cepek</i><par n="dua__num"/></e>
-    <e lm="desiliun"><i>desiliun</i><par n="dua__num"/></e>
-    <e lm="duodesimal"><i>duodesimal</i><par n="dua__num"/></e>
-    <e lm="dwiminggu"><i>dwiminggu</i><par n="dua__num"/></e>
-    <e lm="esa"><i>esa</i><par n="dua__num"/></e>
-    <e lm="gocap"><i>gocap</i><par n="dua__num"/></e>
-    <e lm="gopek"><i>gopek</i><par n="dua__num"/></e>
-    <e lm="gotun"><i>gotun</i><par n="dua__num"/></e>
-    <e lm="ji"><i>ji</i><par n="dua__num"/></e>
-    <e lm="jicap"><i>jicap</i><par n="dua__num"/></e>
-    <e lm="jicapgo"><i>jicapgo</i><par n="dua__num"/></e>
-    <e lm="keti"><i>keti</i><par n="dua__num"/></e>
-    <e lm="kotah"><i>kotah</i><par n="dua__num"/></e>
-    <e lm="kuadriliun"><i>kuadriliun</i><par n="dua__num"/></e>
-    <e lm="laksa"><i>laksa</i><par n="dua__num"/></e>
-    <e lm="miliar"><i>miliar</i><par n="dua__num"/></e>
-    <e lm="miliun"><i>miliun</i><par n="dua__num"/></e>
-    <e lm="nawa"><i>nawa</i><par n="dua__num"/></e>
-    <e lm="neka"><i>neka</i><par n="dua__num"/></e>
-    <e lm="nol"><i>nol</i><par n="dua__num"/></e>
-    <e lm="nonilium"><i>nonilium</i><par n="dua__num"/></e>
-    <e lm="nopek"><i>nopek</i><par n="dua__num"/></e>
-    <e lm="patang"><i>patang</i><par n="dua__num"/></e>
-    <e lm="peku"><i>peku</i><par n="dua__num"/></e>
-    <e lm="pelbagai"><i>pelbagai</i><par n="dua__num"/></e>
-    <e lm="per"><i>per</i><par n="dua__num"/></e>
-    <e lm="permil"><i>permil</i><par n="dua__num"/></e>
-    <e lm="pertama"><i>pertama</i><par n="dua__num"/></e>
-    <e lm="rante"><i>rante</i><par n="dua__num"/></e>
-    <e lm="renteng"><i>renteng</i><par n="dua__num"/></e>
-    <e lm="saptapesona"><i>saptapesona</i><par n="dua__num"/></e>
-    <e lm="sarwa"><i>sarwa</i><par n="dua__num"/></e>
-    <e lm="seceng"><i>seceng</i><par n="dua__num"/></e>
-    <e lm="segala"><i>segala</i><par n="dua__num"/></e>
-    <e lm="segenap"><i>segenap</i><par n="dua__num"/></e>
-    <e lm="sekelian"><i>sekelian</i><par n="dua__num"/></e>
-    <e lm="selapan"><i>selapan</i><par n="dua__num"/></e>
-    <e lm="selurah"><i>selurah</i><par n="dua__num"/></e>
-    <e lm="seluruh"><i>seluruh</i><par n="dua__num"/></e>
-    <e lm="semesta"><i>semesta</i><par n="dua__num"/></e>
-    <e lm="semua"><i>semua</i><par n="dua__num"/></e>
-    <e lm="suatu"><i>suatu</i><par n="dua__num"/></e>
-    <e lm="tunggal"><i>tunggal</i><par n="dua__num"/></e>
-    <e lm="unting"><i>unting</i><par n="dua__num"/></e>
-    <e lm="usur"><i>usur</i><par n="dua__num"/></e>
-    <e lm="wahid"><i>wahid</i><par n="dua__num"/></e>
 <!-- Interjections -->
     <e lm="aduh"><i>aduh</i><par n="aduh__ij"/></e>
     <e lm="aduhai"><i>aduhai</i><par n="aduh__ij"/></e>
     <e lm="ah"><i>ah</i><par n="aduh__ij"/></e>
-    <e lm="aho"><i>aho</i><par n="aduh__ij"/></e>
-    <e lm="ai"><i>ai</i><par n="aduh__ij"/></e>
     <e lm="alamak"><i>alamak</i><par n="aduh__ij"/></e>
     <e lm="alhamdulillah"><i>alhamdulillah</i><par n="aduh__ij"/></e>
     <e lm="amboi"><i>amboi</i><par n="aduh__ij"/></e>
     <e lm="astaga"><i>astaga</i><par n="aduh__ij"/></e>
     <e lm="ayo"><i>ayo</i><par n="aduh__ij"/></e>
-    <e lm="cah"><i>cah</i><par n="aduh__ij"/></e>
     <e lm="cih"><i>cih</i><par n="aduh__ij"/></e>
     <e lm="cis"><i>cis</i><par n="aduh__ij"/></e>
     <e lm="cuh"><i>cuh</i><par n="aduh__ij"/></e>
     <e lm="duh"><i>duh</i><par n="aduh__ij"/></e>
     <e lm="eh"><i>eh</i><par n="aduh__ij"/></e>
-    <e lm="emat"><i>emat</i><par n="aduh__ij"/></e>
-    <e lm="ha"><i>ha</i><par n="aduh__ij"/></e>
     <e lm="hai"><i>hai</i><par n="aduh__ij"/></e>
     <e lm="halo"><i>halo</i><par n="aduh__ij"/></e>
     <e lm="hayo"><i>hayo</i><par n="aduh__ij"/></e>
-    <e lm="hem"><i>hem</i><par n="aduh__ij"/></e>
-    <e lm="his"><i>his</i><par n="aduh__ij"/></e>
     <e lm="hoi"><i>hoi</i><par n="aduh__ij"/></e>
     <e lm="horas"><i>horas</i><par n="aduh__ij"/></e>
     <e lm="hore"><i>hore</i><par n="aduh__ij"/></e>
     <e lm="huh"><i>huh</i><par n="aduh__ij"/></e>
     <e lm="hus"><i>hus</i><par n="aduh__ij"/></e>
-    <e lm="kursemangat"><i>kursemangat</i><par n="aduh__ij"/></e>
     <e lm="lho"><i>lho</i><par n="aduh__ij"/></e>
     <e lm="lo"><i>lo</i><par n="aduh__ij"/></e>
     <e lm="maaf"><i>maaf</i><par n="aduh__ij"/></e>
     <e lm="nah"><i>nah</i><par n="aduh__ij"/></e>
     <e lm="oh"><i>oh</i><par n="aduh__ij"/></e>
     <e lm="oi"><i>oi</i><par n="aduh__ij"/></e>
-    <e lm="ong"><i>ong</i><par n="aduh__ij"/></e>
-    <e lm="puah"><i>puah</i><par n="aduh__ij"/></e>
-    <e lm="pus"><i>pus</i><par n="aduh__ij"/></e>
     <e lm="sampai jumpa"><i>sampai<b/>jumpa</i><par n="aduh__ij"/></e>
     <e lm="selamat pagi"><i>selamat<b/>pagi</i><par n="aduh__ij"/></e>
     <e lm="selamat siang"><i>selamat<b/>siang</i><par n="aduh__ij"/></e>
@@ -1144,13 +1152,11 @@
     <e lm="selamat malam"><i>selamat<b/>malam</i><par n="aduh__ij"/></e>
     <e lm="selamat datang"><i>selamat<b/>datang</i><par n="aduh__ij"/></e>
     <e lm="selamat jalan"><i>selamat<b/>jalan</i><par n="aduh__ij"/></e>
-    <e lm="syabas"><i>syabas</i><par n="aduh__ij"/></e>
     <e lm="terima kasih"><i>terima<b/>kasih</i><par n="aduh__ij"/></e>
     <e lm="uh"><i>uh</i><par n="aduh__ij"/></e>
     <e lm="waduh"><i>waduh</i><par n="aduh__ij"/></e>
     <e lm="wah"><i>wah</i><par n="aduh__ij"/></e>
     <e lm="wahai"><i>wahai</i><par n="aduh__ij"/></e>
-    <e lm="wai"><i>wai</i><par n="aduh__ij"/></e>
     <e lm="walah"><i>walah</i><par n="aduh__ij"/></e>
     <e lm="weh"><i>weh</i><par n="aduh__ij"/></e>
   </section>
