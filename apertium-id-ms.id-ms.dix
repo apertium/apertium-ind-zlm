@@ -35,7 +35,6 @@
     <e><p><l>bunyi<s n="n"/></l><r>bunyi<s n="n"/></r></p></e>
     <e><p><l>burung<s n="n"/></l><r>burung<s n="n"/></r></p></e>
     <e><p><l>cuaca<s n="n"/></l><r>cuaca<s n="n"/></r></p></e>
-    <e><p><l>dalam<s n="n"/></l><r>dalam<s n="n"/></r></p></e>
     <e><p><l>depan<s n="n"/></l><r>depan<s n="n"/></r></p></e>
     <e><p><l>ekor<s n="n"/></l><r>ekor<s n="n"/></r></p></e>
     <e><p><l>hari<s n="n"/></l><r>hari<s n="n"/></r></p></e>
@@ -51,7 +50,6 @@
     <e><p><l>kucing<s n="n"/></l><r>kucing<s n="n"/></r></p></e>
     <e><p><l>kursi<s n="n"/></l><r>kerusi<s n="n"/></r></p></e>
     <e><p><l>luar<s n="n"/></l><r>luar<s n="n"/></r></p></e>
-    <e><p><l>main<s n="n"/></l><r>main<s n="n"/></r></p></e>
     <e><p><l>manusia<s n="n"/></l><r>manusia<s n="n"/></r></p></e>
     <e><p><l>mata<s n="n"/></l><r>mata<s n="n"/></r></p></e>
     <e><p><l>meja<s n="n"/></l><r>meja<s n="n"/></r></p></e>
@@ -79,7 +77,6 @@
     <!-- Verb -->
     <e><p><l>ada<s n="vblex"/></l><r>ada<s n="vblex"/></r></p></e>
     <e><p><l>adalah<s n="vblex"/></l><r>adalah<s n="vblex"/></r></p></e>
-    <e><p><l>bahagia<s n="vblex"/></l><r>bahagia<s n="vblex"/></r></p></e>
     <e><p><l>balas<s n="vblex"/></l><r>balas<s n="vblex"/></r></p></e>
     <e><p><l>bicara<s n="vblex"/></l><r>bicara<s n="vblex"/></r></p></e>
     <e><p><l>bisa<s n="vblex"/></l><r>boleh<s n="vblex"/></r></p></e>
@@ -87,7 +84,6 @@
     <e><p><l>coba<s n="vblex"/></l><r>cuba<s n="vblex"/></r></p></e>
     <e><p><l>dapat<s n="vblex"/></l><r>dapat<s n="vblex"/></r></p></e>
     <e><p><l>datang<s n="vblex"/></l><r>datang<s n="vblex"/></r></p></e>
-    <e><p><l>dekat<s n="vblex"/></l><r>dekat<s n="vblex"/></r></p></e>
     <e><p><l>dengar<s n="vblex"/></l><r>dengar<s n="vblex"/></r></p></e>
     <e><p><l>duduk<s n="vblex"/></l><r>duduk<s n="vblex"/></r></p></e>
     <e><p><l>gesa<s n="vblex"/></l><r>gesa<s n="vblex"/></r></p></e>
@@ -96,7 +92,6 @@
     <e><p><l>ialah<s n="vblex"/></l><r>ialah<s n="vblex"/></r></p></e>
     <e><p><l>jadi<s n="vblex"/></l><r>jadi<s n="vblex"/></r></p></e>
     <e><p><l>jalan<s n="vblex"/></l><r>jalan<s n="vblex"/></r></p></e>
-    <e><p><l>kata<s n="vblex"/></l><r>kata<s n="vblex"/></r></p></e>
     <e><p><l>laku<s n="vblex"/></l><r>laku<s n="vblex"/></r></p></e>
     <e><p><l>lalu<s n="vblex"/></l><r>lalu<s n="vblex"/></r></p></e>
     <e><p><l>lari<s n="vblex"/></l><r>lari<s n="vblex"/></r></p></e>
@@ -105,28 +100,22 @@
     <e><p><l>main<s n="vblex"/></l><r>main<s n="vblex"/></r></p></e>
     <e><p><l>makan<s n="vblex"/></l><r>makan<s n="vblex"/></r></p></e>
     <e><p><l>masuk<s n="vblex"/></l><r>masuk<s n="vblex"/></r></p></e>
-    <e><p><l>milik<s n="vblex"/></l><r>milik<s n="vblex"/></r></p></e>
     <e><p><l>minum<s n="vblex"/></l><r>minum<s n="vblex"/></r></p></e>
     <e><p><l>pergi<s n="vblex"/></l><r>pergi<s n="vblex"/></r></p></e>
     <e><p><l>pikir<s n="vblex"/></l><r>fikir<s n="vblex"/></r></p></e>
     <e><p><l>punya<s n="vblex"/></l><r>punya<s n="vblex"/></r></p></e>
     <e><p><l>mempunyai<s n="vblex"/></l><r>mempunyai<s n="vblex"/></r></p></e>
-    <e><p><l>rasa<s n="vblex"/></l><r>rasa<s n="vblex"/></r></p></e>
-    <e><p><l>sama<s n="vblex"/></l><r>sama<s n="vblex"/></r></p></e>
+    <e><p><l>rupa<s n="vblex"/></l><r>rupa<s n="vblex"/></r></p></e>
     <e><p><l>sebut<s n="vblex"/></l><r>sebut<s n="vblex"/></r></p></e>
     <e><p><l>selesai<s n="vblex"/></l><r>selesai<s n="vblex"/></r></p></e>
     <e><p><l>sembunyi<s n="vblex"/></l><r>sembunyi<s n="vblex"/></r></p></e>
-    <e><p><l>senang<s n="vblex"/></l><r>senang<s n="vblex"/></r></p></e>
     <e><p><l>suka<s n="vblex"/></l><r>suka<s n="vblex"/></r></p></e>
     <e><p><l>tahu<s n="vblex"/></l><r>tahu<s n="vblex"/></r></p></e>
-    <e><p><l>tawa<s n="vblex"/></l><r>tawa<s n="vblex"/></r></p></e>
     <e><p><l>tanya<s n="vblex"/></l><r>tanya<s n="vblex"/></r></p></e>
     <e><p><l>temu<s n="vblex"/></l><r>temu<s n="vblex"/></r></p></e>
+    <e><p><l>tidur<s n="vblex"/></l><r>tidur<s n="vblex"/></r></p></e>
     <e><p><l>toleh<s n="vblex"/></l><r>toleh<s n="vblex"/></r></p></e>
     <e><p><l>tutup<s n="vblex"/></l><r>tutup<s n="vblex"/></r></p></e>
-    <e><p><l>ujar<s n="vblex"/></l><r>ujar<s n="vblex"/></r></p></e>
-    <e><p><l>umur<s n="vblex"/></l><r>umur<s n="vblex"/></r></p></e>
-    <e><p><l>usia<s n="vblex"/></l><r>usia<s n="vblex"/></r></p></e>
     
     <!-- Adj -->
     <e><p><l>bahagia<s n="adj"/></l><r>bahagia<s n="adj"/></r></p></e>
@@ -136,6 +125,7 @@
     <e><p><l>cerah<s n="adj"/></l><r>cerah<s n="adj"/></r></p></e>
     <e><p><l>cermat<s n="adj"/></l><r>cermat<s n="adj"/></r></p></e>
     <e><p><l>cukup<s n="adj"/></l><r>cukup<s n="adj"/></r></p></e>
+    <e><p><l>dalam<s n="adj"/></l><r>dalam<s n="adj"/></r></p></e>
     <e><p><l>dekat<s n="adj"/></l><r>dekat<s n="adj"/></r></p></e>
     <e><p><l>dingin<s n="adj"/></l><r>dingin<s n="adj"/></r></p></e>
     <e><p><l>ekor<s n="adj"/></l><r>ekor<s n="adj"/></r></p></e>
@@ -152,12 +142,13 @@
     <e><p><l>sama<s n="adj"/></l><r>sama<s n="adj"/></r></p></e>
     <e><p><l>senang<s n="adj"/></l><r>senang<s n="adj"/></r></p></e>
     <e><p><l>tentu<s n="adj"/></l><r>tentu<s n="adj"/></r></p></e>
-    <e><p><l>tidur<s n="adj"/></l><r>tidur<s n="adj"/></r></p></e>
     <e><p><l>tua<s n="adj"/></l><r>tua<s n="adj"/></r></p></e>
     
     <!-- Proper Noun -->
     <e><p><l>Maria<s n="np"/></l><r>Maria<s n="np"/></r></p></e>
     <e><p><l>Yakobus<s n="np"/></l><r>Yakobus<s n="np"/></r></p></e>
+    <e><p><l>Indonesia<s n="np"/></l><r>Indonesia<s n="np"/></r></p></e>
+    <e><p><l>Malaysia<s n="np"/></l><r>Malaysia<s n="np"/></r></p></e>
 
     <!-- Adv -->
     <e><p><l>akhirnya<s n="adv"/></l><r>akhirnya<s n="adv"/></r></p></e>
@@ -192,7 +183,7 @@
     <e><p><l>tetapi<s n="cnjcoo"/></l><r>tetapi<s n="cnjcoo"/></r></p></e>
 
     <!-- Cnjsub -->
-        <e><p><l>agar<s n="cnjsub"/></l><r>agar<s n="cnjsub"/></r></p></e>
+    <e><p><l>agar<s n="cnjsub"/></l><r>agar<s n="cnjsub"/></r></p></e>
     <e><p><l>alhasil<s n="cnjsub"/></l><r>alhasil<s n="cnjsub"/></r></p></e>
     <e><p><l>apalagi<s n="cnjsub"/></l><r>apalagi<s n="cnjsub"/></r></p></e>
     <e><p><l>bahkan<s n="cnjsub"/></l><r>bahkan<s n="cnjsub"/></r></p></e>
@@ -257,7 +248,9 @@
     <e><p><l>di<s n="pr"/></l><r>di<s n="pr"/></r></p></e>
     <e><p><l>ke<s n="pr"/></l><r>ke<s n="pr"/></r></p></e>
     <e><p><l>kepada<s n="pr"/></l><r>kepada<s n="pr"/></r></p></e>
+    <e><p><l>oleh<s n="pr"/></l><r>oleh<s n="pr"/></r></p></e>
     <e><p><l>pada<s n="pr"/></l><r>pada<s n="pr"/></r></p></e>
+    <e><p><l>sebagai<s n="pr"/></l><r>sebagai<s n="pr"/></r></p></e>
     <e><p><l>untuk<s n="pr"/></l><r>untuk<s n="pr"/></r></p></e>
     
     <!-- Pronoun -->
