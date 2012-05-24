@@ -18,6 +18,9 @@
     <sdef n="cnjadv"/>
     <sdef n="sent"/>
     
+    <sdef n="v"/>
+    <sdef n="part"/>
+    
     <!-- Gender -->
     <sdef n="f"/>
     <sdef n="m"/>
@@ -42,12 +45,20 @@
     <!-- Case -->
     <sdef n="loc"/>
     
-    <!-- Modes -->
+    <sdef n="caus1"/> <!-- e.g. -kan -->
+    <sdef n="caus2"/> <!-- e.g. per- -->
+    <sdef n="caus3"/> <!-- e.g. per-kan -->
+    
+    <sdef n="appl1"/> <!-- e.g. -i -->
+    <sdef n="appl2"/> <!-- e.g. per-i -->
+    
+    <sdef n="actv"/>
+    <sdef n="pasv"/>
+    
     <sdef n="tn"/>
     <sdef n="dem"/>
     <sdef n="itg"/>
     <sdef n="neg"/>
-    
     <sdef n="abstr"/>
     <sdef n="ent"/>
     <sdef n="subj"/>
@@ -56,9 +67,9 @@
     <sdef n="enc"/>
     <sdef n="pos"/>
     <sdef n="rel"/>
-    <sdef n="part"/>
-    <sdef n="red"/>
     
+    <sdef n="red"/> <!-- reduplication -->
+        
     <!-- Affixes -->
     <sdef n="ber"/>
     <sdef n="per"/>
@@ -218,7 +229,7 @@
     <e>
       <p>
         <l>nya</l>
-        <r><s n="n"/><s n="sg"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="n"/><s n="sg"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     <e>
@@ -230,7 +241,7 @@
     <e>
       <p>
         <l>-<prm/>nya</l>
-        <r><s n="n"/><s n="pl"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="n"/><s n="pl"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     </pardef>
@@ -244,7 +255,7 @@
     <e>
       <p>
         <l>nya</l>
-        <r><s n="n"/><s n="sg"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="n"/><s n="sg"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     <e>
@@ -256,7 +267,7 @@
     <e>
       <p>
         <l>-<prm/>nya</l>
-        <r><s n="n"/><s n="pl"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="n"/><s n="pl"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     <e>
@@ -268,7 +279,7 @@
     <e>
       <p>
         <l>annya</l>
-        <r><s n="n"/><s n="ent"/><s n="sg"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="n"/><s n="ent"/><s n="sg"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     <e>
@@ -280,7 +291,7 @@
     <e>
       <p>
         <l>an-<prm/>annya</l>
-        <r><s n="n"/><s n="ent"/><s n="pl"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="n"/><s n="ent"/><s n="pl"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     </pardef>
@@ -294,7 +305,7 @@
     <e>
       <p>
         <l>nya</l>
-        <r><s n="n"/><s n="sg"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="n"/><s n="sg"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     <e>
@@ -306,13 +317,13 @@
     <e>
       <p>
         <l>-<prm/>nya</l>
-        <r><s n="n"/><s n="pl"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="n"/><s n="pl"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>kan</l>
-        <r><s n="n"/><s n="vblex"/><s n="kan"/></r>
+        <r><s n="n"/><s n="v"/><s n="kan"/></r>
       </p>
     </e>
     </pardef>
@@ -326,7 +337,7 @@
     <e>
       <p>
         <l>nya</l>
-        <r><s n="n"/><s n="abstr"/><s n="sg"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="n"/><s n="abstr"/><s n="sg"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     <e>
@@ -338,7 +349,7 @@
     <e>
       <p>
         <l>-<prm/>nya</l>
-        <r><s n="n"/><s n="abstr"/><s n="pl"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="n"/><s n="abstr"/><s n="pl"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     </pardef>
@@ -352,7 +363,7 @@
     <e>
       <p>
         <l>annya</l>
-        <r><s n="an"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="an"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     </pardef>
@@ -380,7 +391,7 @@
     <e>
       <p>
         <l>nya</l>
-        <r><s n="vblex"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="vblex"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     </pardef>
@@ -394,7 +405,7 @@
     <e>
       <p>
         <l>nya</l>
-        <r><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     <e>
@@ -406,7 +417,7 @@
     <e>
       <p>
         <l>inya</l>
-        <r><s n="i"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="i"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     <e>
@@ -418,7 +429,7 @@
     <e>
       <p>
         <l>kannya</l>
-        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     </pardef>
@@ -432,7 +443,7 @@
     <e>
       <p>
         <l>nya</l>
-        <r><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     <e>
@@ -444,7 +455,7 @@
     <e>
       <p>
         <l>kannya</l>
-        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     </pardef>
@@ -458,7 +469,7 @@
     <e>
       <p>
         <l>inya</l>
-        <r><s n="i"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="i"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     <e>
@@ -470,7 +481,7 @@
     <e>
       <p>
         <l>kannya</l>
-        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     </pardef>
@@ -484,7 +495,7 @@
     <e>
       <p>
         <l>inya</l>
-        <r><s n="i"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="i"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     </pardef>
@@ -498,7 +509,139 @@
     <e>
       <p>
         <l>kannya</l>
-        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="memperbuat/__vblex">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="actv"/><s n="caus2"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="actv"/><s n="caus2"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="memperdengar/kan__vblex">
+    <e>
+      <p>
+        <l>kan</l>
+        <r><s n="actv"/><s n="caus3"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="actv"/><s n="caus3"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="mempergantung/i__vblex">
+    <e>
+      <p>
+        <l>i</l>
+        <r><s n="actv"/><s n="appl2"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="actv"/><s n="appl2"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="memperikut/__vblex">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="actv"/><s n="caus2"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="actv"/><s n="caus2"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kan</l>
+        <r><s n="actv"/><s n="caus3"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="actv"/><s n="caus3"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="mempergaul/kan__vblex">
+    <e>
+      <p>
+        <l>kan</l>
+        <r><s n="actv"/><s n="caus3"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="actv"/><s n="caus3"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>i</l>
+        <r><s n="actv"/><s n="appl2"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="actv"/><s n="appl2"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="mempersalin/__vblex">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="actv"/><s n="caus2"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="actv"/><s n="caus2"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kan</l>
+        <r><s n="actv"/><s n="caus3"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="actv"/><s n="caus3"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>i</l>
+        <r><s n="actv"/><s n="appl2"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="actv"/><s n="appl2"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     </pardef>
@@ -512,7 +655,7 @@
     <e>
       <p>
         <l>kannya</l>
-        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
+        <r><s n="kan"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     </pardef>
@@ -572,65 +715,33 @@
       </p>
     </e>
     </pardef>
-    <pardef n="apa/__prn">
+    <pardef n="apa[apa]__prn">
     <e>
       <p>
         <l></l>
         <r><s n="prn"/><s n="itg"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>kah</l>
-        <r><s n="prn"/><s n="itg"/><s n="kah"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>-<prm/></l>
-        <r><s n="prn"/><s n="tn"/><s n="red"/></r>
+        <r><s n="prn"/><s n="tn"/></r>
       </p>
     </e>
     </pardef>
-    <pardef n="berapa/__prn">
+    <pardef n="berapa__prn">
     <e>
       <p>
         <l></l>
         <r><s n="prn"/><s n="itg"/></r>
       </p>
     </e>
-    <e>
-      <p>
-        <l>kah</l>
-        <r><s n="prn"/><s n="itg"/><s n="kah"/></r>
-      </p>
-    </e>
     </pardef>
-    <pardef n="di mana/__adv">
+    <pardef n="mengapa__adv">
     <e>
       <p>
         <l></l>
         <r><s n="adv"/><s n="itg"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>kah</l>
-        <r><s n="adv"/><s n="itg"/><s n="kah"/></r>
-      </p>
-    </e>
-    </pardef>
-    <pardef n="mengapa/__adv">
-    <e>
-      <p>
-        <l></l>
-        <r><s n="adv"/><s n="itg"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>kah</l>
-        <r><s n="adv"/><s n="itg"/><s n="kah"/></r>
       </p>
     </e>
     </pardef>
@@ -668,21 +779,7 @@
     <e>
       <p>
         <l>nya</l>
-        <r><s n="num"/><s n="ord"/><j/>dia<s n="prn"/><s n="enc"/><s n="pos"/><s n="p3"/><s n="sp"/></r>
-      </p>
-    </e>
-    </pardef>
-    <pardef n="kedua[dua]nya__prn">
-    <e>
-      <p>
-        <l>nya</l>
-        <r><s n="prn"/><s n="tn"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>-<prm/>nya</l>
-        <r><s n="prn"/><s n="red"/><s n="tn"/><s n="pl"/></r>
+        <r><s n="num"/><s n="ord"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
       </p>
     </e>
     </pardef>
@@ -728,14 +825,22 @@
     <e lm="segala sesuatu"><i>segala<b/>sesuatu</i><par n="seseorang__prn"/></e>
     <e lm="masing-masing"><i>masing-masing</i><par n="seseorang__prn"/></e>
     <!-- Numbers -->
-    <e lm="dua"><p><l>kedua</l><r>dua</r></p><par n="kedua[dua]nya__prn" prm="dua"/></e>
-    <e lm="tiga"><p><l>ketiga</l><r>tiga</r></p><par n="kedua[dua]nya__prn" prm="tiga"/></e>
-    <e lm="empat"><p><l>keempat</l><r>empat</r></p><par n="kedua[dua]nya__prn" prm="empat"/></e>
-    <e lm="lima"><p><l>kelima</l><r>lima</r></p><par n="kedua[dua]nya__prn" prm="lima"/></e>
-    <e lm="enam"><p><l>keenam</l><r>enam</r></p><par n="kedua[dua]nya__prn" prm="enam"/></e>
-    <e lm="tujuh"><p><l>ketujuh</l><r>tujuh</r></p><par n="kedua[dua]nya__prn" prm="tujuh"/></e>
-    <e lm="delapan"><p><l>kedelapan</l><r>delapan</r></p><par n="kedua[dua]nya__prn" prm="delapan"/></e>
-    <e lm="sembilan"><p><l>kesembilan</l><r>sembilan</r></p><par n="kedua[dua]nya__prn" prm="sembilan"/></e>
+    <e lm="keduanya"><i>keduanya</i><par n="seseorang__prn"/></e>
+    <e lm="ketiganya"><i>ketiganya</i><par n="seseorang__prn"/></e>
+    <e lm="keempatnya"><i>keempatnya</i><par n="seseorang__prn"/></e>
+    <e lm="kelimanya"><i>kelimanya</i><par n="seseorang__prn"/></e>
+    <e lm="keenamnya"><i>keenamnya</i><par n="seseorang__prn"/></e>
+    <e lm="ketujuhnya"><i>ketujuhnya</i><par n="seseorang__prn"/></e>
+    <e lm="kedelapannya"><i>kedelapannya</i><par n="seseorang__prn"/></e>
+    <e lm="kesembilan"><i>kesembilannya</i><par n="seseorang__prn"/></e>
+    <e lm="kedua-duanya"><i>kedua-duanya</i><par n="seseorang__prn"/></e>
+    <e lm="ketiga-tiganya"><i>ketiga-tiganya</i><par n="seseorang__prn"/></e>
+    <e lm="keempat-empatnya"><i>keempat-empatnya</i><par n="seseorang__prn"/></e>
+    <e lm="kelima-limanya"><i>kelima-limanya</i><par n="seseorang__prn"/></e>
+    <e lm="keenam-enamnya"><i>keenam-enamnya</i><par n="seseorang__prn"/></e>
+    <e lm="ketujuh-tujuhnya"><i>ketujuh-tujuhnya</i><par n="seseorang__prn"/></e>
+    <e lm="kedelapan-delapannya"><i>kedelapan-delapannya</i><par n="seseorang__prn"/></e>
+    <e lm="kesembilan-sembilannya"><i>kesembilan-sembilannya</i><par n="seseorang__prn"/></e>
     <!-- Question words -->
     <e lm="apa saja"><i>apa<b/>saja</i><par n="apa saja__prn"/></e>
     <e lm="siapa saja"><i>siapa<b/>saja</i><par n="apa saja__prn"/></e>
@@ -8541,6 +8646,80 @@
     <e lm="sebut"><p><l>tersebut</l><r>sebut<s n="vblex"/><s n="ter"/></r></p></e>
     <e lm="tawa"><p><l>tertawa</l><r>tawa<s n="n"/><s n="vblex"/><s n="ter"/></r></p></e>
     <e lm="tidur"><p><l>tertidur</l><r>tidur<s n="vblex"/><s n="ter"/></r></p></e>
+    <!-- memper- -->
+    <!-- V -> V -->
+    <!-- no suffix -->
+    <e lm="buat"><p><l>memperbuat</l><r>buat</r></p><par n="memperbuat/__vblex"/></e>
+    <e lm="dekap"><p><l>memperdekap</l><r>dekap</r></p><par n="memperbuat/__vblex"/></e>
+    <e lm="gegas"><p><l>mempergegas</l><r>gegas</r></p><par n="memperbuat/__vblex"/></e>
+    <e lm="hambat"><p><l>memperhambat</l><r>hambat</r></p><par n="memperbuat/__vblex"/></e>
+    <e lm="hidup"><p><l>memperhidup</l><r>hidup</r></p><par n="memperbuat/__vblex"/></e>
+    <e lm="singgah"><p><l>mempersinggah</l><r>singgah</r></p><par n="memperbuat/__vblex"/></e>
+    <e lm="ulur"><p><l>memperulur</l><r>ulur</r></p><par n="memperbuat/__vblex"/></e>
+    <!-- -kan -->
+    <e lm="adu"><p><l>memperadu</l><r>adu</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="bantu"><p><l>memperbantu</l><r>bantu</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="baur"><p><l>memperbaur</l><r>baur</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="cekcok"><p><l>mempercekcok</l><r>cekcok</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="cekik"><p><l>mempercekik</l><r>cekik</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="dengar"><p><l>memperdengar</l><r>dengar</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="edar"><p><l>memperedar</l><r>edar</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="gandeng"><p><l>mempergandeng</l><r>gandeng</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="gesek"><p><l>mempergesek</l><r>gesek</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="gilir"><p><l>mempergilir</l><r>gilir</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="hitung"><p><l>memperhitung</l><r>hitung</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="hubung"><p><l>memperhubung</l><r>hubung</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="juang"><p><l>memperjuang</l><r>juang</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="kembang"><p><l>memperkembang</l><r>kembang</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="kenal"><p><l>memperkenal</l><r>kenal</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="kenan"><p><l>memperkenan</l><r>kenan</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="kitar"><p><l>memperkitar</l><r>kitar</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="lihat"><p><l>memperlihat</l><r>lihat</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="main"><p><l>mempermain</l><r>main</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="maklum"><p><l>mempermaklum</l><r>maklum</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="mandi"><p><l>mempermandi</l><r>mandi</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="menang"><p><l>mempermenang</l><r>menang</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="putar"><p><l>memperputar</l><r>putar</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="rebut"><p><l>memperrebut</l><r>rebut</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="saing"><p><l>mempersaing</l><r>saing</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="sambung"><p><l>mempersambung</l><r>sambung</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="sangkut"><p><l>mempersangkut</l><r>sangkut</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="siap"><p><l>mempersiap</l><r>siap</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="sila"><p><l>mempersila</l><r>sila</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="sisip"><p><l>mempersisip</l><r>sisip</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="sua"><p><l>mempersua</l><r>sua</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="sudi"><p><l>mempersudi</l><r>sudi</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="tangguh"><p><l>mempertangguh</l><r>tangguh</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="tanggung"><p><l>mempertanggung</l><r>tanggung</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="tarung"><p><l>mempertarung</l><r>tarung</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="taut"><p><l>mempertaut</l><r>taut</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="tebar"><p><l>mempertebar</l><r>tebar</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="tempur"><p><l>mempertempur</l><r>tempur</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="temu"><p><l>mempertemu</l><r>temu</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="tengkar"><p><l>mempertengkar</l><r>tengkar</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="tiada"><p><l>mempertiada</l><r>tiada</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="tonton"><p><l>mempertonton</l><r>tonton</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="tuju"><p><l>mempertuju</l><r>tuju</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="tukar"><p><l>mempertukar</l><r>tukar</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="tumbuh"><p><l>mempertumbuh</l><r>tumbuh</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="tunggang"><p><l>mempertunggang</l><r>tunggang</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="tunjuk"><p><l>mempertunjuk</l><r>tunjuk</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="turun"><p><l>memperturun</l><r>turun</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="turut"><p><l>memperturut</l><r>turut</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="ubah"><p><l>memperubah</l><r>ubah</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="urut"><p><l>memperurut</l><r>urut</r></p><par n="memperdengar/kan__vblex"/></e>
+    <e lm="gantung"><p><l>mempergantung</l><r>gantung</r></p><par n="mempergantung/i__vblex"/></e>
+    <e lm="hias"><p><l>memperhias</l><r>hias</r></p><par n="mempergantung/i__vblex"/></e>
+    <e lm="lindung"><p><l>memperlindung</l><r>lindung</r></p><par n="mempergantung/i__vblex"/></e>
+    <!-- -kan, -i -->
+    <e lm="gaul"><p><l>mempergaul</l><r>gaul</r></p><par n="mempergaul/kan__vblex"/></e>
+    <e lm="ingat"><p><l>memperingat</l><r>ingat</r></p><par n="mempergaul/kan__vblex"/></e>
+    <!-- no suffix, -kan -->
+    <e lm="ikut"><p><l>memperikut</l><r>ikut</r></p><par n="memperikut/__vblex"/></e>
+    <e lm="tetap"><p><l>mempertetap</l><r>tetap</r></p><par n="memperikut/__vblex"/></e>
+    <!-- no suffix, -kan, -i -->
+    <e lm="salin"><p><l>mempersalin</l><r>salin</r></p><par n="mempersalin/__vblex"/></e>
+    <!-- end V -> V -->
 <!-- Adjectives -->
     <e lm="abadi"><i>abadi</i><par n="baik__adj"/></e>
     <e lm="abnormal"><i>abnormal</i><par n="baik__adj"/></e>
@@ -10649,19 +10828,32 @@
     <e lm="sebaliknya"><i>sebaliknya</i><par n="namun__cnjadv"/></e>
     <e lm="walaupun demikian"><i>walaupun<b/>demikian</i><par n="namun__cnjadv"/></e>
 <!-- Questions -->
-    <e lm="apa"><i>apa</i><par n="apa/__prn" prm="apa"/></e>
-    <e lm="siapa"><i>siapa</i><par n="apa/__prn" prm="siapa"/></e>
-    <e lm="mana"><i>mana</i><par n="apa/__prn" prm="mana"/></e>
-    <e lm="berapa"><i>berapa</i><par n="berapa/__prn"/></e>
-    <e lm="di mana"><i>di<b/>mana</i><par n="di mana/__adv"/></e>
-    <e lm="ke mana"><i>ke<b/>mana</i><par n="di mana/__adv"/></e>
-    <e lm="dari mana"><i>dari<b/>mana</i><par n="di mana/__adv"/></e>
-    <e lm="bagaimana"><i>bagaimana</i><par n="di mana/__adv"/></e>
-    <e lm="bila"><i>bila</i><par n="mengapa/__adv"/></e>
-    <e lm="bilamana"><i>bilamana</i><par n="mengapa/__adv"/></e>
-    <e lm="kapan"><i>kapan</i><par n="di mana/__adv"/></e>
-    <e lm="mengapa"><i>mengapa</i><par n="mengapa/__adv"/></e>
-    <e lm="kenapa"><i>kenapa</i><par n="mengapa/__adv"/></e>
+    <e lm="apa"><i>apa</i><par n="apa[apa]__prn" prm="apa"/></e>
+    <e lm="siapa"><i>siapa</i><par n="apa[apa]__prn" prm="siapa"/></e>
+    <e lm="mana"><i>mana</i><par n="apa[apa]__prn" prm="mana"/></e>
+    <e lm="berapa"><i>berapa</i><par n="berapa__prn"/></e>
+    <e lm="di mana"><i>di<b/>mana</i><par n="mengapa__adv"/></e>
+    <e lm="ke mana"><i>ke<b/>mana</i><par n="mengapa__adv"/></e>
+    <e lm="dari mana"><i>dari<b/>mana</i><par n="mengapa__adv"/></e>
+    <e lm="bagaimana"><i>bagaimana</i><par n="mengapa__adv"/></e>
+    <e lm="bila"><i>bila</i><par n="mengapa__adv"/></e>
+    <e lm="bilamana"><i>bilamana</i><par n="mengapa__adv"/></e>
+    <e lm="kapan"><i>kapan</i><par n="mengapa__adv"/></e>
+    <e lm="mengapa"><i>mengapa</i><par n="mengapa__adv"/></e>
+    <e lm="kenapa"><i>kenapa</i><par n="mengapa__adv"/></e>
+    <e lm="apakah"><i>apakah</i><par n="berapa__prn"/></e>
+    <e lm="siapakah"><i>siapakah</i><par n="berapa__prn"/></e>
+    <e lm="manakah"><i>manakah</i><par n="berapa__prn"/></e>
+    <e lm="berapakah"><i>berapakah</i><par n="berapa__prn"/></e>
+    <e lm="di manakah"><i>di<b/>manakah</i><par n="mengapa__adv"/></e>
+    <e lm="ke manakah"><i>ke<b/>manakah</i><par n="mengapa__adv"/></e>
+    <e lm="dari manakah"><i>dari<b/>manakah</i><par n="mengapa__adv"/></e>
+    <e lm="bagaimanakah"><i>bagaimanakah</i><par n="mengapa__adv"/></e>
+    <e lm="bilakah"><i>bilakah</i><par n="mengapa__adv"/></e>
+    <e lm="bilamanakah"><i>bilamanakah</i><par n="mengapa__adv"/></e>
+    <e lm="kapankah"><i>kapankah</i><par n="mengapa__adv"/></e>
+    <e lm="mengapakah"><i>mengapakah</i><par n="mengapa__adv"/></e>
+    <e lm="kenapakah"><i>kenapakah</i><par n="mengapa__adv"/></e>
 <!-- Prepositions -->
     <e lm="adapun"><i>adapun</i><par n="dari__pr"/></e>
     <e lm="antara"><i>antara</i><par n="dari__pr"/></e>
