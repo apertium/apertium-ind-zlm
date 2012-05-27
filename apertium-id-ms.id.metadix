@@ -395,6 +395,32 @@
       </p>
     </e>
     </pardef>
+    <pardef n="pembohong/__adj">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="n"/><s n="actor"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="actor"/><s n="sg"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="adj"/><s n="n"/><s n="actor"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="actor"/><s n="pl"/><j/>dia<s n="prn"/><s n="enc"/><s n="p3"/><s n="sp"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="kedokteran/__n">
     <e>
       <p>
