@@ -1,15 +1,15 @@
-Number of tokenised words in the corpus:  31244449
-Number of known words in the corpus:  21043211
-Coverage: 67.3 %
+Number of tokenised words in the corpus:  31230035
+Number of known words in the corpus:  22783273
+Coverage: 72.9 %
 Top unknown words in the corpus:
+52209 ^ada/*ada$
 47257 ^seorang/*seorang$
-40654 ^beberapa/*beberapa$
-40367 ^Jawa/*Jawa$
-37254 ^bagian/*bagian$
-30492 ^Amerika/*Amerika$
 30107 ^digunakan/*digunakan$
-30056 ^pula/*pula$
 29513 ^terletak/*terletak$
-26774 ^menggunakan/*menggunakan$
+29111 ^tanggal/*tanggal$
 26297 ^lainnya/*lainnya$
-Tokens needed to get 80 %: 3952348 . Corresponding wordlist in /tmp/corpus-stat-needed.txt
+25958 ^disebut/*disebut$
+24958 ^bisa/*bisa$
+23517 ^dikenal/*dikenal$
+22708 ^suatu/*suatu$
+Tokens needed to get 80 %: 2200755 . Corresponding wordlist in /tmp/corpus-stat-needed.txt
