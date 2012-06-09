@@ -56,4 +56,12 @@
       </program>
     </pipeline>
   </mode>
+  
+  <mode name="ms-id-morph" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="ms-id.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 </modes>
