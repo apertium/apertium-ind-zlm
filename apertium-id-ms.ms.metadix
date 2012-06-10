@@ -1197,6 +1197,40 @@
       </p>
     </e>
     </pardef>
+    <pardef n="berbicara__vblex">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="vblex"/><s n="ber"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="berbahagia__adj">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="vblex"/><s n="ber"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <!-- ter- -->
+    <pardef n="tertawa__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="vblex"/><s n="ter"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="tertidur__vblex">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="vblex"/><s n="ter"/></r>
+      </p>
+    </e>
+    </pardef>
     
     <!-- memper- (V -> V) -->
     <pardef n="memperbuat/__vblex">
@@ -1976,34 +2010,47 @@
     <!-- end N -> V -->
     
     <!-- ber- -->
-    <e lm="ada"><p><l>berada</l><r>ada<s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="adik"><p><l>beradik</l><r>adik<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="air"><p><l>berair</l><r>air<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="bahagia"><p><l>berbahagia</l><r>bahagia<s n="adj"/><s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="bicara"><p><l>berbicara</l><r>bicara<s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="cakap"><p><l>bercakap</l><r>cakap<s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="hitung"><p><l>berhitung</l><r>hitung<s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="jalan"><p><l>berjalan</l><r>jalan<s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="tingkap"><p><l>bertingkap</l><r>tingkap<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="kata"><p><l>berkata</l><r>kata<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="laku"><p><l>berlaku</l><r>laku<s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="lalu"><p><l>berlalu</l><r>lalu<s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="lari"><p><l>berlari</l><r>lari<s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="main"><p><l>bermain</l><r>main<s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="fikir"><p><l>berfikir</l><r>fikir<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="sama"><p><l>bersama</l><r>sama<s n="adj"/><s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="sembunyi"><p><l>bersembunyi</l><r>sembunyi<s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="tanya"><p><l>bertanya</l><r>tanya<s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="temu"><p><l>bertemu</l><r>temu<s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="ujar"><p><l>berujar</l><r>ujar<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="umur"><p><l>berumur</l><r>umur<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
-    <e lm="usia"><p><l>berusia</l><r>usia<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
+    <!-- N -> V -->
+    <e lm="adik"><p><l>beradik</l><r>adik</r></p><par n="beragama__n"/></e>
+    <e lm="air"><p><l>berair</l><r>air</r></p><par n="beragama__n"/></e>
+    <e lm="kata"><p><l>berkata</l><r>kata</r></p><par n="beragama__n"/></e>
+    <e lm="tingkap"><p><l>bertingkap</l><r>tingkap</r></p><par n="beragama__n"/></e>
+    <e lm="laku"><p><l>berlaku</l><r>laku</r></p><par n="beragama__n"/></e>
+    <e lm="fikir"><p><l>berfikir</l><r>fikir</r></p><par n="beragama__n"/></e>
+    <e lm="tanya"><p><l>bertanya</l><r>tanya</r></p><par n="beragama__n"/></e>
+    <e lm="ujar"><p><l>berujar</l><r>ujar</r></p><par n="beragama__n"/></e>
+    <e lm="umur"><p><l>berumur</l><r>umur</r></p><par n="beragama__n"/></e>
+    <e lm="usia"><p><l>berusia</l><r>usia</r></p><par n="beragama__n"/></e>
+    <!-- end N -> V -->
+    
+    <!-- V -> V -->
+    <e lm="ada"><p><l>berada</l><r>ada</r></p><par n="berbicara__vblex"/></e>
+    <e lm="bicara"><p><l>berbicara</l><r>bicara</r></p><par n="berbicara__vblex"/></e>
+    <e lm="cakap"><p><l>bercakap</l><r>cakap</r></p><par n="berbicara__vblex"/></e>
+    <e lm="hitung"><p><l>berhitung</l><r>hitung</r></p><par n="berbicara__vblex"/></e>
+    <e lm="jalan"><p><l>berjalan</l><r>jalan</r></p><par n="berbicara__vblex"/></e>
+    <e lm="lalu"><p><l>berlalu</l><r>lalu</r></p><par n="berbicara__vblex"/></e>
+    <e lm="lari"><p><l>berlari</l><r>lari</r></p><par n="berbicara__vblex"/></e>
+    <e lm="main"><p><l>bermain</l><r>main</r></p><par n="berbicara__vblex"/></e>
+    <e lm="sembunyi"><p><l>bersembunyi</l><r>sembunyi</r></p><par n="berbicara__vblex"/></e>
+    <e lm="temu"><p><l>bertemu</l><r>temu</r></p><par n="berbicara__vblex"/></e>
+    <!-- end V -> V -->
+    
+    <!-- Adj -> V -->
+    <e lm="bahagia"><p><l>berbahagia</l><r>bahagia</r></p><par n="berbahagia__adj"/></e>
+    <e lm="sama"><p><l>bersama</l><r>sama</r></p><par n="berbahagia__adj"/></e>
+    <!-- end Adj -> V -->
     
     <!-- ter- -->
-    <e lm="sebut"><p><l>tersebut</l><r>sebut<s n="vblex"/><s n="ter"/></r></p></e>
-    <e lm="tawa"><p><l>tertawa</l><r>tawa<s n="n"/><s n="vblex"/><s n="ter"/></r></p></e>
-    <e lm="tidur"><p><l>tertidur</l><r>tidur<s n="vblex"/><s n="ter"/></r></p></e>
-
+    <!-- N -> V -->
+    <e lm="tawa"><p><l>tertawa</l><r>tawa</r></p><par n="tertawa__n"/></e>
+    <!-- end N -> V -->
+    
+    <!-- V -> V -->
+    <e lm="sebut"><p><l>tersebut</l><r>sebut</r></p><par n="tertidur__vblex"/></e>
+    <e lm="tidur"><p><l>tertidur</l><r>tidur</r></p><par n="tertidur__vblex"/></e>
+    <!-- end V -> V -->
+    
 <!-- Adjectives -->
     <e lm="bahagia"><i>bahagia</i><par n="baik__adj"/></e>
     <e lm="baik"><i>baik</i><par n="baik__adj"/></e>
