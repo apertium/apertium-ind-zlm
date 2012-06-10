@@ -8,10 +8,10 @@ PREFIX2=$(LANG2)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
 
-TARGETS_COMMON = $(PREFIX1).autobil.bin \
+TARGETS_COMMON = $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 	$(PREFIX1).automorf.bin $(PREFIX1).autogen.bin $(PREFIX1).t1x.bin \
-	$(PREFIX2).automorf.bin $(PREFIX2).autogen.bin \
-	$(PREFIX1).mode modes
+	$(PREFIX2).automorf.bin $(PREFIX2).autogen.bin $(PREFIX2).t1x.bin \
+	$(PREFIX1).mode $(PREFIX2).mode modes
 
 # Indonesian transducer
 	
@@ -58,6 +58,10 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 $(PREFIX1).t1x.bin: $(BASENAME).$(PREFIX1).t1x
 	apertium-validate-transfer $(BASENAME).$(PREFIX1).t1x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX1).t1x $@
+
+$(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
+	apertium-validate-transfer $(BASENAME).$(PREFIX2).t1x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t1x $@
 	
 empty.bin: empty.t1x
 	apertium-validate-transfer empty.t1x
@@ -69,25 +73,31 @@ modes/$(PREFIX1).mode: modes.xml
 	apertium-validate-modes modes.xml
 	apertium-gen-modes modes.xml
 	cp *.mode modes/
+
+modes/$(PREFIX2).mode: modes.xml
+	apertium-validate-modes modes.xml
+	apertium-gen-modes modes.xml
+	cp *.mode modes/
 	
 # Installation
 
-EXTRA_DIST=$(PREFIX1).prob \
+EXTRA_DIST=$(PREFIX1).prob $(PREFIX2).prob \
            $(BASENAME).$(PREFIX1).t1x \
+           $(BASENAME).$(PREFIX2).t1x \
            modes.xml
            
 apertium_id_msmodesdir=$(prefix)/share/apertium/modes/
 apertium_id_msdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_id_ms_DATA=$(PREFIX1).autobil.bin \
-                    $(PREFIX1).prob \
+apertium_id_ms_DATA=$(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
+                    $(PREFIX1).prob $(PREFIX2).prob \
 		    $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
 		    $(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
-		    $(PREFIX1).t1x.bin \
-		    $(BASENAME).$(PREFIX1).t1x \
+		    $(PREFIX1).t1x.bin $(PREFIX2).t1x.bin \
+		    $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX2).t1x \
 		    modes.xml
 
-noinst_DATA=modes/$(PREFIX1).mode
+noinst_DATA=modes/$(PREFIX1).mode modes/$(PREFIX2).mode
 
 install-data-local:
 	mv modes modes~
@@ -97,6 +107,8 @@ install-data-local:
 	test -d $(DESTDIR)$(apertium_id_msmodesdir) || mkdir $(DESTDIR)$(apertium_id_msmodesdir)
 	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_id_msmodesdir)
 	rm $(PREFIX1).mode
+	rm $(PREFIX2).mode
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_id_msdir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_id_msdir)
 
 CLEANFILES = -r $(TARGETS_COMMON) .deps/

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transfer>
+
+<section-def-cats>
+  <def-cat n="prep">
+     <cat-item tags="pr"/>
+  </def-cat>
+</section-def-cats>
+
+<section-def-attrs>
+  <def-attr n="a_prp">
+     <attr-item tags="pr"/>
+  </def-attr>
+</section-def-attrs>
+
+<section-def-vars>
+  <def-var n="number"/>
+</section-def-vars>
+
+<section-rules>
+
+  <rule>
+     <pattern>
+       <pattern-item n="prep"/>
+     </pattern>
+     <action>
+       <out>
+         <lu>
+           <clip pos="1" side="tl" part="whole"/>
+         </lu>
+       </out>
+     </action>
+  </rule>
+
+
+</section-rules>
+
+</transfer>

@@ -8,6 +8,7 @@
 /apertium-id-ms.id-ms.dix -text
 /apertium-id-ms.id-ms.t1x -text
 /apertium-id-ms.id.metadix -text
+/apertium-id-ms.ms-id.t1x -text
 /apertium-id-ms.ms.metadix -text
 /autogen.sh -text
 /buscaPar.xsl -text
@@ -23,4 +24,5 @@ dev/testvoc.sh -text
 /empty.t1x -text
 /id-ms.prob -text svneol=unset#unset
 /modes.xml -text
+/ms-id.prob -text svneol=unset#unset
 /principal.xsl -text
