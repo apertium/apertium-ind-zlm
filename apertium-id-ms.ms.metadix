@@ -1962,7 +1962,7 @@
     <!-- end V -> N -->
     
 <!-- Verbs -->
-    <e lm="ada"><i>ada</i><par n="absen/__vblex" prm="adaada"/></e>
+    <e lm="ada"><i>ada</i><par n="absen/__vblex" prm="ada"/></e>
     <e lm="balas"><i>balas</i><par n="absen/__vblex" prm="balas"/></e>
     <e lm="bicara"><i>bicara</i><par n="absen/__vblex" prm="bicara"/></e>
     <e lm="cari"><i>cari</i><par n="absen/__vblex" prm="cari"/></e>
