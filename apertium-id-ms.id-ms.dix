@@ -184,8 +184,9 @@
     <e><p><l>akan<s n="adv"/></l><r>akan<s n="adv"/></r></p></e>
     <e><p><l>akhirnya<s n="adv"/></l><r>akhirnya<s n="adv"/></r></p></e>
     <e><p><l>amatlah<s n="adv"/></l><r>amatlah<s n="adv"/></r></p></e>
-    <e><p><l>boleh<s n="adv"/></l><r>boleh<s n="adv"/></r></p></e>
-    <e r="LR"><p><l>bisa<s n="adv"/></l><r>boleh<s n="adv"/></r></p></e>
+    <e><p><l>bisa<s n="adv"/></l><r>boleh<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>bisa<s n="adv"/></l><r>bisa<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>boleh<s n="adv"/></l><r>boleh<s n="adv"/></r></p></e>
     <e><p><l>bukan<s n="adv"/></l><r>bukan<s n="adv"/></r></p></e>
     <e><p><l>dapat<s n="adv"/></l><r>dapat<s n="adv"/></r></p></e>
     <e><p><l>ingin<s n="adv"/></l><r>ingin<s n="adv"/></r></p></e>
