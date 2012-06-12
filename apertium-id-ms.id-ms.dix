@@ -275,6 +275,9 @@
     <e><p><l>ke<b/>manakah<s n="adv"/></l><r>ke<b/>manakah<s n="adv"/></r></p></e>
     <e><p><l>mana<s n="prn"/></l><r>mana<s n="prn"/></r></p></e>
     <e><p><l>mengapa<s n="adv"/></l><r>mengapa<s n="adv"/></r></p></e>
+    <e><p><l>kapan<s n="adv"/></l><r>bilakah<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>kapan<s n="adv"/></l><r>apabila<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>kapan<s n="adv"/></l><r>bila<s n="adv"/></r></p></e>
     <!--
     <e><p><l>tahukah<s n="qst"/></l><r>tahukah<s n="qst"/></r></p></e>
     <e><p><l>mungkinkah<s n="qst"/></l><r>mungkinkah<s n="qst"/></r></p></e>

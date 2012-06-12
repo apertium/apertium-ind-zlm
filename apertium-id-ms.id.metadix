@@ -18457,6 +18457,7 @@
     <e lm="sangat-sangat"><i>sangat-sangat</i><par n="ingin__adv"/></e>
     <e lm="satu per satu"><i>satu<b/>per<b/>satu</i><par n="ingin__adv"/></e>
     <e lm="satu-satu"><i>satu-satu</i><par n="ingin__adv"/></e>
+    <e lm="satu-satunya"><i>satu-satunya</i><par n="ingin__adv"/></e>
     <e lm="sayup-menyayup"><i>sayup-menyayup</i><par n="ingin__adv"/></e>
     <e lm="sayup-sayup"><i>sayup-sayup</i><par n="ingin__adv"/></e>
     <e lm="seadanya"><i>seadanya</i><par n="ingin__adv"/></e>
@@ -18719,28 +18720,28 @@
     <e lm="siapa"><i>siapa</i><par n="apa[apa]__prn" prm="siapa"/></e>
     <e lm="mana"><i>mana</i><par n="apa[apa]__prn" prm="mana"/></e>
     <e lm="berapa"><i>berapa</i><par n="berapa__prn"/></e>
-    <e lm="di mana"><i>di<b/>mana</i><par n="mengapa__adv"/></e>
-    <e lm="ke mana"><i>ke<b/>mana</i><par n="mengapa__adv"/></e>
-    <e lm="dari mana"><i>dari<b/>mana</i><par n="mengapa__adv"/></e>
     <e lm="bagaimana"><i>bagaimana</i><par n="mengapa__adv"/></e>
     <e lm="bila"><i>bila</i><par n="mengapa__adv"/></e>
     <e lm="bilamana"><i>bilamana</i><par n="mengapa__adv"/></e>
+    <e lm="dari mana"><i>dari<b/>mana</i><par n="mengapa__adv"/></e>
+    <e lm="di mana"><i>di<b/>mana</i><par n="mengapa__adv"/></e>
     <e lm="kapan"><i>kapan</i><par n="mengapa__adv"/></e>
-    <e lm="mengapa"><i>mengapa</i><par n="mengapa__adv"/></e>
+    <e lm="ke mana"><i>ke<b/>mana</i><par n="mengapa__adv"/></e>
     <e lm="kenapa"><i>kenapa</i><par n="mengapa__adv"/></e>
+    <e lm="mengapa"><i>mengapa</i><par n="mengapa__adv"/></e>
     <e lm="apakah"><i>apakah</i><par n="berapa__prn"/></e>
-    <e lm="siapakah"><i>siapakah</i><par n="berapa__prn"/></e>
-    <e lm="manakah"><i>manakah</i><par n="berapa__prn"/></e>
     <e lm="berapakah"><i>berapakah</i><par n="berapa__prn"/></e>
-    <e lm="di manakah"><i>di<b/>manakah</i><par n="mengapa__adv"/></e>
-    <e lm="ke manakah"><i>ke<b/>manakah</i><par n="mengapa__adv"/></e>
-    <e lm="dari manakah"><i>dari<b/>manakah</i><par n="mengapa__adv"/></e>
+    <e lm="manakah"><i>manakah</i><par n="berapa__prn"/></e>
+    <e lm="siapakah"><i>siapakah</i><par n="berapa__prn"/></e>
     <e lm="bagaimanakah"><i>bagaimanakah</i><par n="mengapa__adv"/></e>
     <e lm="bilakah"><i>bilakah</i><par n="mengapa__adv"/></e>
     <e lm="bilamanakah"><i>bilamanakah</i><par n="mengapa__adv"/></e>
+    <e lm="dari manakah"><i>dari<b/>manakah</i><par n="mengapa__adv"/></e>
+    <e lm="di manakah"><i>di<b/>manakah</i><par n="mengapa__adv"/></e>
     <e lm="kapankah"><i>kapankah</i><par n="mengapa__adv"/></e>
-    <e lm="mengapakah"><i>mengapakah</i><par n="mengapa__adv"/></e>
+    <e lm="ke manakah"><i>ke<b/>manakah</i><par n="mengapa__adv"/></e>
     <e lm="kenapakah"><i>kenapakah</i><par n="mengapa__adv"/></e>
+    <e lm="mengapakah"><i>mengapakah</i><par n="mengapa__adv"/></e>
 
 <!-- Prepositions -->
     <e lm="adapun"><i>adapun</i><par n="dari__pr"/></e>
@@ -18786,6 +18787,7 @@
     <e lm="sebuah"><i>sebuah</i><par n="segala__det"/></e>
     <e lm="seekor"><i>seekor</i><par n="segala__det"/></e>
     <e lm="seorang"><i>seorang</i><par n="segala__det"/></e>
+    <e lm="suatu"><i>suatu</i><par n="segala__det"/></e>
     
     <e lm="aneka"><i>aneka</i><par n="segala__det"/></e>
     <e lm="banyak"><i>banyak</i><par n="segala__det"/></e>
