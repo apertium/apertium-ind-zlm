@@ -832,6 +832,59 @@
       </p>
     </e>
     </pardef>
+    <!-- variations -->
+    <pardef n="keberadaan/__vblex">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="keseimbangan/__adj">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
     
     <!-- per-an -->
     <pardef n="perbahasaan/__n">
@@ -6752,7 +6805,6 @@
     <e lm="minum"><i>minum</i><par n="baca/__vblex" prm="minum"/></e>
     <e lm="muat"><i>muat</i><par n="baca/__vblex" prm="muat"/></e>
     <e lm="muntah"><i>muntah</i><par n="baca/__vblex" prm="muntah"/></e>
-    <e lm="nanti"><i>nanti</i><par n="baca/__vblex" prm="nanti"/></e>
     <e lm="naung"><i>naung</i><par n="baca/__vblex" prm="naung"/></e>
     <e lm="nyanyi"><i>nyanyi</i><par n="baca/__vblex" prm="nyanyi"/></e>
     <e lm="pagut"><i>pagut</i><par n="baca/__vblex" prm="pagut"/></e>
@@ -6932,6 +6984,7 @@
     <e lm="wawas"><i>wawas</i><par n="baca/__vblex" prm="wawas"/></e>
     
     <!-- more -->
+    <e lm="nanti"><i>nanti</i><par n="absen/__vblex" prm="nanti"/></e>
     
     <!-- meN- -->
     <!-- V -> V -->
