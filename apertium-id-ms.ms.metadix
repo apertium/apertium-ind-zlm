@@ -2638,8 +2638,10 @@
     <e lm="birokrasi"><i>birokrasi</i><par n="abad/__n" prm="birokrasi"/></e>
     <e lm="birokrat"><i>birokrat</i><par n="abad/__n" prm="birokrat"/></e>
     <e lm="biru"><i>biru</i><par n="abad/__n" prm="biru"/></e>
+    <e lm="biskop"><i>biskop</i><par n="abad/__n" prm="biskop"/></e>
     <e lm="bison"><i>bison</i><par n="abad/__n" prm="bison"/></e>
     <e lm="bisul"><i>bisul</i><par n="abad/__n" prm="bisul"/></e>
+    <e lm="bisyop"><i>bisyop</i><par n="abad/__n" prm="bisyop"/></e>
     <e lm="bit"><i>bit</i><par n="abad/__n" prm="bit"/></e>
     <e lm="bius"><i>bius</i><par n="abad/__n" prm="bius"/></e>
     <e lm="blazer"><i>blazer</i><par n="abad/__n" prm="blazer"/></e>
@@ -3945,6 +3947,7 @@
     <e lm="komposit"><i>komposit</i><par n="abad/__n" prm="komposit"/></e>
     <e lm="kompromi"><i>kompromi</i><par n="abad/__n" prm="kompromi"/></e>
     <e lm="komputer"><i>komputer</i><par n="abad/__n" prm="komputer"/></e>
+    <e lm="komun"><i>komun</i><par n="abad/__n" prm="komun"/></e>
     <e lm="komuni"><i>komuni</i><par n="abad/__n" prm="komuni"/></e>
     <e lm="komunikasi"><i>komunikasi</i><par n="abad/__n" prm="komunikasi"/></e>
     <e lm="komunikator"><i>komunikator</i><par n="abad/__n" prm="komunikator"/></e>
@@ -4929,6 +4932,7 @@
     <e lm="polio"><i>polio</i><par n="abad/__n" prm="polio"/></e>
     <e lm="polipeptida"><i>polipeptida</i><par n="abad/__n" prm="polipeptida"/></e>
     <e lm="polis"><i>polis</i><par n="abad/__n" prm="polis"/></e>
+    <e lm="polisi"><i>polisi</i><par n="abad/__n" prm="polisi"/></e>
     <e lm="politik"><i>politik</i><par n="abad/__n" prm="politik"/></e>
     <e lm="polo"><i>polo</i><par n="abad/__n" prm="polo"/></e>
     <e lm="pon"><i>pon</i><par n="abad/__n" prm="pon"/></e>
@@ -5054,11 +5058,11 @@
     <e lm="ragam"><i>ragam</i><par n="abad/__n" prm="ragam"/></e>
     <e lm="ragi"><i>ragi</i><par n="abad/__n" prm="ragi"/></e>
     <e lm="rahang"><i>rahang</i><par n="abad/__n" prm="rahang"/></e>
-    <e lm="rahasia"><i>rahasia</i><par n="abad/__n" prm="rahasia"/></e>
     <e lm="rahib"><i>rahib</i><par n="abad/__n" prm="rahib"/></e>
     <e lm="rahim"><i>rahim</i><par n="abad/__n" prm="rahim"/></e>
     <e lm="rahman"><i>rahman</i><par n="abad/__n" prm="rahman"/></e>
     <e lm="rahmat"><i>rahmat</i><par n="abad/__n" prm="rahmat"/></e>
+    <e lm="rahsia"><i>rahsia</i><par n="abad/__n" prm="rahsia"/></e>
     <e lm="rai"><i>rai</i><par n="abad/__n" prm="rai"/></e>
     <e lm="rais"><i>rais</i><par n="abad/__n" prm="rais"/></e>
     <e lm="raja"><i>raja</i><par n="abad/__n" prm="raja"/></e>
@@ -5349,7 +5353,6 @@
     <e lm="sendawa"><i>sendawa</i><par n="abad/__n" prm="sendawa"/></e>
     <e lm="sendi"><i>sendi</i><par n="abad/__n" prm="sendi"/></e>
     <e lm="sending"><i>sending</i><par n="abad/__n" prm="sending"/></e>
-    <e lm="sendok"><i>sendok</i><par n="abad/__n" prm="sendok"/></e>
     <e lm="seng"><i>seng</i><par n="abad/__n" prm="seng"/></e>
     <e lm="sengketa"><i>sengketa</i><par n="abad/__n" prm="sengketa"/></e>
     <e lm="sengsara"><i>sengsara</i><par n="abad/__n" prm="sengsara"/></e>
@@ -5540,6 +5543,7 @@
     <e lm="subversi"><i>subversi</i><par n="abad/__n" prm="subversi"/></e>
     <e lm="suda"><i>suda</i><par n="abad/__n" prm="suda"/></e>
     <e lm="sudip"><i>sudip</i><par n="abad/__n" prm="sudip"/></e>
+    <e lm="sudu"><i>sudu</i><par n="abad/__n" prm="sudu"/></e>
     <e lm="sudut"><i>sudut</i><par n="abad/__n" prm="sudut"/></e>
     <e lm="sufi"><i>sufi</i><par n="abad/__n" prm="sufi"/></e>
     <e lm="sufisme"><i>sufisme</i><par n="abad/__n" prm="sufisme"/></e>
@@ -6454,6 +6458,7 @@
     <e lm="guna"><p><l>kegunaan</l><r>guna</r></p><par n="kedokteran/__n" prm="kegunaan"/></e>
     <e lm="laut"><p><l>kelautan</l><r>laut</r></p><par n="kedokteran/__n" prm="kelautan"/></e>
     <e lm="negara"><p><l>kenegaraan</l><r>negara</r></p><par n="kedokteran/__n" prm="kenegaraan"/></e>
+    <e lm="polisi"><p><l>kepolisian</l><r>polisi</r></p><par n="kedokteran/__n" prm="kepolisian"/></e>
     <!-- end N -> N -->
     
     <!-- Adj -> N -->
