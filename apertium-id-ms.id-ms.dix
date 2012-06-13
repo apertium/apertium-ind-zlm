@@ -25,15 +25,22 @@
     <sdef n="actv"/>
     <sdef n="pasv"/>
     
+    <sdef n="peN"/>
+    <sdef n="per"/>
+    
     <sdef n="an"/>
     <sdef n="kan"/>
+    
     <sdef n="ke-an"/>
+    
+    <sdef n="alt"/>
   </sdefs>
 
   <section id="main" type="standard">
     <!-- Nouns -->
     <e><p><l>adik<s n="n"/></l><r>adik<s n="n"/></r></p></e>
     <e><p><l>air<s n="n"/></l><r>air<s n="n"/></r></p></e>
+    <e><p><l>ajar<s n="n"/></l><r>ajar<s n="n"/></r></p></e>
     <e><p><l>akhir<s n="n"/></l><r>akhir<s n="n"/></r></p></e>
     <e><p><l>anak<s n="n"/></l><r>anak<s n="n"/></r></p></e>
     <e><p><l>anjing<s n="n"/></l><r>anjing<s n="n"/></r></p></e>
@@ -56,7 +63,7 @@
     <e><p><l>jawab<s n="n"/></l><r>jawab<s n="n"/></r></p></e>
     <e><p><l>jawat<s n="n"/></l><r>jawat<s n="n"/></r></p></e>
     <e><p><l>jendela<s n="n"/></l><r>tingkap<s n="n"/></r></p></e>
-    <e><p><l>kantor<s n="n"/></l><r>pejabat<s n="n"/></r></p></e>
+    <e><p><l>kantor<s n="n"/></l><r>jabat<s n="n"/><s n="peN"/><s n="alt"/></r></p></e>
     <e><p><l>kata<s n="n"/></l><r>kata<s n="n"/></r></p></e>
     <e><p><l>kawasan<s n="n"/></l><r>kawasan<s n="n"/></r></p></e>
     <e><p><l>kebun<s n="n"/></l><r>kebun<s n="n"/></r></p></e>
@@ -88,8 +95,7 @@
     <e><p><l>saksi<s n="n"/></l><r>saksi<s n="n"/></r></p></e>
     <e><p><l>sekitar<s n="n"/></l><r>sekitar<s n="n"/><s n="an"/></r></p></e>
     <e><p><l>sekolah<s n="n"/></l><r>sekolah<s n="n"/></r></p></e>
-    <e><p><l>siswa<s n="n"/></l><r>pelajar<s n="n"/></r></p></e>
-    <e r="LR"><p><l>pelajar<s n="n"/></l><r>pelajar<s n="n"/></r></p></e>
+    <e><p><l>siswa<s n="n"/></l><r>ajar<s n="n"/><s n="per"/></r></p></e>
     <e><p><l>taman<s n="n"/></l><r>taman<s n="n"/></r></p></e>
     <e><p><l>tangan<s n="n"/></l><r>tangan<s n="n"/></r></p></e>
     <e><p><l>tanya<s n="n"/></l><r>tanya<s n="n"/></r></p></e>
