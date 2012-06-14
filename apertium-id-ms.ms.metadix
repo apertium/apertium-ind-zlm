@@ -5876,6 +5876,7 @@
     <e lm="tugu"><i>tugu</i><par n="abad/__n" prm="tugu"/></e>
     <e lm="tuk"><i>tuk</i><par n="abad/__n" prm="tuk"/></e>
     <e lm="tukang"><i>tukang</i><par n="abad/__n" prm="tukang"/></e>
+    <e lm="tukul"><i>tukul</i><par n="abad/__n" prm="tukul"/></e>
     <e lm="tulang"><i>tulang</i><par n="abad/__n" prm="tulang"/></e>
     <e lm="tumit"><i>tumit</i><par n="abad/__n" prm="tumit"/></e>
     <e lm="tumor"><i>tumor</i><par n="abad/__n" prm="tumor"/></e>
@@ -6562,7 +6563,7 @@
     <e lm="hobi"><p><l>penghobi</l><r>hobi</r></p><par n="pengusaha/__n" prm="penghobi"/></e>
     <e lm="hujung"><p><l>penghujung</l><r>hujung</r></p><par n="pengusaha/__n" prm="penghujung"/></e>
     <e lm="ikat"><p><l>pengikat</l><r>ikat</r></p><par n="pengusaha/__n" prm="pengikat"/></e>
-    <e lm="impor"><p><l>pengimpor</l><r>impor</r></p><par n="pengusaha/__n" prm="pengimpor"/></e>
+    <e lm="import"><p><l>pengimport</l><r>import</r></p><par n="pengusaha/__n" prm="pengimport"/></e>
     <e lm="indra"><p><l>pengindra</l><r>indra</r></p><par n="pengusaha/__n" prm="pengindra"/></e>
     <e lm="interpretasi"><p><l>penginterpretasi</l><r>interpretasi</r></p><par n="pengusaha/__n" prm="penginterpretasi"/></e>
     <e lm="inti"><p><l>penginti</l><r>inti</r></p><par n="pengusaha/__n" prm="penginti"/></e>
@@ -9340,7 +9341,7 @@
     <e lm="harimau"><p><l>mengharimau</l><r>harimau</r></p><par n="mengadopsi/__n" prm="harimau"/></e>
     <e lm="hasta"><p><l>menghasta</l><r>hasta</r></p><par n="mengadopsi/__n" prm="hasta"/></e>
     <e lm="hidung"><p><l>menghidung</l><r>hidung</r></p><par n="mengadopsi/__n" prm="hidung"/></e>
-    <e lm="impor"><p><l>mengimpor</l><r>impor</r></p><par n="mengadopsi/__n" prm="impor"/></e>
+    <e lm="import"><p><l>mengimport</l><r>import</r></p><par n="mengadopsi/__n" prm="import"/></e>
     <e lm="inai"><p><l>menginai</l><r>inai</r></p><par n="mengadopsi/__n" prm="inai"/></e>
     <e lm="inang"><p><l>menginang</l><r>inang</r></p><par n="mengadopsi/__n" prm="inang"/></e>
     <e lm="indra"><p><l>mengindra</l><r>indra</r></p><par n="mengadopsi/__n" prm="indra"/></e>
@@ -11586,6 +11587,7 @@
     <e lm="awan"><p><l>berawan</l><r>awan</r></p><par n="beragama__n"/></e>
     <e lm="ayah"><p><l>berayah</l><r>ayah</r></p><par n="beragama__n"/></e>
     <e lm="ayun"><p><l>berayun</l><r>ayun</r></p><par n="beragama__n"/></e>
+    <e lm="azimat"><p><l>berazimat</l><r>azimat</r></p><par n="beragama__n"/></e>
     <e lm="badan"><p><l>berbadan</l><r>badan</r></p><par n="beragama__n"/></e>
     <e lm="bagai"><p><l>berbagai</l><r>bagai</r></p><par n="beragama__n"/></e>
     <e lm="bahasa"><p><l>berbahasa</l><r>bahasa</r></p><par n="beragama__n"/></e>
@@ -11878,7 +11880,6 @@
     <e lm="jerih"><p><l>berjerih</l><r>jerih</r></p><par n="beragama__n"/></e>
     <e lm="jihad"><p><l>berjihad</l><r>jihad</r></p><par n="beragama__n"/></e>
     <e lm="jilid"><p><l>berjilid</l><r>jilid</r></p><par n="beragama__n"/></e>
-    <e lm="jimat"><p><l>berjimat</l><r>jimat</r></p><par n="beragama__n"/></e>
     <e lm="jiran"><p><l>berjiran</l><r>jiran</r></p><par n="beragama__n"/></e>
     <e lm="jiwa"><p><l>berjiwa</l><r>jiwa</r></p><par n="beragama__n"/></e>
     <e lm="jodoh"><p><l>berjodoh</l><r>jodoh</r></p><par n="beragama__n"/></e>
