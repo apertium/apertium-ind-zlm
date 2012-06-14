@@ -2200,37 +2200,42 @@
     <e lm="kau"><i>kau</i><par n="kamu__prn"/></e>
     
 <!-- Nouns -->
-    <e lm="Ogos"><i>Ogos</i><par n="Agustus__n"/></e>
     <e lm="Alkitab"><i>Alkitab</i><par n="Agustus__n"/></e>
-    <e lm="April"><i>April</i><par n="Agustus__n"/></e>
     <e lm="Buddha"><i>Buddha</i><par n="Agustus__n"/></e>
-    <e lm="Disember"><i>Disember</i><par n="Agustus__n"/></e>
-    <e lm="Februari"><i>Februari</i><par n="Agustus__n"/></e>
     <e lm="Injil"><i>Injil</i><par n="Agustus__n"/></e>
     <e lm="Islam"><i>Islam</i><par n="Agustus__n"/></e>
-    <e lm="Januari"><i>Januari</i><par n="Agustus__n"/></e>
-    <e lm="Julai"><i>Julai</i><par n="Agustus__n"/></e>
-    <e lm="Jumaat"><i>Jumaat</i><par n="Agustus__n"/></e>
-    <e lm="Jun"><i>Jun</i><par n="Agustus__n"/></e>
     <e lm="Katolik"><i>Katolik</i><par n="Agustus__n"/></e>
     <e lm="Kristian"><i>Kristian</i><par n="Agustus__n"/></e>
-    <e lm="Mac"><i>Mac</i><par n="Agustus__n"/></e>
     <e lm="Masihi"><i>Masihi</i><par n="Agustus__n"/></e>
-    <e lm="Mei"><i>Mei</i><par n="Agustus__n"/></e>
-    <e lm="Ahad"><i>Ahad</i><par n="Agustus__n"/></e>
     <e lm="Nazi"><i>Nazi</i><par n="Agustus__n"/></e>
-    <e lm="November"><i>November</i><par n="Agustus__n"/></e>
-    <e lm="Oktober"><i>Oktober</i><par n="Agustus__n"/></e>
     <e lm="Olimpiad"><i>Olimpiad</i><par n="Agustus__n"/></e>
     <e lm="Easter"><i>Easter</i><par n="Agustus__n"/></e>
     <e lm="Protestan"><i>Protestan</i><par n="Agustus__n"/></e>
-    <e lm="Sabtu"><i>Sabtu</i><par n="Agustus__n"/></e>
     <e lm="Sanskerta"><i>Sanskerta</i><par n="Agustus__n"/></e>
     <e lm="Selatan"><i>Selatan</i><par n="Agustus__n"/></e>
-    <e lm="Isnin"><i>Isnin</i><par n="Agustus__n"/></e>
-    <e lm="September"><i>September</i><par n="Agustus__n"/></e>
     <e lm="Tuhan"><i>Tuhan</i><par n="Agustus__n"/></e>
     <e lm="Yahudi"><i>Yahudi</i><par n="Agustus__n"/></e>
+    
+    <e lm="Januari"><i>Januari</i><par n="Agustus__n"/></e>
+    <e lm="Februari"><i>Februari</i><par n="Agustus__n"/></e>
+    <e lm="Mac"><i>Mac</i><par n="Agustus__n"/></e>
+    <e lm="April"><i>April</i><par n="Agustus__n"/></e>
+    <e lm="Mei"><i>Mei</i><par n="Agustus__n"/></e>
+    <e lm="Jun"><i>Jun</i><par n="Agustus__n"/></e>
+    <e lm="Julai"><i>Julai</i><par n="Agustus__n"/></e>
+    <e lm="Ogos"><i>Ogos</i><par n="Agustus__n"/></e>
+    <e lm="September"><i>September</i><par n="Agustus__n"/></e>
+    <e lm="Oktober"><i>Oktober</i><par n="Agustus__n"/></e>
+    <e lm="November"><i>November</i><par n="Agustus__n"/></e>
+    <e lm="Disember"><i>Disember</i><par n="Agustus__n"/></e>
+
+    <e lm="Ahad"><i>Ahad</i><par n="Agustus__n"/></e>
+    <e lm="Isnin"><i>Isnin</i><par n="Agustus__n"/></e>
+    <e lm="Selasa"><i>Selasa</i><par n="Agustus__n"/></e>
+    <e lm="Rabu"><i>Rabu</i><par n="Agustus__n"/></e>
+    <e lm="Khamis"><i>Khamis</i><par n="Agustus__n"/></e>
+    <e lm="Jumaat"><i>Jumaat</i><par n="Agustus__n"/></e>
+    <e lm="Sabtu"><i>Sabtu</i><par n="Agustus__n"/></e>
     
     <e lm="anak kapal"><i>anak<b/>kapal</i><par n="gula-gula/__n"/></e>
     <e lm="cumi-cumi"><i>cumi-cumi</i><par n="gula-gula/__n"/></e>
@@ -4450,6 +4455,7 @@
     <e lm="mimosa"><i>mimosa</i><par n="abad/__n" prm="mimosa"/></e>
     <e lm="minat"><i>minat</i><par n="abad/__n" prm="minat"/></e>
     <e lm="mineral"><i>mineral</i><par n="abad/__n" prm="mineral"/></e>
+    <e lm="minggu"><i>minggu</i><par n="abad/__n" prm="minggu"/></e>
     <e lm="miniatur"><i>miniatur</i><par n="abad/__n" prm="miniatur"/></e>
     <e lm="minimum"><i>minimum</i><par n="abad/__n" prm="minimum"/></e>
     <e lm="minor"><i>minor</i><par n="abad/__n" prm="minor"/></e>
@@ -13815,6 +13821,7 @@
     <e lm="ke"><i>ke</i><par n="dari__pr"/></e>
     <e lm="kepada"><i>kepada</i><par n="dari__pr"/></e>
     <e lm="kerana"><i>kerana</i><par n="dari__pr"/></e>
+    <e lm="mengenai"><i>mengenai</i><par n="dari__pr"/></e>
     <e lm="oleh kerana"><i>oleh<b/>kerana</i><par n="dari__pr"/></e>
     <e lm="oleh"><i>oleh</i><par n="dari__pr"/></e>
     <e lm="pada"><i>pada</i><par n="dari__pr"/></e>

@@ -2217,38 +2217,43 @@
     <e lm="kau"><i>kau</i><par n="kamu__prn"/></e>
 
 <!-- Nouns -->
-    <e lm="Agustus"><i>Agustus</i><par n="Agustus__n"/></e>
     <e lm="Alkitab"><i>Alkitab</i><par n="Agustus__n"/></e>
-    <e lm="April"><i>April</i><par n="Agustus__n"/></e>
     <e lm="Buddha"><i>Buddha</i><par n="Agustus__n"/></e>
-    <e lm="Desember"><i>Desember</i><par n="Agustus__n"/></e>
-    <e lm="Februari"><i>Februari</i><par n="Agustus__n"/></e>
     <e lm="Injil"><i>Injil</i><par n="Agustus__n"/></e>
     <e lm="Islam"><i>Islam</i><par n="Agustus__n"/></e>
-    <e lm="Januari"><i>Januari</i><par n="Agustus__n"/></e>
-    <e lm="Juli"><i>Juli</i><par n="Agustus__n"/></e>
-    <e lm="Jumat"><i>Jumat</i><par n="Agustus__n"/></e>
-    <e lm="Juni"><i>Juni</i><par n="Agustus__n"/></e>
     <e lm="Katolik"><i>Katolik</i><par n="Agustus__n"/></e>
     <e lm="Kristen"><i>Kristen</i><par n="Agustus__n"/></e>
-    <e lm="Maret"><i>Maret</i><par n="Agustus__n"/></e>
     <e lm="Masehi"><i>Masehi</i><par n="Agustus__n"/></e>
-    <e lm="Mei"><i>Mei</i><par n="Agustus__n"/></e>
-    <e lm="Minggu"><i>Minggu</i><par n="Agustus__n"/></e>
     <e lm="Nazi"><i>Nazi</i><par n="Agustus__n"/></e>
-    <e lm="November"><i>November</i><par n="Agustus__n"/></e>
-    <e lm="Oktober"><i>Oktober</i><par n="Agustus__n"/></e>
     <e lm="Olimpiade"><i>Olimpiade</i><par n="Agustus__n"/></e>
     <e lm="Paskah"><i>Paskah</i><par n="Agustus__n"/></e>
     <e lm="Protestan"><i>Protestan</i><par n="Agustus__n"/></e>
-    <e lm="Sabtu"><i>Sabtu</i><par n="Agustus__n"/></e>
     <e lm="Sanskerta"><i>Sanskerta</i><par n="Agustus__n"/></e>
     <e lm="Selatan"><i>Selatan</i><par n="Agustus__n"/></e>
-    <e lm="Senin"><i>Senin</i><par n="Agustus__n"/></e>
-    <e lm="September"><i>September</i><par n="Agustus__n"/></e>
     <e lm="Tuhan"><i>Tuhan</i><par n="Agustus__n"/></e>
     <e lm="Yahudi"><i>Yahudi</i><par n="Agustus__n"/></e>
+    
+    <e lm="Januari"><i>Januari</i><par n="Agustus__n"/></e>
+    <e lm="Februari"><i>Februari</i><par n="Agustus__n"/></e>
+    <e lm="Maret"><i>Maret</i><par n="Agustus__n"/></e>
+    <e lm="April"><i>April</i><par n="Agustus__n"/></e>
+    <e lm="Mei"><i>Mei</i><par n="Agustus__n"/></e>
+    <e lm="Juni"><i>Juni</i><par n="Agustus__n"/></e>
+    <e lm="Juli"><i>Juli</i><par n="Agustus__n"/></e>
+    <e lm="Agustus"><i>Agustus</i><par n="Agustus__n"/></e>
+    <e lm="September"><i>September</i><par n="Agustus__n"/></e>
+    <e lm="Oktober"><i>Oktober</i><par n="Agustus__n"/></e>
+    <e lm="November"><i>November</i><par n="Agustus__n"/></e>
+    <e lm="Desember"><i>Desember</i><par n="Agustus__n"/></e>
 
+    <e lm="Minggu"><i>Minggu</i><par n="Agustus__n"/></e>
+    <e lm="Senin"><i>Senin</i><par n="Agustus__n"/></e>
+    <e lm="Selasa"><i>Selasa</i><par n="Agustus__n"/></e>
+    <e lm="Rabu"><i>Rabu</i><par n="Agustus__n"/></e>
+    <e lm="Kamis"><i>Kamis</i><par n="Agustus__n"/></e>
+    <e lm="Jumat"><i>Jumat</i><par n="Agustus__n"/></e>
+    <e lm="Sabtu"><i>Sabtu</i><par n="Agustus__n"/></e>
+    
     <e lm="bandar udara"><i>bandar<b/>udara</i><par n="gula-gula/__n"/></e>
     <e lm="cumi-cumi"><i>cumi-cumi</i><par n="gula-gula/__n"/></e>
     <e lm="gula-gula"><i>gula-gula</i><par n="gula-gula/__n"/></e>
@@ -4534,7 +4539,6 @@
     <e lm="kamerad"><i>kamerad</i><par n="abad/__n" prm="kamerad"/></e>
     <e lm="kamerawan"><i>kamerawan</i><par n="abad/__n" prm="kamerawan"/></e>
     <e lm="kamikaze"><i>kamikaze</i><par n="abad/__n" prm="kamikaze"/></e>
-    <e lm="kamis"><i>kamis</i><par n="abad/__n" prm="kamis"/></e>
     <e lm="kamp"><i>kamp</i><par n="abad/__n" prm="kamp"/></e>
     <e lm="kampanye"><i>kampanye</i><par n="abad/__n" prm="kampanye"/></e>
     <e lm="kampas"><i>kampas</i><par n="abad/__n" prm="kampas"/></e>
@@ -5748,6 +5752,7 @@
     <e lm="mimosa"><i>mimosa</i><par n="abad/__n" prm="mimosa"/></e>
     <e lm="minat"><i>minat</i><par n="abad/__n" prm="minat"/></e>
     <e lm="mineral"><i>mineral</i><par n="abad/__n" prm="mineral"/></e>
+    <e lm="minggu"><i>minggu</i><par n="abad/__n" prm="minggu"/></e>
     <e lm="miniatur"><i>miniatur</i><par n="abad/__n" prm="miniatur"/></e>
     <e lm="minimum"><i>minimum</i><par n="abad/__n" prm="minimum"/></e>
     <e lm="minor"><i>minor</i><par n="abad/__n" prm="minor"/></e>
@@ -8699,6 +8704,7 @@
     <e lm="kehendak"><i>kehendak</i><par n="abad/__n" prm="kehendak"/></e>
     <e lm="kekasih"><i>kekasih</i><par n="abad/__n" prm="kekasih"/></e>
     <e lm="kerangka"><i>kerangka</i><par n="abad/__n" prm="kerangka"/></e>
+    <e lm="miliar"><i>miliar</i><par n="abad/__n" prm="miliar"/></e>
     <e lm="milyar"><i>milyar</i><par n="abad/__n" prm="milyar"/></e>
 
     <!-- peN- -->
@@ -19082,6 +19088,7 @@
     <e lm="karena"><i>karena</i><par n="dari__pr"/></e>
     <e lm="ke"><i>ke</i><par n="dari__pr"/></e>
     <e lm="kepada"><i>kepada</i><par n="dari__pr"/></e>
+    <e lm="mengenai"><i>mengenai</i><par n="dari__pr"/></e>
     <e lm="oleh"><i>oleh</i><par n="dari__pr"/></e>
     <e lm="oleh karena"><i>oleh<b/>karena</i><par n="dari__pr"/></e>
     <e lm="pada"><i>pada</i><par n="dari__pr"/></e>
