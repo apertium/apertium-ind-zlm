@@ -1965,6 +1965,16 @@
     </e>
     </pardef>
     
+    <!-- ter- -->
+    <pardef n="terbaik__adj">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="ter"/></r>
+      </p>
+    </e>
+    </pardef>
+    
     <pardef n="ingin__adv">
     <e>
       <p>
@@ -18860,6 +18870,46 @@
     
     <!-- se- -->
     <e lm="banyak"><p><l>sebanyak</l><r>banyak</r></p><par n="sebanyak__adj"/></e>
+
+    <!-- ter- -->
+    <!-- Adj -> Adj -->
+    <e lm="adil"><p><l>teradil</l><r>adil</r></p><par n="terbaik__adj"/></e>
+    <e lm="alpa"><p><l>teralpa</l><r>alpa</r></p><par n="terbaik__adj"/></e>
+    <e lm="bagus"><p><l>terbagus</l><r>bagus</r></p><par n="terbaik__adj"/></e>
+    <e lm="baik"><p><l>terbaik</l><r>baik</r></p><par n="terbaik__adj"/></e>
+    <e lm="banyak"><p><l>terbanyak</l><r>banyak</r></p><par n="terbaik__adj"/></e>
+    <e lm="baru"><p><l>terbaru</l><r>baru</r></p><par n="terbaik__adj"/></e>
+    <e lm="benar"><p><l>terbenar</l><r>benar</r></p><par n="terbaik__adj"/></e>
+    <e lm="berak"><p><l>terberak</l><r>berak</r></p><par n="terbaik__adj"/></e>
+    <e lm="besar"><p><l>terbesar</l><r>besar</r></p><par n="terbaik__adj"/></e>
+    <e lm="cantik"><p><l>tercantik</l><r>cantik</r></p><par n="terbaik__adj"/></e>
+    <e lm="cemas"><p><l>tercemas</l><r>cemas</r></p><par n="terbaik__adj"/></e>
+    <e lm="condong"><p><l>tercondong</l><r>condong</r></p><par n="terbaik__adj"/></e>
+    <e lm="dekat"><p><l>terdekat</l><r>dekat</r></p><par n="terbaik__adj"/></e>
+    <e lm="enak"><p><l>terenak</l><r>enak</r></p><par n="terbaik__adj"/></e>
+    <e lm="hormat"><p><l>terhormat</l><r>hormat</r></p><par n="terbaik__adj"/></e>
+    <e lm="indah"><p><l>terindah</l><r>indah</r></p><par n="terbaik__adj"/></e>
+    <e lm="istimewa"><p><l>teristimewa</l><r>istimewa</r></p><par n="terbaik__adj"/></e>
+    <e lm="kaya"><p><l>terkaya</l><r>kaya</r></p><par n="terbaik__adj"/></e>
+    <e lm="laris"><p><l>terlaris</l><r>laris</r></p><par n="terbaik__adj"/></e>
+    <e lm="layak"><p><l>terlayak</l><r>layak</r></p><par n="terbaik__adj"/></e>
+    <e lm="lembut"><p><l>terlembut</l><r>lembut</r></p><par n="terbaik__adj"/></e>
+    <e lm="luang"><p><l>terluang</l><r>luang</r></p><par n="terbaik__adj"/></e>
+    <e lm="masyhur"><p><l>termasyhur</l><r>masyhur</r></p><par n="terbaik__adj"/></e>
+    <e lm="modern"><p><l>termodern</l><r>modern</r></p><par n="terbaik__adj"/></e>
+    <e lm="muda"><p><l>termuda</l><r>muda</r></p><par n="terbaik__adj"/></e>
+    <e lm="mulia"><p><l>termulia</l><r>mulia</r></p><par n="terbaik__adj"/></e>
+    <e lm="pintar"><p><l>terpintar</l><r>pintar</r></p><par n="terbaik__adj"/></e>
+    <e lm="ramai"><p><l>teramai</l><r>ramai</r></p><par n="terbaik__adj"/></e>
+    <e lm="sabar"><p><l>tersabar</l><r>sabar</r></p><par n="terbaik__adj"/></e>
+    <e lm="sedikit"><p><l>tersedikit</l><r>sedikit</r></p><par n="terbaik__adj"/></e>
+    <e lm="serat"><p><l>terserat</l><r>serat</r></p><par n="terbaik__adj"/></e>
+    <e lm="sergam"><p><l>tesergam</l><r>sergam</r></p><par n="terbaik__adj"/></e>
+    <e lm="silam"><p><l>tersilam</l><r>silam</r></p><par n="terbaik__adj"/></e>
+    <e lm="tentu"><p><l>tertentu</l><r>tentu</r></p><par n="terbaik__adj"/></e>
+    <e lm="tinggi"><p><l>tertinggi</l><r>tinggi</r></p><par n="terbaik__adj"/></e>
+    <e lm="utama"><p><l>terutama</l><r>utama</r></p><par n="terbaik__adj"/></e>
+    <!-- end Adj -> Adj -->
 
 <!-- Adverbs -->
     <e lm="acap kali"><i>acap<b/>kali</i><par n="ingin__adv"/></e>
