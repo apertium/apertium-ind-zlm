@@ -71,7 +71,7 @@
     <sdef n="nya"/>
     
     <!-- Reduplication -->
-    <sdef n="redup"/>
+    <sdef n="red"/>
 
     <!-- Alternative -->
     <sdef n="alt"/>
@@ -921,7 +921,7 @@
     <e>
       <p>
         <l>-<prm/></l>
-        <r><s n="vblex"/><s n="redup"/></r>
+        <r><s n="vblex"/><s n="red"/></r>
       </p>
     </e>
     </pardef>
@@ -936,7 +936,7 @@
     <e>
       <p>
         <l>-<prm/></l>
-        <r><s n="vblex"/><s n="redup"/></r>
+        <r><s n="vblex"/><s n="red"/></r>
       </p>
     </e>    
     <e>
