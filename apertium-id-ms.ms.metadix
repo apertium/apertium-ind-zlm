@@ -861,25 +861,77 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="ber"/><s n="sg"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>nya</l>
-        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="sg"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="ber"/><s n="sg"/><s n="nya"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>-<prm/></l>
-        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="ber"/><s n="pl"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>-<prm/>nya</l>
-        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="ber"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="kependiaman/__vblex">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="peN"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="peN"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="peN"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="peN"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="ketertinggalan/__vblex">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="ter"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="ter"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="ter"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="vblex"/><s n="n"/><s n="ke-an"/><s n="ter"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -906,6 +958,84 @@
       <p>
         <l>-<prm/>nya</l>
         <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="keterlambatan/__adj">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="ter"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="ter"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="ter"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="ter"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="keberjayaan/__adj">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="ber"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="ber"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="ber"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="ber"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="kepemudaan/__adj">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="peN"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="peN"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="peN"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="peN"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -7819,7 +7949,6 @@
     <e lm="dinamis"><p><l>pendinamis</l><r>dinamis</r></p><par n="pembohong/__adj" prm="pendinamis"/></e>
     <e lm="dusta"><p><l>pendusta</l><r>dusta</r></p><par n="pembohong/__adj" prm="pendusta"/></e>
     <e lm="gaduh"><p><l>penggaduh</l><r>gaduh</r></p><par n="pembohong/__adj" prm="penggaduh"/></e>
-    <e lm="galak"><p><l>penggalak</l><r>galak</r></p><par n="pembohong/__adj" prm="penggalak"/></e>
     <e lm="ganas"><p><l>pengganas</l><r>ganas</r></p><par n="pembohong/__adj" prm="pengganas"/></e>
     <e lm="garang"><p><l>penggarang</l><r>garang</r></p><par n="pembohong/__adj" prm="penggarang"/></e>
     <e lm="gede"><p><l>penggede</l><r>gede</r></p><par n="pembohong/__adj" prm="penggede"/></e>
@@ -8300,7 +8429,7 @@
     <e lm="perlu"><p><l>keperluan</l><r>perlu</r></p><par n="kebakaran/__vblex"/></e>
     <e lm="wajip"><p><l>kewajipan</l><r>wajip</r></p><par n="kebakaran/__vblex"/></e>
     
-    <e lm="lihat"><p><l>keterlihatan</l><r>lihat</r></p><par n="keberadaan/__vblex"/></e>
+    <e lm="lihat"><p><l>keterlihatan</l><r>lihat</r></p><par n="ketertinggalan/__vblex"/></e>
     
     <!-- Adj -> N -->
     <e lm="abadi"><p><l>keabadian</l><r>abadi</r></p><par n="keabadian/__adj" prm="keabadian"/></e>
@@ -9732,6 +9861,27 @@
     <e lm="usir"><p><l>mengusir</l><r>usir</r></p><par n="mengabsen/__vblex" prm="usir"/></e>
     <e lm="usung"><p><l>mengusung</l><r>usung</r></p><par n="mengabsen/__vblex" prm="usung"/></e>
     <e lm="utus"><p><l>mengutus</l><r>utus</r></p><par n="mengabsen/__vblex" prm="utus"/></e>
+    
+    <e lm="labur"><p><l>melabur</l><r>labur</r></p><par n="mengabsen/__vblex" prm="labur"/></e>
+    <e lm="langkau"><p><l>melangkau</l><r>langkau</r></p><par n="mengabsen/__vblex" prm="langkau"/></e>
+    <e lm="banteras"><p><l>membanteras</l><r>banteras</r></p><par n="mengabsen/__vblex" prm="banteras"/></e>
+    <e lm="taip"><p><l>menaip</l><r>taip</r></p><par n="mengabsen/__vblex" prm="taip"/></e>
+    <e lm="dakap"><p><l>mendakap</l><r>dakap</r></p><par n="mengabsen/__vblex" prm="dakap"/></e>
+    <e lm="tengadah"><p><l>menengadah</l><r>tengadah</r></p><par n="mengabsen/__vblex" prm="tengadah"/></e>
+    <e lm="terjah"><p><l>menerjah</l><r>terjah</r></p><par n="mengabsen/__vblex" prm="terjah"/></e>
+    <e lm="hakis"><p><l>mengakis</l><r>hakis</r></p><par n="mengabsen/__vblex" prm="hakis"/></e>
+    <e lm="anjur"><p><l>menganjur</l><r>anjur</r></p><par n="mengabsen/__vblex" prm="anjur"/></e>
+    <e lm="gelincir"><p><l>menggelincir</l><r>gelincir</r></p><par n="mengabsen/__vblex" prm="gelincir"/></e>
+    <e lm="gentel"><p><l>menggentel</l><r>gentel</r></p><par n="mengabsen/__vblex" prm="gentel"/></e>
+    <e lm="gesel"><p><l>menggesel</l><r>gesel</r></p><par n="mengabsen/__vblex" prm="gesel"/></e>
+    <e lm="hentam"><p><l>menghentam</l><r>hentam</r></p><par n="mengabsen/__vblex" prm="hentam"/></e>
+    <e lm="isih"><p><l>mengisih</l><r>isih</r></p><par n="mengabsen/__vblex" prm="isih"/></e>
+    <e lm="kumpul"><p><l>mengumpul</l><r>kumpul</r></p><par n="mengabsen/__vblex" prm="kumpul"/></e>
+    <e lm="sedut"><p><l>menyedut</l><r>sedut</r></p><par n="mengabsen/__vblex" prm="sedut"/></e>
+    <e lm="selit"><p><l>menyelit</l><r>selit</r></p><par n="mengabsen/__vblex" prm="selit"/></e>
+    <e lm="semak"><p><l>menyemak</l><r>semak</r></p><par n="mengabsen/__vblex" prm="semak"/></e>
+    <e lm="sinsing"><p><l>menyinsing</l><r>sinsing</r></p><par n="mengabsen/__vblex" prm="sinsing"/></e>
+    <e lm="ragut"><p><l>meragut</l><r>ragut</r></p><par n="mengabsen/__vblex" prm="ragut"/></e>
     <!-- -i -->
     <e lm="arung"><p><l>mengarung</l><r>arung</r></p><par n="mengarung/i__vblex" prm="arung"/></e>
     <e lm="benah"><p><l>membenah</l><r>benah</r></p><par n="mengarung/i__vblex" prm="benah"/></e>
@@ -9750,6 +9900,10 @@
     <e lm="tanggulang"><p><l>menanggulang</l><r>tanggulang</r></p><par n="mengarung/i__vblex" prm="tanggulang"/></e>
     <e lm="tembus"><p><l>menembus</l><r>tembus</r></p><par n="mengarung/i__vblex" prm="tembus"/></e>
     <e lm="urus"><p><l>mengurus</l><r>urus</r></p><par n="mengarung/i__vblex" prm="urus"/></e>
+    
+    <e lm="harung"><p><l>mengharung</l><r>harung</r></p><par n="mengarung/i__vblex" prm="harung"/></e>
+    <e lm="jangkit"><p><l>menjangkit</l><r>jangkit</r></p><par n="mengarung/i__vblex" prm="jangkit"/></e>
+    <e lm="rangkum"><p><l>merangkum</l><r>rangkum</r></p><par n="mengarung/i__vblex" prm="rangkum"/></e>
     <!-- no suffix, -i -->
     <e lm="angkut"><p><l>mengangkut</l><r>angkut</r></p><par n="mengangkut/__vblex" prm="angkut"/></e>
     <e lm="anut"><p><l>menganut</l><r>anut</r></p><par n="mengangkut/__vblex" prm="anut"/></e>
@@ -9851,6 +10005,19 @@
     <e lm="undang"><p><l>mengundang</l><r>undang</r></p><par n="mengacuh/kan__vblex" prm="undang"/></e>
     <e lm="urung"><p><l>mengurung</l><r>urung</r></p><par n="mengacuh/kan__vblex" prm="urung"/></e>
     <e lm="wajib"><p><l>mewajib</l><r>wajib</r></p><par n="mengacuh/kan__vblex" prm="wajib"/></e>
+    
+    <e lm="leding"><p><l>meleding</l><r>leding</r></p><par n="mengacuh/kan__vblex" prm="leding"/></e>
+    <e lm="mansuh"><p><l>memansuh</l><r>mansuh</r></p><par n="mengacuh/kan__vblex" prm="mansuh"/></e>
+    <e lm="papar"><p><l>memapar</l><r>papar</r></p><par n="mengacuh/kan__vblex" prm="papar"/></e>
+    <e lm="perlu"><p><l>memerlu</l><r>perlu</r></p><par n="mengacuh/kan__vblex" prm="perlu"/></e>
+    <e lm="pamer"><p><l>mempamer</l><r>pamer</r></p><par n="mengacuh/kan__vblex" prm="pamer"/></e>
+    <e lm="tambat"><p><l>menambat</l><r>tambat</r></p><par n="mengacuh/kan__vblex" prm="tambat"/></e>
+    <e lm="tampal"><p><l>menampal</l><r>tampal</r></p><par n="mengacuh/kan__vblex" prm="tampal"/></e>
+    <e lm="kahwin"><p><l>mengahwin</l><r>kahwin</r></p><par n="mengacuh/kan__vblex" prm="kahwin"/></e>
+    <e lm="endah"><p><l>mengendah</l><r>endah</r></p><par n="mengacuh/kan__vblex" prm="endah"/></e>
+    <e lm="ganding"><p><l>mengganding</l><r>ganding</r></p><par n="mengacuh/kan__vblex" prm="ganding"/></e>
+    <e lm="titis"><p><l>menitis</l><r>titis</r></p><par n="mengacuh/kan__vblex" prm="titis"/></e>
+    <e lm="jelir"><p><l>menjelir</l><r>jelir</r></p><par n="mengacuh/kan__vblex" prm="jelir"/></e>
     <!-- no suffix, -kan -->
     <e lm="acu"><p><l>mengacu</l><r>acu</r></p><par n="mengacung/__vblex" prm="acu"/></e>
     <e lm="adu"><p><l>mengadu</l><r>adu</r></p><par n="mengacung/__vblex" prm="adu"/></e>
@@ -10032,6 +10199,10 @@
     <e lm="ubah"><p><l>mengubah</l><r>ubah</r></p><par n="mengacung/__vblex" prm="ubah"/></e>
     <e lm="urut"><p><l>mengurut</l><r>urut</r></p><par n="mengacung/__vblex" prm="urut"/></e>
     <e lm="usai"><p><l>mengusai</l><r>usai</r></p><par n="mengacung/__vblex" prm="usai"/></e>
+
+    <e lm="pesong"><p><l>memesong</l><r>pesong</r></p><par n="mengacung/__vblex" prm="pesong"/></e>
+    <e lm="dedah"><p><l>mendedah</l><r>dedah</r></p><par n="mengacung/__vblex" prm="dedah"/></e>
+    <e lm="hulur"><p><l>menghulur</l><r>hulur</r></p><par n="mengacung/__vblex" prm="hulur"/></e>
     <!-- -i, -kan -->
     <e lm="awas"><p><l>mengawas</l><r>awas</r></p><par n="mengawas/i__vblex" prm="awas"/></e>
     <e lm="diam"><p><l>mendiam</l><r>diam</r></p><par n="mengawas/i__vblex" prm="diam"/></e>
@@ -10600,6 +10771,26 @@
     <e lm="vaksinasi"><p><l>memvaksinasi</l><r>vaksinasi</r></p><par n="mengadopsi/__n" prm="vaksinasi"/></e>
     <e lm="veto"><p><l>memveto</l><r>veto</r></p><par n="mengadopsi/__n" prm="veto"/></e>
     <e lm="zarah"><p><l>menzarah</l><r>zarah</r></p><par n="mengadopsi/__n" prm="zarah"/></e>
+    
+    <e lm="bekal"><p><l>membekal</l><r>bekal</r></p><par n="mengadopsi/__n" prm="bekal"/></e>
+    <e lm="berus"><p><l>memberus</l><r>berus</r></p><par n="mengadopsi/__n" prm="berus"/></e>
+    <e lm="brek"><p><l>membrek</l><r>brek</r></p><par n="mengadopsi/__n" prm="brek"/></e>
+    <e lm="cemuh"><p><l>mencemuh</l><r>cemuh</r></p><par n="mengadopsi/__n" prm="cemuh"/></e>
+    <e lm="darab"><p><l>mendarab</l><r>darab</r></p><par n="mengadopsi/__n" prm="darab"/></e>
+    <e lm="eksport"><p><l>mengeksport</l><r>eksport</r></p><par n="mengadopsi/__n" prm="eksport"/></e>
+    <e lm="herdik"><p><l>mengherdik</l><r>herdik</r></p><par n="mengadopsi/__n" prm="herdik"/></e>
+    <e lm="hiris"><p><l>menghiris</l><r>hiris</r></p><par n="mengadopsi/__n" prm="hiris"/></e>
+    <e lm="kucup"><p><l>mengucup</l><r>kucup</r></p><par n="mengadopsi/__n" prm="kucup"/></e>
+    <e lm="lakar"><p><l>melakar</l><r>lakar</r></p><par n="mengadopsi/__n" prm="lakar"/></e>
+    <e lm="ngiau"><p><l>mengiau</l><r>ngiau</r></p><par n="mengadopsi/__n" prm="ngiau"/></e>
+    <e lm="pam"><p><l>mengepam</l><r>pam</r></p><par n="mengadopsi/__n" prm="pam"/></e>
+    <e lm="perangkap"><p><l>memerangkap</l><r>perangkap</r></p><par n="mengadopsi/__n" prm="perangkap"/></e>
+    <e lm="seksa"><p><l>menyeksa</l><r>seksa</r></p><par n="mengadopsi/__n" prm="seksa"/></e>
+    <e lm="servis"><p><l>menservis</l><r>servis</r></p><par n="mengadopsi/__n" prm="servis"/></e>
+    <e lm="taja"><p><l>menaja</l><r>taja</r></p><par n="mengadopsi/__n" prm="taja"/></e>
+    <e lm="tanda"><p><l>menanda</l><r>tanda</r></p><par n="mengadopsi/__n" prm="tanda"/></e>
+    <e lm="telefon"><p><l>menelefon</l><r>telefon</r></p><par n="mengadopsi/__n" prm="telefon"/></e>
+    <e lm="temubual"><p><l>menemubual</l><r>temubual</r></p><par n="mengadopsi/__n" prm="temubual"/></e>
     <!-- -i -->
     <e lm="adab"><p><l>mengadab</l><r>adab</r></p><par n="mengair/i__n" prm="adab"/></e>
     <e lm="agen"><p><l>mengagen</l><r>agen</r></p><par n="mengair/i__n" prm="agen"/></e>
@@ -10692,6 +10883,9 @@
     <e lm="wilayah"><p><l>mewilayah</l><r>wilayah</r></p><par n="mengair/i__n" prm="wilayah"/></e>
     <e lm="ziarah"><p><l>menziarah</l><r>ziarah</r></p><par n="mengair/i__n" prm="ziarah"/></e>
     <e lm="zina"><p><l>menzina</l><r>zina</r></p><par n="mengair/i__n" prm="zina"/></e>
+    
+    <e lm="ekor"><p><l>mengekori</l><r>ekor</r></p><par n="mengair/i__n" prm="ekor"/></e>
+    <e lm="ubat"><p><l>mengubati</l><r>ubat</r></p><par n="mengair/i__n" prm="ubat"/></e>
     <!-- no suffix, -i -->
     <e lm="aniaya"><p><l>menganiaya</l><r>aniaya</r></p><par n="membatas/__n" prm="aniaya"/></e>
     <e lm="antara"><p><l>mengantara</l><r>antara</r></p><par n="membatas/__n" prm="antara"/></e>
@@ -11051,6 +11245,29 @@
     <e lm="wasiat"><p><l>mewasiat</l><r>wasiat</r></p><par n="mengakibat/kan__n" prm="wasiat"/></e>
     <e lm="wayang"><p><l>mewayang</l><r>wayang</r></p><par n="mengakibat/kan__n" prm="wayang"/></e>
     <e lm="wisma"><p><l>mewisma</l><r>wisma</r></p><par n="mengakibat/kan__n" prm="wisma"/></e>
+    
+    <e lm="andai"><p><l>mengandai</l><r>andai</r></p><par n="mengakibat/kan__n" prm="andai"/></e>
+    <e lm="arkib"><p><l>mengarkib</l><r>arkib</r></p><par n="mengakibat/kan__n" prm="arkib"/></e>
+    <e lm="bengkok"><p><l>membengkok</l><r>bengkok</r></p><par n="mengakibat/kan__n" prm="bengkok"/></e>
+    <e lm="beza"><p><l>membeza</l><r>beza</r></p><par n="mengakibat/kan__n" prm="beza"/></e>
+    <e lm="bumi"><p><l>mengebumi</l><r>bumi</r></p><par n="mengakibat/kan__n" prm="bumi"/></e>
+    <e lm="deposit"><p><l>mendeposit</l><r>deposit</r></p><par n="mengakibat/kan__n" prm="deposit"/></e>
+    <e lm="ghairah"><p><l>mengghairah</l><r>ghairah</r></p><par n="mengakibat/kan__n" prm="ghairah"/></e>
+    <e lm="had"><p><l>mengehad</l><r>had</r></p><par n="mengakibat/kan__n" prm="had"/></e>
+    <e lm="jadual"><p><l>menjadual</l><r>jadual</r></p><par n="mengakibat/kan__n" prm="jadual"/></e>
+    <e lm="khabar"><p><l>mengkhabar</l><r>khabar</r></p><par n="mengakibat/kan__n" prm="khabar"/></e>
+    <e lm="kristian"><p><l>mengkristian</l><r>kristian</r></p><par n="mengakibat/kan__n" prm="kristian"/></e>
+    <e lm="laung"><p><l>melaung</l><r>laung</r></p><par n="mengakibat/kan__n" prm="laung"/></e>
+    <e lm="oksida"><p><l>mengoksida</l><r>oksida</r></p><par n="mengakibat/kan__n" prm="oksida"/></e>
+    <e lm="pancut"><p><l>memancut</l><r>pancut</r></p><par n="mengakibat/kan__n" prm="pancut"/></e>
+    <e lm="pandang"><p><l>memandang</l><r>pandang</r></p><par n="mengakibat/kan__n" prm="pandang"/></e>
+    <e lm="rahsia"><p><l>merahsia</l><r>rahsia</r></p><par n="mengakibat/kan__n" prm="rahsia"/></e>
+    <e lm="serlah"><p><l>menyerlah</l><r>serlah</r></p><par n="mengakibat/kan__n" prm="serlah"/></e>
+    <e lm="standard"><p><l>menstandard</l><r>standard</r></p><par n="mengakibat/kan__n" prm="standard"/></e>
+    <e lm="struktur"><p><l>mengstruktur</l><r>struktur</r></p><par n="mengakibat/kan__n" prm="struktur"/></e>
+    <e lm="sumbat"><p><l>menyumbat</l><r>sumbat</r></p><par n="mengakibat/kan__n" prm="sumbat"/></e>
+    <e lm="syarah"><p><l>mensyarah</l><r>syarah</r></p><par n="mengakibat/kan__n" prm="syarah"/></e>
+    <e lm="tepi"><p><l>mengetepi</l><r>tepi</r></p><par n="mengakibat/kan__n" prm="tepi"/></e>
     <!-- no suffix, -kan -->
     <e lm="abdi"><p><l>mengabdi</l><r>abdi</r></p><par n="mengabdi/__n" prm="abdi"/></e>
     <e lm="abjad"><p><l>mengabjad</l><r>abjad</r></p><par n="mengabdi/__n" prm="abjad"/></e>
@@ -11529,6 +11746,10 @@
     <e lm="tampan"><p><l>menampan</l><r>tampan</r></p><par n="mengacak/__adj" prm="tampan"/></e>
     <e lm="teliti"><p><l>meneliti</l><r>teliti</r></p><par n="mengacak/__adj" prm="teliti"/></e>
     <e lm="usang"><p><l>mengusang</l><r>usang</r></p><par n="mengacak/__adj" prm="usang"/></e>
+    
+    <e lm="cabar"><p><l>mencabar</l><r>cabar</r></p><par n="mengacak/__adj" prm="cabar"/></e>
+    <e lm="kekal"><p><l>mengekal</l><r>kekal</r></p><par n="mengacak/__adj" prm="kekal"/></e>
+    <e lm="tegak"><p><l>menegak</l><r>tegak</r></p><par n="mengacak/__adj" prm="tegak"/></e>
     <!-- -i -->
     <e lm="adil"><p><l>mengadil</l><r>adil</r></p><par n="mengadil/i__adj" prm="adil"/></e>
     <e lm="biadab"><p><l>membiadab</l><r>biadab</r></p><par n="mengadil/i__adj" prm="biadab"/></e>
@@ -11555,6 +11776,8 @@
     <e lm="serius"><p><l>menyerius</l><r>serius</r></p><par n="mengadil/i__adj" prm="serius"/></e>
     <e lm="taat"><p><l>menaat</l><r>taat</r></p><par n="mengadil/i__adj" prm="taat"/></e>
     <e lm="unggul"><p><l>mengunggul</l><r>unggul</r></p><par n="mengadil/i__adj" prm="unggul"/></e>
+    
+    <e lm="kabur"><p><l>mengabur</l><r>kabur</r></p><par n="mengadil/i__adj" prm="kabur"/></e>
     <!-- no suffix, -i -->
     <e lm="bengis"><p><l>membengis</l><r>bengis</r></p><par n="menghormat/__adj" prm="bengis"/></e>
     <e lm="berang"><p><l>memberang</l><r>berang</r></p><par n="menghormat/__adj" prm="berang"/></e>
@@ -11800,6 +12023,18 @@
     <e lm="utuh"><p><l>mengutuh</l><r>utuh</r></p><par n="mengabsah/kan__adj" prm="utuh"/></e>
     <e lm="visual"><p><l>memvisual</l><r>visual</r></p><par n="mengabsah/kan__adj" prm="visual"/></e>
     <e lm="vital"><p><l>memvital</l><r>vital</r></p><par n="mengabsah/kan__adj" prm="vital"/></e>
+    
+    <e lm="padan"><p><l>memadan</l><r>padan</r></p><par n="mengabsah/kan__adj" prm="padan"/></e>
+    <e lm="penuh"><p><l>memenuh</l><r>penuh</r></p><par n="mengabsah/kan__adj" prm="penuh"/></e>
+    <e lm="moden"><p><l>memoden</l><r>moden</r></p><par n="mengabsah/kan__adj" prm="moden"/></e>
+    <e lm="gerun"><p><l>menggerun</l><r>gerun</r></p><par n="mengabsah/kan__adj" prm="gerun"/></e>
+    <e lm="goncang"><p><l>menggoncang</l><r>goncang</r></p><par n="mengabsah/kan__adj" prm="goncang"/></e>
+    <e lm="hairan"><p><l>menghairan</l><r>hairan</r></p><par n="mengabsah/kan__adj" prm="hairan"/></e>
+    <e lm="jimat"><p><l>menjimat</l><r>jimat</r></p><par n="mengabsah/kan__adj" prm="jimat"/></e>
+    <e lm="sihat"><p><l>menyihat</l><r>sihat</r></p><par n="mengabsah/kan__adj" prm="sihat"/></e>
+    <e lm="rasmi"><p><l>merasmi</l><r>rasmi</r></p><par n="mengabsah/kan__adj" prm="rasmi"/></e>
+    <e lm="rosak"><p><l>merosak</l><r>rosak</r></p><par n="mengabsah/kan__adj" prm="rosak"/></e>
+    <e lm="runsing"><p><l>merunsing</l><r>runsing</r></p><par n="mengabsah/kan__adj" prm="runsing"/></e>
     <!-- no suffix, -kan -->
     <e lm="abadi"><p><l>mengabadi</l><r>abadi</r></p><par n="mengabadi/__adj" prm="abadi"/></e>
     <e lm="ampuh"><p><l>mengampuh</l><r>ampuh</r></p><par n="mengabadi/__adj" prm="ampuh"/></e>
@@ -11966,6 +12201,8 @@
     <e lm="tekun"><p><l>menekun</l><r>tekun</r></p><par n="membaru/i__adj" prm="tekun"/></e>
     <e lm="waspada"><p><l>mewaspada</l><r>waspada</r></p><par n="membaru/i__adj" prm="waspada"/></e>
     <e lm="yakin"><p><l>meyakin</l><r>yakin</r></p><par n="membaru/i__adj" prm="yakin"/></e>
+    
+    <e lm="sedar"><p><l>menyedar</l><r>sedar</r></p><par n="membaru/i__adj" prm="sedar"/></e>
     <!-- no suffix, -i, -kan -->
     <e lm="alah"><p><l>mengalah</l><r>alah</r></p><par n="mengalah/__adj" prm="alah"/></e>
     <e lm="baik"><p><l>membaik</l><r>baik</r></p><par n="mengalah/__adj" prm="baik"/></e>
@@ -13506,9 +13743,22 @@
     
     <!-- memper- -->
     <!-- N -> V -->
+    <!-- -kan -->
     <e lm="bahasa"><p><l>memperbahasa</l><r>bahasa</r></p><par n="memperanak/kan__n"/></e>
     <e lm="guna"><p><l>memperguna</l><r>guna</r></p><par n="memperanak/kan__n"/></e>
     
+    <e lm="alat"><p><l>memperalat</l><r>alat</r></p><par n="memperanak/kan__n"/></e>
+    <e lm="hamba"><p><l>memperhamba</l><r>hamba</r></p><par n="memperanak/kan__n"/></e>
+    <e lm="isteri"><p><l>memperisteri</l><r>isteri</r></p><par n="memperanak/kan__n"/></e>
+    
+    <!-- Adj -> V -->
+    <!-- -kan -->
+    <e lm="cepat"><p><l>mempercepat</l><r>cepat</r></p><par n="mempergembira/kan__adj"/></e>
+    <e lm="elok"><p><l>memperelok</l><r>elok</r></p><par n="mempergembira/kan__adj"/></e>
+    <e lm="hebat"><p><l>memperhebat</l><r>hebat</r></p><par n="mempergembira/kan__adj"/></e>
+    <e lm="jelas"><p><l>memperjelas</l><r>jelas</r></p><par n="mempergembira/kan__adj"/></e>
+    <e lm="teguh"><p><l>memperteguh</l><r>teguh</r></p><par n="mempergembira/kan__adj"/></e>
+
 <!-- Adjectives -->
     <e lm="abadi"><i>abadi</i><par n="baik__adj"/></e>
     <e lm="abnormal"><i>abnormal</i><par n="baik__adj"/></e>
@@ -14119,6 +14369,7 @@
     <e lm="mentah"><i>mentah</i><par n="baik__adj"/></e>
     <e lm="mental"><i>mental</i><par n="baik__adj"/></e>
     <e lm="merana"><i>merana</i><par n="baik__adj"/></e>
+    <e lm="merbahaya"><i>merbahaya</i><par n="baik__adj"/></e>
     <e lm="merdeka"><i>merdeka</i><par n="baik__adj"/></e>
     <e lm="merdu"><i>merdu</i><par n="baik__adj"/></e>
     <e lm="mesra"><i>mesra</i><par n="baik__adj"/></e>
@@ -14712,6 +14963,7 @@
     <e lm="jarang"><i>jarang</i><par n="ingin__adv"/></e>
     <e lm="jua"><i>jua</i><par n="ingin__adv"/></e>
     <e lm="juga"><i>juga</i><par n="ingin__adv"/></e>
+    <e lm="justeru"><i>justeru</i><par n="ingin__adv"/></e>
     <e lm="kadang-kadang"><i>kadang-kadang</i><par n="ingin__adv"/></e>
     <e lm="kadang"><i>kadang</i><par n="ingin__adv"/></e>
     <e lm="ke mana-mana"><i>ke<b/>mana-mana</i><par n="ingin__adv"/></e>
@@ -14749,6 +15001,7 @@
     <e lm="mungkin"><i>mungkin</i><par n="ingin__adv"/></e>
     <e lm="nak"><i>nak</i><par n="ingin__adv"/></e>
     <e lm="nanti"><i>nanti</i><par n="ingin__adv"/></e>
+    <e lm="nescaya"><i>nescaya</i><par n="ingin__adv"/></e>
     <e lm="nian"><i>nian</i><par n="ingin__adv"/></e>
     <e lm="percuma"><i>percuma</i><par n="ingin__adv"/></e>
     <e lm="perlu"><i>perlu</i><par n="ingin__adv"/></e>
