@@ -17,7 +17,6 @@
     <sdef n="cnjcoo"/>
     <sdef n="cnjsub"/>
     <sdef n="cnjadv"/>
-    <sdef n="sent"/>
     <sdef n="part"/>
     
     <!-- Gender -->
@@ -55,8 +54,10 @@
     <sdef n="ber"/>
     <sdef n="i"/>
     <sdef n="kan"/>
-    <sdef n="ke"/>
     <sdef n="ke-an"/>
+    <sdef n="ke"/>
+    <sdef n="pe-an"/>
+    <sdef n="pe"/>
     <sdef n="peN-an"/>
     <sdef n="peN"/>
     <sdef n="per-an"/>
@@ -87,14 +88,110 @@
     <sdef n="pos"/>
     <sdef n="rel"/>
     <sdef n="ind"/>
+    
+    <sdef n="sent"/>
+    <sdef n="cm"/> 
+    <sdef n="lpar"/> 
+    <sdef n="rpar"/> 
+    <sdef n="lquest"/> 
+    <sdef n="apos"/> 
+    <sdef n="percent"/>
+    <sdef n="guio"/>
   </sdefs>
   <pardefs>
+    <pardef n="guionet">
+    <e>
+      <p>
+        <l>-</l>
+        <r>-<s n="guio"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="coma">
+    <e>
+      <p>
+        <l>,</l>
+        <r>,<s n="cm"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="aposchar">
+    <e>
+        <i>'</i>
+    </e>
+    <e r="LR">
+      <p>
+        <l>’</l>
+        <r>'</r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="cometa">
+    <e>
+        <par n="aposchar"/> 
+      <p>
+        <l></l>
+        <r><s n="apos"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="numeros">
+    <e>
+      <re>[0-9]+([.,][0-9]+)?</re>
+      <p>
+        <l></l>
+        <r><s n="num"/></r>
+      </p>
+    </e>
+    <e>
+      <re>[0-9]+([.,][0-9]+)?%</re>
+      <p>
+        <l></l>
+        <r><s n="num"/><s n="percent"/></r>
+      </p>
+    </e>
+    </pardef>
+    
     <pardef n="separa">
     <e>
       <re>[.\?;:!]</re>
       <p>
         <l></l>
         <r><s n="sent"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="separ">
+    <e>
+      <re>[¿¡]</re>
+      <p>
+        <l></l>
+        <r><s n="lquest"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="paresq">
+    <e>
+      <re>[\(\[]</re>
+      <p>
+        <l></l>
+        <r><s n="lpar"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="pardret">
+    <e>
+      <re>[\)\]]</re>
+      <p>
+        <l></l>
+        <r><s n="rpar"/></r>
       </p>
     </e>
     </pardef>
@@ -481,30 +578,30 @@
     </e>
     </pardef>
     
-    <!-- peN- alternatives -->
+    <!-- pe- -->
     <pardef n="petinju/__n">
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN"/><s n="alt"/><s n="sg"/></r>
+        <r><s n="n"/><s n="pe"/><s n="sg"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>nya</l>
-        <r><s n="n"/><s n="peN"/><s n="alt"/><s n="sg"/><s n="nya"/></r>
+        <r><s n="n"/><s n="pe"/><s n="sg"/><s n="nya"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>-<prm/></l>
-        <r><s n="n"/><s n="peN"/><s n="alt"/><s n="pl"/></r>
+        <r><s n="n"/><s n="pe"/><s n="pl"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>-<prm/>nya</l>
-        <r><s n="n"/><s n="peN"/><s n="alt"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="pe"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -512,25 +609,25 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="n"/><s n="peN"/><s n="alt"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="n"/><s n="pe"/><s n="sg"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>nya</l>
-        <r><s n="vblex"/><s n="n"/><s n="peN"/><s n="alt"/><s n="sg"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="n"/><s n="pe"/><s n="sg"/><s n="nya"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>-<prm/></l>
-        <r><s n="vblex"/><s n="n"/><s n="peN"/><s n="alt"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="n"/><s n="pe"/><s n="pl"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>-<prm/>nya</l>
-        <r><s n="vblex"/><s n="n"/><s n="peN"/><s n="alt"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="n"/><s n="pe"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -538,25 +635,25 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="n"/><s n="peN"/><s n="alt"/><s n="sg"/></r>
+        <r><s n="adj"/><s n="n"/><s n="pe"/><s n="sg"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>nya</l>
-        <r><s n="adj"/><s n="n"/><s n="peN"/><s n="alt"/><s n="sg"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="n"/><s n="pe"/><s n="sg"/><s n="nya"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>-<prm/></l>
-        <r><s n="adj"/><s n="n"/><s n="peN"/><s n="alt"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="n"/><s n="pe"/><s n="pl"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>-<prm/>nya</l>
-        <r><s n="adj"/><s n="n"/><s n="peN"/><s n="alt"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="n"/><s n="pe"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -939,25 +1036,25 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="sg"/></r>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="se"/><s n="sg"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>nya</l>
-        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="sg"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="se"/><s n="sg"/><s n="nya"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>-<prm/></l>
-        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="se"/><s n="pl"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>-<prm/>nya</l>
-        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="alt"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="n"/><s n="ke-an"/><s n="se"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1116,6 +1213,192 @@
       <p>
         <l>-<prm/>nya</l>
         <r><s n="adj"/><s n="n"/><s n="peN-an"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <!-- peN-an variations -->
+    <pardef n="pemercontohan/__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="peN-an"/><s n="per"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="n"/><s n="peN-an"/><s n="per"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="n"/><s n="peN-an"/><s n="per"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="n"/><s n="peN-an"/><s n="per"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="pemberlakuan/__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="peN-an"/><s n="ber"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="n"/><s n="peN-an"/><s n="ber"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="n"/><s n="peN-an"/><s n="ber"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="n"/><s n="peN-an"/><s n="ber"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="penertawaan/__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="peN-an"/><s n="ter"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="n"/><s n="peN-an"/><s n="ter"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="n"/><s n="peN-an"/><s n="ter"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="n"/><s n="peN-an"/><s n="ter"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>    
+    <pardef n="pemerataan/__adj">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="n"/><s n="peN-an"/><s n="per"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="peN-an"/><s n="per"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="adj"/><s n="n"/><s n="peN-an"/><s n="per"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="peN-an"/><s n="per"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <!-- pe-an -->
+    <pardef n="pejajaran/__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="pe-an"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="n"/><s n="pe-an"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="n"/><s n="pe-an"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="n"/><s n="pe-an"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="pegadaian/__vblex">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="vblex"/><s n="n"/><s n="pe-an"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="vblex"/><s n="n"/><s n="pe-an"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="vblex"/><s n="n"/><s n="pe-an"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="vblex"/><s n="n"/><s n="pe-an"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="pedalaman/__adj">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="n"/><s n="pe-an"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="pe-an"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="adj"/><s n="n"/><s n="pe-an"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="adj"/><s n="n"/><s n="pe-an"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -7275,11 +7558,15 @@
     <e lm="aransemen"><p><l>pengaransemen</l><r>aransemen</r></p><par n="pengusaha/__n" prm="pengaransemen"/></e>
     <e lm="arit"><p><l>pengarit</l><r>arit</r></p><par n="pengusaha/__n" prm="pengarit"/></e>
     <e lm="asas"><p><l>pengasas</l><r>asas</r></p><par n="pengusaha/__n" prm="pengasas"/></e>
+    <e lm="atas"><p><l>pengatas</l><r>atas</r></p><par n="pengusaha/__n" prm="pengatas"/></e>
+    <e lm="aturcara"><p><l>pengaturcara</l><r>aturcara</r></p><par n="pengusaha/__n" prm="pengaturcara"/></e>
     <e lm="audit"><p><l>pengaudit</l><r>audit</r></p><par n="pengusaha/__n" prm="pengaudit"/></e>
+    <e lm="ayun"><p><l>pengayun</l><r>ayun</r></p><par n="pengusaha/__n" prm="pengayun"/></e>
     <e lm="bajak"><p><l>pembajak</l><r>bajak</r></p><par n="pengusaha/__n" prm="pembajak"/></e>
     <e lm="balap"><p><l>pembalap</l><r>balap</r></p><par n="pengusaha/__n" prm="pembalap"/></e>
     <e lm="balut"><p><l>pembalut</l><r>balut</r></p><par n="pengusaha/__n" prm="pembalut"/></e>
     <e lm="banding"><p><l>pembanding</l><r>banding</r></p><par n="pengusaha/__n" prm="pembanding"/></e>
+    <e lm="bangkang"><p><l>pembangkang</l><r>bangkang</r></p><par n="pengusaha/__n" prm="pembangkang"/></e>
     <e lm="bantah"><p><l>pembantah</l><r>bantah</r></p><par n="pengusaha/__n" prm="pembantah"/></e>
     <e lm="baptis"><p><l>pembaptis</l><r>baptis</r></p><par n="pengusaha/__n" prm="pembaptis"/></e>
     <e lm="barat"><p><l>pembarat</l><r>barat</r></p><par n="pengusaha/__n" prm="pembarat"/></e>
@@ -7300,7 +7587,6 @@
     <e lm="bisik"><p><l>pembisik</l><r>bisik</r></p><par n="pengusaha/__n" prm="pembisik"/></e>
     <e lm="bius"><p><l>pembius</l><r>bius</r></p><par n="pengusaha/__n" prm="pembius"/></e>
     <e lm="blog"><p><l>pengeblog</l><r>blog</r></p><par n="pengusaha/__n" prm="pengeblog"/></e>
-    <e lm="boling"><p><l>peboling</l><r>boling</r></p><par n="pengusaha/__n" prm="peboling"/></e>
     <e lm="bom"><p><l>pengebom</l><r>bom</r></p><par n="pengusaha/__n" prm="pengebom"/></e>
     <e lm="bual"><p><l>pembual</l><r>bual</r></p><par n="pengusaha/__n" prm="pembual"/></e>
     <e lm="buih"><p><l>pembuih</l><r>buih</r></p><par n="pengusaha/__n" prm="pembuih"/></e>
@@ -7314,7 +7600,6 @@
     <e lm="caci"><p><l>pencaci</l><r>caci</r></p><par n="pengusaha/__n" prm="pencaci"/></e>
     <e lm="cakar"><p><l>pencakar</l><r>cakar</r></p><par n="pengusaha/__n" prm="pencakar"/></e>
     <e lm="candu"><p><l>pencandu</l><r>candu</r></p><par n="pengusaha/__n" prm="pencandu"/></e>
-    <e lm="catur"><p><l>pecatur</l><r>catur</r></p><par n="pengusaha/__n" prm="pecatur"/></e>
     <e lm="cek"><p><l>pengecek</l><r>cek</r></p><par n="pengusaha/__n" prm="pengecek"/></e>
     <e lm="cela"><p><l>pencela</l><r>cela</r></p><par n="pengusaha/__n" prm="pencela"/></e>
     <e lm="celup"><p><l>pencelup</l><r>celup</r></p><par n="pengusaha/__n" prm="pencelup"/></e>
@@ -7329,10 +7614,9 @@
     <e lm="dadah"><p><l>pendadah</l><r>dadah</r></p><par n="pengusaha/__n" prm="pendadah"/></e>
     <e lm="daftar"><p><l>pendaftar</l><r>daftar</r></p><par n="pengusaha/__n" prm="pendaftar"/></e>
     <e lm="dagang"><p><l>pendagang</l><r>dagang</r></p><par n="pengusaha/__n" prm="pendagang"/></e>
-    <e lm="daging"><p><l>pedaging</l><r>daging</r></p><par n="pengusaha/__n" prm="pedaging"/></e>
     <e lm="dahulu"><p><l>pendahulu</l><r>dahulu</r></p><par n="pengusaha/__n" prm="pendahulu"/></e>
     <e lm="daki"><p><l>pendaki</l><r>daki</r></p><par n="pengusaha/__n" prm="pendaki"/></e>
-    <e lm="dalang"><p><l>pedalang</l><r>dalang</r></p><par n="pengusaha/__n" prm="pedalang"/></e>
+    <e lm="dakwa"><p><l>pendakwa</l><r>dakwa</r></p><par n="pengusaha/__n" prm="pendakwa"/></e>
     <e lm="damai"><p><l>pendamai</l><r>damai</r></p><par n="pengusaha/__n" prm="pendamai"/></e>
     <e lm="dana"><p><l>pendana</l><r>dana</r></p><par n="pengusaha/__n" prm="pendana"/></e>
     <e lm="darah"><p><l>pendarah</l><r>darah</r></p><par n="pengusaha/__n" prm="pendarah"/></e>
@@ -7341,7 +7625,6 @@
     <e lm="dayang"><p><l>pendayang</l><r>dayang</r></p><par n="pengusaha/__n" prm="pendayang"/></e>
     <e lm="dayung"><p><l>pendayung</l><r>dayung</r></p><par n="pengusaha/__n" prm="pendayung"/></e>
     <e lm="debat"><p><l>pendebat</l><r>debat</r></p><par n="pengusaha/__n" prm="pendebat"/></e>
-    <e lm="demo"><p><l>pedemo</l><r>demo</r></p><par n="pengusaha/__n" prm="pedemo"/></e>
     <e lm="derita"><p><l>penderita</l><r>derita</r></p><par n="pengusaha/__n" prm="penderita"/></e>
     <e lm="derma"><p><l>penderma</l><r>derma</r></p><par n="pengusaha/__n" prm="penderma"/></e>
     <e lm="diet"><p><l>pendiet</l><r>diet</r></p><par n="pengusaha/__n" prm="pendiet"/></e>
@@ -7352,6 +7635,7 @@
     <e lm="dosa"><p><l>pendosa</l><r>dosa</r></p><par n="pengusaha/__n" prm="pendosa"/></e>
     <e lm="ekor"><p><l>pengekor</l><r>ekor</r></p><par n="pengusaha/__n" prm="pengekor"/></e>
     <e lm="eksploitasi"><p><l>pengeksploitasi</l><r>eksploitasi</r></p><par n="pengusaha/__n" prm="pengeksploitasi"/></e>
+    <e lm="eksport"><p><l>pengeksport</l><r>eksport</r></p><par n="pengusaha/__n" prm="pengeksport"/></e>
     <e lm="ekstraksi"><p><l>pengekstraksi</l><r>ekstraksi</r></p><par n="pengusaha/__n" prm="pengekstraksi"/></e>
     <e lm="embun"><p><l>pengembun</l><r>embun</r></p><par n="pengusaha/__n" prm="pengembun"/></e>
     <e lm="gabus"><p><l>penggabus</l><r>gabus</r></p><par n="pengusaha/__n" prm="penggabus"/></e>
@@ -7363,20 +7647,20 @@
     <e lm="geli"><p><l>penggeli</l><r>geli</r></p><par n="pengusaha/__n" prm="penggeli"/></e>
     <e lm="gembala"><p><l>penggembala</l><r>gembala</r></p><par n="pengusaha/__n" prm="penggembala"/></e>
     <e lm="gentar"><p><l>penggentar</l><r>gentar</r></p><par n="pengusaha/__n" prm="penggentar"/></e>
+    <e lm="gera"><p><l>penggera</l><r>gera</r></p><par n="pengusaha/__n" prm="penggera"/></e>
     <e lm="gerak"><p><l>penggerak</l><r>gerak</r></p><par n="pengusaha/__n" prm="penggerak"/></e>
     <e lm="gergaji"><p><l>penggergaji</l><r>gergaji</r></p><par n="pengusaha/__n" prm="penggergaji"/></e>
     <e lm="gertak"><p><l>penggertak</l><r>gertak</r></p><par n="pengusaha/__n" prm="penggertak"/></e>
     <e lm="gerutu"><p><l>penggerutu</l><r>gerutu</r></p><par n="pengusaha/__n" prm="penggerutu"/></e>
     <e lm="getar"><p><l>penggetar</l><r>getar</r></p><par n="pengusaha/__n" prm="penggetar"/></e>
     <e lm="godam"><p><l>penggodam</l><r>godam</r></p><par n="pengusaha/__n" prm="penggodam"/></e>
-    <e lm="golf"><p><l>pegolf</l><r>golf</r></p><par n="pengusaha/__n" prm="pegolf"/></e>
     <e lm="gores"><p><l>penggores</l><r>gores</r></p><par n="pengusaha/__n" prm="penggores"/></e>
     <e lm="gosip"><p><l>penggosip</l><r>gosip</r></p><par n="pengusaha/__n" prm="penggosip"/></e>
     <e lm="gosok"><p><l>penggosok</l><r>gosok</r></p><par n="pengusaha/__n" prm="penggosok"/></e>
-    <e lm="guam"><p><l>peguam</l><r>guam</r></p><par n="pengusaha/__n" prm="peguam"/></e>
-    <e lm="gulat"><p><l>pegulat</l><r>gulat</r></p><par n="pengusaha/__n" prm="pegulat"/></e>
+    <e lm="gubah"><p><l>penggubah</l><r>gubah</r></p><par n="pengusaha/__n" prm="penggubah"/></e>
     <e lm="guna"><p><l>pengguna</l><r>guna</r></p><par n="pengusaha/__n" prm="pengguna"/></e>
     <e lm="gunting"><p><l>penggunting</l><r>gunting</r></p><par n="pengusaha/__n" prm="penggunting"/></e>
+    <e lm="hadang"><p><l>penghadang</l><r>hadang</r></p><par n="pengusaha/__n" prm="penghadang"/></e>
     <e lm="haru"><p><l>pengharu</l><r>haru</r></p><par n="pengusaha/__n" prm="pengharu"/></e>
     <e lm="hasil"><p><l>penghasil</l><r>hasil</r></p><par n="pengusaha/__n" prm="penghasil"/></e>
     <e lm="hayat"><p><l>penghayat</l><r>hayat</r></p><par n="pengusaha/__n" prm="penghayat"/></e>
@@ -7386,24 +7670,23 @@
     <e lm="hobi"><p><l>penghobi</l><r>hobi</r></p><par n="pengusaha/__n" prm="penghobi"/></e>
     <e lm="hujung"><p><l>penghujung</l><r>hujung</r></p><par n="pengusaha/__n" prm="penghujung"/></e>
     <e lm="ikat"><p><l>pengikat</l><r>ikat</r></p><par n="pengusaha/__n" prm="pengikat"/></e>
+    <e lm="imbas"><p><l>pengimbas</l><r>imbas</r></p><par n="pengusaha/__n" prm="pengimbas"/></e>
     <e lm="import"><p><l>pengimport</l><r>import</r></p><par n="pengusaha/__n" prm="pengimport"/></e>
     <e lm="indra"><p><l>pengindra</l><r>indra</r></p><par n="pengusaha/__n" prm="pengindra"/></e>
     <e lm="interpretasi"><p><l>penginterpretasi</l><r>interpretasi</r></p><par n="pengusaha/__n" prm="penginterpretasi"/></e>
     <e lm="inti"><p><l>penginti</l><r>inti</r></p><par n="pengusaha/__n" prm="penginti"/></e>
     <e lm="isi"><p><l>pengisi</l><r>isi</r></p><par n="pengusaha/__n" prm="pengisi"/></e>
     <e lm="jala"><p><l>penjala</l><r>jala</r></p><par n="pengusaha/__n" prm="penjala"/></e>
+    <e lm="jarah"><p><l>penjarah</l><r>jarah</r></p><par n="pengusaha/__n" prm="penjarah"/></e>
     <e lm="jejak"><p><l>penjejak</l><r>jejak</r></p><par n="pengusaha/__n" prm="penjejak"/></e>
     <e lm="jilid"><p><l>penjilid</l><r>jilid</r></p><par n="pengusaha/__n" prm="penjilid"/></e>
     <e lm="jodoh"><p><l>penjodoh</l><r>jodoh</r></p><par n="pengusaha/__n" prm="penjodoh"/></e>
-    <e lm="judi"><p><l>pejudi</l><r>judi</r></p><par n="pengusaha/__n" prm="pejudi"/></e>
-    <e lm="judo"><p><l>pejudo</l><r>judo</r></p><par n="pengusaha/__n" prm="pejudo"/></e>
     <e lm="juru"><p><l>penjuru</l><r>juru</r></p><par n="pengusaha/__n" prm="penjuru"/></e>
     <e lm="jurus"><p><l>penjurus</l><r>jurus</r></p><par n="pengusaha/__n" prm="penjurus"/></e>
     <e lm="kail"><p><l>pengail</l><r>kail</r></p><par n="pengusaha/__n" prm="pengail"/></e>
     <e lm="kait"><p><l>pengait</l><r>kait</r></p><par n="pengusaha/__n" prm="pengait"/></e>
     <e lm="kakap"><p><l>pengakap</l><r>kakap</r></p><par n="pengusaha/__n" prm="pengakap"/></e>
     <e lm="kali"><p><l>pengali</l><r>kali</r></p><par n="pengusaha/__n" prm="pengali"/></e>
-    <e lm="kamus"><p><l>pekamus</l><r>kamus</r></p><par n="pengusaha/__n" prm="pekamus"/></e>
     <e lm="kancing"><p><l>pengancing</l><r>kancing</r></p><par n="pengusaha/__n" prm="pengancing"/></e>
     <e lm="kandung"><p><l>pengandung</l><r>kandung</r></p><par n="pengusaha/__n" prm="pengandung"/></e>
     <e lm="karang"><p><l>pengarang</l><r>karang</r></p><par n="pengusaha/__n" prm="pengarang"/></e>
@@ -7411,24 +7694,24 @@
     <e lm="katalog"><p><l>pengatalog</l><r>katalog</r></p><par n="pengusaha/__n" prm="pengatalog"/></e>
     <e lm="kawal"><p><l>pengawal</l><r>kawal</r></p><par n="pengusaha/__n" prm="pengawal"/></e>
     <e lm="kayuh"><p><l>pengayuh</l><r>kayuh</r></p><par n="pengusaha/__n" prm="pengayuh"/></e>
-    <e lm="kebun"><p><l>pekebun</l><r>kebun</r></p><par n="pengusaha/__n" prm="pekebun"/></e>
     <e lm="kecoh"><p><l>pengecoh</l><r>kecoh</r></p><par n="pengusaha/__n" prm="pengecoh"/></e>
-    <e lm="kedai"><p><l>pekedai</l><r>kedai</r></p><par n="pengusaha/__n" prm="pekedai"/></e>
     <e lm="kelana"><p><l>pengelana</l><r>kelana</r></p><par n="pengusaha/__n" prm="pengelana"/></e>
     <e lm="keliling"><p><l>pengeliling</l><r>keliling</r></p><par n="pengusaha/__n" prm="pengeliling"/></e>
     <e lm="keluh"><p><l>pengeluh</l><r>keluh</r></p><par n="pengusaha/__n" prm="pengeluh"/></e>
     <e lm="kemudi"><p><l>pengemudi</l><r>kemudi</r></p><par n="pengusaha/__n" prm="pengemudi"/></e>
     <e lm="kendali"><p><l>pengendali</l><r>kendali</r></p><par n="pengusaha/__n" prm="pengendali"/></e>
     <e lm="kerah"><p><l>pengerah</l><r>kerah</r></p><par n="pengusaha/__n" prm="pengerah"/></e>
-    <e lm="kerja"><p><l>pekerja</l><r>kerja</r></p><par n="pengusaha/__n" prm="pekerja"/></e>
     <e lm="kerut"><p><l>pengerut</l><r>kerut</r></p><par n="pengusaha/__n" prm="pengerut"/></e>
+    <e lm="kesan"><p><l>pengesan</l><r>kesan</r></p><par n="pengusaha/__n" prm="pengesan"/></e>
     <e lm="ketok"><p><l>pengetok</l><r>ketok</r></p><par n="pengusaha/__n" prm="pengetok"/></e>
     <e lm="ketuk"><p><l>pengetuk</l><r>ketuk</r></p><par n="pengusaha/__n" prm="pengetuk"/></e>
     <e lm="khayal"><p><l>pengkhayal</l><r>khayal</r></p><par n="pengusaha/__n" prm="pengkhayal"/></e>
     <e lm="khianat"><p><l>pengkhianat</l><r>khianat</r></p><par n="pengusaha/__n" prm="pengkhianat"/></e>
     <e lm="khotbah"><p><l>pengkhotbah</l><r>khotbah</r></p><par n="pengusaha/__n" prm="pengkhotbah"/></e>
     <e lm="kilang"><p><l>pengilang</l><r>kilang</r></p><par n="pengusaha/__n" prm="pengilang"/></e>
+    <e lm="kilat"><p><l>pengilat</l><r>kilat</r></p><par n="pengusaha/__n" prm="pengilat"/></e>
     <e lm="kipas"><p><l>pengipas</l><r>kipas</r></p><par n="pengusaha/__n" prm="pengipas"/></e>
+    <e lm="kisar"><p><l>pengisar</l><r>kisar</r></p><par n="pengusaha/__n" prm="pengisar"/></e>
     <e lm="klasifikasi"><p><l>pengklasifikasi</l><r>klasifikasi</r></p><par n="pengusaha/__n" prm="pengklasifikasi"/></e>
     <e lm="konsep"><p><l>pengonsep</l><r>konsep</r></p><par n="pengusaha/__n" prm="pengonsep"/></e>
     <e lm="kontrak"><p><l>pengontrak</l><r>kontrak</r></p><par n="pengusaha/__n" prm="pengontrak"/></e>
@@ -7440,33 +7723,6 @@
     <e lm="kuasa"><p><l>penguasa</l><r>kuasa</r></p><par n="pengusaha/__n" prm="penguasa"/></e>
     <e lm="kulit"><p><l>pengulit</l><r>kulit</r></p><par n="pengusaha/__n" prm="pengulit"/></e>
     <e lm="kunci"><p><l>pengunci</l><r>kunci</r></p><par n="pengusaha/__n" prm="pengunci"/></e>
-    <e lm="ladang"><p><l>peladang</l><r>ladang</r></p><par n="pengusaha/__n" prm="peladang"/></e>
-    <e lm="laga"><p><l>pelaga</l><r>laga</r></p><par n="pengusaha/__n" prm="pelaga"/></e>
-    <e lm="lagak"><p><l>pelagak</l><r>lagak</r></p><par n="pengusaha/__n" prm="pelagak"/></e>
-    <e lm="lagu"><p><l>pelagu</l><r>lagu</r></p><par n="pengusaha/__n" prm="pelagu"/></e>
-    <e lm="laksana"><p><l>pelaksana</l><r>laksana</r></p><par n="pengusaha/__n" prm="pelaksana"/></e>
-    <e lm="laku"><p><l>pelaku</l><r>laku</r></p><par n="pengusaha/__n" prm="pelaku"/></e>
-    <e lm="langkah"><p><l>pelangkah</l><r>langkah</r></p><par n="pengusaha/__n" prm="pelangkah"/></e>
-    <e lm="lapis"><p><l>pelapis</l><r>lapis</r></p><par n="pengusaha/__n" prm="pelapis"/></e>
-    <e lm="laut"><p><l>pelaut</l><r>laut</r></p><par n="pengusaha/__n" prm="pelaut"/></e>
-    <e lm="layar"><p><l>pelayar</l><r>layar</r></p><par n="pengusaha/__n" prm="pelayar"/></e>
-    <e lm="limau"><p><l>pelimau</l><r>limau</r></p><par n="pengusaha/__n" prm="pelimau"/></e>
-    <e lm="lintas"><p><l>pelintas</l><r>lintas</r></p><par n="pengusaha/__n" prm="pelintas"/></e>
-    <e lm="lobi"><p><l>pelobi</l><r>lobi</r></p><par n="pengusaha/__n" prm="pelobi"/></e>
-    <e lm="lubang"><p><l>pelubang</l><r>lubang</r></p><par n="pengusaha/__n" prm="pelubang"/></e>
-    <e lm="maaf"><p><l>pemaaf</l><r>maaf</r></p><par n="pengusaha/__n" prm="pemaaf"/></e>
-    <e lm="makalah"><p><l>pemakalah</l><r>makalah</r></p><par n="pengusaha/__n" prm="pemakalah"/></e>
-    <e lm="mangsa"><p><l>pemangsa</l><r>mangsa</r></p><par n="pengusaha/__n" prm="pemangsa"/></e>
-    <e lm="markah"><p><l>pemarkah</l><r>markah</r></p><par n="pengusaha/__n" prm="pemarkah"/></e>
-    <e lm="merah"><p><l>pemerah</l><r>merah</r></p><par n="pengusaha/__n" prm="pemerah"/></e>
-    <e lm="milik"><p><l>pemilik</l><r>milik</r></p><par n="pengusaha/__n" prm="pemilik"/></e>
-    <e lm="mimpi"><p><l>pemimpi</l><r>mimpi</r></p><par n="pengusaha/__n" prm="pemimpi"/></e>
-    <e lm="minat"><p><l>peminat</l><r>minat</r></p><par n="pengusaha/__n" prm="peminat"/></e>
-    <e lm="modal"><p><l>pemodal</l><r>modal</r></p><par n="pengusaha/__n" prm="pemodal"/></e>
-    <e lm="muka"><p><l>pemuka</l><r>muka</r></p><par n="pengusaha/__n" prm="pemuka"/></e>
-    <e lm="mula"><p><l>pemula</l><r>mula</r></p><par n="pengusaha/__n" prm="pemula"/></e>
-    <e lm="nasihat"><p><l>penasihat</l><r>nasihat</r></p><par n="pengusaha/__n" prm="penasihat"/></e>
-    <e lm="nilai"><p><l>penilai</l><r>nilai</r></p><par n="pengusaha/__n" prm="penilai"/></e>
     <e lm="objek"><p><l>pengobjek</l><r>objek</r></p><par n="pengusaha/__n" prm="pengobjek"/></e>
     <e lm="olah"><p><l>pengolah</l><r>olah</r></p><par n="pengusaha/__n" prm="pengolah"/></e>
     <e lm="organisasi"><p><l>pengorganisasi</l><r>organisasi</r></p><par n="pengusaha/__n" prm="pengorganisasi"/></e>
@@ -7485,6 +7741,7 @@
     <e lm="pasang"><p><l>pemasang</l><r>pasang</r></p><par n="pengusaha/__n" prm="pemasang"/></e>
     <e lm="pasar"><p><l>pemasar</l><r>pasar</r></p><par n="pengusaha/__n" prm="pemasar"/></e>
     <e lm="patung"><p><l>pematung</l><r>patung</r></p><par n="pengusaha/__n" prm="pematung"/></e>
+    <e lm="pecut"><p><l>pemecut</l><r>pecut</r></p><par n="pengusaha/__n" prm="pemecut"/></e>
     <e lm="perintah"><p><l>pemerintah</l><r>perintah</r></p><par n="pengusaha/__n" prm="pemerintah"/></e>
     <e lm="picu"><p><l>pemicu</l><r>picu</r></p><par n="pengusaha/__n" prm="pemicu"/></e>
     <e lm="pijak"><p><l>pemijak</l><r>pijak</r></p><par n="pengusaha/__n" prm="pemijak"/></e>
@@ -7499,6 +7756,7 @@
     <e lm="produksi"><p><l>pemroduksi</l><r>produksi</r></p><par n="pengusaha/__n" prm="pemroduksi"/></e>
     <e lm="program"><p><l>pemrogram</l><r>program</r></p><par n="pengusaha/__n" prm="pemrogram"/></e>
     <e lm="propaganda"><p><l>pemropaganda</l><r>propaganda</r></p><par n="pengusaha/__n" prm="pemropaganda"/></e>
+    <e lm="proses"><p><l>pemproses</l><r>proses</r></p><par n="pengusaha/__n" prm="pemproses"/></e>
     <e lm="proses"><p><l>pemroses</l><r>proses</r></p><par n="pengusaha/__n" prm="pemroses"/></e>
     <e lm="protes"><p><l>pemrotes</l><r>protes</r></p><par n="pengusaha/__n" prm="pemrotes"/></e>
     <e lm="puja"><p><l>pemuja</l><r>puja</r></p><par n="pengusaha/__n" prm="pemuja"/></e>
@@ -7532,12 +7790,13 @@
     <e lm="seru"><p><l>penyeru</l><r>seru</r></p><par n="pengusaha/__n" prm="penyeru"/></e>
     <e lm="set"><p><l>pengeset</l><r>set</r></p><par n="pengusaha/__n" prm="pengeset"/></e>
     <e lm="sewa"><p><l>penyewa</l><r>sewa</r></p><par n="pengusaha/__n" prm="penyewa"/></e>
+    <e lm="siasat"><p><l>penyiasat</l><r>siasat</r></p><par n="pengusaha/__n" prm="penyiasat"/></e>
     <e lm="siksa"><p><l>penyiksa</l><r>siksa</r></p><par n="pengusaha/__n" prm="penyiksa"/></e>
-    <e lm="silat"><p><l>pesilat</l><r>silat</r></p><par n="pengusaha/__n" prm="pesilat"/></e>
     <e lm="sita"><p><l>penyita</l><r>sita</r></p><par n="pengusaha/__n" prm="penyita"/></e>
     <e lm="sodok"><p><l>penyodok</l><r>sodok</r></p><par n="pengusaha/__n" prm="penyodok"/></e>
     <e lm="sodomi"><p><l>penyodomi</l><r>sodomi</r></p><par n="pengusaha/__n" prm="penyodomi"/></e>
     <e lm="sogok"><p><l>penyogok</l><r>sogok</r></p><par n="pengusaha/__n" prm="penyogok"/></e>
+    <e lm="sokong"><p><l>penyokong</l><r>sokong</r></p><par n="pengusaha/__n" prm="penyokong"/></e>
     <e lm="sorak"><p><l>penyorak</l><r>sorak</r></p><par n="pengusaha/__n" prm="penyorak"/></e>
     <e lm="sorot"><p><l>penyorot</l><r>sorot</r></p><par n="pengusaha/__n" prm="penyorot"/></e>
     <e lm="suap"><p><l>penyuap</l><r>suap</r></p><par n="pengusaha/__n" prm="penyuap"/></e>
@@ -7546,7 +7805,6 @@
     <e lm="sulap"><p><l>penyulap</l><r>sulap</r></p><par n="pengusaha/__n" prm="penyulap"/></e>
     <e lm="suluh"><p><l>penyuluh</l><r>suluh</r></p><par n="pengusaha/__n" prm="penyuluh"/></e>
     <e lm="sumbat"><p><l>penyumbat</l><r>sumbat</r></p><par n="pengusaha/__n" prm="penyumbat"/></e>
-    <e lm="sumo"><p><l>pesumo</l><r>sumo</r></p><par n="pengusaha/__n" prm="pesumo"/></e>
     <e lm="sumpah"><p><l>penyumpah</l><r>sumpah</r></p><par n="pengusaha/__n" prm="penyumpah"/></e>
     <e lm="sumpit"><p><l>penyumpit</l><r>sumpit</r></p><par n="pengusaha/__n" prm="penyumpit"/></e>
     <e lm="sunting"><p><l>penyunting</l><r>sunting</r></p><par n="pengusaha/__n" prm="penyunting"/></e>
@@ -7554,7 +7812,9 @@
     <e lm="susu"><p><l>penyusu</l><r>susu</r></p><par n="pengusaha/__n" prm="penyusu"/></e>
     <e lm="susun"><p><l>penyusun</l><r>susun</r></p><par n="pengusaha/__n" prm="penyusun"/></e>
     <e lm="syair"><p><l>penyair</l><r>syair</r></p><par n="pengusaha/__n" prm="penyair"/></e>
+    <e lm="syarah"><p><l>pensyarah</l><r>syarah</r></p><par n="pengusaha/__n" prm="pensyarah"/></e>
     <e lm="tabung"><p><l>penabung</l><r>tabung</r></p><par n="pengusaha/__n" prm="penabung"/></e>
+    <e lm="tadbir"><p><l>pentadbir</l><r>tadbir</r></p><par n="pengusaha/__n" prm="pentadbir"/></e>
     <e lm="tala"><p><l>penala</l><r>tala</r></p><par n="pengusaha/__n" prm="penala"/></e>
     <e lm="tali"><p><l>penali</l><r>tali</r></p><par n="pengusaha/__n" prm="penali"/></e>
     <e lm="tambah"><p><l>penambah</l><r>tambah</r></p><par n="pengusaha/__n" prm="penambah"/></e>
@@ -7563,16 +7823,13 @@
     <e lm="tampang"><p><l>penampang</l><r>tampang</r></p><par n="pengusaha/__n" prm="penampang"/></e>
     <e lm="tanda"><p><l>penanda</l><r>tanda</r></p><par n="pengusaha/__n" prm="penanda"/></e>
     <e lm="tandu"><p><l>penandu</l><r>tandu</r></p><par n="pengusaha/__n" prm="penandu"/></e>
-    <e lm="tani"><p><l>petani</l><r>tani</r></p><par n="pengusaha/__n" prm="petani"/></e>
     <e lm="tanya"><p><l>penanya</l><r>tanya</r></p><par n="pengusaha/__n" prm="penanya"/></e>
     <e lm="tapai"><p><l>penapai</l><r>tapai</r></p><par n="pengusaha/__n" prm="penapai"/></e>
     <e lm="tara"><p><l>penyetara</l><r>tara</r></p><par n="pengusaha/__n" prm="penyetara"/></e>
     <e lm="tari"><p><l>penari</l><r>tari</r></p><par n="pengusaha/__n" prm="penari"/></e>
-    <e lm="taruh"><p><l>petaruh</l><r>taruh</r></p><par n="pengusaha/__n" prm="petaruh"/></e>
     <e lm="tata"><p><l>penata</l><r>tata</r></p><par n="pengusaha/__n" prm="penata"/></e>
-    <e lm="telur"><p><l>petelur</l><r>telur</r></p><par n="pengusaha/__n" prm="petelur"/></e>
+    <e lm="tebat"><p><l>penebat</l><r>tebat</r></p><par n="pengusaha/__n" prm="penebat"/></e>
     <e lm="tengah"><p><l>penengah</l><r>tengah</r></p><par n="pengusaha/__n" prm="penengah"/></e>
-    <e lm="tenis"><p><l>petenis</l><r>tenis</r></p><par n="pengusaha/__n" prm="petenis"/></e>
     <e lm="tenun"><p><l>penenun</l><r>tenun</r></p><par n="pengusaha/__n" prm="penenun"/></e>
     <e lm="ternak"><p><l>penernak</l><r>ternak</r></p><par n="pengusaha/__n" prm="penernak"/></e>
     <e lm="tikam"><p><l>penikam</l><r>tikam</r></p><par n="pengusaha/__n" prm="penikam"/></e>
@@ -7583,7 +7840,6 @@
     <e lm="tongkat"><p><l>penongkat</l><r>tongkat</r></p><par n="pengusaha/__n" prm="penongkat"/></e>
     <e lm="trompet"><p><l>pentrompet</l><r>trompet</r></p><par n="pengusaha/__n" prm="pentrompet"/></e>
     <e lm="tudung"><p><l>penudung</l><r>tudung</r></p><par n="pengusaha/__n" prm="penudung"/></e>
-    <e lm="tugas"><p><l>petugas</l><r>tugas</r></p><par n="pengusaha/__n" prm="petugas"/></e>
     <e lm="tumbuk"><p><l>penumbuk</l><r>tumbuk</r></p><par n="pengusaha/__n" prm="penumbuk"/></e>
     <e lm="tumpu"><p><l>penumpu</l><r>tumpu</r></p><par n="pengusaha/__n" prm="penumpu"/></e>
     <e lm="tunda"><p><l>penunda</l><r>tunda</r></p><par n="pengusaha/__n" prm="penunda"/></e>
@@ -7593,49 +7849,12 @@
     <e lm="uji"><p><l>penguji</l><r>uji</r></p><par n="pengusaha/__n" prm="penguji"/></e>
     <e lm="ujung"><p><l>pengujung</l><r>ujung</r></p><par n="pengusaha/__n" prm="pengujung"/></e>
     <e lm="ukur"><p><l>pengukur</l><r>ukur</r></p><par n="pengusaha/__n" prm="pengukur"/></e>
+    <e lm="ulas"><p><l>pengulas</l><r>ulas</r></p><par n="pengusaha/__n" prm="pengulas"/></e>
     <e lm="undi"><p><l>pengundi</l><r>undi</r></p><par n="pengusaha/__n" prm="pengundi"/></e>
     <e lm="usaha"><p><l>pengusaha</l><r>usaha</r></p><par n="pengusaha/__n" prm="pengusaha"/></e>
     <e lm="usik"><p><l>pengusik</l><r>usik</r></p><par n="pengusaha/__n" prm="pengusik"/></e>
     <e lm="usul"><p><l>pengusul</l><r>usul</r></p><par n="pengusaha/__n" prm="pengusul"/></e>
-    <e lm="waris"><p><l>pewaris</l><r>waris</r></p><par n="pengusaha/__n" prm="pewaris"/></e>
-    <e lm="warna"><p><l>pewarna</l><r>warna</r></p><par n="pengusaha/__n" prm="pewarna"/></e>
-    <e lm="warta"><p><l>pewarta</l><r>warta</r></p><par n="pengusaha/__n" prm="pewarta"/></e>
-    <e lm="wawancara"><p><l>pewawancara</l><r>wawancara</r></p><par n="pengusaha/__n" prm="pewawancara"/></e>
-    <e lm="wayang"><p><l>pewayang</l><r>wayang</r></p><par n="pengusaha/__n" prm="pewayang"/></e>
     <e lm="ziarah"><p><l>penziarah</l><r>ziarah</r></p><par n="pengusaha/__n" prm="penziarah"/></e>
-    <e lm="zikir"><p><l>pezikir</l><r>zikir</r></p><par n="pengusaha/__n" prm="pezikir"/></e>
-
-    <e lm="gawai"><p><l>pegawai</l><r>gawai</r></p><par n="pengusaha/__n" prm="pegawai"/></e>
-
-    <e lm="atas"><p><l>pengatas</l><r>atas</r></p><par n="pengusaha/__n" prm="pengatas"/></e>
-    <e lm="aturcara"><p><l>pengaturcara</l><r>aturcara</r></p><par n="pengusaha/__n" prm="pengaturcara"/></e>
-    <e lm="ayun"><p><l>pengayun</l><r>ayun</r></p><par n="pengusaha/__n" prm="pengayun"/></e>
-    <e lm="bangkang"><p><l>pembangkang</l><r>bangkang</r></p><par n="pengusaha/__n" prm="pembangkang"/></e>
-    <e lm="dakwa"><p><l>pendakwa</l><r>dakwa</r></p><par n="pengusaha/__n" prm="pendakwa"/></e>
-    <e lm="eksport"><p><l>pengeksport</l><r>eksport</r></p><par n="pengusaha/__n" prm="pengeksport"/></e>
-    <e lm="gera"><p><l>penggera</l><r>gera</r></p><par n="pengusaha/__n" prm="penggera"/></e>
-    <e lm="gubah"><p><l>penggubah</l><r>gubah</r></p><par n="pengusaha/__n" prm="penggubah"/></e>
-    <e lm="hadang"><p><l>penghadang</l><r>hadang</r></p><par n="pengusaha/__n" prm="penghadang"/></e>
-    <e lm="imbas"><p><l>pengimbas</l><r>imbas</r></p><par n="pengusaha/__n" prm="pengimbas"/></e>
-    <e lm="jarah"><p><l>penjarah</l><r>jarah</r></p><par n="pengusaha/__n" prm="penjarah"/></e>
-    <e lm="kali"><p><l>pekali</l><r>kali</r></p><par n="pengusaha/__n" prm="pekali"/></e>
-    <e lm="kesan"><p><l>pengesan</l><r>kesan</r></p><par n="pengusaha/__n" prm="pengesan"/></e>
-    <e lm="kilat"><p><l>pengilat</l><r>kilat</r></p><par n="pengusaha/__n" prm="pengilat"/></e>
-    <e lm="kisar"><p><l>pengisar</l><r>kisar</r></p><par n="pengusaha/__n" prm="pengisar"/></e>
-    <e lm="lakon"><p><l>pelakon</l><r>lakon</r></p><par n="pengusaha/__n" prm="pelakon"/></e>
-    <e lm="lombong"><p><l>pelombong</l><r>lombong</r></p><par n="pengusaha/__n" prm="pelombong"/></e>
-    <e lm="lumba"><p><l>pelumba</l><r>lumba</r></p><par n="pengusaha/__n" prm="pelumba"/></e>
-    <e lm="muzik"><p><l>pemuzik</l><r>muzik</r></p><par n="pengusaha/__n" prm="pemuzik"/></e>
-    <e lm="pecut"><p><l>pemecut</l><r>pecut</r></p><par n="pengusaha/__n" prm="pemecut"/></e>
-    <e lm="proses"><p><l>pemproses</l><r>proses</r></p><par n="pengusaha/__n" prm="pemproses"/></e>
-    <e lm="sara"><p><l>pesara</l><r>sara</r></p><par n="pengusaha/__n" prm="pesara"/></e>
-    <e lm="siasat"><p><l>penyiasat</l><r>siasat</r></p><par n="pengusaha/__n" prm="penyiasat"/></e>
-    <e lm="sokong"><p><l>penyokong</l><r>sokong</r></p><par n="pengusaha/__n" prm="penyokong"/></e>
-    <e lm="syarah"><p><l>pensyarah</l><r>syarah</r></p><par n="pengusaha/__n" prm="pensyarah"/></e>
-    <e lm="tadbir"><p><l>pentadbir</l><r>tadbir</r></p><par n="pengusaha/__n" prm="pentadbir"/></e>
-    <e lm="tanda"><p><l>petanda</l><r>tanda</r></p><par n="pengusaha/__n" prm="petanda"/></e>
-    <e lm="tebat"><p><l>penebat</l><r>tebat</r></p><par n="pengusaha/__n" prm="penebat"/></e>
-    <e lm="ulas"><p><l>pengulas</l><r>ulas</r></p><par n="pengusaha/__n" prm="pengulas"/></e>
     
     <!-- V -> N -->
     <e lm="ada"><p><l>pengada</l><r>ada</r></p><par n="penulis/__vblex" prm="pengada"/></e>
@@ -7657,6 +7876,7 @@
     <e lm="bahas"><p><l>pembahas</l><r>bahas</r></p><par n="penulis/__vblex" prm="pembahas"/></e>
     <e lm="bakar"><p><l>pembakar</l><r>bakar</r></p><par n="penulis/__vblex" prm="pembakar"/></e>
     <e lm="balas"><p><l>pembalas</l><r>balas</r></p><par n="penulis/__vblex" prm="pembalas"/></e>
+    <e lm="bangkang"><p><l>pembangkang</l><r>bangkang</r></p><par n="penulis/__vblex" prm="pembangkang"/></e>
     <e lm="bangkit"><p><l>pembangkit</l><r>bangkit</r></p><par n="penulis/__vblex" prm="pembangkit"/></e>
     <e lm="bangun"><p><l>pembangun</l><r>bangun</r></p><par n="penulis/__vblex" prm="pembangun"/></e>
     <e lm="bantu"><p><l>pembantu</l><r>bantu</r></p><par n="penulis/__vblex" prm="pembantu"/></e>
@@ -7711,6 +7931,7 @@
     <e lm="ganggu"><p><l>pengganggu</l><r>ganggu</r></p><par n="penulis/__vblex" prm="pengganggu"/></e>
     <e lm="garap"><p><l>penggarap</l><r>garap</r></p><par n="penulis/__vblex" prm="penggarap"/></e>
     <e lm="gempur"><p><l>penggempur</l><r>gempur</r></p><par n="penulis/__vblex" prm="penggempur"/></e>
+    <e lm="gesek"><p><l>penggesek</l><r>gesek</r></p><par n="penulis/__vblex" prm="penggesek"/></e>
     <e lm="giling"><p><l>penggiling</l><r>giling</r></p><par n="penulis/__vblex" prm="penggiling"/></e>
     <e lm="goda"><p><l>penggoda</l><r>goda</r></p><par n="penulis/__vblex" prm="penggoda"/></e>
     <e lm="golong"><p><l>penggolong</l><r>golong</r></p><par n="penulis/__vblex" prm="penggolong"/></e>
@@ -7724,12 +7945,14 @@
     <e lm="hela"><p><l>penghela</l><r>hela</r></p><par n="penulis/__vblex" prm="penghela"/></e>
     <e lm="hias"><p><l>penghias</l><r>hias</r></p><par n="penulis/__vblex" prm="penghias"/></e>
     <e lm="hibur"><p><l>penghibur</l><r>hibur</r></p><par n="penulis/__vblex" prm="penghibur"/></e>
+    <e lm="hidap"><p><l>penghidap</l><r>hidap</r></p><par n="penulis/__vblex" prm="penghidap"/></e>
     <e lm="hubung"><p><l>penghubung</l><r>hubung</r></p><par n="penulis/__vblex" prm="penghubung"/></e>
     <e lm="huni"><p><l>penghuni</l><r>huni</r></p><par n="penulis/__vblex" prm="penghuni"/></e>
     <e lm="idap"><p><l>pengidap</l><r>idap</r></p><par n="penulis/__vblex" prm="pengidap"/></e>
     <e lm="igau"><p><l>pengigau</l><r>igau</r></p><par n="penulis/__vblex" prm="pengigau"/></e>
     <e lm="ikut"><p><l>pengikut</l><r>ikut</r></p><par n="penulis/__vblex" prm="pengikut"/></e>
     <e lm="intai"><p><l>pengintai</l><r>intai</r></p><par n="penulis/__vblex" prm="pengintai"/></e>
+    <e lm="intip"><p><l>pengintip</l><r>intip</r></p><par n="penulis/__vblex" prm="pengintip"/></e>
     <e lm="iring"><p><l>pengiring</l><r>iring</r></p><par n="penulis/__vblex" prm="pengiring"/></e>
     <e lm="isap"><p><l>pengisap</l><r>isap</r></p><par n="penulis/__vblex" prm="pengisap"/></e>
     <e lm="jabat"><p><l>penjabat</l><r>jabat</r></p><par n="penulis/__vblex" prm="penjabat"/></e>
@@ -7742,7 +7965,6 @@
     <e lm="jemput"><p><l>penjemput</l><r>jemput</r></p><par n="penulis/__vblex" prm="penjemput"/></e>
     <e lm="jilat"><p><l>penjilat</l><r>jilat</r></p><par n="penulis/__vblex" prm="penjilat"/></e>
     <e lm="jual"><p><l>penjual</l><r>jual</r></p><par n="penulis/__vblex" prm="penjual"/></e>
-    <e lm="juang"><p><l>pejuang</l><r>juang</r></p><par n="penulis/__vblex" prm="pejuang"/></e>
     <e lm="kecam"><p><l>pengecam</l><r>kecam</r></p><par n="penulis/__vblex" prm="pengecam"/></e>
     <e lm="kembang"><p><l>pengembang</l><r>kembang</r></p><par n="penulis/__vblex" prm="pengembang"/></e>
     <e lm="kenal"><p><l>pengenal</l><r>kenal</r></p><par n="penulis/__vblex" prm="pengenal"/></e>
@@ -7754,37 +7976,7 @@
     <e lm="kunjung"><p><l>pengunjung</l><r>kunjung</r></p><par n="penulis/__vblex" prm="pengunjung"/></e>
     <e lm="kupas"><p><l>pengupas</l><r>kupas</r></p><par n="penulis/__vblex" prm="pengupas"/></e>
     <e lm="kutip"><p><l>pengutip</l><r>kutip</r></p><par n="penulis/__vblex" prm="pengutip"/></e>
-    <e lm="laden"><p><l>peladen</l><r>laden</r></p><par n="penulis/__vblex" prm="peladen"/></e>
-    <e lm="lamar"><p><l>pelamar</l><r>lamar</r></p><par n="penulis/__vblex" prm="pelamar"/></e>
-    <e lm="landa"><p><l>pelanda</l><r>landa</r></p><par n="penulis/__vblex" prm="pelanda"/></e>
-    <e lm="langgar"><p><l>pelanggar</l><r>langgar</r></p><par n="penulis/__vblex" prm="pelanggar"/></e>
-    <e lm="lantak"><p><l>pelantak</l><r>lantak</r></p><par n="penulis/__vblex" prm="pelantak"/></e>
-    <e lm="lantik"><p><l>pelantik</l><r>lantik</r></p><par n="penulis/__vblex" prm="pelantik"/></e>
-    <e lm="lapor"><p><l>pelapor</l><r>lapor</r></p><par n="penulis/__vblex" prm="pelapor"/></e>
-    <e lm="lari"><p><l>pelari</l><r>lari</r></p><par n="penulis/__vblex" prm="pelari"/></e>
-    <e lm="latih"><p><l>pelatih</l><r>latih</r></p><par n="penulis/__vblex" prm="pelatih"/></e>
-    <e lm="ledak"><p><l>peledak</l><r>ledak</r></p><par n="penulis/__vblex" prm="peledak"/></e>
-    <e lm="lempar"><p><l>pelempar</l><r>lempar</r></p><par n="penulis/__vblex" prm="pelempar"/></e>
     <e lm="lihat"><p><l>penglihat</l><r>lihat</r></p><par n="penulis/__vblex" prm="penglihat"/></e>
-    <e lm="lindung"><p><l>pelindung</l><r>lindung</r></p><par n="penulis/__vblex" prm="pelindung"/></e>
-    <e lm="lipat"><p><l>pelipat</l><r>lipat</r></p><par n="penulis/__vblex" prm="pelipat"/></e>
-    <e lm="lompat"><p><l>pelompat</l><r>lompat</r></p><par n="penulis/__vblex" prm="pelompat"/></e>
-    <e lm="lontar"><p><l>pelontar</l><r>lontar</r></p><par n="penulis/__vblex" prm="pelontar"/></e>
-    <e lm="lukis"><p><l>pelukis</l><r>lukis</r></p><par n="penulis/__vblex" prm="pelukis"/></e>
-    <e lm="luncur"><p><l>peluncur</l><r>luncur</r></p><par n="penulis/__vblex" prm="peluncur"/></e>
-    <e lm="lupa"><p><l>pelupa</l><r>lupa</r></p><par n="penulis/__vblex" prm="pelupa"/></e>
-    <e lm="luruh"><p><l>peluruh</l><r>luruh</r></p><par n="penulis/__vblex" prm="peluruh"/></e>
-    <e lm="main"><p><l>pemain</l><r>main</r></p><par n="penulis/__vblex" prm="pemain"/></e>
-    <e lm="menang"><p><l>pemenang</l><r>menang</r></p><par n="penulis/__vblex" prm="pemenang"/></e>
-    <e lm="minta"><p><l>peminta</l><r>minta</r></p><par n="penulis/__vblex" prm="peminta"/></e>
-    <e lm="minum"><p><l>peminum</l><r>minum</r></p><par n="penulis/__vblex" prm="peminum"/></e>
-    <e lm="mogok"><p><l>pemogok</l><r>mogok</r></p><par n="penulis/__vblex" prm="pemogok"/></e>
-    <e lm="mohon"><p><l>pemohon</l><r>mohon</r></p><par n="penulis/__vblex" prm="pemohon"/></e>
-    <e lm="muat"><p><l>pemuat</l><r>muat</r></p><par n="penulis/__vblex" prm="pemuat"/></e>
-    <e lm="musnah"><p><l>pemusnah</l><r>musnah</r></p><par n="penulis/__vblex" prm="pemusnah"/></e>
-    <e lm="nanti"><p><l>penanti</l><r>nanti</r></p><par n="penulis/__vblex" prm="penanti"/></e>
-    <e lm="naung"><p><l>penaung</l><r>naung</r></p><par n="penulis/__vblex" prm="penaung"/></e>
-    <e lm="nyanyi"><p><l>penyanyi</l><r>nyanyi</r></p><par n="penulis/__vblex" prm="penyanyi"/></e>
     <e lm="pajang"><p><l>pemajang</l><r>pajang</r></p><par n="penulis/__vblex" prm="pemajang"/></e>
     <e lm="pakai"><p><l>pemakai</l><r>pakai</r></p><par n="penulis/__vblex" prm="pemakai"/></e>
     <e lm="pancar"><p><l>pemancar</l><r>pancar</r></p><par n="penulis/__vblex" prm="pemancar"/></e>
@@ -7801,18 +7993,6 @@
     <e lm="pusing"><p><l>pemusing</l><r>pusing</r></p><par n="penulis/__vblex" prm="pemusing"/></e>
     <e lm="putar"><p><l>pemutar</l><r>putar</r></p><par n="penulis/__vblex" prm="pemutar"/></e>
     <e lm="putus"><p><l>pemutus</l><r>putus</r></p><par n="penulis/__vblex" prm="pemutus"/></e>
-    <e lm="raba"><p><l>peraba</l><r>raba</r></p><par n="penulis/__vblex" prm="peraba"/></e>
-    <e lm="raih"><p><l>peraih</l><r>raih</r></p><par n="penulis/__vblex" prm="peraih"/></e>
-    <e lm="rambah"><p><l>perambah</l><r>rambah</r></p><par n="penulis/__vblex" prm="perambah"/></e>
-    <e lm="rambat"><p><l>perambat</l><r>rambat</r></p><par n="penulis/__vblex" prm="perambat"/></e>
-    <e lm="rampas"><p><l>perampas</l><r>rampas</r></p><par n="penulis/__vblex" prm="perampas"/></e>
-    <e lm="ramu"><p><l>peramu</l><r>ramu</r></p><par n="penulis/__vblex" prm="peramu"/></e>
-    <e lm="rawat"><p><l>perawat</l><r>rawat</r></p><par n="penulis/__vblex" prm="perawat"/></e>
-    <e lm="rekat"><p><l>perekat</l><r>rekat</r></p><par n="penulis/__vblex" prm="perekat"/></e>
-    <e lm="renang"><p><l>perenang</l><r>renang</r></p><par n="penulis/__vblex" prm="perenang"/></e>
-    <e lm="rintang"><p><l>perintang</l><r>rintang</r></p><par n="penulis/__vblex" prm="perintang"/></e>
-    <e lm="rompak"><p><l>perompak</l><r>rompak</r></p><par n="penulis/__vblex" prm="perompak"/></e>
-    <e lm="ronda"><p><l>peronda</l><r>ronda</r></p><par n="penulis/__vblex" prm="peronda"/></e>
     <e lm="sabung"><p><l>penyabung</l><r>sabung</r></p><par n="penulis/__vblex" prm="penyabung"/></e>
     <e lm="sadap"><p><l>penyadap</l><r>sadap</r></p><par n="penulis/__vblex" prm="penyadap"/></e>
     <e lm="saing"><p><l>penyaing</l><r>saing</r></p><par n="penulis/__vblex" prm="penyaing"/></e>
@@ -7827,10 +8007,10 @@
     <e lm="sangkal"><p><l>penyangkal</l><r>sangkal</r></p><par n="penulis/__vblex" prm="penyangkal"/></e>
     <e lm="sangkut"><p><l>penyangkut</l><r>sangkut</r></p><par n="penulis/__vblex" prm="penyangkut"/></e>
     <e lm="sanjung"><p><l>penyanjung</l><r>sanjung</r></p><par n="penulis/__vblex" prm="penyanjung"/></e>
-    <e lm="santap"><p><l>pesantap</l><r>santap</r></p><par n="penulis/__vblex" prm="pesantap"/></e>
     <e lm="saring"><p><l>penyaring</l><r>saring</r></p><par n="penulis/__vblex" prm="penyaring"/></e>
     <e lm="sebar"><p><l>penyebar</l><r>sebar</r></p><par n="penulis/__vblex" prm="penyebar"/></e>
     <e lm="sebut"><p><l>penyebut</l><r>sebut</r></p><par n="penulis/__vblex" prm="penyebut"/></e>
+    <e lm="sedut"><p><l>penyedut</l><r>sedut</r></p><par n="penulis/__vblex" prm="penyedut"/></e>
     <e lm="selam"><p><l>penyelam</l><r>selam</r></p><par n="penulis/__vblex" prm="penyelam"/></e>
     <e lm="sembelih"><p><l>penyembelih</l><r>sembelih</r></p><par n="penulis/__vblex" prm="penyembelih"/></e>
     <e lm="sembuh"><p><l>penyembuh</l><r>sembuh</r></p><par n="penulis/__vblex" prm="penyembuh"/></e>
@@ -7842,6 +8022,7 @@
     <e lm="singkir"><p><l>penyingkir</l><r>singkir</r></p><par n="penulis/__vblex" prm="penyingkir"/></e>
     <e lm="siram"><p><l>penyiram</l><r>siram</r></p><par n="penulis/__vblex" prm="penyiram"/></e>
     <e lm="sisip"><p><l>penyisip</l><r>sisip</r></p><par n="penulis/__vblex" prm="penyisip"/></e>
+    <e lm="sokong"><p><l>penyokong</l><r>sokong</r></p><par n="penulis/__vblex" prm="penyokong"/></e>
     <e lm="sumbang"><p><l>penyumbang</l><r>sumbang</r></p><par n="penulis/__vblex" prm="penyumbang"/></e>
     <e lm="susul"><p><l>penyusul</l><r>susul</r></p><par n="penulis/__vblex" prm="penyusul"/></e>
     <e lm="susup"><p><l>penyusup</l><r>susup</r></p><par n="penulis/__vblex" prm="penyusup"/></e>
@@ -7858,6 +8039,7 @@
     <e lm="tebak"><p><l>penebak</l><r>tebak</r></p><par n="penulis/__vblex" prm="penebak"/></e>
     <e lm="tebang"><p><l>penebang</l><r>tebang</r></p><par n="penulis/__vblex" prm="penebang"/></e>
     <e lm="tebar"><p><l>penebar</l><r>tebar</r></p><par n="penulis/__vblex" prm="penebar"/></e>
+    <e lm="tebat"><p><l>penebat</l><r>tebat</r></p><par n="penulis/__vblex" prm="penebat"/></e>
     <e lm="tebus"><p><l>penebus</l><r>tebus</r></p><par n="penulis/__vblex" prm="penebus"/></e>
     <e lm="tembak"><p><l>penembak</l><r>tembak</r></p><par n="penulis/__vblex" prm="penembak"/></e>
     <e lm="tempa"><p><l>penempa</l><r>tempa</r></p><par n="penulis/__vblex" prm="penempa"/></e>
@@ -7865,9 +8047,11 @@
     <e lm="temu"><p><l>penemu</l><r>temu</r></p><par n="penulis/__vblex" prm="penemu"/></e>
     <e lm="terbang"><p><l>penerbang</l><r>terbang</r></p><par n="penulis/__vblex" prm="penerbang"/></e>
     <e lm="terbit"><p><l>penerbit</l><r>terbit</r></p><par n="penulis/__vblex" prm="penerbit"/></e>
+    <e lm="terjemah"><p><l>penterjemah</l><r>terjemah</r></p><par n="penulis/__vblex" prm="penterjemah"/></e>
     <e lm="terjun"><p><l>penerjun</l><r>terjun</r></p><par n="penulis/__vblex" prm="penerjun"/></e>
     <e lm="terka"><p><l>penerka</l><r>terka</r></p><par n="penulis/__vblex" prm="penerka"/></e>
     <e lm="terkam"><p><l>penerkam</l><r>terkam</r></p><par n="penulis/__vblex" prm="penerkam"/></e>
+    <e lm="teroka"><p><l>peneroka</l><r>teroka</r></p><par n="penulis/__vblex" prm="peneroka"/></e>
     <e lm="terus"><p><l>penerus</l><r>terus</r></p><par n="penulis/__vblex" prm="penerus"/></e>
     <e lm="tetap"><p><l>penetap</l><r>tetap</r></p><par n="penulis/__vblex" prm="penetap"/></e>
     <e lm="tetas"><p><l>penetas</l><r>tetas</r></p><par n="penulis/__vblex" prm="penetas"/></e>
@@ -7888,7 +8072,6 @@
     <e lm="tumbuh"><p><l>penumbuh</l><r>tumbuh</r></p><par n="penulis/__vblex" prm="penumbuh"/></e>
     <e lm="tumpang"><p><l>penumpang</l><r>tumpang</r></p><par n="penulis/__vblex" prm="penumpang"/></e>
     <e lm="tumpas"><p><l>penumpas</l><r>tumpas</r></p><par n="penulis/__vblex" prm="penumpas"/></e>
-    <e lm="tunduk"><p><l>petunduk</l><r>tunduk</r></p><par n="penulis/__vblex" prm="petunduk"/></e>
     <e lm="tunggang"><p><l>penunggang</l><r>tunggang</r></p><par n="penulis/__vblex" prm="penunggang"/></e>
     <e lm="tunggu"><p><l>penunggu</l><r>tunggu</r></p><par n="penulis/__vblex" prm="penunggu"/></e>
     <e lm="tunjang"><p><l>penunjang</l><r>tunjang</r></p><par n="penulis/__vblex" prm="penunjang"/></e>
@@ -7905,19 +8088,6 @@
     <e lm="urus"><p><l>pengurus</l><r>urus</r></p><par n="penulis/__vblex" prm="pengurus"/></e>
     <e lm="usir"><p><l>pengusir</l><r>usir</r></p><par n="penulis/__vblex" prm="pengusir"/></e>
     <e lm="usung"><p><l>pengusung</l><r>usung</r></p><par n="penulis/__vblex" prm="pengusung"/></e>
-    
-    <e lm="bangkang"><p><l>pembangkang</l><r>bangkang</r></p><par n="penulis/__vblex" prm="pembangkang"/></e>
-    <e lm="gesek"><p><l>penggesek</l><r>gesek</r></p><par n="penulis/__vblex" prm="penggesek"/></e>
-    <e lm="hidap"><p><l>penghidap</l><r>hidap</r></p><par n="penulis/__vblex" prm="penghidap"/></e>
-    <e lm="intip"><p><l>pengintip</l><r>intip</r></p><par n="penulis/__vblex" prm="pengintip"/></e>
-    <e lm="labur"><p><l>pelabur</l><r>labur</r></p><par n="penulis/__vblex" prm="pelabur"/></e>
-    <e lm="lancong"><p><l>pelancong</l><r>lancong</r></p><par n="penulis/__vblex" prm="pelancong"/></e>
-    <e lm="lantar"><p><l>pelantar</l><r>lantar</r></p><par n="penulis/__vblex" prm="pelantar"/></e>
-    <e lm="sedut"><p><l>penyedut</l><r>sedut</r></p><par n="penulis/__vblex" prm="penyedut"/></e>
-    <e lm="sokong"><p><l>penyokong</l><r>sokong</r></p><par n="penulis/__vblex" prm="penyokong"/></e>
-    <e lm="tebat"><p><l>penebat</l><r>tebat</r></p><par n="penulis/__vblex" prm="penebat"/></e>
-    <e lm="terjemah"><p><l>penterjemah</l><r>terjemah</r></p><par n="penulis/__vblex" prm="penterjemah"/></e>
-    <e lm="teroka"><p><l>peneroka</l><r>teroka</r></p><par n="penulis/__vblex" prm="peneroka"/></e>
 
     <!-- Adj -> N -->
     <e lm="adil"><p><l>pengadil</l><r>adil</r></p><par n="pembohong/__adj" prm="pengadil"/></e>
@@ -7926,6 +8096,7 @@
     <e lm="arip"><p><l>pengarip</l><r>arip</r></p><par n="pembohong/__adj" prm="pengarip"/></e>
     <e lm="awam"><p><l>pengawam</l><r>awam</r></p><par n="pembohong/__adj" prm="pengawam"/></e>
     <e lm="awet"><p><l>pengawet</l><r>awet</r></p><par n="pembohong/__adj" prm="pengawet"/></e>
+    <e lm="baharu"><p><l>pembaharu</l><r>baharu</r></p><par n="pembohong/__adj" prm="pembaharu"/></e>
     <e lm="baru"><p><l>pembaru</l><r>baru</r></p><par n="pembohong/__adj" prm="pembaru"/></e>
     <e lm="bebas"><p><l>pembebas</l><r>bebas</r></p><par n="pembohong/__adj" prm="pembebas"/></e>
     <e lm="beku"><p><l>pembeku</l><r>beku</r></p><par n="pembohong/__adj" prm="pembeku"/></e>
@@ -7949,6 +8120,7 @@
     <e lm="dinamis"><p><l>pendinamis</l><r>dinamis</r></p><par n="pembohong/__adj" prm="pendinamis"/></e>
     <e lm="dusta"><p><l>pendusta</l><r>dusta</r></p><par n="pembohong/__adj" prm="pendusta"/></e>
     <e lm="gaduh"><p><l>penggaduh</l><r>gaduh</r></p><par n="pembohong/__adj" prm="penggaduh"/></e>
+    <e lm="galak"><p><l>penggalak</l><r>galak</r></p><par n="pembohong/__adj" prm="penggalak"/></e>
     <e lm="ganas"><p><l>pengganas</l><r>ganas</r></p><par n="pembohong/__adj" prm="pengganas"/></e>
     <e lm="garang"><p><l>penggarang</l><r>garang</r></p><par n="pembohong/__adj" prm="penggarang"/></e>
     <e lm="gede"><p><l>penggede</l><r>gede</r></p><par n="pembohong/__adj" prm="penggede"/></e>
@@ -7972,6 +8144,7 @@
     <e lm="iri"><p><l>pengiri</l><r>iri</r></p><par n="pembohong/__adj" prm="pengiri"/></e>
     <e lm="jahat"><p><l>penjahat</l><r>jahat</r></p><par n="pembohong/__adj" prm="penjahat"/></e>
     <e lm="jelas"><p><l>penjelas</l><r>jelas</r></p><par n="pembohong/__adj" prm="penjelas"/></e>
+    <e lm="jenayah"><p><l>penjenayah</l><r>jenayah</r></p><par n="pembohong/__adj" prm="penjenayah"/></e>
     <e lm="jernih"><p><l>penjernih</l><r>jernih</r></p><par n="pembohong/__adj" prm="penjernih"/></e>
     <e lm="jinak"><p><l>penjinak</l><r>jinak</r></p><par n="pembohong/__adj" prm="penjinak"/></e>
     <e lm="kacak"><p><l>pengacak</l><r>kacak</r></p><par n="pembohong/__adj" prm="pengacak"/></e>
@@ -7987,39 +8160,6 @@
     <e lm="ketam"><p><l>pengetam</l><r>ketam</r></p><par n="pembohong/__adj" prm="pengetam"/></e>
     <e lm="kotor"><p><l>pengotor</l><r>kotor</r></p><par n="pembohong/__adj" prm="pengotor"/></e>
     <e lm="kuat"><p><l>penguat</l><r>kuat</r></p><par n="pembohong/__adj" prm="penguat"/></e>
-    <e lm="lacur"><p><l>pelacur</l><r>lacur</r></p><par n="pembohong/__adj" prm="pelacur"/></e>
-    <e lm="lahap"><p><l>pelahap</l><r>lahap</r></p><par n="pembohong/__adj" prm="pelahap"/></e>
-    <e lm="lalai"><p><l>pelalai</l><r>lalai</r></p><par n="pembohong/__adj" prm="pelalai"/></e>
-    <e lm="langsing"><p><l>pelangsing</l><r>langsing</r></p><par n="pembohong/__adj" prm="pelangsing"/></e>
-    <e lm="lanjut"><p><l>pelanjut</l><r>lanjut</r></p><par n="pembohong/__adj" prm="pelanjut"/></e>
-    <e lm="laris"><p><l>pelaris</l><r>laris</r></p><par n="pembohong/__adj" prm="pelaris"/></e>
-    <e lm="larut"><p><l>pelarut</l><r>larut</r></p><par n="pembohong/__adj" prm="pelarut"/></e>
-    <e lm="lawak"><p><l>pelawak</l><r>lawak</r></p><par n="pembohong/__adj" prm="pelawak"/></e>
-    <e lm="lembap"><p><l>pelembap</l><r>lembap</r></p><par n="pembohong/__adj" prm="pelembap"/></e>
-    <e lm="lembut"><p><l>pelembut</l><r>lembut</r></p><par n="pembohong/__adj" prm="pelembut"/></e>
-    <e lm="lengah"><p><l>pelengah</l><r>lengah</r></p><par n="pembohong/__adj" prm="pelengah"/></e>
-    <e lm="lengkap"><p><l>pelengkap</l><r>lengkap</r></p><par n="pembohong/__adj" prm="pelengkap"/></e>
-    <e lm="lengkung"><p><l>pelengkung</l><r>lengkung</r></p><par n="pembohong/__adj" prm="pelengkung"/></e>
-    <e lm="lepas"><p><l>pelepas</l><r>lepas</r></p><par n="pembohong/__adj" prm="pelepas"/></e>
-    <e lm="lerai"><p><l>pelerai</l><r>lerai</r></p><par n="pembohong/__adj" prm="pelerai"/></e>
-    <e lm="lestari"><p><l>pelestari</l><r>lestari</r></p><par n="pembohong/__adj" prm="pelestari"/></e>
-    <e lm="licin"><p><l>pelicin</l><r>licin</r></p><par n="pembohong/__adj" prm="pelicin"/></e>
-    <e lm="luang"><p><l>peluang</l><r>luang</r></p><par n="pembohong/__adj" prm="peluang"/></e>
-    <e lm="lunak"><p><l>pelunak</l><r>lunak</r></p><par n="pembohong/__adj" prm="pelunak"/></e>
-    <e lm="luntur"><p><l>peluntur</l><r>luntur</r></p><par n="pembohong/__adj" prm="peluntur"/></e>
-    <e lm="mabuk"><p><l>pemabuk</l><r>mabuk</r></p><par n="pembohong/__adj" prm="pemabuk"/></e>
-    <e lm="malas"><p><l>pemalas</l><r>malas</r></p><par n="pembohong/__adj" prm="pemalas"/></e>
-    <e lm="malu"><p><l>pemalu</l><r>malu</r></p><par n="pembohong/__adj" prm="pemalu"/></e>
-    <e lm="manis"><p><l>pemanis</l><r>manis</r></p><par n="pembohong/__adj" prm="pemanis"/></e>
-    <e lm="marah"><p><l>pemarah</l><r>marah</r></p><par n="pembohong/__adj" prm="pemarah"/></e>
-    <e lm="masak"><p><l>pemasak</l><r>masak</r></p><par n="pembohong/__adj" prm="pemasak"/></e>
-    <e lm="merdeka"><p><l>pemerdeka</l><r>merdeka</r></p><par n="pembohong/__adj" prm="pemerdeka"/></e>
-    <e lm="muda"><p><l>pemuda</l><r>muda</r></p><par n="pembohong/__adj" prm="pemuda"/></e>
-    <e lm="mudah"><p><l>pemudah</l><r>mudah</r></p><par n="pembohong/__adj" prm="pemudah"/></e>
-    <e lm="mujur"><p><l>pemujur</l><r>mujur</r></p><par n="pembohong/__adj" prm="pemujur"/></e>
-    <e lm="mulia"><p><l>pemulia</l><r>mulia</r></p><par n="pembohong/__adj" prm="pemulia"/></e>
-    <e lm="murah"><p><l>pemurah</l><r>murah</r></p><par n="pembohong/__adj" prm="pemurah"/></e>
-    <e lm="nikmat"><p><l>penikmat</l><r>nikmat</r></p><par n="pembohong/__adj" prm="penikmat"/></e>
     <e lm="padam"><p><l>pemadam</l><r>padam</r></p><par n="pembohong/__adj" prm="pemadam"/></e>
     <e lm="padu"><p><l>pemadu</l><r>padu</r></p><par n="pembohong/__adj" prm="pemadu"/></e>
     <e lm="palsu"><p><l>pemalsu</l><r>palsu</r></p><par n="pembohong/__adj" prm="pemalsu"/></e>
@@ -8028,24 +8168,11 @@
     <e lm="patah"><p><l>pematah</l><r>patah</r></p><par n="pembohong/__adj" prm="pematah"/></e>
     <e lm="patih"><p><l>pematih</l><r>patih</r></p><par n="pembohong/__adj" prm="pematih"/></e>
     <e lm="pisah"><p><l>pemisah</l><r>pisah</r></p><par n="pembohong/__adj" prm="pemisah"/></e>
-    <e lm="rabun"><p><l>perabun</l><r>rabun</r></p><par n="pembohong/__adj" prm="perabun"/></e>
-    <e lm="radang"><p><l>peradang</l><r>radang</r></p><par n="pembohong/__adj" prm="peradang"/></e>
     <e lm="rajin"><p><l>pengrajin</l><r>rajin</r></p><par n="pembohong/__adj" prm="pengrajin"/></e>
-    <e lm="ramah"><p><l>peramah</l><r>ramah</r></p><par n="pembohong/__adj" prm="peramah"/></e>
-    <e lm="rapat"><p><l>perapat</l><r>rapat</r></p><par n="pembohong/__adj" prm="perapat"/></e>
-    <e lm="rapuh"><p><l>perapuh</l><r>rapuh</r></p><par n="pembohong/__adj" prm="perapuh"/></e>
-    <e lm="rayu"><p><l>perayu</l><r>rayu</r></p><par n="pembohong/__adj" prm="perayu"/></e>
-    <e lm="redam"><p><l>peredam</l><r>redam</r></p><par n="pembohong/__adj" prm="peredam"/></e>
-    <e lm="remuk"><p><l>peremuk</l><r>remuk</r></p><par n="pembohong/__adj" prm="peremuk"/></e>
-    <e lm="renggang"><p><l>perenggang</l><r>renggang</r></p><par n="pembohong/__adj" prm="perenggang"/></e>
-    <e lm="rindu"><p><l>perindu</l><r>rindu</r></p><par n="pembohong/__adj" prm="perindu"/></e>
-    <e lm="risau"><p><l>perisau</l><r>risau</r></p><par n="pembohong/__adj" prm="perisau"/></e>
-    <e lm="robek"><p><l>perobek</l><r>robek</r></p><par n="pembohong/__adj" prm="perobek"/></e>
     <e lm="sabar"><p><l>penyabar</l><r>sabar</r></p><par n="pembohong/__adj" prm="penyabar"/></e>
     <e lm="sakit"><p><l>penyakit</l><r>sakit</r></p><par n="pembohong/__adj" prm="penyakit"/></e>
     <e lm="samar"><p><l>penyamar</l><r>samar</r></p><par n="pembohong/__adj" prm="penyamar"/></e>
     <e lm="sangsi"><p><l>penyangsi</l><r>sangsi</r></p><par n="pembohong/__adj" prm="penyangsi"/></e>
-    <e lm="santai"><p><l>pesantai</l><r>santai</r></p><par n="pembohong/__adj" prm="pesantai"/></e>
     <e lm="santun"><p><l>penyantun</l><r>santun</r></p><par n="pembohong/__adj" prm="penyantun"/></e>
     <e lm="sayang"><p><l>penyayang</l><r>sayang</r></p><par n="pembohong/__adj" prm="penyayang"/></e>
     <e lm="sedap"><p><l>penyedap</l><r>sedap</r></p><par n="pembohong/__adj" prm="penyedap"/></e>
@@ -8053,11 +8180,14 @@
     <e lm="sehat"><p><l>penyehat</l><r>sehat</r></p><par n="pembohong/__adj" prm="penyehat"/></e>
     <e lm="sejuk"><p><l>penyejuk</l><r>sejuk</r></p><par n="pembohong/__adj" prm="penyejuk"/></e>
     <e lm="selamat"><p><l>penyelamat</l><r>selamat</r></p><par n="pembohong/__adj" prm="penyelamat"/></e>
+    <e lm="selaras"><p><l>penyelaras</l><r>selaras</r></p><par n="pembohong/__adj" prm="penyelaras"/></e>
+    <e lm="selia"><p><l>penyelia</l><r>selia</r></p><par n="pembohong/__adj" prm="penyelia"/></e>
     <e lm="selidik"><p><l>penyelidik</l><r>selidik</r></p><par n="pembohong/__adj" prm="penyelidik"/></e>
     <e lm="semu"><p><l>penyemu</l><r>semu</r></p><par n="pembohong/__adj" prm="penyemu"/></e>
     <e lm="sendiri"><p><l>penyendiri</l><r>sendiri</r></p><par n="pembohong/__adj" prm="penyendiri"/></e>
     <e lm="sepi"><p><l>penyepi</l><r>sepi</r></p><par n="pembohong/__adj" prm="penyepi"/></e>
     <e lm="seret"><p><l>penyeret</l><r>seret</r></p><par n="pembohong/__adj" prm="penyeret"/></e>
+    <e lm="sesuai"><p><l>penyesuai</l><r>sesuai</r></p><par n="pembohong/__adj" prm="penyesuai"/></e>
     <e lm="silap"><p><l>penyilap</l><r>silap</r></p><par n="pembohong/__adj" prm="penyilap"/></e>
     <e lm="sombong"><p><l>penyombong</l><r>sombong</r></p><par n="pembohong/__adj" prm="penyombong"/></e>
     <e lm="subur"><p><l>penyubur</l><r>subur</r></p><par n="pembohong/__adj" prm="penyubur"/></e>
@@ -8073,30 +8203,58 @@
     <e lm="terang"><p><l>penerang</l><r>terang</r></p><par n="pembohong/__adj" prm="penerang"/></e>
     <e lm="timbal"><p><l>penimbal</l><r>timbal</r></p><par n="pembohong/__adj" prm="penimbal"/></e>
     <e lm="timbang"><p><l>penimbang</l><r>timbang</r></p><par n="pembohong/__adj" prm="penimbang"/></e>
-    <e lm="tinggi"><p><l>petinggi</l><r>tinggi</r></p><par n="pembohong/__adj" prm="petinggi"/></e>
     <e lm="tua"><p><l>pengetua</l><r>tua</r></p><par n="pembohong/__adj" prm="pengetua"/></e>
-    <e lm="wangi"><p><l>pewangi</l><r>wangi</r></p><par n="pembohong/__adj" prm="pewangi"/></e>
-    
-    <e lm="baharu"><p><l>pembaharu</l><r>baharu</r></p><par n="pembohong/__adj" prm="pembaharu"/></e>
-    <e lm="galak"><p><l>penggalak</l><r>galak</r></p><par n="pembohong/__adj" prm="penggalak"/></e>
-    <e lm="jenayah"><p><l>penjenayah</l><r>jenayah</r></p><par n="pembohong/__adj" prm="penjenayah"/></e>
-    <e lm="lampau"><p><l>pelampau</l><r>lampau</r></p><par n="pembohong/__adj" prm="pelampau"/></e>
-    <e lm="lekat"><p><l>pelekat</l><r>lekat</r></p><par n="pembohong/__adj" prm="pelekat"/></e>
-    <e lm="malar"><p><l>pemalar</l><r>malar</r></p><par n="pembohong/__adj" prm="pemalar"/></e>
-    <e lm="sakit"><p><l>pesakit</l><r>sakit</r></p><par n="pembohong/__adj" prm="pesakit"/></e>
-    <e lm="salah"><p><l>pesalah</l><r>salah</r></p><par n="pembohong/__adj" prm="pesalah"/></e>
-    <e lm="selaras"><p><l>penyelaras</l><r>selaras</r></p><par n="pembohong/__adj" prm="penyelaras"/></e>
-    <e lm="selia"><p><l>penyelia</l><r>selia</r></p><par n="pembohong/__adj" prm="penyelia"/></e>
-    <e lm="sesuai"><p><l>penyesuai</l><r>sesuai</r></p><par n="pembohong/__adj" prm="penyesuai"/></e>
 
-    <!-- peN- alternatives -->
+    <!-- pe- -->
     <!-- N -> N -->
+    <e lm="boling"><p><l>peboling</l><r>boling</r></p><par n="petinju/__n" prm="peboling"/></e>
+    <e lm="catur"><p><l>pecatur</l><r>catur</r></p><par n="petinju/__n" prm="pecatur"/></e>
     <e lm="dagang"><p><l>pedagang</l><r>dagang</r></p><par n="petinju/__n" prm="pedagang"/></e>
-    <e lm="sawah"><p><l>pesawah</l><r>sawah</r></p><par n="petinju/__n" prm="pesawah"/></e>
-    <e lm="suruh"><p><l>pesuruh</l><r>suruh</r></p><par n="petinju/__n" prm="pesuruh"/></e>
-    <e lm="tinju"><p><l>petinju</l><r>tinju</r></p><par n="petinju/__n" prm="petinju"/></e>
-    <e lm="ziarah"><p><l>peziarah</l><r>ziarah</r></p><par n="petinju/__n" prm="peziarah"/></e>
-    
+    <e lm="daging"><p><l>pedaging</l><r>daging</r></p><par n="petinju/__n" prm="pedaging"/></e>
+    <e lm="dalang"><p><l>pedalang</l><r>dalang</r></p><par n="petinju/__n" prm="pedalang"/></e>
+    <e lm="demo"><p><l>pedemo</l><r>demo</r></p><par n="petinju/__n" prm="pedemo"/></e>
+    <e lm="gawai"><p><l>pegawai</l><r>gawai</r></p><par n="petinju/__n" prm="pegawai"/></e>
+    <e lm="golf"><p><l>pegolf</l><r>golf</r></p><par n="petinju/__n" prm="pegolf"/></e>
+    <e lm="guam"><p><l>peguam</l><r>guam</r></p><par n="petinju/__n" prm="peguam"/></e>
+    <e lm="gulat"><p><l>pegulat</l><r>gulat</r></p><par n="petinju/__n" prm="pegulat"/></e>
+    <e lm="judi"><p><l>pejudi</l><r>judi</r></p><par n="petinju/__n" prm="pejudi"/></e>
+    <e lm="judo"><p><l>pejudo</l><r>judo</r></p><par n="petinju/__n" prm="pejudo"/></e>
+    <e lm="kali"><p><l>pekali</l><r>kali</r></p><par n="petinju/__n" prm="pekali"/></e>
+    <e lm="kamus"><p><l>pekamus</l><r>kamus</r></p><par n="petinju/__n" prm="pekamus"/></e>
+    <e lm="kebun"><p><l>pekebun</l><r>kebun</r></p><par n="petinju/__n" prm="pekebun"/></e>
+    <e lm="kedai"><p><l>pekedai</l><r>kedai</r></p><par n="petinju/__n" prm="pekedai"/></e>
+    <e lm="kerja"><p><l>pekerja</l><r>kerja</r></p><par n="petinju/__n" prm="pekerja"/></e>
+    <e lm="ladang"><p><l>peladang</l><r>ladang</r></p><par n="petinju/__n" prm="peladang"/></e>
+    <e lm="laga"><p><l>pelaga</l><r>laga</r></p><par n="petinju/__n" prm="pelaga"/></e>
+    <e lm="lagak"><p><l>pelagak</l><r>lagak</r></p><par n="petinju/__n" prm="pelagak"/></e>
+    <e lm="lagu"><p><l>pelagu</l><r>lagu</r></p><par n="petinju/__n" prm="pelagu"/></e>
+    <e lm="lakon"><p><l>pelakon</l><r>lakon</r></p><par n="petinju/__n" prm="pelakon"/></e>
+    <e lm="laksana"><p><l>pelaksana</l><r>laksana</r></p><par n="petinju/__n" prm="pelaksana"/></e>
+    <e lm="laku"><p><l>pelaku</l><r>laku</r></p><par n="petinju/__n" prm="pelaku"/></e>
+    <e lm="langkah"><p><l>pelangkah</l><r>langkah</r></p><par n="petinju/__n" prm="pelangkah"/></e>
+    <e lm="lapis"><p><l>pelapis</l><r>lapis</r></p><par n="petinju/__n" prm="pelapis"/></e>
+    <e lm="laut"><p><l>pelaut</l><r>laut</r></p><par n="petinju/__n" prm="pelaut"/></e>
+    <e lm="layar"><p><l>pelayar</l><r>layar</r></p><par n="petinju/__n" prm="pelayar"/></e>
+    <e lm="limau"><p><l>pelimau</l><r>limau</r></p><par n="petinju/__n" prm="pelimau"/></e>
+    <e lm="lintas"><p><l>pelintas</l><r>lintas</r></p><par n="petinju/__n" prm="pelintas"/></e>
+    <e lm="lobi"><p><l>pelobi</l><r>lobi</r></p><par n="petinju/__n" prm="pelobi"/></e>
+    <e lm="lombong"><p><l>pelombong</l><r>lombong</r></p><par n="petinju/__n" prm="pelombong"/></e>
+    <e lm="lubang"><p><l>pelubang</l><r>lubang</r></p><par n="petinju/__n" prm="pelubang"/></e>
+    <e lm="lumba"><p><l>pelumba</l><r>lumba</r></p><par n="petinju/__n" prm="pelumba"/></e>
+    <e lm="maaf"><p><l>pemaaf</l><r>maaf</r></p><par n="petinju/__n" prm="pemaaf"/></e>
+    <e lm="makalah"><p><l>pemakalah</l><r>makalah</r></p><par n="petinju/__n" prm="pemakalah"/></e>
+    <e lm="mangsa"><p><l>pemangsa</l><r>mangsa</r></p><par n="petinju/__n" prm="pemangsa"/></e>
+    <e lm="markah"><p><l>pemarkah</l><r>markah</r></p><par n="petinju/__n" prm="pemarkah"/></e>
+    <e lm="merah"><p><l>pemerah</l><r>merah</r></p><par n="petinju/__n" prm="pemerah"/></e>
+    <e lm="milik"><p><l>pemilik</l><r>milik</r></p><par n="petinju/__n" prm="pemilik"/></e>
+    <e lm="mimpi"><p><l>pemimpi</l><r>mimpi</r></p><par n="petinju/__n" prm="pemimpi"/></e>
+    <e lm="minat"><p><l>peminat</l><r>minat</r></p><par n="petinju/__n" prm="peminat"/></e>
+    <e lm="modal"><p><l>pemodal</l><r>modal</r></p><par n="petinju/__n" prm="pemodal"/></e>
+    <e lm="muka"><p><l>pemuka</l><r>muka</r></p><par n="petinju/__n" prm="pemuka"/></e>
+    <e lm="mula"><p><l>pemula</l><r>mula</r></p><par n="petinju/__n" prm="pemula"/></e>
+    <e lm="muzik"><p><l>pemuzik</l><r>muzik</r></p><par n="petinju/__n" prm="pemuzik"/></e>
+    <e lm="nasihat"><p><l>penasihat</l><r>nasihat</r></p><par n="petinju/__n" prm="penasihat"/></e>
+    <e lm="nilai"><p><l>penilai</l><r>nilai</r></p><par n="petinju/__n" prm="penilai"/></e>
     <e lm="rakam"><p><l>perakam</l><r>rakam</r></p><par n="petinju/__n" prm="perakam"/></e>
     <e lm="rancang"><p><l>perancang</l><r>rancang</r></p><par n="petinju/__n" prm="perancang"/></e>
     <e lm="rasa"><p><l>perasa</l><r>rasa</r></p><par n="petinju/__n" prm="perasa"/></e>
@@ -8104,19 +8262,138 @@
     <e lm="reka"><p><l>pereka</l><r>reka</r></p><par n="petinju/__n" prm="pereka"/></e>
     <e lm="rintis"><p><l>perintis</l><r>rintis</r></p><par n="petinju/__n" prm="perintis"/></e>
     <e lm="runding"><p><l>perunding</l><r>runding</r></p><par n="petinju/__n" prm="perunding"/></e>
-    
+    <e lm="sara"><p><l>pesara</l><r>sara</r></p><par n="petinju/__n" prm="pesara"/></e>
+    <e lm="sawah"><p><l>pesawah</l><r>sawah</r></p><par n="petinju/__n" prm="pesawah"/></e>
+    <e lm="silat"><p><l>pesilat</l><r>silat</r></p><par n="petinju/__n" prm="pesilat"/></e>
+    <e lm="sumo"><p><l>pesumo</l><r>sumo</r></p><par n="petinju/__n" prm="pesumo"/></e>
+    <e lm="suruh"><p><l>pesuruh</l><r>suruh</r></p><par n="petinju/__n" prm="pesuruh"/></e>
+    <e lm="tanda"><p><l>petanda</l><r>tanda</r></p><par n="petinju/__n" prm="petanda"/></e>
+    <e lm="tani"><p><l>petani</l><r>tani</r></p><par n="petinju/__n" prm="petani"/></e>
+    <e lm="taruh"><p><l>petaruh</l><r>taruh</r></p><par n="petinju/__n" prm="petaruh"/></e>
+    <e lm="telur"><p><l>petelur</l><r>telur</r></p><par n="petinju/__n" prm="petelur"/></e>
+    <e lm="tenis"><p><l>petenis</l><r>tenis</r></p><par n="petinju/__n" prm="petenis"/></e>
+    <e lm="tinju"><p><l>petinju</l><r>tinju</r></p><par n="petinju/__n" prm="petinju"/></e>
+    <e lm="tugas"><p><l>petugas</l><r>tugas</r></p><par n="petinju/__n" prm="petugas"/></e>
+    <e lm="waris"><p><l>pewaris</l><r>waris</r></p><par n="petinju/__n" prm="pewaris"/></e>
+    <e lm="warna"><p><l>pewarna</l><r>warna</r></p><par n="petinju/__n" prm="pewarna"/></e>
+    <e lm="warta"><p><l>pewarta</l><r>warta</r></p><par n="petinju/__n" prm="pewarta"/></e>
+    <e lm="wawancara"><p><l>pewawancara</l><r>wawancara</r></p><par n="petinju/__n" prm="pewawancara"/></e>
+    <e lm="wayang"><p><l>pewayang</l><r>wayang</r></p><par n="petinju/__n" prm="pewayang"/></e>
+    <e lm="ziarah"><p><l>peziarah</l><r>ziarah</r></p><par n="petinju/__n" prm="peziarah"/></e>
+    <e lm="zikir"><p><l>pezikir</l><r>zikir</r></p><par n="petinju/__n" prm="pezikir"/></e>
+
     <!-- V -> N -->
     <e lm="gadai"><p><l>pegadai</l><r>gadai</r></p><par n="pejabat/__vblex" prm="pegadai"/></e>
     <e lm="jabat"><p><l>pejabat</l><r>jabat</r></p><par n="pejabat/__vblex" prm="pejabat"/></e>
+    <e lm="juang"><p><l>pejuang</l><r>juang</r></p><par n="pejabat/__vblex" prm="pejuang"/></e>
+    <e lm="labur"><p><l>pelabur</l><r>labur</r></p><par n="pejabat/__vblex" prm="pelabur"/></e>
+    <e lm="laden"><p><l>peladen</l><r>laden</r></p><par n="pejabat/__vblex" prm="peladen"/></e>
+    <e lm="lamar"><p><l>pelamar</l><r>lamar</r></p><par n="pejabat/__vblex" prm="pelamar"/></e>
+    <e lm="lancong"><p><l>pelancong</l><r>lancong</r></p><par n="pejabat/__vblex" prm="pelancong"/></e>
+    <e lm="landa"><p><l>pelanda</l><r>landa</r></p><par n="pejabat/__vblex" prm="pelanda"/></e>
+    <e lm="langgar"><p><l>pelanggar</l><r>langgar</r></p><par n="pejabat/__vblex" prm="pelanggar"/></e>
+    <e lm="lantak"><p><l>pelantak</l><r>lantak</r></p><par n="pejabat/__vblex" prm="pelantak"/></e>
+    <e lm="lantar"><p><l>pelantar</l><r>lantar</r></p><par n="pejabat/__vblex" prm="pelantar"/></e>
+    <e lm="lantik"><p><l>pelantik</l><r>lantik</r></p><par n="pejabat/__vblex" prm="pelantik"/></e>
+    <e lm="lapor"><p><l>pelapor</l><r>lapor</r></p><par n="pejabat/__vblex" prm="pelapor"/></e>
+    <e lm="lari"><p><l>pelari</l><r>lari</r></p><par n="pejabat/__vblex" prm="pelari"/></e>
+    <e lm="latih"><p><l>pelatih</l><r>latih</r></p><par n="pejabat/__vblex" prm="pelatih"/></e>
+    <e lm="ledak"><p><l>peledak</l><r>ledak</r></p><par n="pejabat/__vblex" prm="peledak"/></e>
+    <e lm="lempar"><p><l>pelempar</l><r>lempar</r></p><par n="pejabat/__vblex" prm="pelempar"/></e>
+    <e lm="lindung"><p><l>pelindung</l><r>lindung</r></p><par n="pejabat/__vblex" prm="pelindung"/></e>
+    <e lm="lipat"><p><l>pelipat</l><r>lipat</r></p><par n="pejabat/__vblex" prm="pelipat"/></e>
+    <e lm="lompat"><p><l>pelompat</l><r>lompat</r></p><par n="pejabat/__vblex" prm="pelompat"/></e>
+    <e lm="lontar"><p><l>pelontar</l><r>lontar</r></p><par n="pejabat/__vblex" prm="pelontar"/></e>
+    <e lm="lukis"><p><l>pelukis</l><r>lukis</r></p><par n="pejabat/__vblex" prm="pelukis"/></e>
+    <e lm="luncur"><p><l>peluncur</l><r>luncur</r></p><par n="pejabat/__vblex" prm="peluncur"/></e>
+    <e lm="lupa"><p><l>pelupa</l><r>lupa</r></p><par n="pejabat/__vblex" prm="pelupa"/></e>
+    <e lm="luruh"><p><l>peluruh</l><r>luruh</r></p><par n="pejabat/__vblex" prm="peluruh"/></e>
+    <e lm="main"><p><l>pemain</l><r>main</r></p><par n="pejabat/__vblex" prm="pemain"/></e>
+    <e lm="menang"><p><l>pemenang</l><r>menang</r></p><par n="pejabat/__vblex" prm="pemenang"/></e>
+    <e lm="minta"><p><l>peminta</l><r>minta</r></p><par n="pejabat/__vblex" prm="peminta"/></e>
+    <e lm="minum"><p><l>peminum</l><r>minum</r></p><par n="pejabat/__vblex" prm="peminum"/></e>
+    <e lm="mogok"><p><l>pemogok</l><r>mogok</r></p><par n="pejabat/__vblex" prm="pemogok"/></e>
+    <e lm="mohon"><p><l>pemohon</l><r>mohon</r></p><par n="pejabat/__vblex" prm="pemohon"/></e>
+    <e lm="muat"><p><l>pemuat</l><r>muat</r></p><par n="pejabat/__vblex" prm="pemuat"/></e>
+    <e lm="musnah"><p><l>pemusnah</l><r>musnah</r></p><par n="pejabat/__vblex" prm="pemusnah"/></e>
+    <e lm="nanti"><p><l>penanti</l><r>nanti</r></p><par n="pejabat/__vblex" prm="penanti"/></e>
+    <e lm="naung"><p><l>penaung</l><r>naung</r></p><par n="pejabat/__vblex" prm="penaung"/></e>
+    <e lm="nyanyi"><p><l>penyanyi</l><r>nyanyi</r></p><par n="pejabat/__vblex" prm="penyanyi"/></e>
+    <e lm="raba"><p><l>peraba</l><r>raba</r></p><par n="pejabat/__vblex" prm="peraba"/></e>
+    <e lm="raih"><p><l>peraih</l><r>raih</r></p><par n="pejabat/__vblex" prm="peraih"/></e>
+    <e lm="rambah"><p><l>perambah</l><r>rambah</r></p><par n="pejabat/__vblex" prm="perambah"/></e>
+    <e lm="rambat"><p><l>perambat</l><r>rambat</r></p><par n="pejabat/__vblex" prm="perambat"/></e>
+    <e lm="rampas"><p><l>perampas</l><r>rampas</r></p><par n="pejabat/__vblex" prm="perampas"/></e>
+    <e lm="ramu"><p><l>peramu</l><r>ramu</r></p><par n="pejabat/__vblex" prm="peramu"/></e>
+    <e lm="rawat"><p><l>perawat</l><r>rawat</r></p><par n="pejabat/__vblex" prm="perawat"/></e>
+    <e lm="rejang"><p><l>perejang</l><r>rejang</r></p><par n="pejabat/__vblex" prm="perejang"/></e>
+    <e lm="rekat"><p><l>perekat</l><r>rekat</r></p><par n="pejabat/__vblex" prm="perekat"/></e>
+    <e lm="renang"><p><l>perenang</l><r>renang</r></p><par n="pejabat/__vblex" prm="perenang"/></e>
+    <e lm="rencat"><p><l>perencat</l><r>rencat</r></p><par n="pejabat/__vblex" prm="perencat"/></e>
+    <e lm="rintang"><p><l>perintang</l><r>rintang</r></p><par n="pejabat/__vblex" prm="perintang"/></e>
+    <e lm="risik"><p><l>perisik</l><r>risik</r></p><par n="pejabat/__vblex" prm="perisik"/></e>
+    <e lm="rompak"><p><l>perompak</l><r>rompak</r></p><par n="pejabat/__vblex" prm="perompak"/></e>
+    <e lm="ronda"><p><l>peronda</l><r>ronda</r></p><par n="pejabat/__vblex" prm="peronda"/></e>
     <e lm="saing"><p><l>pesaing</l><r>saing</r></p><par n="pejabat/__vblex" prm="pesaing"/></e>
+    <e lm="santap"><p><l>pesantap</l><r>santap</r></p><par n="pejabat/__vblex" prm="pesantap"/></e>
+    <e lm="tunduk"><p><l>petunduk</l><r>tunduk</r></p><par n="pejabat/__vblex" prm="petunduk"/></e>
     <e lm="tunjuk"><p><l>petunjuk</l><r>tunjuk</r></p><par n="pejabat/__vblex" prm="petunjuk"/></e>
     
-    <e lm="rejang"><p><l>perejang</l><r>rejang</r></p><par n="pejabat/__vblex" prm="perejang"/></e>
-    <e lm="rencat"><p><l>perencat</l><r>rencat</r></p><par n="pejabat/__vblex" prm="perencat"/></e>
-    <e lm="risik"><p><l>perisik</l><r>risik</r></p><par n="pejabat/__vblex" prm="perisik"/></e>
-    
     <!-- Adj -> N -->
-    
+    <e lm="lacur"><p><l>pelacur</l><r>lacur</r></p><par n="pegiat/__adj" prm="pelacur"/></e>
+    <e lm="lahap"><p><l>pelahap</l><r>lahap</r></p><par n="pegiat/__adj" prm="pelahap"/></e>
+    <e lm="lalai"><p><l>pelalai</l><r>lalai</r></p><par n="pegiat/__adj" prm="pelalai"/></e>
+    <e lm="lampau"><p><l>pelampau</l><r>lampau</r></p><par n="pegiat/__adj" prm="pelampau"/></e>
+    <e lm="langsing"><p><l>pelangsing</l><r>langsing</r></p><par n="pegiat/__adj" prm="pelangsing"/></e>
+    <e lm="lanjut"><p><l>pelanjut</l><r>lanjut</r></p><par n="pegiat/__adj" prm="pelanjut"/></e>
+    <e lm="laris"><p><l>pelaris</l><r>laris</r></p><par n="pegiat/__adj" prm="pelaris"/></e>
+    <e lm="larut"><p><l>pelarut</l><r>larut</r></p><par n="pegiat/__adj" prm="pelarut"/></e>
+    <e lm="lawak"><p><l>pelawak</l><r>lawak</r></p><par n="pegiat/__adj" prm="pelawak"/></e>
+    <e lm="lekat"><p><l>pelekat</l><r>lekat</r></p><par n="pegiat/__adj" prm="pelekat"/></e>
+    <e lm="lembap"><p><l>pelembap</l><r>lembap</r></p><par n="pegiat/__adj" prm="pelembap"/></e>
+    <e lm="lembut"><p><l>pelembut</l><r>lembut</r></p><par n="pegiat/__adj" prm="pelembut"/></e>
+    <e lm="lengah"><p><l>pelengah</l><r>lengah</r></p><par n="pegiat/__adj" prm="pelengah"/></e>
+    <e lm="lengkap"><p><l>pelengkap</l><r>lengkap</r></p><par n="pegiat/__adj" prm="pelengkap"/></e>
+    <e lm="lengkung"><p><l>pelengkung</l><r>lengkung</r></p><par n="pegiat/__adj" prm="pelengkung"/></e>
+    <e lm="lepas"><p><l>pelepas</l><r>lepas</r></p><par n="pegiat/__adj" prm="pelepas"/></e>
+    <e lm="lerai"><p><l>pelerai</l><r>lerai</r></p><par n="pegiat/__adj" prm="pelerai"/></e>
+    <e lm="lestari"><p><l>pelestari</l><r>lestari</r></p><par n="pegiat/__adj" prm="pelestari"/></e>
+    <e lm="licin"><p><l>pelicin</l><r>licin</r></p><par n="pegiat/__adj" prm="pelicin"/></e>
+    <e lm="luang"><p><l>peluang</l><r>luang</r></p><par n="pegiat/__adj" prm="peluang"/></e>
+    <e lm="lunak"><p><l>pelunak</l><r>lunak</r></p><par n="pegiat/__adj" prm="pelunak"/></e>
+    <e lm="luntur"><p><l>peluntur</l><r>luntur</r></p><par n="pegiat/__adj" prm="peluntur"/></e>
+    <e lm="mabuk"><p><l>pemabuk</l><r>mabuk</r></p><par n="pegiat/__adj" prm="pemabuk"/></e>
+    <e lm="malar"><p><l>pemalar</l><r>malar</r></p><par n="pegiat/__adj" prm="pemalar"/></e>
+    <e lm="malas"><p><l>pemalas</l><r>malas</r></p><par n="pegiat/__adj" prm="pemalas"/></e>
+    <e lm="malu"><p><l>pemalu</l><r>malu</r></p><par n="pegiat/__adj" prm="pemalu"/></e>
+    <e lm="manis"><p><l>pemanis</l><r>manis</r></p><par n="pegiat/__adj" prm="pemanis"/></e>
+    <e lm="marah"><p><l>pemarah</l><r>marah</r></p><par n="pegiat/__adj" prm="pemarah"/></e>
+    <e lm="masak"><p><l>pemasak</l><r>masak</r></p><par n="pegiat/__adj" prm="pemasak"/></e>
+    <e lm="merdeka"><p><l>pemerdeka</l><r>merdeka</r></p><par n="pegiat/__adj" prm="pemerdeka"/></e>
+    <e lm="muda"><p><l>pemuda</l><r>muda</r></p><par n="pegiat/__adj" prm="pemuda"/></e>
+    <e lm="mudah"><p><l>pemudah</l><r>mudah</r></p><par n="pegiat/__adj" prm="pemudah"/></e>
+    <e lm="mujur"><p><l>pemujur</l><r>mujur</r></p><par n="pegiat/__adj" prm="pemujur"/></e>
+    <e lm="mulia"><p><l>pemulia</l><r>mulia</r></p><par n="pegiat/__adj" prm="pemulia"/></e>
+    <e lm="murah"><p><l>pemurah</l><r>murah</r></p><par n="pegiat/__adj" prm="pemurah"/></e>
+    <e lm="nikmat"><p><l>penikmat</l><r>nikmat</r></p><par n="pegiat/__adj" prm="penikmat"/></e>
+    <e lm="rabun"><p><l>perabun</l><r>rabun</r></p><par n="pegiat/__adj" prm="perabun"/></e>
+    <e lm="radang"><p><l>peradang</l><r>radang</r></p><par n="pegiat/__adj" prm="peradang"/></e>
+    <e lm="ramah"><p><l>peramah</l><r>ramah</r></p><par n="pegiat/__adj" prm="peramah"/></e>
+    <e lm="rapat"><p><l>perapat</l><r>rapat</r></p><par n="pegiat/__adj" prm="perapat"/></e>
+    <e lm="rapuh"><p><l>perapuh</l><r>rapuh</r></p><par n="pegiat/__adj" prm="perapuh"/></e>
+    <e lm="rayu"><p><l>perayu</l><r>rayu</r></p><par n="pegiat/__adj" prm="perayu"/></e>
+    <e lm="redam"><p><l>peredam</l><r>redam</r></p><par n="pegiat/__adj" prm="peredam"/></e>
+    <e lm="remuk"><p><l>peremuk</l><r>remuk</r></p><par n="pegiat/__adj" prm="peremuk"/></e>
+    <e lm="renggang"><p><l>perenggang</l><r>renggang</r></p><par n="pegiat/__adj" prm="perenggang"/></e>
+    <e lm="rindu"><p><l>perindu</l><r>rindu</r></p><par n="pegiat/__adj" prm="perindu"/></e>
+    <e lm="risau"><p><l>perisau</l><r>risau</r></p><par n="pegiat/__adj" prm="perisau"/></e>
+    <e lm="robek"><p><l>perobek</l><r>robek</r></p><par n="pegiat/__adj" prm="perobek"/></e>
+    <e lm="sakit"><p><l>pesakit</l><r>sakit</r></p><par n="pegiat/__adj" prm="pesakit"/></e>
+    <e lm="salah"><p><l>pesalah</l><r>salah</r></p><par n="pegiat/__adj" prm="pesalah"/></e>
+    <e lm="santai"><p><l>pesantai</l><r>santai</r></p><par n="pegiat/__adj" prm="pesantai"/></e>
+    <e lm="tinggi"><p><l>petinggi</l><r>tinggi</r></p><par n="pegiat/__adj" prm="petinggi"/></e>
+    <e lm="wangi"><p><l>pewangi</l><r>wangi</r></p><par n="pegiat/__adj" prm="pewangi"/></e>
+
     <!-- per- -->
     <!-- N -> N -->
     <e lm="ajar"><p><l>pelajar</l><r>ajar</r></p><par n="pelajar/__n" prm="pelajar"/></e>
@@ -8949,7 +9226,6 @@
     <e lm="cemar"><p><l>pencemaran</l><r>cemar</r></p><par n="pendaftaran/__n" prm="pencemaran"/></e>
     <e lm="ceroboh"><p><l>pencerobohan</l><r>ceroboh</r></p><par n="pendaftaran/__n" prm="pencerobohan"/></e>
     <e lm="daftar"><p><l>pendaftaran</l><r>daftar</r></p><par n="pendaftaran/__n" prm="pendaftaran"/></e>
-    <e lm="hati"><p><l>pemerhatian</l><r>hati</r></p><par n="pendaftaran/__n" prm="pemerhatian"/></e>
     <e lm="ion"><p><l>pengionan</l><r>ion</r></p><par n="pendaftaran/__n" prm="pengionan"/></e>
     <e lm="isytihar"><p><l>pengisytiharan</l><r>isytihar</r></p><par n="pendaftaran/__n" prm="pengisytiharan"/></e>
     <e lm="kaji"><p><l>pengajian</l><r>kaji</r></p><par n="pendaftaran/__n" prm="pengajian"/></e>
@@ -8959,7 +9235,6 @@
     <e lm="kisar"><p><l>pengisaran</l><r>kisar</r></p><par n="pendaftaran/__n" prm="pengisaran"/></e>
     <e lm="klon"><p><l>pengklonan</l><r>klon</r></p><par n="pendaftaran/__n" prm="pengklonan"/></e>
     <e lm="kunci"><p><l>penguncian</l><r>kunci</r></p><par n="pendaftaran/__n" prm="penguncian"/></e>
-    <e lm="nilai"><p><l>penilaian</l><r>nilai</r></p><par n="pendaftaran/__n" prm="penilaian"/></e>
     <e lm="oksida"><p><l>pengoksidaan</l><r>oksida</r></p><par n="pendaftaran/__n" prm="pengoksidaan"/></e>
     <e lm="pandu"><p><l>pemanduan</l><r>pandu</r></p><par n="pendaftaran/__n" prm="pemanduan"/></e>
     <e lm="pasang"><p><l>pemasangan</l><r>pasang</r></p><par n="pendaftaran/__n" prm="pemasangan"/></e>
@@ -8984,13 +9259,9 @@
     <e lm="intip"><p><l>pengintipan</l><r>intip</r></p><par n="penarikan/__vblex" prm="pengintipan"/></e>
     <e lm="jaga"><p><l>penjagaan</l><r>jaga</r></p><par n="penarikan/__vblex" prm="penjagaan"/></e>
     <e lm="keluar"><p><l>pengeluaran</l><r>keluar</r></p><par n="penarikan/__vblex" prm="pengeluaran"/></e>
-    <e lm="labur"><p><l>pelaburan</l><r>labur</r></p><par n="penarikan/__vblex" prm="pelaburan"/></e>
-    <e lm="lancong"><p><l>pelancongan</l><r>lancong</r></p><par n="penarikan/__vblex" prm="pelancongan"/></e>
-    <e lm="lari"><p><l>pelarian</l><r>lari</r></p><par n="penarikan/__vblex" prm="pelarian"/></e>
     <e lm="libat"><p><l>penglibatan</l><r>libat</r></p><par n="penarikan/__vblex" prm="penglibatan"/></e>
     <e lm="luwap"><p><l>pemeluwapan</l><r>luwap</r></p><par n="penarikan/__vblex" prm="pemeluwapan"/></e>
     <e lm="pergi"><p><l>pemergian</l><r>pergi</r></p><par n="penarikan/__vblex" prm="pemergian"/></e>
-    <e lm="periksa"><p><l>peperiksaan</l><r>periksa</r></p><par n="penarikan/__vblex" prm="peperiksaan"/></e>
     <e lm="pesong"><p><l>pemesongan</l><r>pesong</r></p><par n="penarikan/__vblex" prm="pemesongan"/></e>
     <e lm="sambung"><p><l>penyambungan</l><r>sambung</r></p><par n="penarikan/__vblex" prm="penyambungan"/></e>
     <e lm="selesai"><p><l>penyelesaian</l><r>selesai</r></p><par n="penarikan/__vblex" prm="penyelesaian"/></e>
@@ -9010,7 +9281,6 @@
     <e lm="gilap"><p><l>penggilapan</l><r>gilap</r></p><par n="pembetulan/__adj" prm="penggilapan"/></e>
     <e lm="khusus"><p><l>pengkhususan</l><r>khusus</r></p><par n="pembetulan/__adj" prm="pengkhususan"/></e>
     <e lm="kuat"><p><l>penguatkuasaan</l><r>kuat</r></p><par n="pembetulan/__adj" prm="penguatkuasaan"/></e>
-    <e lm="lacur"><p><l>pelacuran</l><r>lacur</r></p><par n="pembetulan/__adj" prm="pelacuran"/></e>
     <e lm="patuh"><p><l>pematuhan</l><r>patuh</r></p><par n="pembetulan/__adj" prm="pematuhan"/></e>
     <e lm="sah"><p><l>pengesahan</l><r>sah</r></p><par n="pembetulan/__adj" prm="pengesahan"/></e>
     <e lm="samar"><p><l>penyamaran</l><r>samar</r></p><par n="pembetulan/__adj" prm="penyamaran"/></e>
@@ -9020,6 +9290,23 @@
     <e lm="swasta"><p><l>penswastaan</l><r>swasta</r></p><par n="pembetulan/__adj" prm="penswastaan"/></e>
     <e lm="urai"><p><l>penguraian</l><r>urai</r></p><par n="pembetulan/__adj" prm="penguraian"/></e>
     
+    <!-- peN-an variations -->
+    <!-- N -> N -->
+    <e lm="hati"><p><l>pemerhatian</l><r>hati</r></p><par n="pemercontohan/__n" prm="pemerhatian"/></e>
+
+    <!-- pe-an -->
+    <!-- N -> N -->
+    <e lm="nilai"><p><l>penilaian</l><r>nilai</r></p><par n="pejajaran/__n" prm="penilaian"/></e>
+
+    <!-- V -> N -->
+    <e lm="labur"><p><l>pelaburan</l><r>labur</r></p><par n="pegadaian/__vblex" prm="pelaburan"/></e>
+    <e lm="lancong"><p><l>pelancongan</l><r>lancong</r></p><par n="pegadaian/__vblex" prm="pelancongan"/></e>
+    <e lm="lari"><p><l>pelarian</l><r>lari</r></p><par n="pegadaian/__vblex" prm="pelarian"/></e>
+    <e lm="periksa"><p><l>peperiksaan</l><r>periksa</r></p><par n="pegadaian/__vblex" prm="peperiksaan"/></e>
+
+    <!-- Adj -> N -->
+    <e lm="lacur"><p><l>pelacuran</l><r>lacur</r></p><par n="pedalaman/__adj" prm="pelacuran"/></e>
+
     <!-- per-an -->
     <!-- N -> N -->
     <e lm="bahasa"><p><l>perbahasaan</l><r>bahasa</r></p><par n="perbahasaan/__n" prm="perbahasaan"/></e>
@@ -15394,6 +15681,13 @@
     <e lm="ialah"><i>ialah</i><par n="adalah__part"/></e>
   </section>
   <section id="final" type="inconditional">
+    <e><par n="numeros"/></e>
     <e><par n="separa"/></e>
+    <e><par n="coma"/></e>
+    <e><par n="cometa"/></e>
+    <e><par n="paresq"/></e>
+    <e><par n="pardret"/></e>
+    <e><par n="separ"/></e>
+    <e><par n="guionet"/></e>
   </section>
 </dictionary>
