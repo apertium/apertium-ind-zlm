@@ -897,6 +897,33 @@
       </p>
     </e>
     </pardef>
+    <pardef n="keseluruhan/__det">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="det"/><s n="n"/><s n="ke-an"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="det"/><s n="n"/><s n="ke-an"/><s n="sg"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/></l>
+        <r><s n="det"/><s n="n"/><s n="ke-an"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-<prm/>nya</l>
+        <r><s n="det"/><s n="n"/><s n="ke-an"/><s n="pl"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    
     <!-- variations -->
     <pardef n="keberadaan/__vblex">
     <e>
@@ -1641,48 +1668,6 @@
     </e>
     </pardef>
     
-    <!-- di- (V -> V) -->
-    <pardef n="diabsen/__vblex">
-    <e c="di-">
-      <p>
-        <l></l>
-        <r><s n="vblex"/><s n="pasv"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>nya</l>
-        <r><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
-      </p>
-    </e>
-    </pardef>
-    <pardef n="diacung/__vblex">
-    <e c="di-, di-kan">
-      <p>
-        <l></l>
-        <r><s n="vblex"/><s n="pasv"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>nya</l>
-        <r><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>kan</l>
-        <r><s n="vblex"/><s n="pasv"/><s n="kan"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>kannya</l>
-        <r><s n="vblex"/><s n="pasv"/><s n="kan"/><s n="nya"/></r>
-      </p>
-    </e>
-    </pardef>
-    
     <!-- meN- (Adj -> V) -->
     <pardef n="mengacak/__adj">
     <e c="meN">
@@ -2003,8 +1988,122 @@
     </e>
     </pardef>
     
+    <!-- meN- (Adv -> V) -->
+    <pardef n="mengemudian/kan__adv">
+    <e c="meN-kan">
+      <p>
+        <l>kan</l>
+        <r><s n="adv"/><s n="vblex"/><s n="actv"/><s n="kan"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="adv"/><s n="vblex"/><s n="actv"/><s n="kan"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <!-- meN- (Det -> V) -->
+    <pardef n="menyeluruh/__det">
+    <e c="meN-">
+      <p>
+        <l></l>
+        <r><s n="det"/><s n="vblex"/><s n="actv"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="det"/><s n="vblex"/><s n="actv"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <!-- di- (V -> V) -->
+    <pardef n="diabsen/__vblex">
+    <e c="di-">
+      <p>
+        <l></l>
+        <r><s n="vblex"/><s n="pasv"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="diacung/__vblex">
+    <e c="di-, di-kan">
+      <p>
+        <l></l>
+        <r><s n="vblex"/><s n="pasv"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kan</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="kan"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="kan"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    
     <!-- di- (N -> V) -->
+    <pardef n="diair/i__n">
+    <e c="di-i">
+      <p>
+        <l>i</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="i"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="i"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="diakibat/kan__n">
+    <e c="di-kan">
+      <p>
+        <l>kan</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="kan"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="kan"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="diabdi/__n">
+    <e c="di-, di-kan">
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
+      </p>
+    </e>
     <e>
       <p>
         <l>kan</l>
@@ -2019,18 +2118,18 @@
     </e>
     </pardef>
     
-    <!-- meN- (Adv -> V) -->
-    <pardef n="mengemudian/kan__adv">
-    <e c="meN-kan">
+    <!-- di- (Adj -> V) -->
+    <pardef n="diabsah/kan__adj">
+    <e c="di-kan">
       <p>
         <l>kan</l>
-        <r><s n="adv"/><s n="vblex"/><s n="actv"/><s n="kan"/></r>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="kan"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>kannya</l>
-        <r><s n="adv"/><s n="vblex"/><s n="actv"/><s n="kan"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="kan"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2057,6 +2156,42 @@
       <p>
         <l></l>
         <r><s n="adj"/><s n="vblex"/><s n="ber"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="berlangsung__adv">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adv"/><s n="vblex"/><s n="ber"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <!-- ber-an -->
+    <pardef n="berpahaman__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="vblex"/><s n="ber-an"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="berkekalan__adj">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="vblex"/><s n="ber-an"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <!-- ber-kan -->
+    <pardef n="berorientasikan__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="vblex"/><s n="ber-kan"/></r>
       </p>
     </e>
     </pardef>
@@ -2443,6 +2578,22 @@
     </e>
     </pardef>
     
+    <!-- diper- -->
+    <pardef n="diperanak/kan__n">
+    <e c="diper-kan">
+      <p>
+        <l>kan</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="per-kan"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="per-kan"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    
     <pardef n="baik__adj">
     <e>
       <p>
@@ -2648,6 +2799,7 @@
     <e lm="Austria"><i>Austria</i><par n="Indonesia__np"/></e>
     <e lm="Bali"><i>Bali</i><par n="Indonesia__np"/></e>
     <e lm="Belanda"><i>Belanda</i><par n="Indonesia__np"/></e>
+    <e lm="Boston"><i>Boston</i><par n="Indonesia__np"/></e>
     <e lm="Brasil"><i>Brasil</i><par n="Indonesia__np"/></e>
     <e lm="Britania"><i>Britania</i><par n="Indonesia__np"/></e>
     <e lm="California"><i>California</i><par n="Indonesia__np"/></e>
@@ -2684,6 +2836,7 @@
     <e lm="itu"><i>itu</i><par n="ini__prn"/></e>
     
     <e lm="sana"><i>sana</i><par n="sana__prn"/></e>
+    <e lm="sini"><i>sini</i><par n="sana__prn"/></e>
     <e lm="situ"><i>situ</i><par n="sana__prn"/></e>
     
     <e lm="beberapa"><i>beberapa</i><par n="seseorang__prn"/></e>
@@ -3463,6 +3616,7 @@
     <e lm="bintara"><i>bintara</i><par n="abad/__n" prm="bintara"/></e>
     <e lm="bintik"><i>bintik</i><par n="abad/__n" prm="bintik"/></e>
     <e lm="bintil"><i>bintil</i><par n="abad/__n" prm="bintil"/></e>
+    <e lm="bioekonomi"><i>bioekonomi</i><par n="abad/__n" prm="bioekonomi"/></e>
     <e lm="biografi"><i>biografi</i><par n="abad/__n" prm="biografi"/></e>
     <e lm="biokimia"><i>biokimia</i><par n="abad/__n" prm="biokimia"/></e>
     <e lm="biola"><i>biola</i><par n="abad/__n" prm="biola"/></e>
@@ -5491,6 +5645,7 @@
     <e lm="komedian"><i>komedian</i><par n="abad/__n" prm="komedian"/></e>
     <e lm="komentar"><i>komentar</i><par n="abad/__n" prm="komentar"/></e>
     <e lm="komentator"><i>komentator</i><par n="abad/__n" prm="komentator"/></e>
+    <e lm="komersialisasi"><i>komersialisasi</i><par n="abad/__n" prm="komersialisasi"/></e>
     <e lm="komet"><i>komet</i><par n="abad/__n" prm="komet"/></e>
     <e lm="komidi"><i>komidi</i><par n="abad/__n" prm="komidi"/></e>
     <e lm="komik"><i>komik</i><par n="abad/__n" prm="komik"/></e>
@@ -9084,6 +9239,7 @@
     <e lm="ramal"><i>ramal</i><par n="akhir/__n" prm="ramal"/></e>
     <e lm="rampai"><i>rampai</i><par n="akhir/__n" prm="rampai"/></e>
     <e lm="rancang"><i>rancang</i><par n="akhir/__n" prm="rancang"/></e>
+    <e lm="rangkai"><i>rangkai</i><par n="akhir/__n" prm="rangkai"/></e>
     <e lm="rantai"><i>rantai</i><par n="akhir/__n" prm="rantai"/></e>
     <e lm="rapor"><i>rapor</i><par n="akhir/__n" prm="rapor"/></e>
     <e lm="raung"><i>raung</i><par n="akhir/__n" prm="raung"/></e>
@@ -10221,6 +10377,7 @@
     <e lm="rompak"><p><l>perompak</l><r>rompak</r></p><par n="perenang/__vblex" prm="perompak"/></e>
     <e lm="ronda"><p><l>peronda</l><r>ronda</r></p><par n="perenang/__vblex" prm="peronda"/></e>
     <e lm="salin"><p><l>persalin</l><r>salin</r></p><par n="perenang/__vblex" prm="persalin"/></e>
+    <e lm="serta"><p><l>peserta</l><r>serta</r></p><par n="perenang/__vblex" prm="peserta"/></e>
     <e lm="tinggal"><p><l>pertinggal</l><r>tinggal</r></p><par n="perenang/__vblex" prm="pertinggal"/></e>
     <e lm="tunjuk"><p><l>pertunjuk</l><r>tunjuk</r></p><par n="perenang/__vblex" prm="pertunjuk"/></e>
     <e lm="ubah"><p><l>perubah</l><r>ubah</r></p><par n="perenang/__vblex" prm="perubah"/></e>
@@ -11197,6 +11354,9 @@
     <!-- Adv -> N -->
     <e lm="esok"><p><l>keesokan</l><r>esok</r></p><par n="keesokan/__adv" prm="keesokan"/></e>
     
+    <!-- Det -> N -->
+    <e lm="seluruh"><p><l>keseluruhan</l><r>seluruh</r></p><par n="keseluruhan/__det" prm="keseluruhan"/></e>
+    
     <!-- peN-an -->
     <!-- N -> N -->
     <e lm="Injil"><p><l>penginjilan</l><r>Injil</r></p><par n="pendaftaran/__n" prm="penginjilan"/></e>
@@ -11775,7 +11935,7 @@
     <e lm="steril"><p><l>pensterilan</l><r>steril</r></p><par n="pembetulan/__adj" prm="pensterilan"/></e>
     <e lm="swasta"><p><l>penswastaan</l><r>swasta</r></p><par n="pembetulan/__adj" prm="penswastaan"/></e>
 
-    <!-- peN- variations -->
+    <!-- peN-an variations -->
     <!-- N -> N -->
     <e lm="contoh"><p><l>pemercontohan</l><r>contoh</r></p><par n="pemercontohan/__n" prm="pemercontohan"/></e>
     <e lm="raga"><p><l>pemeragaan</l><r>raga</r></p><par n="pemercontohan/__n" prm="pemeragaan"/></e>
@@ -11787,7 +11947,7 @@
     <e lm="panjang"><p><l>pemerpanjangan</l><r>panjang</r></p><par n="pemerataan/__adj" prm="pemerpanjangan"/></e>
     <e lm="rata"><p><l>pemerataan</l><r>rata</r></p><par n="pemerataan/__adj" prm="pemerataan"/></e>
     
-    <!-- pe- -->
+    <!-- pe-an -->
     <!-- N -> N -->
     <e lm="dalang"><p><l>pedalangan</l><r>dalang</r></p><par n="pejajaran/__n" prm="pedalangan"/></e>
     <e lm="desa"><p><l>pedesaan</l><r>desa</r></p><par n="pejajaran/__n" prm="pedesaan"/></e>
@@ -12128,6 +12288,7 @@
     <e lm="niaga"><p><l>perniagaan</l><r>niaga</r></p><par n="perbahasaan/__n" prm="perniagaan"/></e>
     <e lm="nikah"><p><l>pernikahan</l><r>nikah</r></p><par n="perbahasaan/__n" prm="pernikahan"/></e>
     <e lm="novel"><p><l>pernovelan</l><r>novel</r></p><par n="perbahasaan/__n" prm="pernovelan"/></e>
+    <e lm="obat"><p><l>perobatan</l><r>obat</r></p><par n="perbahasaan/__n" prm="perobatan"/></e>
     <e lm="ongkos"><p><l>perongkosan</l><r>ongkos</r></p><par n="perbahasaan/__n" prm="perongkosan"/></e>
     <e lm="orang"><p><l>perorangan</l><r>orang</r></p><par n="perbahasaan/__n" prm="perorangan"/></e>
     <e lm="otot"><p><l>perototan</l><r>otot</r></p><par n="perbahasaan/__n" prm="perototan"/></e>
@@ -12423,6 +12584,7 @@
     <e lm="bengong"><i>bengong</i><par n="absen/__vblex" prm="bengong"/></e>
     <e lm="bersin"><i>bersin</i><par n="absen/__vblex" prm="bersin"/></e>
     <e lm="bicara"><i>bicara</i><par n="absen/__vblex" prm="bicara"/></e>
+    <e lm="bincang"><i>bincang</i><par n="absen/__vblex" prm="bincang"/></e>
     <e lm="bikin"><i>bikin</i><par n="absen/__vblex" prm="bikin"/></e>
     <e lm="blokir"><i>blokir</i><par n="absen/__vblex" prm="blokir"/></e>
     <e lm="bobok"><i>bobok</i><par n="absen/__vblex" prm="bobok"/></e>
@@ -12648,6 +12810,7 @@
     <e lm="sepah"><i>sepah</i><par n="absen/__vblex" prm="sepah"/></e>
     <e lm="sera"><i>sera</i><par n="absen/__vblex" prm="sera"/></e>
     <e lm="serak"><i>serak</i><par n="absen/__vblex" prm="serak"/></e>
+    <e lm="serta"><i>serta</i><par n="absen/__vblex" prm="serta"/></e>
     <e lm="sertu"><i>sertu</i><par n="absen/__vblex" prm="sertu"/></e>
     <e lm="seruput"><i>seruput</i><par n="absen/__vblex" prm="seruput"/></e>
     <e lm="siam"><i>siam</i><par n="absen/__vblex" prm="siam"/></e>
@@ -13308,6 +13471,7 @@
     <e lm="jambret"><p><l>menjambret</l><r>jambret</r></p><par n="mengabsen/__vblex" prm="jambret"/></e>
     <e lm="jamin"><p><l>menjamin</l><r>jamin</r></p><par n="mengabsen/__vblex" prm="jamin"/></e>
     <e lm="jegal"><p><l>menjegal</l><r>jegal</r></p><par n="mengabsen/__vblex" prm="jegal"/></e>
+    <e lm="jelang"><p><l>menjelang</l><r>jelang</r></p><par n="mengabsen/__vblex" prm="jelang"/></e>
     <e lm="jemput"><p><l>menjemput</l><r>jemput</r></p><par n="mengabsen/__vblex" prm="jemput"/></e>
     <e lm="jemur"><p><l>menjemur</l><r>jemur</r></p><par n="mengabsen/__vblex" prm="jemur"/></e>
     <e lm="jentik"><p><l>menjentik</l><r>jentik</r></p><par n="mengabsen/__vblex" prm="jentik"/></e>
@@ -15537,7 +15701,7 @@
     <e lm="ramal"><p><l>meramal</l><r>ramal</r></p><par n="mengabdi/__n" prm="ramal"/></e>
     <e lm="rampai"><p><l>merampai</l><r>rampai</r></p><par n="mengabdi/__n" prm="rampai"/></e>
     <e lm="rancang"><p><l>merancang</l><r>rancang</r></p><par n="mengabdi/__n" prm="rancang"/></e>
-    <e lm="rangkai"><p><l>menyerangkai</l><r>rangkai</r></p><par n="mengabdi/__n" prm="rangkai"/></e>
+    <e lm="rangkai"><p><l>merangkai</l><r>rangkai</r></p><par n="mengabdi/__n" prm="rangkai"/></e>
     <e lm="rangsang"><p><l>merangsang</l><r>rangsang</r></p><par n="mengabdi/__n" prm="rangsang"/></e>
     <e lm="rasi"><p><l>merasi</l><r>rasi</r></p><par n="mengabdi/__n" prm="rasi"/></e>
     <e lm="rawi"><p><l>merawi</l><r>rawi</r></p><par n="mengabdi/__n" prm="rawi"/></e>
@@ -16498,6 +16662,9 @@
     <!-- Adv -> V -->
     <e lm="esok"><p><l>mengesok</l><r>esok</r></p><par n="mengemudian/kan__adv" prm="esok"/></e>
     <e lm="kemudian"><p><l>mengemudian</l><r>kemudian</r></p><par n="mengemudian/kan__adv" prm="kemudian"/></e>
+
+    <!-- Det -> V -->
+    <e lm="seluruh"><p><l>menyeluruh</l><r>seluruh</r></p><par n="menyeluruh/__det" prm="nyeluruh"/></e>
     
     <!-- di- -->
     <!-- V -> V -->
@@ -17097,6 +17264,8 @@
     <e lm="nanti"><p><l>dinanti</l><r>nanti</r></p><par n="diacung/__vblex" prm="nanti"/></e>
     
     <!-- N -> V -->
+    <!-- -i -->
+    <e lm="ketua"><p><l>diketua</l><r>ketua</r></p><par n="diair/i__n" prm="ketua"/></e>
     <!-- -kan -->
     <e lm="Islam"><p><l>diislam</l><r>Islam</r></p><par n="diakibat/kan__n" prm="Islam"/></e>
     <e lm="Kristen"><p><l>dikristen</l><r>Kristen</r></p><par n="diakibat/kan__n" prm="Kristen"/></e>
@@ -17240,7 +17409,6 @@
     <e lm="isu"><p><l>diisu</l><r>isu</r></p><par n="diakibat/kan__n" prm="isu"/></e>
     <e lm="isyarat"><p><l>diisyarat</l><r>isyarat</r></p><par n="diakibat/kan__n" prm="isyarat"/></e>
     <e lm="izin"><p><l>diizin</l><r>izin</r></p><par n="diakibat/kan__n" prm="izin"/></e>
-    <e lm="jadwal"><p><l>dijadwal</l><r>jadwal</r></p><par n="diakibat/kan__n" prm="jadwal"/></e>
     <e lm="janji"><p><l>dijanji</l><r>janji</r></p><par n="diakibat/kan__n" prm="janji"/></e>
     <e lm="jemaah"><p><l>dijemaah</l><r>jemaah</r></p><par n="diakibat/kan__n" prm="jemaah"/></e>
     <e lm="jerih"><p><l>dijerih</l><r>jerih</r></p><par n="diakibat/kan__n" prm="jerih"/></e>
@@ -17483,6 +17651,12 @@
     <e lm="wasiat"><p><l>diwasiat</l><r>wasiat</r></p><par n="diakibat/kan__n" prm="wasiat"/></e>
     <e lm="wayang"><p><l>diwayang</l><r>wayang</r></p><par n="diakibat/kan__n" prm="wayang"/></e>
     <e lm="wisma"><p><l>diwisma</l><r>wisma</r></p><par n="diakibat/kan__n" prm="wisma"/></e>
+    <!-- no suffix, -kan -->
+    <e lm="jadwal"><p><l>dijadwal</l><r>jadwal</r></p><par n="diabdi/__n" prm="jadwal"/></e>
+    
+    <!-- Adj -> V -->
+    <!-- -kan -->
+    <e lm="umum"><p><l>diumum</l><r>umum</r></p><par n="diabsah/kan__adj" prm="umum"/></e>
     
     <!-- ber- -->
     <!-- N -> V -->
@@ -18587,12 +18761,26 @@
     <e lm="bahagia"><p><l>berbahagia</l><r>bahagia</r></p><par n="berbahagia__adj"/></e>
     <e lm="sama"><p><l>bersama</l><r>sama</r></p><par n="berbahagia__adj"/></e>
     
+    <!-- Adv -> V -->
+    <e lm="langsung"><p><l>berlangsung</l><r>langsung</r></p><par n="berlangsung__adv"/></e>
+    
+    <!-- ber-an -->
+    <!-- N -> V -->
+    <e lm="kait"><p><l>berkaitan</l><r>kait</r></p><par n="berpahaman__n"/></e>
+    
+    <!-- ber-kan -->
+    <!-- N -> V -->
+    <e lm="asas"><p><l>berasaskan</l><r>asas</r></p><par n="berorientasikan__n"/></e>
+    
     <!-- ter- -->
     <!-- N -> V -->
+    <e lm="diri"><p><l>terdiri</l><r>diri</r></p><par n="tertawa__n"/></e>
     <e lm="letak"><p><l>terletak</l><r>letak</r></p><par n="tertawa__n"/></e>
     <e lm="tawa"><p><l>tertawa</l><r>tawa</r></p><par n="tertawa__n"/></e>
     
     <!-- V -> V -->
+    <e lm="libat"><p><l>terlibat</l><r>libat</r></p><par n="tertidur__vblex"/></e>
+    <e lm="masuk"><p><l>termasuk</l><r>masuk</r></p><par n="tertidur__vblex"/></e>
     <e lm="sebut"><p><l>tersebut</l><r>sebut</r></p><par n="tertidur__vblex"/></e>
     <e lm="tidur"><p><l>tertidur</l><r>tidur</r></p><par n="tertidur__vblex"/></e>
     
@@ -18890,6 +19078,11 @@
     <e lm="lapang"><p><l>memperlapang</l><r>lapang</r></p><par n="memperbanyak/__adj"/></e>
     <e lm="lengah"><p><l>memperlengah</l><r>lengah</r></p><par n="memperbanyak/__adj"/></e>
     <e lm="teguh"><p><l>memperteguh</l><r>teguh</r></p><par n="memperbanyak/__adj"/></e>
+    
+    <!-- diper- -->
+    <!-- N -> V -->
+    <!-- -kan -->
+    <e lm="kira"><p><l>diperkira</l><r>kira</r></p><par n="diperanak/kan__n"/></e>
     
 <!-- Adjectives -->
     <e lm="abadi"><i>abadi</i><par n="baik__adj"/></e>
@@ -20820,6 +21013,7 @@
     <e lm="seingat"><i>seingat</i><par n="ingin__adv"/></e>
     <e lm="sejadi-jadinya"><i>sejadi-jadinya</i><par n="ingin__adv"/></e>
     <e lm="sejamaknya"><i>sejamaknya</i><par n="ingin__adv"/></e>
+    <e lm="sejauh"><i>sejauh</i><par n="ingin__adv"/></e>
     <e lm="sekadar"><i>sekadar</i><par n="ingin__adv"/></e>
     <e lm="sekala"><i>sekala</i><par n="ingin__adv"/></e>
     <e lm="sekali-kali"><i>sekali-kali</i><par n="ingin__adv"/></e>
@@ -21093,6 +21287,7 @@
     <e lm="sebagai"><i>sebagai</i><par n="dari__pr"/></e>
     <e lm="sebelum"><i>sebelum</i><par n="dari__pr"/></e>
     <e lm="sehabis"><i>sehabis</i><par n="dari__pr"/></e>
+    <e lm="selain"><i>selain</i><par n="dari__pr"/></e>
     <e lm="selama"><i>selama</i><par n="dari__pr"/></e>
     <e lm="selepas"><i>selepas</i><par n="dari__pr"/></e>
     <e lm="seperti"><i>seperti</i><par n="dari__pr"/></e>

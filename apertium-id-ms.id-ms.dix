@@ -17,7 +17,6 @@
     <sdef n="ij"/>
     <sdef n="rel"/>
     <sdef n="part"/>
-    <sdef n="sent"/>
 
     <sdef n="sg"/>
     <sdef n="pl"/>
@@ -25,15 +24,38 @@
     <sdef n="actv"/>
     <sdef n="pasv"/>
     
-    <sdef n="peN"/>
-    <sdef n="per"/>
-    
+    <!-- Affixes -->
     <sdef n="an"/>
+    <sdef n="ber-an"/>
+    <sdef n="ber-kan"/>
+    <sdef n="ber"/>
+    <sdef n="i"/>
     <sdef n="kan"/>
-    
     <sdef n="ke-an"/>
+    <sdef n="ke"/>
+    <sdef n="pe-an"/>
+    <sdef n="pe"/>
+    <sdef n="peN-an"/>
+    <sdef n="peN"/>
+    <sdef n="per-an"/>
+    <sdef n="per-i"/>
+    <sdef n="per-kan"/>
+    <sdef n="per"/>
+    <sdef n="se"/>
+    <sdef n="ter"/>
+
+    <sdef n="kah"/>
+    <sdef n="pun"/>
+    <sdef n="nya"/>
     
-    <sdef n="alt"/>
+    <sdef n="sent"/>
+    <sdef n="cm"/> 
+    <sdef n="lpar"/> 
+    <sdef n="rpar"/> 
+    <sdef n="lquest"/> 
+    <sdef n="apos"/> 
+    <sdef n="percent"/>
+    <sdef n="guio"/>
   </sdefs>
 
   <section id="main" type="standard">
@@ -82,6 +104,7 @@
     <e><p><l>anak<s n="n"/></l><r>anak<s n="n"/></r></p></e>
     <e r="RL"><p><l>anak<s n="n"/></l><r>budak<s n="n"/></r></p></e>
     <e><p><l>anjing<s n="n"/></l><r>anjing<s n="n"/></r></p></e>
+    <e><p><l>bagian<s n="n"/></l><r>bahagian<s n="n"/></r></p></e>
     <e><p><l>bahasa<s n="n"/></l><r>bahasa<s n="n"/></r></p></e>
     <e><p><l>bandara<s n="n"/></l><r>lapangan<b/>terbang<s n="n"/></r></p></e>
     <e r="LR"><p><l>bandar<b/>udara<s n="n"/></l><r>lapangan<b/>terbang<s n="n"/></r></p></e>
@@ -98,16 +121,20 @@
     <e><p><l>hari<s n="n"/></l><r>hari<s n="n"/></r></p></e>
     <e><p><l>hewan<s n="n"/></l><r>haiwan<s n="n"/></r></p></e>
     <e><p><l>ibu<s n="n"/></l><r>ibu<s n="n"/></r></p></e>
+    <e><p><l>investasi<s n="n"/></l><r>labur<s n="vblex"/><s n="n"/><s n="pe-an"/></r></p></e>
+    <e><p><l>investasi<s n="n"/><s n="vblex"/><s n="ber"/></l><r>labur<s n="vblex"/><s n="actv"/></r></p></e>
     <e><p><l>jawab<s n="n"/></l><r>jawab<s n="n"/></r></p></e>
     <e><p><l>jawat<s n="n"/></l><r>jawat<s n="n"/></r></p></e>
     <e><p><l>jendela<s n="n"/></l><r>tingkap<s n="n"/></r></p></e>
     <e r="RL"><p><l>jendela<s n="n"/></l><r>jendela<s n="n"/></r></p></e>
-    <e><p><l>kantor<s n="n"/></l><r>jabat<s n="vblex"/><s n="n"/><s n="peN"/><s n="alt"/></r></p></e>
+    <e><p><l>kantor<s n="n"/></l><r>jabat<s n="vblex"/><s n="n"/><s n="pe"/></r></p></e>
     <e><p><l>kata<s n="n"/></l><r>kata<s n="n"/></r></p></e>
     <e><p><l>kawasan<s n="n"/></l><r>kawasan<s n="n"/></r></p></e>
     <e><p><l>kebun<s n="n"/></l><r>kebun<s n="n"/></r></p></e>
     <e><p><l>kepala<s n="n"/></l><r>kepala<s n="n"/></r></p></e>
+    <e><p><l>komersialisasi<s n="n"/></l><r>komersil<s n="adj"/><s n="n"/><s n="peN-an"/></r></p></e>
     <e><p><l>komunitas<s n="n"/></l><r>komun<s n="n"/></r></p></e>
+    <e><p><l>konvensi<s n="n"/></l><r>konvensyen<s n="n"/></r></p></e>
     <e><p><l>kota<s n="n"/></l><r>bandar<s n="n"/></r></p></e>
     <e r="RL"><p><l>kota<s n="n"/></l><r>kota<s n="n"/></r></p></e>
     <e><p><l>kucing<s n="n"/></l><r>kucing<s n="n"/></r></p></e>
@@ -122,19 +149,23 @@
     <e><p><l>milik<s n="n"/></l><r>milik<s n="n"/></r></p></e>
     <e><p><l>nama<s n="n"/></l><r>nama<s n="n"/></r></p></e>
     <e><p><l>negara<s n="n"/></l><r>negara<s n="n"/></r></p></e>
+    <e><p><l>niaga<s n="n"/></l><r>niaga<s n="n"/></r></p></e>
     <e><p><l>orang<s n="n"/></l><r>orang<s n="n"/></r></p></e>
     <e><p><l>pikir<s n="n"/></l><r>fikir<s n="n"/></r></p></e>
     <e><p><l>pohon<s n="n"/></l><r>pokok<s n="n"/></r></p></e>
     <e><p><l>pranala<s n="n"/></l><r>pautan<s n="n"/></r></p></e>
     <e><p><l>putra<s n="n"/></l><r>putera<s n="n"/></r></p></e>
     <e><p><l>putri<s n="n"/></l><r>puteri<s n="n"/></r></p></e>
+    <e><p><l>rangkai<s n="n"/></l><r>rangkai<s n="n"/></r></p></e>
     <e><p><l>rasa<s n="n"/></l><r>rasa<s n="n"/></r></p></e>
     <e><p><l>referensi<s n="n"/></l><r>rujuk<s n="vblex"/><s n="n"/><s n="an"/></r></p></e>
     <e><p><l>rumah<s n="n"/></l><r>rumah<s n="n"/></r></p></e>
     <e><p><l>rupa<s n="n"/></l><r>rupa<s n="n"/></r></p></e>
     <e><p><l>saksi<s n="n"/></l><r>saksi<s n="n"/></r></p></e>
+    <e><p><l>ilmuwan<s n="n"/></l><r>saintis<s n="n"/></r></p></e>
     <e><p><l>sekitar<s n="n"/></l><r>sekitar<s n="n"/><s n="an"/></r></p></e>
     <e><p><l>sekolah<s n="n"/></l><r>sekolah<s n="n"/></r></p></e>
+    <e><p><l>sekretaris<s n="n"/></l><r>setiausaha<s n="n"/></r></p></e>
     <e><p><l>siswa<s n="n"/></l><r>ajar<s n="n"/><s n="per"/></r></p></e>
     <e><p><l>taman<s n="n"/></l><r>taman<s n="n"/></r></p></e>
     <e><p><l>tangan<s n="n"/></l><r>tangan<s n="n"/></r></p></e>
@@ -564,6 +595,7 @@
     <e><p><l>binjai<s n="n"/></l><r>binjai<s n="n"/></r></p></e>
     <e><p><l>bintik<s n="n"/></l><r>bintik<s n="n"/></r></p></e>
     <e><p><l>bintil<s n="n"/></l><r>bintil<s n="n"/></r></p></e>
+    <e><p><l>bioekonomi<s n="n"/></l><r>bioekonomi<s n="n"/></r></p></e>
     <e><p><l>biografi<s n="n"/></l><r>biografi<s n="n"/></r></p></e>
     <e><p><l>biokimia<s n="n"/></l><r>biokimia<s n="n"/></r></p></e>
     <e><p><l>biola<s n="n"/></l><r>biola<s n="n"/></r></p></e>
@@ -829,6 +861,7 @@
     <e><p><l>devosi<s n="n"/></l><r>devosi<s n="n"/></r></p></e>
     <e><p><l>dewa<s n="n"/></l><r>dewa<s n="n"/></r></p></e>
     <e><p><l>dewan<s n="n"/></l><r>dewan<s n="n"/></r></p></e>
+    <e r="RL"><p><l>dewan<s n="n"/></l><r>majlis<s n="n"/></r></p></e>
     <e><p><l>dewi<s n="n"/></l><r>dewi<s n="n"/></r></p></e>
     <e><p><l>diabetes<s n="n"/></l><r>diabetes<s n="n"/></r></p></e>
     <e><p><l>diafragma<s n="n"/></l><r>diafragma<s n="n"/></r></p></e>
@@ -1286,6 +1319,7 @@
     <e><p><l>haru<s n="n"/></l><r>haru<s n="n"/></r></p></e>
     <e><p><l>has<s n="n"/></l><r>has<s n="n"/></r></p></e>
     <e><p><l>hasil<s n="n"/></l><r>hasil<s n="n"/></r></p></e>
+    <e r="RL"><p><l>hasil<s n="n"/><s n="vblex"/><s n="actv"/><s n="kan"/></l><r>jana<s n="n"/><s n="vblex"/><s n="actv"/></r></p></e>
     <e><p><l>hasrat<s n="n"/></l><r>hasrat<s n="n"/></r></p></e>
     <e><p><l>hasta<s n="n"/></l><r>hasta<s n="n"/></r></p></e>
     <e><p><l>hati<s n="n"/></l><r>hati<s n="n"/></r></p></e>
@@ -1462,6 +1496,7 @@
     <e><p><l>izin<s n="n"/></l><r>izin<s n="n"/></r></p></e>
     <e><p><l>jab<s n="n"/></l><r>jab<s n="n"/></r></p></e>
     <e><p><l>jabal<s n="n"/></l><r>jabal<s n="n"/></r></p></e>
+    <e><p><l>jadwal<s n="n"/></l><r>jadual<s n="n"/></r></p></e>
     <e><p><l>jaguar<s n="n"/></l><r>jaguar<s n="n"/></r></p></e>
     <e><p><l>jagung<s n="n"/></l><r>jagung<s n="n"/></r></p></e>
     <e><p><l>jah<s n="n"/></l><r>jah<s n="n"/></r></p></e>
@@ -1756,6 +1791,7 @@
     <e><p><l>kesturi<s n="n"/></l><r>kesturi<s n="n"/></r></p></e>
     <e><p><l>ketiak<s n="n"/></l><r>ketiak<s n="n"/></r></p></e>
     <e><p><l>ketua<s n="n"/></l><r>ketua<s n="n"/></r></p></e>
+    <e><p><l>ketua<s n="n"/><s n="vblex"/><s n="pasv"/><s n="i"/></l><r>kerusi<s n="n"/><s n="vblex"/><s n="pasv"/><s n="peN"/><s n="kan"/></r></p></e>
     <e><p><l>ketumbar<s n="n"/></l><r>ketumbar<s n="n"/></r></p></e>
     <e><p><l>khalayak<s n="n"/></l><r>khalayak<s n="n"/></r></p></e>
     <e><p><l>khalifah<s n="n"/></l><r>khalifah<s n="n"/></r></p></e>
@@ -1782,6 +1818,7 @@
     <e><p><l>kiprah<s n="n"/></l><r>kiprah<s n="n"/></r></p></e>
     <e><p><l>kir<s n="n"/></l><r>kir<s n="n"/></r></p></e>
     <e><p><l>kira<s n="n"/></l><r>kira<s n="n"/></r></p></e>
+    <e><p><l>kira<s n="n"/><s n="vblex"/><s n="pasv"/><s n="per-kan"/></l><r>jangka<s n="n"/><s n="vblex"/><s n="pasv"/></r></p></e>
     <e><p><l>kiri<s n="n"/></l><r>kiri<s n="n"/></r></p></e>
     <e><p><l>kisa<s n="n"/></l><r>kisa<s n="n"/></r></p></e>
     <e><p><l>kisi<s n="n"/></l><r>kisi<s n="n"/></r></p></e>
@@ -2523,6 +2560,7 @@
     <e><p><l>nyamuk<s n="n"/></l><r>nyamuk<s n="n"/></r></p></e>
     <e><p><l>nyawa<s n="n"/></l><r>nyawa<s n="n"/></r></p></e>
     <e><p><l>oasis<s n="n"/></l><r>oasis<s n="n"/></r></p></e>
+    <e><p><l>obat<s n="n"/></l><r>ubat<s n="n"/></r></p></e>
     <e><p><l>obi<s n="n"/></l><r>obi<s n="n"/></r></p></e>
     <e><p><l>obligasi<s n="n"/></l><r>obligasi<s n="n"/></r></p></e>
     <e><p><l>oblong<s n="n"/></l><r>oblong<s n="n"/></r></p></e>
@@ -2868,6 +2906,7 @@
     <e><p><l>problem<s n="n"/></l><r>problem<s n="n"/></r></p></e>
     <e><p><l>produk<s n="n"/></l><r>produk<s n="n"/></r></p></e>
     <e><p><l>produksi<s n="n"/></l><r>produksi<s n="n"/></r></p></e>
+    <e r="RL"><p><l>produksi<s n="n"/></l><r>keluar<s n="vblex"/><s n="n"/><s n="peN-an"/></r></p></e>
     <e><p><l>produser<s n="n"/></l><r>produser<s n="n"/></r></p></e>
     <e><p><l>profesi<s n="n"/></l><r>profesi<s n="n"/></r></p></e>
     <e><p><l>profesionalisme<s n="n"/></l><r>profesionalisme<s n="n"/></r></p></e>
@@ -2894,6 +2933,7 @@
     <e><p><l>proton<s n="n"/></l><r>proton<s n="n"/></r></p></e>
     <e><p><l>provinsi<s n="n"/></l><r>provinsi<s n="n"/></r></p></e>
     <e><p><l>provokasi<s n="n"/></l><r>provokasi<s n="n"/></r></p></e>
+    <e><p><l>proyek<s n="n"/></l><r>projek<s n="n"/></r></p></e>
     <e><p><l>proyektor<s n="n"/></l><r>proyektor<s n="n"/></r></p></e>
     <e><p><l>psalm<s n="n"/></l><r>psalm<s n="n"/></r></p></e>
     <e><p><l>psi<s n="n"/></l><r>psi<s n="n"/></r></p></e>
@@ -3030,7 +3070,7 @@
     <e><p><l>remi<s n="n"/></l><r>remi<s n="n"/></r></p></e>
     <e><p><l>remis<s n="n"/></l><r>remis<s n="n"/></r></p></e>
     <e><p><l>rempela<s n="n"/></l><r>rempela<s n="n"/></r></p></e>
-    <e><p><l>rencana<s n="n"/></l><r>rencana<s n="n"/></r></p></e>
+    <e><p><l>rencana<s n="n"/></l><r>pelan<s n="n"/></r></p></e>
     <e><p><l>renda<s n="n"/></l><r>renda<s n="n"/></r></p></e>
     <e><p><l>renjatan<s n="n"/></l><r>renjatan<s n="n"/></r></p></e>
     <e><p><l>repatriasi<s n="n"/></l><r>repatriasi<s n="n"/></r></p></e>
@@ -3794,6 +3834,7 @@
     <e><p><l>urat<s n="n"/></l><r>urat<s n="n"/></r></p></e>
     <e><p><l>uri<s n="n"/></l><r>uri<s n="n"/></r></p></e>
     <e><p><l>usaha<s n="n"/></l><r>usaha<s n="n"/></r></p></e>
+    <e r="RL"><p><l>usaha<s n="n"/><s n="per-an"/></l><r>syarikat<s n="n"/></r></p></e>
     <e><p><l>usahawan<s n="n"/></l><r>usahawan<s n="n"/></r></p></e>
     <e><p><l>uskup<s n="n"/></l><r>biskop<s n="n"/></r></p></e>
     <e r="RL"><p><l>uskup<s n="n"/></l><r>bisyop<s n="n"/></r></p></e>
@@ -3846,6 +3887,7 @@
     <e><p><l>wahyu<s n="n"/></l><r>wahyu<s n="n"/></r></p></e>
     <e><p><l>wajah<s n="n"/></l><r>wajah<s n="n"/></r></p></e>
     <e><p><l>wakil<s n="n"/></l><r>wakil<s n="n"/></r></p></e>
+    <e r="RL"><p><l>wakil<s n="n"/></l><r>timbal<s n="adj"/><s n="n"/><s n="an"/></r></p></e>
     <e><p><l>wali<s n="n"/></l><r>wali<s n="n"/></r></p></e>
     <e><p><l>wan<s n="n"/></l><r>wan<s n="n"/></r></p></e>
     <e><p><l>wanda<s n="n"/></l><r>wanda<s n="n"/></r></p></e>
@@ -3995,6 +4037,7 @@
     <e><p><l>gaji<s n="n"/></l><r>gaji<s n="n"/></r></p></e>
     <e><p><l>galang<s n="n"/></l><r>galang<s n="n"/></r></p></e>
     <e><p><l>gambar<s n="n"/></l><r>gambar<s n="n"/></r></p></e>
+    <e r="RL"><p><l>gambar<s n="n"/><s n="vblex"/><s n="actv"/><s n="kan"/></l><r>garis<s n="n"/><s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
     <e><p><l>gandar<s n="n"/></l><r>gandar<s n="n"/></r></p></e>
     <e><p><l>gelondong<s n="n"/></l><r>gelondong<s n="n"/></r></p></e>
     <e><p><l>gendang<s n="n"/></l><r>gendang<s n="n"/></r></p></e>
@@ -4343,6 +4386,7 @@
     <e><p><l>jabat<s n="vblex"/><s n="vblex"/><s n="an"/></l><r>jawat<s n="vblex"/><s n="an"/></r></p></e>
     <e><p><l>jadi<s n="vblex"/></l><r>jadi<s n="vblex"/></r></p></e>
     <e><p><l>jalan<s n="vblex"/></l><r>jalan<s n="vblex"/></r></p></e>
+    <e><p><l>jelang<s n="vblex"/></l><r>jelang<s n="vblex"/></r></p></e>
     <e><p><l>jenguk<s n="vblex"/></l><r>jenguk<s n="vblex"/></r></p></e>
     <e><p><l>jerumus<s n="vblex"/></l><r>jerumus<s n="vblex"/></r></p></e>
     <e><p><l>joging<s n="vblex"/></l><r>joging<s n="vblex"/></r></p></e>
@@ -4359,6 +4403,7 @@
     <e><p><l>kiat<s n="vblex"/></l><r>kiat<s n="vblex"/></r></p></e>
     <e><p><l>kuis<s n="vblex"/></l><r>kuis<s n="vblex"/></r></p></e>
     <e><p><l>lalu<s n="vblex"/></l><r>lalu<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>lalu<s n="vblex"/></l><r>lepas<s n="adj"/></r></p></e>
     <e><p><l>langsir<s n="vblex"/></l><r>langsir<s n="vblex"/></r></p></e>
     <e><p><l>lari<s n="vblex"/></l><r>lari<s n="vblex"/></r></p></e>
     <e><p><l>leding<s n="vblex"/></l><r>leding<s n="vblex"/></r></p></e>
@@ -4370,6 +4415,7 @@
     <e><p><l>lingkup<s n="vblex"/></l><r>lingkup<s n="vblex"/></r></p></e>
     <e><p><l>liwat<s n="vblex"/></l><r>liwat<s n="vblex"/></r></p></e>
     <e><p><l>lumus<s n="vblex"/></l><r>lumus<s n="vblex"/></r></p></e>
+    <e><p><l>luncur<s n="vblex"/></l><r>lancar<s n="adj"/></r></p></e>
     <e><p><l>luput<s n="vblex"/></l><r>luput<s n="vblex"/></r></p></e>
     <e><p><l>main<s n="vblex"/></l><r>main<s n="vblex"/></r></p></e>
     <e><p><l>makan<s n="vblex"/></l><r>makan<s n="vblex"/></r></p></e>
@@ -4413,6 +4459,7 @@
     <e><p><l>sepah<s n="vblex"/></l><r>sepah<s n="vblex"/></r></p></e>
     <e><p><l>sera<s n="vblex"/></l><r>sera<s n="vblex"/></r></p></e>
     <e><p><l>serak<s n="vblex"/></l><r>serak<s n="vblex"/></r></p></e>
+    <e><p><l>serta<s n="vblex"/></l><r>serta<s n="vblex"/></r></p></e>
     <e><p><l>siam<s n="vblex"/></l><r>siam<s n="vblex"/></r></p></e>
     <e><p><l>siat<s n="vblex"/></l><r>siat<s n="vblex"/></r></p></e>
     <e><p><l>sigung<s n="vblex"/></l><r>sigung<s n="vblex"/></r></p></e>
@@ -4436,6 +4483,7 @@
     <e><p><l>tele<s n="vblex"/></l><r>tele<s n="vblex"/></r></p></e>
     <e><p><l>tempuh<s n="vblex"/></l><r>tempuh<s n="vblex"/></r></p></e>
     <e><p><l>temu<s n="vblex"/></l><r>temu<s n="vblex"/></r></p></e>
+    <e><p><l>temu<s n="vblex"/><s n="n"/><s n="per-an"/></l><r>mesyuarat<s n="n"/></r></p></e>
     <e><p><l>tengok<s n="vblex"/></l><r>tengok<s n="vblex"/></r></p></e>
     <e><p><l>tepis<s n="vblex"/></l><r>tepis<s n="vblex"/></r></p></e>
     <e><p><l>tiarap<s n="vblex"/></l><r>tiarap<s n="vblex"/></r></p></e>
@@ -4496,6 +4544,7 @@
     <e><p><l>bidik<s n="vblex"/></l><r>bidik<s n="vblex"/></r></p></e>
     <e><p><l>bilang<s n="vblex"/></l><r>bilang<s n="vblex"/></r></p></e>
     <e><p><l>bimbing<s n="vblex"/></l><r>bimbing<s n="vblex"/></r></p></e>
+    <e><p><l>bincang<s n="vblex"/></l><r>bincang<s n="vblex"/></r></p></e>
     <e><p><l>bingkis<s n="vblex"/></l><r>bingkis<s n="vblex"/></r></p></e>
     <e><p><l>bocor<s n="vblex"/></l><r>bocor<s n="vblex"/></r></p></e>
     <e><p><l>bonceng<s n="vblex"/></l><r>bonceng<s n="vblex"/></r></p></e>
@@ -4629,7 +4678,10 @@
     <e><p><l>lempar<s n="vblex"/></l><r>lempar<s n="vblex"/></r></p></e>
     <e><p><l>letup<s n="vblex"/></l><r>letup<s n="vblex"/></r></p></e>
     <e><p><l>letus<s n="vblex"/></l><r>letus<s n="vblex"/></r></p></e>
+    <e><p><l>libat<s n="vblex"/></l><r>babit<s n="vblex"/></r></p></e>
     <e><p><l>limpah<s n="vblex"/></l><r>limpah<s n="vblex"/></r></p></e>
+    <e><p><l>libat<s n="vblex"/></l><r>babit<s n="vblex"/></r></p></e>
+    <e><p><l>libat<s n="vblex"/><s n="ter"/></l><r>libat<s n="vblex"/><s n="ter"/></r></p></e>
     <e><p><l>lindung<s n="vblex"/></l><r>lindung<s n="vblex"/></r></p></e>
     <e><p><l>lingkung<s n="vblex"/></l><r>lingkung<s n="vblex"/></r></p></e>
     <e><p><l>lipat<s n="vblex"/></l><r>lipat<s n="vblex"/></r></p></e>
@@ -4828,8 +4880,11 @@
     <e><p><l>wawas<s n="vblex"/></l><r>wawas<s n="vblex"/></r></p></e>
 
     <!-- Adjectives -->
+    <e><p><l>asing<s n="adj"/></l><r>asing<s n="adj"/></r></p></e>
     <e><p><l>bahagia<s n="adj"/></l><r>bahagia<s n="adj"/></r></p></e>
     <e><p><l>baik<s n="adj"/></l><r>baik<s n="adj"/></r></p></e>
+    <e><p><l>banyak<s n="adj"/></l><r>banyak<s n="adj"/></r></p></e>
+    <e><p><l>baru<s n="adj"/></l><r>baru<s n="adj"/></r></p></e>
     <e><p><l>besar<s n="adj"/></l><r>besar<s n="adj"/></r></p></e>
     <e><p><l>cerah<s n="adj"/></l><r>cerah<s n="adj"/></r></p></e>
     <e><p><l>cermat<s n="adj"/></l><r>cermat<s n="adj"/></r></p></e>
@@ -4838,16 +4893,23 @@
     <e><p><l>dekat<s n="adj"/></l><r>dekat<s n="adj"/></r></p></e>
     <e><p><l>dingin<s n="adj"/></l><r>sejuk<s n="adj"/></r></p></e>
     <e><p><l>ekor<s n="adj"/></l><r>ekor<s n="adj"/></r></p></e>
+    <e><p><l>galak<s n="adj"/></l><r>galak<s n="adj"/></r></p></e>
     <e><p><l>hangat<s n="adj"/></l><r>hangat<s n="adj"/></r></p></e>
     <e><p><l>indah<s n="adj"/></l><r>indah<s n="adj"/></r></p></e>
+    <e><p><l>internasional<s n="adj"/></l><r>antarabangsa<s n="adj"/></r></p></e>
     <e><p><l>jelas<s n="adj"/></l><r>jelas<s n="adj"/></r></p></e>
     <e><p><l>kecil<s n="adj"/></l><r>kecil<s n="adj"/></r></p></e>
+    <e><p><l>kukuh<s n="adj"/></l><r>kukuh<s n="adj"/></r></p></e>
     <e><p><l>lain<s n="adj"/></l><r>lain<s n="adj"/></r></p></e>
+    <e><p><l>lama<s n="adj"/></l><r>lama<s n="adj"/></r></p></e>
+    <e><p><l>lanjut<s n="adj"/></l><r>lanjut<s n="adj"/></r></p></e>
     <e><p><l>lebih<s n="adj"/></l><r>lebih<s n="adj"/></r></p></e>
+    <e><p><l>luang<s n="adj"/></l><r>luang<s n="adj"/></r></p></e>
     <e><p><l>mungil<s n="adj"/></l><r>mungil<s n="adj"/></r></p></e>
     <e><p><l>nasional<s n="adj"/></l><r>bangsa<s n="n"/><s n="ke-an"/><s n="sg"/></r></p></e>
     <e><p><l>pasti<s n="adj"/></l><r>pasti<s n="adj"/></r></p></e>
     <e><p><l>perlahan<s n="adj"/></l><r>perlahan<s n="adj"/></r></p></e>
+    <e><p><l>profesional<s n="adj"/></l><r>profesional<s n="adj"/></r></p></e>
     <e><p><l>putih<s n="adj"/></l><r>putih<s n="adj"/></r></p></e>
     <e><p><l>sama<s n="adj"/></l><r>sama<s n="adj"/></r></p></e>
     <e><p><l>senang<s n="adj"/></l><r>senang<s n="adj"/></r></p></e>
@@ -4856,12 +4918,18 @@
     <e><p><l>suka<s n="adj"/></l><r>suka<s n="adj"/></r></p></e>
     <e><p><l>tentu<s n="adj"/></l><r>tentu<s n="adj"/></r></p></e>
     <e><p><l>tua<s n="adj"/></l><r>tua<s n="adj"/></r></p></e>
+    <e><p><l>umum<s n="adj"/></l><r>umum<s n="adj"/></r></p></e>
+    <e><p><l>utama<s n="adj"/></l><r>utama<s n="adj"/></r></p></e>
+    
+    <e><p><l>banyak<s n="adj"/><s n="se"/></l><r>ramai<s n="adj"/><s n="se"/></r></p></e>
     
     <!-- Proper Nouns -->
     <e><p><l>Maria<s n="np"/></l><r>Maria<s n="np"/></r></p></e>
     
     <e><p><l>Yakobus<s n="np"/></l><r>Yakobus<s n="np"/></r></p></e>
     
+    <e><p><l>Boston<s n="np"/></l><r>Boston<s n="np"/></r></p></e>
+    <e><p><l>Eropa<s n="np"/></l><r>Eropah<s n="np"/></r></p></e>
     <e><p><l>Indonesia<s n="np"/></l><r>Indonesia<s n="np"/></r></p></e>
     <e><p><l>Malaysia<s n="np"/></l><r>Malaysia<s n="np"/></r></p></e>
     <e><p><l>Perancis<s n="np"/></l><r>Perancis<s n="np"/></r></p></e>
@@ -4932,6 +5000,7 @@
     <e><p><l>lagi<s n="adv"/></l><r>lagi<s n="adv"/></r></p></e>
     <e><p><l>lama-kelamaan<s n="adv"/></l><r>lama-kelamaan<s n="adv"/></r></p></e>
     <e><p><l>lama-lama<s n="adv"/></l><r>lama-lama<s n="adv"/></r></p></e>
+    <e><p><l>langsung<s n="adv"/></l><r>langsung<s n="adv"/></r></p></e>
     <e><p><l>lantas<s n="adv"/></l><r>lantas<s n="adv"/></r></p></e>
     <e><p><l>lebih-lebih<s n="adv"/></l><r>lebih-lebih<s n="adv"/></r></p></e>
     <e><p><l>lebih<s n="adv"/></l><r>lebih<s n="adv"/></r></p></e>
@@ -4974,6 +5043,7 @@
     <e><p><l>segala-galanya<s n="adv"/></l><r>segala-galanya<s n="adv"/></r></p></e>
     <e><p><l>segalanya<s n="adv"/></l><r>segalanya<s n="adv"/></r></p></e>
     <e><p><l>seharusnya<s n="adv"/></l><r>seharusnya<s n="adv"/></r></p></e>
+    <e><p><l>sejauh<s n="adv"/></l><r>setakat<s n="adv"/></r></p></e>
     <e><p><l>seingat<s n="adv"/></l><r>seingat<s n="adv"/></r></p></e>
     <e><p><l>sekadar<s n="adv"/></l><r>sekadar<s n="adv"/></r></p></e>
     <e><p><l>sekala<s n="adv"/></l><r>sekala<s n="adv"/></r></p></e>
@@ -4982,6 +5052,7 @@
     <e><p><l>sekarang<s n="adv"/></l><r>sekarang<s n="adv"/></r></p></e>
     <e><p><l>seketika<s n="adv"/></l><r>seketika<s n="adv"/></r></p></e>
     <e><p><l>sekuat-kuatnya<s n="adv"/></l><r>sekuat-kuatnya<s n="adv"/></r></p></e>
+    <e><p><l>sekurang-kurangnya<s n="adv"/></l><r>sekurang-kurangnya<s n="adv"/></r></p></e>
     <e><p><l>selagi<s n="adv"/></l><r>selagi<s n="adv"/></r></p></e>
     <e><p><l>selalu<s n="adv"/></l><r>selalu<s n="adv"/></r></p></e>
     <e><p><l>selama-lamanya<s n="adv"/></l><r>selama-lamanya<s n="adv"/></r></p></e>
@@ -5043,6 +5114,7 @@
     <e><p><l>melainkan<s n="cnjcoo"/></l><r>melainkan<s n="cnjcoo"/></r></p></e>
     <e><p><l>padahal<s n="cnjcoo"/></l><r>padahal<s n="cnjcoo"/></r></p></e>
     <e><p><l>sedangkan<s n="cnjcoo"/></l><r>sedangkan<s n="cnjcoo"/></r></p></e>
+    <e><p><l>sementara<s n="cnjcoo"/></l><r>sementara<s n="cnjcoo"/></r></p></e>
     <e><p><l>serta<s n="cnjcoo"/></l><r>serta<s n="cnjcoo"/></r></p></e>
     <e><p><l>tapi<s n="cnjcoo"/></l><r>tapi<s n="cnjcoo"/></r></p></e>
     <e><p><l>tetapi<s n="cnjcoo"/></l><r>tetapi<s n="cnjcoo"/></r></p></e>
@@ -5106,6 +5178,7 @@
     
     <!-- Prepositions -->
     <e><p><l>bagi<s n="pr"/></l><r>bahagi<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>untuk<s n="pr"/></l><r>bagi<s n="pr"/></r></p></e>
     <e><p><l>dari<s n="pr"/></l><r>dari<s n="pr"/></r></p></e>
     <e r="RL"><p><l>dari<s n="pr"/></l><r>daripada<s n="pr"/></r></p></e>
     <e><p><l>dengan<s n="pr"/></l><r>dengan<s n="pr"/></r></p></e>
@@ -5117,6 +5190,7 @@
     <e><p><l>oleh<s n="pr"/></l><r>oleh<s n="pr"/></r></p></e>
     <e><p><l>pada<s n="pr"/></l><r>pada<s n="pr"/></r></p></e>
     <e><p><l>sebagai<s n="pr"/></l><r>sebagai<s n="pr"/></r></p></e>
+    <e><p><l>selain<s n="pr"/></l><r>selain<s n="pr"/></r></p></e>
     <e><p><l>seperti<s n="pr"/></l><r>seperti<s n="pr"/></r></p></e>
     <e><p><l>setelah<s n="pr"/></l><r>selepas<s n="pr"/></r></p></e>
     <e><p><l>untuk<s n="pr"/></l><r>untuk<s n="pr"/></r></p></e>
@@ -5126,27 +5200,33 @@
     <e><p><l>itu<s n="prn"/></l><r>itu<s n="prn"/></r></p></e>
 
     <e><p><l>sana<s n="prn"/></l><r>sana<s n="prn"/></r></p></e>
+    <e><p><l>sini<s n="prn"/></l><r>sini<s n="prn"/></r></p></e>
     <e><p><l>sesuatu<s n="prn"/></l><r>sesuatu<s n="prn"/></r></p></e>
 
     <e><p><l>apapun<s n="prn"/></l><r>apapun<s n="prn"/></r></p></e>
     <e><p><l>mana<s n="prn"/></l><r>mana<s n="prn"/></r></p></e>
 
+    <!-- Determiners -->
+    <e><p><l>sebagian<s n="det"/></l><r>sebahagian<s n="det"/></r></p></e>
     <e><p><l>sebuah<s n="det"/></l><r>sebuah<s n="det"/></r></p></e>
     <e><p><l>seekor<s n="det"/></l><r>seekor<s n="det"/></r></p></e>
+    <e><p><l>seluruh<s n="det"/></l><r>seluruh<s n="det"/></r></p></e>
     <e><p><l>seorang<s n="det"/></l><r>seorang<s n="det"/></r></p></e>
     
     <!-- Personal Pronouns -->
     <e><p><l>aku<s n="prn"/></l><r>aku<s n="prn"/></r></p></e>
-    <e><p><l>saya<s n="prn"/></l><r>saya<s n="prn"/></r></p></e>
     <e><p><l>anda<s n="prn"/></l><r>anda<s n="prn"/></r></p></e>
     <e><p><l>beliau<s n="prn"/></l><r>beliau<s n="prn"/></r></p></e>
-    <e><p><l>kamu<s n="prn"/></l><r>kamu<s n="prn"/></r></p></e>
-    <e r="RL"><p><l>kamu<s n="prn"/></l><r>awak<s n="prn"/></r></p></e>
     <e><p><l>dia<s n="prn"/></l><r>dia<s n="prn"/></r></p></e>
     <e><p><l>ia<s n="prn"/></l><r>ia<s n="prn"/></r></p></e>
+    <e><p><l>kami<s n="prn"/></l><r>kami<s n="prn"/></r></p></e>
+    <e><p><l>kamu<s n="prn"/></l><r>kamu<s n="prn"/></r></p></e>
+    <e r="RL"><p><l>kamu<s n="prn"/></l><r>awak<s n="prn"/></r></p></e>
     <e><p><l>kau<s n="prn"/></l><r>kau<s n="prn"/></r></p></e>
+    <e><p><l>kita<s n="prn"/></l><r>kita<s n="prn"/></r></p></e>
     <e><p><l>ku<s n="prn"/></l><r>ku<s n="prn"/></r></p></e>
     <e><p><l>mereka<s n="prn"/></l><r>mereka<s n="prn"/></r></p></e>
+    <e><p><l>saya<s n="prn"/></l><r>saya<s n="prn"/></r></p></e>
 
     <!-- Numerals -->
     <e><p><l>satu<s n="num"/></l><r>satu<s n="num"/></r></p></e>
@@ -5207,7 +5287,15 @@
     <e><p><l>ialah<s n="part"/></l><r>ialah<s n="part"/></r></p></e>
   </section>
   <section id="regexp" type="standard">
+    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
     <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>[¿¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
+    <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
+    <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
+    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?%</re><p><l><s n="num"/><s n="percent"/></l><r><s n="num"/><s n="percent"/></r></p></e>
   </section>
 </dictionary>
 
