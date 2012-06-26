@@ -2946,7 +2946,7 @@
 
     <!-- diper- (V -> V) -->
     <pardef n="diperbuat/__vblex">
-    <e c="memper-">
+    <e c="diper-">
       <p>
         <l></l>
         <r><s n="vblex"/><s n="pasv"/><s n="per"/></r>
@@ -2960,7 +2960,7 @@
     </e>
     </pardef>
     <pardef n="diperdengar/kan__vblex">
-    <e c="memper-kan">
+    <e c="diper-kan">
       <p>
         <l>kan</l>
         <r><s n="vblex"/><s n="pasv"/><s n="per-kan"/></r>
@@ -2974,7 +2974,7 @@
     </e>
     </pardef>
     <pardef n="dipergantung/i__vblex">
-    <e c="memper-i">
+    <e c="diper-i">
       <p>
         <l>i</l>
         <r><s n="vblex"/><s n="pasv"/><s n="per-i"/></r>
@@ -2988,7 +2988,7 @@
     </e>
     </pardef>
     <pardef n="diperikut/__vblex">
-    <e c="memper-, memper-kan">
+    <e c="diper-, diper-kan">
       <p>
         <l></l>
         <r><s n="vblex"/><s n="pasv"/><s n="per"/></r>
@@ -3014,7 +3014,7 @@
     </e>
     </pardef>
     <pardef n="dipergaul/kan__vblex">
-    <e c="memper-kan, memper-i">
+    <e c="diper-kan, diper-i">
       <p>
         <l>kan</l>
         <r><s n="vblex"/><s n="pasv"/><s n="per-kan"/></r>
@@ -3040,7 +3040,7 @@
     </e>
     </pardef>
     <pardef n="dipersalin/__vblex">
-    <e c="memper-, memper-kan, memper-i">
+    <e c="diper-, diper-kan, diper-i">
       <p>
         <l></l>
         <r><s n="vblex"/><s n="pasv"/><s n="per"/></r>
@@ -3094,7 +3094,7 @@
     </e>
     </pardef>
     <pardef n="diperanak/kan__n">
-    <e c="memper-kan">
+    <e c="diper-kan">
       <p>
         <l>kan</l>
         <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="per-kan"/></r>
@@ -3108,7 +3108,7 @@
     </e>
     </pardef>
     <pardef n="dipersenjata/i__n">
-    <e c="memper-i">
+    <e c="diper-i">
       <p>
         <l>i</l>
         <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="per-i"/></r>
@@ -3122,7 +3122,7 @@
     </e>
     </pardef>
     <pardef n="dipersiang/__n">
-    <e c="memper-, memper-i">
+    <e c="diper-, diper-i">
       <p>
         <l></l>
         <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="per"/></r>
@@ -3148,7 +3148,7 @@
     </e>
     </pardef>
     <pardef n="diperdaya/__n">
-    <e c="memper-, memper-kan">
+    <e c="diper-, diper-kan">
       <p>
         <l></l>
         <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="per"/></r>
@@ -3174,7 +3174,7 @@
     </e>
     </pardef>
     <pardef n="diperkebun/kan__n">
-    <e c="memper-kan, memper-i">
+    <e c="diper-kan, diper-i">
       <p>
         <l>kan</l>
         <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="per-kan"/></r>
@@ -3200,7 +3200,7 @@
     </e>
     </pardef>
     <pardef n="diperalat/__n">
-    <e c="memper-, memper-kan, memper-i">
+    <e c="diper-, diper-kan, diper-i">
       <p>
         <l></l>
         <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="per"/></r>
@@ -3254,7 +3254,7 @@
     </e>
     </pardef>
     <pardef n="dipergembira/kan__adj">
-    <e c="memper-kan">
+    <e c="diper-kan">
       <p>
         <l>kan</l>
         <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="per-kan"/></r>
@@ -3268,7 +3268,7 @@
     </e>
     </pardef>
     <pardef n="diperbaik/i__adj">
-    <e c="memper-i">
+    <e c="diper-i">
       <p>
         <l>i</l>
         <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="per-i"/></r>
@@ -3282,7 +3282,7 @@
     </e>
     </pardef>
     <pardef n="diperbanyak/__adj">
-    <e c="memper-, memper-kan">
+    <e c="diper-, diper-kan">
       <p>
         <l></l>
         <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="per"/></r>
@@ -22119,9 +22119,299 @@
     <e lm="teguh"><p><l>memperteguh</l><r>teguh</r></p><par n="memperbanyak/__adj"/></e>
     
     <!-- diper- -->
-    <!-- N -> V -->
+    <!-- V -> V -->
+    <!-- no suffix -->
+    <e lm="buat"><p><l>diperbuat</l><r>buat</r></p><par n="diperbuat/__vblex"/></e>
+    <e lm="dekap"><p><l>diperdekap</l><r>dekap</r></p><par n="diperbuat/__vblex"/></e>
+    <e lm="gegas"><p><l>dipergegas</l><r>gegas</r></p><par n="diperbuat/__vblex"/></e>
+    <e lm="hambat"><p><l>diperhambat</l><r>hambat</r></p><par n="diperbuat/__vblex"/></e>
+    <e lm="hidup"><p><l>diperhidup</l><r>hidup</r></p><par n="diperbuat/__vblex"/></e>
+    <e lm="singgah"><p><l>dipersinggah</l><r>singgah</r></p><par n="diperbuat/__vblex"/></e>
+    <e lm="ulur"><p><l>diperulur</l><r>ulur</r></p><par n="diperbuat/__vblex"/></e>
     <!-- -kan -->
+    <e lm="adu"><p><l>diperadu</l><r>adu</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="bantu"><p><l>diperbantu</l><r>bantu</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="baur"><p><l>diperbaur</l><r>baur</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="cekcok"><p><l>dipercekcok</l><r>cekcok</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="cekik"><p><l>dipercekik</l><r>cekik</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="dengar"><p><l>diperdengar</l><r>dengar</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="edar"><p><l>diperedar</l><r>edar</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="gandeng"><p><l>dipergandeng</l><r>gandeng</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="gesek"><p><l>dipergesek</l><r>gesek</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="gilir"><p><l>dipergilir</l><r>gilir</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="hitung"><p><l>diperhitung</l><r>hitung</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="hubung"><p><l>diperhubung</l><r>hubung</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="juang"><p><l>diperjuang</l><r>juang</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="kembang"><p><l>diperkembang</l><r>kembang</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="kenal"><p><l>diperkenal</l><r>kenal</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="kenan"><p><l>diperkenan</l><r>kenan</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="kitar"><p><l>diperkitar</l><r>kitar</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="lihat"><p><l>diperlihat</l><r>lihat</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="main"><p><l>dipermain</l><r>main</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="maklum"><p><l>dipermaklum</l><r>maklum</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="mandi"><p><l>dipermandi</l><r>mandi</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="menang"><p><l>dipermenang</l><r>menang</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="putar"><p><l>diperputar</l><r>putar</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="rebut"><p><l>diperrebut</l><r>rebut</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="saing"><p><l>dipersaing</l><r>saing</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="sambung"><p><l>dipersambung</l><r>sambung</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="sangkut"><p><l>dipersangkut</l><r>sangkut</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="siap"><p><l>dipersiap</l><r>siap</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="sila"><p><l>dipersila</l><r>sila</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="sisip"><p><l>dipersisip</l><r>sisip</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="sua"><p><l>dipersua</l><r>sua</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="sudi"><p><l>dipersudi</l><r>sudi</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="tangguh"><p><l>dipertangguh</l><r>tangguh</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="tanggung"><p><l>dipertanggung</l><r>tanggung</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="tarung"><p><l>dipertarung</l><r>tarung</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="taut"><p><l>dipertaut</l><r>taut</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="tebar"><p><l>dipertebar</l><r>tebar</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="tempur"><p><l>dipertempur</l><r>tempur</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="temu"><p><l>dipertemu</l><r>temu</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="tengkar"><p><l>dipertengkar</l><r>tengkar</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="tiada"><p><l>dipertiada</l><r>tiada</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="tonton"><p><l>dipertonton</l><r>tonton</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="tuju"><p><l>dipertuju</l><r>tuju</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="tukar"><p><l>dipertukar</l><r>tukar</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="tumbuh"><p><l>dipertumbuh</l><r>tumbuh</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="tunggang"><p><l>dipertunggang</l><r>tunggang</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="tunjuk"><p><l>dipertunjuk</l><r>tunjuk</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="turun"><p><l>diperturun</l><r>turun</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="turut"><p><l>diperturut</l><r>turut</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="ubah"><p><l>diperubah</l><r>ubah</r></p><par n="diperdengar/kan__vblex"/></e>
+    <e lm="urut"><p><l>diperurut</l><r>urut</r></p><par n="diperdengar/kan__vblex"/></e>
+    <!-- -i -->
+    <e lm="gantung"><p><l>dipergantung</l><r>gantung</r></p><par n="dipergantung/i__vblex"/></e>
+    <e lm="hias"><p><l>diperhias</l><r>hias</r></p><par n="dipergantung/i__vblex"/></e>
+    <e lm="lindung"><p><l>diperlindung</l><r>lindung</r></p><par n="dipergantung/i__vblex"/></e>
+    <!-- no suffix, -kan -->
+    <e lm="ikut"><p><l>diperikut</l><r>ikut</r></p><par n="diperikut/__vblex"/></e>
+    <e lm="tetap"><p><l>dipertetap</l><r>tetap</r></p><par n="diperikut/__vblex"/></e>
+    <!-- -kan, -i -->
+    <e lm="gaul"><p><l>dipergaul</l><r>gaul</r></p><par n="dipergaul/kan__vblex"/></e>
+    <e lm="ingat"><p><l>diperingat</l><r>ingat</r></p><par n="dipergaul/kan__vblex"/></e>
+    <!-- no suffix, -kan, -i -->
+    <e lm="salin"><p><l>dipersalin</l><r>salin</r></p><par n="dipersalin/__vblex"/></e>
+
+    <!-- N -> V -->
+    <!-- no suffix -->
+    <e lm="adik"><p><l>diperadik</l><r>adik</r></p><par n="diperadik/__n"/></e>
+    <e lm="awak"><p><l>diperawak</l><r>awak</r></p><par n="diperadik/__n"/></e>
+    <e lm="babu"><p><l>diperbabu</l><r>babu</r></p><par n="diperadik/__n"/></e>
+    <e lm="bantal"><p><l>diperbantal</l><r>bantal</r></p><par n="diperadik/__n"/></e>
+    <e lm="budak"><p><l>diperbudak</l><r>budak</r></p><par n="diperadik/__n"/></e>
+    <e lm="cermin"><p><l>dipercermin</l><r>cermin</r></p><par n="diperadik/__n"/></e>
+    <e lm="jamu"><p><l>diperjamu</l><r>jamu</r></p><par n="diperadik/__n"/></e>
+    <e lm="kaca"><p><l>diperkaca</l><r>kaca</r></p><par n="diperadik/__n"/></e>
+    <e lm="kacang"><p><l>diperkacang</l><r>kacang</r></p><par n="diperadik/__n"/></e>
+    <e lm="kedok"><p><l>diperkedok</l><r>kedok</r></p><par n="diperadik/__n"/></e>
+    <e lm="sunting"><p><l>dipersunting</l><r>sunting</r></p><par n="diperadik/__n"/></e>
+    <e lm="tanggung jawab"><p><l>dipertanggungjawab</l><r>tanggung<b/>jawab</r></p><par n="diperadik/__n"/></e>
+    <e lm="tangis"><p><l>dipertangis</l><r>tangis</r></p><par n="diperadik/__n"/></e>
+    <e lm="topeng"><p><l>dipertopeng</l><r>topeng</r></p><par n="diperadik/__n"/></e>
+    <!-- -kan -->
+    <e lm="Yahudi"><p><l>diperyahudi</l><r>Yahudi</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="abu"><p><l>diperabu</l><r>abu</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="adab"><p><l>diperadab</l><r>adab</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="anak"><p><l>diperanak</l><r>anak</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="angin"><p><l>diperangin</l><r>angin</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="api"><p><l>diperapi</l><r>api</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="bagai"><p><l>diperbagai</l><r>bagai</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="bahasa"><p><l>diperbahasa</l><r>bahasa</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="banding"><p><l>diperbanding</l><r>banding</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="bantah"><p><l>diperbantah</l><r>bantah</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="beda"><p><l>diperbeda</l><r>beda</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="belakang"><p><l>diperbelakang</l><r>belakang</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="bini"><p><l>diperbini</l><r>bini</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="budi"><p><l>diperbudi</l><r>budi</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="bunga"><p><l>diperbunga</l><r>bunga</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="cabang"><p><l>dipercabang</l><r>cabang</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="contoh"><p><l>dipercontoh</l><r>contoh</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="dagang"><p><l>diperdagang</l><r>dagang</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="damai"><p><l>diperdamai</l><r>damai</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="debat"><p><l>diperdebat</l><r>debat</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="embun"><p><l>diperembun</l><r>embun</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="ganda"><p><l>diperganda</l><r>ganda</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="gelar"><p><l>dipergelar</l><r>gelar</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="gosok"><p><l>dipergosok</l><r>gosok</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="guna"><p><l>diperguna</l><r>guna</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="gurau"><p><l>dipergurau</l><r>gurau</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="hadap"><p><l>diperhadap</l><r>hadap</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="henti"><p><l>diperhenti</l><r>henti</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="hingga"><p><l>diperhingga</l><r>hingga</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="hujan"><p><l>diperhujan</l><r>hujan</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="jerih"><p><l>diperjerih</l><r>jerih</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="jodoh"><p><l>diperjodoh</l><r>jodoh</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="judi"><p><l>diperjudi</l><r>judi</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="kali"><p><l>diperkali</l><r>kali</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="kata"><p><l>diperkata</l><r>kata</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="katup"><p><l>diperkatup</l><r>katup</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="kedai"><p><l>diperkedai</l><r>kedai</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="kelahi"><p><l>diperkelahi</l><r>kelahi</r></p><par n="diperanak/kan__n"/></e>
     <e lm="kira"><p><l>diperkira</l><r>kira</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="laga"><p><l>diperlaga</l><r>laga</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="laku"><p><l>diperlaku</l><r>laku</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="lawan"><p><l>diperlawan</l><r>lawan</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="lelang"><p><l>diperlelang</l><r>lelang</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="lomba"><p><l>diperlomba</l><r>lomba</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="macam"><p><l>dipermacam</l><r>macam</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="madu"><p><l>dipermadu</l><r>madu</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="malam"><p><l>dipermalam</l><r>malam</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="masalah"><p><l>dipermasalah</l><r>masalah</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="olah"><p><l>diperolah</l><r>olah</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="politik"><p><l>diperpolitik</l><r>politik</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="potong"><p><l>diperpotong</l><r>potong</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="raga"><p><l>diperraga</l><r>raga</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="rasa"><p><l>diperrasa</l><r>rasa</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="rumah"><p><l>diperrumah</l><r>rumah</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="runding"><p><l>diperrunding</l><r>runding</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="sahabat"><p><l>dipersahabat</l><r>sahabat</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="saksi"><p><l>dipersaksi</l><r>saksi</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="sampah"><p><l>dipersampah</l><r>sampah</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="saudara"><p><l>dipersaudara</l><r>saudara</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="selisih"><p><l>diperselisih</l><r>selisih</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="sembah"><p><l>dipersembah</l><r>sembah</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="senda"><p><l>dipersenda</l><r>senda</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="sendi"><p><l>dipersendi</l><r>sendi</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="sengketa"><p><l>dipersengketa</l><r>sengketa</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="sewa"><p><l>dipersewa</l><r>sewa</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="silang"><p><l>dipersilang</l><r>silang</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="sumpah"><p><l>dipersumpah</l><r>sumpah</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="tali"><p><l>dipertali</l><r>tali</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="tanding"><p><l>dipertanding</l><r>tanding</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="tanya"><p><l>dipertanya</l><r>tanya</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="taruh"><p><l>dipertaruh</l><r>taruh</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="tenggang"><p><l>dipertenggang</l><r>tenggang</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="tutur"><p><l>dipertutur</l><r>tutur</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="undi"><p><l>diperundi</l><r>undi</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="wali"><p><l>diperwali</l><r>wali</r></p><par n="diperanak/kan__n"/></e>
+    <e lm="wujud"><p><l>diperwujud</l><r>wujud</r></p><par n="diperanak/kan__n"/></e>
+    <!-- -i -->
+    <e lm="antara"><p><l>diperantara</l><r>antara</r></p><par n="dipersenjata/i__n"/></e>
+    <e lm="senjata"><p><l>dipersenjata</l><r>senjata</r></p><par n="dipersenjata/i__n"/></e>
+    <!-- no suffix, -i -->
+    <e lm="siang"><p><l>dipersiang</l><r>siang</r></p><par n="dipersiang/__n"/></e>
+    <!-- no suffix, -kan -->
+    <e lm="Tuhan"><p><l>dipertuhan</l><r>Tuhan</r></p><par n="diperdaya/__n"/></e>
+    <e lm="boneka"><p><l>diperboneka</l><r>boneka</r></p><par n="diperdaya/__n"/></e>
+    <e lm="daya"><p><l>diperdaya</l><r>daya</r></p><par n="diperdaya/__n"/></e>
+    <e lm="dewa"><p><l>diperdewa</l><r>dewa</r></p><par n="diperdaya/__n"/></e>
+    <e lm="gundik"><p><l>dipergundik</l><r>gundik</r></p><par n="diperdaya/__n"/></e>
+    <e lm="hamba"><p><l>diperhamba</l><r>hamba</r></p><par n="diperdaya/__n"/></e>
+    <e lm="istri"><p><l>diperistri</l><r>istri</r></p><par n="diperdaya/__n"/></e>
+    <e lm="kuda"><p><l>diperkuda</l><r>kuda</r></p><par n="diperdaya/__n"/></e>
+    <e lm="laki"><p><l>diperlaki</l><r>laki</r></p><par n="diperdaya/__n"/></e>
+    <e lm="olok"><p><l>diperolok</l><r>olok</r></p><par n="diperdaya/__n"/></e>
+    <e lm="selendang"><p><l>diperselendang</l><r>selendang</r></p><par n="diperdaya/__n"/></e>
+    <e lm="selir"><p><l>diperselir</l><r>selir</r></p><par n="diperdaya/__n"/></e>
+    <e lm="setan"><p><l>dipersetan</l><r>setan</r></p><par n="diperdaya/__n"/></e>
+    <e lm="suami"><p><l>dipersuami</l><r>suami</r></p><par n="diperdaya/__n"/></e>
+    <e lm="tuan"><p><l>dipertuan</l><r>tuan</r></p><par n="diperdaya/__n"/></e>
+    <!-- -kan, -i -->
+    <e lm="kebun"><p><l>diperkebun</l><r>kebun</r></p><par n="diperkebun/kan__n"/></e>
+    <e lm="pukul"><p><l>diperpukul</l><r>pukul</r></p><par n="diperkebun/kan__n"/></e>
+    <e lm="selang"><p><l>diperselang</l><r>selang</r></p><par n="diperkebun/kan__n"/></e>
+    <!-- no suffix, -kan, -i -->
+    <e lm="alat"><p><l>diperalat</l><r>alat</r></p><par n="diperalat/__n"/></e>
+    <e lm="ladang"><p><l>diperladang</l><r>ladang</r></p><par n="diperalat/__n"/></e>
+    
+    <!-- Adj -> V -->
+    <!-- no suffix -->
+    <e lm="aman"><p><l>diperaman</l><r>aman</r></p><par n="diperaman/__adj"/></e>
+    <e lm="bagus"><p><l>diperbagus</l><r>bagus</r></p><par n="diperaman/__adj"/></e>
+    <e lm="benar"><p><l>diperbenar</l><r>benar</r></p><par n="diperaman/__adj"/></e>
+    <e lm="berat"><p><l>diperberat</l><r>berat</r></p><par n="diperaman/__adj"/></e>
+    <e lm="besar"><p><l>diperbesar</l><r>besar</r></p><par n="diperaman/__adj"/></e>
+    <e lm="bodoh"><p><l>diperbodoh</l><r>bodoh</r></p><par n="diperaman/__adj"/></e>
+    <e lm="bulat"><p><l>diperbulat</l><r>bulat</r></p><par n="diperaman/__adj"/></e>
+    <e lm="cantik"><p><l>dipercantik</l><r>cantik</r></p><par n="diperaman/__adj"/></e>
+    <e lm="cepat"><p><l>dipercepat</l><r>cepat</r></p><par n="diperaman/__adj"/></e>
+    <e lm="dahsyat"><p><l>diperdahsyat</l><r>dahsyat</r></p><par n="diperaman/__adj"/></e>
+    <e lm="dalam"><p><l>diperdalam</l><r>dalam</r></p><par n="diperaman/__adj"/></e>
+    <e lm="elok"><p><l>diperelok</l><r>elok</r></p><par n="diperaman/__adj"/></e>
+    <e lm="enak"><p><l>diperenak</l><r>enak</r></p><par n="diperaman/__adj"/></e>
+    <e lm="erat"><p><l>dipererat</l><r>erat</r></p><par n="diperaman/__adj"/></e>
+    <e lm="fasih"><p><l>diperfasih</l><r>fasih</r></p><par n="diperaman/__adj"/></e>
+    <e lm="gontai"><p><l>dipergontai</l><r>gontai</r></p><par n="diperaman/__adj"/></e>
+    <e lm="gundah"><p><l>dipergundah</l><r>gundah</r></p><par n="diperaman/__adj"/></e>
+    <e lm="halus"><p><l>diperhalus</l><r>halus</r></p><par n="diperaman/__adj"/></e>
+    <e lm="hebat"><p><l>diperhebat</l><r>hebat</r></p><par n="diperaman/__adj"/></e>
+    <e lm="indah"><p><l>diperindah</l><r>indah</r></p><par n="diperaman/__adj"/></e>
+    <e lm="jarang"><p><l>diperjarang</l><r>jarang</r></p><par n="diperaman/__adj"/></e>
+    <e lm="jelas"><p><l>diperjelas</l><r>jelas</r></p><par n="diperaman/__adj"/></e>
+    <e lm="kasar"><p><l>diperkasar</l><r>kasar</r></p><par n="diperaman/__adj"/></e>
+    <e lm="kaya"><p><l>diperkaya</l><r>kaya</r></p><par n="diperaman/__adj"/></e>
+    <e lm="kecil"><p><l>diperkecil</l><r>kecil</r></p><par n="diperaman/__adj"/></e>
+    <e lm="kencang"><p><l>diperkencang</l><r>kencang</r></p><par n="diperaman/__adj"/></e>
+    <e lm="keras"><p><l>diperkeras</l><r>keras</r></p><par n="diperaman/__adj"/></e>
+    <e lm="ketat"><p><l>diperketat</l><r>ketat</r></p><par n="diperaman/__adj"/></e>
+    <e lm="kuat"><p><l>diperkuat</l><r>kuat</r></p><par n="diperaman/__adj"/></e>
+    <e lm="kukuh"><p><l>diperkukuh</l><r>kukuh</r></p><par n="diperaman/__adj"/></e>
+    <e lm="lambat"><p><l>diperlambat</l><r>lambat</r></p><par n="diperaman/__adj"/></e>
+    <e lm="lancar"><p><l>diperlancar</l><r>lancar</r></p><par n="diperaman/__adj"/></e>
+    <e lm="lebar"><p><l>diperlebar</l><r>lebar</r></p><par n="diperaman/__adj"/></e>
+    <e lm="lelah"><p><l>diperlelah</l><r>lelah</r></p><par n="diperaman/__adj"/></e>
+    <e lm="lepas"><p><l>diperlepas</l><r>lepas</r></p><par n="diperaman/__adj"/></e>
+    <e lm="longgar"><p><l>diperlonggar</l><r>longgar</r></p><par n="diperaman/__adj"/></e>
+    <e lm="luas"><p><l>diperluas</l><r>luas</r></p><par n="diperaman/__adj"/></e>
+    <e lm="lunak"><p><l>diperlunak</l><r>lunak</r></p><par n="diperaman/__adj"/></e>
+    <e lm="mahir"><p><l>dipermahir</l><r>mahir</r></p><par n="diperaman/__adj"/></e>
+    <e lm="manis"><p><l>dipermanis</l><r>manis</r></p><par n="diperaman/__adj"/></e>
+    <e lm="muda"><p><l>dipermuda</l><r>muda</r></p><par n="diperaman/__adj"/></e>
+    <e lm="mudah"><p><l>dipermudah</l><r>mudah</r></p><par n="diperaman/__adj"/></e>
+    <e lm="mulia"><p><l>dipermulia</l><r>mulia</r></p><par n="diperaman/__adj"/></e>
+    <e lm="mulus"><p><l>dipermulus</l><r>mulus</r></p><par n="diperaman/__adj"/></e>
+    <e lm="murah"><p><l>dipermurah</l><r>murah</r></p><par n="diperaman/__adj"/></e>
+    <e lm="panjang"><p><l>diperpanjang</l><r>panjang</r></p><par n="diperaman/__adj"/></e>
+    <e lm="parah"><p><l>diperparah</l><r>parah</r></p><par n="diperaman/__adj"/></e>
+    <e lm="rapat"><p><l>diperrapat</l><r>rapat</r></p><par n="diperaman/__adj"/></e>
+    <e lm="renggang"><p><l>diperrenggang</l><r>renggang</r></p><par n="diperaman/__adj"/></e>
+    <e lm="runcing"><p><l>diperruncing</l><r>runcing</r></p><par n="diperaman/__adj"/></e>
+    <e lm="rusuh"><p><l>diperrusuh</l><r>rusuh</r></p><par n="diperaman/__adj"/></e>
+    <e lm="sabar"><p><l>dipersabar</l><r>sabar</r></p><par n="diperaman/__adj"/></e>
+    <e lm="segar"><p><l>dipersegar</l><r>segar</r></p><par n="diperaman/__adj"/></e>
+    <e lm="sempit"><p><l>dipersempit</l><r>sempit</r></p><par n="diperaman/__adj"/></e>
+    <e lm="sukar"><p><l>dipersukar</l><r>sukar</r></p><par n="diperaman/__adj"/></e>
+    <e lm="sulit"><p><l>dipersulit</l><r>sulit</r></p><par n="diperaman/__adj"/></e>
+    <e lm="susah"><p><l>dipersusah</l><r>susah</r></p><par n="diperaman/__adj"/></e>
+    <e lm="tajam"><p><l>dipertajam</l><r>tajam</r></p><par n="diperaman/__adj"/></e>
+    <e lm="takut"><p><l>dipertakut</l><r>takut</r></p><par n="diperaman/__adj"/></e>
+    <e lm="tampan"><p><l>dipertampan</l><r>tampan</r></p><par n="diperaman/__adj"/></e>
+    <e lm="tegas"><p><l>dipertegas</l><r>tegas</r></p><par n="diperaman/__adj"/></e>
+    <e lm="tinggi"><p><l>dipertinggi</l><r>tinggi</r></p><par n="diperaman/__adj"/></e>
+    <e lm="umum"><p><l>diperumum</l><r>umum</r></p><par n="diperaman/__adj"/></e>
+    <!-- -kan -->
+    <e lm="gembira"><p><l>dipergembira</l><r>gembira</r></p><par n="dipergembira/kan__adj"/></e>
+    <e lm="kacau"><p><l>diperkacau</l><r>kacau</r></p><par n="dipergembira/kan__adj"/></e>
+    <e lm="lalai"><p><l>diperlalai</l><r>lalai</r></p><par n="dipergembira/kan__adj"/></e>
+    <e lm="lama"><p><l>diperlama</l><r>lama</r></p><par n="dipergembira/kan__adj"/></e>
+    <e lm="lemah"><p><l>diperlemah</l><r>lemah</r></p><par n="dipergembira/kan__adj"/></e>
+    <e lm="malu"><p><l>dipermalu</l><r>malu</r></p><par n="dipergembira/kan__adj"/></e>
+    <e lm="manja"><p><l>dipermanja</l><r>manja</r></p><par n="dipergembira/kan__adj"/></e>
+    <e lm="padu"><p><l>diperpadu</l><r>padu</r></p><par n="dipergembira/kan__adj"/></e>
+    <e lm="ringan"><p><l>diperringan</l><r>ringan</r></p><par n="dipergembira/kan__adj"/></e>
+    <e lm="salah"><p><l>dipersalah</l><r>salah</r></p><par n="dipergembira/kan__adj"/></e>
+    <e lm="sama"><p><l>dipersama</l><r>sama</r></p><par n="dipergembira/kan__adj"/></e>
+    <e lm="sedikit"><p><l>dipersedikit</l><r>sedikit</r></p><par n="dipergembira/kan__adj"/></e>
+    <e lm="tahan"><p><l>dipertahan</l><r>tahan</r></p><par n="dipergembira/kan__adj"/></e>
+    <e lm="timbang"><p><l>dipertimbang</l><r>timbang</r></p><par n="dipergembira/kan__adj"/></e>
+    <!-- -i -->
+    <e lm="baik"><p><l>diperbaik</l><r>baik</r></p><par n="diperbaik/i__adj"/></e>
+    <e lm="baru"><p><l>diperbaru</l><r>baru</r></p><par n="diperbaik/i__adj"/></e>
+    <e lm="carut"><p><l>dipercarut</l><r>carut</r></p><par n="diperbaik/i__adj"/></e>
+    <e lm="lengkap"><p><l>diperlengkap</l><r>lengkap</r></p><par n="diperbaik/i__adj"/></e>
+    <e lm="sakit"><p><l>dipersakit</l><r>sakit</r></p><par n="diperbaik/i__adj"/></e>
+    <e lm="sungguh"><p><l>dipersungguh</l><r>sungguh</r></p><par n="diperbaik/i__adj"/></e>
+    <!-- no suffix, -kan -->
+    <e lm="banyak"><p><l>diperbanyak</l><r>banyak</r></p><par n="diperbanyak/__adj"/></e>
+    <e lm="cakap"><p><l>dipercakap</l><r>cakap</r></p><par n="diperbanyak/__adj"/></e>
+    <e lm="dekat"><p><l>diperdekat</l><r>dekat</r></p><par n="diperbanyak/__adj"/></e>
+    <e lm="giat"><p><l>dipergiat</l><r>giat</r></p><par n="diperbanyak/__adj"/></e>
+    <e lm="imbang"><p><l>diperimbang</l><r>imbang</r></p><par n="diperbanyak/__adj"/></e>
+    <e lm="lain"><p><l>diperlain</l><r>lain</r></p><par n="diperbanyak/__adj"/></e>
+    <e lm="lapang"><p><l>diperlapang</l><r>lapang</r></p><par n="diperbanyak/__adj"/></e>
+    <e lm="lengah"><p><l>diperlengah</l><r>lengah</r></p><par n="diperbanyak/__adj"/></e>
+    <e lm="teguh"><p><l>diperteguh</l><r>teguh</r></p><par n="diperbanyak/__adj"/></e>
     
 <!-- Adjectives -->
     <e lm="abadi"><i>abadi</i><par n="baik__adj"/></e>
