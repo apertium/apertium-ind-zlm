@@ -2035,6 +2035,60 @@
       </p>
     </e>
     </pardef>
+    <pardef n="diarung/i__vblex">
+    <e c="di-i">
+      <p>
+        <l>i</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="i"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="i"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="diangkut/__vblex">
+    <e c="di-, di-i">
+      <p>
+        <l></l>
+        <r><s n="vblex"/><s n="pasv"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>i</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="i"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="i"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="diacuh/kan__vblex">
+    <e c="di-kan">
+      <p>
+        <l>kan</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="kan"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="kan"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="diacung/__vblex">
     <e c="di-, di-kan">
       <p>
@@ -2061,10 +2115,114 @@
       </p>
     </e>
     </pardef>
+    <pardef n="diawas/i__vblex">
+    <e c="di-i, di-kan">
+      <p>
+        <l>i</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="i"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="i"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kan</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="kan"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="kan"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="dialir/__vblex">
+    <e c="di-, di-i, di-kan">
+      <p>
+        <l></l>
+        <r><s n="vblex"/><s n="pasv"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>i</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="i"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="i"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kan</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="kan"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="vblex"/><s n="pasv"/><s n="kan"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
     
     <!-- di- (N -> V) -->
+    <pardef n="diadopsi/__n">
+    <e c="di-">
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="diair/i__n">
     <e c="di-i">
+      <p>
+        <l>i</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="i"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="i"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="dibatas/__n">
+    <e c="di-, di-i">
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
       <p>
         <l>i</l>
         <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="i"/></r>
@@ -2117,10 +2275,218 @@
       </p>
     </e>
     </pardef>
+    <pardef n="diakal/i__n">
+    <e c="di-i, di-kan">
+      <p>
+        <l>i</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="i"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="i"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kan</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="kan"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="kan"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="diajar/__n">
+    <e c="di-, di-i, di-kan">
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>i</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="i"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="i"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kan</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="kan"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="n"/><s n="vblex"/><s n="pasv"/><s n="kan"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
     
     <!-- di- (Adj -> V) -->
+    <pardef n="diacak/__adj">
+    <e c="di-">
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="diadil/i__adj">
+    <e c="di-i">
+      <p>
+        <l>i</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="i"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="i"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="dihormat/__adj">
+    <e c="di-, di-i">
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>i</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="i"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="i"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="diabsah/kan__adj">
     <e c="di-kan">
+      <p>
+        <l>kan</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="kan"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="kan"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="diabadi/__adj">
+    <e c="di-, di-kan">
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kan</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="kan"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="kan"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="dibaru/i__adj">
+    <e c="di-i, di-kan">
+      <p>
+        <l>i</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="i"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="i"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kan</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="kan"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>kannya</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="kan"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="dikalah/__adj">
+    <e c="di-, di-i, di-kan">
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nya</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>i</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="i"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inya</l>
+        <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="i"/><s n="nya"/></r>
+      </p>
+    </e>
+    <e>
       <p>
         <l>kan</l>
         <r><s n="adj"/><s n="vblex"/><s n="pasv"/><s n="kan"/></r>
