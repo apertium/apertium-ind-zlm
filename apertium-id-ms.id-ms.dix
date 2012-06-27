@@ -5235,15 +5235,46 @@
     <e><p><l>setelah<s n="pr"/></l><r>selepas<s n="pr"/></r></p></e>
     <e><p><l>untuk<s n="pr"/></l><r>untuk<s n="pr"/></r></p></e>
     
-    <!-- Pronoun -->
+    <!-- Pronouns -->
     <e><p><l>ini<s n="prn"/></l><r>ini<s n="prn"/></r></p></e>
     <e><p><l>itu<s n="prn"/></l><r>itu<s n="prn"/></r></p></e>
 
     <e><p><l>sana<s n="prn"/></l><r>sana<s n="prn"/></r></p></e>
     <e><p><l>sini<s n="prn"/></l><r>sini<s n="prn"/></r></p></e>
+    
+    <e><p><l>beberapa<s n="prn"/></l><r>beberapa<s n="prn"/></r></p></e>
+    <e><p><l>masing-masing<s n="prn"/></l><r>masing-masing<s n="prn"/></r></p></e>
+    <e><p><l>sebagian<s n="prn"/></l><r>sebahagian<s n="prn"/></r></p></e>
+    <e><p><l>semua<s n="prn"/></l><r>semua<s n="prn"/></r></p></e>
+    <e><p><l>seseorang<s n="prn"/></l><r>seseorang<s n="prn"/></r></p></e>
     <e><p><l>sesuatu<s n="prn"/></l><r>sesuatu<s n="prn"/></r></p></e>
+    <e><p><l>segala<b/>sesuatu<s n="prn"/></l><r>segala<b/>sesuatu<s n="prn"/></r></p></e>
 
+    <e><p><l>apa<b/>pun<s n="prn"/></l><r>apa<b/>pun<s n="prn"/></r></p></e>
+    <e><p><l>apa<b/>saja<s n="prn"/></l><r>apa<b/>saja<s n="prn"/></r></p></e>
     <e><p><l>apapun<s n="prn"/></l><r>apapun<s n="prn"/></r></p></e>
+    <e><p><l>berapa<b/>pun<s n="prn"/></l><r>berapa<b/>pun<s n="prn"/></r></p></e>
+    <e><p><l>berapa<b/>saja<s n="prn"/></l><r>berapa<b/>saja<s n="prn"/></r></p></e>
+    <e><p><l>berapapun<s n="prn"/></l><r>berapapun<s n="prn"/></r></p></e>
+    <e><p><l>dari<b/>mana<b/>saja<s n="prn"/></l><r>dari<b/>mana<b/>saja<s n="prn"/></r></p></e>
+    <e><p><l>dari<b/>manapun<s n="prn"/></l><r>dari<b/>mana-mana<s n="prn"/></r></p></e>
+    <e r="LR"><p><l>dari<b/>mana<b/>pun<s n="prn"/></l><r>dari<b/>mana-mana<s n="prn"/></r></p></e>
+    <e><p><l>di<b/>mana<b/>saja<s n="prn"/></l><r>di<b/>mana<b/>saja<s n="prn"/></r></p></e>
+    <e><p><l>di<b/>manapun<s n="prn"/></l><r>di<b/>mana-mana<s n="prn"/></r></p></e>
+    <e r="LR"><p><l>di<b/>mana<b/>pun<s n="prn"/></l><r>di<b/>mana-mana<s n="prn"/></r></p></e>
+    <e><p><l>kapan<b/>saja<s n="prn"/></l><r>bila-bila<b/>masa<s n="prn"/></r></p></e>
+    <e r="LR"><p><l>kapan<b/>pun<s n="prn"/></l><r>bila-bila<b/>masa<s n="prn"/></r></p></e>
+    <e r="LR"><p><l>kapanpun<s n="prn"/></l><r>bila-bila<b/>masa<s n="prn"/></r></p></e>
+    <e><p><l>ke<b/>mana<b/>pun<s n="prn"/></l><r>ke<b/>mana<b/>pun<s n="prn"/></r></p></e>
+    <e><p><l>ke<b/>mana<b/>saja<s n="prn"/></l><r>ke<b/>mana<b/>saja<s n="prn"/></r></p></e>
+    <e><p><l>ke<b/>manapun<s n="prn"/></l><r>ke<b/>mana-mana<s n="prn"/></r></p></e>
+    <e><p><l>mana<b/>saja<s n="prn"/></l><r>mana<b/>saja<s n="prn"/></r></p></e>
+    <e><p><l>manapun<s n="prn"/></l><r>mana-mana<s n="prn"/></r></p></e>
+    <e r="LR"><p><l>mana<b/>pun<s n="prn"/></l><r>mana-mana<s n="prn"/></r></p></e>
+    <e><p><l>siapa<b/>pun<s n="prn"/></l><r>siapa<b/>pun<s n="prn"/></r></p></e>
+    <e><p><l>siapa<b/>saja<s n="prn"/></l><r>siapa<b/>saja<s n="prn"/></r></p></e>
+    <e><p><l>siapapun<s n="prn"/></l><r>siapapun<s n="prn"/></r></p></e>
+    
     <e><p><l>mana<s n="prn"/></l><r>mana<s n="prn"/></r></p></e>
 
     <!-- Determiners -->
@@ -5257,17 +5288,21 @@
     <e><p><l>aku<s n="prn"/></l><r>aku<s n="prn"/></r></p></e>
     <e><p><l>anda<s n="prn"/></l><r>anda<s n="prn"/></r></p></e>
     <e><p><l>beliau<s n="prn"/></l><r>beliau<s n="prn"/></r></p></e>
+    <e><p><l>daku<s n="prn"/></l><r>daku<s n="prn"/></r></p></e>
     <e><p><l>dia<s n="prn"/></l><r>dia<s n="prn"/></r></p></e>
+    <e><p><l>dikau<s n="prn"/></l><r>dikau<s n="prn"/></r></p></e>
+    <e><p><l>engkau<s n="prn"/></l><r>engkau<s n="prn"/></r></p></e>
     <e><p><l>ia<s n="prn"/></l><r>ia<s n="prn"/></r></p></e>
+    <e><p><l>kalian<s n="prn"/></l><r>kalian<s n="prn"/></r></p></e>
     <e><p><l>kami<s n="prn"/></l><r>kami<s n="prn"/></r></p></e>
     <e><p><l>kamu<s n="prn"/></l><r>kamu<s n="prn"/></r></p></e>
     <e r="RL"><p><l>kamu<s n="prn"/></l><r>awak<s n="prn"/></r></p></e>
     <e><p><l>kau<s n="prn"/></l><r>kau<s n="prn"/></r></p></e>
     <e><p><l>kita<s n="prn"/></l><r>kita<s n="prn"/></r></p></e>
-    <e><p><l>ku<s n="prn"/></l><r>ku<s n="prn"/></r></p></e>
+    <e><p><l>ku<s n="prn"/></l><r>ku<s n="prn"/></r></p></e>    
     <e><p><l>mereka<s n="prn"/></l><r>mereka<s n="prn"/></r></p></e>
     <e><p><l>saya<s n="prn"/></l><r>saya<s n="prn"/></r></p></e>
-
+    
     <!-- Numerals -->
     <e><p><l>satu<s n="num"/></l><r>satu<s n="num"/></r></p></e>
     <e><p><l>dua<s n="num"/></l><r>dua<s n="num"/></r></p></e>

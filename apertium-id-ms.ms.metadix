@@ -2904,9 +2904,13 @@
     <e lm="sini"><i>sini</i><par n="sana__prn"/></e>
     <e lm="situ"><i>situ</i><par n="sana__prn"/></e>
     
+    <e lm="beberapa"><i>beberapa</i><par n="seseorang__prn"/></e>
     <e lm="masing-masing"><i>masing-masing</i><par n="seseorang__prn"/></e>
+    <e lm="sebagian"><i>sebagian</i><par n="seseorang__prn"/></e>
+    <e lm="semua"><i>semua</i><par n="seseorang__prn"/></e>
     <e lm="seseorang"><i>seseorang</i><par n="seseorang__prn"/></e>
     <e lm="sesuatu"><i>sesuatu</i><par n="seseorang__prn"/></e>
+    <e lm="segala sesuatu"><i>segala<b/>sesuatu</i><par n="seseorang__prn"/></e>
     
     <!-- Numbers -->
     <e lm="keduanya"><i>keduanya</i><par n="seseorang__prn"/></e>
@@ -2933,23 +2937,18 @@
     <e lm="di mana saja"><i>di<b/>mana<b/>saja</i><par n="apa saja__prn"/></e>
     <e lm="ke mana saja"><i>ke<b/>mana<b/>saja</i><par n="apa saja__prn"/></e>
     <e lm="dari mana saja"><i>dari<b/>mana<b/>saja</i><par n="apa saja__prn"/></e>
-    <e lm="kapan saja"><i>kapan<b/>saja</i><par n="apa saja__prn"/></e>
+    <e lm="bila-bila masa"><i>bila-bila<b/>masa</i><par n="apa saja__prn"/></e>
     <e lm="berapa saja"><i>berapa<b/>saja</i><par n="apa saja__prn"/></e>
     <e lm="apa pun"><i>apa<b/>pun</i><par n="apa saja__prn"/></e>
     <e lm="siapa pun"><i>siapa<b/>pun</i><par n="apa saja__prn"/></e>
-    <e lm="mana pun"><i>mana<b/>pun</i><par n="apa saja__prn"/></e>
-    <e lm="di mana pun"><i>di<b/>mana<b/>pun</i><par n="apa saja__prn"/></e>
     <e lm="ke mana pun"><i>ke<b/>mana<b/>pun</i><par n="apa saja__prn"/></e>
-    <e lm="dari mana pun"><i>dari<b/>mana<b/>pun</i><par n="apa saja__prn"/></e>
-    <e lm="kapan pun"><i>kapan<b/>pun</i><par n="apa saja__prn"/></e>
+    <e lm="mana-mana"><i>mana-mana</i><par n="apa saja__prn"/></e>
+    <e lm="di mana-mana"><i>di<b/>mana-mana</i><par n="apa saja__prn"/></e>
+    <e lm="ke mana-mana"><i>ke<b/>mana-mana</i><par n="apa saja__prn"/></e>
+    <e lm="dari mana-mana"><i>dari<b/>mana-mana</i><par n="apa saja__prn"/></e>
     <e lm="berapa pun"><i>berapa<b/>pun</i><par n="apa saja__prn"/></e>
     <e lm="apapun"><i>apapun</i><par n="apa saja__prn"/></e>
     <e lm="siapapun"><i>siapapun</i><par n="apa saja__prn"/></e>
-    <e lm="manapun"><i>manapun</i><par n="apa saja__prn"/></e>
-    <e lm="di manapun"><i>di<b/>manapun</i><par n="apa saja__prn"/></e>
-    <e lm="ke manapun"><i>ke<b/>manapun</i><par n="apa saja__prn"/></e>
-    <e lm="dari manapun"><i>dari<b/>manapun</i><par n="apa saja__prn"/></e>
-    <e lm="kapanpun"><i>kapanpun</i><par n="apa saja__prn"/></e>
     <e lm="berapapun"><i>berapapun</i><par n="apa saja__prn"/></e>
     
     <!-- Personal Pronouns -->
