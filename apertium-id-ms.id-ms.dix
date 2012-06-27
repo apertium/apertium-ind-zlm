@@ -5164,7 +5164,7 @@
     <e><p><l>sedikit-sedikit<s n="adv"/></l><r>sedikit-sedikit<s n="adv"/></r></p></e>
     <e><p><l>segala-galanya<s n="adv"/></l><r>segala-galanya<s n="adv"/></r></p></e>
     <e><p><l>segalanya<s n="adv"/></l><r>segalanya<s n="adv"/></r></p></e>
-    <e><p><l>segera<s n="adv"/></l><r>akan<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>segera<s n="adv"/></l><r>akan<s n="adv"/></r></p></e>
     <e><p><l>seharusnya<s n="adv"/></l><r>seharusnya<s n="adv"/></r></p></e>
     <e><p><l>seingat<s n="adv"/></l><r>seingat<s n="adv"/></r></p></e>
     <e><p><l>sejauh<s n="adv"/></l><r>setakat<s n="adv"/></r></p></e>
@@ -5211,7 +5211,7 @@
     <e><p><l>sepintas<s n="adv"/></l><r>sepintas<s n="adv"/></r></p></e>
     <e><p><l>serba-serbi<s n="adv"/></l><r>serba-serbi<s n="adv"/></r></p></e>
     <e><p><l>serba<s n="adv"/></l><r>serba<s n="adv"/></r></p></e>
-    <e><p><l>serbi<s n="adv"/></l><r>mengenai<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>serbi<s n="adv"/></l><r>mengenai<s n="pr"/></r></p></e>
     <e><p><l>serela<s n="adv"/></l><r>serela<s n="adv"/></r></p></e>
     <e><p><l>sering-sering<s n="adv"/></l><r>sering-sering<s n="adv"/></r></p></e>
     <e><p><l>sering<s n="adv"/></l><r>sering<s n="adv"/></r></p></e>
@@ -5324,16 +5324,33 @@
     
     <!-- Question words -->
     <e><p><l>apa<s n="prn"/></l><r>apa<s n="prn"/></r></p></e>
-    <e><p><l>apakah<s n="prn"/></l><r>apakah<s n="prn"/></r></p></e>
-    <e><p><l>di<b/>mana<s n="adv"/></l><r>di<b/>mana<s n="adv"/></r></p></e>
-    <e><p><l>di<b/>manakah<s n="adv"/></l><r>di<b/>manakah<s n="adv"/></r></p></e>
-    <e><p><l>ke<b/>mana<s n="adv"/></l><r>ke<b/>mana<s n="adv"/></r></p></e>
-    <e><p><l>ke<b/>manakah<s n="adv"/></l><r>ke<b/>manakah<s n="adv"/></r></p></e>
+    <e><p><l>siapa<s n="prn"/></l><r>siapa<s n="prn"/></r></p></e>
     <e><p><l>mana<s n="prn"/></l><r>mana<s n="prn"/></r></p></e>
-    <e><p><l>mengapa<s n="adv"/></l><r>mengapa<s n="adv"/></r></p></e>
-    <e><p><l>kapan<s n="adv"/></l><r>bilakah<s n="adv"/></r></p></e>
+    <e><p><l>berapa<s n="prn"/></l><r>berapa<s n="prn"/></r></p></e>
+    <e><p><l>bagaimana<s n="adv"/></l><r>bagaimana<s n="adv"/></r></p></e>
+    <e><p><l>bilamana<s n="adv"/></l><r>bilamana<s n="adv"/></r></p></e>
+    <e><p><l>dari<b/>mana<s n="adv"/></l><r>dari<b/>mana<s n="adv"/></r></p></e>
+    <e><p><l>di<b/>mana<s n="adv"/></l><r>di<b/>mana<s n="adv"/></r></p></e>
+    <e><p><l>kapan<s n="adv"/></l><r>bila<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>bila<s n="adv"/></l><r>bila<s n="adv"/></r></p></e>
     <e r="RL"><p><l>kapan<s n="adv"/></l><r>apabila<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>kapan<s n="adv"/></l><r>bila<s n="adv"/></r></p></e>
+    <e><p><l>ke<b/>mana<s n="adv"/></l><r>ke<b/>mana<s n="adv"/></r></p></e>
+    <e><p><l>kenapa<s n="adv"/></l><r>kenapa<s n="adv"/></r></p></e>
+    <e><p><l>mengapa<s n="adv"/></l><r>mengapa<s n="adv"/></r></p></e>
+    <e><p><l>apakah<s n="prn"/></l><r>apakah<s n="prn"/></r></p></e>
+    <e><p><l>berapakah<s n="prn"/></l><r>berapakah<s n="prn"/></r></p></e>
+    <e><p><l>manakah<s n="prn"/></l><r>manakah<s n="prn"/></r></p></e>
+    <e><p><l>siapakah<s n="prn"/></l><r>siapakah<s n="prn"/></r></p></e>
+    <e><p><l>bagaimanakah<s n="adv"/></l><r>bagaimanakah<s n="adv"/></r></p></e>
+    <e><p><l>bilamanakah<s n="adv"/></l><r>bilamanakah<s n="adv"/></r></p></e>
+    <e><p><l>kapankah<s n="adv"/></l><r>bilakah<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>bilakah<s n="adv"/></l><r>bilakah<s n="adv"/></r></p></e>
+    <e><p><l>dari<b/>manakah<s n="adv"/></l><r>dari<b/>manakah<s n="adv"/></r></p></e>
+    <e><p><l>di<b/>manakah<s n="adv"/></l><r>di<b/>manakah<s n="adv"/></r></p></e>
+    <e><p><l>ke<b/>manakah<s n="adv"/></l><r>ke<b/>manakah<s n="adv"/></r></p></e>
+    <e><p><l>kenapakah<s n="adv"/></l><r>kenapakah<s n="adv"/></r></p></e>
+    <e><p><l>mengapakah<s n="adv"/></l><r>mengapakah<s n="adv"/></r></p></e>
+
     <!--
     <e><p><l>tahukah<s n="qst"/></l><r>tahukah<s n="qst"/></r></p></e>
     <e><p><l>mungkinkah<s n="qst"/></l><r>mungkinkah<s n="qst"/></r></p></e>
@@ -5399,12 +5416,45 @@
     <e><p><l>siapapun<s n="prn"/></l><r>siapapun<s n="prn"/></r></p></e>
     
     <!-- Determiners -->
+    <e><p><l>ini<s n="det"/></l><r>ini<s n="det"/></r></p></e>
+    <e><p><l>itu<s n="det"/></l><r>itu<s n="det"/></r></p></e>
+
+    <e><p><l>beberapa<s n="det"/></l><r>beberapa<s n="det"/></r></p></e>
+    <e><p><l>masing-masing<s n="det"/></l><r>masing-masing<s n="det"/></r></p></e>
     <e><p><l>sebagian<s n="det"/></l><r>sebahagian<s n="det"/></r></p></e>
+    <e><p><l>semua<s n="det"/></l><r>semua<s n="det"/></r></p></e>
+    
     <e><p><l>sebuah<s n="det"/></l><r>sebuah<s n="det"/></r></p></e>
     <e><p><l>seekor<s n="det"/></l><r>seekor<s n="det"/></r></p></e>
-    <e><p><l>seluruh<s n="det"/></l><r>seluruh<s n="det"/></r></p></e>
     <e><p><l>seorang<s n="det"/></l><r>seorang<s n="det"/></r></p></e>
-    
+    <e><p><l>suatu<s n="det"/></l><r>suatu<s n="det"/></r></p></e>
+
+    <e><p><l>aneka<s n="det"/></l><r>aneka<s n="det"/></r></p></e>
+    <e><p><l>banyak<s n="det"/></l><r>banyak<s n="det"/></r></p></e>
+    <e><p><l>berbagai<s n="det"/></l><r>pelbagai<s n="det"/></r></p></e>
+    <e r="LR"><p><l>pelbagai<s n="det"/></l><r>pelbagai<s n="det"/></r></p></e>
+    <e><p><l>bermacam-macam<s n="det"/></l><r>bermacam-macam<s n="det"/></r></p></e>
+    <e><p><l>kebanyakan<s n="det"/></l><r>kebanyakan<s n="det"/></r></p></e>
+    <e><p><l>seantero<s n="det"/></l><r>seantero<s n="det"/></r></p></e>
+    <e><p><l>sedikit<s n="det"/></l><r>sedikit<s n="det"/></r></p></e>
+    <e><p><l>segala<s n="det"/></l><r>segala<s n="det"/></r></p></e>
+    <e><p><l>segenap<s n="det"/></l><r>segenap<s n="det"/></r></p></e>
+    <e><p><l>sejumlah<s n="det"/></l><r>sejumlah<s n="det"/></r></p></e>
+    <e><p><l>seluruh<s n="det"/></l><r>seluruh<s n="det"/></r></p></e>
+    <e><p><l>setiap<s n="det"/></l><r>setiap<s n="det"/></r></p></e>
+    <e><p><l>tiap<s n="det"/></l><r>tiap<s n="det"/></r></p></e>
+    <e><p><l>tiap-tiap<s n="det"/></l><r>tiap-tiap<s n="det"/></r></p></e>
+
+    <e><p><l>dua<s n="det"/></l><r>dua<s n="det"/></r></p></e>
+    <e><p><l>tiga<s n="det"/></l><r>tiga<s n="det"/></r></p></e>
+    <e><p><l>empat<s n="det"/></l><r>empat<s n="det"/></r></p></e>
+    <e><p><l>lima<s n="det"/></l><r>lima<s n="det"/></r></p></e>
+    <e><p><l>enam<s n="det"/></l><r>enam<s n="det"/></r></p></e>
+    <e><p><l>tujuh<s n="det"/></l><r>tujuh<s n="det"/></r></p></e>
+    <e><p><l>delapan<s n="det"/></l><r>lapan<s n="det"/></r></p></e>
+    <e><p><l>sembilan<s n="det"/></l><r>sembilan<s n="det"/></r></p></e>
+    <e><p><l>sepuluh<s n="det"/></l><r>sepuluh<s n="det"/></r></p></e>
+
     <!-- Personal Pronouns -->
     <e><p><l>aku<s n="prn"/></l><r>aku<s n="prn"/></r></p></e>
     <e><p><l>anda<s n="prn"/></l><r>anda<s n="prn"/></r></p></e>

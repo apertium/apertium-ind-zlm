@@ -5,15 +5,6 @@
   <def-cat n="prep">
      <cat-item tags="pr"/>
   </def-cat>
-  
-  <def-cat n="prn_enc">
-     <cat-item tags="prn.enc.*"/>
-  </def-cat>
-  
-  <def-cat n="any">
-     <cat-item tags=""/>        <!-- unknown words -->
-     <cat-item tags="*"/>
-  </def-cat>
 </section-def-cats>
 
 <section-def-attrs>
@@ -41,23 +32,7 @@
      </action>
   </rule>
 
-  <rule>
-     <pattern>
-       <pattern-item n="any"/>
-       <pattern-item n="prn_enc"/>
-     </pattern>
-     <action>
-       <out>
-         <lu>
-           <clip pos="1" side="tl" part="whole"/>
-         </lu>
-         <lu>
-           <clip pos="2" side="tl" part="whole"/>
-         </lu>         
-       </out>
-     </action>
-  </rule>
-  
+
 </section-rules>
 
 </transfer>

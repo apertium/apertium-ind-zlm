@@ -2907,6 +2907,7 @@
     <e lm="beberapa"><i>beberapa</i><par n="seseorang__prn"/></e>
     <e lm="masing-masing"><i>masing-masing</i><par n="seseorang__prn"/></e>
     <e lm="sebagian"><i>sebagian</i><par n="seseorang__prn"/></e>
+    <e lm="sebahagian"><i>sebahagian</i><par n="seseorang__prn"/></e>
     <e lm="semua"><i>semua</i><par n="seseorang__prn"/></e>
     <e lm="seseorang"><i>seseorang</i><par n="seseorang__prn"/></e>
     <e lm="sesuatu"><i>sesuatu</i><par n="seseorang__prn"/></e>
@@ -15860,21 +15861,24 @@
     <e lm="banyak"><i>banyak</i><par n="segala__det"/></e>
     <e lm="bermacam-macam"><i>bermacam-macam</i><par n="segala__det"/></e>
     <e lm="kebanyakan"><i>kebanyakan</i><par n="segala__det"/></e>
+    <e lm="pelbagai"><i>pelbagai</i><par n="segala__det"/></e>
     <e lm="seantero"><i>seantero</i><par n="segala__det"/></e>
     <e lm="sedikit"><i>sedikit</i><par n="segala__det"/></e>
     <e lm="segala"><i>segala</i><par n="segala__det"/></e>
     <e lm="segenap"><i>segenap</i><par n="segala__det"/></e>
+    <e lm="sejumlah"><i>sejumlah</i><par n="segala__det"/></e>
     <e lm="seluruh"><i>seluruh</i><par n="segala__det"/></e>
+    <e lm="setiap"><i>setiap</i><par n="segala__det"/></e>
     <e lm="tiap"><i>tiap</i><par n="segala__det"/></e>
     <e lm="tiap-tiap"><i>tiap-tiap</i><par n="segala__det"/></e>
 
-    <e lm="dua"><p><l>kedua</l><r>dua</r></p><par n="segala__det"/></e>
+    <e lm="dua"><p><l>kedua-dua</l><r>dua</r></p><par n="segala__det"/></e>
     <e lm="tiga"><p><l>ketiga</l><r>tiga</r></p><par n="segala__det"/></e>
     <e lm="empat"><p><l>keempat</l><r>empat</r></p><par n="segala__det"/></e>
     <e lm="lima"><p><l>kelima</l><r>lima</r></p><par n="segala__det"/></e>
     <e lm="enam"><p><l>keenam</l><r>enam</r></p><par n="segala__det"/></e>
     <e lm="tujuh"><p><l>ketujuh</l><r>tujuh</r></p><par n="segala__det"/></e>
-    <e lm="delapan"><p><l>kelapan</l><r>delapan</r></p><par n="segala__det"/></e>
+    <e lm="lapan"><p><l>kelapan</l><r>lapan</r></p><par n="segala__det"/></e>
     <e lm="sembilan"><p><l>kesembilan</l><r>sembilan</r></p><par n="segala__det"/></e>
     <e lm="sepuluh"><p><l>kesepuluh</l><r>sepuluh</r></p><par n="segala__det"/></e>
     
