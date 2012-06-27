@@ -3326,7 +3326,7 @@
       </p>
     </e>
     </pardef>
-    <pardef n="sebanyak__adj">
+    <pardef n="sebaik__adj">
     <e>
       <p>
         <l></l>
@@ -3352,7 +3352,7 @@
         <r><s n="adv"/></r>
       </p>
     </e>
-    </pardef>
+    </pardef>   
     
     <pardef n="dan__cnjcoo">
     <e>
@@ -23777,6 +23777,7 @@
     <e lm="sayup"><i>sayup</i><par n="baik__adj"/></e>
     <e lm="sebal"><i>sebal</i><par n="baik__adj"/></e>
     <e lm="sebel"><i>sebel</i><par n="baik__adj"/></e>
+    <e lm="sebentar"><i>sebentar</i><par n="baik__adj"/></e>
     <e lm="sedap"><i>sedap</i><par n="baik__adj"/></e>
     <e lm="sederhana"><i>sederhana</i><par n="baik__adj"/></e>
     <e lm="sedikit"><i>sedikit</i><par n="baik__adj"/></e>
@@ -23848,6 +23849,7 @@
     <e lm="sesuai"><i>sesuai</i><par n="baik__adj"/></e>
     <e lm="setia"><i>setia</i><par n="baik__adj"/></e>
     <e lm="setiawan"><i>setiawan</i><par n="baik__adj"/></e>
+    <e lm="setimpal"><i>setimpal</i><par n="baik__adj"/></e>
     <e lm="sewot"><i>sewot</i><par n="baik__adj"/></e>
     <e lm="sial"><i>sial</i><par n="baik__adj"/></e>
     <e lm="sibuk"><i>sibuk</i><par n="baik__adj"/></e>
@@ -24072,8 +24074,45 @@
     <e lm="zalim"><i>zalim</i><par n="baik__adj"/></e>
     
     <!-- se- -->
-    <e lm="banyak"><p><l>sebanyak</l><r>banyak</r></p><par n="sebanyak__adj"/></e>
-
+    <!-- Adj -> Adj -->
+    <e lm="baik"><p><l>sebaik</l><r>baik</r></p><par n="sebaik__adj"/></e>
+    <e lm="banyak"><p><l>sebanyak</l><r>banyak</r></p><par n="sebaik__adj"/></e>
+    <e lm="bati"><p><l>sebati</l><r>bati</r></p><par n="sebaik__adj"/></e>
+    <e lm="besar"><p><l>sebesar</l><r>besar</r></p><par n="sebaik__adj"/></e>
+    <e lm="cepat"><p><l>secepat</l><r>cepat</r></p><par n="sebaik__adj"/></e>
+    <e lm="cukup"><p><l>secukup</l><r>cukup</r></p><par n="sebaik__adj"/></e>
+    <e lm="datar"><p><l>sedatar</l><r>datar</r></p><par n="sebaik__adj"/></e>
+    <e lm="elok"><p><l>seelok</l><r>elok</r></p><par n="sebaik__adj"/></e>
+    <e lm="hina"><p><l>sehina</l><r>hina</r></p><par n="sebaik__adj"/></e>
+    <e lm="imbang"><p><l>seimbang</l><r>imbang</r></p><par n="sebaik__adj"/></e>
+    <e lm="kecil"><p><l>sekecil</l><r>kecil</r></p><par n="sebaik__adj"/></e>
+    <e lm="kelumit"><p><l>sekelumit</l><r>kelumit</r></p><par n="sebaik__adj"/></e>
+    <e lm="lengkap"><p><l>selengkap</l><r>lengkap</r></p><par n="sebaik__adj"/></e>
+    <e lm="mampu"><p><l>semampu</l><r>mampu</r></p><par n="sebaik__adj"/></e>
+    <e lm="manis"><p><l>semanis</l><r>manis</r></p><par n="sebaik__adj"/></e>
+    <e lm="mudah"><p><l>semudah</l><r>mudah</r></p><par n="sebaik__adj"/></e>
+    <e lm="mujur"><p><l>semujur</l><r>mujur</r></p><par n="sebaik__adj"/></e>
+    <e lm="penuh"><p><l>sepenuh</l><r>penuh</r></p><par n="sebaik__adj"/></e>
+    <e lm="remeh"><p><l>seremeh</l><r>remeh</r></p><par n="sebaik__adj"/></e>
+    <e lm="suka"><p><l>sesuka</l><r>suka</r></p><par n="sebaik__adj"/></e>
+    <e lm="tegak"><p><l>setegak</l><r>tegak</r></p><par n="sebaik__adj"/></e>
+    <e lm="timbal"><p><l>setimbal</l><r>timbal</r></p><par n="sebaik__adj"/></e>
+    <e lm="timbang"><p><l>setimbang</l><r>timbang</r></p><par n="sebaik__adj"/></e>
+    <e lm="utuh"><p><l>seutuh</l><r>utuh</r></p><par n="sebaik__adj"/></e>
+    <e lm="wajar"><p><l>sewajar</l><r>wajar</r></p><par n="sebaik__adj"/></e>
+    <!-- end Adj -> Adj -->
+    
+    <!-- N -> Adj -->
+    <e lm="daging"><p><l>sedaging</l><r>daging</r></p><par n="sekelas__n"/></e>
+    <e lm="derajat"><p><l>sederajat</l><r>derajat</r></p><par n="sekelas__n"/></e>
+    <e lm="kelas"><p><l>sekelas</l><r>kelas</r></p><par n="sekelas__n"/></e>
+    <e lm="macam"><p><l>semacam</l><r>macam</r></p><par n="sekelas__n"/></e>
+    <e lm="muka"><p><l>semuka</l><r>muka</r></p><par n="sekelas__n"/></e>
+    <e lm="padan"><p><l>sepadan</l><r>padan</r></p><par n="sekelas__n"/></e>
+    <e lm="pusat"><p><l>sepusat</l><r>pusat</r></p><par n="sekelas__n"/></e>
+    <e lm="ukur"><p><l>seukur</l><r>ukur</r></p><par n="sekelas__n"/></e>
+    <!-- end N -> Adj -->
+    
     <!-- ter- -->
     <!-- Adj -> Adj -->
     <e lm="adil"><p><l>teradil</l><r>adil</r></p><par n="terbaik__adj"/></e>
@@ -24483,6 +24522,49 @@
     <e lm="untung-untung"><i>untung-untung</i><par n="ingin__adv"/></e>
     <e lm="yaitu"><i>yaitu</i><par n="ingin__adv"/></e>
     <e lm="yakni"><i>yakni</i><par n="ingin__adv"/></e>
+    
+    <e lm="sebaiknya"><i>sebaiknya</i><par n="ingin__adv"/></e>
+    <e lm="sebanyaknya"><i>sebanyaknya</i><par n="ingin__adv"/></e>
+    <e lm="sebesarnya"><i>sebesarnya</i><par n="ingin__adv"/></e>
+    <e lm="secepatnya"><i>secepatnya</i><par n="ingin__adv"/></e>
+    <e lm="secukupnya"><i>secukupnya</i><par n="ingin__adv"/></e>
+    <e lm="sedatarnya"><i>sedatarnya</i><par n="ingin__adv"/></e>
+    <e lm="seeloknya"><i>seeloknya</i><par n="ingin__adv"/></e>
+    <e lm="sekecilnya"><i>sekecilnya</i><par n="ingin__adv"/></e>
+    <e lm="selengkapnya"><i>selengkapnya</i><par n="ingin__adv"/></e>
+    <e lm="semampunya"><i>semampunya</i><par n="ingin__adv"/></e>
+    <e lm="semanisnya"><i>semanisnya</i><par n="ingin__adv"/></e>
+    <e lm="semudahnya"><i>semudahnya</i><par n="ingin__adv"/></e>
+    <e lm="semujurnya"><i>semujurnya</i><par n="ingin__adv"/></e>
+    <e lm="sepenuhnya"><i>sepenuhnya</i><par n="ingin__adv"/></e>
+    <e lm="seremehnya"><i>seremehnya</i><par n="ingin__adv"/></e>
+    <e lm="sesukanya"><i>sesukanya</i><par n="ingin__adv"/></e>
+    <e lm="setegaknya"><i>setegaknya</i><par n="ingin__adv"/></e>
+    <e lm="setimbangnya"><i>setimbangnya</i><par n="ingin__adv"/></e>
+    <e lm="seutuhnya"><i>seutuhnya</i><par n="ingin__adv"/></e>
+    <e lm="sewajarnya"><i>sewajarnya</i><par n="ingin__adv"/></e>
+
+    <e lm="sebaik-baiknya"><i>sebaik-baiknya</i><par n="ingin__adv"/></e>
+    <e lm="sebanyak-banyaknya"><i>sebanyak-banyaknya</i><par n="ingin__adv"/></e>
+    <e lm="sebesar-besarnya"><i>sebesar-besarnya</i><par n="ingin__adv"/></e>
+    <e lm="secepat-cepatnya"><i>secepat-cepatnya</i><par n="ingin__adv"/></e>
+    <e lm="secukup-cukupnya"><i>secukup-cukupnya</i><par n="ingin__adv"/></e>
+    <e lm="sedatar-datarnya"><i>sedatar-datarnya</i><par n="ingin__adv"/></e>
+    <e lm="seelok-eloknya"><i>seelok-eloknya</i><par n="ingin__adv"/></e>
+    <e lm="sekecil-kecilnya"><i>sekecil-kecilnya</i><par n="ingin__adv"/></e>
+    <e lm="selengkap-lengkapnya"><i>selengkap-lengkapnya</i><par n="ingin__adv"/></e>
+    <e lm="semampu-mampunya"><i>semampu-mampunya</i><par n="ingin__adv"/></e>
+    <e lm="semanis-manisnya"><i>semanis-manisnya</i><par n="ingin__adv"/></e>
+    <e lm="semudah-mudahnya"><i>semudah-mudahnya</i><par n="ingin__adv"/></e>
+    <e lm="semujur-mujurnya"><i>semujur-mujurnya</i><par n="ingin__adv"/></e>
+    <e lm="sepenuh-penuhnya"><i>sepenuh-penuhnya</i><par n="ingin__adv"/></e>
+    <e lm="seremeh-remehnya"><i>seremeh-remehnya</i><par n="ingin__adv"/></e>
+    <e lm="sesuka-sukanya"><i>sesuka-sukanya</i><par n="ingin__adv"/></e>
+    <e lm="setegak-tegaknya"><i>setegak-tegaknya</i><par n="ingin__adv"/></e>
+    <e lm="setimbang-timbangnya"><i>setimbang-timbangnya</i><par n="ingin__adv"/></e>
+    <e lm="seutuh-utuhnya"><i>seutuh-utuhnya</i><par n="ingin__adv"/></e>
+    <e lm="sewajar-wajarnya"><i>sewajar-wajarnya</i><par n="ingin__adv"/></e>
+
 <!-- Conjunctions -->
     <!-- Coordinating conjunctions -->
     <e lm="akan tetapi"><i>akan<b/>tetapi</i><par n="dan__cnjcoo"/></e>
