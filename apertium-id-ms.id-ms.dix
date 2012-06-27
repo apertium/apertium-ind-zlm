@@ -4926,13 +4926,53 @@
     <!-- Proper Nouns -->
     <e><p><l>Maria<s n="np"/></l><r>Maria<s n="np"/></r></p></e>
     
+    <e><p><l>James<s n="np"/></l><r>James<s n="np"/></r></p></e>
+    <e><p><l>Kristus<s n="np"/></l><r>Kristus<s n="np"/></r></p></e>
+    <e><p><l>Leo<s n="np"/></l><r>Leo<s n="np"/></r></p></e>
+    <e><p><l>Muhammad<s n="np"/></l><r>Muhammad<s n="np"/></r></p></e>
+    <e><p><l>Wisnu<s n="np"/></l><r>Wisnu<s n="np"/></r></p></e>
     <e><p><l>Yakobus<s n="np"/></l><r>Yakobus<s n="np"/></r></p></e>
+    <e><p><l>Yesus<s n="np"/></l><r>Yesus<s n="np"/></r></p></e>
     
+    <e><p><l>Afrika<s n="np"/></l><r>Afrika<s n="np"/></r></p></e>
+    <e><p><l>Amerika<s n="np"/></l><r>Amerika<s n="np"/></r></p></e>
+    <e><p><l>Arab<s n="np"/></l><r>Arab<s n="np"/></r></p></e>
+    <e><p><l>Asia<s n="np"/></l><r>Asia<s n="np"/></r></p></e>
+    <e><p><l>Australia<s n="np"/></l><r>Australia<s n="np"/></r></p></e>
+    <e><p><l>Austria<s n="np"/></l><r>Austria<s n="np"/></r></p></e>
+    <e><p><l>Bali<s n="np"/></l><r>Bali<s n="np"/></r></p></e>
+    <e><p><l>Belanda<s n="np"/></l><r>Belanda<s n="np"/></r></p></e>
     <e><p><l>Boston<s n="np"/></l><r>Boston<s n="np"/></r></p></e>
+    <e><p><l>Brasil<s n="np"/></l><r>Brazil<s n="np"/></r></p></e>
+    <e><p><l>Britania<s n="np"/></l><r>Britain<s n="np"/></r></p></e>
+    <e><p><l>California<s n="np"/></l><r>California<s n="np"/></r></p></e>
+    <e><p><l>Cina<s n="np"/></l><r>China<s n="np"/></r></p></e>
     <e><p><l>Eropa<s n="np"/></l><r>Eropah<s n="np"/></r></p></e>
+    <e><p><l>Filipina<s n="np"/></l><r>Filipina<s n="np"/></r></p></e>
+    <e><p><l>India<s n="np"/></l><r>India<s n="np"/></r></p></e>
     <e><p><l>Indonesia<s n="np"/></l><r>Indonesia<s n="np"/></r></p></e>
+    <e><p><l>Inggris<s n="np"/></l><r>Inggeris<s n="np"/></r></p></e>
+    <e><p><l>Israel<s n="np"/></l><r>Israel<s n="np"/></r></p></e>
+    <e><p><l>Italia<s n="np"/></l><r>Itali<s n="np"/></r></p></e>
+    <e><p><l>Jakarta<s n="np"/></l><r>Jakarta<s n="np"/></r></p></e>
+    <e><p><l>Jawa<s n="np"/></l><r>Jawa<s n="np"/></r></p></e>
+    <e><p><l>Jepang<s n="np"/></l><r>Jepun<s n="np"/></r></p></e>
+    <e><p><l>Jerman<s n="np"/></l><r>Jerman<s n="np"/></r></p></e>
+    <e><p><l>Kanada<s n="np"/></l><r>Kanada<s n="np"/></r></p></e>
+    <e><p><l>Korea<s n="np"/></l><r>Korea<s n="np"/></r></p></e>
+    <e><p><l>London<s n="np"/></l><r>London<s n="np"/></r></p></e>
     <e><p><l>Malaysia<s n="np"/></l><r>Malaysia<s n="np"/></r></p></e>
+    <e><p><l>Mesir<s n="np"/></l><r>Mesir<s n="np"/></r></p></e>
     <e><p><l>Perancis<s n="np"/></l><r>Perancis<s n="np"/></r></p></e>
+    <e><p><l>Polandia<s n="np"/></l><r>Poland<s n="np"/></r></p></e>
+    <e><p><l>Rusia<s n="np"/></l><r>Rusia<s n="np"/></r></p></e>
+    <e><p><l>Singapura<s n="np"/></l><r>Singapura<s n="np"/></r></p></e>
+    <e><p><l>Spanyol<s n="np"/></l><r>Sepanyol<s n="np"/></r></p></e>
+    <e><p><l>Swedia<s n="np"/></l><r>Sweden<s n="np"/></r></p></e>
+    <e><p><l>Thailand<s n="np"/></l><r>Thailand<s n="np"/></r></p></e>
+    <e><p><l>Turki<s n="np"/></l><r>Turki<s n="np"/></r></p></e>
+    <e><p><l>Vatikan<s n="np"/></l><r>Vatican<s n="np"/></r></p></e>
+    <e><p><l>Yunani<s n="np"/></l><r>Yunani<s n="np"/></r></p></e>
 
     <!-- Adverbs -->
     <e><p><l>adakala<s n="adv"/></l><r>adakala<s n="adv"/></r></p></e>

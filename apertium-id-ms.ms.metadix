@@ -2848,13 +2848,53 @@
 <!-- Proper Nouns -->
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
     
+    <e lm="James"><i>James</i><par n="Yakobus__np"/></e>
+    <e lm="Kristus"><i>Kristus</i><par n="Yakobus__np"/></e>
+    <e lm="Leo"><i>Leo</i><par n="Yakobus__np"/></e>
+    <e lm="Muhammad"><i>Muhammad</i><par n="Yakobus__np"/></e>
+    <e lm="Wisnu"><i>Wisnu</i><par n="Yakobus__np"/></e>
     <e lm="Yakobus"><i>Yakobus</i><par n="Yakobus__np"/></e>
+    <e lm="Yesus"><i>Yesus</i><par n="Yakobus__np"/></e>
     
+    <e lm="Afrika"><i>Afrika</i><par n="Indonesia__np"/></e>
+    <e lm="Amerika"><i>Amerika</i><par n="Indonesia__np"/></e>
+    <e lm="Arab"><i>Arab</i><par n="Indonesia__np"/></e>
+    <e lm="Asia"><i>Asia</i><par n="Indonesia__np"/></e>
+    <e lm="Australia"><i>Australia</i><par n="Indonesia__np"/></e>
+    <e lm="Austria"><i>Austria</i><par n="Indonesia__np"/></e>
+    <e lm="Bali"><i>Bali</i><par n="Indonesia__np"/></e>
+    <e lm="Belanda"><i>Belanda</i><par n="Indonesia__np"/></e>
     <e lm="Boston"><i>Boston</i><par n="Indonesia__np"/></e>
+    <e lm="Brazil"><i>Brazil</i><par n="Indonesia__np"/></e>
+    <e lm="Britain"><i>Britain</i><par n="Indonesia__np"/></e>
+    <e lm="California"><i>California</i><par n="Indonesia__np"/></e>
+    <e lm="China"><i>China</i><par n="Indonesia__np"/></e>
     <e lm="Eropah"><i>Eropah</i><par n="Indonesia__np"/></e>
+    <e lm="Filipina"><i>Filipina</i><par n="Indonesia__np"/></e>
+    <e lm="India"><i>India</i><par n="Indonesia__np"/></e>
     <e lm="Indonesia"><i>Indonesia</i><par n="Indonesia__np"/></e>
+    <e lm="Inggeris"><i>Inggeris</i><par n="Indonesia__np"/></e>
+    <e lm="Israel"><i>Israel</i><par n="Indonesia__np"/></e>
+    <e lm="Itali"><i>Itali</i><par n="Indonesia__np"/></e>
+    <e lm="Jakarta"><i>Jakarta</i><par n="Indonesia__np"/></e>
+    <e lm="Jawa"><i>Jawa</i><par n="Indonesia__np"/></e>
+    <e lm="Jepun"><i>Jepun</i><par n="Indonesia__np"/></e>
+    <e lm="Jerman"><i>Jerman</i><par n="Indonesia__np"/></e>
+    <e lm="Kanada"><i>Kanada</i><par n="Indonesia__np"/></e>
+    <e lm="Korea"><i>Korea</i><par n="Indonesia__np"/></e>
+    <e lm="London"><i>London</i><par n="Indonesia__np"/></e>
     <e lm="Malaysia"><i>Malaysia</i><par n="Indonesia__np"/></e>
+    <e lm="Mesir"><i>Mesir</i><par n="Indonesia__np"/></e>
     <e lm="Perancis"><i>Perancis</i><par n="Indonesia__np"/></e>
+    <e lm="Poland"><i>Poland</i><par n="Indonesia__np"/></e>
+    <e lm="Rusia"><i>Rusia</i><par n="Indonesia__np"/></e>
+    <e lm="Sepanyol"><i>Sepanyol</i><par n="Indonesia__np"/></e>
+    <e lm="Singapura"><i>Singapura</i><par n="Indonesia__np"/></e>
+    <e lm="Sweden"><i>Sweden</i><par n="Indonesia__np"/></e>
+    <e lm="Thailand"><i>Thailand</i><par n="Indonesia__np"/></e>
+    <e lm="Turki"><i>Turki</i><par n="Indonesia__np"/></e>
+    <e lm="Vatican"><i>Vatican</i><par n="Indonesia__np"/></e>
+    <e lm="Yunani"><i>Yunani</i><par n="Indonesia__np"/></e>
     
 <!-- Pronouns -->
     <e lm="ini"><i>ini</i><par n="ini__prn"/></e>
