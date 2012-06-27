@@ -2981,11 +2981,11 @@
     <e lm="Kristian"><i>Kristian</i><par n="Agustus__n"/></e>
     <e lm="Masihi"><i>Masihi</i><par n="Agustus__n"/></e>
     <e lm="Nazi"><i>Nazi</i><par n="Agustus__n"/></e>
-    <e lm="Olimpiad"><i>Olimpiad</i><par n="Agustus__n"/></e>
+    <e lm="Olimpik"><i>Olimpik</i><par n="Agustus__n"/></e>
     <e lm="Easter"><i>Easter</i><par n="Agustus__n"/></e>
     <e lm="Protestan"><i>Protestan</i><par n="Agustus__n"/></e>
     <e lm="Sanskerta"><i>Sanskerta</i><par n="Agustus__n"/></e>
-    <e lm="Selatan"><i>Selatan</i><par n="Agustus__n"/></e>
+    <e lm="selatan"><i>selatan</i><par n="Agustus__n"/></e>
     <e lm="Tuhan"><i>Tuhan</i><par n="Agustus__n"/></e>
     <e lm="Yahudi"><i>Yahudi</i><par n="Agustus__n"/></e>
     
@@ -15418,7 +15418,12 @@
     <e lm="alangkah"><i>alangkah</i><par n="ingin__adv"/></e>
     <e lm="amat"><i>amat</i><par n="ingin__adv"/></e>
     <e lm="amatlah"><i>amatlah</i><par n="ingin__adv"/></e>
+    <e lm="aneh-aneh"><i>aneh-aneh</i><par n="ingin__adv"/></e>
+    <e lm="baheula"><i>baheula</i><par n="ingin__adv"/></e>
+    <e lm="banget"><i>banget</i><par n="ingin__adv"/></e>
     <e lm="barangkali"><i>barangkali</i><par n="ingin__adv"/></e>
+    <e lm="bareng"><i>bareng</i><par n="ingin__adv"/></e>
+    <e lm="barusan"><i>barusan</i><par n="ingin__adv"/></e>
     <e lm="begini"><i>begini</i><par n="ingin__adv"/></e>
     <e lm="begitu"><i>begitu</i><par n="ingin__adv"/></e>
     <e lm="belaka"><i>belaka</i><par n="ingin__adv"/></e>
@@ -15426,13 +15431,26 @@
     <e lm="berduyun-duyun"><i>berduyun-duyun</i><par n="ingin__adv"/></e>
     <e lm="berkali-kali"><i>berkali-kali</i><par n="ingin__adv"/></e>
     <e lm="berkelebihan"><i>berkelebihan</i><par n="ingin__adv"/></e>
+    <e lm="berlarut-larut"><i>berlarut-larut</i><par n="ingin__adv"/></e>
+    <e lm="berlebih-lebihan"><i>berlebih-lebihan</i><par n="ingin__adv"/></e>
+    <e lm="bermati-mati"><i>bermati-mati</i><par n="ingin__adv"/></e>
+    <e lm="bermula-mula"><i>bermula-mula</i><par n="ingin__adv"/></e>
+    <e lm="berpelayaran"><i>berpelayaran</i><par n="ingin__adv"/></e>
+    <e lm="berpetak-petak"><i>berpetak-petak</i><par n="ingin__adv"/></e>
+    <e lm="berpotongan"><i>berpotongan</i><par n="ingin__adv"/></e>
+    <e lm="berputusan"><i>berputusan</i><par n="ingin__adv"/></e>
+    <e lm="bersangatan"><i>bersangatan</i><par n="ingin__adv"/></e>
+    <e lm="bertempat-tempat"><i>bertempat-tempat</i><par n="ingin__adv"/></e>
+    <e lm="bertentu-tentu"><i>bertentu-tentu</i><par n="ingin__adv"/></e>
     <e lm="bertubi-tubi"><i>bertubi-tubi</i><par n="ingin__adv"/></e>
     <e lm="besok"><i>besok</i><par n="ingin__adv"/></e>
     <e lm="biasanya"><i>biasanya</i><par n="ingin__adv"/></e>
     <e lm="bila-bila"><i>bila-bila</i><par n="ingin__adv"/></e>
     <e lm="bisa"><i>bisa</i><par n="ingin__adv"/></e>
     <e lm="boleh"><i>boleh</i><par n="ingin__adv"/></e>
+    <e lm="boro-boro"><i>boro-boro</i><par n="ingin__adv"/></e>
     <e lm="bukan"><i>bukan</i><par n="ingin__adv"/></e>
+    <e lm="cemas-cemas"><i>cemas-cemas</i><par n="ingin__adv"/></e>
     <e lm="cepat-cepat"><i>cepat-cepat</i><par n="ingin__adv"/></e>
     <e lm="cuma"><i>cuma</i><par n="ingin__adv"/></e>
     <e lm="cuman"><i>cuman</i><par n="ingin__adv"/></e>
@@ -15440,19 +15458,29 @@
     <e lm="dahulu"><i>dahulu</i><par n="ingin__adv"/></e>
     <e lm="dalam-dalam"><i>dalam-dalam</i><par n="ingin__adv"/></e>
     <e lm="dapat"><i>dapat</i><par n="ingin__adv"/></e>
+    <e lm="datang-datang"><i>datang-datang</i><par n="ingin__adv"/></e>
+    <e lm="dekat-dekat"><i>dekat-dekat</i><par n="ingin__adv"/></e>
     <e lm="demikian"><i>demikian</i><par n="ingin__adv"/></e>
+    <e lm="diam-diam"><i>diam-diam</i><par n="ingin__adv"/></e>
     <e lm="dulu"><i>dulu</i><par n="ingin__adv"/></e>
+    <e lm="duyun"><i>duyun</i><par n="ingin__adv"/></e>
+    <e lm="enggak"><i>enggak</i><par n="ingin__adv"/></e>
     <e lm="enggan"><i>enggan</i><par n="ingin__adv"/></e>
     <e lm="entah"><i>entah</i><par n="ingin__adv"/></e>
     <e lm="esok"><i>esok</i><par n="ingin__adv"/></e>
+    <e lm="gelap-gelapan"><i>gelap-gelapan</i><par n="ingin__adv"/></e>
     <e lm="gerangan"><i>gerangan</i><par n="ingin__adv"/></e>
     <e lm="habis-habisan"><i>habis-habisan</i><par n="ingin__adv"/></e>
     <e lm="hampir"><i>hampir</i><par n="ingin__adv"/></e>
     <e lm="hanya"><i>hanya</i><par n="ingin__adv"/></e>
+    <e lm="harap-harap"><i>harap-harap</i><par n="ingin__adv"/></e>
     <e lm="harus"><i>harus</i><par n="ingin__adv"/></e>
+    <e lm="hati-hati"><i>hati-hati</i><par n="ingin__adv"/></e>
+    <e lm="hebat-hebatan"><i>hebat-hebatan</i><par n="ingin__adv"/></e>
     <e lm="hendak"><i>hendak</i><par n="ingin__adv"/></e>
     <e lm="hendaklah"><i>hendaklah</i><par n="ingin__adv"/></e>
     <e lm="iaitu"><i>iaitu</i><par n="ingin__adv"/></e>
+    <e lm="idem"><i>idem</i><par n="ingin__adv"/></e>
     <e lm="indak"><i>indak</i><par n="ingin__adv"/></e>
     <e lm="ingin"><i>ingin</i><par n="ingin__adv"/></e>
     <e lm="jangan"><i>jangan</i><par n="ingin__adv"/></e>
@@ -15460,67 +15488,106 @@
     <e lm="jua"><i>jua</i><par n="ingin__adv"/></e>
     <e lm="juga"><i>juga</i><par n="ingin__adv"/></e>
     <e lm="justeru"><i>justeru</i><par n="ingin__adv"/></e>
+    <e lm="justru"><i>justru</i><par n="ingin__adv"/></e>
     <e lm="kadang-kadang"><i>kadang-kadang</i><par n="ingin__adv"/></e>
     <e lm="kadang"><i>kadang</i><par n="ingin__adv"/></e>
+    <e lm="kadung"><i>kadung</i><par n="ingin__adv"/></e>
+    <e lm="kagak"><i>kagak</i><par n="ingin__adv"/></e>
     <e lm="ke mana-mana"><i>ke<b/>mana-mana</i><par n="ingin__adv"/></e>
     <e lm="kelak"><i>kelak</i><par n="ingin__adv"/></e>
     <e lm="kelihatannya"><i>kelihatannya</i><par n="ingin__adv"/></e>
     <e lm="kelmarin"><i>kelmarin</i><par n="ingin__adv"/></e>
+    <e lm="kemarin"><i>kemarin</i><par n="ingin__adv"/></e>
+    <e lm="kemati-matian"><i>kemati-matian</i><par n="ingin__adv"/></e>
     <e lm="kemudian"><i>kemudian</i><par n="ingin__adv"/></e>
+    <e lm="kepingin"><i>kepingin</i><par n="ingin__adv"/></e>
     <e lm="kerap"><i>kerap</i><par n="ingin__adv"/></e>
+    <e lm="kesipu-sipuan"><i>kesipu-sipuan</i><par n="ingin__adv"/></e>
     <e lm="kesipuan"><i>kesipuan</i><par n="ingin__adv"/></e>
     <e lm="kini"><i>kini</i><par n="ingin__adv"/></e>
+    <e lm="kira-kira"><i>kira-kira</i><par n="ingin__adv"/></e>
     <e lm="kiraan"><i>kiraan</i><par n="ingin__adv"/></e>
+    <e lm="konon"><i>konon</i><par n="ingin__adv"/></e>
     <e lm="kuat-kuat"><i>kuat-kuat</i><par n="ingin__adv"/></e>
     <e lm="kurang"><i>kurang</i><par n="ingin__adv"/></e>
     <e lm="lagi"><i>lagi</i><par n="ingin__adv"/></e>
+    <e lm="lagian"><i>lagian</i><par n="ingin__adv"/></e>
     <e lm="lama-kelamaan"><i>lama-kelamaan</i><par n="ingin__adv"/></e>
     <e lm="lama-lama"><i>lama-lama</i><par n="ingin__adv"/></e>
+    <e lm="langgang"><i>langgang</i><par n="ingin__adv"/></e>
     <e lm="langsung"><i>langsung</i><par n="ingin__adv"/></e>
+    <e lm="lansia"><i>lansia</i><par n="ingin__adv"/></e>
     <e lm="lantas"><i>lantas</i><par n="ingin__adv"/></e>
+    <e lm="laun-laun"><i>laun-laun</i><par n="ingin__adv"/></e>
     <e lm="lebih-lebih"><i>lebih-lebih</i><par n="ingin__adv"/></e>
     <e lm="lebih"><i>lebih</i><par n="ingin__adv"/></e>
     <e lm="lekas"><i>lekas</i><par n="ingin__adv"/></e>
     <e lm="lusa"><i>lusa</i><par n="ingin__adv"/></e>
+    <e lm="macam-macam"><i>macam-macam</i><par n="ingin__adv"/></e>
     <e lm="mahu"><i>mahu</i><par n="ingin__adv"/></e>
+    <e lm="mahupun"><i>mahupun</i><par n="ingin__adv"/></e>
     <e lm="makin"><i>makin</i><par n="ingin__adv"/></e>
     <e lm="malah"><i>malah</i><par n="ingin__adv"/></e>
+    <e lm="masak-masak"><i>masak-masak</i><par n="ingin__adv"/></e>
     <e lm="masih"><i>masih</i><par n="ingin__adv"/></e>
+    <e lm="mati-mati"><i>mati-mati</i><par n="ingin__adv"/></e>
+    <e lm="mau"><i>mau</i><par n="ingin__adv"/></e>
     <e lm="maupun"><i>maupun</i><par n="ingin__adv"/></e>
     <e lm="melulu"><i>melulu</i><par n="ingin__adv"/></e>
     <e lm="memang"><i>memang</i><par n="ingin__adv"/></e>
     <e lm="mendadak"><i>mendadak</i><par n="ingin__adv"/></e>
+    <e lm="mendaun"><i>mendaun</i><par n="ingin__adv"/></e>
     <e lm="mentah-mentah"><i>mentah-mentah</i><par n="ingin__adv"/></e>
+    <e lm="mentang-mentang"><i>mentang-mentang</i><par n="ingin__adv"/></e>
+    <e lm="mentang"><i>mentang</i><par n="ingin__adv"/></e>
     <e lm="mesti"><i>mesti</i><par n="ingin__adv"/></e>
     <e lm="moga"><i>moga</i><par n="ingin__adv"/></e>
     <e lm="mudah-mudahan"><i>mudah-mudahan</i><par n="ingin__adv"/></e>
+    <e lm="mula-mula"><i>mula-mula</i><par n="ingin__adv"/></e>
+    <e lm="mumpung"><i>mumpung</i><par n="ingin__adv"/></e>
     <e lm="mungkin"><i>mungkin</i><par n="ingin__adv"/></e>
+    <e lm="musti"><i>musti</i><par n="ingin__adv"/></e>
     <e lm="nak"><i>nak</i><par n="ingin__adv"/></e>
     <e lm="nanti"><i>nanti</i><par n="ingin__adv"/></e>
+    <e lm="neka-neka"><i>neka-neka</i><par n="ingin__adv"/></e>
+    <e lm="neko-neko"><i>neko-neko</i><par n="ingin__adv"/></e>
     <e lm="nescaya"><i>nescaya</i><par n="ingin__adv"/></e>
     <e lm="nian"><i>nian</i><par n="ingin__adv"/></e>
+    <e lm="nyaris"><i>nyaris</i><par n="ingin__adv"/></e>
     <e lm="percuma"><i>percuma</i><par n="ingin__adv"/></e>
     <e lm="perlu"><i>perlu</i><par n="ingin__adv"/></e>
     <e lm="pernah"><i>pernah</i><par n="ingin__adv"/></e>
+    <e lm="pertama-tama"><i>pertama-tama</i><par n="ingin__adv"/></e>
+    <e lm="pontang-panting"><i>pontang-panting</i><par n="ingin__adv"/></e>
     <e lm="pula"><i>pula</i><par n="ingin__adv"/></e>
+    <e lm="pura-pura"><i>pura-pura</i><par n="ingin__adv"/></e>
+    <e lm="putus-putus"><i>putus-putus</i><par n="ingin__adv"/></e>
     <e lm="rasa-rasanya"><i>rasa-rasanya</i><par n="ingin__adv"/></e>
+    <e lm="saben"><i>saben</i><par n="ingin__adv"/></e>
     <e lm="sahaja"><i>sahaja</i><par n="ingin__adv"/></e>
     <e lm="saja"><i>saja</i><par n="ingin__adv"/></e>
     <e lm="saling"><i>saling</i><par n="ingin__adv"/></e>
     <e lm="sama-sama"><i>sama-sama</i><par n="ingin__adv"/></e>
+    <e lm="sampai-sampai"><i>sampai-sampai</i><par n="ingin__adv"/></e>
     <e lm="sangat"><i>sangat</i><par n="ingin__adv"/></e>
     <e lm="satu-satu"><i>satu-satu</i><par n="ingin__adv"/></e>
     <e lm="satu-satunya"><i>satu-satunya</i><par n="ingin__adv"/></e>
+    <e lm="sayup-menyayup"><i>sayup-menyayup</i><par n="ingin__adv"/></e>
+    <e lm="sayup-sayup"><i>sayup-sayup</i><par n="ingin__adv"/></e>
     <e lm="seadanya"><i>seadanya</i><par n="ingin__adv"/></e>
     <e lm="sebaik-baiknya"><i>sebaik-baiknya</i><par n="ingin__adv"/></e>
     <e lm="sebaiknya"><i>sebaiknya</i><par n="ingin__adv"/></e>
     <e lm="sebaliknya"><i>sebaliknya</i><par n="ingin__adv"/></e>
     <e lm="sebenarnya"><i>sebenarnya</i><par n="ingin__adv"/></e>
+    <e lm="sebentar-sebentar"><i>sebentar-sebentar</i><par n="ingin__adv"/></e>
     <e lm="sebetulnya"><i>sebetulnya</i><par n="ingin__adv"/></e>
     <e lm="secara"><i>secara</i><par n="ingin__adv"/></e>
+    <e lm="secepat"><i>secepat</i><par n="ingin__adv"/></e>
     <e lm="sedalam-dalamnya"><i>sedalam-dalamnya</i><par n="ingin__adv"/></e>
     <e lm="sedang"><i>sedang</i><par n="ingin__adv"/></e>
     <e lm="sedapat-dapatnya"><i>sedapat-dapatnya</i><par n="ingin__adv"/></e>
+    <e lm="sedarum"><i>sedarum</i><par n="ingin__adv"/></e>
+    <e lm="sederum"><i>sederum</i><par n="ingin__adv"/></e>
     <e lm="sedikit-sedikit"><i>sedikit-sedikit</i><par n="ingin__adv"/></e>
     <e lm="segala-galanya"><i>segala-galanya</i><par n="ingin__adv"/></e>
     <e lm="segalanya"><i>segalanya</i><par n="ingin__adv"/></e>
@@ -15531,9 +15598,12 @@
     <e lm="sekala"><i>sekala</i><par n="ingin__adv"/></e>
     <e lm="sekali-kali"><i>sekali-kali</i><par n="ingin__adv"/></e>
     <e lm="sekali-sekali"><i>sekali-sekali</i><par n="ingin__adv"/></e>
+    <e lm="sekalian"><i>sekalian</i><par n="ingin__adv"/></e>
     <e lm="sekaligus"><i>sekaligus</i><par n="ingin__adv"/></e>
     <e lm="sekarang"><i>sekarang</i><par n="ingin__adv"/></e>
+    <e lm="sekehendak"><i>sekehendak</i><par n="ingin__adv"/></e>
     <e lm="seketika"><i>seketika</i><par n="ingin__adv"/></e>
+    <e lm="sekira-kira"><i>sekira-kira</i><par n="ingin__adv"/></e>
     <e lm="sekuat-kuatnya"><i>sekuat-kuatnya</i><par n="ingin__adv"/></e>
     <e lm="sekurang-kurangnya"><i>sekurang-kurangnya</i><par n="ingin__adv"/></e>
     <e lm="selagi"><i>selagi</i><par n="ingin__adv"/></e>
@@ -15542,23 +15612,37 @@
     <e lm="selamanya"><i>selamanya</i><par n="ingin__adv"/></e>
     <e lm="selanjutnya"><i>selanjutnya</i><par n="ingin__adv"/></e>
     <e lm="selari"><i>selari</i><par n="ingin__adv"/></e>
+    <e lm="selepas-lepas"><i>selepas-lepas</i><par n="ingin__adv"/></e>
     <e lm="selewat"><i>selewat</i><par n="ingin__adv"/></e>
+    <e lm="selulus"><i>selulus</i><par n="ingin__adv"/></e>
     <e lm="semakin"><i>semakin</i><par n="ingin__adv"/></e>
+    <e lm="semanja"><i>semanja</i><par n="ingin__adv"/></e>
+    <e lm="semasa-masa"><i>semasa-masa</i><par n="ingin__adv"/></e>
+    <e lm="semasih"><i>semasih</i><par n="ingin__adv"/></e>
     <e lm="semata-mata"><i>semata-mata</i><par n="ingin__adv"/></e>
     <e lm="sembunyi-sembunyi"><i>sembunyi-sembunyi</i><par n="ingin__adv"/></e>
+    <e lm="semena-mena"><i>semena-mena</i><par n="ingin__adv"/></e>
     <e lm="semestinya"><i>semestinya</i><par n="ingin__adv"/></e>
     <e lm="semoga"><i>semoga</i><par n="ingin__adv"/></e>
+    <e lm="semu-semu"><i>semu-semu</i><par n="ingin__adv"/></e>
     <e lm="semuanya"><i>semuanya</i><par n="ingin__adv"/></e>
     <e lm="senantiasa"><i>senantiasa</i><par n="ingin__adv"/></e>
     <e lm="sendiri-sendiri"><i>sendiri-sendiri</i><par n="ingin__adv"/></e>
     <e lm="sendiri"><i>sendiri</i><par n="ingin__adv"/></e>
+    <e lm="sendirian"><i>sendirian</i><par n="ingin__adv"/></e>
     <e lm="sendirinya"><i>sendirinya</i><par n="ingin__adv"/></e>
     <e lm="sentiasa"><i>sentiasa</i><par n="ingin__adv"/></e>
     <e lm="sepatutnya"><i>sepatutnya</i><par n="ingin__adv"/></e>
+    <e lm="sepinggang"><i>sepinggang</i><par n="ingin__adv"/></e>
     <e lm="sepintas"><i>sepintas</i><par n="ingin__adv"/></e>
     <e lm="serba-serbi"><i>serba-serbi</i><par n="ingin__adv"/></e>
     <e lm="serba"><i>serba</i><par n="ingin__adv"/></e>
+    <e lm="serela"><i>serela</i><par n="ingin__adv"/></e>
     <e lm="sering"><i>sering</i><par n="ingin__adv"/></e>
+    <e lm="serta-merta"><i>serta-merta</i><par n="ingin__adv"/></e>
+    <e lm="sesanggup"><i>sesanggup</i><par n="ingin__adv"/></e>
+    <e lm="sesayup-sayup"><i>sesayup-sayup</i><par n="ingin__adv"/></e>
+    <e lm="sesebentar"><i>sesebentar</i><par n="ingin__adv"/></e>
     <e lm="sesekali"><i>sesekali</i><par n="ingin__adv"/></e>
     <e lm="sesungguhnya"><i>sesungguhnya</i><par n="ingin__adv"/></e>
     <e lm="setahu"><i>setahu</i><par n="ingin__adv"/></e>
@@ -15566,16 +15650,24 @@
     <e lm="setengah-setengah"><i>setengah-setengah</i><par n="ingin__adv"/></e>
     <e lm="seterusnya"><i>seterusnya</i><par n="ingin__adv"/></e>
     <e lm="setidak-tidaknya"><i>setidak-tidaknya</i><par n="ingin__adv"/></e>
+    <e lm="seulang"><i>seulang</i><par n="ingin__adv"/></e>
     <e lm="seulas"><i>seulas</i><par n="ingin__adv"/></e>
+    <e lm="seupaya-upaya"><i>seupaya-upaya</i><par n="ingin__adv"/></e>
     <e lm="seutuhnya"><i>seutuhnya</i><par n="ingin__adv"/></e>
     <e lm="sewajarnya"><i>sewajarnya</i><par n="ingin__adv"/></e>
     <e lm="sewenang-wenang"><i>sewenang-wenang</i><par n="ingin__adv"/></e>
+    <e lm="sewenang-wenangnya"><i>sewenang-wenangnya</i><par n="ingin__adv"/></e>
     <e lm="sudah"><i>sudah</i><par n="ingin__adv"/></e>
+    <e lm="suka-suka"><i>suka-suka</i><par n="ingin__adv"/></e>
+    <e lm="sungguh-sungguh"><i>sungguh-sungguh</i><par n="ingin__adv"/></e>
     <e lm="suntuk"><i>suntuk</i><par n="ingin__adv"/></e>
     <e lm="tadi"><i>tadi</i><par n="ingin__adv"/></e>
+    <e lm="tahu-tahu"><i>tahu-tahu</i><par n="ingin__adv"/></e>
     <e lm="tak"><i>tak</i><par n="ingin__adv"/></e>
     <e lm="takut-takut"><i>takut-takut</i><par n="ingin__adv"/></e>
     <e lm="telah"><i>telah</i><par n="ingin__adv"/></e>
+    <e lm="tempatan-tempatan"><i>tempatan-tempatan</i><par n="ingin__adv"/></e>
+    <e lm="tempo-tempo"><i>tempo-tempo</i><par n="ingin__adv"/></e>
     <e lm="tentunya"><i>tentunya</i><par n="ingin__adv"/></e>
     <e lm="teramat"><i>teramat</i><par n="ingin__adv"/></e>
     <e lm="terbahak-bahak"><i>terbahak-bahak</i><par n="ingin__adv"/></e>
@@ -15584,12 +15676,19 @@
     <e lm="terlalu"><i>terlalu</i><par n="ingin__adv"/></e>
     <e lm="terlampau"><i>terlampau</i><par n="ingin__adv"/></e>
     <e lm="terlebih"><i>terlebih</i><par n="ingin__adv"/></e>
+    <e lm="terputus-putus"><i>terputus-putus</i><par n="ingin__adv"/></e>
     <e lm="tersipu-sipu"><i>tersipu-sipu</i><par n="ingin__adv"/></e>
+    <e lm="tersipu"><i>tersipu</i><par n="ingin__adv"/></e>
     <e lm="terus-menerus"><i>terus-menerus</i><par n="ingin__adv"/></e>
+    <e lm="terus-terusan"><i>terus-terusan</i><par n="ingin__adv"/></e>
+    <e lm="tiba-tiba"><i>tiba-tiba</i><par n="ingin__adv"/></e>
     <e lm="tidak"><i>tidak</i><par n="ingin__adv"/></e>
     <e lm="tok"><i>tok</i><par n="ingin__adv"/></e>
     <e lm="tubi"><i>tubi</i><par n="ingin__adv"/></e>
+    <e lm="tulang-tulangan"><i>tulang-tulangan</i><par n="ingin__adv"/></e>
     <e lm="tunai"><i>tunai</i><par n="ingin__adv"/></e>
+    <e lm="tunggang-langgang"><i>tunggang-langgang</i><par n="ingin__adv"/></e>
+    <e lm="untung-untung"><i>untung-untung</i><par n="ingin__adv"/></e>
     <e lm="yakni"><i>yakni</i><par n="ingin__adv"/></e>
     
 <!-- Conjunctions -->
