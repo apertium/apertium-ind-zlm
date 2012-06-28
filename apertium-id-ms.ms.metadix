@@ -15708,7 +15708,6 @@
     <e lm="tetapi"><i>tetapi</i><par n="dan__cnjcoo"/></e>
     <!-- Subordinating conjunctions -->
     <e lm="agar"><i>agar</i><par n="jika__cnjsub"/></e>
-    <e lm="alhasil"><i>alhasil</i><par n="jika__cnjsub"/></e>
     <e lm="andaikata"><i>andaikata</i><par n="jika__cnjsub"/></e>
     <e lm="apabila"><i>apabila</i><par n="jika__cnjsub"/></e>
     <e lm="apalagi"><i>apalagi</i><par n="jika__cnjsub"/></e>
@@ -15716,7 +15715,6 @@
     <e lm="asalkan"><i>asalkan</i><par n="jika__cnjsub"/></e>
     <e lm="bahawa"><i>bahawa</i><par n="jika__cnjsub"/></e>
     <e lm="bahawasanya"><i>bahawasanya</i><par n="jika__cnjsub"/></e>
-    <e lm="bahkan"><i>bahkan</i><par n="jika__cnjsub"/></e>
     <e lm="biar"><i>biar</i><par n="jika__cnjsub"/></e>
     <e lm="biarpun"><i>biarpun</i><par n="jika__cnjsub"/></e>
     <e lm="bila"><i>bila</i><par n="jika__cnjsub"/></e>
@@ -15737,9 +15735,9 @@
     <e lm="meskipun"><i>meskipun</i><par n="jika__cnjsub"/></e>
     <e lm="oleh kerana"><i>oleh<b/>kerana</i><par n="jika__cnjsub"/></e>
     <e lm="oleh sebab"><i>oleh<b/>sebab</i><par n="jika__cnjsub"/></e>
+    <e lm="padahal"><i>padahal</i><par n="jika__cnjsub"/></e>
     <e lm="saat"><i>saat</i><par n="jika__cnjsub"/></e>
     <e lm="sampai"><i>sampai</i><par n="jika__cnjsub"/></e>
-    <e lm="sanya"><i>sanya</i><par n="jika__cnjsub"/></e>
     <e lm="seakan-akan"><i>seakan-akan</i><par n="jika__cnjsub"/></e>
     <e lm="seandainya"><i>seandainya</i><par n="jika__cnjsub"/></e>
     <e lm="sebelum"><i>sebelum</i><par n="jika__cnjsub"/></e>
