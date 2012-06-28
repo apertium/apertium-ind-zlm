@@ -15731,7 +15731,6 @@
     <e lm="kendatipun"><i>kendatipun</i><par n="jika__cnjsub"/></e>
     <e lm="kerana"><i>kerana</i><par n="jika__cnjsub"/></e>
     <e lm="ketika"><i>ketika</i><par n="jika__cnjsub"/></e>
-    <e lm="lalu"><i>lalu</i><par n="jika__cnjsub"/></e>
     <e lm="lantaran"><i>lantaran</i><par n="jika__cnjsub"/></e>
     <e lm="manakala"><i>manakala</i><par n="jika__cnjsub"/></e>
     <e lm="meski"><i>meski</i><par n="jika__cnjsub"/></e>
@@ -15763,6 +15762,7 @@
     <!-- Sentence linkers -->
     <e lm="alhasil"><i>alhasil</i><par n="namun__cnjadv"/></e>
     <e lm="bahkan"><i>bahkan</i><par n="namun__cnjadv"/></e>
+    <e lm="biarpun demikian"><i>biarpun<b/>demikian</i><par n="namun__cnjadv"/></e>
     <e lm="jadi"><i>jadi</i><par n="namun__cnjadv"/></e>
     <e lm="maka dari itu"><i>maka<b/>dari<b/>itu</i><par n="namun__cnjadv"/></e>
     <e lm="maka itu"><i>maka<b/>itu</i><par n="namun__cnjadv"/></e>

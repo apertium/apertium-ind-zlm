@@ -5271,11 +5271,14 @@
     <e><p><l>yakni<s n="adv"/></l><r>yakni<s n="adv"/></r></p></e>
 
     <!-- Cnjcoo -->
+    <e><p><l>akan<b/>tetapi<s n="cnjcoo"/></l><r>akan<b/>tetapi<s n="cnjcoo"/></r></p></e>
     <e><p><l>atau<s n="cnjcoo"/></l><r>atau<s n="cnjcoo"/></r></p></e>
     <e><p><l>dan<s n="cnjcoo"/></l><r>dan<s n="cnjcoo"/></r></p></e>
     <e><p><l>kemudian<s n="cnjcoo"/></l><r>kemudian<s n="cnjcoo"/></r></p></e>
+    <e><p><l>lalu<s n="cnjcoo"/></l><r>lalu<s n="cnjcoo"/></r></p></e>
     <e><p><l>melainkan<s n="cnjcoo"/></l><r>melainkan<s n="cnjcoo"/></r></p></e>
     <e><p><l>padahal<s n="cnjcoo"/></l><r>padahal<s n="cnjcoo"/></r></p></e>
+    <e><p><l>sambil<s n="cnjcoo"/></l><r>sambil<s n="cnjcoo"/></r></p></e>
     <e><p><l>sedangkan<s n="cnjcoo"/></l><r>sedangkan<s n="cnjcoo"/></r></p></e>
     <e><p><l>sementara<s n="cnjcoo"/></l><r>sementara<s n="cnjcoo"/></r></p></e>
     <e><p><l>serta<s n="cnjcoo"/></l><r>serta<s n="cnjcoo"/></r></p></e>
@@ -5318,9 +5321,26 @@
     <e><p><l>walaupun<s n="cnjsub"/></l><r>walaupun<s n="cnjsub"/></r></p></e>
 
     <!-- Cnjadv -->
+    <e><p><l>alhasil<s n="cnjadv"/></l><r>alhasil<s n="cnjadv"/></r></p></e>
+    <e><p><l>bahkan<s n="cnjadv"/></l><r>bahkan<s n="cnjadv"/></r></p></e>
+    <e><p><l>biarpun<b/>demikian<s n="cnjadv"/></l><r>biarpun<b/>demikian<s n="cnjadv"/></r></p></e>
+    <e><p><l>boleh<b/>jadi<s n="cnjadv"/></l><r>boleh<s n="cnjadv"/></r></p></e>
     <e><p><l>jadi<s n="cnjadv"/></l><r>jadi<s n="cnjadv"/></r></p></e>
+    <e><p><l>jadi<s n="cnjadv"/></l><r>jadi<s n="cnjadv"/></r></p></e>
+    <e><p><l>maka<b/>dari<b/>itu<s n="cnjadv"/></l><r>maka<b/>dari<b/>itu<s n="cnjadv"/></r></p></e>
+    <e r="RL"><p><l>maka<b/>dari<b/>itu<s n="cnjadv"/></l><r>maka<b/>itu<s n="cnjadv"/></r></p></e>
+    <e><p><l>maka<s n="cnjadv"/></l><r>maka<s n="cnjadv"/></r></p></e>
+    <e><p><l>makanya<s n="cnjadv"/></l><r>makanya<s n="cnjadv"/></r></p></e>
+    <e><p><l>meskipun<b/>demikian<s n="cnjadv"/></l><r>meskipun<b/>demikian<s n="cnjadv"/></r></p></e>
+    <e><p><l>misalnya<s n="cnjadv"/></l><r>misalnya<s n="cnjadv"/></r></p></e>
+    <e><p><l>namun<b/>demikian<s n="cnjadv"/></l><r>namun<b/>demikian<s n="cnjadv"/></r></p></e>
     <e><p><l>namun<s n="cnjadv"/></l><r>namun<s n="cnjadv"/></r></p></e>
     <e><p><l>oleh<b/>karena<b/>itu<s n="cnjadv"/></l><r>oleh<b/>itu<s n="cnjadv"/></r></p></e>
+    <e r="LR"><p><l>oleh<b/>sebab<b/>itu<s n="cnjadv"/></l><r>oleh<b/>itu<s n="cnjadv"/></r></p></e>
+    <e r="RL"><p><l>oleh<b/>sebab<b/>itu<s n="cnjadv"/></l><r>oleh<b/>sebab<b/>itu<s n="cnjadv"/></r></p></e>
+    <e r="RL"><p><l>oleh<b/>sebab<b/>itu<s n="cnjadv"/></l><r>sebab<b/>itu<s n="cnjadv"/></r></p></e>
+    <e><p><l>sebaliknya<s n="cnjadv"/></l><r>sebaliknya<s n="cnjadv"/></r></p></e>
+    <e><p><l>walaupun<b/>demikian<s n="cnjadv"/></l><r>walaupun<b/>demikian<s n="cnjadv"/></r></p></e>
     
     <!-- Question words -->
     <e><p><l>apa<s n="prn"/></l><r>apa<s n="prn"/></r></p></e>
@@ -5357,10 +5377,15 @@
     -->
     
     <!-- Prepositions -->
-    <e><p><l>bagi<s n="pr"/></l><r>bahagi<s n="pr"/></r></p></e>
-    <e r="RL"><p><l>untuk<s n="pr"/></l><r>bagi<s n="pr"/></r></p></e>
+    <e><p><l>adapun<s n="pr"/></l><r>adapun<s n="pr"/></r></p></e>
+    <e><p><l>antara<s n="pr"/></l><r>antara<s n="pr"/></r></p></e>
+    <e><p><l>bagaikan<s n="pr"/></l><r>bagaikan<s n="pr"/></r></p></e>
+    <e><p><l>bagi<s n="pr"/></l><r>bagi<s n="pr"/></r></p></e>
+    <e><p><l>dalam<s n="pr"/></l><r>dalam<s n="pr"/></r></p></e>
     <e><p><l>dari<s n="pr"/></l><r>dari<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>daripada<s n="pr"/></l><r>daripada<s n="pr"/></r></p></e>
     <e r="RL"><p><l>dari<s n="pr"/></l><r>daripada<s n="pr"/></r></p></e>
+    <e><p><l>demi<s n="pr"/></l><r>demi<s n="pr"/></r></p></e>
     <e><p><l>dengan<s n="pr"/></l><r>dengan<s n="pr"/></r></p></e>
     <e><p><l>di<s n="pr"/></l><r>di<s n="pr"/></r></p></e>
     <e><p><l>karena<s n="pr"/></l><r>kerana<s n="pr"/></r></p></e>
@@ -5368,13 +5393,26 @@
     <e><p><l>kepada<s n="pr"/></l><r>kepada<s n="pr"/></r></p></e>
     <e><p><l>mengenai<s n="pr"/></l><r>mengenai<s n="pr"/></r></p></e>
     <e><p><l>oleh<s n="pr"/></l><r>oleh<s n="pr"/></r></p></e>
+    <e><p><l>oleh<b/>karena<s n="pr"/></l><r>oleh<b/>kerana<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>oleh<b/>karena<s n="pr"/></l><r>dari<b/>kerana<s n="pr"/></r></p></e>
     <e><p><l>pada<s n="pr"/></l><r>pada<s n="pr"/></r></p></e>
+    <e><p><l>sampai<s n="pr"/></l><r>sampai<s n="pr"/></r></p></e>
+    <e><p><l>sebab<s n="pr"/></l><r>sebab<s n="pr"/></r></p></e>
     <e><p><l>sebagai<s n="pr"/></l><r>sebagai<s n="pr"/></r></p></e>
+    <e><p><l>sebelum<s n="pr"/></l><r>sebelum<s n="pr"/></r></p></e>
+    <e><p><l>sehabis<s n="pr"/></l><r>sehabis<s n="pr"/></r></p></e>
     <e><p><l>selain<s n="pr"/></l><r>selain<s n="pr"/></r></p></e>
+    <e><p><l>selama<s n="pr"/></l><r>selama<s n="pr"/></r></p></e>
     <e><p><l>seperti<s n="pr"/></l><r>seperti<s n="pr"/></r></p></e>
+    <e><p><l>sesudah<s n="pr"/></l><r>sesudah<s n="pr"/></r></p></e>
     <e><p><l>setelah<s n="pr"/></l><r>selepas<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>selepas<s n="pr"/></l><r>selepas<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>setelah<s n="pr"/></l><r>setelah<s n="pr"/></r></p></e>
+    <e><p><l>tanpa<s n="pr"/></l><r>tanpa<s n="pr"/></r></p></e>
+    <e><p><l>tentang<s n="pr"/></l><r>tentang<s n="pr"/></r></p></e>
+    <e><p><l>terhadap<s n="pr"/></l><r>terhadap<s n="pr"/></r></p></e>
     <e><p><l>untuk<s n="pr"/></l><r>untuk<s n="pr"/></r></p></e>
-    
+
     <!-- Pronouns -->
     <e><p><l>ini<s n="prn"/></l><r>ini<s n="prn"/></r></p></e>
     <e><p><l>itu<s n="prn"/></l><r>itu<s n="prn"/></r></p></e>
@@ -5422,6 +5460,7 @@
     <e><p><l>beberapa<s n="det"/></l><r>beberapa<s n="det"/></r></p></e>
     <e><p><l>masing-masing<s n="det"/></l><r>masing-masing<s n="det"/></r></p></e>
     <e><p><l>sebagian<s n="det"/></l><r>sebahagian<s n="det"/></r></p></e>
+    <e r="RL"><p><l>sebagian<s n="det"/></l><r>sebagian<s n="det"/></r></p></e>
     <e><p><l>semua<s n="det"/></l><r>semua<s n="det"/></r></p></e>
     
     <e><p><l>sebuah<s n="det"/></l><r>sebuah<s n="det"/></r></p></e>
@@ -5513,12 +5552,16 @@
     <e><p><l>lho<s n="ij"/></l><r>lho<s n="ij"/></r></p></e>
     <e><p><l>lo<s n="ij"/></l><r>lo<s n="ij"/></r></p></e>
     <e><p><l>maaf<s n="ij"/></l><r>maaf<s n="ij"/></r></p></e>
+    <e><p><l>maaf<s n="ij"/></l><r>maaf<s n="ij"/></r></p></e>
     <e><p><l>nah<s n="ij"/></l><r>nah<s n="ij"/></r></p></e>
     <e><p><l>oh<s n="ij"/></l><r>oh<s n="ij"/></r></p></e>
     <e><p><l>oi<s n="ij"/></l><r>oi<s n="ij"/></r></p></e>
     <e><p><l>sampai<b/>jumpa<s n="ij"/></l><r>sampai<b/>jumpa<s n="ij"/></r></p></e>
     <e><p><l>selamat<b/>datang<s n="ij"/></l><r>selamat<b/>datang<s n="ij"/></r></p></e>
     <e><p><l>selamat<b/>jalan<s n="ij"/></l><r>selamat<b/>jalan<s n="ij"/></r></p></e>
+    <e><p><l>selamat<b/>malam<s n="ij"/></l><r>selamat<b/>malam<s n="ij"/></r></p></e>
+    <e><p><l>selamat<b/>pagi<s n="ij"/></l><r>selamat<b/>pagi<s n="ij"/></r></p></e>
+    <e><p><l>selamat<b/>sore<s n="ij"/></l><r>selamat<b/>petang<s n="ij"/></r></p></e>
     <e><p><l>terima<b/>kasih<s n="ij"/></l><r>terima<b/>kasih<s n="ij"/></r></p></e>
     <e><p><l>uh<s n="ij"/></l><r>uh<s n="ij"/></r></p></e>
     <e><p><l>waduh<s n="ij"/></l><r>waduh<s n="ij"/></r></p></e>
