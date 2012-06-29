@@ -5443,15 +5443,34 @@
 
     <e><p><l>sana<s n="prn"/></l><r>sana<s n="prn"/></r></p></e>
     <e><p><l>sini<s n="prn"/></l><r>sini<s n="prn"/></r></p></e>
+    <e><p><l>situ<s n="prn"/></l><r>situ<s n="prn"/></r></p></e>
     
     <e><p><l>beberapa<s n="prn"/></l><r>beberapa<s n="prn"/></r></p></e>
     <e><p><l>masing-masing<s n="prn"/></l><r>masing-masing<s n="prn"/></r></p></e>
     <e><p><l>sebagian<s n="prn"/></l><r>sebahagian<s n="prn"/></r></p></e>
+    <e r="RL"><p><l>sebagian<s n="prn"/></l><r>sebagian<s n="prn"/></r></p></e>
     <e><p><l>semua<s n="prn"/></l><r>semua<s n="prn"/></r></p></e>
     <e><p><l>seseorang<s n="prn"/></l><r>seseorang<s n="prn"/></r></p></e>
     <e><p><l>sesuatu<s n="prn"/></l><r>sesuatu<s n="prn"/></r></p></e>
     <e><p><l>segala<b/>sesuatu<s n="prn"/></l><r>segala<b/>sesuatu<s n="prn"/></r></p></e>
 
+    <e><p><l>keduanya<s n="prn"/></l><r>keduanya<s n="prn"/></r></p></e>
+    <e><p><l>ketiganya<s n="prn"/></l><r>ketiganya<s n="prn"/></r></p></e>
+    <e><p><l>keempatnya<s n="prn"/></l><r>keempatnya<s n="prn"/></r></p></e>
+    <e><p><l>kelimanya<s n="prn"/></l><r>kelimanya<s n="prn"/></r></p></e>
+    <e><p><l>keenamnya<s n="prn"/></l><r>keenamnya<s n="prn"/></r></p></e>
+    <e><p><l>ketujuhnya<s n="prn"/></l><r>ketujuhnya<s n="prn"/></r></p></e>
+    <e><p><l>kedelapannya<s n="prn"/></l><r>kelapannya<s n="prn"/></r></p></e>
+    <e><p><l>kesembilannya<s n="prn"/></l><r>kesembilannya<s n="prn"/></r></p></e>
+    <e><p><l>kedua-duanya<s n="prn"/></l><r>kedua-duanya<s n="prn"/></r></p></e>
+    <e><p><l>ketiga-tiganya<s n="prn"/></l><r>ketiga-tiganya<s n="prn"/></r></p></e>
+    <e><p><l>keempat-empatnya<s n="prn"/></l><r>keempat-empatnya<s n="prn"/></r></p></e>
+    <e><p><l>kelima-limanya<s n="prn"/></l><r>kelima-limanya<s n="prn"/></r></p></e>
+    <e><p><l>keenam-enamnya<s n="prn"/></l><r>keenam-enamnya<s n="prn"/></r></p></e>
+    <e><p><l>ketujuh-tujuhnya<s n="prn"/></l><r>ketujuh-tujuhnya<s n="prn"/></r></p></e>
+    <e><p><l>kedelapan-delapannya<s n="prn"/></l><r>kelapan-lapannya<s n="prn"/></r></p></e>
+    <e><p><l>kesembilan-sembilannya<s n="prn"/></l><r>kesembilan-sembilannya<s n="prn"/></r></p></e>
+    
     <e><p><l>apa<b/>pun<s n="prn"/></l><r>apa<b/>pun<s n="prn"/></r></p></e>
     <e><p><l>apa<b/>saja<s n="prn"/></l><r>apa<b/>saja<s n="prn"/></r></p></e>
     <e><p><l>apapun<s n="prn"/></l><r>apapun<s n="prn"/></r></p></e>
@@ -5548,7 +5567,29 @@
     <e><p><l>delapan<s n="num"/></l><r>lapan<s n="num"/></r></p></e>
     <e><p><l>sembilan<s n="num"/></l><r>sembilan<s n="num"/></r></p></e>
     <e><p><l>sepuluh<s n="num"/></l><r>sepuluh<s n="num"/></r></p></e> 
-    
+    <e><p><l>sebelas<s n="num"/></l><r>sebelas<s n="num"/></r></p></e> 
+    <e><p><l>seratus<s n="num"/></l><r>seratus<s n="num"/></r></p></e> 
+    <e><p><l>seribu<s n="num"/></l><r>seribu<s n="num"/></r></p></e> 
+    <e><p><l>sejuta<s n="num"/></l><r>sejuta<s n="num"/></r></p></e> 
+    <e><p><l>separuh<s n="num"/></l><r>separuh<s n="num"/></r></p></e> 
+    <e><p><l>setengah<s n="num"/></l><r>setengah<s n="num"/></r></p></e> 
+    <e><p><l>sepertiga<s n="num"/></l><r>sepertiga<s n="num"/></r></p></e>
+    <e><p><l>seperempat<s n="num"/></l><r>seperempat<s n="num"/></r></p></e>
+    <e><p><l>seperlima<s n="num"/></l><r>seperlima<s n="num"/></r></p></e>
+    <e><p><l>seperenam<s n="num"/></l><r>seperenam<s n="num"/></r></p></e>
+    <e><p><l>sepertujuh<s n="num"/></l><r>sepertujuh<s n="num"/></r></p></e>
+    <e><p><l>seperdelapan<s n="num"/></l><r>seperlapan<s n="num"/></r></p></e>
+    <e><p><l>sepersembilan<s n="num"/></l><r>sepersembilan<s n="num"/></r></p></e>
+    <e><p><l>sepersepuluh<s n="num"/></l><r>sepersepuluh<s n="num"/></r></p></e> 
+    <e><p><l>perdua<s n="num"/></l><r>perdua<s n="num"/></r></p></e>
+    <e><p><l>pertiga<s n="num"/></l><r>pertiga<s n="num"/></r></p></e>
+    <e><p><l>perempat<s n="num"/></l><r>perempat<s n="num"/></r></p></e>
+    <e><p><l>perlima<s n="num"/></l><r>perlima<s n="num"/></r></p></e>
+    <e><p><l>perenam<s n="num"/></l><r>perenam<s n="num"/></r></p></e>
+    <e><p><l>pertujuh<s n="num"/></l><r>pertujuh<s n="num"/></r></p></e>
+    <e><p><l>perdelapan<s n="num"/></l><r>perlapan<s n="num"/></r></p></e>
+    <e><p><l>persembilan<s n="num"/></l><r>persembilan<s n="num"/></r></p></e>
+    <e><p><l>persepuluh<s n="num"/></l><r>persepuluh<s n="num"/></r></p></e> 
     <e><p><l>pertama<s n="num"/></l><r>pertama<s n="num"/></r></p></e> 
     
     <!-- Interjections -->

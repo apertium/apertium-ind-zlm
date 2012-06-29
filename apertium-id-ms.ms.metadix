@@ -2928,7 +2928,7 @@
     <e lm="kelima-limanya"><i>kelima-limanya</i><par n="seseorang__prn"/></e>
     <e lm="keenam-enamnya"><i>keenam-enamnya</i><par n="seseorang__prn"/></e>
     <e lm="ketujuh-tujuhnya"><i>ketujuh-tujuhnya</i><par n="seseorang__prn"/></e>
-    <e lm="kelapan-lapannya"><i>kedelapan-delapannya</i><par n="seseorang__prn"/></e>
+    <e lm="kelapan-lapannya"><i>kelapan-lapannya</i><par n="seseorang__prn"/></e>
     <e lm="kesembilan-sembilannya"><i>kesembilan-sembilannya</i><par n="seseorang__prn"/></e>
     
     <!-- Question words -->
@@ -15915,14 +15915,7 @@
     <e lm="perlapan"><i>perlapan</i><par n="dua__num"/></e>
     <e lm="persembilan"><i>persembilan</i><par n="dua__num"/></e>
     <e lm="persepuluh"><i>persepuluh</i><par n="dua__num"/></e>
-    
-    <e lm="puluh"><i>puluh</i><par n="dua__num"/></e>
-    <e lm="belas"><i>belas</i><par n="dua__num"/></e>
-    <e lm="ratus"><i>ratus</i><par n="dua__num"/></e>
-    <e lm="ribu"><i>ribu</i><par n="dua__num"/></e>
-    <e lm="juta"><i>juta</i><par n="dua__num"/></e>
-    <e lm="bilion"><i>bilion</i><par n="dua__num"/></e>
-    
+        
     <!-- ordinal -->
     <e lm="pertama"><i>pertama</i><par n="kedua/__num"/></e>
     <e lm="satu"><p><l>kesatu</l><r>satu</r></p><par n="kedua/__num"/></e>
