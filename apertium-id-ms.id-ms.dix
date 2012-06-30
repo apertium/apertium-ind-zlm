@@ -23,6 +23,8 @@
     
     <sdef n="actv"/>
     <sdef n="pasv"/>
+
+    <sdef n="tn"/>
     
     <!-- Affixes -->
     <sdef n="an"/>
@@ -4975,12 +4977,14 @@
     <e><p><l>Yunani<s n="np"/></l><r>Yunani<s n="np"/></r></p></e>
 
     <!-- Adverbs -->
+    <e><p><l>acap<b/>kali<s n="adv"/></l><r>acap<b/>kali<s n="adv"/></r></p></e>
     <e><p><l>adakala<s n="adv"/></l><r>adakala<s n="adv"/></r></p></e>
     <e><p><l>adakalanya<s n="adv"/></l><r>adakalanya<s n="adv"/></r></p></e>
     <e><p><l>adakan<s n="adv"/></l><r>adakan<s n="adv"/></r></p></e>
     <e><p><l>agak-agak<s n="adv"/></l><r>agak-agak<s n="adv"/></r></p></e>
     <e><p><l>agaknya<s n="adv"/></l><r>agaknya<s n="adv"/></r></p></e>
     <e><p><l>akan<s n="adv"/></l><r>akan<s n="adv"/></r></p></e>
+    <e><p><l>akhir-akhir<b/>ini<s n="adv"/></l><r>akhir-akhir<b/>ini<s n="adv"/></r></p></e>
     <e><p><l>akhirnya<s n="adv"/></l><r>akhirnya<s n="adv"/></r></p></e>
     <e><p><l>alangkah<s n="adv"/></l><r>alangkah<s n="adv"/></r></p></e>
     <e><p><l>amat<s n="adv"/></l><r>amat<s n="adv"/></r></p></e>
@@ -4990,6 +4994,7 @@
     <e><p><l>banget<s n="adv"/></l><r>banget<s n="adv"/></r></p></e>
     <e><p><l>barangkali<s n="adv"/></l><r>barangkali<s n="adv"/></r></p></e>
     <e><p><l>bareng<s n="adv"/></l><r>bareng<s n="adv"/></r></p></e>
+    <e><p><l>baru-baru<b/>ini<s n="adv"/></l><r>baru-baru<b/>ini<s n="adv"/></r></p></e>
     <e><p><l>barusan<s n="adv"/></l><r>barusan<s n="adv"/></r></p></e>
     <e><p><l>begini<s n="adv"/></l><r>begini<s n="adv"/></r></p></e>
     <e><p><l>begitu<s n="adv"/></l><r>begitu<s n="adv"/></r></p></e>
@@ -5014,11 +5019,16 @@
     <e><p><l>bertentu-tentu<s n="adv"/></l><r>bertentu-tentu<s n="adv"/></r></p></e>
     <e><p><l>bertubi-tubi<s n="adv"/></l><r>bertubi-tubi<s n="adv"/></r></p></e>
     <e><p><l>besok<s n="adv"/></l><r>besok<s n="adv"/></r></p></e>
+    <e><p><l>biasanya<s n="adv"/></l><r>biasanya<s n="adv"/></r></p></e>
     <e><p><l>bila-bila<s n="adv"/></l><r>bila-bila<s n="adv"/></r></p></e>
     <e><p><l>bisa<s n="adv"/></l><r>boleh<s n="adv"/></r></p></e>
-    <e r="LR"><p><l>boleh<s n="adv"/></l><r>boleh<s n="adv"/></r></p></e>
     <e r="RL"><p><l>bisa<s n="adv"/></l><r>bisa<s n="adv"/></r></p></e>
+    <e><p><l>boleh<b/>jadi<s n="adv"/></l><r>boleh<b/>jadi<s n="adv"/></r></p></e>
+    <e><p><l>boleh<b/>juga<s n="adv"/></l><r>boleh<b/>juga<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>boleh<s n="adv"/></l><r>boleh<s n="adv"/></r></p></e>
     <e><p><l>boro-boro<s n="adv"/></l><r>boro-boro<s n="adv"/></r></p></e>
+    <e><p><l>bukan<b/>kepalang<s n="adv"/></l><r>bukan<b/>kepalang<s n="adv"/></r></p></e>
+    <e><p><l>bukan<b/>main<s n="adv"/></l><r>bukan<b/>main<s n="adv"/></r></p></e>
     <e><p><l>bukan<s n="adv"/></l><r>bukan<s n="adv"/></r></p></e>
     <e><p><l>cemas-cemas<s n="adv"/></l><r>cemas-cemas<s n="adv"/></r></p></e>
     <e><p><l>cepat-cepat<s n="adv"/></l><r>cepat-cepat<s n="adv"/></r></p></e>
@@ -5029,10 +5039,10 @@
     <e><p><l>dahulu<s n="adv"/></l><r>dahulu<s n="adv"/></r></p></e>
     <e><p><l>dalam-dalam<s n="adv"/></l><r>dalam-dalam<s n="adv"/></r></p></e>
     <e><p><l>dapat<s n="adv"/></l><r>dapat<s n="adv"/></r></p></e>
-    <e r="LR"><p><l>dapat<s n="adv"/></l><r>boleh<s n="adv"/></r></p></e>
     <e><p><l>datang-datang<s n="adv"/></l><r>datang-datang<s n="adv"/></r></p></e>
     <e><p><l>dekat-dekat<s n="adv"/></l><r>dekat-dekat<s n="adv"/></r></p></e>
     <e><p><l>demikian<s n="adv"/></l><r>demikian<s n="adv"/></r></p></e>
+    <e><p><l>di<b/>mana-mana<s n="adv"/></l><r>di<b/>mana-mana<s n="adv"/></r></p></e>
     <e><p><l>diam-diam<s n="adv"/></l><r>diam-diam<s n="adv"/></r></p></e>
     <e><p><l>dulu<s n="adv"/></l><r>dulu<s n="adv"/></r></p></e>
     <e><p><l>duyun<s n="adv"/></l><r>duyun<s n="adv"/></r></p></e>
@@ -5040,8 +5050,10 @@
     <e><p><l>enggan<s n="adv"/></l><r>enggan<s n="adv"/></r></p></e>
     <e><p><l>entah<s n="adv"/></l><r>entah<s n="adv"/></r></p></e>
     <e><p><l>esok<s n="adv"/></l><r>esok<s n="adv"/></r></p></e>
+    <e><p><l>gaya-gayanya<s n="adv"/></l><r>gaya-gayanya<s n="adv"/></r></p></e>
     <e><p><l>gelap-gelapan<s n="adv"/></l><r>gelap-gelapan<s n="adv"/></r></p></e>
     <e><p><l>gerangan<s n="adv"/></l><r>gerangan<s n="adv"/></r></p></e>
+    <e><p><l>getok<b/>tular<s n="adv"/></l><r>getok<b/>tular<s n="adv"/></r></p></e>
     <e><p><l>habis-habisan<s n="adv"/></l><r>habis-habisan<s n="adv"/></r></p></e>
     <e><p><l>hampir<s n="adv"/></l><r>hampir<s n="adv"/></r></p></e>
     <e><p><l>hanya<s n="adv"/></l><r>hanya<s n="adv"/></r></p></e>
@@ -5055,14 +5067,14 @@
     <e><p><l>indak<s n="adv"/></l><r>indak<s n="adv"/></r></p></e>
     <e><p><l>ingin<s n="adv"/></l><r>ingin<s n="adv"/></r></p></e>
     <e><p><l>jangan-jangan<s n="adv"/></l><r>jangan-jangan<s n="adv"/></r></p></e>
+    <e><p><l>jangan<b/>hendaknya<s n="adv"/></l><r>jangan<b/>hendaknya<s n="adv"/></r></p></e>
+    <e><p><l>jangan<b/>sampai<s n="adv"/></l><r>jangan<b/>sampai<s n="adv"/></r></p></e>
     <e><p><l>jangan<s n="adv"/></l><r>jangan<s n="adv"/></r></p></e>
     <e><p><l>jarang<s n="adv"/></l><r>jarang<s n="adv"/></r></p></e>
     <e><p><l>jua<s n="adv"/></l><r>jua<s n="adv"/></r></p></e>
     <e><p><l>juga<s n="adv"/></l><r>juga<s n="adv"/></r></p></e>
-    <e><p><l>justru<s n="adv"/></l><r>justru<s n="adv"/></r></p></e>
+    <e><p><l>justru<s n="adv"/></l><r>justeru<s n="adv"/></r></p></e>
     <e><p><l>kadang-kadang<s n="adv"/></l><r>kadang-kadang<s n="adv"/></r></p></e>
-    <e r="LR"><p><l>terkadang-kadang<s n="adv"/></l><r>kadang-kadang<s n="adv"/></r></p></e>
-    <e r="LR"><p><l>terkadang<s n="adv"/></l><r>kadang-kadang<s n="adv"/></r></p></e>
     <e><p><l>kadang<s n="adv"/></l><r>kadang<s n="adv"/></r></p></e>
     <e><p><l>kadung<s n="adv"/></l><r>kadung<s n="adv"/></r></p></e>
     <e><p><l>kagak<s n="adv"/></l><r>kagak<s n="adv"/></r></p></e>
@@ -5074,17 +5086,21 @@
     <e><p><l>kemudian<s n="adv"/></l><r>kemudian<s n="adv"/></r></p></e>
     <e><p><l>kepingin<s n="adv"/></l><r>kepingin<s n="adv"/></r></p></e>
     <e><p><l>kerap-kerap<s n="adv"/></l><r>kerap-kerap<s n="adv"/></r></p></e>
+    <e><p><l>kerap<b/>kali<s n="adv"/></l><r>kerap<b/>kali<s n="adv"/></r></p></e>
     <e><p><l>kerap<s n="adv"/></l><r>kerap<s n="adv"/></r></p></e>
     <e><p><l>kesipu-sipuan<s n="adv"/></l><r>kesipu-sipuan<s n="adv"/></r></p></e>
     <e><p><l>kesipuan<s n="adv"/></l><r>kesipuan<s n="adv"/></r></p></e>
     <e><p><l>kini<s n="adv"/></l><r>kini<s n="adv"/></r></p></e>
     <e><p><l>kira-kira<s n="adv"/></l><r>kira-kira<s n="adv"/></r></p></e>
     <e><p><l>kiraan<s n="adv"/></l><r>kiraan<s n="adv"/></r></p></e>
+    <e><p><l>kiranya<s n="adv"/></l><r>kiranya<s n="adv"/></r></p></e>
     <e><p><l>konon<s n="adv"/></l><r>konon<s n="adv"/></r></p></e>
     <e><p><l>kuat-kuat<s n="adv"/></l><r>kuat-kuat<s n="adv"/></r></p></e>
     <e><p><l>kurang-kurang<s n="adv"/></l><r>kurang-kurang<s n="adv"/></r></p></e>
     <e><p><l>kurang<s n="adv"/></l><r>kurang<s n="adv"/></r></p></e>
     <e><p><l>lagi-lagi<s n="adv"/></l><r>lagi-lagi<s n="adv"/></r></p></e>
+    <e><p><l>lagi<b/>pula<s n="adv"/></l><r>lagi<b/>pula<s n="adv"/></r></p></e>
+    <e><p><l>lagi<b/>pun<s n="adv"/></l><r>lagi<b/>pun<s n="adv"/></r></p></e>
     <e><p><l>lagi<s n="adv"/></l><r>lagi<s n="adv"/></r></p></e>
     <e><p><l>lagian<s n="adv"/></l><r>lagian<s n="adv"/></r></p></e>
     <e><p><l>lama-kelamaan<s n="adv"/></l><r>lama-kelamaan<s n="adv"/></r></p></e>
@@ -5094,6 +5110,7 @@
     <e><p><l>lansia<s n="adv"/></l><r>lansia<s n="adv"/></r></p></e>
     <e><p><l>lantas<s n="adv"/></l><r>lantas<s n="adv"/></r></p></e>
     <e><p><l>laun-laun<s n="adv"/></l><r>laun-laun<s n="adv"/></r></p></e>
+    <e><p><l>layaknya<s n="adv"/></l><r>layaknya<s n="adv"/></r></p></e>
     <e><p><l>lebih-lebih<s n="adv"/></l><r>lebih-lebih<s n="adv"/></r></p></e>
     <e><p><l>lebih<s n="adv"/></l><r>lebih<s n="adv"/></r></p></e>
     <e><p><l>lekas<s n="adv"/></l><r>lekas<s n="adv"/></r></p></e>
@@ -5104,7 +5121,9 @@
     <e><p><l>masak-masak<s n="adv"/></l><r>masak-masak<s n="adv"/></r></p></e>
     <e><p><l>masih<s n="adv"/></l><r>masih<s n="adv"/></r></p></e>
     <e><p><l>mati-mati<s n="adv"/></l><r>mati-mati<s n="adv"/></r></p></e>
+    <e><p><l>mau<b/>tak<b/>mau<s n="adv"/></l><r>mahu<b/>tak<b/>mahu<s n="adv"/></r></p></e>
     <e><p><l>mau<s n="adv"/></l><r>mahu<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>mau<s n="adv"/></l><r>mau<s n="adv"/></r></p></e>
     <e><p><l>maupun<s n="adv"/></l><r>mahupun<s n="adv"/></r></p></e>
     <e><p><l>melulu<s n="adv"/></l><r>melulu<s n="adv"/></r></p></e>
     <e><p><l>memang<s n="adv"/></l><r>memang<s n="adv"/></r></p></e>
@@ -5117,6 +5136,7 @@
     <e><p><l>moga-moga<s n="adv"/></l><r>moga-moga<s n="adv"/></r></p></e>
     <e><p><l>moga<s n="adv"/></l><r>moga<s n="adv"/></r></p></e>
     <e><p><l>mudah-mudahan<s n="adv"/></l><r>mudah-mudahan<s n="adv"/></r></p></e>
+    <e><p><l>mula-mula<b/>sekali<s n="adv"/></l><r>mula-mula<b/>sekali<s n="adv"/></r></p></e>
     <e><p><l>mula-mula<s n="adv"/></l><r>mula-mula<s n="adv"/></r></p></e>
     <e><p><l>mumpung<s n="adv"/></l><r>mumpung<s n="adv"/></r></p></e>
     <e><p><l>mungkin<s n="adv"/></l><r>mungkin<s n="adv"/></r></p></e>
@@ -5128,6 +5148,7 @@
     <e><p><l>nian<s n="adv"/></l><r>nian<s n="adv"/></r></p></e>
     <e><p><l>niscaya<s n="adv"/></l><r>nescaya<s n="adv"/></r></p></e>
     <e><p><l>nyaris<s n="adv"/></l><r>nyaris<s n="adv"/></r></p></e>
+    <e><p><l>pecicilan<s n="adv"/></l><r>pecicilan<s n="adv"/></r></p></e>
     <e><p><l>percuma<s n="adv"/></l><r>percuma<s n="adv"/></r></p></e>
     <e><p><l>perlu<s n="adv"/></l><r>perlu<s n="adv"/></r></p></e>
     <e><p><l>pernah<s n="adv"/></l><r>pernah<s n="adv"/></r></p></e>
@@ -5137,36 +5158,67 @@
     <e><p><l>pura-pura<s n="adv"/></l><r>pura-pura<s n="adv"/></r></p></e>
     <e><p><l>putus-putus<s n="adv"/></l><r>putus-putus<s n="adv"/></r></p></e>
     <e><p><l>rasa-rasanya<s n="adv"/></l><r>rasa-rasanya<s n="adv"/></r></p></e>
+    <e><p><l>rasanya<s n="adv"/></l><r>rasanya<s n="adv"/></r></p></e>
+    <e><p><l>rupa-rupanya<s n="adv"/></l><r>rupa-rupanya<s n="adv"/></r></p></e>
+    <e><p><l>rupanya<s n="adv"/></l><r>rupanya<s n="adv"/></r></p></e>
     <e><p><l>saben<s n="adv"/></l><r>saben<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>sahaja<s n="adv"/></l><r>sahaja<s n="adv"/></r></p></e>
     <e><p><l>saja<s n="adv"/></l><r>sahaja<s n="adv"/></r></p></e>
     <e r="RL"><p><l>saja<s n="adv"/></l><r>saja<s n="adv"/></r></p></e>
     <e><p><l>saling<s n="adv"/></l><r>saling<s n="adv"/></r></p></e>
     <e><p><l>sama-sama<s n="adv"/></l><r>sama-sama<s n="adv"/></r></p></e>
+    <e><p><l>sambil<b/>lalu<s n="adv"/></l><r>sambil<b/>lalu<s n="adv"/></r></p></e>
     <e><p><l>sampai-sampai<s n="adv"/></l><r>sampai-sampai<s n="adv"/></r></p></e>
     <e><p><l>sangat-sangat<s n="adv"/></l><r>sangat-sangat<s n="adv"/></r></p></e>
     <e><p><l>sangat<s n="adv"/></l><r>sangat<s n="adv"/></r></p></e>
     <e><p><l>satu-satu<s n="adv"/></l><r>satu-satu<s n="adv"/></r></p></e>
+    <e><p><l>satu-satunya<s n="adv"/></l><r>satu-satunya<s n="adv"/></r></p></e>
+    <e><p><l>satu<b/>per<b/>satu<s n="adv"/></l><r>satu<b/>per<b/>satu<s n="adv"/></r></p></e>
     <e><p><l>sayup-menyayup<s n="adv"/></l><r>sayup-menyayup<s n="adv"/></r></p></e>
     <e><p><l>sayup-sayup<s n="adv"/></l><r>sayup-sayup<s n="adv"/></r></p></e>
     <e><p><l>seadanya<s n="adv"/></l><r>seadanya<s n="adv"/></r></p></e>
     <e><p><l>sebaik-baiknya<s n="adv"/></l><r>sebaik-baiknya<s n="adv"/></r></p></e>
     <e><p><l>sebaiknya<s n="adv"/></l><r>sebaiknya<s n="adv"/></r></p></e>
     <e><p><l>sebaliknya<s n="adv"/></l><r>sebaliknya<s n="adv"/></r></p></e>
+    <e><p><l>sebanyak-banyaknya<s n="adv"/></l><r>sebanyak-banyaknya<s n="adv"/></r></p></e>
+    <e><p><l>sebanyaknya<s n="adv"/></l><r>sebanyaknya<s n="adv"/></r></p></e>
     <e><p><l>sebenarnya<s n="adv"/></l><r>sebenarnya<s n="adv"/></r></p></e>
     <e><p><l>sebentar-sebentar<s n="adv"/></l><r>sebentar-sebentar<s n="adv"/></r></p></e>
+    <e><p><l>sebentar<b/>lagi<s n="adv"/></l><r>sebentar<b/>lagi<s n="adv"/></r></p></e>
+    <e><p><l>sebesar-besarnya<s n="adv"/></l><r>sebesar-besarnya<s n="adv"/></r></p></e>
+    <e><p><l>sebesarnya<s n="adv"/></l><r>sebesarnya<s n="adv"/></r></p></e>
     <e><p><l>sebetulnya<s n="adv"/></l><r>sebetulnya<s n="adv"/></r></p></e>
+    <e><p><l>sebisanya<s n="adv"/></l><r>sebisanya<s n="adv"/></r></p></e>
+    <e><p><l>seboleh-bolehnya<s n="adv"/></l><r>seboleh-bolehnya<s n="adv"/></r></p></e>
     <e><p><l>secara<s n="adv"/></l><r>secara<s n="adv"/></r></p></e>
+    <e><p><l>secepat-cepatnya<s n="adv"/></l><r>secepat-cepatnya<s n="adv"/></r></p></e>
+    <e><p><l>secepatnya<s n="adv"/></l><r>secepat<b/>mungkin<s n="adv"/></r></p></e>
+    <e><p><l>secukup-cukupnya<s n="adv"/></l><r>secukup-cukupnya<s n="adv"/></r></p></e>
+    <e><p><l>secukupnya<s n="adv"/></l><r>secukupnya<s n="adv"/></r></p></e>
     <e><p><l>sedalam-dalamnya<s n="adv"/></l><r>sedalam-dalamnya<s n="adv"/></r></p></e>
     <e><p><l>sedang<s n="adv"/></l><r>sedang<s n="adv"/></r></p></e>
     <e><p><l>sedapat-dapatnya<s n="adv"/></l><r>sedapat-dapatnya<s n="adv"/></r></p></e>
     <e><p><l>sedarum<s n="adv"/></l><r>sedarum<s n="adv"/></r></p></e>
+    <e><p><l>sedatar-datarnya<s n="adv"/></l><r>sedatar-datarnya<s n="adv"/></r></p></e>
+    <e><p><l>sedatarnya<s n="adv"/></l><r>sedatarnya<s n="adv"/></r></p></e>
     <e><p><l>sederum<s n="adv"/></l><r>sederum<s n="adv"/></r></p></e>
+    <e><p><l>sedikit-dikitnya<s n="adv"/></l><r>sedikit-dikitnya<s n="adv"/></r></p></e>
     <e><p><l>sedikit-sedikit<s n="adv"/></l><r>sedikit-sedikit<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>sedikit-sedikitnya<s n="adv"/></l><r>sekurang-kurangnya<s n="adv"/></r></p></e>
+    <e><p><l>sedikit<b/>demi<b/>sedikit<s n="adv"/></l><r>sedikit<b/>demi<b/>sedikit<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>sedikitnya<s n="adv"/></l><r>sekurang-kurangnya<s n="adv"/></r></p></e>
+    <e><p><l>sedini-dininya<s n="adv"/></l><r>seawal-awalnya<s n="adv"/></r></p></e>
+    <e><p><l>seelok-eloknya<s n="adv"/></l><r>seelok-eloknya<s n="adv"/></r></p></e>
+    <e><p><l>seeloknya<s n="adv"/></l><r>seeloknya<s n="adv"/></r></p></e>
     <e><p><l>segala-galanya<s n="adv"/></l><r>segala-galanya<s n="adv"/></r></p></e>
     <e><p><l>segalanya<s n="adv"/></l><r>segalanya<s n="adv"/></r></p></e>
     <e r="LR"><p><l>segera<s n="adv"/></l><r>akan<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>segera<s n="adv"/></l><r>segera<s n="adv"/></r></p></e>
+    <e><p><l>sehabis-habisnya<s n="adv"/></l><r>sehabis-habisnya<s n="adv"/></r></p></e>
     <e><p><l>seharusnya<s n="adv"/></l><r>seharusnya<s n="adv"/></r></p></e>
     <e><p><l>seingat<s n="adv"/></l><r>seingat<s n="adv"/></r></p></e>
+    <e><p><l>sejadi-jadinya<s n="adv"/></l><r>sejadi-jadinya<s n="adv"/></r></p></e>
+    <e><p><l>sejamaknya<s n="adv"/></l><r>sejamaknya<s n="adv"/></r></p></e>
     <e><p><l>sejauh<s n="adv"/></l><r>setakat<s n="adv"/></r></p></e>
     <e><p><l>sekadar<s n="adv"/></l><r>sekadar<s n="adv"/></r></p></e>
     <e><p><l>sekala<s n="adv"/></l><r>sekala<s n="adv"/></r></p></e>
@@ -5175,9 +5227,16 @@
     <e><p><l>sekalian<s n="adv"/></l><r>sekalian<s n="adv"/></r></p></e>
     <e><p><l>sekaligus<s n="adv"/></l><r>sekaligus<s n="adv"/></r></p></e>
     <e><p><l>sekarang<s n="adv"/></l><r>sekarang<s n="adv"/></r></p></e>
+    <e><p><l>sekecil-kecilnya<s n="adv"/></l><r>sekecil-kecilnya<s n="adv"/></r></p></e>
+    <e><p><l>sekecilnya<s n="adv"/></l><r>sekecilnya<s n="adv"/></r></p></e>
     <e><p><l>sekehendak<s n="adv"/></l><r>sekehendak<s n="adv"/></r></p></e>
+    <e><p><l>sekenyang-kenyangnya<s n="adv"/></l><r>sekenyang-kenyangnya<s n="adv"/></r></p></e>
+    <e><p><l>sekenyangnya<s n="adv"/></l><r>sekenyangnya<s n="adv"/></r></p></e>
     <e><p><l>seketika<s n="adv"/></l><r>seketika<s n="adv"/></r></p></e>
     <e><p><l>sekira-kira<s n="adv"/></l><r>sekira-kira<s n="adv"/></r></p></e>
+    <e><p><l>sekosong-kosongnya<s n="adv"/></l><r>sekosong-kosongnya<s n="adv"/></r></p></e>
+    <e><p><l>sekuasa-kuasanya<s n="adv"/></l><r>sekuasa-kuasanya<s n="adv"/></r></p></e>
+    <e><p><l>sekuasanya<s n="adv"/></l><r>sekuasanya<s n="adv"/></r></p></e>
     <e><p><l>sekuat-kuatnya<s n="adv"/></l><r>sekuat-kuatnya<s n="adv"/></r></p></e>
     <e><p><l>sekurang-kurangnya<s n="adv"/></l><r>sekurang-kurangnya<s n="adv"/></r></p></e>
     <e><p><l>selagi<s n="adv"/></l><r>selagi<s n="adv"/></r></p></e>
@@ -5186,34 +5245,67 @@
     <e><p><l>selamanya<s n="adv"/></l><r>selamanya<s n="adv"/></r></p></e>
     <e><p><l>selanjutnya<s n="adv"/></l><r>selanjutnya<s n="adv"/></r></p></e>
     <e><p><l>selari<s n="adv"/></l><r>selari<s n="adv"/></r></p></e>
+    <e><p><l>selayaknya<s n="adv"/></l><r>selayaknya<s n="adv"/></r></p></e>
+    <e><p><l>selekas-lekasnya<s n="adv"/></l><r>selekas-lekasnya<s n="adv"/></r></p></e>
+    <e><p><l>selekasnya<s n="adv"/></l><r>selekasnya<s n="adv"/></r></p></e>
+    <e><p><l>selengkap-lengkapnya<s n="adv"/></l><r>selengkap-lengkapnya<s n="adv"/></r></p></e>
+    <e><p><l>selengkapnya<s n="adv"/></l><r>selengkapnya<s n="adv"/></r></p></e>
     <e><p><l>selepas-lepas<s n="adv"/></l><r>selepas-lepas<s n="adv"/></r></p></e>
     <e><p><l>selewat<s n="adv"/></l><r>selewat<s n="adv"/></r></p></e>
     <e><p><l>selulus<s n="adv"/></l><r>selulus<s n="adv"/></r></p></e>
+    <e><p><l>selurusnya<s n="adv"/></l><r>selurusnya<s n="adv"/></r></p></e>
     <e><p><l>semakin<s n="adv"/></l><r>semakin<s n="adv"/></r></p></e>
+    <e><p><l>semaksimal-maksimalnya<s n="adv"/></l><r>semaksima-maksimanya<s n="adv"/></r></p></e>
+    <e><p><l>semaksimal<b/>mungkin<s n="adv"/></l><r>semaksima<b/>mungkin<s n="adv"/></r></p></e>
+    <e><p><l>semaksimalnya<s n="adv"/></l><r>semaksimanya<s n="adv"/></r></p></e>
+    <e><p><l>semampu-mampunya<s n="adv"/></l><r>semampu-mampunya<s n="adv"/></r></p></e>
+    <e><p><l>semampunya<s n="adv"/></l><r>semampunya<s n="adv"/></r></p></e>
+    <e><p><l>semanis-manisnya<s n="adv"/></l><r>semanis-manisnya<s n="adv"/></r></p></e>
+    <e><p><l>semanisnya<s n="adv"/></l><r>semanisnya<s n="adv"/></r></p></e>
     <e><p><l>semanja<s n="adv"/></l><r>semanja<s n="adv"/></r></p></e>
     <e><p><l>semasa-masa<s n="adv"/></l><r>semasa-masa<s n="adv"/></r></p></e>
     <e><p><l>semasih<s n="adv"/></l><r>semasih<s n="adv"/></r></p></e>
     <e><p><l>semata-mata<s n="adv"/></l><r>semata-mata<s n="adv"/></r></p></e>
+    <e><p><l>semau-maunya<s n="adv"/></l><r>semau-maunya<s n="adv"/></r></p></e>
     <e><p><l>sembunyi-sembunyi<s n="adv"/></l><r>sembunyi-sembunyi<s n="adv"/></r></p></e>
+    <e><p><l>sememangnya<s n="adv"/></l><r>sememangnya<s n="adv"/></r></p></e>
     <e><p><l>semena-mena<s n="adv"/></l><r>semena-mena<s n="adv"/></r></p></e>
+    <e><p><l>semerdeka-merdekanya<s n="adv"/></l><r>semerdeka-merdekanya<s n="adv"/></r></p></e>
     <e><p><l>semestinya<s n="adv"/></l><r>semestinya<s n="adv"/></r></p></e>
     <e><p><l>semoga<s n="adv"/></l><r>semoga<s n="adv"/></r></p></e>
+    <e><p><l>sempat-sempatnya<s n="adv"/></l><r>sempat-sempatnya<s n="adv"/></r></p></e>
     <e><p><l>semu-semu<s n="adv"/></l><r>semu-semu<s n="adv"/></r></p></e>
+    <e><p><l>semua-muanya<s n="adv"/></l><r>semua-muanya<s n="adv"/></r></p></e>
     <e><p><l>semuanya<s n="adv"/></l><r>semuanya<s n="adv"/></r></p></e>
+    <e><p><l>semudah-mudahnya<s n="adv"/></l><r>semudah-mudahnya<s n="adv"/></r></p></e>
+    <e><p><l>semudahnya<s n="adv"/></l><r>semudahnya<s n="adv"/></r></p></e>
+    <e><p><l>semujur-mujurnya<s n="adv"/></l><r>semujur-mujurnya<s n="adv"/></r></p></e>
+    <e><p><l>semujurnya<s n="adv"/></l><r>semujurnya<s n="adv"/></r></p></e>
     <e><p><l>senantiasa<s n="adv"/></l><r>sentiasa<s n="adv"/></r></p></e>
-    <e r="LR"><p><l>sentiasa<s n="adv"/></l><r>sentiasa<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>senantiasa<s n="adv"/></l><r>senantiasa<s n="adv"/></r></p></e>
     <e><p><l>sendiri-sendiri<s n="adv"/></l><r>sendiri-sendiri<s n="adv"/></r></p></e>
     <e><p><l>sendiri<s n="adv"/></l><r>sendiri<s n="adv"/></r></p></e>
     <e><p><l>sendirian<s n="adv"/></l><r>sendirian<s n="adv"/></r></p></e>
     <e><p><l>sendirinya<s n="adv"/></l><r>sendirinya<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>sentiasa<s n="adv"/></l><r>sentiasa<s n="adv"/></r></p></e>
+    <e><p><l>sepantasnya<s n="adv"/></l><r>sepantasnya<s n="adv"/></r></p></e>
     <e><p><l>sepatutnya<s n="adv"/></l><r>sepatutnya<s n="adv"/></r></p></e>
+    <e><p><l>sepenuh-penuhnya<s n="adv"/></l><r>sepenuh-penuhnya<s n="adv"/></r></p></e>
+    <e><p><l>sepenuhnya<s n="adv"/></l><r>sepenuhnya<s n="adv"/></r></p></e>
+    <e><p><l>seperlunya<s n="adv"/></l><r>seperlunya<s n="adv"/></r></p></e>
     <e><p><l>sepinggang<s n="adv"/></l><r>sepinggang<s n="adv"/></r></p></e>
+    <e><p><l>sepintas<b/>lalu<s n="adv"/></l><r>sepintas<b/>lalu<s n="adv"/></r></p></e>
     <e><p><l>sepintas<s n="adv"/></l><r>sepintas<s n="adv"/></r></p></e>
+    <e><p><l>sepraktis-praktisnya<s n="adv"/></l><r>sepraktis-praktisnya<s n="adv"/></r></p></e>
+    <e><p><l>sepuas-puasnya<s n="adv"/></l><r>sepuas-puasnya<s n="adv"/></r></p></e>
     <e><p><l>serba-serbi<s n="adv"/></l><r>serba-serbi<s n="adv"/></r></p></e>
     <e><p><l>serba<s n="adv"/></l><r>serba<s n="adv"/></r></p></e>
     <e r="LR"><p><l>serbi<s n="adv"/></l><r>mengenai<s n="pr"/></r></p></e>
     <e><p><l>serela<s n="adv"/></l><r>serela<s n="adv"/></r></p></e>
+    <e><p><l>seremeh-remehnya<s n="adv"/></l><r>seremeh-remehnya<s n="adv"/></r></p></e>
+    <e><p><l>seremehnya<s n="adv"/></l><r>seremehnya<s n="adv"/></r></p></e>
     <e><p><l>sering-sering<s n="adv"/></l><r>sering-sering<s n="adv"/></r></p></e>
+    <e><p><l>sering<b/>kali<s n="adv"/></l><r>sering<b/>kali<s n="adv"/></r></p></e>
     <e><p><l>sering<s n="adv"/></l><r>sering<s n="adv"/></r></p></e>
     <e><p><l>serta-merta<s n="adv"/></l><r>serta-merta<s n="adv"/></r></p></e>
     <e><p><l>sesanggup<s n="adv"/></l><r>sesanggup<s n="adv"/></r></p></e>
@@ -5221,34 +5313,54 @@
     <e><p><l>sesebentar<s n="adv"/></l><r>sesebentar<s n="adv"/></r></p></e>
     <e><p><l>sesegera<s n="adv"/></l><r>secepat<s n="adv"/></r></p></e>
     <e><p><l>sesekali<s n="adv"/></l><r>sesekali<s n="adv"/></r></p></e>
+    <e><p><l>sesudah-sudahnya<s n="adv"/></l><r>sesudah-sudahnya<s n="adv"/></r></p></e>
+    <e><p><l>sesuka-sukanya<s n="adv"/></l><r>sesuka-sukanya<s n="adv"/></r></p></e>
+    <e><p><l>sesukanya<s n="adv"/></l><r>sesukanya<s n="adv"/></r></p></e>
     <e><p><l>sesungguhnya<s n="adv"/></l><r>sesungguhnya<s n="adv"/></r></p></e>
     <e><p><l>setahu<s n="adv"/></l><r>setahu<s n="adv"/></r></p></e>
+    <e><p><l>setegak-tegaknya<s n="adv"/></l><r>setegak-tegaknya<s n="adv"/></r></p></e>
+    <e><p><l>setegaknya<s n="adv"/></l><r>setegaknya<s n="adv"/></r></p></e>
     <e><p><l>setempat-setempat<s n="adv"/></l><r>tempatan-tempatan<s n="adv"/></r></p></e>
     <e><p><l>setengah-setengah<s n="adv"/></l><r>setengah-setengah<s n="adv"/></r></p></e>
     <e><p><l>seterusnya<s n="adv"/></l><r>seterusnya<s n="adv"/></r></p></e>
     <e><p><l>setidak-tidaknya<s n="adv"/></l><r>setidak-tidaknya<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>setidaknya<s n="adv"/></l><r>sekurang-kurangnya<s n="adv"/></r></p></e>
+    <e><p><l>setimbang-timbangnya<s n="adv"/></l><r>setimbang-timbangnya<s n="adv"/></r></p></e>
+    <e><p><l>setimbangnya<s n="adv"/></l><r>setimbangnya<s n="adv"/></r></p></e>
     <e><p><l>seulang<s n="adv"/></l><r>seulang<s n="adv"/></r></p></e>
     <e><p><l>seulas<s n="adv"/></l><r>seulas<s n="adv"/></r></p></e>
+    <e><p><l>seumumnya<s n="adv"/></l><r>seumumnya<s n="adv"/></r></p></e>
     <e><p><l>seupaya-upaya<s n="adv"/></l><r>seupaya-upaya<s n="adv"/></r></p></e>
+    <e><p><l>seupaya-upayanya<s n="adv"/></l><r>seupaya-upayanya<s n="adv"/></r></p></e>
+    <e><p><l>seutuh-utuhnya<s n="adv"/></l><r>seutuh-utuhnya<s n="adv"/></r></p></e>
     <e><p><l>seutuhnya<s n="adv"/></l><r>seutuhnya<s n="adv"/></r></p></e>
+    <e><p><l>sewajar-wajarnya<s n="adv"/></l><r>sewajar-wajarnya<s n="adv"/></r></p></e>
     <e><p><l>sewajarnya<s n="adv"/></l><r>sewajarnya<s n="adv"/></r></p></e>
-    <e><p><l>sewaktu-waktu<s n="adv"/></l><r>bila-bila<b/>masa<s n="adv"/></r></p></e>
+    <e><p><l>sewajibnya<s n="adv"/></l><r>sewajibnya<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>sewaktu-waktu<s n="adv"/></l><r>bila-bila<b/>masa<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>sewenang-wenang<s n="adv"/></l><r>sewenang-wenang<s n="adv"/></r></p></e>
-    <e><p><l>sewenang-wenang<s n="adv"/></l><r>sewenang-wenangnya<s n="adv"/></r></p></e>
+    <e><p><l>seyogianya<s n="adv"/></l><r>seyogianya<s n="adv"/></r></p></e>
     <e><p><l>sudah<s n="adv"/></l><r>sudah<s n="adv"/></r></p></e>
     <e><p><l>suka-suka<s n="adv"/></l><r>suka-suka<s n="adv"/></r></p></e>
     <e><p><l>sungguh-sungguh<s n="adv"/></l><r>sungguh-sungguh<s n="adv"/></r></p></e>
     <e><p><l>suntuk<s n="adv"/></l><r>suntuk<s n="adv"/></r></p></e>
     <e><p><l>tadi<s n="adv"/></l><r>tadi<s n="adv"/></r></p></e>
     <e><p><l>tahu-tahu<s n="adv"/></l><r>tahu-tahu<s n="adv"/></r></p></e>
+    <e><p><l>tak<b/>acuh<s n="adv"/></l><r>tak<b/>acuh<s n="adv"/></r></p></e>
+    <e><p><l>tak<b/>segan-segan<s n="adv"/></l><r>tak<b/>segan-segan<s n="adv"/></r></p></e>
+    <e><p><l>tak<b/>segan<s n="adv"/></l><r>tak<b/>segan<s n="adv"/></r></p></e>
     <e><p><l>tak<s n="adv"/></l><r>tak<s n="adv"/></r></p></e>
     <e><p><l>takut-takut<s n="adv"/></l><r>takut-takut<s n="adv"/></r></p></e>
+    <e><p><l>tampaknya<s n="adv"/></l><r>nampaknya<s n="adv"/></r></p></e>
     <e><p><l>telah<s n="adv"/></l><r>telah<s n="adv"/></r></p></e>
     <e><p><l>tempo-tempo<s n="adv"/></l><r>tempo-tempo<s n="adv"/></r></p></e>
     <e><p><l>tentunya<s n="adv"/></l><r>tentunya<s n="adv"/></r></p></e>
     <e><p><l>teramat<s n="adv"/></l><r>teramat<s n="adv"/></r></p></e>
     <e><p><l>terbahak-bahak<s n="adv"/></l><r>terbahak-bahak<s n="adv"/></r></p></e>
     <e><p><l>tergesa-gesa<s n="adv"/></l><r>tergesa-gesa<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>terkadang-kadang<s n="adv"/></l><r>kadang-kadang<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>terkadang<s n="adv"/></l><r>kadang-kadang<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>terkadang-kadang<s n="adv"/></l><r>terkadang-kadang<s n="adv"/></r></p></e>
     <e><p><l>terlalu<s n="adv"/></l><r>terlalu<s n="adv"/></r></p></e>
     <e><p><l>terlampau<s n="adv"/></l><r>terlampau<s n="adv"/></r></p></e>
     <e><p><l>terlebih-lebih<s n="adv"/></l><r>terlebih-lebih<s n="adv"/></r></p></e>
@@ -5260,6 +5372,8 @@
     <e><p><l>terus-terusan<s n="adv"/></l><r>terus-terusan<s n="adv"/></r></p></e>
     <e><p><l>tiba-tiba<s n="adv"/></l><r>tiba-tiba<s n="adv"/></r></p></e>
     <e><p><l>tidak-tidak<s n="adv"/></l><r>tidak-tidak<s n="adv"/></r></p></e>
+    <e><p><l>tidak<b/>apa-apa<s n="adv"/></l><r>tidak<b/>apa-apa<s n="adv"/></r></p></e>
+    <e><p><l>tidak<b/>apa<s n="adv"/></l><r>tidak<b/>apa<s n="adv"/></r></p></e>
     <e><p><l>tidak<s n="adv"/></l><r>tidak<s n="adv"/></r></p></e>
     <e><p><l>tok<s n="adv"/></l><r>tok<s n="adv"/></r></p></e>
     <e><p><l>tubi<s n="adv"/></l><r>tubi<s n="adv"/></r></p></e>
@@ -5378,6 +5492,7 @@
     <e><p><l>kapan<s n="adv"/></l><r>bila<s n="adv"/></r></p></e>
     <e r="LR"><p><l>bila<s n="adv"/></l><r>bila<s n="adv"/></r></p></e>
     <e r="RL"><p><l>kapan<s n="adv"/></l><r>apabila<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>kapan<s n="adv"/></l><r>kapan<s n="adv"/></r></p></e>
     <e><p><l>ke<b/>mana<s n="adv"/></l><r>ke<b/>mana<s n="adv"/></r></p></e>
     <e><p><l>kenapa<s n="adv"/></l><r>kenapa<s n="adv"/></r></p></e>
     <e><p><l>mengapa<s n="adv"/></l><r>mengapa<s n="adv"/></r></p></e>
@@ -5389,6 +5504,7 @@
     <e><p><l>bilamanakah<s n="adv"/></l><r>bilamanakah<s n="adv"/></r></p></e>
     <e><p><l>kapankah<s n="adv"/></l><r>bilakah<s n="adv"/></r></p></e>
     <e r="LR"><p><l>bilakah<s n="adv"/></l><r>bilakah<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>kapankah<s n="adv"/></l><r>kapankah<s n="adv"/></r></p></e>
     <e><p><l>dari<b/>manakah<s n="adv"/></l><r>dari<b/>manakah<s n="adv"/></r></p></e>
     <e><p><l>di<b/>manakah<s n="adv"/></l><r>di<b/>manakah<s n="adv"/></r></p></e>
     <e><p><l>ke<b/>manakah<s n="adv"/></l><r>ke<b/>manakah<s n="adv"/></r></p></e>
