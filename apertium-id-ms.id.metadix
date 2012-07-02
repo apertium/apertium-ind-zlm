@@ -3668,6 +3668,7 @@
     <e lm="kenang-kenangan"><i>kenang-kenangan</i><par n="gula-gula/__n"/></e>
     <e lm="laba-laba"><i>laba-laba</i><par n="gula-gula/__n"/></e>
     <e lm="paru-paru"><i>paru-paru</i><par n="gula-gula/__n"/></e>
+    <e lm="undang-undang"><i>undang-undang</i><par n="gula-gula/__n"/></e>
     
     <e lm="ab"><i>ab</i><par n="abad/__n" prm="ab"/></e>
     <e lm="aba"><i>aba</i><par n="abad/__n" prm="aba"/></e>
@@ -15082,6 +15083,7 @@
     <e lm="cela"><p><l>mencela</l><r>cela</r></p><par n="mengadopsi/__n" prm="cela"/></e>
     <e lm="celetuk"><p><l>menceletuk</l><r>celetuk</r></p><par n="mengadopsi/__n" prm="celetuk"/></e>
     <e lm="cemeti"><p><l>mencemeti</l><r>cemeti</r></p><par n="mengadopsi/__n" prm="cemeti"/></e>
+    <e lm="centang"><p><l>mencentang</l><r>centang</r></p><par n="mengadopsi/__n" prm="centang"/></e>
     <e lm="cerat"><p><l>mencerat</l><r>cerat</r></p><par n="mengadopsi/__n" prm="cerat"/></e>
     <e lm="ceruk"><p><l>menceruk</l><r>ceruk</r></p><par n="mengadopsi/__n" prm="ceruk"/></e>
     <e lm="ceti"><p><l>menceti</l><r>ceti</r></p><par n="mengadopsi/__n" prm="ceti"/></e>
@@ -16696,7 +16698,6 @@
     <e lm="bungkam"><p><l>membungkam</l><r>bungkam</r></p><par n="mengacak/__adj" prm="bungkam"/></e>
     <e lm="bungkuk"><p><l>membungkuk</l><r>bungkuk</r></p><par n="mengacak/__adj" prm="bungkuk"/></e>
     <e lm="carik"><p><l>mencarik</l><r>carik</r></p><par n="mengacak/__adj" prm="carik"/></e>
-    <e lm="centang"><p><l>mencentang</l><r>centang</r></p><par n="mengacak/__adj" prm="centang"/></e>
     <e lm="comot"><p><l>mencomot</l><r>comot</r></p><par n="mengacak/__adj" prm="comot"/></e>
     <e lm="curam"><p><l>mencuram</l><r>curam</r></p><par n="mengacak/__adj" prm="curam"/></e>
     <e lm="dahaga"><p><l>mendahaga</l><r>dahaga</r></p><par n="mengacak/__adj" prm="dahaga"/></e>
@@ -18408,6 +18409,7 @@
     <e lm="cela"><p><l>dicela</l><r>cela</r></p><par n="diadopsi/__n" prm="cela"/></e>
     <e lm="celetuk"><p><l>diceletuk</l><r>celetuk</r></p><par n="diadopsi/__n" prm="celetuk"/></e>
     <e lm="cemeti"><p><l>dicemeti</l><r>cemeti</r></p><par n="diadopsi/__n" prm="cemeti"/></e>
+    <e lm="centang"><p><l>dicentang</l><r>centang</r></p><par n="diadopsi/__n" prm="centang"/></e>
     <e lm="cerat"><p><l>dicerat</l><r>cerat</r></p><par n="diadopsi/__n" prm="cerat"/></e>
     <e lm="ceruk"><p><l>diceruk</l><r>ceruk</r></p><par n="diadopsi/__n" prm="ceruk"/></e>
     <e lm="ceti"><p><l>diceti</l><r>ceti</r></p><par n="diadopsi/__n" prm="ceti"/></e>
@@ -20022,7 +20024,6 @@
     <e lm="bungkam"><p><l>dibungkam</l><r>bungkam</r></p><par n="diacak/__adj" prm="bungkam"/></e>
     <e lm="bungkuk"><p><l>dibungkuk</l><r>bungkuk</r></p><par n="diacak/__adj" prm="bungkuk"/></e>
     <e lm="carik"><p><l>dicarik</l><r>carik</r></p><par n="diacak/__adj" prm="carik"/></e>
-    <e lm="centang"><p><l>dicentang</l><r>centang</r></p><par n="diacak/__adj" prm="centang"/></e>
     <e lm="comot"><p><l>dicomot</l><r>comot</r></p><par n="diacak/__adj" prm="comot"/></e>
     <e lm="curam"><p><l>dicuram</l><r>curam</r></p><par n="diacak/__adj" prm="curam"/></e>
     <e lm="dahaga"><p><l>didahaga</l><r>dahaga</r></p><par n="diacak/__adj" prm="dahaga"/></e>
@@ -22652,7 +22653,6 @@
     <e lm="cemerlang"><i>cemerlang</i><par n="baik__adj"/></e>
     <e lm="cenderung"><i>cenderung</i><par n="baik__adj"/></e>
     <e lm="cengeng"><i>cengeng</i><par n="baik__adj"/></e>
-    <e lm="centang"><i>centang</i><par n="baik__adj"/></e>
     <e lm="cepat"><i>cepat</i><par n="baik__adj"/></e>
     <e lm="cerah"><i>cerah</i><par n="baik__adj"/></e>
     <e lm="cerdas"><i>cerdas</i><par n="baik__adj"/></e>

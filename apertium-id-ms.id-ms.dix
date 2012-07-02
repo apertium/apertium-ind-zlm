@@ -4882,48 +4882,147 @@
     <e><p><l>wawas<s n="vblex"/></l><r>wawas<s n="vblex"/></r></p></e>
 
     <!-- Adjectives -->
+    <e><p><l>adidaya<s n="adj"/></l><r>kuasa<b/>besar<s n="adj"/></r></p></e>
+    <e><p><l>administratif<s n="adj"/></l><r>tadbir<s n="n"/><s n="peN-an"/><s n="sg"/></r></p></e>
+    <e><p><l>anatomis<s n="adj"/></l><r>anatomi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>andal<s n="adj"/></l><r>boleh<b/>dipercayai<s n="adj"/></r></p></e>
+    <e><p><l>anonim<s n="adj"/></l><r>tanpa<b/>nama<s n="adj"/></r></p></e>
+    <e><p><l>antarplanet<s n="adj"/></l><r>antara<b/>planet<s n="adj"/></r></p></e>
     <e><p><l>asing<s n="adj"/></l><r>asing<s n="adj"/></r></p></e>
     <e><p><l>bahagia<s n="adj"/></l><r>bahagia<s n="adj"/></r></p></e>
     <e><p><l>baik<s n="adj"/></l><r>baik<s n="adj"/></r></p></e>
     <e><p><l>banyak<s n="adj"/></l><r>banyak<s n="adj"/></r></p></e>
+    <e><p><l>banyak<s n="adj"/><s n="se"/></l><r>ramai<s n="adj"/><s n="se"/></r></p></e>
     <e><p><l>baru<s n="adj"/></l><r>baru<s n="adj"/></r></p></e>
+    <e><p><l>bebas<s n="adj"/></l><r>bebas<s n="adj"/></r></p></e>
     <e><p><l>besar<s n="adj"/></l><r>besar<s n="adj"/></r></p></e>
+    <e><p><l>biologis<s n="adj"/></l><r>biologi<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>cerah<s n="adj"/></l><r>cerah<s n="adj"/></r></p></e>
     <e><p><l>cermat<s n="adj"/></l><r>cermat<s n="adj"/></r></p></e>
     <e><p><l>cukup<s n="adj"/></l><r>cukup<s n="adj"/></r></p></e>
     <e><p><l>dalam<s n="adj"/></l><r>dalam<s n="adj"/></r></p></e>
     <e><p><l>dekat<s n="adj"/></l><r>dekat<s n="adj"/></r></p></e>
     <e><p><l>dingin<s n="adj"/></l><r>sejuk<s n="adj"/></r></p></e>
+    <e><p><l>dini<s n="adj"/></l><r>awal<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>diskriminatif<s n="adj"/></l><r>diskriminasi<s n="n"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>efektif<s n="adj"/></l><r>kesan<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
+    <e><p><l>efisien<s n="adj"/></l><r>kesan<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
+    <e><p><l>ekologis<s n="adj"/></l><r>ekologi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>ekonomis<s n="adj"/></l><r>ekonomi<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>ekor<s n="adj"/></l><r>ekor<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>ekstensif<s n="adj"/></l><r>seluruh<s n="det"/><s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>eksternal<s n="adj"/></l><r>luar<s n="n"/><s n="an"/><s n="sg"/></r></p></e>
+    <e><p><l>elektronis<s n="adj"/></l><r>elektronik<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>etis<s n="adj"/></l><r>etika<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
+    <e><p><l>evolusioner<s n="adj"/></l><r>evolusi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>filantropis<s n="adj"/></l><r>dermawan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>filosofis<s n="adj"/></l><r>falsafah<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>finansial<s n="adj"/></l><r>wang<s n="n"/><s n="ke-an"/><s n="sg"/></r></p></e>
+    <e><p><l>fisiologis<s n="adj"/></l><r>fisiologi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>fungsional<s n="adj"/></l><r>fungsi<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
     <e><p><l>galak<s n="adj"/></l><r>galak<s n="adj"/></r></p></e>
+    <e><p><l>geografis<s n="adj"/></l><r>geografi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>geologis<s n="adj"/></l><r>geologi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>geometris<s n="adj"/></l><r>geometri<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>gerejawi<s n="adj"/></l><r>agama<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
+    <e><p><l>grafis<s n="adj"/></l><r>grafik<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>gratis<s n="adj"/></l><r>percuma<s n="adv"/></r></p></e>
     <e><p><l>hangat<s n="adj"/></l><r>hangat<s n="adj"/></r></p></e>
+    <e><p><l>harmonis<s n="adj"/></l><r>harmoni<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>hewani<s n="adj"/></l><r>haiwan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>hipotetis<s n="adj"/></l><r>hipotesis<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>histeris<s n="adj"/></l><r>histeria<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>historis<s n="adj"/></l><r>sejarah<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>ideologis<s n="adj"/></l><r>ideologi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>imajiner<s n="adj"/></l><r>khayal<s n="n"/><s n="an"/><s n="sg"/></r></p></e>
+    <e><p><l>imbang<s n="adj"/></l><r>seri<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>indah<s n="adj"/></l><r>indah<s n="adj"/></r></p></e>
+    <e><p><l>informatif<s n="adj"/></l><r>maklumat<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
+    <e><p><l>insidental<s n="adj"/></l><r>samping<s n="n"/><s n="an"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>instan<s n="adj"/></l><r>segera<s n="adv"/></r></p></e>
+    <e><p><l>intens<s n="adj"/></l><r>dedah<s n="vblex"/><s n="actv"/></r></p></e>
     <e><p><l>internasional<s n="adj"/></l><r>antarabangsa<s n="adj"/></r></p></e>
+    <e><p><l>irasional<s n="adj"/></l><r>rasional<s n="adj"/></r></p></e>
     <e><p><l>jelas<s n="adj"/></l><r>jelas<s n="adj"/></r></p></e>
     <e><p><l>kecil<s n="adj"/></l><r>kecil<s n="adj"/></r></p></e>
+    <e><p><l>kedaluwarsa<s n="adj"/></l><r>tamat<b/>tempoh<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>kes<s n="adj"/></l><r>tunai<s n="adv"/></r></p></e>
+    <e><p><l>kimiawi<s n="adj"/></l><r>kimia<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>kolateral<s n="adj"/></l><r>cagar<s n="n"/><s n="an"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>komprehensif<s n="adj"/></l><r>seluruh<s n="det"/><s n="vblex"/><s n="actv"/></r></p></e>
+    <e r="LR"><p><l>kompulsif<s n="adj"/></l><r>tergesa-gesa<s n="adv"/></r></p></e>
+    <e><p><l>kontinental<s n="adj"/></l><r>benua<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>kontroversial<s n="adj"/></l><r>kontroversi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>kronis<s n="adj"/></l><r>kronik<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>kukuh<s n="adj"/></l><r>kukuh<s n="adj"/></r></p></e>
+    <e><p><l>kultural<s n="adj"/></l><r>budaya<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>lain<s n="adj"/></l><r>lain<s n="adj"/></r></p></e>
     <e><p><l>lama<s n="adj"/></l><r>lama<s n="adj"/></r></p></e>
     <e><p><l>lanjut<s n="adj"/></l><r>lanjut<s n="adj"/></r></p></e>
     <e><p><l>lebih<s n="adj"/></l><r>lebih<s n="adj"/></r></p></e>
+    <e><p><l>legendaris<s n="adj"/></l><r>legenda<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>legislatif<s n="adj"/></l><r>undang-undang<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>logis<s n="adj"/></l><r>logik<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>luang<s n="adj"/></l><r>luang<s n="adj"/></r></p></e>
+    <e><p><l>lunak<s n="adj"/></l><r>lunak<s n="adj"/></r></p></e>
+    <e><p><l>maksimal<s n="adj"/></l><r>maksimum<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>manajerial<s n="adj"/></l><r>urus<s n="vblex"/><s n="n"/><s n="peN-an"/><s n="sg"/></r></p></e>
+    <e><p><l>mantan<s n="adj"/></l><r>bekas<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>manusiawi<s n="adj"/></l><r>perikemanusiaan<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
+    <e><p><l>medis<s n="adj"/></l><r>ubat<s n="n"/><s n="per-an"/><s n="sg"/></r></p></e>
+    <e><p><l>metaforis<s n="adj"/></l><r>metafora<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>misterius<s n="adj"/></l><r>misteri<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>mistis<s n="adj"/></l><r>mistik<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>molekuler<s n="adj"/></l><r>molekul<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>moneter<s n="adj"/></l><r>wang<s n="n"/><s n="ke-an"/><s n="sg"/></r></p></e>
+    <e><p><l>motorik<s n="adj"/></l><r>motor<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>mungil<s n="adj"/></l><r>mungil<s n="adj"/></r></p></e>
     <e><p><l>nasional<s n="adj"/></l><r>bangsa<s n="n"/><s n="ke-an"/><s n="sg"/></r></p></e>
+    <e><p><l>neurologis<s n="adj"/></l><r>neurologi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>nirlaba<s n="adj"/></l><r>bukan<b/>untung<s n="adj"/></r></p></e>
+    <e><p><l>nonaktif<s n="adj"/></l><r>tidak<b/>aktif<s n="adj"/></r></p></e>
+    <e><p><l>operasional<s n="adj"/></l><r>operasi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>optimistis<s n="adj"/></l><r>optimis<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>otentik<s n="adj"/></l><r>asli<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>otonom<s n="adj"/></l><r>autonomi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>paralel<s n="adj"/></l><r>selari<s n="adv"/></r></p></e>
     <e><p><l>pasti<s n="adj"/></l><r>pasti<s n="adj"/></r></p></e>
+    <e><p><l>pelan<s n="adj"/></l><r>pelan<s n="adj"/></r></p></e>
+    <e><p><l>perifer<s n="adj"/></l><r>periferi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>periodik<s n="adj"/></l><r>kala<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
     <e><p><l>perlahan<s n="adj"/></l><r>perlahan<s n="adj"/></r></p></e>
+    <e><p><l>piawai<s n="adj"/></l><r>piawai<s n="adj"/></r></p></e>
+    <e><p><l>pirang<s n="adj"/></l><r>perang<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>pisik<s n="adj"/></l><r>fizikal<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>politis<s n="adj"/></l><r>politik<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>potensial<s n="adj"/></l><r>potensi<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
     <e><p><l>profesional<s n="adj"/></l><r>profesional<s n="adj"/></r></p></e>
+    <e><p><l>prosedural<s n="adj"/></l><r>prosedur<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>protokoler<s n="adj"/></l><r>protokol<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>psikis<s n="adj"/></l><r>psikologi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>psikologis<s n="adj"/></l><r>psikologi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>pusing<s n="adj"/></l><r>pusing<s n="adj"/></r></p></e>
     <e><p><l>putih<s n="adj"/></l><r>putih<s n="adj"/></r></p></e>
+    <e><p><l>rapat<s n="adj"/></l><r>rapat<s n="adj"/></r></p></e>
+    <e><p><l>rasial<s n="adj"/></l><r>kaum<s n="n"/><s n="per-an"/><s n="sg"/></r></p></e>
+    <e><p><l>religius<s n="adj"/></l><r>agama<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>sama<s n="adj"/></l><r>sama<s n="adj"/></r></p></e>
+    <e><p><l>seluler<s n="adj"/></l><r>bimbit<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>senang<s n="adj"/></l><r>senang<s n="adj"/></r></p></e>
     <e r="RL"><p><l>senang<s n="adj"/></l><r>seronok<s n="adj"/></r></p></e>
     <e><p><l>senang<s n="adj"/><s n="vblex"/><s n="actv"/><s n="kan"/></l><r>seronok<s n="adj"/><s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>sensasional<s n="adj"/></l><r>sensasi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>sering<s n="adj"/></l><r>sering<s n="adj"/></r></p></e>
+    <e><p><l>simetris<s n="adj"/></l><r>simetri<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>simpatik<s n="adj"/></l><r>simpati<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>struktural<s n="adj"/></l><r>struktur<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>suka<s n="adj"/></l><r>suka<s n="adj"/></r></p></e>
     <e><p><l>tentu<s n="adj"/></l><r>tentu<s n="adj"/></r></p></e>
+    <e><p><l>trendi<s n="adj"/></l><r>gaya<s n="n"/><s n="vblex"/><s n="ber"/></r></p></e>
     <e><p><l>tua<s n="adj"/></l><r>tua<s n="adj"/></r></p></e>
     <e><p><l>umum<s n="adj"/></l><r>umum<s n="adj"/></r></p></e>
     <e><p><l>utama<s n="adj"/></l><r>utama<s n="adj"/></r></p></e>
-    
-    <e><p><l>banyak<s n="adj"/><s n="se"/></l><r>ramai<s n="adj"/><s n="se"/></r></p></e>
+    <e><p><l>yudisial<s n="adj"/></l><r>hakim<s n="n"/><s n="ke-an"/><s n="sg"/></r></p></e>    
     
     <!-- Proper Nouns -->
     <e><p><l>Maria<s n="np"/></l><r>Maria<s n="np"/></r></p></e>
@@ -5149,7 +5248,7 @@
     <e><p><l>niscaya<s n="adv"/></l><r>nescaya<s n="adv"/></r></p></e>
     <e><p><l>nyaris<s n="adv"/></l><r>nyaris<s n="adv"/></r></p></e>
     <e><p><l>pecicilan<s n="adv"/></l><r>pecicilan<s n="adv"/></r></p></e>
-    <e><p><l>percuma<s n="adv"/></l><r>percuma<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>percuma<s n="adv"/></l><r>percuma<s n="adv"/></r></p></e>
     <e><p><l>perlu<s n="adv"/></l><r>perlu<s n="adv"/></r></p></e>
     <e><p><l>pernah<s n="adv"/></l><r>pernah<s n="adv"/></r></p></e>
     <e><p><l>pertama-tama<s n="adv"/></l><r>pertama-tama<s n="adv"/></r></p></e>
@@ -5244,7 +5343,7 @@
     <e><p><l>selama-lamanya<s n="adv"/></l><r>selama-lamanya<s n="adv"/></r></p></e>
     <e><p><l>selamanya<s n="adv"/></l><r>selamanya<s n="adv"/></r></p></e>
     <e><p><l>selanjutnya<s n="adv"/></l><r>selanjutnya<s n="adv"/></r></p></e>
-    <e><p><l>selari<s n="adv"/></l><r>selari<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>selari<s n="adv"/></l><r>selari<s n="adv"/></r></p></e>
     <e><p><l>selayaknya<s n="adv"/></l><r>selayaknya<s n="adv"/></r></p></e>
     <e><p><l>selekas-lekasnya<s n="adv"/></l><r>selekas-lekasnya<s n="adv"/></r></p></e>
     <e><p><l>selekasnya<s n="adv"/></l><r>selekasnya<s n="adv"/></r></p></e>

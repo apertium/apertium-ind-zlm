@@ -24,6 +24,7 @@ dev/story.ms.txt -text
 dev/testvoc-summary.id-ms.txt -text
 dev/testvoc-summary.ms-id.txt -text
 dev/testvoc.sh -text
+dev/trimmed-coverage.sh -text
 /empty.t1x -text
 /id-ms.prob -text svneol=unset#unset
 /modes.xml -text
