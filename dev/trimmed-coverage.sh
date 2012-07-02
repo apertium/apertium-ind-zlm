@@ -24,12 +24,12 @@ sorted=$(mktemp -t trimmed-coverage.XXXXXXXXX)
 stripwords="the The of oblast in In it if ki any will his this who we right new their kraj that OfNm you www com org Ob http px inst also na on one One On och till und with which were can when was"
 
 for w in $stripwords;
-do pattern=$pattern's/'$w'//g;'
+do pattern=$pattern's/\<'$w'\>//g;'
 done
 
 ### Do the translation:
-apertium-destxt | $SED -e $pattern | apertium -f none -d .. id-ms-transfer | apertium-cleanstream -n | tee "$transfout" | lt-proc -d ../id-ms.autogen.bin > "$genout"
-#apertium-destxt | $SED -e $pattern | apertium -f none -d .. ms-id-transfer | apertium-cleanstream -n | tee "$transfout" | lt-proc -d ../ms-id.autogen.bin > "$genout"
+apertium-deshtml | $SED -e $pattern | apertium -f none -d .. id-ms-transfer | apertium-cleanstream -n | tee "$transfout" | lt-proc -d ../id-ms.autogen.bin > "$genout"
+#apertium-deshtml | $SED -e $pattern | apertium -f none -d .. ms-id-transfer | apertium-cleanstream -n | tee "$transfout" | lt-proc -d ../ms-id.autogen.bin > "$genout"
 
 ### Calculate stuff:
 # Make sorting and printf the same regardless of locale (has to be set after apertium commands):
