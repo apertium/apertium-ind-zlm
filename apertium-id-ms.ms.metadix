@@ -2714,7 +2714,7 @@
       </p>
     </e>
     </pardef>
-    <pardef n="sebanyak__adj">
+    <pardef n="sebaik__adj">
     <e>
       <p>
         <l></l>
@@ -6059,6 +6059,7 @@
     <e lm="sahaya"><i>sahaya</i><par n="abad/__n" prm="sahaya"/></e>
     <e lm="sahib"><i>sahib</i><par n="abad/__n" prm="sahib"/></e>
     <e lm="sains"><i>sains</i><par n="abad/__n" prm="sains"/></e>
+    <e lm="saiz"><i>saiz</i><par n="abad/__n" prm="saiz"/></e>
     <e lm="sajak"><i>sajak</i><par n="abad/__n" prm="sajak"/></e>
     <e lm="sak"><i>sak</i><par n="abad/__n" prm="sak"/></e>
     <e lm="sake"><i>sake</i><par n="abad/__n" prm="sake"/></e>
@@ -13976,6 +13977,7 @@
     <e lm="sabun"><p><l>bersabun</l><r>sabun</r></p><par n="beragama__n"/></e>
     <e lm="safari"><p><l>bersafari</l><r>safari</r></p><par n="beragama__n"/></e>
     <e lm="sahabat"><p><l>bersahabat</l><r>sahabat</r></p><par n="beragama__n"/></e>
+    <e lm="saiz"><p><l>bersaiz</l><r>saiz</r></p><par n="beragama__n"/></e>
     <e lm="sajak"><p><l>bersajak</l><r>sajak</r></p><par n="beragama__n"/></e>
     <e lm="saksi"><p><l>bersaksi</l><r>saksi</r></p><par n="beragama__n"/></e>
     <e lm="salam"><p><l>bersalam</l><r>salam</r></p><par n="beragama__n"/></e>
@@ -14330,6 +14332,7 @@
     <e lm="alim"><i>alim</i><par n="baik__adj"/></e>
     <e lm="alot"><i>alot</i><par n="baik__adj"/></e>
     <e lm="alpa"><i>alpa</i><par n="baik__adj"/></e>
+    <e lm="am"><i>am</i><par n="baik__adj"/></e>
     <e lm="aman"><i>aman</i><par n="baik__adj"/></e>
     <e lm="ambigu"><i>ambigu</i><par n="baik__adj"/></e>
     <e lm="amburadul"><i>amburadul</i><par n="baik__adj"/></e>
@@ -14381,6 +14384,7 @@
     <e lm="aus"><i>aus</i><par n="baik__adj"/></e>
     <e lm="autentik"><i>autentik</i><par n="baik__adj"/></e>
     <e lm="autistik"><i>autistik</i><par n="baik__adj"/></e>
+    <e lm="automatik"><i>automatik</i><par n="baik__adj"/></e>
     <e lm="automotif"><i>automotif</i><par n="baik__adj"/></e>
     <e lm="awam"><i>awam</i><par n="baik__adj"/></e>
     <e lm="awet"><i>awet</i><par n="baik__adj"/></e>
@@ -14439,6 +14443,7 @@
     <e lm="berani"><i>berani</i><par n="baik__adj"/></e>
     <e lm="berat"><i>berat</i><par n="baik__adj"/></e>
     <e lm="berdikari"><i>berdikari</i><par n="baik__adj"/></e>
+    <e lm="berengsek"><i>berengsek</i><par n="baik__adj"/></e>
     <e lm="beres"><i>beres</i><par n="baik__adj"/></e>
     <e lm="beret"><i>beret</i><par n="baik__adj"/></e>
     <e lm="bernas"><i>bernas</i><par n="baik__adj"/></e>
@@ -14475,6 +14480,7 @@
     <e lm="bombastis"><i>bombastis</i><par n="baik__adj"/></e>
     <e lm="bonafide"><i>bonafide</i><par n="baik__adj"/></e>
     <e lm="bongkak"><i>bongkak</i><par n="baik__adj"/></e>
+    <e lm="bongkok"><i>bongkok</i><par n="baik__adj"/></e>
     <e lm="bontot"><i>bontot</i><par n="baik__adj"/></e>
     <e lm="bonyok"><i>bonyok</i><par n="baik__adj"/></e>
     <e lm="bopeng"><i>bopeng</i><par n="baik__adj"/></e>
@@ -14578,6 +14584,7 @@
     <e lm="dengki"><i>dengki</i><par n="baik__adj"/></e>
     <e lm="dental"><i>dental</i><par n="baik__adj"/></e>
     <e lm="deras"><i>deras</i><par n="baik__adj"/></e>
+    <e lm="derhaka"><i>derhaka</i><par n="baik__adj"/></e>
     <e lm="derivatif"><i>derivatif</i><par n="baik__adj"/></e>
     <e lm="dewasa"><i>dewasa</i><par n="baik__adj"/></e>
     <e lm="diagonal"><i>diagonal</i><par n="baik__adj"/></e>
@@ -14600,6 +14607,7 @@
     <e lm="dower"><i>dower</i><par n="baik__adj"/></e>
     <e lm="doyan"><i>doyan</i><par n="baik__adj"/></e>
     <e lm="dramatik"><i>dramatik</i><par n="baik__adj"/></e>
+    <e lm="drastik"><i>drastik</i><par n="baik__adj"/></e>
     <e lm="duka"><i>duka</i><par n="baik__adj"/></e>
     <e lm="dungu"><i>dungu</i><par n="baik__adj"/></e>
     <e lm="duniawi"><i>duniawi</i><par n="baik__adj"/></e>
@@ -14690,11 +14698,13 @@
     <e lm="geger"><i>geger</i><par n="baik__adj"/></e>
     <e lm="gelap"><i>gelap</i><par n="baik__adj"/></e>
     <e lm="gelisah"><i>gelisah</i><par n="baik__adj"/></e>
+    <e lm="gelita"><i>gelita</i><par n="baik__adj"/></e>
     <e lm="gelo"><i>gelo</i><par n="baik__adj"/></e>
     <e lm="gemar"><i>gemar</i><par n="baik__adj"/></e>
     <e lm="gembel"><i>gembel</i><par n="baik__adj"/></e>
     <e lm="gembira"><i>gembira</i><par n="baik__adj"/></e>
     <e lm="gembrot"><i>gembrot</i><par n="baik__adj"/></e>
+    <e lm="gementar"><i>gementar</i><par n="baik__adj"/></e>
     <e lm="gemerlap"><i>gemerlap</i><par n="baik__adj"/></e>
     <e lm="gemilang"><i>gemilang</i><par n="baik__adj"/></e>
     <e lm="gempal"><i>gempal</i><par n="baik__adj"/></e>
@@ -14871,6 +14881,7 @@
     <e lm="jinak"><i>jinak</i><par n="baik__adj"/></e>
     <e lm="jitu"><i>jitu</i><par n="baik__adj"/></e>
     <e lm="jompo"><i>jompo</i><par n="baik__adj"/></e>
+    <e lm="jongang"><i>jongang</i><par n="baik__adj"/></e>
     <e lm="judes"><i>judes</i><par n="baik__adj"/></e>
     <e lm="jujur"><i>jujur</i><par n="baik__adj"/></e>
     <e lm="juling"><i>juling</i><par n="baik__adj"/></e>
@@ -14995,6 +15006,7 @@
     <e lm="kontinental"><i>kontinental</i><par n="baik__adj"/></e>
     <e lm="kontra"><i>kontra</i><par n="baik__adj"/></e>
     <e lm="kontradiktif"><i>kontradiktif</i><par n="baik__adj"/></e>
+    <e lm="kontraproduktif"><i>kontraproduktif</i><par n="baik__adj"/></e>
     <e lm="kontras"><i>kontras</i><par n="baik__adj"/></e>
     <e lm="konvensional"><i>konvensional</i><par n="baik__adj"/></e>
     <e lm="konvergen"><i>konvergen</i><par n="baik__adj"/></e>
@@ -15201,6 +15213,7 @@
     <e lm="materialistik"><i>materialistik</i><par n="baik__adj"/></e>
     <e lm="megah"><i>megah</i><par n="baik__adj"/></e>
     <e lm="megalomaniak"><i>megalomaniak</i><par n="baik__adj"/></e>
+    <e lm="mekanikal"><i>mekanikal</i><par n="baik__adj"/></e>
     <e lm="mekanis"><i>mekanis</i><par n="baik__adj"/></e>
     <e lm="melankolis"><i>melankolis</i><par n="baik__adj"/></e>
     <e lm="melar"><i>melar</i><par n="baik__adj"/></e>
@@ -15261,7 +15274,6 @@
     <e lm="mulus"><i>mulus</i><par n="baik__adj"/></e>
     <e lm="munafik"><i>munafik</i><par n="baik__adj"/></e>
     <e lm="munasabah"><i>munasabah</i><par n="baik__adj"/></e>
-    <e lm="mungil"><i>mungil</i><par n="baik__adj"/></e>
     <e lm="mungkar"><i>mungkar</i><par n="baik__adj"/></e>
     <e lm="mungut"><i>mungut</i><par n="baik__adj"/></e>
     <e lm="murah"><i>murah</i><par n="baik__adj"/></e>
@@ -15316,6 +15328,7 @@
     <e lm="optik"><i>optik</i><par n="baik__adj"/></e>
     <e lm="optimistik"><i>optimistik</i><par n="baik__adj"/></e>
     <e lm="optimum"><i>optimum</i><par n="baik__adj"/></e>
+    <e lm="optional"><i>optional</i><par n="baik__adj"/></e>
     <e lm="oral"><i>oral</i><par n="baik__adj"/></e>
     <e lm="organik"><i>organik</i><par n="baik__adj"/></e>
     <e lm="orgasmik"><i>orgasmik</i><par n="baik__adj"/></e>
@@ -15394,6 +15407,7 @@
     <e lm="pesimistis"><i>pesimistis</i><par n="baik__adj"/></e>
     <e lm="pesing"><i>pesing</i><par n="baik__adj"/></e>
     <e lm="petenteng"><i>petenteng</i><par n="baik__adj"/></e>
+    <e lm="piawai"><i>piawai</i><par n="baik__adj"/></e>
     <e lm="picik"><i>picik</i><par n="baik__adj"/></e>
     <e lm="pico"><i>pico</i><par n="baik__adj"/></e>
     <e lm="pikun"><i>pikun</i><par n="baik__adj"/></e>
@@ -15412,6 +15426,8 @@
     <e lm="posesif"><i>posesif</i><par n="baik__adj"/></e>
     <e lm="positif"><i>positif</i><par n="baik__adj"/></e>
     <e lm="posterior"><i>posterior</i><par n="baik__adj"/></e>
+    <e lm="pragmatik"><i>pragmatik</i><par n="baik__adj"/></e>
+    <e lm="praktikal"><i>praktikal</i><par n="baik__adj"/></e>
     <e lm="praktis"><i>praktis</i><par n="baik__adj"/></e>
     <e lm="pranikah"><i>pranikah</i><par n="baik__adj"/></e>
     <e lm="prematur"><i>prematur</i><par n="baik__adj"/></e>
@@ -15448,6 +15464,7 @@
     <e lm="pupus"><i>pupus</i><par n="baik__adj"/></e>
     <e lm="purba"><i>purba</i><par n="baik__adj"/></e>
     <e lm="purnama"><i>purnama</i><par n="baik__adj"/></e>
+    <e lm="pusing"><i>pusing</i><par n="baik__adj"/></e>
     <e lm="putih"><i>putih</i><par n="baik__adj"/></e>
     <e lm="puyeng"><i>puyeng</i><par n="baik__adj"/></e>
     <e lm="rabun"><i>rabun</i><par n="baik__adj"/></e>
@@ -15472,6 +15489,7 @@
     <e lm="rasional"><i>rasional</i><par n="baik__adj"/></e>
     <e lm="rasmi"><i>rasmi</i><par n="baik__adj"/></e>
     <e lm="rata"><i>rata</i><par n="baik__adj"/></e>
+    <e lm="rawak"><i>rawak</i><par n="baik__adj"/></e>
     <e lm="rawan"><i>rawan</i><par n="baik__adj"/></e>
     <e lm="raya"><i>raya</i><par n="baik__adj"/></e>
     <e lm="reaksioner"><i>reaksioner</i><par n="baik__adj"/></e>
@@ -15490,6 +15508,7 @@
     <e lm="remeh"><i>remeh</i><par n="baik__adj"/></e>
     <e lm="remuk"><i>remuk</i><par n="baik__adj"/></e>
     <e lm="rendah"><i>rendah</i><par n="baik__adj"/></e>
+    <e lm="rendang"><i>rendang</i><par n="baik__adj"/></e>
     <e lm="renggang"><i>renggang</i><par n="baik__adj"/></e>
     <e lm="rentan"><i>rentan</i><par n="baik__adj"/></e>
     <e lm="renyah"><i>renyah</i><par n="baik__adj"/></e>
@@ -15564,7 +15583,9 @@
     <e lm="sayu"><i>sayu</i><par n="baik__adj"/></e>
     <e lm="sayup"><i>sayup</i><par n="baik__adj"/></e>
     <e lm="sebal"><i>sebal</i><par n="baik__adj"/></e>
+    <e lm="sebarang"><i>sebarang</i><par n="baik__adj"/></e>
     <e lm="sebel"><i>sebel</i><par n="baik__adj"/></e>
+    <e lm="sebentar"><i>sebentar</i><par n="baik__adj"/></e>
     <e lm="sedap"><i>sedap</i><par n="baik__adj"/></e>
     <e lm="sedar"><i>sedar</i><par n="baik__adj"/></e>
     <e lm="sederhana"><i>sederhana</i><par n="baik__adj"/></e>
@@ -15596,6 +15617,7 @@
     <e lm="sempurna"><i>sempurna</i><par n="baik__adj"/></e>
     <e lm="semrawut"><i>semrawut</i><par n="baik__adj"/></e>
     <e lm="semu"><i>semu</i><par n="baik__adj"/></e>
+    <e lm="semulajadi"><i>semulajadi</i><par n="baik__adj"/></e>
     <e lm="senang"><i>senang</i><par n="baik__adj"/></e>
     <e lm="sendiri"><i>sendiri</i><par n="baik__adj"/></e>
     <e lm="sendu"><i>sendu</i><par n="baik__adj"/></e>
@@ -15639,6 +15661,7 @@
     <e lm="sesuai"><i>sesuai</i><par n="baik__adj"/></e>
     <e lm="setia"><i>setia</i><par n="baik__adj"/></e>
     <e lm="setiawan"><i>setiawan</i><par n="baik__adj"/></e>
+    <e lm="setimpal"><i>setimpal</i><par n="baik__adj"/></e>
     <e lm="sewot"><i>sewot</i><par n="baik__adj"/></e>
     <e lm="sial"><i>sial</i><par n="baik__adj"/></e>
     <e lm="sibuk"><i>sibuk</i><par n="baik__adj"/></e>
@@ -15668,6 +15691,7 @@
     <e lm="soak"><i>soak</i><par n="baik__adj"/></e>
     <e lm="sobek"><i>sobek</i><par n="baik__adj"/></e>
     <e lm="soe"><i>soe</i><par n="baik__adj"/></e>
+    <e lm="soleh"><i>soleh</i><par n="baik__adj"/></e>
     <e lm="solid"><i>solid</i><par n="baik__adj"/></e>
     <e lm="soliter"><i>soliter</i><par n="baik__adj"/></e>
     <e lm="sombong"><i>sombong</i><par n="baik__adj"/></e>
@@ -15718,6 +15742,7 @@
     <e lm="superfisial"><i>superfisial</i><par n="baik__adj"/></e>
     <e lm="supernatural"><i>supernatural</i><par n="baik__adj"/></e>
     <e lm="supersonik"><i>supersonik</i><par n="baik__adj"/></e>
+    <e lm="supportif"><i>supportif</i><par n="baik__adj"/></e>
     <e lm="suram"><i>suram</i><par n="baik__adj"/></e>
     <e lm="surati"><i>surati</i><par n="baik__adj"/></e>
     <e lm="surgawi"><i>surgawi</i><par n="baik__adj"/></e>
@@ -15732,6 +15757,7 @@
     <e lm="tahan"><i>tahan</i><par n="baik__adj"/></e>
     <e lm="tahir"><i>tahir</i><par n="baik__adj"/></e>
     <e lm="tajam"><i>tajam</i><par n="baik__adj"/></e>
+    <e lm="takbur"><i>takbur</i><par n="baik__adj"/></e>
     <e lm="takjub"><i>takjub</i><par n="baik__adj"/></e>
     <e lm="taktikal"><i>taktikal</i><par n="baik__adj"/></e>
     <e lm="taktil"><i>taktil</i><par n="baik__adj"/></e>
@@ -15762,12 +15788,14 @@
     <e lm="teler"><i>teler</i><par n="baik__adj"/></e>
     <e lm="telik"><i>telik</i><par n="baik__adj"/></e>
     <e lm="teliti"><i>teliti</i><par n="baik__adj"/></e>
+    <e lm="telus"><i>telus</i><par n="baik__adj"/></e>
     <e lm="temaram"><i>temaram</i><par n="baik__adj"/></e>
     <e lm="tempang"><i>tempang</i><par n="baik__adj"/></e>
     <e lm="temperamental"><i>temperamental</i><par n="baik__adj"/></e>
     <e lm="temporal"><i>temporal</i><par n="baik__adj"/></e>
     <e lm="tenang"><i>tenang</i><par n="baik__adj"/></e>
     <e lm="tenar"><i>tenar</i><par n="baik__adj"/></e>
+    <e lm="tenat"><i>tenat</i><par n="baik__adj"/></e>
     <e lm="tengik"><i>tengik</i><par n="baik__adj"/></e>
     <e lm="tengil"><i>tengil</i><par n="baik__adj"/></e>
     <e lm="tentatif"><i>tentatif</i><par n="baik__adj"/></e>
@@ -15858,6 +15886,7 @@
     <e lm="zalim"><i>zalim</i><par n="baik__adj"/></e>
     <e lm="ziana"><i>ziana</i><par n="baik__adj"/></e>
 
+
     <!-- -an -->
     <e lm="dalam"><i>dalam</i><par n="dalam/__adj" prm="dalam"/></e>
     <e lm="rayu"><i>rayu</i><par n="dalam/__adj" prm="rayu"/></e>
@@ -15865,14 +15894,46 @@
     <e lm="timbal"><i>timbal</i><par n="dalam/__adj" prm="timbal"/></e>
 
     <!-- se- -->
-    <!-- N -> Adj -->
-    <e lm="gerak"><p><l>segerak</l><r>gerak</r></p><par n="sekelas__n"/></e>
-    
     <!-- Adj -> Adj -->
-    <e lm="banyak"><p><l>sebanyak</l><r>banyak</r></p><par n="sebanyak__adj"/></e>
-    <e lm="benar"><p><l>sebenar</l><r>benar</r></p><par n="sebanyak__adj"/></e>
-    <e lm="padan"><p><l>sepadan</l><r>padan</r></p><par n="sebanyak__adj"/></e>
-    <e lm="ramai"><p><l>seramai</l><r>ramai</r></p><par n="sebanyak__adj"/></e>
+    <e lm="baik"><p><l>sebaik</l><r>baik</r></p><par n="sebaik__adj"/></e>
+    <e lm="banyak"><p><l>sebanyak</l><r>banyak</r></p><par n="sebaik__adj"/></e>
+    <e lm="banyak"><p><l>sebanyak</l><r>banyak</r></p><par n="sebaik__adj"/></e>
+    <e lm="bati"><p><l>sebati</l><r>bati</r></p><par n="sebaik__adj"/></e>
+    <e lm="benar"><p><l>sebenar</l><r>benar</r></p><par n="sebaik__adj"/></e>
+    <e lm="besar"><p><l>sebesar</l><r>besar</r></p><par n="sebaik__adj"/></e>
+    <e lm="cepat"><p><l>secepat</l><r>cepat</r></p><par n="sebaik__adj"/></e>
+    <e lm="cukup"><p><l>secukup</l><r>cukup</r></p><par n="sebaik__adj"/></e>
+    <e lm="datar"><p><l>sedatar</l><r>datar</r></p><par n="sebaik__adj"/></e>
+    <e lm="elok"><p><l>seelok</l><r>elok</r></p><par n="sebaik__adj"/></e>
+    <e lm="hina"><p><l>sehina</l><r>hina</r></p><par n="sebaik__adj"/></e>
+    <e lm="imbang"><p><l>seimbang</l><r>imbang</r></p><par n="sebaik__adj"/></e>
+    <e lm="kecil"><p><l>sekecil</l><r>kecil</r></p><par n="sebaik__adj"/></e>
+    <e lm="kelumit"><p><l>sekelumit</l><r>kelumit</r></p><par n="sebaik__adj"/></e>
+    <e lm="lengkap"><p><l>selengkap</l><r>lengkap</r></p><par n="sebaik__adj"/></e>
+    <e lm="mampu"><p><l>semampu</l><r>mampu</r></p><par n="sebaik__adj"/></e>
+    <e lm="manis"><p><l>semanis</l><r>manis</r></p><par n="sebaik__adj"/></e>
+    <e lm="mudah"><p><l>semudah</l><r>mudah</r></p><par n="sebaik__adj"/></e>
+    <e lm="mujur"><p><l>semujur</l><r>mujur</r></p><par n="sebaik__adj"/></e>
+    <e lm="padan"><p><l>sepadan</l><r>padan</r></p><par n="sebaik__adj"/></e>
+    <e lm="penuh"><p><l>sepenuh</l><r>penuh</r></p><par n="sebaik__adj"/></e>
+    <e lm="ramai"><p><l>seramai</l><r>ramai</r></p><par n="sebaik__adj"/></e>
+    <e lm="remeh"><p><l>seremeh</l><r>remeh</r></p><par n="sebaik__adj"/></e>
+    <e lm="suka"><p><l>sesuka</l><r>suka</r></p><par n="sebaik__adj"/></e>
+    <e lm="tegak"><p><l>setegak</l><r>tegak</r></p><par n="sebaik__adj"/></e>
+    <e lm="timbal"><p><l>setimbal</l><r>timbal</r></p><par n="sebaik__adj"/></e>
+    <e lm="timbang"><p><l>setimbang</l><r>timbang</r></p><par n="sebaik__adj"/></e>
+    <e lm="utuh"><p><l>seutuh</l><r>utuh</r></p><par n="sebaik__adj"/></e>
+    <e lm="wajar"><p><l>sewajar</l><r>wajar</r></p><par n="sebaik__adj"/></e>
+
+    <!-- N -> Adj -->
+    <e lm="daging"><p><l>sedaging</l><r>daging</r></p><par n="sekelas__n"/></e>
+    <e lm="gerak"><p><l>segerak</l><r>gerak</r></p><par n="sekelas__n"/></e>
+    <e lm="kelas"><p><l>sekelas</l><r>kelas</r></p><par n="sekelas__n"/></e>
+    <e lm="macam"><p><l>semacam</l><r>macam</r></p><par n="sekelas__n"/></e>
+    <e lm="muka"><p><l>semuka</l><r>muka</r></p><par n="sekelas__n"/></e>
+    <e lm="padan"><p><l>sepadan</l><r>padan</r></p><par n="sekelas__n"/></e>
+    <e lm="pusat"><p><l>sepusat</l><r>pusat</r></p><par n="sekelas__n"/></e>
+    <e lm="taraf"><p><l>setaraf</l><r>taraf</r></p><par n="sekelas__n"/></e>
 
     <!-- ter- -->
     <!-- Adj -> Adj -->
