@@ -19,6 +19,8 @@ dev/inconsistency.sh -text
 dev/ms.coverage-summary.txt -text
 dev/news200612.id.txt -text
 dev/news200612.ms.txt -text
+dev/pgoh13.id.txt -text
+dev/pgoh13.ms.txt -text
 dev/story.id.txt -text
 dev/story.ms.txt -text
 dev/testvoc-summary.id-ms.txt -text
