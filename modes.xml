@@ -92,7 +92,7 @@
   <mode name="ms-id-tagger" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="id-ms.automorf.bin"/>
+        <file name="ms-id.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="ms-id.prob"/>
