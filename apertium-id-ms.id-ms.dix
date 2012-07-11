@@ -143,6 +143,7 @@
     <e><p><l>jembatan<s n="n"/></l><r>jambatan<s n="n"/></r></p></e>
     <e><p><l>jendela<s n="n"/></l><r>tingkap<s n="n"/></r></p></e>
     <e r="RL"><p><l>jendela<s n="n"/></l><r>jendela<s n="n"/></r></p></e>
+    <e><p><l>kabar<s n="n"/></l><r>khabar<s n="n"/></r></p></e>
     <e><p><l>kamar<s n="n"/></l><r>bilik<s n="n"/></r></p></e>
     <e><p><l>kantor<s n="n"/></l><r>jabat<s n="vblex"/><s n="subst"/><s n="pe"/></r></p></e>
     <e><p><l>karpet<s n="n"/></l><r>karpet<s n="n"/></r></p></e>
@@ -4937,9 +4938,10 @@
     <e><p><l>sedia<s n="vblex"/><s n="ter"/></l><r>sedia<s n="adj"/></r></p></e>
     <e><p><l>undang<s n="vblex"/><s n="subst"/><s n="an"/><s n="sg"/></l><r>selia<s n="adj"/></r></p></e>
     
-    <!-- Adjectives -->    
+    <!-- Adjectives -->
     <e><p><l>Romawi<s n="adj"/></l><r>Rom<s n="adj"/></r></p></e>
     <e><p><l>abadi<s n="adj"/></l><r>abadi<s n="adj"/></r></p></e>
+    <e><p><l>abai<s n="adj"/></l><r>abai<s n="adj"/></r></p></e>
     <e><p><l>abnormal<s n="adj"/></l><r>abnormal<s n="adj"/></r></p></e>
     <e><p><l>absah<s n="adj"/></l><r>absah<s n="adj"/></r></p></e>
     <e><p><l>absolut<s n="adj"/></l><r>absolut<s n="adj"/></r></p></e>
@@ -5007,6 +5009,7 @@
     <e><p><l>amis<s n="adj"/></l><r>hamis<s n="adj"/></r></p></e>
     <e r="RL"><p><l>amis<s n="adj"/></l><r>amis<s n="adj"/></r></p></e>
     <e><p><l>amoral<s n="adj"/></l><r>amoral<s n="adj"/></r></p></e>
+    <e><p><l>ampai<s n="adj"/></l><r>ampai<s n="adj"/></r></p></e>
     <e><p><l>ampuh<s n="adj"/></l><r>ampuh<s n="adj"/></r></p></e>
     <e><p><l>anaerobik<s n="adj"/></l><r>anaerobik<s n="adj"/></r></p></e>
     <e><p><l>anal<s n="adj"/></l><r>anal<s n="adj"/></r></p></e>
@@ -5060,6 +5063,7 @@
     <e><p><l>awam<s n="adj"/></l><r>awam<s n="adj"/></r></p></e>
     <e><p><l>awet<s n="adj"/></l><r>awet<s n="adj"/></r></p></e>
     <e><p><l>ayu<s n="adj"/></l><r>ayu<s n="adj"/></r></p></e>
+    <e><p><l>azam<s n="adj"/></l><r>azam<s n="adj"/></r></p></e>
     <e><p><l>aziz<s n="adj"/></l><r>aziz<s n="adj"/></r></p></e>
     <e><p><l>bagal<s n="adj"/></l><r>bagal<s n="adj"/></r></p></e>
     <e><p><l>bagus<s n="adj"/></l><r>bagus<s n="adj"/></r></p></e>
@@ -5073,6 +5077,7 @@
     <e><p><l>banci<s n="adj"/></l><r>banci<s n="adj"/></r></p></e>
     <e><p><l>bandel<s n="adj"/></l><r>bandel<s n="adj"/></r></p></e>
     <e><p><l>bangga<s n="adj"/></l><r>bangga<s n="adj"/></r></p></e>
+    <e><p><l>bangkang<s n="adj"/></l><r>bangkang<s n="adj"/></r></p></e>
     <e><p><l>bangkut<s n="adj"/></l><r>bangkut<s n="adj"/></r></p></e>
     <e><p><l>bangsai<s n="adj"/></l><r>bangsai<s n="adj"/></r></p></e>
     <e><p><l>banter<s n="adj"/></l><r>banter<s n="adj"/></r></p></e>
@@ -5095,6 +5100,7 @@
     <e><p><l>bego<s n="adj"/></l><r>bego<s n="adj"/></r></p></e>
     <e><p><l>bejat<s n="adj"/></l><r>bejat<s n="adj"/></r></p></e>
     <e><p><l>beku<s n="adj"/></l><r>beku<s n="adj"/></r></p></e>
+    <e><p><l>belalak<s n="adj"/></l><r>belalak<s n="adj"/></r></p></e>
     <e><p><l>belantara<s n="adj"/></l><r>belantara<s n="adj"/></r></p></e>
     <e><p><l>belia<s n="adj"/></l><r>belia<s n="adj"/></r></p></e>
     <e><p><l>belon<s n="adj"/></l><r>belon<s n="adj"/></r></p></e>
@@ -5164,6 +5170,7 @@
     <e><p><l>bulat<s n="adj"/></l><r>bulat<s n="adj"/></r></p></e>
     <e><p><l>bule<s n="adj"/></l><r>bule<s n="adj"/></r></p></e>
     <e><p><l>bulus<s n="adj"/></l><r>bulus<s n="adj"/></r></p></e>
+    <e><p><l>buncah<s n="adj"/></l><r>buncah<s n="adj"/></r></p></e>
     <e><p><l>buncit<s n="adj"/></l><r>buncit<s n="adj"/></r></p></e>
     <e><p><l>bundar<s n="adj"/></l><r>bundar<s n="adj"/></r></p></e>
     <e><p><l>bungkam<s n="adj"/></l><r>bungkam<s n="adj"/></r></p></e>
@@ -5192,8 +5199,10 @@
     <e><p><l>carut<s n="adj"/></l><r>carut<s n="adj"/></r></p></e>
     <e r="LR"><p><l>cebol<s n="adj"/></l><r>pendek<s n="adj"/></r></p></e>
     <e><p><l>cekal<s n="adj"/></l><r>cekal<s n="adj"/></r></p></e>
+    <e><p><l>cekat<s n="adj"/></l><r>cekat<s n="adj"/></r></p></e>
     <e><p><l>ceking<s n="adj"/></l><r>ceking<s n="adj"/></r></p></e>
     <e><p><l>cekung<s n="adj"/></l><r>cekung<s n="adj"/></r></p></e>
+    <e><p><l>cemar<s n="adj"/></l><r>cemar<s n="adj"/></r></p></e>
     <e><p><l>cemas<s n="adj"/></l><r>cemas<s n="adj"/></r></p></e>
     <e><p><l>cemberut<s n="adj"/></l><r>cemberut<s n="adj"/></r></p></e>
     <e><p><l>cembung<s n="adj"/></l><r>cembung<s n="adj"/></r></p></e>
@@ -5231,6 +5240,8 @@
     <e><p><l>dahaga<s n="adj"/></l><r>dahaga<s n="adj"/></r></p></e>
     <e><p><l>dahsyat<s n="adj"/></l><r>dahsyat<s n="adj"/></r></p></e>
     <e><p><l>dalam<s n="adj"/></l><r>dalam<s n="adj"/></r></p></e>
+    <e><p><l>damba<s n="adj"/></l><r>damba<s n="adj"/></r></p></e>
+    <e><p><l>damping<s n="adj"/></l><r>damping<s n="adj"/></r></p></e>
     <e><p><l>dangkal<s n="adj"/></l><r>dangkal<s n="adj"/></r></p></e>
     <e r="RL"><p><l>dangkal<s n="adj"/></l><r>cetek<s n="adj"/></r></p></e>
     <e r="LR"><p><l>datar<s n="adj"/></l><r>rata<s n="adj"/></r></p></e>
@@ -5400,6 +5411,7 @@
     <e><p><l>gelisah<s n="adj"/></l><r>gelisah<s n="adj"/></r></p></e>
     <e><p><l>gelo<s n="adj"/></l><r>gelo<s n="adj"/></r></p></e>
     <e><p><l>gemar<s n="adj"/></l><r>gemar<s n="adj"/></r></p></e>
+    <e><p><l>gemas<s n="adj"/></l><r>gemas<s n="adj"/></r></p></e>
     <e><p><l>gembel<s n="adj"/></l><r>gembel<s n="adj"/></r></p></e>
     <e><p><l>gembira<s n="adj"/></l><r>gembira<s n="adj"/></r></p></e>
     <e><p><l>gembrot<s n="adj"/></l><r>gembrot<s n="adj"/></r></p></e>
@@ -5432,9 +5444,11 @@
     <e><p><l>gerejawi<s n="adj"/></l><r>agama<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
     <e><p><l>gerek<s n="adj"/></l><r>gerek<s n="adj"/></r></p></e>
     <e><p><l>gersang<s n="adj"/></l><r>gersang<s n="adj"/></r></p></e>
+    <e><p><l>gerun<s n="adj"/></l><r>gerun<s n="adj"/></r></p></e>
     <e><p><l>gesit<s n="adj"/></l><r>gesit<s n="adj"/></r></p></e>
     <e><p><l>getir<s n="adj"/></l><r>getir<s n="adj"/></r></p></e>
     <e><p><l>gial<s n="adj"/></l><r>gial<s n="adj"/></r></p></e>
+    <e><p><l>giat<s n="adj"/></l><r>giat<s n="adj"/></r></p></e>
     <e><p><l>giat<s n="adj"/></l><r>giat<s n="adj"/></r></p></e>
     <e><p><l>gigih<s n="adj"/></l><r>gigih<s n="adj"/></r></p></e>
     <e><p><l>gila<s n="adj"/></l><r>gila<s n="adj"/></r></p></e>
@@ -5580,6 +5594,7 @@
     <e><p><l>jati<s n="adj"/></l><r>jati<s n="adj"/></r></p></e>
     <e><p><l>jauh<s n="adj"/></l><r>jauh<s n="adj"/></r></p></e>
     <e><p><l>jaya<s n="adj"/></l><r>jaya<s n="adj"/></r></p></e>
+    <e><p><l>jejal<s n="adj"/></l><r>jejal<s n="adj"/></r></p></e>
     <e><p><l>jelas<s n="adj"/></l><r>jelas<s n="adj"/></r></p></e>
     <e><p><l>jelata<s n="adj"/></l><r>jelata<s n="adj"/></r></p></e>
     <e><p><l>jelek<s n="adj"/></l><r>jelek<s n="adj"/></r></p></e>
@@ -5786,6 +5801,7 @@
     <e><p><l>kuyu<s n="adj"/></l><r>kuyu<s n="adj"/></r></p></e>
     <e><p><l>kuyup<s n="adj"/></l><r>kuyup<s n="adj"/></r></p></e>
     <e><p><l>labil<s n="adj"/></l><r>labil<s n="adj"/></r></p></e>
+    <e><p><l>labuh<s n="adj"/></l><r>labuh<s n="adj"/></r></p></e>
     <e><p><l>lacak<s n="adj"/></l><r>lacak<s n="adj"/></r></p></e>
     <e><p><l>lacur<s n="adj"/></l><r>lacur<s n="adj"/></r></p></e>
     <e><p><l>lahab<s n="adj"/></l><r>lahab<s n="adj"/></r></p></e>
@@ -5801,6 +5817,7 @@
     <e r="LR"><p><l>lamban<s n="adj"/></l><r>perlahan<s n="adj"/></r></p></e>
     <e><p><l>lambat<s n="adj"/></l><r>lambat<s n="adj"/></r></p></e>
     <e><p><l>lampau<s n="adj"/></l><r>lampau<s n="adj"/></r></p></e>
+    <e><p><l>lampias<s n="adj"/></l><r>lampias<s n="adj"/></r></p></e>
     <e><p><l>lancang<s n="adj"/></l><r>lancang<s n="adj"/></r></p></e>
     <e r="LR"><p><l>lancar<s n="adj"/></l><r>lancar<s n="adj"/></r></p></e>
     <e><p><l>lancip<s n="adj"/></l><r>lancip<s n="adj"/></r></p></e>
@@ -5808,6 +5825,7 @@
     <e><p><l>langgeng<s n="adj"/></l><r>langgeng<s n="adj"/></r></p></e>
     <e><p><l>langka<s n="adj"/></l><r>langka<s n="adj"/></r></p></e>
     <e><p><l>langsing<s n="adj"/></l><r>langsing<s n="adj"/></r></p></e>
+    <e><p><l>lanjur<s n="adj"/></l><r>lanjur<s n="adj"/></r></p></e>
     <e><p><l>lanjut<s n="adj"/></l><r>lanjut<s n="adj"/></r></p></e>
     <e><p><l>lantang<s n="adj"/></l><r>lantang<s n="adj"/></r></p></e>
     <e><p><l>lapang<s n="adj"/></l><r>lapang<s n="adj"/></r></p></e>
@@ -5843,6 +5861,7 @@
     <e><p><l>leluasa<s n="adj"/></l><r>leluasa<s n="adj"/></r></p></e>
     <e><p><l>lemah<s n="adj"/></l><r>lemah<s n="adj"/></r></p></e>
     <e><p><l>lemas<s n="adj"/></l><r>lemas<s n="adj"/></r></p></e>
+    <e><p><l>lembam<s n="adj"/></l><r>lembam<s n="adj"/></r></p></e>
     <e><p><l>lembap<s n="adj"/></l><r>lembap<s n="adj"/></r></p></e>
     <e><p><l>lembek<s n="adj"/></l><r>lembik<s n="adj"/></r></p></e>
     <e r="RL"><p><l>lembek<s n="adj"/></l><r>lembek<s n="adj"/></r></p></e>
@@ -5855,6 +5874,7 @@
     <e><p><l>lengkap<s n="adj"/></l><r>lengkap<s n="adj"/></r></p></e>
     <e><p><l>lengket<s n="adj"/></l><r>lekat<s n="adj"/><s n="actio"/><s n="actv"/></r></p></e>
     <e><p><l>lengkung<s n="adj"/></l><r>lengkung<s n="adj"/></r></p></e>
+    <e><p><l>lentik<s n="adj"/></l><r>lentik<s n="adj"/></r></p></e>
     <e><p><l>lenyap<s n="adj"/></l><r>lenyap<s n="adj"/></r></p></e>
     <e><p><l>lepas<s n="adj"/></l><r>lepas<s n="adj"/></r></p></e>
     <e><p><l>lerai<s n="adj"/></l><r>lerai<s n="adj"/></r></p></e>
@@ -5879,6 +5899,7 @@
     <e><p><l>loba<s n="adj"/></l><r>loba<s n="adj"/></r></p></e>
     <e><p><l>logis<s n="adj"/></l><r>logik<s n="n"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>logis<s n="adj"/></l><r>logis<s n="adj"/></r></p></e>
+    <e><p><l>lompong<s n="adj"/></l><r>lompong<s n="adj"/></r></p></e>
     <e><p><l>longgar<s n="adj"/></l><r>longgar<s n="adj"/></r></p></e>
     <e><p><l>lonjong<s n="adj"/></l><r>lonjong<s n="adj"/></r></p></e>
     <e><p><l>lorek<s n="adj"/></l><r>lorek<s n="adj"/></r></p></e>
@@ -5896,6 +5917,7 @@
     <e><p><l>luks<s n="adj"/></l><r>luks<s n="adj"/></r></p></e>
     <e><p><l>lumat<s n="adj"/></l><r>lumat<s n="adj"/></r></p></e>
     <e><p><l>lumayan<s n="adj"/></l><r>lumayan<s n="adj"/></r></p></e>
+    <e><p><l>lumer<s n="adj"/></l><r>lumer<s n="adj"/></r></p></e>
     <e><p><l>lumpuh<s n="adj"/></l><r>lumpuh<s n="adj"/></r></p></e>
     <e><p><l>lumrah<s n="adj"/></l><r>lumrah<s n="adj"/></r></p></e>
     <e><p><l>lunak<s n="adj"/></l><r>lunak<s n="adj"/></r></p></e>
@@ -6014,6 +6036,7 @@
     <e><p><l>mubazir<s n="adj"/></l><r>bazir<s n="adj"/><s n="actio"/><s n="actv"/></r></p></e>
     <e><p><l>muda<s n="adj"/></l><r>muda<s n="adj"/></r></p></e>
     <e><p><l>mudah<s n="adj"/></l><r>mudah<s n="adj"/></r></p></e>
+    <e><p><l>mufakat<s n="adj"/></l><r>mufakat<s n="adj"/></r></p></e>
     <e><p><l>mujarab<s n="adj"/></l><r>mujarab<s n="adj"/></r></p></e>
     <e><p><l>mujur<s n="adj"/></l><r>mujur<s n="adj"/></r></p></e>
     <e><p><l>muktamad<s n="adj"/></l><r>muktamad<s n="adj"/></r></p></e>
@@ -6112,6 +6135,7 @@
     <e><p><l>pailit<s n="adj"/></l><r>pailit<s n="adj"/></r></p></e>
     <e><p><l>paleolitik<s n="adj"/></l><r>paleolitik<s n="adj"/></r></p></e>
     <e><p><l>palsu<s n="adj"/></l><r>palsu<s n="adj"/></r></p></e>
+    <e><p><l>pampat<s n="adj"/></l><r>pampat<s n="adj"/></r></p></e>
     <e><p><l>panas<s n="adj"/></l><r>panas<s n="adj"/></r></p></e>
     <e><p><l>pandai<s n="adj"/></l><r>pandai<s n="adj"/></r></p></e>
     <e><p><l>pandemik<s n="adj"/></l><r>pandemik<s n="adj"/></r></p></e>
@@ -6121,6 +6145,7 @@
     <e><p><l>pantas<s n="adj"/></l><r>pantas<s n="adj"/></r></p></e>
     <e><p><l>papa<s n="adj"/></l><r>papa<s n="adj"/></r></p></e>
     <e><p><l>papak<s n="adj"/></l><r>papak<s n="adj"/></r></p></e>
+    <e><p><l>papar<s n="adj"/></l><r>papar<s n="adj"/></r></p></e>
     <e><p><l>parah<s n="adj"/></l><r>parah<s n="adj"/></r></p></e>
     <e r="RL"><p><l>parah<s n="adj"/></l><r>teruk<s n="adj"/></r></p></e>
     <e><p><l>paralel<s n="adj"/></l><r>selari<s n="adv"/></r></p></e>
@@ -6185,6 +6210,7 @@
     <e><p><l>picik<s n="adj"/></l><r>picik<s n="adj"/></r></p></e>
     <e><p><l>pico<s n="adj"/></l><r>pico<s n="adj"/></r></p></e>
     <e><p><l>pikun<s n="adj"/></l><r>pikun<s n="adj"/></r></p></e>
+    <e><p><l>pilu<s n="adj"/></l><r>pilu<s n="adj"/></r></p></e>
     <e><p><l>pincang<s n="adj"/></l><r>pincang<s n="adj"/></r></p></e>
     <e><p><l>pintar<s n="adj"/></l><r>pintar<s n="adj"/></r></p></e>
     <e><p><l>pipih<s n="adj"/></l><r>pipih<s n="adj"/></r></p></e>
@@ -6263,6 +6289,8 @@
     <e><p><l>ramai<s n="adj"/></l><r>ramai<s n="adj"/></r></p></e>
     <e><p><l>ramping<s n="adj"/></l><r>ramping<s n="adj"/></r></p></e>
     <e><p><l>rancak<s n="adj"/></l><r>rancak<s n="adj"/></r></p></e>
+    <e><p><l>rancu<s n="adj"/></l><r>rancu<s n="adj"/></r></p></e>
+    <e><p><l>ranjing<s n="adj"/></l><r>ranjing<s n="adj"/></r></p></e>
     <e><p><l>ranum<s n="adj"/></l><r>ranum<s n="adj"/></r></p></e>
     <e><p><l>rapat<s n="adj"/></l><r>rapat<s n="adj"/></r></p></e>
     <e><p><l>rapi<s n="adj"/></l><r>rapi<s n="adj"/></r></p></e>
@@ -6280,6 +6308,7 @@
     <e><p><l>redam<s n="adj"/></l><r>redam<s n="adj"/></r></p></e>
     <e><p><l>redup<s n="adj"/></l><r>redup<s n="adj"/></r></p></e>
     <e><p><l>reflektif<s n="adj"/></l><r>reflektif<s n="adj"/></r></p></e>
+    <e><p><l>regang<s n="adj"/></l><r>regang<s n="adj"/></r></p></e>
     <e><p><l>regional<s n="adj"/></l><r>regional<s n="adj"/></r></p></e>
     <e r="LR"><p><l>reguler<s n="adj"/></l><r>biasa<s n="adj"/></r></p></e>
     <e><p><l>relaks<s n="adj"/></l><r>relaks<s n="adj"/></r></p></e>
@@ -6303,6 +6332,7 @@
     <e><p><l>resmi<s n="adj"/></l><r>rasmi<s n="adj"/></r></p></e>
     <e><p><l>responsif<s n="adj"/></l><r>responsif<s n="adj"/></r></p></e>
     <e><p><l>retak<s n="adj"/></l><r>retak<s n="adj"/></r></p></e>
+    <e><p><l>retas<s n="adj"/></l><r>retas<s n="adj"/></r></p></e>
     <e r="LR"><p><l>retorik<s n="adj"/></l><r>retorik<s n="adj"/></r></p></e>
     <e><p><l>retoris<s n="adj"/></l><r>retorik<s n="adj"/></r></p></e>
     <e><p><l>revolusioner<s n="adj"/></l><r>revolusioner<s n="adj"/></r></p></e>
@@ -6340,12 +6370,14 @@
     <e><p><l>rupawan<s n="adj"/></l><r>rupawan<s n="adj"/></r></p></e>
     <e><p><l>rusak<s n="adj"/></l><r>rosak<s n="adj"/></r></p></e>
     <e><p><l>rusuh<s n="adj"/></l><r>rusuh<s n="adj"/></r></p></e>
+    <e><p><l>ruwet<s n="adj"/></l><r>ruwet<s n="adj"/></r></p></e>
     <e><p><l>sabar<s n="adj"/></l><r>sabar<s n="adj"/></r></p></e>
     <e><p><l>sadar<s n="adj"/></l><r>sedar<s n="adj"/></r></p></e>
     <e><p><l>sadik<s n="adj"/></l><r>sadik<s n="adj"/></r></p></e>
     <e><p><l>sadis<s n="adj"/></l><r>sadis<s n="adj"/></r></p></e>
     <e><p><l>sadistis<s n="adj"/></l><r>sadistis<s n="adj"/></r></p></e>
     <e><p><l>sah<s n="adj"/></l><r>sah<s n="adj"/></r></p></e>
+    <e><p><l>sahih<s n="adj"/></l><r>sahih<s n="adj"/></r></p></e>
     <e><p><l>sakit<s n="adj"/></l><r>sakit<s n="adj"/></r></p></e>
     <e><p><l>sakral<s n="adj"/></l><r>sakral<s n="adj"/></r></p></e>
     <e><p><l>saksama<s n="adj"/></l><r>saksama<s n="adj"/></r></p></e>
@@ -6546,6 +6578,7 @@
     <e><p><l>surut<s n="adj"/></l><r>surut<s n="adj"/></r></p></e>
     <e><p><l>susah<s n="adj"/></l><r>susah<s n="adj"/></r></p></e>
     <e><p><l>susila<s n="adj"/></l><r>susila<s n="adj"/></r></p></e>
+    <e><p><l>susut<s n="adj"/></l><r>susut<s n="adj"/></r></p></e>
     <e><p><l>swasta<s n="adj"/></l><r>swasta<s n="adj"/></r></p></e>
     <e><p><l>syok<s n="adj"/></l><r>syok<s n="adj"/></r></p></e>
     <e><p><l>taat<s n="adj"/></l><r>taat<s n="adj"/></r></p></e>
@@ -6567,6 +6600,7 @@
     <e><p><l>tandus<s n="adj"/></l><r>tandus<s n="adj"/></r></p></e>
     <e><p><l>tanggap<s n="adj"/></l><r>tanggap<s n="adj"/></r></p></e>
     <e><p><l>tangkas<s n="adj"/></l><r>tangkas<s n="adj"/></r></p></e>
+    <e><p><l>tanjak<s n="adj"/></l><r>tanjak<s n="adj"/></r></p></e>
     <e><p><l>teduh<s n="adj"/></l><r>teduh<s n="adj"/></r></p></e>
     <e><p><l>tega<s n="adj"/></l><r>tega<s n="adj"/></r></p></e>
     <e><p><l>tegak<s n="adj"/></l><r>tegak<s n="adj"/></r></p></e>
@@ -6580,6 +6614,7 @@
     <e><p><l>telak<s n="adj"/></l><r>telak<s n="adj"/></r></p></e>
     <e><p><l>telat<s n="adj"/></l><r>telat<s n="adj"/></r></p></e>
     <e><p><l>telaten<s n="adj"/></l><r>telaten<s n="adj"/></r></p></e>
+    <e><p><l>teledor<s n="adj"/></l><r>teledor<s n="adj"/></r></p></e>
     <e><p><l>teler<s n="adj"/></l><r>teler<s n="adj"/></r></p></e>
     <e><p><l>telik<s n="adj"/></l><r>telik<s n="adj"/></r></p></e>
     <e><p><l>teliti<s n="adj"/></l><r>teliti<s n="adj"/></r></p></e>
@@ -6630,6 +6665,7 @@
     <e><p><l>trendi<s n="adj"/></l><r>gaya<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
     <e><p><l>tropis<s n="adj"/></l><r>tropika<s n="adj"/></r></p></e>
     <e><p><l>tua<s n="adj"/></l><r>tua<s n="adj"/></r></p></e>
+    <e><p><l>tualang<s n="adj"/></l><r>tualang<s n="adj"/></r></p></e>
     <e><p><l>tulen<s n="adj"/></l><r>tulen<s n="adj"/></r></p></e>
     <e><p><l>tuli<s n="adj"/></l><r>tuli<s n="adj"/></r></p></e>
     <e><p><l>tulus<s n="adj"/></l><r>tulus<s n="adj"/></r></p></e>

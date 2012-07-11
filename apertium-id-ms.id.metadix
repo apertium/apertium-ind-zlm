@@ -11055,7 +11055,7 @@
     <e lm="tinggi"><p><l>petinggi</l><r>tinggi</r></p><par n="pegiat/__adj" prm="petinggi"/></e>
     <e lm="wangi"><p><l>pewangi</l><r>wangi</r></p><par n="pegiat/__adj" prm="pewangi"/></e>
 
-    <e lm="giat"><p><l>pegiat</l><r></r></p><par n="pegiat/__adj" prm="pegiat"/></e>
+    <e lm="giat"><p><l>pegiat</l><r>giat</r></p><par n="pegiat/__adj" prm="pegiat"/></e>
     
     <!-- more -->
     <!-- peN- + ber- -->
@@ -12673,7 +12673,7 @@
     <e lm="jinak"><p><l>penjinakan</l><r>jinak</r></p><par n="pembetulan/__adj" prm="penjinakan"/></e>
     <e lm="khusus"><p><l>pengkhususan</l><r>khusus</r></p><par n="pembetulan/__adj" prm="pengkhususan"/></e>
     <e lm="makmur"><p><l>persemakmuran</l><r>makmur</r></p><par n="pembetulan/__adj" prm="persemakmuran"/></e>
-    <e lm="selaras"><p><l>penyelarasan</l><r></r></p><par n="pembetulan/__adj" prm="penyelarasan"/></e>
+    <e lm="selaras"><p><l>penyelarasan</l><r>selaras</r></p><par n="pembetulan/__adj" prm="penyelarasan"/></e>
     <e lm="stabil"><p><l>penstabilan</l><r>stabil</r></p><par n="pembetulan/__adj" prm="penstabilan"/></e>
     <e lm="steril"><p><l>pensterilan</l><r>steril</r></p><par n="pembetulan/__adj" prm="pensterilan"/></e>
     <e lm="swasta"><p><l>penswastaan</l><r>swasta</r></p><par n="pembetulan/__adj" prm="penswastaan"/></e>
@@ -13044,28 +13044,28 @@
     <e lm="potong"><p><l>perpotongan</l><r>potong</r></p><par n="perbahasaan/__n" prm="perpotongan"/></e>
     <e lm="puluh"><p><l>perpuluhan</l><r>puluh</r></p><par n="perbahasaan/__n" prm="perpuluhan"/></e>
     <e lm="pustaka"><p><l>perpustakaan</l><r>pustaka</r></p><par n="perbahasaan/__n" prm="perpustakaan"/></e>
-    <e lm="racun"><p><l>peracunan</l><r>racun</r></p><par n="pendaftaran/__n" prm="peracunan"/></e>
-    <e lm="raga"><p><l>peragaan</l><r>raga</r></p><par n="pendaftaran/__n" prm="peragaan"/></e>
-    <e lm="ragam"><p><l>penyeragaman</l><r>ragam</r></p><par n="pendaftaran/__n" prm="penyeragaman"/></e>
-    <e lm="ragi"><p><l>peragian</l><r>ragi</r></p><par n="pendaftaran/__n" prm="peragian"/></e>
-    <e lm="rajut"><p><l>perajutan</l><r>rajut</r></p><par n="pendaftaran/__n" prm="perajutan"/></e>
-    <e lm="rakit"><p><l>perakitan</l><r>rakit</r></p><par n="pendaftaran/__n" prm="perakitan"/></e>
-    <e lm="rakyat"><p><l>perakyatan</l><r>rakyat</r></p><par n="pendaftaran/__n" prm="perakyatan"/></e>
-    <e lm="rambu"><p><l>perambuan</l><r>rambu</r></p><par n="pendaftaran/__n" prm="perambuan"/></e>
-    <e lm="rampok"><p><l>perampokan</l><r>rampok</r></p><par n="pendaftaran/__n" prm="perampokan"/></e>
-    <e lm="rancang"><p><l>perancangan</l><r>rancang</r></p><par n="pendaftaran/__n" prm="perancangan"/></e>
-    <e lm="rasa"><p><l>perasaan</l><r>rasa</r></p><par n="pendaftaran/__n" prm="perasaan"/></e>
-    <e lm="rekam"><p><l>perekaman</l><r>rekam</r></p><par n="pendaftaran/__n" prm="perekaman"/></e>
-    <e lm="rekayasa"><p><l>perekayasaan</l><r>rekayasa</r></p><par n="pendaftaran/__n" prm="perekayasaan"/></e>
-    <e lm="rekrut"><p><l>perekrutan</l><r>rekrut</r></p><par n="pendaftaran/__n" prm="perekrutan"/></e>
-    <e lm="rembuk"><p><l>perembukan</l><r>rembuk</r></p><par n="pendaftaran/__n" prm="perembukan"/></e>
-    <e lm="rencana"><p><l>perencanaan</l><r>rencana</r></p><par n="pendaftaran/__n" prm="perencanaan"/></e>
-    <e lm="roket"><p><l>peroketan</l><r>roket</r></p><par n="pendaftaran/__n" prm="peroketan"/></e>
-    <e lm="rotan"><p><l>perotan</l><r>rotan</r></p><par n="pendaftaran/__n" prm="perotan"/></e>
-    <e lm="ruas"><p><l>peruasan</l><r>ruas</r></p><par n="pendaftaran/__n" prm="peruasan"/></e>
-    <e lm="rumah"><p><l>perumahan</l><r>rumah</r></p><par n="pendaftaran/__n" prm="perumahan"/></e>
-    <e lm="rumput"><p><l>perumputan</l><r>rumput</r></p><par n="pendaftaran/__n" prm="perumputan"/></e>
-    <e lm="rumus"><p><l>perumusan</l><r>rumus</r></p><par n="pendaftaran/__n" prm="perumusan"/></e>
+    <e lm="racun"><p><l>peracunan</l><r>racun</r></p><par n="perbahasaan/__n" prm="peracunan"/></e>
+    <e lm="raga"><p><l>peragaan</l><r>raga</r></p><par n="perbahasaan/__n" prm="peragaan"/></e>
+    <e lm="ragam"><p><l>penyeragaman</l><r>ragam</r></p><par n="perbahasaan/__n" prm="penyeragaman"/></e>
+    <e lm="ragi"><p><l>peragian</l><r>ragi</r></p><par n="perbahasaan/__n" prm="peragian"/></e>
+    <e lm="rajut"><p><l>perajutan</l><r>rajut</r></p><par n="perbahasaan/__n" prm="perajutan"/></e>
+    <e lm="rakit"><p><l>perakitan</l><r>rakit</r></p><par n="perbahasaan/__n" prm="perakitan"/></e>
+    <e lm="rakyat"><p><l>perakyatan</l><r>rakyat</r></p><par n="perbahasaan/__n" prm="perakyatan"/></e>
+    <e lm="rambu"><p><l>perambuan</l><r>rambu</r></p><par n="perbahasaan/__n" prm="perambuan"/></e>
+    <e lm="rampok"><p><l>perampokan</l><r>rampok</r></p><par n="perbahasaan/__n" prm="perampokan"/></e>
+    <e lm="rancang"><p><l>perancangan</l><r>rancang</r></p><par n="perbahasaan/__n" prm="perancangan"/></e>
+    <e lm="rasa"><p><l>perasaan</l><r>rasa</r></p><par n="perbahasaan/__n" prm="perasaan"/></e>
+    <e lm="rekam"><p><l>perekaman</l><r>rekam</r></p><par n="perbahasaan/__n" prm="perekaman"/></e>
+    <e lm="rekayasa"><p><l>perekayasaan</l><r>rekayasa</r></p><par n="perbahasaan/__n" prm="perekayasaan"/></e>
+    <e lm="rekrut"><p><l>perekrutan</l><r>rekrut</r></p><par n="perbahasaan/__n" prm="perekrutan"/></e>
+    <e lm="rembuk"><p><l>perembukan</l><r>rembuk</r></p><par n="perbahasaan/__n" prm="perembukan"/></e>
+    <e lm="rencana"><p><l>perencanaan</l><r>rencana</r></p><par n="perbahasaan/__n" prm="perencanaan"/></e>
+    <e lm="roket"><p><l>peroketan</l><r>roket</r></p><par n="perbahasaan/__n" prm="peroketan"/></e>
+    <e lm="rotan"><p><l>perotan</l><r>rotan</r></p><par n="perbahasaan/__n" prm="perotan"/></e>
+    <e lm="ruas"><p><l>peruasan</l><r>ruas</r></p><par n="perbahasaan/__n" prm="peruasan"/></e>
+    <e lm="rumah"><p><l>perumahan</l><r>rumah</r></p><par n="perbahasaan/__n" prm="perumahan"/></e>
+    <e lm="rumput"><p><l>perumputan</l><r>rumput</r></p><par n="perbahasaan/__n" prm="perumputan"/></e>
+    <e lm="rumus"><p><l>perumusan</l><r>rumus</r></p><par n="perbahasaan/__n" prm="perumusan"/></e>
     <e lm="runding"><p><l>perundingan</l><r>runding</r></p><par n="pendaftaran/__n" prm="perundingan"/></e>
     <e lm="sahabat"><p><l>persahabatan</l><r>sahabat</r></p><par n="perbahasaan/__n" prm="persahabatan"/></e>
     <e lm="sajak"><p><l>persajakan</l><r>sajak</r></p><par n="perbahasaan/__n" prm="persajakan"/></e>
@@ -13237,7 +13237,7 @@
     <e lm="sedia"><p><l>persediaan</l><r>sedia</r></p><par n="permainan/__vblex" prm="persediaan"/></e>
     <e lm="sembunyi"><p><l>persembunyian</l><r>sembunyi</r></p><par n="permainan/__vblex" prm="persembunyian"/></e>
     <e lm="sentuh"><p><l>persentuhan</l><r>sentuh</r></p><par n="permainan/__vblex" prm="persentuhan"/></e>
-    <e lm="setuju"><p><l>persetujuan</l><r>setuju</r></p><par n="penarikan/__vblex" prm="persetujuan"/></e>
+    <e lm="setuju"><p><l>persetujuan</l><r>setuju</r></p><par n="permainan/__vblex" prm="persetujuan"/></e>
     <e lm="siap"><p><l>persiapan</l><r>siap</r></p><par n="permainan/__vblex" prm="persiapan"/></e>
     <e lm="siar"><p><l>persiaran</l><r>siar</r></p><par n="permainan/__vblex" prm="persiaran"/></e>
     <e lm="silih"><p><l>persilihan</l><r>silih</r></p><par n="permainan/__vblex" prm="persilihan"/></e>
@@ -13447,6 +13447,7 @@
     <e lm="kuta"><i>kuta</i><par n="absen/__vblex" prm="kuta"/></e>
     <e lm="kutak"><i>kutak</i><par n="absen/__vblex" prm="kutak"/></e>
     <e lm="labrak"><i>labrak</i><par n="absen/__vblex" prm="labrak"/></e>
+    <e lm="lancong"><i>lancong</i><par n="absen/__vblex" prm="lancong"/></e>
     <e lm="langsir"><i>langsir</i><par n="absen/__vblex" prm="langsir"/></e>
     <e lm="lansir"><i>lansir</i><par n="absen/__vblex" prm="lansir"/></e>
     <e lm="ledeng"><i>ledeng</i><par n="absen/__vblex" prm="ledeng"/></e>
