@@ -4373,571 +4373,1399 @@
     
     <!-- Verbs -->
     <e><p><l>absen<s n="vblex"/></l><r>absen<s n="vblex"/></r></p></e>
-    <e><p><l>ada<s n="vblex"/></l><r>ada<s n="vblex"/></r></p></e>
-    <e><p><l>aku<s n="vblex"/></l><r>aku<s n="vblex"/></r></p></e>
-    <e><p><l>ali<s n="vblex"/></l><r>ali<s n="vblex"/></r></p></e>
-    <e><p><l>alik<s n="vblex"/></l><r>alik<s n="vblex"/></r></p></e>
-    <e><p><l>anggap<s n="vblex"/></l><r>anggap<s n="vblex"/></r></p></e>
-    <e><p><l>bagi<s n="vblex"/></l><r>bahagi<s n="vblex"/></r></p></e>
-    <e><p><l>balas<s n="vblex"/></l><r>balas<s n="vblex"/></r></p></e>
-    <e><p><l>banjir<s n="vblex"/></l><r>banjir<s n="vblex"/></r></p></e>
-    <e><p><l>belasah<s n="vblex"/></l><r>belasah<s n="vblex"/></r></p></e>
-    <e><p><l>berangkat<s n="vblex"/></l><r>lepas<s n="adj"/><s n="actio"/><s n="ber"/></r></p></e>
-    <e><p><l>bersin<s n="vblex"/></l><r>bersin<s n="vblex"/></r></p></e>
-    <e><p><l>bicara<s n="vblex"/></l><r>bicara<s n="vblex"/></r></p></e>
-    <e><p><l>bicara<s n="vblex"/></l><r>cakap<s n="vblex"/></r></p></e>
-    <e><p><l>bikin<s n="vblex"/></l><r>bikin<s n="vblex"/></r></p></e>
-    <e><p><l>blokir<s n="vblex"/></l><r>blokir<s n="vblex"/></r></p></e>
-    <e><p><l>buka<s n="vblex"/></l><r>buka<s n="vblex"/></r></p></e>
-    <e><p><l>cam<s n="vblex"/></l><r>cam<s n="vblex"/></r></p></e>
-    <e><p><l>campak<s n="vblex"/></l><r>campak<s n="vblex"/></r></p></e>
-    <e><p><l>cari<s n="vblex"/></l><r>cari<s n="vblex"/></r></p></e>
-    <e><p><l>cicip<s n="vblex"/></l><r>cicip<s n="vblex"/></r></p></e>
-    <e><p><l>cincang<s n="vblex"/></l><r>cincang<s n="vblex"/></r></p></e>
-    <e><p><l>coba<s n="vblex"/></l><r>cuba<s n="vblex"/></r></p></e>
-    <e><p><l>cuti<s n="vblex"/></l><r>cuti<s n="vblex"/></r></p></e>
-    <e><p><l>dapat<s n="vblex"/></l><r>dapat<s n="vblex"/></r></p></e>
-    <e><p><l>datang<s n="vblex"/></l><r>datang<s n="vblex"/></r></p></e>
-    <e><p><l>dengar<s n="vblex"/></l><r>dengar<s n="vblex"/></r></p></e>
-    <e><p><l>dongak<s n="vblex"/></l><r>dongak<s n="vblex"/></r></p></e>
-    <e><p><l>duduk<s n="vblex"/></l><r>duduk<s n="vblex"/></r></p></e>
-    <e><p><l>erik<s n="vblex"/></l><r>erik<s n="vblex"/></r></p></e>
-    <e><p><l>gagai<s n="vblex"/></l><r>gagai<s n="vblex"/></r></p></e>
-    <e><p><l>gapai<s n="vblex"/></l><r>gapai<s n="vblex"/></r></p></e>
-    <e><p><l>garut<s n="vblex"/></l><r>garut<s n="vblex"/></r></p></e>
-    <e><p><l>gebu<s n="vblex"/></l><r>gebu<s n="vblex"/></r></p></e>
-    <e><p><l>gelegak<s n="vblex"/></l><r>gelegak<s n="vblex"/></r></p></e>
-    <e><p><l>gerai<s n="vblex"/></l><r>gerai<s n="vblex"/></r></p></e>
-    <e><p><l>gerbang<s n="vblex"/></l><r>gerbang<s n="vblex"/></r></p></e>
-    <e><p><l>gesa<s n="vblex"/></l><r>gesa<s n="vblex"/></r></p></e>
-    <e><p><l>giur<s n="vblex"/></l><r>giur<s n="vblex"/></r></p></e>
-    <e><p><l>golek<s n="vblex"/></l><r>golek<s n="vblex"/></r></p></e>
-    <e><p><l>gondol<s n="vblex"/></l><r>gondol<s n="vblex"/></r></p></e>
-    <e><p><l>gotong<s n="vblex"/></l><r>gotong<s n="vblex"/></r></p></e>
-    <e><p><l>hadir<s n="vblex"/></l><r>hadir<s n="vblex"/></r></p></e>
-    <e><p><l>haj<s n="vblex"/></l><r>haj<s n="vblex"/></r></p></e>
-    <e><p><l>hajar<s n="vblex"/></l><r>hajar<s n="vblex"/></r></p></e>
-    <e><p><l>hinggap<s n="vblex"/></l><r>hinggap<s n="vblex"/></r></p></e>
-    <e><p><l>hirau<s n="vblex"/></l><r>hirau<s n="vblex"/></r></p></e>
-    <e><p><l>hitung<s n="vblex"/></l><r>hitung<s n="vblex"/></r></p></e>
-    <e><p><l>hunus<s n="vblex"/></l><r>hunus<s n="vblex"/></r></p></e>
-    <e><p><l>ili<s n="vblex"/></l><r>ili<s n="vblex"/></r></p></e>
-    <e><p><l>inga<s n="vblex"/></l><r>inga<s n="vblex"/></r></p></e>
-    <e><p><l>intip<s n="vblex"/></l><r>intip<s n="vblex"/></r></p></e>
-    <e><p><l>jabat<s n="vblex"/></l><r>jabat<s n="vblex"/></r></p></e>
-    <e><p><l>jabat<s n="vblex"/><s n="vblex"/><s n="an"/></l><r>jawat<s n="vblex"/><s n="an"/></r></p></e>
-    <e><p><l>jadi<s n="vblex"/></l><r>jadi<s n="vblex"/></r></p></e>
-    <e><p><l>jalan<s n="vblex"/></l><r>jalan<s n="vblex"/></r></p></e>
-    <e><p><l>jelang<s n="vblex"/></l><r>jelang<s n="vblex"/></r></p></e>
-    <e><p><l>jenguk<s n="vblex"/></l><r>jenguk<s n="vblex"/></r></p></e>
-    <e><p><l>jerumus<s n="vblex"/></l><r>jerumus<s n="vblex"/></r></p></e>
-    <e><p><l>joging<s n="vblex"/></l><r>joging<s n="vblex"/></r></p></e>
-    <e><p><l>julang<s n="vblex"/></l><r>julang<s n="vblex"/></r></p></e>
-    <e><p><l>jumpa<s n="vblex"/></l><r>jumpa<s n="vblex"/></r></p></e>
-    <e><p><l>kacir<s n="vblex"/></l><r>kacir<s n="vblex"/></r></p></e>
-    <e><p><l>kambuh<s n="vblex"/></l><r>kambuh<s n="vblex"/></r></p></e>
-    <e><p><l>kamit<s n="vblex"/></l><r>kamit<s n="vblex"/></r></p></e>
-    <e><p><l>karam<s n="vblex"/></l><r>karam<s n="vblex"/></r></p></e>
-    <e><p><l>kasi<s n="vblex"/></l><r>kasi<s n="vblex"/></r></p></e>
-    <e><p><l>kasmaran<s n="vblex"/></l><r>kasmaran<s n="vblex"/></r></p></e>
-    <e><p><l>kawin<s n="vblex"/></l><r>kahwin<s n="vblex"/></r></p></e>
-    <e><p><l>kelupas<s n="vblex"/></l><r>kelupas<s n="vblex"/></r></p></e>
-    <e><p><l>kemari<s n="vblex"/></l><r>kemari<s n="vblex"/></r></p></e>
-    <e><p><l>kesel<s n="vblex"/></l><r>kesel<s n="vblex"/></r></p></e>
-    <e><p><l>kiat<s n="vblex"/></l><r>kiat<s n="vblex"/></r></p></e>
-    <e><p><l>kuis<s n="vblex"/></l><r>kuis<s n="vblex"/></r></p></e>
-    <e><p><l>lalu<s n="vblex"/></l><r>lalu<s n="vblex"/></r></p></e>
-    <e><p><l>lancong<s n="vblex"/></l><r>lancong<s n="vblex"/></r></p></e>
-    <e><p><l>langsir<s n="vblex"/></l><r>langsir<s n="vblex"/></r></p></e>
-    <e><p><l>lari<s n="vblex"/></l><r>lari<s n="vblex"/></r></p></e>
-    <e><p><l>latih<s n="vblex"/><s n="subst"/><s n="pe"/></l><r>jurulatih<s n="n"/></r></p></e>
-    <e><p><l>leding<s n="vblex"/></l><r>leding<s n="vblex"/></r></p></e>
-    <e><p><l>lego<s n="vblex"/></l><r>lego<s n="vblex"/></r></p></e>
-    <e><p><l>lelap<s n="vblex"/></l><r>lelap<s n="vblex"/></r></p></e>
-    <e><p><l>leleh<s n="vblex"/></l><r>leleh<s n="vblex"/></r></p></e>
-    <e><p><l>lewat<s n="vblex"/></l><r>lewat<s n="vblex"/></r></p></e>
-    <e><p><l>lihat<s n="vblex"/></l><r>lihat<s n="vblex"/></r></p></e>
-    <e><p><l>lingkup<s n="vblex"/></l><r>lingkup<s n="vblex"/></r></p></e>
-    <e><p><l>liwat<s n="vblex"/></l><r>liwat<s n="vblex"/></r></p></e>
-    <e><p><l>lumus<s n="vblex"/></l><r>lumus<s n="vblex"/></r></p></e>
-    <e><p><l>luncur<s n="vblex"/></l><r>lancar<s n="adj"/></r></p></e>
-    <e><p><l>luput<s n="vblex"/></l><r>luput<s n="vblex"/></r></p></e>
-    <e><p><l>main<s n="vblex"/></l><r>main<s n="vblex"/></r></p></e>
-    <e><p><l>makan<s n="vblex"/></l><r>makan<s n="vblex"/></r></p></e>
-    <e><p><l>mampir<s n="vblex"/></l><r>mampir<s n="vblex"/></r></p></e>
-    <e><p><l>mampus<s n="vblex"/></l><r>mampus<s n="vblex"/></r></p></e>
-    <e><p><l>mancur<s n="vblex"/></l><r>mancur<s n="vblex"/></r></p></e>
-    <e><p><l>masuk<s n="vblex"/></l><r>masuk<s n="vblex"/></r></p></e>
-    <e><p><l>mel<s n="vblex"/></l><r>mel<s n="vblex"/></r></p></e>
-    <e><p><l>meleset<s n="vblex"/></l><r>meleset<s n="vblex"/></r></p></e>
-    <e><p><l>melotot<s n="vblex"/></l><r>melotot<s n="vblex"/></r></p></e>
-    <e><p><l>mentok<s n="vblex"/></l><r>mentok<s n="vblex"/></r></p></e>
-    <e><p><l>meta<s n="vblex"/></l><r>meta<s n="vblex"/></r></p></e>
-    <e><p><l>minum<s n="vblex"/></l><r>minum<s n="vblex"/></r></p></e>
-    <e><p><l>mungkir<s n="vblex"/></l><r>mungkir<s n="vblex"/></r></p></e>
-    <e><p><l>mulai<s n="vblex"/></l><r>mula<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
-    <e><p><l>over<s n="vblex"/></l><r>over<s n="vblex"/></r></p></e>
-    <e><p><l>pampang<s n="vblex"/></l><r>pampang<s n="vblex"/></r></p></e>
-    <e><p><l>payu<s n="vblex"/></l><r>payu<s n="vblex"/></r></p></e>
-    <e><p><l>peking<s n="vblex"/></l><r>peking<s n="vblex"/></r></p></e>
-    <e><p><l>pendam<s n="vblex"/></l><r>pendam<s n="vblex"/></r></p></e>
-    <e><p><l>perai<s n="vblex"/></l><r>perai<s n="vblex"/></r></p></e>
-    <e><p><l>pergi<s n="vblex"/></l><r>pergi<s n="vblex"/></r></p></e>
-    <e><p><l>perkosa<s n="vblex"/></l><r>rogol<s n="vblex"/></r></p></e>
-    <e><p><l>puasa<s n="vblex"/></l><r>puasa<s n="vblex"/></r></p></e>
-    <e><p><l>punya<s n="vblex"/></l><r>punya<s n="vblex"/></r></p></e>
-    <e><p><l>rada<s n="vblex"/></l><r>rada<s n="vblex"/></r></p></e>
-    <e><p><l>rebak<s n="vblex"/></l><r>rebak<s n="vblex"/></r></p></e>
-    <e><p><l>rehat<s n="vblex"/></l><r>rehat<s n="vblex"/></r></p></e>
-    <e><p><l>relai<s n="vblex"/></l><r>relai<s n="vblex"/></r></p></e>
-    <e><p><l>renta<s n="vblex"/></l><r>renta<s n="vblex"/></r></p></e>
-    <e><p><l>ringkuk<s n="vblex"/></l><r>ringkuk<s n="vblex"/></r></p></e>
-    <e><p><l>saba<s n="vblex"/></l><r>saba<s n="vblex"/></r></p></e>
-    <e><p><l>sahkan<s n="vblex"/></l><r>sahkan<s n="vblex"/></r></p></e>
-    <e><p><l>sai<s n="vblex"/></l><r>sai<s n="vblex"/></r></p></e>
-    <e><p><l>salip<s n="vblex"/></l><r>salip<s n="vblex"/></r></p></e>
-    <e><p><l>sauna<s n="vblex"/></l><r>sauna<s n="vblex"/></r></p></e>
-    <e><p><l>sebut<s n="vblex"/></l><r>sebut<s n="vblex"/></r></p></e>
-    <e><p><l>sedak<s n="vblex"/></l><r>sedak<s n="vblex"/></r></p></e>
-    <e><p><l>selak<s n="vblex"/></l><r>selak<s n="vblex"/></r></p></e>
-    <e><p><l>selesai<s n="vblex"/></l><r>selesai<s n="vblex"/></r></p></e>
-    <e><p><l>selundup<s n="vblex"/></l><r>seludup<s n="vblex"/></r></p></e>
-    <e><p><l>sembunyi<s n="vblex"/></l><r>sembunyi<s n="vblex"/></r></p></e>
-    <e><p><l>senang<s n="vblex"/></l><r>senang<s n="vblex"/></r></p></e>
-    <e><p><l>sepah<s n="vblex"/></l><r>sepah<s n="vblex"/></r></p></e>
-    <e><p><l>sera<s n="vblex"/></l><r>sera<s n="vblex"/></r></p></e>
-    <e><p><l>serak<s n="vblex"/></l><r>serak<s n="vblex"/></r></p></e>
-    <e><p><l>serta<s n="vblex"/></l><r>serta<s n="vblex"/></r></p></e>
-    <e><p><l>siam<s n="vblex"/></l><r>siam<s n="vblex"/></r></p></e>
-    <e><p><l>siar<s n="vblex"/><s n="subst"/><s n="pe"/></l><r>siar<s n="vblex"/><s n="subst"/><s n="per-an"/></r></p></e>
-    <e><p><l>siat<s n="vblex"/></l><r>siat<s n="vblex"/></r></p></e>
-    <e><p><l>sigung<s n="vblex"/></l><r>sigung<s n="vblex"/></r></p></e>
-    <e><p><l>sila<s n="vblex"/></l><r>sila<s n="vblex"/></r></p></e>
-    <e><p><l>singsing<s n="vblex"/></l><r>singsing<s n="vblex"/></r></p></e>
-    <e><p><l>start<s n="vblex"/></l><r>start<s n="vblex"/></r></p></e>
-    <e><p><l>sugar<s n="vblex"/></l><r>sugar<s n="vblex"/></r></p></e>
-    <e><p><l>sujud<s n="vblex"/></l><r>sujud<s n="vblex"/></r></p></e>
-    <e><p><l>suka<s n="vblex"/></l><r>suka<s n="vblex"/></r></p></e>
-    <e><p><l>sulut<s n="vblex"/></l><r>sulut<s n="vblex"/></r></p></e>
-    <e><p><l>sunu<s n="vblex"/></l><r>sunu<s n="vblex"/></r></p></e>
-    <e><p><l>tahu<s n="vblex"/></l><r>tahu<s n="vblex"/></r></p></e>
-    <e><p><l>talah<s n="vblex"/></l><r>talah<s n="vblex"/></r></p></e>
-    <e><p><l>tancap<s n="vblex"/></l><r>tancap<s n="vblex"/></r></p></e>
-    <e><p><l>tangkal<s n="vblex"/></l><r>tangkal<s n="vblex"/></r></p></e>
-    <e><p><l>tanya<s n="vblex"/></l><r>tanya<s n="vblex"/></r></p></e>
-    <e><p><l>tap<s n="vblex"/></l><r>tap<s n="vblex"/></r></p></e>
-    <e><p><l>tau<s n="vblex"/></l><r>tau<s n="vblex"/></r></p></e>
-    <e><p><l>tawaf<s n="vblex"/></l><r>tawaf<s n="vblex"/></r></p></e>
-    <e><p><l>tekad<s n="vblex"/></l><r>tekad<s n="vblex"/></r></p></e>
-    <e><p><l>tele<s n="vblex"/></l><r>tele<s n="vblex"/></r></p></e>
-    <e><p><l>tempuh<s n="vblex"/></l><r>tempuh<s n="vblex"/></r></p></e>
-    <e><p><l>temu<s n="vblex"/></l><r>temu<s n="vblex"/></r></p></e>
-    <e><p><l>temu<s n="vblex"/><s n="subst"/><s n="per-an"/></l><r>mesyuarat<s n="n"/></r></p></e>
-    <e><p><l>tengok<s n="vblex"/></l><r>tengok<s n="vblex"/></r></p></e>
-    <e><p><l>tepis<s n="vblex"/></l><r>tepis<s n="vblex"/></r></p></e>
-    <e><p><l>terbang<s n="vblex"/></l><r>terbang<s n="vblex"/></r></p></e>
-    <e><p><l>tiarap<s n="vblex"/></l><r>tiarap<s n="vblex"/></r></p></e>
-    <e><p><l>tiba<s n="vblex"/></l><r>tiba<s n="vblex"/></r></p></e>
-    <e><p><l>tidur<s n="vblex"/></l><r>tidur<s n="vblex"/></r></p></e>
-    <e><p><l>toleh<s n="vblex"/></l><r>toleh<s n="vblex"/></r></p></e>
-    <e><p><l>tui<s n="vblex"/></l><r>tui<s n="vblex"/></r></p></e>
-    <e><p><l>tukar<s n="vblex"/></l><r>tukar<s n="vblex"/></r></p></e>
-    <e><p><l>tumbang<s n="vblex"/></l><r>tumbang<s n="vblex"/></r></p></e>
-    <e><p><l>turis<s n="vblex"/></l><r>turis<s n="vblex"/></r></p></e>
-    <e><p><l>tusuk<s n="vblex"/></l><r>tusuk<s n="vblex"/></r></p></e>
-    <e><p><l>tutu<s n="vblex"/></l><r>tutu<s n="vblex"/></r></p></e>
-    <e><p><l>tutup<s n="vblex"/></l><r>tutup<s n="vblex"/></r></p></e>
-    <e><p><l>usah<s n="vblex"/></l><r>usah<s n="vblex"/></r></p></e>
-    <e><p><l>usai<s n="vblex"/></l><r>usai<s n="vblex"/></r></p></e>
-    <e><p><l>usap<s n="vblex"/></l><r>usap<s n="vblex"/></r></p></e>
-    <e><p><l>wisata<s n="vblex"/></l><r>wisata<s n="vblex"/></r></p></e>
-
+    <e><p><l>abstain<s n="vblex"/></l><r>abstain<s n="vblex"/></r></p></e>
     <e><p><l>acu<s n="vblex"/></l><r>acu<s n="vblex"/></r></p></e>
+    <e><p><l>acu<s n="vblex"/><s n="actv"/></l><r>rujuk<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>acu<s n="vblex"/><s n="pasv"/></l><r>rujuk<s n="vblex"/><s n="pasv"/></r></p></e>
     <e><p><l>acuh<s n="vblex"/></l><r>acuh<s n="vblex"/></r></p></e>
+    <e><p><l>acung<s n="vblex"/></l><r>acung<s n="vblex"/></r></p></e>
+    <e><p><l>ada<s n="vblex"/></l><r>ada<s n="vblex"/></r></p></e>
+    <e><p><l>ada<s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="ber"/></l><r>wujud<s n="n"/><s n="ke-an"/></r></p></e>
+    <e><p><l>adon<s n="vblex"/></l><r>adon<s n="vblex"/></r></p></e>
+    <e><p><l>adon<s n="vblex"/><s n="subst"/><s n="an"/></l><r>adun<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
     <e><p><l>adu<s n="vblex"/></l><r>adu<s n="vblex"/></r></p></e>
     <e><p><l>aduk<s n="vblex"/></l><r>aduk<s n="vblex"/></r></p></e>
     <e><p><l>ajak<s n="vblex"/></l><r>ajak<s n="vblex"/></r></p></e>
+    <e><p><l>aju<s n="vblex"/></l><r>aju<s n="vblex"/></r></p></e>
+    <e><p><l>aku<s n="vblex"/></l><r>aku<s n="vblex"/></r></p></e>
+    <e><p><l>ali<s n="vblex"/></l><r>ali<s n="vblex"/></r></p></e>
+    <e><p><l>alih<s n="vblex"/></l><r>alih<s n="vblex"/></r></p></e>
+    <e><p><l>alik<s n="vblex"/></l><r>alik<s n="vblex"/></r></p></e>
     <e><p><l>alir<s n="vblex"/></l><r>alir<s n="vblex"/></r></p></e>
+    <e><p><l>ambek<s n="vblex"/></l><r>ambek<s n="vblex"/></r></p></e>
     <e><p><l>ambil<s n="vblex"/></l><r>ambil<s n="vblex"/></r></p></e>
+    <e><p><l>amblas<s n="vblex"/></l><r>amblas<s n="vblex"/></r></p></e>
+    <e><p><l>ambruk<s n="vblex"/></l><r>ambruk<s n="vblex"/></r></p></e>
+    <e><p><l>ampul<s n="vblex"/></l><r>ampul<s n="vblex"/></r></p></e>
     <e><p><l>ancam<s n="vblex"/></l><r>ancam<s n="vblex"/></r></p></e>
+    <e><p><l>angga<s n="vblex"/></l><r>angga<s n="vblex"/></r></p></e>
+    <e><p><l>anggap<s n="vblex"/></l><r>anggap<s n="vblex"/></r></p></e>
     <e><p><l>anggur<s n="vblex"/></l><r>anggur<s n="vblex"/></r></p></e>
     <e><p><l>angkat<s n="vblex"/></l><r>angkat<s n="vblex"/></r></p></e>
+    <e><p><l>angkat<s n="vblex"/><s n="subst"/><s n="per"/></l><r>peranti<s n="n"/></r></p></e>
     <e><p><l>angkut<s n="vblex"/></l><r>angkut<s n="vblex"/></r></p></e>
+    <e><p><l>angsur<s n="vblex"/></l><r>ansur<s n="vblex"/></r></p></e>
+    <e><p><l>angsur<s n="vblex"/><s n="actv"/></l><r>angsur<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>angsur<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>hulur<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>angsur<s n="vblex"/><s n="pasv"/></l><r>angsur<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>angsur<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>hulur<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>anjlok<s n="vblex"/></l><r>anjlok<s n="vblex"/></r></p></e>
     <e><p><l>antar<s n="vblex"/></l><r>antar<s n="vblex"/></r></p></e>
+    <e><p><l>antar<s n="vblex"/></l><r>antara<s n="n"/></r></p></e>
+    <e><p><l>antar<s n="vblex"/><s n="actv"/></l><r>hantar<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>antar<s n="vblex"/><s n="actv"/><s n="i"/></l><r>antar<s n="vblex"/><s n="actv"/><s n="i"/></r></p></e>
+    <e><p><l>antar<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>antar<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>antar<s n="vblex"/><s n="pasv"/></l><r>hantar<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>antar<s n="vblex"/><s n="pasv"/><s n="i"/></l><r>antar<s n="vblex"/><s n="pasv"/><s n="i"/></r></p></e>
+    <e><p><l>antar<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>antar<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>antar<s n="vblex"/><s n="subst"/><s n="an"/></l><r>antar<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>antar<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>antar<s n="vblex"/><s n="subst"/><s n="peN"/></r></p></e>
+    <e><p><l>antre<s n="vblex"/></l><r>antre<s n="vblex"/></r></p></e>
+    <e><p><l>antre<s n="vblex"/><s n="subst"/><s n="an"/></l><r>baris<s n="n"/><s n="an"/></r></p></e>
+    <e><p><l>antri<s n="vblex"/></l><r>antri<s n="vblex"/></r></p></e>
+    <e><p><l>antuk<s n="vblex"/></l><r>antuk<s n="vblex"/></r></p></e>
     <e><p><l>anut<s n="vblex"/></l><r>anut<s n="vblex"/></r></p></e>
     <e><p><l>anyam<s n="vblex"/></l><r>anyam<s n="vblex"/></r></p></e>
+    <e><p><l>apkir<s n="vblex"/></l><r>apkir<s n="vblex"/></r></p></e>
+    <e><p><l>apung<s n="vblex"/></l><r>apung<s n="vblex"/></r></p></e>
+    <e><p><l>arik<s n="vblex"/></l><r>arik<s n="vblex"/></r></p></e>
+    <e><p><l>arsir<s n="vblex"/></l><r>arsir<s n="vblex"/></r></p></e>
+    <e><p><l>arsir<s n="vblex"/><s n="subst"/><s n="an"/></l><r>arsir<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
     <e><p><l>arung<s n="vblex"/></l><r>arung<s n="vblex"/></r></p></e>
+    <e><p><l>arung<s n="vblex"/><s n="actv"/><s n="i"/></l><r>harung<s n="vblex"/><s n="actv"/><s n="i"/></r></p></e>
+    <e><p><l>arung<s n="vblex"/><s n="pasv"/><s n="i"/></l><r>harung<s n="vblex"/><s n="pasv"/><s n="i"/></r></p></e>
     <e><p><l>asah<s n="vblex"/></l><r>asah<s n="vblex"/></r></p></e>
     <e><p><l>asuh<s n="vblex"/></l><r>asuh<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>asuh<s n="vblex"/></l><r>jaga<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></r></p></e>
+    <e><p><l>asuh<s n="vblex"/><s n="subst"/><s n="an"/></l><r>anak<s n="n"/></r></p></e>
     <e><p><l>atur<s n="vblex"/></l><r>atur<s n="vblex"/></r></p></e>
+    <e><p><l>atur<s n="vblex"/><s n="actv"/></l><r>tetap<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>atur<s n="vblex"/><s n="pasv"/></l><r>tetap<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>atur<s n="vblex"/><s n="subst"/><s n="an"/></l><r>atur<s n="vblex"/><s n="subst"/><s n="per-an"/></r></p></e>
+    <e><p><l>awai<s n="vblex"/></l><r>awai<s n="vblex"/></r></p></e>
     <e><p><l>awas<s n="vblex"/></l><r>awas<s n="vblex"/></r></p></e>
     <e><p><l>ayak<s n="vblex"/></l><r>ayak<s n="vblex"/></r></p></e>
+    <e><p><l>baban<s n="vblex"/></l><r>baban<s n="vblex"/></r></p></e>
+    <e><p><l>babat<s n="vblex"/></l><r>babat<s n="vblex"/></r></p></e>
     <e><p><l>baca<s n="vblex"/></l><r>baca<s n="vblex"/></r></p></e>
+    <e><p><l>bacok<s n="vblex"/></l><r>bacok<s n="vblex"/></r></p></e>
+    <e><p><l>bagi<s n="vblex"/></l><r>bahagi<s n="vblex"/></r></p></e>
     <e><p><l>bahas<s n="vblex"/></l><r>bahas<s n="vblex"/></r></p></e>
+    <e><p><l>bakar<s n="vblex"/></l><r>bakar<s n="vblex"/></r></p></e>
+    <e><p><l>balah<s n="vblex"/></l><r>balah<s n="vblex"/></r></p></e>
     <e><p><l>balas<s n="vblex"/></l><r>balas<s n="vblex"/></r></p></e>
     <e><p><l>bangkit<s n="vblex"/></l><r>bangkit<s n="vblex"/></r></p></e>
+    <e><p><l>bangkrut<s n="vblex"/></l><r>muflis<s n="adj"/></r></p></e>
+    <e><p><l>bangkrut<s n="vblex"/><s n="subst"/><s n="ke-an"/></l><r>muflis<s n="adj"/></r></p></e>
     <e><p><l>bangun<s n="vblex"/></l><r>bangun<s n="vblex"/></r></p></e>
+    <e><p><l>bangun<s n="vblex"/><s n="actv"/></l><r>bina<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>bangun<s n="vblex"/><s n="pasv"/></l><r>bina<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>banjir<s n="vblex"/></l><r>banjir<s n="vblex"/></r></p></e>
     <e><p><l>banting<s n="vblex"/></l><r>banting<s n="vblex"/></r></p></e>
     <e><p><l>bantu<s n="vblex"/></l><r>bantu<s n="vblex"/></r></p></e>
+    <e><p><l>baring<s n="vblex"/></l><r>baring<s n="vblex"/></r></p></e>
+    <e><p><l>basmi<s n="vblex"/></l><r>basmi<s n="vblex"/></r></p></e>
     <e><p><l>basuh<s n="vblex"/></l><r>basuh<s n="vblex"/></r></p></e>
     <e><p><l>baur<s n="vblex"/></l><r>baur<s n="vblex"/></r></p></e>
     <e><p><l>bawa<s n="vblex"/></l><r>bawa<s n="vblex"/></r></p></e>
     <e><p><l>bayar<s n="vblex"/></l><r>bayar<s n="vblex"/></r></p></e>
     <e><p><l>beber<s n="vblex"/></l><r>beber<s n="vblex"/></r></p></e>
+    <e><p><l>bega<s n="vblex"/></l><r>bega<s n="vblex"/></r></p></e>
+    <e><p><l>begadang<s n="vblex"/></l><r>begadang<s n="vblex"/></r></p></e>
+    <e><p><l>bekap<s n="vblex"/></l><r>bekap<s n="vblex"/></r></p></e>
+    <e><p><l>bekap<s n="vblex"/><s n="actv"/></l><r>sekat<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>bekap<s n="vblex"/><s n="pasv"/></l><r>sekat<s n="n"/><s n="actio"/><s n="pasv"/></r></p></e>
+    <e><p><l>bekuk<s n="vblex"/></l><r>bekuk<s n="vblex"/></r></p></e>
+    <e><p><l>bela<s n="vblex"/></l><r>bela<s n="vblex"/></r></p></e>
+    <e><p><l>belasah<s n="vblex"/></l><r>belasah<s n="vblex"/></r></p></e>
     <e><p><l>beli<s n="vblex"/></l><r>beli<s n="vblex"/></r></p></e>
+    <e><p><l>belok<s n="vblex"/></l><r>belok<s n="vblex"/></r></p></e>
     <e><p><l>belok<s n="vblex"/></l><r>pusing<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>belok<s n="vblex"/></l><r>belok<s n="vblex"/></r></p></e>
-    <e r="LR"><p><l>pusing<s n="vblex"/></l><r>pusing<s n="vblex"/></r></p></e>
+    <e><p><l>belot<s n="vblex"/></l><r>belot<s n="vblex"/></r></p></e>
+    <e><p><l>benah<s n="vblex"/></l><r>benah<s n="vblex"/></r></p></e>
     <e><p><l>benam<s n="vblex"/></l><r>benam<s n="vblex"/></r></p></e>
+    <e><p><l>bengong<s n="vblex"/></l><r>bengong<s n="vblex"/></r></p></e>
+    <e><p><l>bentak<s n="vblex"/></l><r>bentak<s n="vblex"/></r></p></e>
     <e><p><l>bentang<s n="vblex"/></l><r>bentang<s n="vblex"/></r></p></e>
+    <e><p><l>bentar<s n="vblex"/></l><r>bentar<s n="vblex"/></r></p></e>
+    <e><p><l>bentrok<s n="vblex"/></l><r>bentrok<s n="vblex"/></r></p></e>
+    <e><p><l>bentrok<s n="vblex"/><s n="subst"/><s n="an"/></l><r>tengkar<s n="vblex"/><s n="subst"/><s n="per-an"/></r></p></e>
+    <e><p><l>bentur<s n="vblex"/></l><r>bentur<s n="vblex"/></r></p></e>
+    <e><p><l>bentur<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>langgar<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>bentur<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>langgar<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>berangkat<s n="vblex"/></l><r>berangkat<s n="vblex"/></r></p></e>
+    <e><p><l>berangkat<s n="vblex"/></l><r>lepas<s n="adj"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>berangkat<s n="vblex"/><s n="subst"/><s n="ke-an"/></l><r>lepas<s n="adj"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>berantas<s n="vblex"/></l><r>banteras<s n="vblex"/></r></p></e>
+    <e><p><l>berantas<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>berantas<s n="vblex"/><s n="subst"/><s n="peN"/></r></p></e>
     <e><p><l>beri<s n="vblex"/></l><r>beri<s n="vblex"/></r></p></e>
+    <e><p><l>berontak<s n="vblex"/></l><r>berontak<s n="vblex"/></r></p></e>
+    <e><p><l>bersin<s n="vblex"/></l><r>bersin<s n="vblex"/></r></p></e>
+    <e><p><l>betot<s n="vblex"/></l><r>betot<s n="vblex"/></r></p></e>
     <e><p><l>biak<s n="vblex"/></l><r>biak<s n="vblex"/></r></p></e>
+    <e><p><l>bicara<s n="vblex"/></l><r>bicara<s n="vblex"/></r></p></e>
+    <e><p><l>bicara<s n="vblex"/></l><r>cakap<s n="vblex"/></r></p></e>
     <e><p><l>bidik<s n="vblex"/></l><r>bidik<s n="vblex"/></r></p></e>
+    <e><p><l>bikin<s n="vblex"/></l><r>bikin<s n="vblex"/></r></p></e>
     <e><p><l>bilang<s n="vblex"/></l><r>bilang<s n="vblex"/></r></p></e>
+    <e><p><l>bilas<s n="vblex"/></l><r>bilas<s n="vblex"/></r></p></e>
     <e><p><l>bimbing<s n="vblex"/></l><r>bimbing<s n="vblex"/></r></p></e>
+    <e><p><l>bina<s n="vblex"/></l><r>bina<s n="vblex"/></r></p></e>
     <e><p><l>bincang<s n="vblex"/></l><r>bincang<s n="vblex"/></r></p></e>
     <e><p><l>bingkis<s n="vblex"/></l><r>bingkis<s n="vblex"/></r></p></e>
+    <e><p><l>bingkis<s n="vblex"/><s n="subst"/><s n="an"/></l><r>hadiah<s n="n"/></r></p></e>
+    <e><p><l>bisa<s n="vblex"/></l><r>bisa<s n="vblex"/></r></p></e>
+    <e><p><l>blokir<s n="vblex"/></l><r>blokir<s n="vblex"/></r></p></e>
+    <e><p><l>blokir<s n="vblex"/></l><r>sekat<s n="n"/><s n="an"/></r></p></e>
+    <e><p><l>bobok<s n="vblex"/></l><r>bobok<s n="vblex"/></r></p></e>
     <e><p><l>bocor<s n="vblex"/></l><r>bocor<s n="vblex"/></r></p></e>
+    <e><p><l>boikot<s n="vblex"/></l><r>boikot<s n="vblex"/></r></p></e>
+    <e><p><l>bombardir<s n="vblex"/></l><r>bom<s n="n"/></r></p></e>
     <e><p><l>bonceng<s n="vblex"/></l><r>bonceng<s n="vblex"/></r></p></e>
+    <e><p><l>bonceng<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>iring<s n="vblex"/><s n="actv"/><s n="i"/></r></p></e>
+    <e><p><l>bonceng<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>iring<s n="vblex"/><s n="pasv"/><s n="i"/></r></p></e>
     <e><p><l>bongkar<s n="vblex"/></l><r>bongkar<s n="vblex"/></r></p></e>
     <e><p><l>borong<s n="vblex"/></l><r>borong<s n="vblex"/></r></p></e>
     <e><p><l>buang<s n="vblex"/></l><r>buang<s n="vblex"/></r></p></e>
     <e><p><l>buat<s n="vblex"/></l><r>buat<s n="vblex"/></r></p></e>
+    <e><p><l>bubar<s n="vblex"/></l><r>bubar<s n="vblex"/></r></p></e>
+    <e><p><l>bubuh<s n="vblex"/></l><r>bubuh<s n="vblex"/></r></p></e>
+    <e><p><l>budur<s n="vblex"/></l><r>budur<s n="vblex"/></r></p></e>
+    <e><p><l>buka<s n="vblex"/></l><r>buka<s n="vblex"/></r></p></e>
+    <e><p><l>buntu<s n="vblex"/></l><r>buntu<s n="vblex"/></r></p></e>
+    <e><p><l>bunuh<s n="vblex"/></l><r>bunuh<s n="vblex"/></r></p></e>
     <e><p><l>buru<s n="vblex"/></l><r>buru<s n="vblex"/></r></p></e>
+    <e><p><l>butuh<s n="vblex"/></l><r>perlu<s n="vblex"/></r></p></e>
+    <e><p><l>buyar<s n="vblex"/></l><r>buyar<s n="vblex"/></r></p></e>
+    <e><p><l>buyur<s n="vblex"/></l><r>buyur<s n="vblex"/></r></p></e>
     <e><p><l>cabut<s n="vblex"/></l><r>cabut<s n="vblex"/></r></p></e>
+    <e><p><l>cadang<s n="vblex"/></l><r>cadang<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>cadang<s n="vblex"/></l><r>cadang<s n="vblex"/></r></p></e>
+    <e><p><l>cadang<s n="vblex"/><s n="subst"/><s n="peN-an"/></l><r>sandar<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
     <e><p><l>cakup<s n="vblex"/></l><r>cakup<s n="vblex"/></r></p></e>
+    <e><p><l>cakup<s n="vblex"/><s n="actv"/></l><r>rangkum<s n="vblex"/><s n="actv"/><s n="i"/></r></p></e>
+    <e><p><l>cakup<s n="vblex"/><s n="pasv"/></l><r>rangkum<s n="vblex"/><s n="pasv"/><s n="i"/></r></p></e>
+    <e><p><l>cakup<s n="vblex"/><s n="subst"/><s n="an"/></l><r>liput<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>cam<s n="vblex"/></l><r>cam<s n="vblex"/></r></p></e>
+    <e><p><l>campak<s n="vblex"/></l><r>campak<s n="vblex"/></r></p></e>
     <e><p><l>campur<s n="vblex"/></l><r>campur<s n="vblex"/></r></p></e>
+    <e><p><l>cangkok<s n="vblex"/></l><r>cangkok<s n="vblex"/></r></p></e>
+    <e><p><l>cangkung<s n="vblex"/></l><r>cangkung<s n="vblex"/></r></p></e>
+    <e><p><l>cangkup<s n="vblex"/></l><r>cangkup<s n="vblex"/></r></p></e>
+    <e><p><l>cantum<s n="vblex"/></l><r>cantum<s n="vblex"/></r></p></e>
     <e><p><l>capai<s n="vblex"/></l><r>capai<s n="vblex"/></r></p></e>
+    <e><p><l>caplok<s n="vblex"/></l><r>caplok<s n="vblex"/></r></p></e>
     <e><p><l>cari<s n="vblex"/></l><r>cari<s n="vblex"/></r></p></e>
     <e><p><l>carter<s n="vblex"/></l><r>carter<s n="vblex"/></r></p></e>
     <e><p><l>catat<s n="vblex"/></l><r>catat<s n="vblex"/></r></p></e>
+    <e><p><l>cegah<s n="vblex"/></l><r>cegah<s n="vblex"/></r></p></e>
+    <e><p><l>cegat<s n="vblex"/></l><r>tahan<s n="adj"/><s n="actio"/></r></p></e>
+    <e><p><l>cegat<s n="vblex"/><s n="subst"/><s n="peN-an"/></l><r>cegat<s n="vblex"/><s n="subst"/><s n="peN-an"/></r></p></e>
+    <e><p><l>cekam<s n="vblex"/></l><r>cekam<s n="vblex"/></r></p></e>
+    <e><p><l>cekcok<s n="vblex"/></l><r>cekcok<s n="vblex"/></r></p></e>
+    <e><p><l>cekek<s n="vblex"/></l><r>cekek<s n="vblex"/></r></p></e>
     <e><p><l>cekik<s n="vblex"/></l><r>cekik<s n="vblex"/></r></p></e>
+    <e><p><l>celaka<s n="vblex"/></l><r>malang<s n="adj"/></r></p></e>
+    <e><p><l>cemplung<s n="vblex"/></l><r>cemplung<s n="vblex"/></r></p></e>
+    <e><p><l>cengkeram<s n="vblex"/></l><r>cengkeram<s n="vblex"/></r></p></e>
+    <e><p><l>cengkeram<s n="vblex"/><s n="subst"/><s n="an"/></l><r>cengkam<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>ceplos<s n="vblex"/></l><r>ceplos<s n="vblex"/></r></p></e>
+    <e><p><l>cerai<s n="vblex"/></l><r>cerai<s n="vblex"/></r></p></e>
+    <e><p><l>cibir<s n="vblex"/></l><r>cibir<s n="vblex"/></r></p></e>
+    <e><p><l>cicil<s n="vblex"/></l><r>cicil<s n="vblex"/></r></p></e>
+    <e><p><l>cicip<s n="vblex"/></l><r>cicip<s n="vblex"/></r></p></e>
+    <e><p><l>cincang<s n="vblex"/></l><r>cincang<s n="vblex"/></r></p></e>
+    <e><p><l>ciprat<s n="vblex"/></l><r>ciprat<s n="vblex"/></r></p></e>
+    <e><p><l>ciprat<s n="vblex"/><s n="subst"/><s n="an"/></l><r>percik<s n="n"/><s n="an"/></r></p></e>
     <e><p><l>cium<s n="vblex"/></l><r>cium<s n="vblex"/></r></p></e>
+    <e><p><l>cium<s n="vblex"/><s n="subst"/><s n="peN-an"/></l><r>bau<s n="n"/></r></p></e>
+    <e><p><l>coak<s n="vblex"/></l><r>coak<s n="vblex"/></r></p></e>
+    <e><p><l>coba<s n="vblex"/></l><r>cuba<s n="vblex"/></r></p></e>
+    <e><p><l>coba<s n="vblex"/><s n="subst"/><s n="peN-an"/></l><r>coba<s n="vblex"/><s n="subst"/><s n="peN-an"/></r></p></e>
+    <e><p><l>coblos<s n="vblex"/></l><r>coblos<s n="vblex"/></r></p></e>
+    <e><p><l>congklang<s n="vblex"/></l><r>congklang<s n="vblex"/></r></p></e>
+    <e><p><l>contek<s n="vblex"/></l><r>contek<s n="vblex"/></r></p></e>
+    <e><p><l>copot<s n="vblex"/></l><r>copot<s n="vblex"/></r></p></e>
     <e><p><l>cor<s n="vblex"/></l><r>cor<s n="vblex"/></r></p></e>
+    <e><p><l>cor<s n="vblex"/><s n="subst"/><s n="peN-an"/></l><r>tuang<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>cuat<s n="vblex"/></l><r>cuat<s n="vblex"/></r></p></e>
+    <e><p><l>cuci<s n="vblex"/></l><r>cuci<s n="vblex"/></r></p></e>
+    <e><p><l>cucup<s n="vblex"/></l><r>cucup<s n="vblex"/></r></p></e>
+    <e><p><l>cukur<s n="vblex"/></l><r>cukur<s n="vblex"/></r></p></e>
+    <e><p><l>cundang<s n="vblex"/></l><r>cundang<s n="vblex"/></r></p></e>
     <e><p><l>cuplik<s n="vblex"/></l><r>cuplik<s n="vblex"/></r></p></e>
     <e><p><l>curi<s n="vblex"/></l><r>curi<s n="vblex"/></r></p></e>
+    <e><p><l>cuti<s n="vblex"/></l><r>cuti<s n="vblex"/></r></p></e>
+    <e><p><l>dab<s n="vblex"/></l><r>dab<s n="vblex"/></r></p></e>
+    <e><p><l>damprat<s n="vblex"/></l><r>damprat<s n="vblex"/></r></p></e>
+    <e><p><l>dandan<s n="vblex"/></l><r>dandan<s n="vblex"/></r></p></e>
+    <e><p><l>dapat<s n="vblex"/></l><r>dapat<s n="vblex"/></r></p></e>
+    <e><p><l>dapat<s n="vblex"/><s n="actv"/></l><r>dapat<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>dapat<s n="vblex"/><s n="actv"/><s n="i"/></l><r>dapat<s n="vblex"/><s n="actv"/><s n="i"/></r></p></e>
+    <e><p><l>dapat<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>dapat<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>dapat<s n="vblex"/><s n="pasv"/></l><r>dapat<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>dapat<s n="vblex"/><s n="pasv"/><s n="i"/></l><r>dapat<s n="vblex"/><s n="pasv"/><s n="i"/></r></p></e>
+    <e><p><l>dapat<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>dapat<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>datang-datang<s n="adv"/></l><r>datang-datang<s n="adv"/></r></p></e>
+    <e><p><l>datang<s n="vblex"/></l><r>datang<s n="vblex"/></r></p></e>
     <e><p><l>debar<s n="vblex"/></l><r>debar<s n="vblex"/></r></p></e>
+    <e><p><l>dedah<s n="vblex"/></l><r>dedah<s n="vblex"/></r></p></e>
+    <e><p><l>dekam<s n="vblex"/></l><r>dekam<s n="vblex"/></r></p></e>
+    <e><p><l>dekap<s n="vblex"/></l><r>dekap<s n="vblex"/></r></p></e>
+    <e><p><l>dekap<s n="vblex"/><s n="actv"/></l><r>dakap<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>dekap<s n="vblex"/><s n="pasv"/></l><r>dakap<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>dengar<s n="vblex"/></l><r>dengar<s n="vblex"/></r></p></e>
+    <e><p><l>dep<s n="vblex"/></l><r>dep<s n="vblex"/></r></p></e>
     <e><p><l>desak<s n="vblex"/></l><r>desak<s n="vblex"/></r></p></e>
+    <e><p><l>diam<s n="vblex"/></l><r>diam<s n="vblex"/></r></p></e>
     <e><p><l>didik<s n="vblex"/></l><r>didik<s n="vblex"/></r></p></e>
+    <e><p><l>dodos<s n="vblex"/></l><r>dodos<s n="vblex"/></r></p></e>
+    <e><p><l>dolan<s n="vblex"/></l><r>dolan<s n="vblex"/></r></p></e>
+    <e><p><l>dompleng<s n="vblex"/></l><r>dompleng<s n="vblex"/></r></p></e>
+    <e><p><l>dongak<s n="vblex"/></l><r>dongak<s n="vblex"/></r></p></e>
     <e><p><l>dorong<s n="vblex"/></l><r>dorong<s n="vblex"/></r></p></e>
+    <e><p><l>drop<s n="vblex"/></l><r>drop<s n="vblex"/></r></p></e>
+    <e><p><l>dub<s n="vblex"/></l><r>dub<s n="vblex"/></r></p></e>
+    <e><p><l>dudu<s n="vblex"/></l><r>dudu<s n="vblex"/></r></p></e>
+    <e><p><l>duduk<s n="vblex"/></l><r>duduk<s n="vblex"/></r></p></e>
     <e><p><l>duga<s n="vblex"/></l><r>duga<s n="vblex"/></r></p></e>
     <e><p><l>dukung<s n="vblex"/></l><r>dukung<s n="vblex"/></r></p></e>
+    <e><p><l>dukung<s n="vblex"/><s n="actv"/></l><r>sokong<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>dukung<s n="vblex"/><s n="pasv"/></l><r>sokong<s n="n"/><s n="actio"/><s n="pasv"/></r></p></e>
+    <e><p><l>dukung<s n="vblex"/><s n="subst"/><s n="an"/></l><r>sokong<s n="n"/><s n="an"/></r></p></e>
+    <e><p><l>dukung<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>sokong<s n="vblex"/><s n="subst"/><s n="peN"/></r></p></e>
     <e><p><l>ecer<s n="vblex"/></l><r>ecer<s n="vblex"/></r></p></e>
+    <e><p><l>ecer<s n="vblex"/><s n="subst"/><s n="an"/></l><r>runcit<s n="adj"/></r></p></e>
     <e><p><l>edar<s n="vblex"/></l><r>edar<s n="vblex"/></r></p></e>
+    <e><p><l>edit<s n="vblex"/></l><r>edit<s n="vblex"/></r></p></e>
     <e><p><l>eja<s n="vblex"/></l><r>eja<s n="vblex"/></r></p></e>
     <e><p><l>ejek<s n="vblex"/></l><r>ejek<s n="vblex"/></r></p></e>
+    <e><p><l>ekspos<s n="vblex"/><s n="actv"/></l><r>dedah<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>elak<s n="vblex"/></l><r>elak<s n="vblex"/></r></p></e>
+    <e><p><l>elu<s n="vblex"/></l><r>elu<s n="vblex"/></r></p></e>
+    <e><p><l>elus<s n="vblex"/></l><r>elus<s n="vblex"/></r></p></e>
+    <e><p><l>embara<s n="vblex"/></l><r>embara<s n="vblex"/></r></p></e>
+    <e><p><l>embus<s n="vblex"/></l><r>embus<s n="vblex"/></r></p></e>
+    <e><p><l>emis<s n="vblex"/></l><r>emis<s n="vblex"/></r></p></e>
+    <e><p><l>empas<s n="vblex"/></l><r>empas<s n="vblex"/></r></p></e>
+    <e><p><l>empas<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>hempas<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>empas<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>hempas<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>endus<s n="vblex"/></l><r>endus<s n="vblex"/></r></p></e>
+    <e><p><l>entas<s n="vblex"/></l><r>entas<s n="vblex"/></r></p></e>
+    <e><p><l>entot<s n="vblex"/></l><r>entot<s n="vblex"/></r></p></e>
+    <e><p><l>enyah<s n="vblex"/></l><r>enyah<s n="vblex"/></r></p></e>
+    <e><p><l>epak<s n="vblex"/></l><r>epak<s n="vblex"/></r></p></e>
+    <e><p><l>eram<s n="vblex"/></l><r>eram<s n="vblex"/></r></p></e>
+    <e><p><l>erik<s n="vblex"/></l><r>erik<s n="vblex"/></r></p></e>
+    <e><p><l>erik<s n="vblex"/><s n="actv"/></l><r>kikis<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>erik<s n="vblex"/><s n="pasv"/></l><r>kikis<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>foya<s n="vblex"/></l><r>foya<s n="vblex"/></r></p></e>
     <e><p><l>gadai<s n="vblex"/></l><r>gadai<s n="vblex"/></r></p></e>
+    <e><p><l>gagai<s n="vblex"/></l><r>gagai<s n="vblex"/></r></p></e>
+    <e><p><l>gagal<s n="vblex"/></l><r>gagal<s n="vblex"/></r></p></e>
     <e><p><l>gagas<s n="vblex"/></l><r>gagas<s n="vblex"/></r></p></e>
+    <e><p><l>gagas<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>asas<s n="n"/><s n="peN"/></r></p></e>
+    <e><p><l>gahar<s n="vblex"/></l><r>gahar<s n="vblex"/></r></p></e>
+    <e><p><l>gaib<s n="vblex"/></l><r>gaib<s n="vblex"/></r></p></e>
+    <e><p><l>gail<s n="vblex"/></l><r>gail<s n="vblex"/></r></p></e>
     <e><p><l>gali<s n="vblex"/></l><r>gali<s n="vblex"/></r></p></e>
+    <e><p><l>gandeng<s n="vblex"/></l><r>gandeng<s n="vblex"/></r></p></e>
+    <e><p><l>gandeng<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>ganding<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>gandeng<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>ganding<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>ganggang<s n="vblex"/></l><r>ganggang<s n="vblex"/></r></p></e>
     <e><p><l>ganggu<s n="vblex"/></l><r>ganggu<s n="vblex"/></r></p></e>
     <e><p><l>ganjar<s n="vblex"/></l><r>ganjar<s n="vblex"/></r></p></e>
     <e><p><l>gantung<s n="vblex"/></l><r>gantung<s n="vblex"/></r></p></e>
+    <e><p><l>gapai<s n="vblex"/></l><r>gapai<s n="vblex"/></r></p></e>
     <e><p><l>garap<s n="vblex"/></l><r>garap<s n="vblex"/></r></p></e>
+    <e><p><l>garap<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>usaha<s n="n"/><s n="peN"/></r></p></e>
+    <e><p><l>garuk<s n="vblex"/></l><r>garuk<s n="vblex"/></r></p></e>
+    <e><p><l>garuk<s n="vblex"/><s n="actv"/></l><r>garu<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>garuk<s n="vblex"/><s n="pasv"/></l><r>garu<s n="n"/><s n="actio"/><s n="pasv"/></r></p></e>
+    <e><p><l>garut<s n="vblex"/></l><r>garut<s n="vblex"/></r></p></e>
+    <e><p><l>gaul<s n="vblex"/></l><r>gaul<s n="vblex"/></r></p></e>
     <e><p><l>gebrak<s n="vblex"/></l><r>gebrak<s n="vblex"/></r></p></e>
+    <e><p><l>gebu<s n="vblex"/></l><r>gebu<s n="vblex"/></r></p></e>
+    <e><p><l>gebuk<s n="vblex"/></l><r>gebuk<s n="vblex"/></r></p></e>
+    <e><p><l>gedor<s n="vblex"/></l><r>gedor<s n="vblex"/></r></p></e>
+    <e><p><l>gedor<s n="vblex"/><s n="actv"/></l><r>ketuk<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>gedor<s n="vblex"/><s n="pasv"/></l><r>ketuk<s n="n"/><s n="actio"/><s n="pasv"/></r></p></e>
+    <e><p><l>gegas<s n="vblex"/></l><r>gegas<s n="vblex"/></r></p></e>
+    <e><p><l>gelandang<s n="vblex"/></l><r>gelandang<s n="vblex"/></r></p></e>
+    <e><p><l>geledah<s n="vblex"/></l><r>geledah<s n="vblex"/></r></p></e>
+    <e><p><l>gelegak<s n="vblex"/></l><r>gelegak<s n="vblex"/></r></p></e>
+    <e><p><l>gelepar<s n="vblex"/></l><r>gelepar<s n="vblex"/></r></p></e>
+    <e><p><l>gelimpang<s n="vblex"/></l><r>gelimpang<s n="vblex"/></r></p></e>
+    <e><p><l>gelincir<s n="vblex"/></l><r>gelincir<s n="vblex"/></r></p></e>
     <e><p><l>gelinding<s n="vblex"/></l><r>gelinding<s n="vblex"/></r></p></e>
+    <e><p><l>gelut<s n="vblex"/></l><r>gelut<s n="vblex"/></r></p></e>
+    <e><p><l>gembleng<s n="vblex"/></l><r>gembleng<s n="vblex"/></r></p></e>
+    <e><p><l>gembung<s n="vblex"/></l><r>kembung<s n="adj"/><s n="actio"/></r></p></e>
+    <e><p><l>gembung<s n="vblex"/><s n="subst"/><s n="peN-an"/></l><r>gembung<s n="vblex"/><s n="subst"/><s n="peN-an"/></r></p></e>
+    <e><p><l>gemerencing<s n="vblex"/></l><r>gemerencing<s n="vblex"/></r></p></e>
+    <e><p><l>gemeresik<s n="vblex"/></l><r>gemeresik<s n="vblex"/></r></p></e>
+    <e><p><l>gemeretak<s n="vblex"/></l><r>gemeretak<s n="vblex"/></r></p></e>
+    <e><p><l>gempur<s n="vblex"/></l><r>gempur<s n="vblex"/></r></p></e>
+    <e><p><l>genang<s n="vblex"/></l><r>genang<s n="vblex"/></r></p></e>
     <e><p><l>gendong<s n="vblex"/></l><r>gendong<s n="vblex"/></r></p></e>
+    <e><p><l>genjot<s n="vblex"/></l><r>genjot<s n="vblex"/></r></p></e>
+    <e><p><l>gerai<s n="vblex"/></l><r>gerai<s n="vblex"/></r></p></e>
+    <e><p><l>gerbang<s n="vblex"/></l><r>gerbang<s n="vblex"/></r></p></e>
+    <e><p><l>geret<s n="vblex"/></l><r>geret<s n="vblex"/></r></p></e>
     <e><p><l>gerombol<s n="vblex"/></l><r>gerombol<s n="vblex"/></r></p></e>
+    <e><p><l>geropyok<s n="vblex"/></l><r>geropyok<s n="vblex"/></r></p></e>
+    <e><p><l>gesa<s n="vblex"/></l><r>gesa<s n="vblex"/></r></p></e>
+    <e><p><l>gesek<s n="vblex"/></l><r>gesek<s n="vblex"/></r></p></e>
     <e><p><l>geser<s n="vblex"/></l><r>geser<s n="vblex"/></r></p></e>
     <e><p><l>gigit<s n="vblex"/></l><r>gigit<s n="vblex"/></r></p></e>
+    <e><p><l>gilas<s n="vblex"/></l><r>gilas<s n="vblex"/></r></p></e>
     <e><p><l>giling<s n="vblex"/></l><r>giling<s n="vblex"/></r></p></e>
+    <e><p><l>giling<s n="vblex"/><s n="subst"/><s n="an"/></l><r>kisar<s n="n"/><s n="peN"/></r></p></e>
     <e><p><l>gilir<s n="vblex"/></l><r>gilir<s n="vblex"/></r></p></e>
+    <e><p><l>giring<s n="vblex"/></l><r>giring<s n="vblex"/></r></p></e>
+    <e><p><l>giur<s n="vblex"/></l><r>giur<s n="vblex"/></r></p></e>
     <e><p><l>goda<s n="vblex"/></l><r>goda<s n="vblex"/></r></p></e>
+    <e><p><l>golak<s n="vblex"/></l><r>golak<s n="vblex"/></r></p></e>
+    <e><p><l>golek<s n="vblex"/></l><r>golek<s n="vblex"/></r></p></e>
     <e><p><l>golong<s n="vblex"/></l><r>golong<s n="vblex"/></r></p></e>
+    <e><p><l>gondol<s n="vblex"/></l><r>gondol<s n="vblex"/></r></p></e>
     <e><p><l>gonggong<s n="vblex"/></l><r>gonggong<s n="vblex"/></r></p></e>
     <e><p><l>goreng<s n="vblex"/></l><r>goreng<s n="vblex"/></r></p></e>
+    <e><p><l>goreng<s n="vblex"/><s n="subst"/><s n="peN-an"/></l><r>kuali<s n="n"/></r></p></e>
+    <e><p><l>gorok<s n="vblex"/></l><r>gorok<s n="vblex"/></r></p></e>
+    <e><p><l>gotong<s n="vblex"/></l><r>gotong<s n="vblex"/></r></p></e>
+    <e><p><l>goyang<s n="vblex"/></l><r>goyang<s n="vblex"/></r></p></e>
+    <e><p><l>gubah<s n="vblex"/></l><r>gubah<s n="vblex"/></r></p></e>
+    <e><p><l>gubris<s n="vblex"/></l><r>gubris<s n="vblex"/></r></p></e>
     <e><p><l>gugah<s n="vblex"/></l><r>gugah<s n="vblex"/></r></p></e>
     <e><p><l>gugat<s n="vblex"/></l><r>gugat<s n="vblex"/></r></p></e>
+    <e><p><l>gugat<s n="vblex"/><s n="subst"/><s n="an"/></l><r>tuntut<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>gugat<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>plaintif<s n="n"/></r></p></e>
     <e><p><l>gugur<s n="vblex"/></l><r>gugur<s n="vblex"/></r></p></e>
+    <e><p><l>gulir<s n="vblex"/></l><r>gulir<s n="vblex"/></r></p></e>
+    <e><p><l>gusar<s n="vblex"/></l><r>gusar<s n="vblex"/></r></p></e>
     <e><p><l>gusur<s n="vblex"/></l><r>gusur<s n="vblex"/></r></p></e>
+    <e><p><l>guyon<s n="vblex"/></l><r>guyon<s n="vblex"/></r></p></e>
+    <e><p><l>guyur<s n="vblex"/></l><r>guyur<s n="vblex"/></r></p></e>
+    <e><p><l>habis<s n="vblex"/></l><r>habis<s n="vblex"/></r></p></e>
+    <e><p><l>hadir<s n="vblex"/></l><r>hadir<s n="vblex"/></r></p></e>
     <e><p><l>hafal<s n="vblex"/></l><r>hafal<s n="vblex"/></r></p></e>
+    <e><p><l>haj<s n="vblex"/></l><r>haj<s n="vblex"/></r></p></e>
+    <e><p><l>hajar<s n="vblex"/></l><r>hajar<s n="vblex"/></r></p></e>
     <e><p><l>halang<s n="vblex"/></l><r>halang<s n="vblex"/></r></p></e>
+    <e><p><l>halau<s n="vblex"/></l><r>halau<s n="vblex"/></r></p></e>
     <e><p><l>hambat<s n="vblex"/></l><r>hambat<s n="vblex"/></r></p></e>
+    <e><p><l>hambat<s n="vblex"/><s n="actv"/></l><r>halang<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>hambat<s n="vblex"/><s n="pasv"/></l><r>halang<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>hambat<s n="vblex"/><s n="subst"/><s n="an"/></l><r>halang<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
     <e><p><l>hambur<s n="vblex"/></l><r>hambur<s n="vblex"/></r></p></e>
+    <e><p><l>hamil<s n="vblex"/></l><r>hamil<s n="vblex"/></r></p></e>
     <e><p><l>hampar<s n="vblex"/></l><r>hampar<s n="vblex"/></r></p></e>
+    <e><p><l>hancur<s n="vblex"/></l><r>hancur<s n="vblex"/></r></p></e>
+    <e><p><l>hangus<s n="vblex"/></l><r>hangus<s n="vblex"/></r></p></e>
     <e><p><l>hantam<s n="vblex"/></l><r>hantam<s n="vblex"/></r></p></e>
+    <e><p><l>hantam<s n="vblex"/><s n="actv"/></l><r>hentam<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>hantam<s n="vblex"/><s n="pasv"/></l><r>hentam<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>hantam<s n="vblex"/><s n="subst"/><s n="an"/></l><r>hentam<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>hantar<s n="vblex"/></l><r>hantar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>hantar<s n="vblex"/></l><r>hantar<s n="vblex"/></r></p></e>
+    <e><p><l>hanyut<s n="vblex"/></l><r>hanyut<s n="vblex"/></r></p></e>
+    <e><p><l>hapus<s n="vblex"/></l><r>hapus<s n="vblex"/></r></p></e>
+    <e><p><l>harap-harap<s n="adv"/></l><r>harap-harap<s n="adv"/></r></p></e>
     <e><p><l>harap<s n="vblex"/></l><r>harap<s n="vblex"/></r></p></e>
+    <e><p><l>hasut<s n="vblex"/></l><r>hasut<s n="vblex"/></r></p></e>
     <e><p><l>hela<s n="vblex"/></l><r>hela<s n="vblex"/></r></p></e>
+    <e><p><l>hempas<s n="vblex"/></l><r>hempas<s n="vblex"/></r></p></e>
     <e><p><l>hias<s n="vblex"/></l><r>hias<s n="vblex"/></r></p></e>
     <e><p><l>hibur<s n="vblex"/></l><r>hibur<s n="vblex"/></r></p></e>
     <e><p><l>hidang<s n="vblex"/></l><r>hidang<s n="vblex"/></r></p></e>
+    <e><p><l>hidup<s n="vblex"/></l><r>hidup<s n="vblex"/></r></p></e>
+    <e><p><l>hilang<s n="vblex"/></l><r>hilang<s n="vblex"/></r></p></e>
     <e><p><l>himpun<s n="vblex"/></l><r>himpun<s n="vblex"/></r></p></e>
+    <e><p><l>hindar<s n="vblex"/></l><r>hindar<s n="vblex"/></r></p></e>
+    <e><p><l>hindar<s n="vblex"/><s n="actv"/><s n="i"/></l><r>elak<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>hindar<s n="vblex"/><s n="pasv"/><s n="i"/></l><r>elak<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>hindar<s n="vblex"/><s n="subst"/><s n="peN-an"/></l><r>elak<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>hindar<s n="vblex"/><s n="subst"/><s n="peN-an"/></l><r>elak<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>hinggap<s n="vblex"/></l><r>hinggap<s n="vblex"/></r></p></e>
+    <e><p><l>hirau<s n="vblex"/></l><r>hirau<s n="vblex"/></r></p></e>
+    <e><p><l>hirup<s n="vblex"/></l><r>hirup<s n="vblex"/></r></p></e>
     <e><p><l>hitung<s n="vblex"/></l><r>hitung<s n="vblex"/></r></p></e>
+    <e><p><l>hitung<s n="vblex"/><s n="actv"/><s n="per-kan"/></l><r>kira<s n="n"/></r></p></e>
+    <e><p><l>hitung<s n="vblex"/><s n="pasv"/><s n="per-kan"/></l><r>kira<s n="n"/></r></p></e>
     <e><p><l>hubung<s n="vblex"/></l><r>hubung<s n="vblex"/></r></p></e>
+    <e><p><l>hubung<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>sambung<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>hubung<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>sambung<s n="vblex"/><s n="pasv"/></r></p></e>
     <e><p><l>huni<s n="vblex"/></l><r>huni<s n="vblex"/></r></p></e>
+    <e><p><l>huni<s n="vblex"/><s n="subst"/><s n="an"/></l><r>diam<s n="vblex"/><s n="subst"/><s n="ke-an"/></r></p></e>
+    <e><p><l>hunus<s n="vblex"/></l><r>hunus<s n="vblex"/></r></p></e>
+    <e><p><l>huyung<s n="vblex"/></l><r>huyung<s n="vblex"/></r></p></e>
     <e><p><l>idap<s n="vblex"/></l><r>idap<s n="vblex"/></r></p></e>
+    <e><p><l>igal<s n="vblex"/></l><r>igal<s n="vblex"/></r></p></e>
     <e><p><l>igau<s n="vblex"/></l><r>igau<s n="vblex"/></r></p></e>
+    <e><p><l>ikut serta<s n="vblex"/><s n="subst"/><s n="ke-an"/></l><r>serta<s n="vblex"/><s n="subst"/><s n="peN-an"/></r></p></e>
     <e><p><l>ikut<s n="vblex"/></l><r>ikut<s n="vblex"/></r></p></e>
+    <e><p><l>ili<s n="vblex"/></l><r>ili<s n="vblex"/></r></p></e>
     <e><p><l>imbau<s n="vblex"/></l><r>imbau<s n="vblex"/></r></p></e>
+    <e><p><l>impas<s n="vblex"/></l><r>impas<s n="vblex"/></r></p></e>
     <e><p><l>impi<s n="vblex"/></l><r>impi<s n="vblex"/></r></p></e>
+    <e><p><l>inap<s n="vblex"/><s n="actv"/></l><r>malam<s n="n"/></r></p></e>
+    <e><p><l>inap<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>inap<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>inap<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>inap<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
     <e><p><l>incar<s n="vblex"/></l><r>incar<s n="vblex"/></r></p></e>
+    <e><p><l>indekos<s n="vblex"/></l><r>indekos<s n="vblex"/></r></p></e>
+    <e><p><l>inga<s n="vblex"/></l><r>inga<s n="vblex"/></r></p></e>
     <e><p><l>ingat<s n="vblex"/></l><r>ingat<s n="vblex"/></r></p></e>
+    <e><p><l>ingat<s n="vblex"/><s n="actv"/><s n="per-kan"/></l><r>amar<s n="n"/><s n="an"/></r></p></e>
+    <e><p><l>ingat<s n="vblex"/><s n="pasv"/><s n="per-kan"/></l><r>amar<s n="n"/><s n="an"/></r></p></e>
+    <e><p><l>ingkar<s n="vblex"/></l><r>ingkar<s n="vblex"/></r></p></e>
+    <e><p><l>intai<s n="vblex"/></l><r>intai<s n="vblex"/></r></p></e>
+    <e><p><l>intip<s n="vblex"/></l><r>intip<s n="vblex"/></r></p></e>
     <e><p><l>iring<s n="vblex"/></l><r>iring<s n="vblex"/></r></p></e>
     <e><p><l>isap<s n="vblex"/></l><r>isap<s n="vblex"/></r></p></e>
+    <e><p><l>istirahat<s n="vblex"/></l><r>rehat<s n="vblex"/></r></p></e>
     <e><p><l>jabat<s n="vblex"/></l><r>jabat<s n="vblex"/></r></p></e>
+    <e><p><l>jabat<s n="vblex"/><s n="vblex"/><s n="an"/></l><r>jawat<s n="vblex"/><s n="an"/></r></p></e>
+    <e><p><l>jadi<s n="cnjadv"/></l><r>jadi<s n="cnjadv"/></r></p></e>
     <e><p><l>jadi<s n="vblex"/></l><r>jadi<s n="vblex"/></r></p></e>
+    <e><p><l>jaga<s n="vblex"/></l><r>jaga<s n="vblex"/></r></p></e>
     <e><p><l>jahit<s n="vblex"/></l><r>jahit<s n="vblex"/></r></p></e>
+    <e><p><l>jaja<s n="vblex"/></l><r>jaja<s n="vblex"/></r></p></e>
     <e><p><l>jajah<s n="vblex"/></l><r>jajah<s n="vblex"/></r></p></e>
+    <e><p><l>jajak<s n="vblex"/></l><r>jajak<s n="vblex"/></r></p></e>
+    <e><p><l>jajal<s n="vblex"/></l><r>jajal<s n="vblex"/></r></p></e>
+    <e><p><l>jalan<s n="n"/></l><r>jalan<s n="n"/></r></p></e>
+    <e><p><l>jalan<s n="vblex"/></l><r>jalan<s n="vblex"/></r></p></e>
+    <e><p><l>jalar<s n="vblex"/></l><r>jalar<s n="vblex"/></r></p></e>
     <e><p><l>jalin<s n="vblex"/></l><r>jalin<s n="vblex"/></r></p></e>
+    <e><p><l>jambret<s n="vblex"/></l><r>jambret<s n="vblex"/></r></p></e>
     <e><p><l>jamin<s n="vblex"/></l><r>jamin<s n="vblex"/></r></p></e>
     <e><p><l>jangkit<s n="vblex"/></l><r>jangkit<s n="vblex"/></r></p></e>
     <e><p><l>jatuh<s n="vblex"/></l><r>jatuh<s n="vblex"/></r></p></e>
+    <e><p><l>jebol<s n="vblex"/></l><r>jebol<s n="vblex"/></r></p></e>
+    <e><p><l>jegal<s n="vblex"/></l><r>jegal<s n="vblex"/></r></p></e>
+    <e><p><l>jegal<s n="vblex"/><s n="actv"/></l><r>halang<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>jegal<s n="vblex"/><s n="pasv"/></l><r>halang<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>jela<s n="vblex"/></l><r>jela<s n="vblex"/></r></p></e>
+    <e><p><l>jelajah<s n="vblex"/></l><r>jelajah<s n="vblex"/></r></p></e>
+    <e><p><l>jelajah<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>teroka<s n="vblex"/><s n="subst"/><s n="peN"/></r></p></e>
+    <e><p><l>jelang<s n="vblex"/></l><r>jelang<s n="vblex"/></r></p></e>
+    <e><p><l>jelma<s n="vblex"/></l><r>jelma<s n="vblex"/></r></p></e>
+    <e><p><l>jemput<s n="vblex"/></l><r>jemput<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>jemput<s n="vblex"/></l><r>jemput<s n="vblex"/></r></p></e>
+    <e><p><l>jemput<s n="vblex"/><s n="subst"/><s n="peN-an"/></l><r>angkut<s n="vblex"/><s n="subst"/><s n="peN-an"/></r></p></e>
     <e><p><l>jemur<s n="vblex"/></l><r>jemur<s n="vblex"/></r></p></e>
+    <e><p><l>jenguk<s n="vblex"/></l><r>jenguk<s n="vblex"/></r></p></e>
     <e><p><l>jentik<s n="vblex"/></l><r>jentik<s n="vblex"/></r></p></e>
+    <e><p><l>jepit<s n="vblex"/></l><r>jepit<s n="vblex"/></r></p></e>
+    <e><p><l>jepit<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>klip<s n="n"/></r></p></e>
+    <e><p><l>jepret<s n="vblex"/></l><r>jepret<s n="vblex"/></r></p></e>
+    <e><p><l>jerumus<s n="vblex"/></l><r>jerumus<s n="vblex"/></r></p></e>
+    <e><p><l>jewer<s n="vblex"/></l><r>jewer<s n="vblex"/></r></p></e>
     <e><p><l>jilat<s n="vblex"/></l><r>jilat<s n="vblex"/></r></p></e>
+    <e><p><l>jingkat<s n="vblex"/></l><r>jingkat<s n="vblex"/></r></p></e>
+    <e><p><l>jingkrak<s n="vblex"/></l><r>jingkrak<s n="vblex"/></r></p></e>
+    <e><p><l>jinjing<s n="vblex"/></l><r>bawa<s n="vblex"/><s n="subst"/><s n="peN"/></r></p></e>
+    <e><p><l>jinjing<s n="vblex"/><s n="actv"/></l><r>jinjing<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>jinjing<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>jinjing<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>jinjing<s n="vblex"/><s n="pasv"/></l><r>jinjing<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>jinjing<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>jinjing<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>jinjit<s n="vblex"/></l><r>jinjit<s n="vblex"/></r></p></e>
+    <e><p><l>joging<s n="vblex"/></l><r>joging<s n="vblex"/></r></p></e>
+    <e><p><l>jongkok<s n="vblex"/></l><r>jongkok<s n="vblex"/></r></p></e>
+    <e><p><l>jorok<s n="vblex"/></l><r>jorok<s n="vblex"/></r></p></e>
+    <e><p><l>jotos<s n="vblex"/></l><r>jotos<s n="vblex"/></r></p></e>
     <e><p><l>jual<s n="vblex"/></l><r>jual<s n="vblex"/></r></p></e>
+    <e><p><l>juang<s n="vblex"/></l><r>juang<s n="vblex"/></r></p></e>
+    <e><p><l>juju<s n="vblex"/></l><r>juju<s n="vblex"/></r></p></e>
+    <e><p><l>julang<s n="vblex"/></l><r>julang<s n="vblex"/></r></p></e>
     <e><p><l>juluk<s n="vblex"/></l><r>juluk<s n="vblex"/></r></p></e>
+    <e><p><l>juluk<s n="vblex"/><s n="subst"/><s n="an"/></l><r>gelaran<s n="n"/></r></p></e>
+    <e><p><l>julur<s n="vblex"/></l><r>julur<s n="vblex"/></r></p></e>
+    <e><p><l>jumpa<s n="vblex"/></l><r>jumpa<s n="vblex"/></r></p></e>
+    <e><p><l>jungkat<s n="vblex"/></l><r>jungkat<s n="vblex"/></r></p></e>
+    <e><p><l>jungkir<s n="vblex"/></l><r>jungkir<s n="vblex"/></r></p></e>
+    <e><p><l>jungkit<s n="vblex"/></l><r>jungkit<s n="vblex"/></r></p></e>
     <e><p><l>junjung<s n="vblex"/></l><r>junjung<s n="vblex"/></r></p></e>
+    <e><p><l>juntai<s n="vblex"/></l><r>juntai<s n="vblex"/></r></p></e>
+    <e><p><l>kabir<s n="vblex"/></l><r>kabir<s n="vblex"/></r></p></e>
+    <e><p><l>kacir<s n="vblex"/></l><r>kacir<s n="vblex"/></r></p></e>
+    <e><p><l>kais<s n="vblex"/></l><r>kais<s n="vblex"/></r></p></e>
+    <e><p><l>kalah<s n="vblex"/></l><r>kalah<s n="vblex"/></r></p></e>
+    <e><p><l>kambuh<s n="vblex"/></l><r>kambuh<s n="vblex"/></r></p></e>
+    <e><p><l>kamit<s n="vblex"/></l><r>kamit<s n="vblex"/></r></p></e>
+    <e><p><l>kandas<s n="vblex"/></l><r>kandas<s n="vblex"/></r></p></e>
+    <e><p><l>kapai<s n="vblex"/></l><r>kapai<s n="vblex"/></r></p></e>
+    <e><p><l>karam<s n="vblex"/></l><r>karam<s n="vblex"/></r></p></e>
+    <e><p><l>kasi<s n="vblex"/></l><r>kasi<s n="vblex"/></r></p></e>
+    <e><p><l>kasmaran<s n="vblex"/></l><r>kasmaran<s n="vblex"/></r></p></e>
+    <e><p><l>kawin<s n="vblex"/></l><r>kahwin<s n="vblex"/></r></p></e>
+    <e><p><l>kawin<s n="vblex"/></l><r>kawin<s n="vblex"/></r></p></e>
+    <e><p><l>kawin<s n="vblex"/><s n="actv"/><s n="i"/></l><r>kahwin<s n="vblex"/><s n="actv"/><s n="i"/></r></p></e>
+    <e><p><l>kawin<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>kahwin<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>kawin<s n="vblex"/><s n="pasv"/><s n="i"/></l><r>kahwin<s n="vblex"/><s n="pasv"/><s n="i"/></r></p></e>
+    <e><p><l>kawin<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>kahwin<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>kebut<s n="vblex"/></l><r>kebut<s n="vblex"/></r></p></e>
     <e><p><l>kecam<s n="vblex"/></l><r>kecam<s n="vblex"/></r></p></e>
     <e><p><l>kejar<s n="vblex"/></l><r>kejar<s n="vblex"/></r></p></e>
+    <e><p><l>kekek<s n="vblex"/></l><r>kekek<s n="vblex"/></r></p></e>
+    <e><p><l>kelola<s n="vblex"/><s n="actv"/></l><r>kurus<s n="adj"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>kelola<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>kelola<s n="vblex"/><s n="subst"/><s n="peN"/></r></p></e>
     <e><p><l>keluar<s n="vblex"/></l><r>keluar<s n="vblex"/></r></p></e>
+    <e><p><l>kelupas<s n="vblex"/></l><r>kelupas<s n="vblex"/></r></p></e>
+    <e><p><l>kelupas<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>gugur<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>kelupas<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>gugur<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>kemari<s n="vblex"/></l><r>kemari<s n="vblex"/></r></p></e>
     <e><p><l>kembali<s n="vblex"/></l><r>kembali<s n="vblex"/></r></p></e>
     <e><p><l>kembang<s n="vblex"/></l><r>kembang<s n="vblex"/></r></p></e>
+    <e><p><l>kemu<s n="vblex"/></l><r>kemu<s n="vblex"/></r></p></e>
+    <e><p><l>kena<s n="vblex"/></l><r>kena<s n="vblex"/></r></p></e>
     <e><p><l>kenal<s n="vblex"/></l><r>kenal<s n="vblex"/></r></p></e>
+    <e><p><l>kenan<s n="vblex"/></l><r>kenan<s n="vblex"/></r></p></e>
     <e><p><l>kenang<s n="vblex"/></l><r>kenang<s n="vblex"/></r></p></e>
+    <e><p><l>kencing<s n="vblex"/></l><r>kencing<s n="vblex"/></r></p></e>
+    <e><p><l>kenyam<s n="vblex"/></l><r>kenyam<s n="vblex"/></r></p></e>
     <e><p><l>kepung<s n="vblex"/></l><r>kepung<s n="vblex"/></r></p></e>
+    <e><p><l>keram<s n="vblex"/></l><r>keram<s n="vblex"/></r></p></e>
+    <e><p><l>keramas<s n="vblex"/></l><r>keramas<s n="vblex"/></r></p></e>
+    <e><p><l>keriap<s n="vblex"/></l><r>keriap<s n="vblex"/></r></p></e>
+    <e><p><l>kerjap<s n="vblex"/></l><r>kerjap<s n="vblex"/></r></p></e>
+    <e><p><l>keroyok<s n="vblex"/></l><r>keroyok<s n="vblex"/></r></p></e>
     <e><p><l>kerumun<s n="vblex"/></l><r>kerumun<s n="vblex"/></r></p></e>
+    <e><p><l>kesel<s n="vblex"/></l><r>kesel<s n="vblex"/></r></p></e>
+    <e><p><l>keseleo<s n="vblex"/></l><r>keseleo<s n="vblex"/></r></p></e>
+    <e><p><l>ketemu<s n="vblex"/></l><r>ketemu<s n="vblex"/></r></p></e>
     <e><p><l>khitan<s n="vblex"/></l><r>khitan<s n="vblex"/></r></p></e>
+    <e><p><l>kiat<s n="vblex"/></l><r>kiat<s n="vblex"/></r></p></e>
+    <e><p><l>kiat<s n="vblex"/></l><r>kiat<s n="vblex"/></r></p></e>
     <e><p><l>kibar<s n="vblex"/></l><r>kibar<s n="vblex"/></r></p></e>
     <e><p><l>kibas<s n="vblex"/></l><r>kibas<s n="vblex"/></r></p></e>
+    <e><p><l>kikih<s n="vblex"/></l><r>kikih<s n="vblex"/></r></p></e>
     <e><p><l>kikis<s n="vblex"/></l><r>kikis<s n="vblex"/></r></p></e>
+    <e><p><l>kikis<s n="vblex"/><s n="subst"/><s n="an"/></l><r>hakis<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>kilap<s n="vblex"/></l><r>kilap<s n="vblex"/></r></p></e>
+    <e><p><l>kirik<s n="vblex"/></l><r>kirik<s n="vblex"/></r></p></e>
     <e><p><l>kirim<s n="vblex"/></l><r>hantar<s n="vblex"/></r></p></e>
+    <e><p><l>kirim<s n="vblex"/></l><r>kirim<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>kirim<s n="vblex"/></l><r>kirim<s n="vblex"/></r></p></e>
+    <e><p><l>kirim<s n="vblex"/><s n="actv"/></l><r>hantar<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>kirim<s n="vblex"/><s n="actv"/><s n="i"/></l><r>hantar<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>kirim<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>hantar<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>kirim<s n="vblex"/><s n="pasv"/></l><r>hantar<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>kirim<s n="vblex"/><s n="pasv"/><s n="i"/></l><r>hantar<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>kirim<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>hantar<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>kirim<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>hantar<s n="vblex"/><s n="subst"/><s n="peN"/></r></p></e>
+    <e><p><l>kitar<s n="vblex"/></l><r>kitar<s n="vblex"/></r></p></e>
+    <e><p><l>kitar<s n="vblex"/><s n="actv"/><s n="i"/></l><r>keliling<s n="n"/><s n="actio"/><s n="actv"/><s n="i"/></r></p></e>
+    <e><p><l>kitar<s n="vblex"/><s n="pasv"/><s n="i"/></l><r>keliling<s n="n"/><s n="actio"/><s n="pasv"/><s n="i"/></r></p></e>
+    <e><p><l>kitik<s n="vblex"/></l><r>kitik<s n="vblex"/></r></p></e>
     <e><p><l>kobar<s n="vblex"/></l><r>kobar<s n="vblex"/></r></p></e>
+    <e><p><l>kocok<s n="vblex"/></l><r>kocok<s n="vblex"/></r></p></e>
+    <e><p><l>kocok<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>pukul<s n="n"/><s n="peN"/></r></p></e>
+    <e><p><l>kokang<s n="vblex"/></l><r>kokang<s n="vblex"/></r></p></e>
+    <e><p><l>komit<s n="vblex"/></l><r>komit<s n="vblex"/></r></p></e>
+    <e><p><l>konter<s n="vblex"/></l><r>kaunter<s n="n"/></r></p></e>
+    <e><p><l>konter<s n="vblex"/><s n="actv"/></l><r>konter<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>konter<s n="vblex"/><s n="pasv"/></l><r>konter<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>kuai<s n="vblex"/></l><r>kuai<s n="vblex"/></r></p></e>
+    <e><p><l>kubik<s n="vblex"/></l><r>padu<s n="adj"/></r></p></e>
+    <e><p><l>kubik<s n="vblex"/><s n="actv"/></l><r>kubik<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>kubik<s n="vblex"/><s n="pasv"/></l><r>kubik<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>kucek<s n="vblex"/></l><r>kucek<s n="vblex"/></r></p></e>
+    <e><p><l>kucil<s n="vblex"/></l><r>kucil<s n="vblex"/></r></p></e>
+    <e><p><l>kucil<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>asing<s n="adj"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>kucil<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>asing<s n="adj"/><s n="actio"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>kucur<s n="vblex"/></l><r>kucur<s n="vblex"/></r></p></e>
+    <e><p><l>kuis<s n="vblex"/></l><r>kuis<s n="vblex"/></r></p></e>
+    <e><p><l>kulum<s n="vblex"/></l><r>kulum<s n="vblex"/></r></p></e>
+    <e><p><l>kumpar<s n="vblex"/></l><r>kumpar<s n="vblex"/></r></p></e>
     <e><p><l>kumpul<s n="vblex"/></l><r>kumpul<s n="vblex"/></r></p></e>
+    <e><p><l>kumur<s n="vblex"/></l><r>kumur<s n="vblex"/></r></p></e>
+    <e><p><l>kuncup<s n="vblex"/></l><r>kuncup<s n="vblex"/></r></p></e>
+    <e><p><l>kundang<s n="vblex"/></l><r>kundang<s n="vblex"/></r></p></e>
     <e><p><l>kunjung<s n="vblex"/></l><r>kunjung<s n="vblex"/></r></p></e>
+    <e><p><l>kunjung<s n="vblex"/><s n="actv"/><s n="i"/></l><r>lawat<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>kunjung<s n="vblex"/><s n="pasv"/><s n="i"/></l><r>lawat<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>kunjung<s n="vblex"/><s n="subst"/><s n="an"/></l><r>lawat<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>kunjung<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>tetamu<s n="n"/></r></p></e>
     <e><p><l>kunyah<s n="vblex"/></l><r>kunyah<s n="vblex"/></r></p></e>
     <e><p><l>kupas<s n="vblex"/></l><r>kupas<s n="vblex"/></r></p></e>
+    <e><p><l>kupil<s n="vblex"/></l><r>kupil<s n="vblex"/></r></p></e>
+    <e><p><l>kusu<s n="vblex"/></l><r>kusu<s n="vblex"/></r></p></e>
+    <e><p><l>kuta<s n="vblex"/></l><r>kuta<s n="vblex"/></r></p></e>
+    <e><p><l>kutak<s n="vblex"/></l><r>kutak<s n="vblex"/></r></p></e>
     <e><p><l>kutip<s n="vblex"/></l><r>kutip<s n="vblex"/></r></p></e>
+    <e><p><l>labrak<s n="vblex"/></l><r>labrak<s n="vblex"/></r></p></e>
     <e><p><l>laden<s n="vblex"/></l><r>laden<s n="vblex"/></r></p></e>
+    <e><p><l>lahir<s n="vblex"/></l><r>lahir<s n="vblex"/></r></p></e>
+    <e><p><l>lalu<s n="cnjcoo"/></l><r>lalu<s n="cnjcoo"/></r></p></e>
     <e><p><l>lalu<s n="vblex"/></l><r>lalu<s n="vblex"/></r></p></e>
     <e><p><l>lamar<s n="vblex"/></l><r>lamar<s n="vblex"/></r></p></e>
+    <e><p><l>lamar<s n="vblex"/><s n="subst"/><s n="pe"/></l><r>mohon<s n="vblex"/><s n="subst"/><s n="pe"/></r></p></e>
     <e><p><l>lambai<s n="vblex"/></l><r>lambai<s n="vblex"/></r></p></e>
+    <e><p><l>lamin<s n="vblex"/></l><r>lamin<s n="vblex"/></r></p></e>
     <e><p><l>lampir<s n="vblex"/></l><r>lampir<s n="vblex"/></r></p></e>
     <e><p><l>lamun<s n="vblex"/></l><r>lamun<s n="vblex"/></r></p></e>
+    <e><p><l>lancong<s n="vblex"/></l><r>lancong<s n="vblex"/></r></p></e>
+    <e><p><l>landa<s n="vblex"/></l><r>landa<s n="vblex"/></r></p></e>
     <e><p><l>langgan<s n="vblex"/></l><r>langgan<s n="vblex"/></r></p></e>
+    <e><p><l>langgar<s n="vblex"/></l><r>langgar<s n="vblex"/></r></p></e>
+    <e><p><l>langsir<s n="vblex"/></l><r>langsir<s n="vblex"/></r></p></e>
+    <e><p><l>lansir<s n="vblex"/></l><r>lansir<s n="vblex"/></r></p></e>
     <e><p><l>lantak<s n="vblex"/></l><r>lantak<s n="vblex"/></r></p></e>
+    <e><p><l>lantar<s n="vblex"/></l><r>lantar<s n="vblex"/></r></p></e>
+    <e><p><l>lantik<s n="vblex"/></l><r>lantik<s n="vblex"/></r></p></e>
     <e><p><l>lantun<s n="vblex"/></l><r>lantun<s n="vblex"/></r></p></e>
+    <e><p><l>lantur<s n="vblex"/></l><r>lantur<s n="vblex"/></r></p></e>
     <e><p><l>lapor<s n="vblex"/></l><r>lapor<s n="vblex"/></r></p></e>
     <e><p><l>larang<s n="vblex"/></l><r>larang<s n="vblex"/></r></p></e>
+    <e><p><l>larat<s n="vblex"/></l><r>larat<s n="vblex"/></r></p></e>
     <e><p><l>lari<s n="vblex"/></l><r>lari<s n="vblex"/></r></p></e>
     <e><p><l>larik<s n="vblex"/></l><r>larik<s n="vblex"/></r></p></e>
     <e><p><l>latih<s n="vblex"/></l><r>latih<s n="vblex"/></r></p></e>
+    <e><p><l>latih<s n="vblex"/><s n="subst"/><s n="pe"/></l><r>jurulatih<s n="n"/></r></p></e>
     <e><p><l>lawat<s n="vblex"/></l><r>lawat<s n="vblex"/></r></p></e>
     <e><p><l>layan<s n="vblex"/></l><r>layan<s n="vblex"/></r></p></e>
+    <e><p><l>layan<s n="vblex"/><s n="subst"/><s n="an"/></l><r>khidmat<s n="adj"/><s n="subst"/><s n="per-an"/></r></p></e>
+    <e><p><l>layan<s n="vblex"/><s n="subst"/><s n="pe-an"/></l><r>khidmat<s n="adj"/><s n="subst"/><s n="per-an"/></r></p></e>
     <e><p><l>ledak<s n="vblex"/></l><r>ledak<s n="vblex"/></r></p></e>
+    <e><p><l>ledak<s n="vblex"/><s n="actv"/></l><r>letup<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>ledak<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>letup<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>ledak<s n="vblex"/><s n="pasv"/></l><r>letup<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>ledak<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>letup<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>ledak<s n="vblex"/><s n="subst"/><s n="an"/></l><r>letup<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>ledak<s n="vblex"/><s n="subst"/><s n="pe"/></l><r>letup<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>ledak<s n="vblex"/><s n="subst"/><s n="pe-an"/></l><r>letup<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>ledeng<s n="vblex"/></l><r>paip<s n="n"/></r></p></e>
+    <e><p><l>leding<s n="vblex"/></l><r>leding<s n="vblex"/></r></p></e>
+    <e><p><l>lego<s n="vblex"/></l><r>lego<s n="vblex"/></r></p></e>
+    <e><p><l>lejit<s n="vblex"/></l><r>lejit<s n="vblex"/></r></p></e>
+    <e><p><l>lelap<s n="vblex"/></l><r>lelap<s n="vblex"/></r></p></e>
+    <e><p><l>leleh<s n="vblex"/></l><r>leleh<s n="vblex"/></r></p></e>
+    <e><p><l>lembung<s n="vblex"/></l><r>lembung<s n="vblex"/></r></p></e>
     <e><p><l>lempar<s n="vblex"/></l><r>lempar<s n="vblex"/></r></p></e>
+    <e><p><l>lempem<s n="vblex"/></l><r>lempem<s n="vblex"/></r></p></e>
+    <e><p><l>lengser<s n="vblex"/></l><r>lengser<s n="vblex"/></r></p></e>
+    <e><p><l>lenting<s n="vblex"/></l><r>lenting<s n="vblex"/></r></p></e>
     <e><p><l>letup<s n="vblex"/></l><r>letup<s n="vblex"/></r></p></e>
     <e><p><l>letus<s n="vblex"/></l><r>letus<s n="vblex"/></r></p></e>
+    <e><p><l>lewa<s n="vblex"/></l><r>lewa<s n="vblex"/></r></p></e>
+    <e><p><l>lewat<s n="vblex"/></l><r>lewat<s n="vblex"/></r></p></e>
+    <e><p><l>libas<s n="vblex"/></l><r>libas<s n="vblex"/></r></p></e>
     <e><p><l>libat<s n="vblex"/></l><r>babit<s n="vblex"/></r></p></e>
-    <e><p><l>limpah<s n="vblex"/></l><r>limpah<s n="vblex"/></r></p></e>
-    <e><p><l>libat<s n="vblex"/></l><r>babit<s n="vblex"/></r></p></e>
+    <e><p><l>libat<s n="vblex"/></l><r>libat<s n="vblex"/></r></p></e>
     <e><p><l>libat<s n="vblex"/><s n="ter"/></l><r>libat<s n="vblex"/><s n="ter"/></r></p></e>
+    <e><p><l>libur<s n="vblex"/></l><r>cuti<s n="vblex"/></r></p></e>
+    <e><p><l>lihat<s n="vblex"/></l><r>lihat<s n="vblex"/></r></p></e>
+    <e><p><l>lilah<s n="vblex"/></l><r>lilah<s n="vblex"/></r></p></e>
+    <e><p><l>limbang<s n="vblex"/></l><r>limbang<s n="vblex"/></r></p></e>
+    <e><p><l>limpah<s n="vblex"/></l><r>limpah<s n="vblex"/></r></p></e>
+    <e><p><l>lindas<s n="vblex"/></l><r>lindas<s n="vblex"/></r></p></e>
+    <e><p><l>lindis<s n="vblex"/></l><r>lindis<s n="vblex"/></r></p></e>
     <e><p><l>lindung<s n="vblex"/></l><r>lindung<s n="vblex"/></r></p></e>
     <e><p><l>lingkung<s n="vblex"/></l><r>lingkung<s n="vblex"/></r></p></e>
+    <e><p><l>lingkup<s n="vblex"/></l><r>lingkup<s n="vblex"/></r></p></e>
+    <e><p><l>lipat<s n="vblex"/></l><r>ganda<s n="n"/></r></p></e>
     <e><p><l>lipat<s n="vblex"/></l><r>lipat<s n="vblex"/></r></p></e>
+    <e><p><l>lipat<s n="vblex"/><s n="actv"/></l><r>lipat<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>lipat<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>lipat<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>lipat<s n="vblex"/><s n="pasv"/></l><r>lipat<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>lipat<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>lipat<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>lipat<s n="vblex"/><s n="subst"/><s n="an"/></l><r>lipat<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>lipat<s n="vblex"/><s n="subst"/><s n="ke-an"/></l><r>lipat<s n="vblex"/><s n="subst"/><s n="ke-an"/></r></p></e>
+    <e><p><l>lipat<s n="vblex"/><s n="subst"/><s n="pe"/></l><r>lipat<s n="vblex"/><s n="subst"/><s n="pe"/></r></p></e>
+    <e><p><l>lipat<s n="vblex"/><s n="subst"/><s n="per-an"/></l><r>lipat<s n="vblex"/><s n="subst"/><s n="per-an"/></r></p></e>
     <e><p><l>liput<s n="vblex"/></l><r>liput<s n="vblex"/></r></p></e>
     <e><p><l>lirik<s n="vblex"/></l><r>lirik<s n="vblex"/></r></p></e>
+    <e><p><l>liwat<s n="vblex"/></l><r>liwat<s n="vblex"/></r></p></e>
+    <e><p><l>lolos<s n="vblex"/></l><r>lolos<s n="vblex"/></r></p></e>
     <e><p><l>lompat<s n="vblex"/></l><r>lompat<s n="vblex"/></r></p></e>
+    <e><p><l>lompat<s n="vblex"/><s n="actv"/><s n="i"/></l><r>langkau<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>lompat<s n="vblex"/><s n="pasv"/><s n="i"/></l><r>langkau<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>longo<s n="vblex"/></l><r>longo<s n="vblex"/></r></p></e>
+    <e><p><l>longok<s n="vblex"/></l><r>longok<s n="vblex"/></r></p></e>
+    <e><p><l>longsor<s n="vblex"/></l><r>runtuh<s n="vblex"/></r></p></e>
     <e><p><l>lontar<s n="vblex"/></l><r>lontar<s n="vblex"/></r></p></e>
+    <e><p><l>lorot<s n="vblex"/></l><r>lorot<s n="vblex"/></r></p></e>
+    <e><p><l>luap<s n="vblex"/></l><r>luap<s n="vblex"/></r></p></e>
+    <e><p><l>luap<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>luah<s n="n"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>luap<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>luah<s n="n"/><s n="actio"/><s n="pasv"/><s n="kan"/></r></p></e>
     <e><p><l>lucut<s n="vblex"/></l><r>lucut<s n="vblex"/></r></p></e>
     <e><p><l>lukis<s n="vblex"/></l><r>lukis<s n="vblex"/></r></p></e>
+    <e><p><l>luluh<s n="vblex"/></l><r>luluh<s n="vblex"/></r></p></e>
+    <e><p><l>luluh<s n="vblex"/><s n="subst"/><s n="an"/></l><r>tembaga<s n="n"/></r></p></e>
     <e><p><l>lulus<s n="vblex"/></l><r>lulus<s n="vblex"/></r></p></e>
     <e><p><l>lumur<s n="vblex"/></l><r>lumur<s n="vblex"/></r></p></e>
+    <e><p><l>lumus<s n="vblex"/></l><r>lumus<s n="vblex"/></r></p></e>
+    <e><p><l>luncur<s n="vblex"/></l><r>lancar<s n="adj"/></r></p></e>
+    <e><p><l>luncur<s n="vblex"/></l><r>luncur<s n="n"/></r></p></e>
+    <e><p><l>luncur<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>lancar<s n="adj"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>luncur<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>lancar<s n="adj"/><s n="actio"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>luncur<s n="vblex"/><s n="subst"/><s n="pe-an"/></l><r>lancar<s n="adj"/><s n="subst"/><s n="pe-an"/></r></p></e>
+    <e><p><l>lupa<s n="vblex"/></l><r>lupa<s n="vblex"/></r></p></e>
+    <e><p><l>luput<s n="vblex"/></l><r>luput<s n="vblex"/></r></p></e>
+    <e><p><l>luruh<s n="vblex"/></l><r>luruh<s n="vblex"/></r></p></e>
     <e><p><l>main<s n="vblex"/></l><r>main<s n="vblex"/></r></p></e>
+    <e><p><l>main<s n="vblex"/><s n="subst"/><s n="pe"/></l><r>main<s n="vblex"/><s n="subst"/><s n="pe"/></r></p></e>
+    <e><p><l>maju<s n="vblex"/></l><r>maju<s n="vblex"/></r></p></e>
     <e><p><l>makan<s n="vblex"/></l><r>makan<s n="vblex"/></r></p></e>
     <e><p><l>maki<s n="vblex"/></l><r>maki<s n="vblex"/></r></p></e>
+    <e><p><l>maklum<s n="vblex"/></l><r>maklum<s n="vblex"/></r></p></e>
+    <e><p><l>mampir<s n="vblex"/></l><r>mampir<s n="vblex"/></r></p></e>
+    <e><p><l>mampus<s n="vblex"/></l><r>mampus<s n="vblex"/></r></p></e>
+    <e><p><l>mancur<s n="vblex"/></l><r>mancur<s n="vblex"/></r></p></e>
+    <e><p><l>mancur<s n="vblex"/></l><r>pancut<s n="n"/></r></p></e>
+    <e><p><l>mandek<s n="vblex"/></l><r>mandek<s n="vblex"/></r></p></e>
+    <e><p><l>mandi<s n="vblex"/></l><r>mandi<s n="vblex"/></r></p></e>
+    <e><p><l>mandir<s n="vblex"/></l><r>mandir<s n="vblex"/></r></p></e>
+    <e><p><l>manggung<s n="vblex"/></l><r>manggung<s n="vblex"/></r></p></e>
+    <e><p><l>manufaktur<s n="vblex"/></l><r>buat<s n="vblex"/><s n="subst"/><s n="peN-an"/></r></p></e>
     <e><p><l>masuk<s n="vblex"/></l><r>masuk<s n="vblex"/></r></p></e>
+    <e><p><l>mati<s n="vblex"/></l><r>mati<s n="vblex"/></r></p></e>
+    <e><p><l>mekar<s n="vblex"/></l><r>mekar<s n="vblex"/></r></p></e>
+    <e><p><l>mel<s n="vblex"/></l><r>mel<s n="vblex"/></r></p></e>
+    <e><p><l>meler<s n="vblex"/></l><r>meler<s n="vblex"/></r></p></e>
+    <e><p><l>meleset<s n="vblex"/></l><r>meleset<s n="vblex"/></r></p></e>
+    <e><p><l>melotot<s n="vblex"/></l><r>melotot<s n="vblex"/></r></p></e>
+    <e><p><l>membal<s n="vblex"/></l><r>membal<s n="vblex"/></r></p></e>
+    <e><p><l>memble<s n="vblex"/></l><r>memble<s n="vblex"/></r></p></e>
+    <e><p><l>mempan<s n="vblex"/></l><r>mempan<s n="vblex"/></r></p></e>
+    <e><p><l>menang<s n="vblex"/></l><r>menang<s n="vblex"/></r></p></e>
+    <e><p><l>mencret<s n="vblex"/></l><r>mencret<s n="vblex"/></r></p></e>
+    <e><p><l>mengah<s n="vblex"/></l><r>mengah<s n="vblex"/></r></p></e>
+    <e><p><l>mentas<s n="vblex"/></l><r>mentas<s n="vblex"/></r></p></e>
+    <e><p><l>mentok<s n="vblex"/></l><r>mentok<s n="vblex"/></r></p></e>
+    <e><p><l>meta<s n="vblex"/></l><r>meta<s n="vblex"/></r></p></e>
+    <e><p><l>mimisan<s n="vblex"/></l><r>mimisan<s n="vblex"/></r></p></e>
+    <e><p><l>minggat<s n="vblex"/></l><r>minggat<s n="vblex"/></r></p></e>
+    <e><p><l>minggir<s n="vblex"/></l><r>minggir<s n="vblex"/></r></p></e>
+    <e><p><l>minta<s n="vblex"/></l><r>minta<s n="vblex"/></r></p></e>
     <e><p><l>minum<s n="vblex"/></l><r>minum<s n="vblex"/></r></p></e>
+    <e><p><l>mogok<s n="vblex"/></l><r>mogok<s n="vblex"/></r></p></e>
+    <e><p><l>mohon<s n="vblex"/></l><r>mohon<s n="vblex"/></r></p></e>
+    <e><p><l>mongkok<s n="vblex"/></l><r>mongkok<s n="vblex"/></r></p></e>
+    <e><p><l>muai<s n="vblex"/></l><r>muai<s n="vblex"/></r></p></e>
     <e><p><l>muat<s n="vblex"/></l><r>muat<s n="vblex"/></r></p></e>
+    <e><p><l>mudik<s n="vblex"/></l><r>mudik<s n="vblex"/></r></p></e>
+    <e><p><l>mulai<s n="vblex"/></l><r>mula<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>mulai<s n="vblex"/></l><r>mulai<s n="vblex"/></r></p></e>
+    <e><p><l>muncrat<s n="vblex"/></l><r>muncrat<s n="vblex"/></r></p></e>
+    <e><p><l>muncrat<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>pancut<s n="n"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>muncrat<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>pancut<s n="n"/><s n="actio"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>muncul<s n="vblex"/></l><r>muncul<s n="vblex"/></r></p></e>
+    <e><p><l>mundur<s n="vblex"/></l><r>mundur<s n="vblex"/></r></p></e>
+    <e><p><l>mungkir<s n="vblex"/></l><r>mungkir<s n="vblex"/></r></p></e>
     <e><p><l>muntah<s n="vblex"/></l><r>muntah<s n="vblex"/></r></p></e>
+    <e><p><l>murka<s n="vblex"/></l><r>murka<s n="vblex"/></r></p></e>
+    <e><p><l>murtad<s n="vblex"/></l><r>murtad<s n="vblex"/></r></p></e>
+    <e><p><l>musnah<s n="vblex"/></l><r>musnah<s n="vblex"/></r></p></e>
+    <e><p><l>naik<s n="vblex"/></l><r>naik<s n="vblex"/></r></p></e>
     <e><p><l>nanti<s n="vblex"/></l><r>nanti<s n="vblex"/></r></p></e>
     <e><p><l>naung<s n="vblex"/></l><r>naung<s n="vblex"/></r></p></e>
+    <e><p><l>nebeng<s n="vblex"/></l><r>nebeng<s n="vblex"/></r></p></e>
+    <e><p><l>nganga<s n="vblex"/></l><r>nganga<s n="vblex"/></r></p></e>
+    <e><p><l>ngebut<s n="vblex"/></l><r>ngebut<s n="vblex"/></r></p></e>
+    <e><p><l>ngenas<s n="vblex"/></l><r>ngenas<s n="vblex"/></r></p></e>
+    <e><p><l>nomplok<s n="vblex"/></l><r>nomplok<s n="vblex"/></r></p></e>
+    <e><p><l>nongol<s n="vblex"/></l><r>nongol<s n="vblex"/></r></p></e>
     <e><p><l>nyanyi<s n="vblex"/></l><r>nyanyi<s n="vblex"/></r></p></e>
+    <e><p><l>nyentrik<s n="vblex"/></l><r>nyentrik<s n="vblex"/></r></p></e>
+    <e><p><l>obral<s n="vblex"/></l><r>obral<s n="vblex"/></r></p></e>
+    <e><p><l>obrol<s n="vblex"/></l><r>obrol<s n="vblex"/></r></p></e>
+    <e><p><l>obrol<s n="vblex"/><s n="actv"/></l><r>bual<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>obrol<s n="vblex"/><s n="pasv"/></l><r>bual<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>oceh<s n="vblex"/></l><r>oceh<s n="vblex"/></r></p></e>
+    <e><p><l>ogah<s n="vblex"/></l><r>ogah<s n="vblex"/></r></p></e>
+    <e><p><l>ojok<s n="vblex"/></l><r>ojok<s n="vblex"/></r></p></e>
+    <e><p><l>oles<s n="vblex"/></l><r>oles<s n="vblex"/></r></p></e>
+    <e><p><l>omel<s n="vblex"/></l><r>omel<s n="vblex"/></r></p></e>
+    <e><p><l>oper<s n="vblex"/></l><r>oper<s n="vblex"/></r></p></e>
+    <e><p><l>over<s n="vblex"/></l><r>over<s n="vblex"/></r></p></e>
     <e><p><l>pagut<s n="vblex"/></l><r>pagut<s n="vblex"/></r></p></e>
     <e><p><l>pajang<s n="vblex"/></l><r>pajang<s n="vblex"/></r></p></e>
+    <e><p><l>pajang<s n="vblex"/><s n="actv"/></l><r>pamer<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>pajang<s n="vblex"/><s n="pasv"/></l><r>pamer<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
     <e><p><l>pakai<s n="vblex"/></l><r>pakai<s n="vblex"/></r></p></e>
+    <e><p><l>pakai<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>guna<s n="n"/><s n="peN"/></r></p></e>
     <e><p><l>paksa<s n="vblex"/></l><r>paksa<s n="vblex"/></r></p></e>
     <e><p><l>pale<s n="vblex"/></l><r>pale<s n="vblex"/></r></p></e>
     <e><p><l>paling<s n="vblex"/></l><r>paling<s n="vblex"/></r></p></e>
     <e><p><l>pamer<s n="vblex"/></l><r>pamer<s n="vblex"/></r></p></e>
+    <e><p><l>pamit<s n="vblex"/></l><r>pamit<s n="vblex"/></r></p></e>
+    <e><p><l>pampang<s n="vblex"/></l><r>pampang<s n="vblex"/></r></p></e>
     <e><p><l>pancar<s n="vblex"/></l><r>pancar<s n="vblex"/></r></p></e>
+    <e><p><l>panco<s n="vblex"/></l><r>panco<s n="vblex"/></r></p></e>
     <e><p><l>pancur<s n="vblex"/></l><r>pancur<s n="vblex"/></r></p></e>
+    <e><p><l>pancut<s n="vblex"/></l><r>pancut<s n="vblex"/></r></p></e>
     <e><p><l>panggang<s n="vblex"/></l><r>panggang<s n="vblex"/></r></p></e>
+    <e><p><l>panggang<s n="vblex"/><s n="actv"/></l><r>bakar<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>panggang<s n="vblex"/><s n="pasv"/></l><r>bakar<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>panggang<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>perkakas<s n="n"/></r></p></e>
     <e><p><l>panggil<s n="vblex"/></l><r>panggil<s n="vblex"/></r></p></e>
     <e><p><l>pangkas<s n="vblex"/></l><r>pangkas<s n="vblex"/></r></p></e>
+    <e><p><l>pangkas<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>rapi<s n="adj"/><s n="subst"/><s n="per"/></r></p></e>
     <e><p><l>pangku<s n="vblex"/></l><r>pangku<s n="vblex"/></r></p></e>
     <e><p><l>panjat<s n="vblex"/></l><r>panjat<s n="vblex"/></r></p></e>
+    <e><p><l>panting<s n="vblex"/></l><r>panting<s n="vblex"/></r></p></e>
     <e><p><l>pantul<s n="vblex"/></l><r>pantul<s n="vblex"/></r></p></e>
     <e><p><l>papas<s n="vblex"/></l><r>papas<s n="vblex"/></r></p></e>
+    <e><p><l>parkir<s n="vblex"/><s n="actv"/></l><r>letak<s n="n"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>parkir<s n="vblex"/><s n="subst"/><s n="per-an"/></l><r>parkir<s n="vblex"/><s n="subst"/><s n="per-an"/></r></p></e>
+    <e><p><l>pasrah<s n="vblex"/></l><r>pasrah<s n="vblex"/></r></p></e>
     <e><p><l>pasuk<s n="vblex"/></l><r>pasuk<s n="vblex"/></r></p></e>
+    <e><p><l>payu<s n="vblex"/></l><r>payu<s n="vblex"/></r></p></e>
     <e><p><l>pecah<s n="vblex"/></l><r>pecah<s n="vblex"/></r></p></e>
+    <e><p><l>pecat<s n="vblex"/></l><r>pecat<s n="vblex"/></r></p></e>
+    <e><p><l>peduli<s n="vblex"/></l><r>peduli<s n="vblex"/></r></p></e>
     <e><p><l>pegang<s n="vblex"/></l><r>pegang<s n="vblex"/></r></p></e>
+    <e><p><l>pejam<s n="vblex"/></l><r>pejam<s n="vblex"/></r></p></e>
+    <e><p><l>peking<s n="vblex"/></l><r>peking<s n="vblex"/></r></p></e>
+    <e><p><l>pelas<s n="vblex"/></l><r>pelas<s n="vblex"/></r></p></e>
     <e><p><l>pelihara<s n="vblex"/></l><r>pelihara<s n="vblex"/></r></p></e>
+    <e><p><l>pelihara<s n="vblex"/><s n="subst"/><s n="an"/></l><r>sayang<s n="adj"/><s n="subst"/><s n="ke-an"/></r></p></e>
+    <e><p><l>pelintir<s n="vblex"/></l><r>pelintir<s n="vblex"/></r></p></e>
+    <e><p><l>pelonco<s n="vblex"/></l><r>pelonco<s n="vblex"/></r></p></e>
     <e><p><l>peluk<s n="vblex"/></l><r>peluk<s n="vblex"/></r></p></e>
+    <e><p><l>pencar<s n="vblex"/></l><r>pencar<s n="vblex"/></r></p></e>
+    <e><p><l>pencet<s n="vblex"/></l><r>pencet<s n="vblex"/></r></p></e>
+    <e><p><l>pencil<s n="vblex"/></l><r>pencil<s n="vblex"/></r></p></e>
+    <e><p><l>pendam<s n="vblex"/></l><r>pendam<s n="vblex"/></r></p></e>
     <e><p><l>penggal<s n="vblex"/></l><r>penggal<s n="vblex"/></r></p></e>
+    <e><p><l>pengin<s n="vblex"/></l><r>pengin<s n="vblex"/></r></p></e>
+    <e><p><l>pensiun<s n="vblex"/></l><r>sara<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>pensiun<s n="vblex"/><s n="actv"/></l><r>pensiun<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>pensiun<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>pensiun<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>pensiun<s n="vblex"/><s n="pasv"/></l><r>pensiun<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>pensiun<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>pensiun<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>pentang<s n="vblex"/></l><r>pentang<s n="vblex"/></r></p></e>
+    <e><p><l>peper<s n="vblex"/></l><r>peper<s n="vblex"/></r></p></e>
     <e><p><l>perah<s n="vblex"/></l><r>perah<s n="vblex"/></r></p></e>
+    <e><p><l>perai<s n="vblex"/></l><r>perai<s n="vblex"/></r></p></e>
     <e><p><l>peram<s n="vblex"/></l><r>peram<s n="vblex"/></r></p></e>
     <e><p><l>peras<s n="vblex"/></l><r>peras<s n="vblex"/></r></p></e>
+    <e><p><l>peras<s n="vblex"/><s n="actv"/></l><r>merah<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>peras<s n="vblex"/><s n="pasv"/></l><r>merah<s n="n"/><s n="actio"/><s n="pasv"/></r></p></e>
+    <e><p><l>percaya<s n="vblex"/></l><r>percaya<s n="vblex"/></r></p></e>
+    <e><p><l>pergi<s n="vblex"/></l><r>pergi<s n="vblex"/></r></p></e>
+    <e><p><l>pergok<s n="vblex"/></l><r>pergok<s n="vblex"/></r></p></e>
     <e><p><l>periksa<s n="vblex"/></l><r>periksa<s n="vblex"/></r></p></e>
+    <e><p><l>periksa<s n="vblex"/></l><r>semak<s n="n"/></r></p></e>
+    <e><p><l>periksa<s n="vblex"/><s n="actv"/><s n="i"/></l><r>periksa<s n="vblex"/><s n="actv"/><s n="i"/></r></p></e>
+    <e><p><l>periksa<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>periksa<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>periksa<s n="vblex"/><s n="pasv"/><s n="i"/></l><r>periksa<s n="vblex"/><s n="pasv"/><s n="i"/></r></p></e>
+    <e><p><l>periksa<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>periksa<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>periksa<s n="vblex"/><s n="subst"/><s n="an"/></l><r>periksa<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
     <e><p><l>perinci<s n="vblex"/></l><r>perinci<s n="vblex"/></r></p></e>
+    <e><p><l>perkosa<s n="vblex"/></l><r>perkosa<s n="vblex"/></r></p></e>
+    <e><p><l>perkosa<s n="vblex"/></l><r>rogol<s n="vblex"/></r></p></e>
+    <e><p><l>petal<s n="vblex"/></l><r>petal<s n="vblex"/></r></p></e>
     <e><p><l>petik<s n="vblex"/></l><r>petik<s n="vblex"/></r></p></e>
+    <e><p><l>piara<s n="vblex"/></l><r>piara<s n="vblex"/></r></p></e>
+    <e><p><l>piara<s n="vblex"/><s n="subst"/><s n="an"/></l><r>pelihara<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>picing<s n="vblex"/></l><r>picing<s n="vblex"/></r></p></e>
+    <e><p><l>pijat<s n="vblex"/></l><r>urut<s n="vblex"/></r></p></e>
+    <e><p><l>pijat<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>pijat<s n="vblex"/><s n="subst"/><s n="peN"/></r></p></e>
+    <e><p><l>pilah<s n="vblex"/></l><r>pilah<s n="vblex"/></r></p></e>
     <e><p><l>pilih<s n="vblex"/></l><r>pilih<s n="vblex"/></r></p></e>
     <e><p><l>pimpin<s n="vblex"/></l><r>pimpin<s n="vblex"/></r></p></e>
     <e><p><l>pindah<s n="vblex"/></l><r>pindah<s n="vblex"/></r></p></e>
+    <e><p><l>pindai<s n="vblex"/></l><r>imbas<s n="n"/><s n="actio"/></r></p></e>
     <e><p><l>pinjam<s n="vblex"/></l><r>pinjam<s n="vblex"/></r></p></e>
+    <e><p><l>pintal<s n="vblex"/></l><r>pintal<s n="vblex"/></r></p></e>
     <e><p><l>pintas<s n="vblex"/></l><r>pintas<s n="vblex"/></r></p></e>
+    <e><p><l>pipis<s n="vblex"/></l><r>pipis<s n="vblex"/></r></p></e>
+    <e><p><l>prakira<s n="vblex"/></l><r>prakira<s n="vblex"/></r></p></e>
+    <e><p><l>prakira<s n="vblex"/><s n="subst"/><s n="an"/></l><r>ramal<s n="n"/><s n="an"/></r></p></e>
+    <e><p><l>puasa<s n="vblex"/></l><r>puasa<s n="vblex"/></r></p></e>
     <e><p><l>pulang<s n="vblex"/></l><r>pulang<s n="vblex"/></r></p></e>
+    <e><p><l>pulih<s n="vblex"/></l><r>pulih<s n="vblex"/></r></p></e>
     <e><p><l>pungut<s n="vblex"/></l><r>pungut<s n="vblex"/></r></p></e>
+    <e><p><l>puntir<s n="vblex"/></l><r>renung<s n="vblex"/></r></p></e>
+    <e><p><l>puntir<s n="vblex"/><s n="actv"/></l><r>puntir<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>puntir<s n="vblex"/><s n="pasv"/></l><r>puntir<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>punya<s n="vblex"/></l><r>punya<s n="vblex"/></r></p></e>
+    <e><p><l>pusing<s n="adj"/></l><r>pusing<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>pusing<s n="vblex"/></l><r>pusing<s n="vblex"/></r></p></e>
     <e><p><l>putar<s n="vblex"/></l><r>putar<s n="vblex"/></r></p></e>
+    <e><p><l>putar<s n="vblex"/><s n="actv"/></l><r>main<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>putar<s n="vblex"/><s n="pasv"/></l><r>main<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>putar<s n="vblex"/><s n="subst"/><s n="an"/></l><r>pusing<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>putar<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>main<s n="vblex"/><s n="subst"/><s n="pe"/></r></p></e>
+    <e><p><l>putus-putus<s n="adv"/></l><r>putus-putus<s n="adv"/></r></p></e>
     <e><p><l>putus<s n="vblex"/></l><r>putus<s n="vblex"/></r></p></e>
     <e><p><l>raba<s n="vblex"/></l><r>raba<s n="vblex"/></r></p></e>
+    <e><p><l>racau<s n="vblex"/></l><r>racau<s n="vblex"/></r></p></e>
+    <e><p><l>racik<s n="vblex"/></l><r>racik<s n="vblex"/></r></p></e>
+    <e><p><l>rada<s n="vblex"/></l><r>rada<s n="vblex"/></r></p></e>
+    <e><p><l>raib<s n="vblex"/></l><r>ghaib<s n="adj"/></r></p></e>
+    <e><p><l>raih<s n="vblex"/></l><r>raih<s n="vblex"/></r></p></e>
+    <e><p><l>rajalela<s n="vblex"/></l><r>rajalela<s n="vblex"/></r></p></e>
+    <e><p><l>rajang<s n="vblex"/></l><r>cincang<s n="vblex"/></r></p></e>
     <e><p><l>rajang<s n="vblex"/></l><r>rajang<s n="vblex"/></r></p></e>
+    <e><p><l>rajang<s n="vblex"/><s n="subst"/><s n="an"/></l><r>rajang<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>rajuk<s n="vblex"/></l><r>rajuk<s n="vblex"/></r></p></e>
     <e><p><l>rambah<s n="vblex"/></l><r>rambah<s n="vblex"/></r></p></e>
+    <e><p><l>rambah<s n="vblex"/><s n="subst"/><s n="an"/></l><r>rambah<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>rambah<s n="vblex"/><s n="subst"/><s n="per"/></l><r>layar<s n="n"/><s n="pe"/></r></p></e>
     <e><p><l>rambat<s n="vblex"/></l><r>rambat<s n="vblex"/></r></p></e>
     <e><p><l>rampas<s n="vblex"/></l><r>rampas<s n="vblex"/></r></p></e>
     <e><p><l>ramu<s n="vblex"/></l><r>ramu<s n="vblex"/></r></p></e>
     <e><p><l>rangkak<s n="vblex"/></l><r>rangkak<s n="vblex"/></r></p></e>
     <e><p><l>rangkul<s n="vblex"/></l><r>rangkul<s n="vblex"/></r></p></e>
+    <e><p><l>rangkung<s n="vblex"/></l><r>rangkung<s n="vblex"/></r></p></e>
     <e><p><l>ratap<s n="vblex"/></l><r>ratap<s n="vblex"/></r></p></e>
+    <e><p><l>raup<s n="vblex"/></l><r>raup<s n="vblex"/></r></p></e>
     <e><p><l>raut<s n="vblex"/></l><r>raut<s n="vblex"/></r></p></e>
     <e><p><l>rawat<s n="vblex"/></l><r>rawat<s n="vblex"/></r></p></e>
     <e><p><l>rebah<s n="vblex"/></l><r>rebah<s n="vblex"/></r></p></e>
+    <e><p><l>rebak<s n="vblex"/></l><r>rebak<s n="vblex"/></r></p></e>
     <e><p><l>rebus<s n="vblex"/></l><r>rebus<s n="vblex"/></r></p></e>
     <e><p><l>rebut<s n="vblex"/></l><r>rebut<s n="vblex"/></r></p></e>
+    <e><p><l>reda<s n="vblex"/></l><r>reda<s n="vblex"/></r></p></e>
+    <e><p><l>rehat<s n="vblex"/></l><r>rehat<s n="vblex"/></r></p></e>
+    <e><p><l>rejan<s n="vblex"/></l><r>kokol<s n="vblex"/></r></p></e>
+    <e><p><l>rejan<s n="vblex"/><s n="actv"/></l><r>rejan<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>rejan<s n="vblex"/><s n="pasv"/></l><r>rejan<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>rekah<s n="vblex"/></l><r>rekah<s n="vblex"/></r></p></e>
+    <e><p><l>rekat<s n="vblex"/></l><r>rekat<s n="vblex"/></r></p></e>
+    <e><p><l>rekat<s n="vblex"/><s n="subst"/><s n="per"/></l><r>lekat<s n="adj"/><s n="subst"/><s n="pe"/></r></p></e>
+    <e><p><l>rela<s n="vblex"/></l><r>rela<s n="vblex"/></r></p></e>
+    <e><p><l>relai<s n="vblex"/></l><r>relai<s n="vblex"/></r></p></e>
+    <e><p><l>relaksasi<s n="vblex"/></l><r>relaksasi<s n="vblex"/></r></p></e>
+    <e><p><l>remas<s n="vblex"/></l><r>ramas<s n="vblex"/></r></p></e>
+    <e><p><l>rembes<s n="vblex"/></l><r>rembes<s n="vblex"/></r></p></e>
+    <e><p><l>rembes<s n="vblex"/><s n="subst"/><s n="per-an"/></l><r>terobos<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>rempah<s n="vblex"/></l><r>rempah<s n="vblex"/></r></p></e>
+    <e><p><l>renang<s n="vblex"/></l><r>renang<s n="vblex"/></r></p></e>
     <e><p><l>rendam<s n="vblex"/></l><r>rendam<s n="vblex"/></r></p></e>
+    <e><p><l>rengek<s n="vblex"/></l><r>rengek<s n="vblex"/></r></p></e>
+    <e><p><l>renggut<s n="vblex"/></l><r>renggut<s n="vblex"/></r></p></e>
+    <e><p><l>renggut<s n="vblex"/><s n="actv"/></l><r>ragut<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>renggut<s n="vblex"/><s n="pasv"/></l><r>ragut<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>renta<s n="vblex"/></l><r>renta<s n="vblex"/></r></p></e>
     <e><p><l>rentet<s n="vblex"/></l><r>rentet<s n="vblex"/></r></p></e>
     <e><p><l>renung<s n="vblex"/></l><r>renung<s n="vblex"/></r></p></e>
+    <e><p><l>resap<s n="vblex"/></l><r>resap<s n="vblex"/></r></p></e>
+    <e><p><l>resik<s n="vblex"/></l><r>resik<s n="vblex"/></r></p></e>
+    <e><p><l>resonan<s n="vblex"/></l><r>resonan<s n="vblex"/></r></p></e>
+    <e><p><l>retur<s n="vblex"/></l><r>retur<s n="vblex"/></r></p></e>
+    <e><p><l>rileks<s n="vblex"/></l><r>rileks<s n="vblex"/></r></p></e>
+    <e><p><l>rilis<s n="vblex"/></l><r>keluar<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>ringis<s n="vblex"/></l><r>ringis<s n="vblex"/></r></p></e>
+    <e><p><l>ringkik<s n="vblex"/></l><r>ringkik<s n="vblex"/></r></p></e>
+    <e><p><l>ringkuk<s n="vblex"/></l><r>ringkuk<s n="vblex"/></r></p></e>
+    <e><p><l>ringkus<s n="vblex"/></l><r>ringkus<s n="vblex"/></r></p></e>
     <e><p><l>rintang<s n="vblex"/></l><r>rintang<s n="vblex"/></r></p></e>
+    <e><p><l>rintang<s n="vblex"/><s n="actv"/><s n="i"/></l><r>halang<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>rintang<s n="vblex"/><s n="pasv"/><s n="i"/></l><r>halang<s n="vblex"/><s n="pasv"/></r></p></e>
     <e><p><l>rintih<s n="vblex"/></l><r>rintih<s n="vblex"/></r></p></e>
+    <e><p><l>roboh<s n="vblex"/></l><r>roboh<s n="vblex"/></r></p></e>
+    <e><p><l>robot<s n="vblex"/></l><r>robot<s n="vblex"/></r></p></e>
+    <e><p><l>rogoh<s n="vblex"/></l><r>rogoh<s n="vblex"/></r></p></e>
+    <e><p><l>rogol<s n="vblex"/></l><r>rogol<s n="vblex"/></r></p></e>
+    <e><p><l>rombak<s n="vblex"/></l><r>rombak<s n="vblex"/></r></p></e>
+    <e><p><l>rompak<s n="vblex"/></l><r>rompak<s n="vblex"/></r></p></e>
+    <e><p><l>ronda<s n="vblex"/></l><r>ronda<s n="vblex"/></r></p></e>
+    <e><p><l>rongrong<s n="vblex"/></l><r>rongrong<s n="vblex"/></r></p></e>
+    <e><p><l>ronta<s n="vblex"/></l><r>ronta<s n="vblex"/></r></p></e>
+    <e><p><l>rontok<s n="vblex"/></l><r>gugur<s n="vblex"/></r></p></e>
+    <e><p><l>rosot<s n="vblex"/></l><r>rosot<s n="vblex"/></r></p></e>
     <e><p><l>rujuk<s n="vblex"/></l><r>rujuk<s n="vblex"/></r></p></e>
+    <e><p><l>runduk<s n="vblex"/></l><r>runduk<s n="vblex"/></r></p></e>
+    <e><p><l>rundung<s n="vblex"/></l><r>rundung<s n="vblex"/></r></p></e>
     <e><p><l>runtuh<s n="vblex"/></l><r>runtuh<s n="vblex"/></r></p></e>
+    <e><p><l>saba<s n="vblex"/></l><r>saba<s n="vblex"/></r></p></e>
+    <e><p><l>sabat<s n="vblex"/></l><r>sabat<s n="vblex"/></r></p></e>
+    <e><p><l>sabet<s n="vblex"/></l><r>sabet<s n="vblex"/></r></p></e>
+    <e><p><l>sabot<s n="vblex"/></l><r>sabot<s n="vblex"/></r></p></e>
     <e><p><l>sabung<s n="vblex"/></l><r>sabung<s n="vblex"/></r></p></e>
     <e><p><l>sadap<s n="vblex"/></l><r>sadap<s n="vblex"/></r></p></e>
+    <e><p><l>sah<s n="vblex"/></l><r>sah<s n="vblex"/></r></p></e>
+    <e><p><l>sahkan<s n="vblex"/></l><r>sahkan<s n="vblex"/></r></p></e>
+    <e><p><l>sai<s n="vblex"/></l><r>sai<s n="vblex"/></r></p></e>
     <e><p><l>saing<s n="vblex"/></l><r>saing<s n="vblex"/></r></p></e>
     <e><p><l>saji<s n="vblex"/></l><r>saji<s n="vblex"/></r></p></e>
     <e><p><l>salin<s n="vblex"/></l><r>salin<s n="vblex"/></r></p></e>
+    <e><p><l>salip<s n="vblex"/></l><r>salip<s n="vblex"/></r></p></e>
+    <e><p><l>salip<s n="vblex"/><s n="actv"/></l><r>potong<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>salip<s n="vblex"/><s n="pasv"/></l><r>potong<s n="n"/><s n="actio"/><s n="pasv"/></r></p></e>
     <e><p><l>salur<s n="vblex"/></l><r>salur<s n="vblex"/></r></p></e>
+    <e><p><l>sama rata<s n="vblex"/></l><r>sama rata<s n="vblex"/></r></p></e>
     <e><p><l>sambar<s n="vblex"/></l><r>sambar<s n="vblex"/></r></p></e>
+    <e><p><l>sambit<s n="vblex"/></l><r>sambit<s n="vblex"/></r></p></e>
     <e><p><l>sambung<s n="vblex"/></l><r>sambung<s n="vblex"/></r></p></e>
     <e><p><l>sambut<s n="vblex"/></l><r>sambut<s n="vblex"/></r></p></e>
+    <e><p><l>sampai-sampai<s n="adv"/></l><r>sampai-sampai<s n="adv"/></r></p></e>
+    <e><p><l>sampai<s n="pr"/></l><r>sampai<s n="pr"/></r></p></e>
     <e><p><l>sampai<s n="vblex"/></l><r>sampai<s n="vblex"/></r></p></e>
     <e><p><l>sandar<s n="vblex"/></l><r>sandar<s n="vblex"/></r></p></e>
     <e><p><l>sanggah<s n="vblex"/></l><r>sanggah<s n="vblex"/></r></p></e>
+    <e><p><l>sanggup<s n="vblex"/></l><r>sanggup<s n="vblex"/></r></p></e>
     <e><p><l>sangka<s n="vblex"/></l><r>sangka<s n="vblex"/></r></p></e>
     <e><p><l>sangkal<s n="vblex"/></l><r>sangkal<s n="vblex"/></r></p></e>
     <e><p><l>sangkut<s n="vblex"/></l><r>sangkut<s n="vblex"/></r></p></e>
+    <e><p><l>sangkut<s n="vblex"/><s n="actv"/></l><r>kait<s n="n"/><s n="actio"/><s n="ber-an"/></r></p></e>
+    <e><p><l>sangkut<s n="vblex"/><s n="pasv"/></l><r>kait<s n="n"/><s n="actio"/><s n="ber-an"/></r></p></e>
+    <e><p><l>sangrai<s n="vblex"/></l><r>sangrai<s n="vblex"/></r></p></e>
     <e><p><l>sanjung<s n="vblex"/></l><r>sanjung<s n="vblex"/></r></p></e>
     <e><p><l>santap<s n="vblex"/></l><r>santap<s n="vblex"/></r></p></e>
     <e><p><l>sarap<s n="vblex"/></l><r>sarap<s n="vblex"/></r></p></e>
     <e><p><l>saring<s n="vblex"/></l><r>saring<s n="vblex"/></r></p></e>
+    <e><p><l>sauna<s n="vblex"/></l><r>sauna<s n="vblex"/></r></p></e>
+    <e><p><l>seba<s n="vblex"/></l><r>seba<s n="vblex"/></r></p></e>
     <e><p><l>sebar<s n="vblex"/></l><r>sebar<s n="vblex"/></r></p></e>
     <e><p><l>sebut<s n="vblex"/></l><r>sebut<s n="vblex"/></r></p></e>
+    <e><p><l>sedak<s n="vblex"/></l><r>sedak<s n="vblex"/></r></p></e>
+    <e><p><l>sedia<s n="vblex"/></l><r>sedia<s n="adj"/></r></p></e>
+    <e><p><l>sedia<s n="vblex"/><s n="ter"/></l><r>sedia<s n="adj"/></r></p></e>
+    <e><p><l>sedot<s n="vblex"/></l><r>sedot<s n="vblex"/></r></p></e>
+    <e><p><l>sedot<s n="vblex"/><s n="actv"/></l><r>sedut<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>sedot<s n="vblex"/><s n="pasv"/></l><r>sedut<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>sedot<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>bersih<s n="adj"/><s n="subst"/><s n="peN"/></r></p></e>
+    <e><p><l>seduh<s n="vblex"/></l><r>seduh<s n="vblex"/></r></p></e>
+    <e><p><l>seka<s n="vblex"/></l><r>seka<s n="vblex"/></r></p></e>
+    <e><p><l>sekap<s n="vblex"/></l><r>sekap<s n="vblex"/></r></p></e>
+    <e><p><l>sekap<s n="vblex"/><s n="actv"/></l><r>kurung<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>sekap<s n="vblex"/><s n="pasv"/></l><r>kurung<s n="n"/><s n="actio"/><s n="pasv"/></r></p></e>
+    <e><p><l>selak<s n="vblex"/></l><r>selak<s n="vblex"/></r></p></e>
+    <e><p><l>selam<s n="vblex"/></l><r>selam<s n="vblex"/></r></p></e>
+    <e><p><l>selenggara<s n="vblex"/></l><r>selenggara<s n="vblex"/></r></p></e>
+    <e><p><l>selesai<s n="vblex"/></l><r>selesai<s n="vblex"/></r></p></e>
+    <e><p><l>seleweng<s n="vblex"/></l><r>seleweng<s n="vblex"/></r></p></e>
+    <e><p><l>selinap<s n="vblex"/></l><r>selinap<s n="vblex"/></r></p></e>
     <e><p><l>seling<s n="vblex"/></l><r>seling<s n="vblex"/></r></p></e>
     <e><p><l>selip<s n="vblex"/></l><r>selip<s n="vblex"/></r></p></e>
+    <e><p><l>selundup<s n="vblex"/></l><r>seludup<s n="vblex"/></r></p></e>
+    <e><p><l>selundup<s n="vblex"/></l><r>selundup<s n="vblex"/></r></p></e>
+    <e><p><l>selundup<s n="vblex"/><s n="actv"/></l><r>seludup<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>selundup<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>seludup<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>selundup<s n="vblex"/><s n="pasv"/></l><r>seludup<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>selundup<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>seludup<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>selusur<s n="vblex"/></l><r>selusur<s n="vblex"/></r></p></e>
     <e><p><l>sembelih<s n="vblex"/></l><r>sembelih<s n="vblex"/></r></p></e>
+    <e><p><l>sembuh<s n="vblex"/></l><r>sembuh<s n="vblex"/></r></p></e>
+    <e><p><l>sembul<s n="vblex"/></l><r>sembul<s n="vblex"/></r></p></e>
+    <e><p><l>sembunyi<s n="vblex"/></l><r>sembunyi<s n="vblex"/></r></p></e>
+    <e><p><l>sempat<s n="vblex"/></l><r>sempat<s n="vblex"/></r></p></e>
+    <e><p><l>senang<s n="adj"/></l><r>senang<s n="adj"/></r></p></e>
+    <e><p><l>senang<s n="vblex"/></l><r>senang<s n="vblex"/></r></p></e>
+    <e><p><l>senggol<s n="vblex"/></l><r>senggol<s n="vblex"/></r></p></e>
     <e><p><l>sentak<s n="vblex"/></l><r>sentak<s n="vblex"/></r></p></e>
+    <e><p><l>sentil<s n="vblex"/></l><r>sentil<s n="vblex"/></r></p></e>
     <e><p><l>sentuh<s n="vblex"/></l><r>sentuh<s n="vblex"/></r></p></e>
+    <e><p><l>seok<s n="vblex"/></l><r>seok<s n="vblex"/></r></p></e>
+    <e><p><l>sepah<s n="vblex"/></l><r>sepah<s n="vblex"/></r></p></e>
+    <e><p><l>sera<s n="vblex"/></l><r>sera<s n="vblex"/></r></p></e>
     <e><p><l>serah<s n="vblex"/></l><r>serah<s n="vblex"/></r></p></e>
+    <e><p><l>serak<s n="vblex"/></l><r>serak<s n="vblex"/></r></p></e>
     <e><p><l>serang<s n="vblex"/></l><r>serang<s n="vblex"/></r></p></e>
     <e><p><l>serap<s n="vblex"/></l><r>serap<s n="vblex"/></r></p></e>
     <e><p><l>serbu<s n="vblex"/></l><r>serbu<s n="vblex"/></r></p></e>
+    <e><p><l>serempet<s n="vblex"/></l><r>serempet<s n="vblex"/></r></p></e>
     <e><p><l>sergap<s n="vblex"/></l><r>sergap<s n="vblex"/></r></p></e>
+    <e><p><l>serobot<s n="vblex"/></l><r>serobot<s n="vblex"/></r></p></e>
+    <e><p><l>serta<s n="cnjcoo"/></l><r>serta<s n="cnjcoo"/></r></p></e>
+    <e><p><l>serta<s n="vblex"/></l><r>serta<s n="vblex"/></r></p></e>
+    <e><p><l>sertu<s n="vblex"/></l><r>sertu<s n="vblex"/></r></p></e>
+    <e><p><l>seruduk<s n="vblex"/></l><r>seruduk<s n="vblex"/></r></p></e>
+    <e><p><l>seruput<s n="vblex"/></l><r>hirup<s n="vblex"/></r></p></e>
+    <e><p><l>sesap<s n="vblex"/></l><r>sesap<s n="vblex"/></r></p></e>
     <e><p><l>sesar<s n="vblex"/></l><r>sesar<s n="vblex"/></r></p></e>
+    <e><p><l>setop<s n="vblex"/></l><r>setop<s n="vblex"/></r></p></e>
+    <e><p><l>setor<s n="vblex"/></l><r>setor<s n="vblex"/></r></p></e>
+    <e><p><l>setor<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>serah<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>setor<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>serah<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>setuju<s n="vblex"/></l><r>tuju<s n="vblex"/></r></p></e>
+    <e><p><l>setuju<s n="vblex"/><s n="subst"/><s n="per-an"/></l><r>setuju<s n="vblex"/><s n="subst"/><s n="per-an"/></r></p></e>
+    <e><p><l>siaga<s n="vblex"/></l><r>siaga<s n="vblex"/></r></p></e>
+    <e><p><l>siam<s n="vblex"/></l><r>siam<s n="vblex"/></r></p></e>
+    <e><p><l>siap<s n="vblex"/></l><r>siap<s n="vblex"/></r></p></e>
     <e><p><l>siar<s n="vblex"/></l><r>siar<s n="vblex"/></r></p></e>
+    <e><p><l>siar<s n="vblex"/><s n="subst"/><s n="pe"/></l><r>siar<s n="vblex"/><s n="subst"/><s n="per-an"/></r></p></e>
+    <e><p><l>siat<s n="vblex"/></l><r>siat<s n="vblex"/></r></p></e>
+    <e><p><l>sibak<s n="vblex"/></l><r>sibak<s n="vblex"/></r></p></e>
+    <e><p><l>sidik<s n="vblex"/></l><r>sidik<s n="vblex"/></r></p></e>
+    <e><p><l>sidik<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>siasat<s n="n"/><s n="peN"/></r></p></e>
+    <e><p><l>sigung<s n="vblex"/></l><r>sigung<s n="vblex"/></r></p></e>
+    <e><p><l>sila<s n="vblex"/></l><r>sila<s n="vblex"/></r></p></e>
     <e><p><l>silih<s n="vblex"/></l><r>silih<s n="vblex"/></r></p></e>
+    <e><p><l>simak<s n="vblex"/></l><r>semak<s n="n"/></r></p></e>
+    <e><p><l>simak<s n="vblex"/><s n="actv"/></l><r>simak<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>simak<s n="vblex"/><s n="pasv"/></l><r>simak<s n="vblex"/><s n="pasv"/></r></p></e>
     <e><p><l>simpan<s n="vblex"/></l><r>simpan<s n="vblex"/></r></p></e>
+    <e><p><l>sinambung<s n="vblex"/></l><r>sinambung<s n="vblex"/></r></p></e>
     <e><p><l>singgah<s n="vblex"/></l><r>singgah<s n="vblex"/></r></p></e>
+    <e><p><l>singgung<s n="vblex"/></l><r>singgung<s n="vblex"/></r></p></e>
     <e><p><l>singkap<s n="vblex"/></l><r>singkap<s n="vblex"/></r></p></e>
+    <e><p><l>singkir<s n="vblex"/></l><r>singkir<s n="vblex"/></r></p></e>
+    <e><p><l>singsing<s n="vblex"/></l><r>singsing<s n="vblex"/></r></p></e>
+    <e><p><l>sinyalir<s n="vblex"/></l><r>sinyalir<s n="vblex"/></r></p></e>
     <e><p><l>siram<s n="vblex"/></l><r>siram<s n="vblex"/></r></p></e>
+    <e><p><l>sisih<s n="vblex"/></l><r>sisih<s n="vblex"/></r></p></e>
     <e><p><l>sisip<s n="vblex"/></l><r>sisip<s n="vblex"/></r></p></e>
+    <e><p><l>sisip<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>masuk<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>sisip<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>masuk<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>sitir<s n="vblex"/></l><r>sitir<s n="vblex"/></r></p></e>
+    <e><p><l>sitir<s n="vblex"/><s n="actv"/></l><r>sebut<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>sitir<s n="vblex"/><s n="pasv"/></l><r>sebut<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>siur<s n="vblex"/></l><r>siur<s n="vblex"/></r></p></e>
+    <e><p><l>skors<s n="vblex"/></l><r>skors<s n="vblex"/></r></p></e>
     <e><p><l>sodor<s n="vblex"/></l><r>sodor<s n="vblex"/></r></p></e>
+    <e><p><l>sontek<s n="vblex"/></l><r>sontek<s n="vblex"/></r></p></e>
+    <e><p><l>soren<s n="vblex"/></l><r>soren<s n="vblex"/></r></p></e>
     <e><p><l>sorong<s n="vblex"/></l><r>sorong<s n="vblex"/></r></p></e>
+    <e><p><l>sortir<s n="vblex"/></l><r>sortir<s n="vblex"/></r></p></e>
+    <e><p><l>sortir<s n="vblex"/><s n="actv"/></l><r>susun<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>sortir<s n="vblex"/><s n="pasv"/></l><r>susun<s n="n"/><s n="actio"/><s n="pasv"/></r></p></e>
+    <e><p><l>sparing<s n="vblex"/></l><r>sparing<s n="vblex"/></r></p></e>
+    <e><p><l>start<s n="vblex"/></l><r>start<s n="vblex"/></r></p></e>
+    <e><p><l>sua<s n="vblex"/></l><r>sua<s n="vblex"/></r></p></e>
+    <e><p><l>sudi<s n="vblex"/></l><r>sudi<s n="vblex"/></r></p></e>
+    <e><p><l>sugar<s n="vblex"/></l><r>sugar<s n="vblex"/></r></p></e>
     <e><p><l>suguh<s n="vblex"/></l><r>suguh<s n="vblex"/></r></p></e>
+    <e><p><l>sujud<s n="vblex"/></l><r>sujud<s n="vblex"/></r></p></e>
+    <e><p><l>suka-suka<s n="adv"/></l><r>suka-suka<s n="adv"/></r></p></e>
+    <e><p><l>suka<s n="adj"/></l><r>suka<s n="adj"/></r></p></e>
+    <e><p><l>suka<s n="vblex"/></l><r>suka<s n="vblex"/></r></p></e>
+    <e><p><l>sukun<s n="vblex"/></l><r>sukun<s n="vblex"/></r></p></e>
+    <e><p><l>sulang<s n="vblex"/></l><r>sulang<s n="vblex"/></r></p></e>
+    <e><p><l>sulut<s n="vblex"/></l><r>sulut<s n="vblex"/></r></p></e>
     <e><p><l>sumbang<s n="vblex"/></l><r>sumbang<s n="vblex"/></r></p></e>
+    <e><p><l>sundul<s n="vblex"/></l><r>sundul<s n="vblex"/></r></p></e>
+    <e><p><l>sungkur<s n="vblex"/></l><r>sungkur<s n="vblex"/></r></p></e>
     <e><p><l>suntik<s n="vblex"/></l><r>suntik<s n="vblex"/></r></p></e>
+    <e><p><l>sunu<s n="vblex"/></l><r>sunu<s n="vblex"/></r></p></e>
     <e><p><l>susul<s n="vblex"/></l><r>susul<s n="vblex"/></r></p></e>
     <e><p><l>susup<s n="vblex"/></l><r>susup<s n="vblex"/></r></p></e>
+    <e><p><l>susup<s n="vblex"/><s n="subst"/><s n="an"/></l><r>susup<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>tabrak<s n="vblex"/></l><r>tabrak<s n="vblex"/></r></p></e>
+    <e><p><l>tabrak<s n="vblex"/><s n="actv"/></l><r>langgar<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>tabrak<s n="vblex"/><s n="pasv"/></l><r>langgar<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>tabrak<s n="vblex"/><s n="subst"/><s n="an"/></l><r>tembung<s n="vblex"/><s n="subst"/><s n="per-an"/></r></p></e>
     <e><p><l>tabur<s n="vblex"/></l><r>tabur<s n="vblex"/></r></p></e>
     <e><p><l>tagih<s n="vblex"/></l><r>tagih<s n="vblex"/></r></p></e>
+    <e><p><l>tahu-tahu<s n="adv"/></l><r>tahu-tahu<s n="adv"/></r></p></e>
+    <e><p><l>tahu<s n="vblex"/></l><r>tahu<s n="vblex"/></r></p></e>
     <e><p><l>takluk<s n="vblex"/></l><r>takluk<s n="vblex"/></r></p></e>
+    <e><p><l>talah<s n="vblex"/></l><r>talah<s n="vblex"/></r></p></e>
     <e><p><l>tamat<s n="vblex"/></l><r>tamat<s n="vblex"/></r></p></e>
+    <e><p><l>tambal<s n="vblex"/></l><r>tambal<s n="vblex"/></r></p></e>
+    <e><p><l>tambal<s n="vblex"/><s n="subst"/><s n="an"/></l><r>tampal<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
     <e><p><l>tambat<s n="vblex"/></l><r>tambat<s n="vblex"/></r></p></e>
+    <e><p><l>tampak<s n="vblex"/></l><r>tampak<s n="vblex"/></r></p></e>
     <e><p><l>tampar<s n="vblex"/></l><r>tampar<s n="vblex"/></r></p></e>
+    <e><p><l>tampar<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>tampar<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>tampar<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>tampar<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>tampik<s n="vblex"/></l><r>tampik<s n="vblex"/></r></p></e>
+    <e><p><l>tampik<s n="vblex"/><s n="subst"/><s n="an"/></l><r>tampik<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>tampil<s n="vblex"/></l><r>papar<s n="adj"/><s n="actio"/></r></p></e>
+    <e><p><l>tampung<s n="vblex"/></l><r>tampung<s n="vblex"/></r></p></e>
+    <e><p><l>tampung<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>ruang<s n="n"/></r></p></e>
     <e><p><l>tanam<s n="vblex"/></l><r>tanam<s n="vblex"/></r></p></e>
+    <e><p><l>tanang<s n="vblex"/></l><r>tanang<s n="vblex"/></r></p></e>
+    <e><p><l>tancap<s n="vblex"/></l><r>tancap<s n="vblex"/></r></p></e>
+    <e><p><l>tancap<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>masuk<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>tancap<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>masuk<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>tandang<s n="vblex"/></l><r>tandang<s n="vblex"/></r></p></e>
+    <e><p><l>tanggal<s n="vblex"/></l><r>tanggal<s n="vblex"/></r></p></e>
+    <e><p><l>tangguh<s n="vblex"/></l><r>tangguh<s n="vblex"/></r></p></e>
+    <e><p><l>tanggulang<s n="vblex"/></l><r>tanggulang<s n="vblex"/></r></p></e>
     <e><p><l>tanggung<s n="vblex"/></l><r>tanggung<s n="vblex"/></r></p></e>
+    <e><p><l>tangkal<s n="vblex"/></l><r>tangkal<s n="vblex"/></r></p></e>
     <e><p><l>tangkap<s n="vblex"/></l><r>tangkap<s n="vblex"/></r></p></e>
     <e><p><l>tangkis<s n="vblex"/></l><r>tangkis<s n="vblex"/></r></p></e>
+    <e><p><l>tantang<s n="vblex"/></l><r>tantang<s n="vblex"/></r></p></e>
+    <e><p><l>tantang<s n="vblex"/><s n="actv"/></l><r>cabar<s n="adj"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>tantang<s n="vblex"/><s n="pasv"/></l><r>cabar<s n="adj"/><s n="actio"/><s n="pasv"/></r></p></e>
+    <e><p><l>tanya<s n="vblex"/></l><r>tanya<s n="vblex"/></r></p></e>
+    <e><p><l>tap<s n="vblex"/></l><r>tap<s n="vblex"/></r></p></e>
     <e><p><l>tarik<s n="vblex"/></l><r>tarik<s n="vblex"/></r></p></e>
+    <e><p><l>tarik<s n="vblex"/><s n="subst"/><s n="ke-an"/></l><r>minat<s n="n"/></r></p></e>
+    <e><p><l>tarung<s n="vblex"/></l><r>tarung<s n="vblex"/></r></p></e>
+    <e><p><l>tatap<s n="vblex"/></l><r>tatap<s n="vblex"/></r></p></e>
     <e><p><l>tatar<s n="vblex"/></l><r>tatar<s n="vblex"/></r></p></e>
+    <e><p><l>tatih<s n="vblex"/></l><r>tatih<s n="vblex"/></r></p></e>
+    <e><p><l>tau<s n="vblex"/></l><r>tau<s n="vblex"/></r></p></e>
     <e><p><l>taut<s n="vblex"/></l><r>taut<s n="vblex"/></r></p></e>
+    <e><p><l>taut<s n="vblex"/><s n="subst"/><s n="an"/></l><r>paut<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>tawaf<s n="vblex"/></l><r>tawaf<s n="vblex"/></r></p></e>
     <e><p><l>tawan<s n="vblex"/></l><r>tawan<s n="vblex"/></r></p></e>
     <e><p><l>tayang<s n="vblex"/></l><r>tayang<s n="vblex"/></r></p></e>
     <e><p><l>tebak<s n="vblex"/></l><r>tebak<s n="vblex"/></r></p></e>
     <e><p><l>tebang<s n="vblex"/></l><r>tebang<s n="vblex"/></r></p></e>
     <e><p><l>tebar<s n="vblex"/></l><r>tebar<s n="vblex"/></r></p></e>
+    <e><p><l>tebas<s n="vblex"/></l><r>tebas<s n="vblex"/></r></p></e>
     <e><p><l>tebus<s n="vblex"/></l><r>tebus<s n="vblex"/></r></p></e>
+    <e><p><l>teguk<s n="vblex"/></l><r>teguk<s n="vblex"/></r></p></e>
+    <e><p><l>tekad<s n="vblex"/></l><r>tekad<s n="vblex"/></r></p></e>
     <e><p><l>tekan<s n="vblex"/></l><r>tekan<s n="vblex"/></r></p></e>
+    <e><p><l>teken<s n="vblex"/></l><r>teken<s n="vblex"/></r></p></e>
+    <e><p><l>tekuk<s n="vblex"/></l><r>tekuk<s n="vblex"/></r></p></e>
+    <e><p><l>telan<s n="vblex"/></l><r>telan<s n="vblex"/></r></p></e>
+    <e><p><l>telanjang<s n="vblex"/></l><r>telanjang<s n="vblex"/></r></p></e>
+    <e><p><l>telanjur<s n="vblex"/></l><r>telanjur<s n="vblex"/></r></p></e>
+    <e><p><l>tele<s n="vblex"/></l><r>tele<s n="vblex"/></r></p></e>
+    <e><p><l>telekan<s n="vblex"/></l><r>telekan<s n="vblex"/></r></p></e>
+    <e><p><l>telungkup<s n="vblex"/></l><r>telungkup<s n="vblex"/></r></p></e>
+    <e><p><l>telusur<s n="vblex"/><s n="actv"/><s n="i"/></l><r>imbas<s n="n"/></r></p></e>
+    <e><p><l>temas<s n="vblex"/></l><r>temas<s n="vblex"/></r></p></e>
+    <e><p><l>tembak<s n="vblex"/></l><r>tembak<s n="vblex"/></r></p></e>
     <e><p><l>tembus<s n="vblex"/></l><r>tembus<s n="vblex"/></r></p></e>
     <e><p><l>tempa<s n="vblex"/></l><r>tempa<s n="vblex"/></r></p></e>
+    <e><p><l>tempel<s n="vblex"/></l><r>tampal<s n="n"/></r></p></e>
+    <e><p><l>tempel<s n="vblex"/><s n="actv"/></l><r>tempel<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>tempel<s n="vblex"/><s n="actv"/><s n="i"/></l><r>tempel<s n="vblex"/><s n="actv"/><s n="i"/></r></p></e>
+    <e><p><l>tempel<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>tempel<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>tempel<s n="vblex"/><s n="pasv"/></l><r>tempel<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>tempel<s n="vblex"/><s n="pasv"/><s n="i"/></l><r>tempel<s n="vblex"/><s n="pasv"/><s n="i"/></r></p></e>
+    <e><p><l>tempel<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>tempel<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>tempel<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>tempel<s n="vblex"/><s n="subst"/><s n="peN"/></r></p></e>
+    <e><p><l>tempoh<s n="vblex"/></l><r>tempoh<s n="vblex"/></r></p></e>
+    <e><p><l>tempuh<s n="vblex"/></l><r>tempuh<s n="vblex"/></r></p></e>
     <e><p><l>tempur<s n="vblex"/></l><r>tempur<s n="vblex"/></r></p></e>
     <e><p><l>temu<s n="vblex"/></l><r>temu<s n="vblex"/></r></p></e>
+    <e><p><l>temu<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>cari<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>temu<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>cari<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>temu<s n="vblex"/><s n="subst"/><s n="an"/></l><r>temu<s n="vblex"/><s n="subst"/><s n="peN-an"/></r></p></e>
+    <e><p><l>temu<s n="vblex"/><s n="subst"/><s n="per-an"/></l><r>mesyuarat<s n="n"/></r></p></e>
     <e><p><l>tendang<s n="vblex"/></l><r>tendang<s n="vblex"/></r></p></e>
+    <e><p><l>tengadah<s n="vblex"/></l><r>tengadah<s n="vblex"/></r></p></e>
+    <e><p><l>tenggak<s n="vblex"/></l><r>tenggak<s n="vblex"/></r></p></e>
+    <e><p><l>tenggelam<s n="vblex"/></l><r>tenggelam<s n="vblex"/></r></p></e>
+    <e><p><l>tengkar<s n="vblex"/></l><r>tengkar<s n="vblex"/></r></p></e>
+    <e><p><l>tengkurap<s n="vblex"/></l><r>tengkurap<s n="vblex"/></r></p></e>
+    <e><p><l>tengok<s n="vblex"/></l><r>tengok<s n="vblex"/></r></p></e>
+    <e><p><l>tenteng<s n="vblex"/></l><r>tenteng<s n="vblex"/></r></p></e>
+    <e><p><l>tenteng<s n="vblex"/><s n="actv"/></l><r>pegang<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>tenteng<s n="vblex"/><s n="pasv"/></l><r>pegang<s n="vblex"/><s n="pasv"/></r></p></e>
+    <e><p><l>tepis<s n="vblex"/></l><r>tepis<s n="vblex"/></r></p></e>
+    <e><p><l>terbang<s n="vblex"/></l><r>terbang<s n="vblex"/></r></p></e>
+    <e><p><l>terbang<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>juruterbang<s n="n"/></r></p></e>
     <e><p><l>terbit<s n="vblex"/></l><r>terbit<s n="vblex"/></r></p></e>
     <e><p><l>terima<s n="vblex"/></l><r>terima<s n="vblex"/></r></p></e>
+    <e><p><l>terjang<s n="vblex"/></l><r>terjang<s n="vblex"/></r></p></e>
     <e><p><l>terjemah<s n="vblex"/></l><r>terjemah<s n="vblex"/></r></p></e>
+    <e><p><l>terjun<s n="vblex"/></l><r>terjun<s n="vblex"/></r></p></e>
+    <e><p><l>terka<s n="vblex"/></l><r>terka<s n="vblex"/></r></p></e>
     <e><p><l>terkam<s n="vblex"/></l><r>terkam<s n="vblex"/></r></p></e>
     <e><p><l>terobos<s n="vblex"/></l><r>terobos<s n="vblex"/></r></p></e>
     <e><p><l>terpa<s n="vblex"/></l><r>terpa<s n="vblex"/></r></p></e>
     <e><p><l>terus<s n="vblex"/></l><r>terus<s n="vblex"/></r></p></e>
+    <e><p><l>tetap<s n="vblex"/></l><r>tetap<s n="vblex"/></r></p></e>
+    <e><p><l>tetas<s n="vblex"/></l><r>tetas<s n="vblex"/></r></p></e>
+    <e><p><l>tewas<s n="vblex"/></l><r>tewas<s n="vblex"/></r></p></e>
+    <e><p><l>tiada<s n="vblex"/></l><r>tiada<s n="vblex"/></r></p></e>
+    <e><p><l>tiarap<s n="vblex"/></l><r>tiarap<s n="vblex"/></r></p></e>
+    <e><p><l>tiba-tiba<s n="adv"/></l><r>tiba-tiba<s n="adv"/></r></p></e>
+    <e><p><l>tiba<s n="vblex"/></l><r>tiba<s n="vblex"/></r></p></e>
     <e><p><l>tidur<s n="vblex"/></l><r>tidur<s n="vblex"/></r></p></e>
+    <e><p><l>tikung<s n="vblex"/></l><r>tikung<s n="vblex"/></r></p></e>
+    <e><p><l>timbul<s n="vblex"/></l><r>timbul<s n="vblex"/></r></p></e>
     <e><p><l>timpa<s n="vblex"/></l><r>timpa<s n="vblex"/></r></p></e>
+    <e><p><l>timpal<s n="vblex"/></l><r>timpal<s n="vblex"/></r></p></e>
     <e><p><l>tindas<s n="vblex"/></l><r>tindas<s n="vblex"/></r></p></e>
     <e><p><l>tindih<s n="vblex"/></l><r>tindih<s n="vblex"/></r></p></e>
+    <e><p><l>tindik<s n="vblex"/></l><r>tindik<s n="vblex"/></r></p></e>
     <e><p><l>tinggal<s n="vblex"/></l><r>tinggal<s n="vblex"/></r></p></e>
     <e><p><l>tinjau<s n="vblex"/></l><r>tinjau<s n="vblex"/></r></p></e>
     <e><p><l>tiru<s n="vblex"/></l><r>tiru<s n="vblex"/></r></p></e>
     <e><p><l>titi<s n="vblex"/></l><r>titi<s n="vblex"/></r></p></e>
+    <e><p><l>titip<s n="vblex"/></l><r>titip<s n="vblex"/></r></p></e>
     <e><p><l>tiup<s n="vblex"/></l><r>tiup<s n="vblex"/></r></p></e>
+    <e><p><l>tobat<s n="vblex"/></l><r>tobat<s n="vblex"/></r></p></e>
+    <e><p><l>todong<s n="vblex"/></l><r>todong<s n="vblex"/></r></p></e>
     <e><p><l>tolak<s n="vblex"/></l><r>tolak<s n="vblex"/></r></p></e>
+    <e><p><l>toleh<s n="vblex"/></l><r>toleh<s n="vblex"/></r></p></e>
+    <e><p><l>tolong<s n="vblex"/></l><r>tolong<s n="vblex"/></r></p></e>
+    <e><p><l>tombok<s n="vblex"/></l><r>tombok<s n="vblex"/></r></p></e>
+    <e><p><l>tongkrong<s n="vblex"/></l><r>tongkrong<s n="vblex"/></r></p></e>
+    <e><p><l>tonjok<s n="vblex"/></l><r>tonjok<s n="vblex"/></r></p></e>
     <e><p><l>tonton<s n="vblex"/></l><r>tonton<s n="vblex"/></r></p></e>
     <e><p><l>toreh<s n="vblex"/></l><r>toreh<s n="vblex"/></r></p></e>
+    <e><p><l>toyor<s n="vblex"/></l><r>toyor<s n="vblex"/></r></p></e>
+    <e><p><l>traktir<s n="vblex"/></l><r>traktir<s n="vblex"/></r></p></e>
+    <e><p><l>transfer<s n="vblex"/><s n="actv"/></l><r>pindah<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
     <e><p><l>tuang<s n="vblex"/></l><r>tuang<s n="vblex"/></r></p></e>
     <e><p><l>tuduh<s n="vblex"/></l><r>tuduh<s n="vblex"/></r></p></e>
+    <e><p><l>tui<s n="vblex"/></l><r>tui<s n="vblex"/></r></p></e>
     <e><p><l>tuju<s n="vblex"/></l><r>tuju<s n="vblex"/></r></p></e>
     <e><p><l>tuju<s n="vblex"/><s n="subst"/><s n="an"/></l><r>matlamat<s n="n"/></r></p></e>
+    <e><p><l>tukar<s n="vblex"/></l><r>tukar<s n="vblex"/></r></p></e>
+    <e><p><l>tukik<s n="vblex"/></l><r>tukik<s n="vblex"/></r></p></e>
+    <e><p><l>tular<s n="vblex"/></l><r>tular<s n="vblex"/></r></p></e>
     <e><p><l>tulis<s n="vblex"/></l><r>tulis<s n="vblex"/></r></p></e>
+    <e><p><l>tumbang<s n="vblex"/></l><r>tumbang<s n="vblex"/></r></p></e>
     <e><p><l>tumbuh<s n="vblex"/></l><r>tumbuh<s n="vblex"/></r></p></e>
     <e><p><l>tumpah<s n="vblex"/></l><r>tumpah<s n="vblex"/></r></p></e>
     <e><p><l>tumpang<s n="vblex"/></l><r>tumpang<s n="vblex"/></r></p></e>
+    <e><p><l>tumpang<s n="vblex"/><s n="actv"/><s n="i"/></l><r>naik<s n="vblex"/><s n="actv"/><s n="i"/></r></p></e>
+    <e><p><l>tumpang<s n="vblex"/><s n="pasv"/><s n="i"/></l><r>naik<s n="vblex"/><s n="pasv"/><s n="i"/></r></p></e>
     <e><p><l>tumpas<s n="vblex"/></l><r>tumpas<s n="vblex"/></r></p></e>
+    <e><p><l>tunak<s n="vblex"/></l><r>tunak<s n="vblex"/></r></p></e>
     <e><p><l>tunang<s n="vblex"/></l><r>tunang<s n="vblex"/></r></p></e>
+    <e><p><l>tunduk<s n="vblex"/></l><r>tunduk<s n="vblex"/></r></p></e>
     <e><p><l>tunggang<s n="vblex"/></l><r>tunggang<s n="vblex"/></r></p></e>
+    <e><p><l>tunggu<s n="vblex"/></l><r>tunggu<s n="vblex"/></r></p></e>
+    <e><p><l>tunjang<s n="vblex"/></l><r>tunjang<s n="vblex"/></r></p></e>
+    <e><p><l>tunjuk<s n="vblex"/></l><r>tunjuk<s n="vblex"/></r></p></e>
+    <e><p><l>tunjuk<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>buku<s n="n"/></r></p></e>
     <e><p><l>tuntun<s n="vblex"/></l><r>tuntun<s n="vblex"/></r></p></e>
     <e><p><l>tuntut<s n="vblex"/></l><r>tuntut<s n="vblex"/></r></p></e>
+    <e><p><l>turis<s n="vblex"/></l><r>lancong<s n="vblex"/><s n="subst"/><s n="pe"/></r></p></e>
+    <e><p><l>turis<s n="vblex"/></l><r>turis<s n="vblex"/></r></p></e>
+    <e><p><l>turis<s n="vblex"/><s n="actv"/></l><r>turis<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>turis<s n="vblex"/><s n="pasv"/></l><r>turis<s n="vblex"/><s n="pasv"/></r></p></e>
     <e><p><l>turun<s n="vblex"/></l><r>turun<s n="vblex"/></r></p></e>
     <e><p><l>turut<s n="vblex"/></l><r>turut<s n="vblex"/></r></p></e>
+    <e><p><l>tusuk<s n="vblex"/></l><r>tusuk<s n="vblex"/></r></p></e>
+    <e><p><l>tutu<s n="vblex"/></l><r>tutu<s n="vblex"/></r></p></e>
+    <e><p><l>tutup<s n="n"/></l><r>tutup<s n="n"/></r></p></e>
+    <e><p><l>tutup<s n="vblex"/></l><r>tutup<s n="vblex"/></r></p></e>
     <e><p><l>ubah<s n="vblex"/></l><r>ubah<s n="vblex"/></r></p></e>
     <e><p><l>ukir<s n="vblex"/></l><r>ukir<s n="vblex"/></r></p></e>
     <e><p><l>ulang<s n="vblex"/></l><r>ulang<s n="vblex"/></r></p></e>
+    <e><p><l>ulen<s n="vblex"/><s n="actv"/><s n="i"/></l><r>kuli<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>ulur<s n="vblex"/></l><r>ulur<s n="vblex"/></r></p></e>
+    <e><p><l>ulur<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>hulur<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>ulur<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>hulur<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>ulur<s n="vblex"/><s n="subst"/><s n="an"/></l><r>hulur<s n="vblex"/><s n="subst"/><s n="an"/></r></p></e>
+    <e><p><l>umbar<s n="vblex"/></l><r>umbar<s n="vblex"/></r></p></e>
+    <e><p><l>umpet<s n="vblex"/></l><r>umpet<s n="vblex"/></r></p></e>
     <e><p><l>undang<s n="vblex"/></l><r>jemput<s n="vblex"/></r></p></e>
-    <e r="LR"><p><l>jemput<s n="vblex"/></l><r>jemput<s n="vblex"/></r></p></e>
+    <e><p><l>undang<s n="vblex"/></l><r>undang<s n="vblex"/></r></p></e>
+    <e><p><l>undang<s n="vblex"/><s n="subst"/><s n="an"/><s n="sg"/></l><r>selia<s n="adj"/></r></p></e>
+    <e><p><l>unduh<s n="vblex"/></l><r>turun<s n="vblex"/></r></p></e>
     <e><p><l>undur<s n="vblex"/></l><r>undur<s n="vblex"/></r></p></e>
+    <e><p><l>unggah<s n="vblex"/></l><r>unggah<s n="vblex"/></r></p></e>
+    <e><p><l>unggah<s n="vblex"/><s n="actv"/></l><r>muat<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>unggah<s n="vblex"/><s n="pasv"/></l><r>muat<s n="vblex"/><s n="pasv"/></r></p></e>
     <e><p><l>ungkap<s n="vblex"/></l><r>ungkap<s n="vblex"/></r></p></e>
+    <e><p><l>ungkap<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>dedah<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>ungkap<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>dedah<s n="vblex"/><s n="pasv"/><s n="kan"/></r></p></e>
+    <e><p><l>ungkil<s n="vblex"/></l><r>ungkil<s n="vblex"/></r></p></e>
+    <e><p><l>ungkit<s n="vblex"/></l><r>ungkit<s n="vblex"/></r></p></e>
+    <e><p><l>ungsi<s n="vblex"/><s n="subst"/><s n="peN"/></l><r>lari<s n="vblex"/><s n="subst"/><s n="pe-an"/></r></p></e>
+    <e><p><l>unjuk<s n="vblex"/></l><r>unjuk<s n="vblex"/></r></p></e>
     <e><p><l>uruk<s n="vblex"/></l><r>uruk<s n="vblex"/></r></p></e>
+    <e><p><l>urung<s n="vblex"/></l><r>urung<s n="vblex"/></r></p></e>
     <e><p><l>urus<s n="vblex"/></l><r>urus<s n="vblex"/></r></p></e>
     <e><p><l>urut<s n="vblex"/></l><r>urut<s n="vblex"/></r></p></e>
+    <e><p><l>urut<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>susun<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>urut<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>susun<s n="n"/><s n="actio"/><s n="pasv"/></r></p></e>
+    <e><p><l>usah<s n="vblex"/></l><r>usah<s n="vblex"/></r></p></e>
+    <e><p><l>usai<s n="vblex"/></l><r>usai<s n="vblex"/></r></p></e>
+    <e><p><l>usap<s n="vblex"/></l><r>usap<s n="vblex"/></r></p></e>
     <e><p><l>usir<s n="vblex"/></l><r>usir<s n="vblex"/></r></p></e>
     <e><p><l>usung<s n="vblex"/></l><r>usung<s n="vblex"/></r></p></e>
     <e><p><l>utus<s n="vblex"/></l><r>utus<s n="vblex"/></r></p></e>
+    <e><p><l>wafat<s n="vblex"/></l><r>wafat<s n="vblex"/></r></p></e>
+    <e><p><l>wajib<s n="vblex"/></l><r>wajib<s n="vblex"/></r></p></e>
+    <e><p><l>wajib<s n="vblex"/><s n="subst"/><s n="ke-an"/></l><r>wajip<s n="vblex"/><s n="subst"/><s n="ke-an"/></r></p></e>
     <e><p><l>wawas<s n="vblex"/></l><r>wawas<s n="vblex"/></r></p></e>
+    <e><p><l>wisata<s n="vblex"/></l><r>lancong<s n="vblex"/><s n="subst"/><s n="pe-an"/></r></p></e>
+    <e><p><l>wisata<s n="vblex"/></l><r>wisata<s n="vblex"/></r></p></e>
 
-    <e><p><l>bangkrut<s n="vblex"/></l><r>muflis<s n="adj"/></r></p></e>
-    <e><p><l>sedia<s n="vblex"/><s n="ter"/></l><r>sedia<s n="adj"/></r></p></e>
-    <e><p><l>undang<s n="vblex"/><s n="subst"/><s n="an"/><s n="sg"/></l><r>selia<s n="adj"/></r></p></e>
-    
     <!-- Adjectives -->
     <e><p><l>Romawi<s n="adj"/></l><r>Rom<s n="adj"/></r></p></e>
     <e><p><l>abadi<s n="adj"/></l><r>abadi<s n="adj"/></r></p></e>
