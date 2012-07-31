@@ -2907,425 +2907,6 @@
     </pardef>
   </pardefs>
   <section id="main" type="standard">
-    <!-- <par n=""/> -->
-['-1']
-['2']
-['adj']
-['adv']
-['ij']
-['jua']
-['n']
-['num']
-['ong']
-['pah']
-['per']
-['pr']
-['prn']
-['si']
-    <!-- <par n=" 'actv', 'i', 'nya']"/> -->
-['adj', 'actv', 'i', 'nya']
-['prn', 'actv', 'i', 'nya']
-    <!-- <par n=" 'actv', 'i']"/> -->
-['adj', 'actv', 'i']
-['adv', 'actv', 'i']
-['prn', 'actv', 'i']
-    <!-- <par n=" 'actv', 'kan', 'nya']"/> -->
-['adj', 'actv', 'kan', 'nya']
-['adv', 'actv', 'kan', 'nya']
-    <!-- <par n=" 'actv', 'kan']"/> -->
-['adj', 'actv', 'kan']
-['adv', 'actv', 'kan']
-['num', 'actv', 'kan']
-    <!-- <par n=" 'actv', 'nya']"/> -->
-['adj', 'actv', 'nya']
-    <!-- <par n=" 'actv', 'per', 'i']"/> -->
-['adj', 'actv', 'per', 'i']
-    <!-- <par n=" 'actv', 'per', 'kan']"/> -->
-['adj', 'actv', 'per', 'kan']
-['adv', 'actv', 'per', 'kan']
-['num', 'actv', 'per', 'kan']
-    <!-- <par n=" 'actv', 'per']"/> -->
-['adj', 'actv', 'per']
-    <!-- <par n=" 'actv']"/> -->
-['adj', 'actv']
-['adv', 'actv']
-['num', 'actv']
-['prn', 'actv']
-    <!-- <par n=" 'an', 'nya']"/> -->
-['adj', 'an', 'nya']
-['num', 'an', 'nya']
-    <!-- <par n=" 'an', 'red']"/> -->
-['adj', 'an', 'red']
-['num', 'an', 'red']
-    <!-- <par n=" 'an']"/> -->
-['adj', 'an']
-['adv', 'an']
-['num', 'an']
-    <!-- <par n=" 'ber', 'an']"/> -->
-['adj', 'ber', 'an']
-['adv', 'ber', 'an']
-    <!-- <par n=" 'ber', 'ke', 'an']"/> -->
-['adj', 'ber', 'ke', 'an']
-['adv', 'ber', 'ke', 'an']
-    <!-- <par n=" 'ber', 'nya']"/> -->
-['adj', 'ber', 'nya']
-['adv', 'ber', 'nya']
-    <!-- <par n=" 'ber']"/> -->
-['adj', 'ber']
-['adv', 'ber']
-['num', 'ber']
-    <!-- <par n=" 'ke', 'an', 'nya']"/> -->
-['adj', 'ke', 'an', 'nya']
-['adv', 'ke', 'an', 'nya']
-['num', 'ke', 'an', 'nya']
-    <!-- <par n=" 'ke', 'an', 'red']"/> -->
-['adj', 'ke', 'an', 'red']
-    <!-- <par n=" 'ke', 'an']"/> -->
-['adj', 'ke', 'an']
-['adv', 'ke', 'an']
-['num', 'ke', 'an']
-    <!-- <par n=" 'ke', 'ber', 'an']"/> -->
-['adj', 'ke', 'ber', 'an']
-['adv', 'ke', 'ber', 'an']
-    <!-- <par n=" 'ke', 'nya']"/> -->
-['adv', 'ke', 'nya']
-    <!-- <par n=" 'ke', 'pe', 'an']"/> -->
-['adj', 'ke', 'pe', 'an']
-    <!-- <par n=" 'ke', 'se', 'an']"/> -->
-['adj', 'ke', 'se', 'an']
-    <!-- <par n=" 'ke', 'ter', 'an']"/> -->
-['adj', 'ke', 'ter', 'an']
-    <!-- <par n=" 'ke']"/> -->
-['adj', 'ke']
-['adv', 'ke']
-['num', 'ke']
-    <!-- <par n=" 'nya', 'red']"/> -->
-['adj', 'nya', 'red']
-    <!-- <par n=" 'nya']"/> -->
-['adj', 'nya']
-['adv', 'nya']
-['num', 'nya']
-    <!-- <par n=" 'pasv', 'i', 'nya']"/> -->
-['adj', 'pasv', 'i', 'nya']
-    <!-- <par n=" 'pasv', 'i']"/> -->
-['adj', 'pasv', 'i']
-['adv', 'pasv', 'i']
-['prn', 'pasv', 'i']
-    <!-- <par n=" 'pasv', 'kan', 'nya']"/> -->
-['adv', 'pasv', 'kan', 'nya']
-    <!-- <par n=" 'pasv', 'kan']"/> -->
-['adj', 'pasv', 'kan']
-['adv', 'pasv', 'kan']
-['num', 'pasv', 'kan']
-    <!-- <par n=" 'pasv', 'nya']"/> -->
-['adj', 'pasv', 'nya']
-['adv', 'pasv', 'nya']
-    <!-- <par n=" 'pasv', 'per', 'i']"/> -->
-['adj', 'pasv', 'per', 'i']
-    <!-- <par n=" 'pasv', 'per', 'kan']"/> -->
-['adj', 'pasv', 'per', 'kan']
-['adv', 'pasv', 'per', 'kan']
-['num', 'pasv', 'per', 'kan']
-['prn', 'pasv', 'per', 'kan']
-    <!-- <par n=" 'pasv', 'per']"/> -->
-['adj', 'pasv', 'per']
-    <!-- <par n=" 'pasv']"/> -->
-['adj', 'pasv']
-['adv', 'pasv']
-['num', 'pasv']
-['prn', 'pasv']
-    <!-- <par n=" 'pe', 'an', 'nya']"/> -->
-['adj', 'pe', 'an', 'nya']
-    <!-- <par n=" 'pe', 'an', 'red']"/> -->
-['adj', 'pe', 'an', 'red']
-    <!-- <par n=" 'pe', 'an']"/> -->
-['adj', 'pe', 'an']
-['adv', 'pe', 'an']
-    <!-- <par n=" 'pe', 'red']"/> -->
-['adj', 'pe', 'red']
-    <!-- <par n=" 'pe']"/> -->
-['adj', 'pe']
-    <!-- <par n=" 'peN', 'an', 'nya']"/> -->
-['adj', 'peN', 'an', 'nya']
-['adv', 'peN', 'an', 'nya']
-['prn', 'peN', 'an', 'nya']
-    <!-- <par n=" 'peN', 'an']"/> -->
-['adj', 'peN', 'an']
-['adv', 'peN', 'an']
-['num', 'peN', 'an']
-['prn', 'peN', 'an']
-    <!-- <par n=" 'peN', 'nya']"/> -->
-['adj', 'peN', 'nya']
-['adv', 'peN', 'nya']
-    <!-- <par n=" 'peN', 'per', 'an']"/> -->
-['adj', 'peN', 'per', 'an']
-    <!-- <par n=" 'peN', 'per']"/> -->
-['num', 'peN', 'per']
-    <!-- <par n=" 'peN']"/> -->
-['adj', 'peN']
-['adv', 'peN']
-    <!-- <par n=" 'per', 'an', 'nya']"/> -->
-['adj', 'per', 'an', 'nya']
-    <!-- <par n=" 'per', 'an', 'red']"/> -->
-['adj', 'per', 'an', 'red']
-    <!-- <par n=" 'per', 'an']"/> -->
-['adj', 'per', 'an']
-['num', 'per', 'an']
-    <!-- <par n=" 'per']"/> -->
-['adj', 'per']
-    <!-- <par n=" 'red']"/> -->
-['adj', 'red']
-    <!-- <par n=" 'se', 'nya']"/> -->
-['adj', 'se', 'nya']
-['adv', 'se', 'nya']
-['num', 'se', 'nya']
-    <!-- <par n=" 'se']"/> -->
-['adj', 'se']
-['adv', 'se']
-['num', 'se']
-['prn', 'se']
-    <!-- <par n=" 'ter', 'i']"/> -->
-['adj', 'ter', 'i']
-    <!-- <par n=" 'ter', 'kan']"/> -->
-['adj', 'ter', 'kan']
-    <!-- <par n=" 'ter', 'nya']"/> -->
-['adj', 'ter', 'nya']
-['adv', 'ter', 'nya']
-    <!-- <par n=" 'ter']"/> -->
-['adj', 'ter']
-['adv', 'ter']
-['num', 'ter']
-    <!-- <par n=" 'unk', 'an']"/> -->
-['adj', 'unk', 'an']
-    <!-- <par n=" 'unk', 'i']"/> -->
-['adv', 'unk', 'i']
-    <!-- <par n=" 'unk', 'kan']"/> -->
-['adj', 'unk', 'kan']
-    <!-- <par n=" 'unk', 'unk']"/> -->
-['adj', 'unk', 'unk']
-    <!-- <par n=" 'unk']"/> -->
-['adj', 'unk']
-['adv', 'unk']
-['prn', 'unk']
-    <!-- <par n=" - Wikipedia bahasa Indonesia']"/> -->
-['Nikel - Wikipedia bahasa Indonesia']
-    <!-- <par n=" Wikipedia bahasa Indonesia']"/> -->
-['Sri - Wikipedia bahasa Indonesia']
-['Won - Wikipedia bahasa Indonesia']
-['Yen - Wikipedia bahasa Indonesia']
-    <!-- <par n="', 'actv', 'i', 'nya']"/> -->
-['vblex', 'actv', 'i', 'nya']
-    <!-- <par n="', 'actv', 'i']"/> -->
-['vblex', 'actv', 'i']
-    <!-- <par n="', 'actv', 'kan', 'nya']"/> -->
-['vblex', 'actv', 'kan', 'nya']
-    <!-- <par n="', 'actv', 'kan']"/> -->
-['vblex', 'actv', 'kan']
-    <!-- <par n="', 'actv', 'nya']"/> -->
-['vblex', 'actv', 'nya']
-    <!-- <par n="', 'actv', 'per', 'i']"/> -->
-['vblex', 'actv', 'per', 'i']
-    <!-- <par n="', 'actv', 'per', 'kan', 'nya']"/> -->
-['vblex', 'actv', 'per', 'kan', 'nya']
-    <!-- <par n="', 'actv', 'per', 'kan']"/> -->
-['vblex', 'actv', 'per', 'kan']
-    <!-- <par n="', 'actv']"/> -->
-['vblex', 'actv']
-    <!-- <par n="', 'an', 'nya', 'red']"/> -->
-['vblex', 'an', 'nya', 'red']
-    <!-- <par n="', 'an', 'nya']"/> -->
-['vblex', 'an', 'nya']
-    <!-- <par n="', 'an', 'red']"/> -->
-['vblex', 'an', 'red']
-    <!-- <par n="', 'an']"/> -->
-['vblex', 'an']
-    <!-- <par n="', 'ber', 'an']"/> -->
-['vblex', 'ber', 'an']
-    <!-- <par n="', 'ber', 'kan']"/> -->
-['vblex', 'ber', 'kan']
-    <!-- <par n="', 'ber', 'ke', 'an']"/> -->
-['vblex', 'ber', 'ke', 'an']
-    <!-- <par n="', 'ber', 'nya']"/> -->
-['vblex', 'ber', 'nya']
-    <!-- <par n="', 'ber', 'peN', 'an']"/> -->
-['vblex', 'ber', 'peN', 'an']
-    <!-- <par n="', 'ber', 'peN']"/> -->
-['vblex', 'ber', 'peN']
-    <!-- <par n="', 'ber']"/> -->
-['vblex', 'ber']
-    <!-- <par n="', 'kan']"/> -->
-['vblex', 'kan']
-    <!-- <par n="', 'ke', 'an', 'nya']"/> -->
-['vblex', 'ke', 'an', 'nya']
-    <!-- <par n="', 'ke', 'an', 'red']"/> -->
-['vblex', 'ke', 'an', 'red']
-    <!-- <par n="', 'ke', 'an']"/> -->
-['vblex', 'ke', 'an']
-    <!-- <par n="', 'ke', 'ber', 'an', 'nya']"/> -->
-['vblex', 'ke', 'ber', 'an', 'nya']
-    <!-- <par n="', 'ke', 'ber', 'an']"/> -->
-['vblex', 'ke', 'ber', 'an']
-    <!-- <par n="', 'ke', 'pe', 'an']"/> -->
-['vblex', 'ke', 'pe', 'an']
-    <!-- <par n="', 'ke', 'peN', 'an', 'nya']"/> -->
-['vblex', 'ke', 'peN', 'an', 'nya']
-    <!-- <par n="', 'ke', 'peN', 'an']"/> -->
-['vblex', 'ke', 'peN', 'an']
-    <!-- <par n="', 'ke', 'ter', 'an', 'nya']"/> -->
-['vblex', 'ke', 'ter', 'an', 'nya']
-    <!-- <par n="', 'ke', 'ter', 'an']"/> -->
-['vblex', 'ke', 'ter', 'an']
-    <!-- <par n="', 'ke']"/> -->
-['vblex', 'ke']
-    <!-- <par n="', 'nya']"/> -->
-['vblex', 'nya']
-    <!-- <par n="', 'pasv', 'an']"/> -->
-['vblex', 'pasv', 'an']
-    <!-- <par n="', 'pasv', 'i', 'nya']"/> -->
-['vblex', 'pasv', 'i', 'nya']
-    <!-- <par n="', 'pasv', 'i']"/> -->
-['vblex', 'pasv', 'i']
-    <!-- <par n="', 'pasv', 'kan', 'nya']"/> -->
-['vblex', 'pasv', 'kan', 'nya']
-    <!-- <par n="', 'pasv', 'kan']"/> -->
-['vblex', 'pasv', 'kan']
-    <!-- <par n="', 'pasv', 'nya']"/> -->
-['vblex', 'pasv', 'nya']
-    <!-- <par n="', 'pasv', 'per', 'i']"/> -->
-['vblex', 'pasv', 'per', 'i']
-    <!-- <par n="', 'pasv', 'per', 'kan', 'nya']"/> -->
-['vblex', 'pasv', 'per', 'kan', 'nya']
-    <!-- <par n="', 'pasv', 'per', 'kan']"/> -->
-['vblex', 'pasv', 'per', 'kan']
-    <!-- <par n="', 'pasv']"/> -->
-['vblex', 'pasv']
-    <!-- <par n="', 'pe', 'an', 'nya']"/> -->
-['vblex', 'pe', 'an', 'nya']
-    <!-- <par n="', 'pe', 'an']"/> -->
-['vblex', 'pe', 'an']
-    <!-- <par n="', 'pe', 'nya']"/> -->
-['vblex', 'pe', 'nya']
-    <!-- <par n="', 'pe', 'red']"/> -->
-['vblex', 'pe', 'red']
-    <!-- <par n="', 'pe']"/> -->
-['vblex', 'pe']
-    <!-- <par n="', 'peN', 'an', 'nya']"/> -->
-['vblex', 'peN', 'an', 'nya']
-    <!-- <par n="', 'peN', 'an', 'red']"/> -->
-['vblex', 'peN', 'an', 'red']
-    <!-- <par n="', 'peN', 'an']"/> -->
-['vblex', 'peN', 'an']
-    <!-- <par n="', 'peN', 'nya']"/> -->
-['vblex', 'peN', 'nya']
-    <!-- <par n="', 'peN', 'red']"/> -->
-['vblex', 'peN', 'red']
-    <!-- <par n="', 'peN']"/> -->
-['vblex', 'peN']
-    <!-- <par n="', 'per', 'an', 'nya']"/> -->
-['vblex', 'per', 'an', 'nya']
-    <!-- <par n="', 'per', 'an', 'red']"/> -->
-['vblex', 'per', 'an', 'red']
-    <!-- <par n="', 'per', 'an']"/> -->
-['vblex', 'per', 'an']
-    <!-- <par n="', 'per', 'red']"/> -->
-['vblex', 'per', 'red']
-    <!-- <par n="', 'per']"/> -->
-['vblex', 'per']
-    <!-- <par n="', 'red']"/> -->
-['vblex', 'red']
-    <!-- <par n="', 'se', 'an']"/> -->
-['vblex', 'se', 'an']
-    <!-- <par n="', 'se', 'nya']"/> -->
-['vblex', 'se', 'nya']
-    <!-- <par n="', 'se']"/> -->
-['vblex', 'se']
-    <!-- <par n="', 'ter', 'kan']"/> -->
-['vblex', 'ter', 'kan']
-    <!-- <par n="', 'ter', 'nya']"/> -->
-['vblex', 'ter', 'nya']
-    <!-- <par n="', 'ter']"/> -->
-['vblex', 'ter']
-    <!-- <par n="', 'unk', 'an']"/> -->
-['vblex', 'unk', 'an']
-    <!-- <par n="', 'unk', 'i', 'nya']"/> -->
-['vblex', 'unk', 'i', 'nya']
-    <!-- <par n="', 'unk', 'i']"/> -->
-['vblex', 'unk', 'i']
-    <!-- <par n="', 'unk', 'nya']"/> -->
-['vblex', 'unk', 'nya']
-    <!-- <par n="', 'unk', 'unk', 'red']"/> -->
-['vblex', 'unk', 'unk', 'red']
-    <!-- <par n="', 'unk', 'unk']"/> -->
-['vblex', 'unk', 'unk']
-    <!-- <par n="', 'unk']"/> -->
-['vblex', 'unk']
-    <!-- <par n="']"/> -->
-['agung']
-['sejak']
-['serta']
-['telah']
-['vblex']
-    <!-- <par n="'actv', 'i']"/> -->
-['pr', 'actv', 'i']
-    <!-- <par n="'actv', 'nya']"/> -->
-['pr', 'actv', 'nya']
-    <!-- <par n="'actv']"/> -->
-['pr', 'actv']
-    <!-- <par n="'an', 'nya']"/> -->
-['pr', 'an', 'nya']
-    <!-- <par n="'an', 'red']"/> -->
-['pr', 'an', 'red']
-    <!-- <par n="'an']"/> -->
-['pr', 'an']
-    <!-- <par n="'ber', 'an']"/> -->
-['pr', 'ber', 'an']
-    <!-- <par n="'ber']"/> -->
-['pr', 'ber']
-    <!-- <par n="'ke', 'an']"/> -->
-['ij', 'ke', 'an']
-    <!-- <par n="'nya']"/> -->
-['pr', 'nya']
-    <!-- <par n="'pasv', 'an']"/> -->
-['pr', 'pasv', 'an']
-    <!-- <par n="'pasv', 'kan']"/> -->
-['pr', 'pasv', 'kan']
-    <!-- <par n="'pasv', 'per', 'kan']"/> -->
-['pr', 'pasv', 'per', 'kan']
-    <!-- <par n="'pasv']"/> -->
-['pr', 'pasv']
-    <!-- <par n="'peN', 'an']"/> -->
-['pr', 'peN', 'an']
-    <!-- <par n="'peN']"/> -->
-['pr', 'peN']
-    <!-- <par n="'per', 'an']"/> -->
-['pr', 'per', 'an']
-    <!-- <par n="'se']"/> -->
-['pr', 'se']
-    <!-- <par n="'ter']"/> -->
-['pr', 'ter']
-    <!-- <par n=", 'actv', 'i', 'nya']"/> -->
-['juga', 'actv', 'i', 'nya']
-    <!-- <par n=", 'actv', 'i']"/> -->
-['juga', 'actv', 'i']
-    <!-- <par n=", 'actv', 'kan']"/> -->
-['juga', 'actv', 'kan']
-    <!-- <par n=", 'ber']"/> -->
-['juga', 'ber']
-    <!-- <par n=", 'pasv', 'i']"/> -->
-['juga', 'pasv', 'i']
-    <!-- <par n=", 'pasv', 'kan']"/> -->
-['juga', 'pasv', 'kan']
-    <!-- <par n=", 'peN', 'an']"/> -->
-['juga', 'peN', 'an']
-['lain', 'peN', 'an']
-    <!-- <par n=", 'per', 'an']"/> -->
-['lain', 'per', 'an']
-    <!-- <par n=", 'per', 'nya']"/> -->
-['juga', 'per', 'nya']
-    <!-- <par n=", 'per']"/> -->
-['juga', 'per']
-    <!-- <par n=", 'ter']"/> -->
-['lain', 'ter']
     <!-- <par n="Indonesia__np"/> -->
     <e lm="Afrika"><i>Afrika</i><par n="Indonesia__np"/></e>
     <e lm="Amerika"><i>Amerika</i><par n="Indonesia__np"/></e>
@@ -3376,15 +2957,6 @@
     <e lm="Carla"><i>Carla</i><par n="Maria__np"/></e>
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
     <e lm="Mary"><i>Mary</i><par n="Maria__np"/></e>
-    <!-- <par n="Wikipedia bahasa Indonesia', 'pasv']"/> -->
-['Pa - Wikipedia bahasa Indonesia', 'pasv']
-    <!-- <par n="Wikipedia bahasa Indonesia', 'unk', 'nya']"/> -->
-['Wa - Wikipedia bahasa Indonesia', 'unk', 'nya']
-    <!-- <par n="Wikipedia bahasa Indonesia']"/> -->
-['AL - Wikipedia bahasa Indonesia']
-['Pa - Wikipedia bahasa Indonesia']
-['SI - Wikipedia bahasa Indonesia']
-['Wa - Wikipedia bahasa Indonesia']
     <!-- <par n="Yakobus__np"/> -->
     <e lm="Ahmad"><i>Ahmad</i><par n="Yakobus__np"/></e>
     <e lm="Ainur"><i>Ainur</i><par n="Yakobus__np"/></e>
@@ -3403,30 +2975,6 @@
     <e lm="Woody"><i>Woody</i><par n="Yakobus__np"/></e>
     <e lm="Yakobus"><i>Yakobus</i><par n="Yakobus__np"/></e>
     <e lm="Yesus"><i>Yesus</i><par n="Yakobus__np"/></e>
-    <!-- <par n="]"/> -->
-['lain']
-    <!-- <par n="a']"/> -->
-['kontra']
-    <!-- <par n="actv', 'ber', 'kan']"/> -->
-['n', 'actv', 'ber', 'kan']
-    <!-- <par n="actv', 'i', 'nya']"/> -->
-['n', 'actv', 'i', 'nya']
-    <!-- <par n="actv', 'i']"/> -->
-['n', 'actv', 'i']
-    <!-- <par n="actv', 'kan', 'nya']"/> -->
-['n', 'actv', 'kan', 'nya']
-    <!-- <par n="actv', 'kan']"/> -->
-['n', 'actv', 'kan']
-    <!-- <par n="actv', 'nya']"/> -->
-['n', 'actv', 'nya']
-    <!-- <par n="actv', 'per', 'i', 'nya']"/> -->
-['n', 'actv', 'per', 'i', 'nya']
-    <!-- <par n="actv', 'per', 'i']"/> -->
-['n', 'actv', 'per', 'i']
-    <!-- <par n="actv', 'per', 'kan']"/> -->
-['n', 'actv', 'per', 'kan']
-    <!-- <par n="actv']"/> -->
-['n', 'actv']
     <!-- <par n="adalah__part"/> -->
     <e lm="adalah"><i>adalah</i><par n="adalah__part"/></e>
     <e lm="ialah"><i>ialah</i><par n="adalah__part"/></e>
@@ -3721,14 +3269,6 @@
     <e lm="ucap"><p><l>ucapannya</l><r>ucap</r></p><par n="akhirannya__n"/></e>
     <e lm="ukur"><p><l>ukurannya</l><r>ukur</r></p><par n="akhirannya__n"/></e>
     <e lm="waris"><p><l>warisannya</l><r>waris</r></p><par n="akhirannya__n"/></e>
-    <!-- <par n="an KBBI']"/> -->
-['Rujukan KBBI']
-    <!-- <par n="an', 'nya']"/> -->
-['n', 'an', 'nya']
-    <!-- <par n="an', 'red']"/> -->
-['n', 'an', 'red']
-    <!-- <par n="an']"/> -->
-['n', 'an']
     <!-- <par n="baca-baca__vblex"/> -->
     <e lm="alih"><p><l>alih-alih</l><r>alih</r></p><par n="baca-baca__vblex"/></e>
     <e lm="hidup"><p><l>hidup-hidup</l><r>hidup</r></p><par n="baca-baca__vblex"/></e>
@@ -5683,22 +5223,6 @@
     <e lm="unik"><p><l>uniknya</l><r>unik</r></p><par n="baiknya__adj"/></e>
     <e lm="utama"><p><l>utamanya</l><r>utama</r></p><par n="baiknya__adj"/></e>
     <e lm="vokal"><p><l>vokalnya</l><r>vokal</r></p><par n="baiknya__adj"/></e>
-    <!-- <par n="be', 'an']"/> -->
-['n', 'be', 'an']
-    <!-- <par n="ber', 'an']"/> -->
-['n', 'ber', 'an']
-    <!-- <par n="ber', 'kan']"/> -->
-['n', 'ber', 'kan']
-    <!-- <par n="ber', 'ke', 'an']"/> -->
-['n', 'ber', 'ke', 'an']
-    <!-- <par n="ber', 'nya']"/> -->
-['n', 'ber', 'nya']
-    <!-- <par n="ber', 'peN', 'an']"/> -->
-['n', 'ber', 'peN', 'an']
-    <!-- <par n="ber', 'se', 'an']"/> -->
-['n', 'ber', 'se', 'an']
-    <!-- <par n="ber']"/> -->
-['n', 'ber']
     <!-- <par n="beragama__n"/> -->
     <e lm="adab"><p><l>beradab</l><r>adab</r></p><par n="beragama__n"/></e>
     <e lm="adaptasi"><p><l>beradaptasi</l><r>adaptasi</r></p><par n="beragama__n"/></e>
@@ -7464,36 +6988,6 @@
     <e lm="tujuh"><i>tujuh</i><par n="dua__num"/></e>
     <e lm="tunggal"><i>tunggal</i><par n="dua__num"/></e>
     <e lm="wahid"><i>wahid</i><par n="dua__num"/></e>
-    <!-- <par n="gkup', 'actv']"/> -->
-['merangkup', 'actv']
-    <!-- <par n="i lalu']"/> -->
-['sekali lalu']
-    <!-- <par n="id', 'actv', 'kan']"/> -->
-['mustaid', 'actv', 'kan']
-    <!-- <par n="id', 'ber']"/> -->
-['mustaid', 'ber']
-    <!-- <par n="id', 'ke', 'an']"/> -->
-['mustaid', 'ke', 'an']
-    <!-- <par n="id', 'ke', 'ter', 'an']"/> -->
-['mustaid', 'ke', 'ter', 'an']
-    <!-- <par n="id', 'nya']"/> -->
-['mustaid', 'nya']
-    <!-- <par n="id', 'pasv', 'kan']"/> -->
-['mustaid', 'pasv', 'kan']
-    <!-- <par n="id', 'peN', 'an']"/> -->
-['mustaid', 'peN', 'an']
-    <!-- <par n="id', 'peN']"/> -->
-['mustaid', 'peN']
-    <!-- <par n="id', 'per', 'an']"/> -->
-['mustaid', 'per', 'an']
-    <!-- <par n="id', 'ter', 'nya']"/> -->
-['mustaid', 'ter', 'nya']
-    <!-- <par n="id', 'ter']"/> -->
-['mustaid', 'ter']
-    <!-- <par n="id']"/> -->
-['mustaid']
-    <!-- <par n="if']"/> -->
-['eksesif']
     <!-- <par n="ingin__adv"/> -->
     <e lm="acap kali"><i>acap<b/>kali</i><par n="ingin__adv"/></e>
     <e lm="adakala"><i>adakala</i><par n="ingin__adv"/></e>
@@ -7961,10 +7455,6 @@
     <e lm="waktu"><i>waktu</i><par n="jika__cnjsub"/></e>
     <e lm="walau"><i>walau</i><par n="jika__cnjsub"/></e>
     <e lm="walaupun"><i>walaupun</i><par n="jika__cnjsub"/></e>
-    <!-- <par n="k terikat']"/> -->
-['Bentuk terikat']
-    <!-- <par n="k', 'se']"/> -->
-['renyuk', 'se']
     <!-- <par n="kalian__prn"/> -->
     <e lm="kalian"><i>kalian</i><par n="kalian__prn"/></e>
     <!-- <par n="kami__prn"/> -->
@@ -7976,8 +7466,6 @@
     <e lm="engkau"><i>engkau</i><par n="kamu__prn"/></e>
     <e lm="kamu"><i>kamu</i><par n="kamu__prn"/></e>
     <e lm="kau"><i>kau</i><par n="kamu__prn"/></e>
-    <!-- <par n="kanlah']"/> -->
-['kabulkanlah']
     <!-- <par n="kata-kata__n"/> -->
     <e lm="abad"><p><l>abad-abad</l><r>abad</r></p><par n="kata-kata__n"/></e>
     <e lm="acara"><p><l>acara-acara</l><r>acara</r></p><par n="kata-kata__n"/></e>
@@ -13873,28 +13361,6 @@
     <e lm="wujud"><p><l>wujudnya</l><r>wujud</r></p><par n="katanya__n"/></e>
     <e lm="yad"><p><l>yadnya</l><r>yad</r></p><par n="katanya__n"/></e>
     <e lm="zaman"><p><l>zamannya</l><r>zaman</r></p><par n="katanya__n"/></e>
-    <!-- <par n="ke', 'an', 'nya']"/> -->
-['n', 'ke', 'an', 'nya']
-    <!-- <par n="ke', 'an', 'red']"/> -->
-['n', 'ke', 'an', 'red']
-    <!-- <par n="ke', 'an']"/> -->
-['n', 'ke', 'an']
-    <!-- <par n="ke', 'ber', 'an', 'nya']"/> -->
-['n', 'ke', 'ber', 'an', 'nya']
-    <!-- <par n="ke', 'ber', 'an']"/> -->
-['n', 'ke', 'ber', 'an']
-    <!-- <par n="ke', 'nya']"/> -->
-['n', 'ke', 'nya']
-    <!-- <par n="ke', 'pe', 'an', 'nya']"/> -->
-['n', 'ke', 'pe', 'an', 'nya']
-    <!-- <par n="ke', 'pe', 'an']"/> -->
-['n', 'ke', 'pe', 'an']
-    <!-- <par n="ke', 'se', 'an']"/> -->
-['n', 'ke', 'se', 'an']
-    <!-- <par n="ke', 'ter', 'an']"/> -->
-['n', 'ke', 'ter', 'an']
-    <!-- <par n="ke']"/> -->
-['n', 'ke']
     <!-- <par n="keabadian-keabadian__adj"/> -->
     <e lm="bijak"><p><l>kebijakan-kebijakan</l><r>bijak</r></p><par n="keabadian-keabadian__adj"/></e>
     <e lm="giat"><p><l>kegiatan-kegiatan</l><r>giat</r></p><par n="keabadian-keabadian__adj"/></e>
@@ -14362,12 +13828,6 @@
     <e lm="tarik"><p><l>ketertarikannya</l><r>tarik</r></p><par n="ketertinggalannya__vblex"/></e>
     <!-- <par n="ku__prn"/> -->
     <e lm="aku"><p><l>ku</l><r>aku</r></p><par n="ku__prn"/></e>
-    <!-- <par n="l']"/> -->
-['sambil']
-    <!-- <par n="lain']"/> -->
-['nama lain']
-    <!-- <par n="mad Hatta - Wikipedia bahasa Indonesia']"/> -->
-['Mohammad Hatta - Wikipedia bahasa Indonesia']
     <!-- <par n="memberhentikan__n"/> -->
     <e lm="daya"><p><l>memberdayakan</l><r>daya</r></p><par n="memberhentikan__n"/></e>
     <e lm="henti"><p><l>memberhentikan</l><r>henti</r></p><par n="memberhentikan__n"/></e>
@@ -15801,90 +15261,6 @@
     <e lm="oleh sebab itu"><i>oleh<b/>sebab<b/>itu</i><par n="namun__cnjadv"/></e>
     <e lm="sebaliknya"><i>sebaliknya</i><par n="namun__cnjadv"/></e>
     <e lm="walaupun demikian"><i>walaupun<b/>demikian</i><par n="namun__cnjadv"/></e>
-    <!-- <par n="ngsi', 'actv', 'kan', 'nya']"/> -->
-['Konjungsi', 'actv', 'kan', 'nya']
-    <!-- <par n="ngsi', 'actv', 'kan']"/> -->
-['Konjungsi', 'actv', 'kan']
-    <!-- <par n="ngsi', 'actv', 'per']"/> -->
-['Konjungsi', 'actv', 'per']
-    <!-- <par n="ngsi', 'nya']"/> -->
-['Konjungsi', 'nya']
-    <!-- <par n="ngsi', 'pasv', 'kan']"/> -->
-['Konjungsi', 'pasv', 'kan']
-    <!-- <par n="ngsi', 'pasv', 'per', 'nya']"/> -->
-['Konjungsi', 'pasv', 'per', 'nya']
-    <!-- <par n="ngsi', 'pasv', 'per']"/> -->
-['Konjungsi', 'pasv', 'per']
-    <!-- <par n="ngsi', 'per', 'an']"/> -->
-['Konjungsi', 'per', 'an']
-    <!-- <par n="ngsi', 'unk']"/> -->
-['Konjungsi', 'unk']
-    <!-- <par n="ngsi']"/> -->
-['Konjungsi']
-    <!-- <par n="nya', 'nya']"/> -->
-['misalnya', 'nya']
-    <!-- <par n="nya', 'red']"/> -->
-['n', 'nya', 'red']
-    <!-- <par n="nya']"/> -->
-['n', 'nya']
-    <!-- <par n="pasv', 'an']"/> -->
-['n', 'pasv', 'an']
-    <!-- <par n="pasv', 'ber', 'kan', 'nya']"/> -->
-['n', 'pasv', 'ber', 'kan', 'nya']
-    <!-- <par n="pasv', 'ber', 'kan']"/> -->
-['n', 'pasv', 'ber', 'kan']
-    <!-- <par n="pasv', 'ber', 'nya']"/> -->
-['n', 'pasv', 'ber', 'nya']
-    <!-- <par n="pasv', 'ber']"/> -->
-['n', 'pasv', 'ber']
-    <!-- <par n="pasv', 'i', 'nya']"/> -->
-['n', 'pasv', 'i', 'nya']
-    <!-- <par n="pasv', 'i']"/> -->
-['n', 'pasv', 'i']
-    <!-- <par n="pasv', 'kan', 'nya']"/> -->
-['n', 'pasv', 'kan', 'nya']
-    <!-- <par n="pasv', 'kan']"/> -->
-['n', 'pasv', 'kan']
-    <!-- <par n="pasv', 'nya']"/> -->
-['n', 'pasv', 'nya']
-    <!-- <par n="pasv', 'per', 'an']"/> -->
-['n', 'pasv', 'per', 'an']
-    <!-- <par n="pasv', 'per', 'i', 'nya']"/> -->
-['n', 'pasv', 'per', 'i', 'nya']
-    <!-- <par n="pasv', 'per', 'i']"/> -->
-['n', 'pasv', 'per', 'i']
-    <!-- <par n="pasv', 'per', 'kan']"/> -->
-['n', 'pasv', 'per', 'kan']
-    <!-- <par n="pasv', 'per']"/> -->
-['n', 'pasv', 'per']
-    <!-- <par n="pasv']"/> -->
-['n', 'pasv']
-    <!-- <par n="pe', 'an', 'nya']"/> -->
-['n', 'pe', 'an', 'nya']
-    <!-- <par n="pe', 'an']"/> -->
-['n', 'pe', 'an']
-    <!-- <par n="pe', 'nya']"/> -->
-['n', 'pe', 'nya']
-    <!-- <par n="pe', 'red']"/> -->
-['n', 'pe', 'red']
-    <!-- <par n="pe']"/> -->
-['n', 'pe']
-    <!-- <par n="peN', 'an', 'nya']"/> -->
-['n', 'peN', 'an', 'nya']
-    <!-- <par n="peN', 'an', 'red']"/> -->
-['n', 'peN', 'an', 'red']
-    <!-- <par n="peN', 'an']"/> -->
-['n', 'peN', 'an']
-    <!-- <par n="peN', 'ber', 'an']"/> -->
-['n', 'peN', 'ber', 'an']
-    <!-- <par n="peN', 'nya', 'red']"/> -->
-['n', 'peN', 'nya', 'red']
-    <!-- <par n="peN', 'nya']"/> -->
-['n', 'peN', 'nya']
-    <!-- <par n="peN', 'red']"/> -->
-['n', 'peN', 'red']
-    <!-- <par n="peN']"/> -->
-['n', 'peN']
     <!-- <par n="pedalaman-pedalaman__adj"/> -->
     <e lm="labuh"><p><l>pelabuhan-pelabuhan</l><r>labuh</r></p><par n="pedalaman-pedalaman__adj"/></e>
     <!-- <par n="pedalaman__adj"/> -->
@@ -16678,16 +16054,6 @@
     <e lm="tonton"><p><l>penontonnya</l><r>tonton</r></p><par n="penulisnya__vblex"/></e>
     <e lm="tulis"><p><l>penulisnya</l><r>tulis</r></p><par n="penulisnya__vblex"/></e>
     <e lm="tumpang"><p><l>penumpangnya</l><r>tumpang</r></p><par n="penulisnya__vblex"/></e>
-    <!-- <par n="per', 'an', 'nya']"/> -->
-['n', 'per', 'an', 'nya']
-    <!-- <par n="per', 'an', 'red']"/> -->
-['n', 'per', 'an', 'red']
-    <!-- <par n="per', 'an']"/> -->
-['n', 'per', 'an']
-    <!-- <par n="per', 'nya']"/> -->
-['n', 'per', 'nya']
-    <!-- <par n="per']"/> -->
-['n', 'per']
     <!-- <par n="perbahasaan-perbahasaan__n"/> -->
     <e lm="beda"><p><l>perbedaan-perbedaan</l><r>beda</r></p><par n="perbahasaan-perbahasaan__n"/></e>
     <e lm="soal"><p><l>persoalan-persoalan</l><r>soal</r></p><par n="perbahasaan-perbahasaan__n"/></e>
@@ -16986,10 +16352,6 @@
     <e lm="laku"><p><l>pelakunya</l><r>laku</r></p><par n="petinjunya__n"/></e>
     <e lm="milik"><p><l>pemiliknya</l><r>milik</r></p><par n="petinjunya__n"/></e>
     <e lm="waris"><p><l>pewarisnya</l><r>waris</r></p><par n="petinjunya__n"/></e>
-    <!-- <par n="red']"/> -->
-['n', 'red']
-    <!-- <par n="s - Wikipedia bahasa Indonesia']"/> -->
-['Versus - Wikipedia bahasa Indonesia']
     <!-- <par n="sana__prn"/> -->
     <e lm="sana"><i>sana</i><par n="sana__prn"/></e>
     <e lm="sini"><i>sini</i><par n="sana__prn"/></e>
@@ -16998,13 +16360,6 @@
     <e lm="aku"><i>aku</i><par n="saya__prn"/></e>
     <e lm="daku"><i>daku</i><par n="saya__prn"/></e>
     <e lm="saya"><i>saya</i><par n="saya__prn"/></e>
-    <!-- <par n="se', 'an']"/> -->
-['n', 'se', 'an']
-    <!-- <par n="se', 'nya']"/> -->
-['n', 'se', 'nya']
-    <!-- <par n="se']"/> -->
-['2', 'se']
-['n', 'se']
     <!-- <par n="sebaik__adj"/> -->
     <e lm="baik"><p><l>sebaik</l><r>baik</r></p><par n="sebaik__adj"/></e>
     <e lm="banyak"><p><l>sebanyak</l><r>banyak</r></p><par n="sebaik__adj"/></e>
@@ -17172,12 +16527,6 @@
     <e lm="siapa saja"><i>siapa<b/>saja</i><par n="seseorang__prn"/></e>
     <e lm="siapa-siapa"><i>siapa-siapa</i><par n="seseorang__prn"/></e>
     <e lm="siapapun"><i>siapapun</i><par n="seseorang__prn"/></e>
-    <!-- <par n="ter', 'nya']"/> -->
-['n', 'ter', 'nya']
-    <!-- <par n="ter', 'per']"/> -->
-['n', 'ter', 'per']
-    <!-- <par n="ter']"/> -->
-['n', 'ter']
     <!-- <par n="terbaik__adj"/> -->
     <e lm="asing"><p><l>terasing</l><r>asing</r></p><par n="terbaik__adj"/></e>
     <e lm="baik"><p><l>terbaik</l><r>baik</r></p><par n="terbaik__adj"/></e>
@@ -17455,24 +16804,6 @@
     <e lm="ulang"><p><l>terulang</l><r>ulang</r></p><par n="tertidur__vblex"/></e>
     <e lm="ungkap"><p><l>terungkap</l><r>ungkap</r></p><par n="tertidur__vblex"/></e>
     <e lm="usir"><p><l>terusir</l><r>usir</r></p><par n="tertidur__vblex"/></e>
-    <!-- <par n="um - Wikipedia bahasa Indonesia']"/> -->
-['Natrium - Wikipedia bahasa Indonesia']
-    <!-- <par n="unk', 'an']"/> -->
-['n', 'unk', 'an']
-    <!-- <par n="unk', 'i']"/> -->
-['n', 'unk', 'i']
-    <!-- <par n="unk', 'kan', 'nya']"/> -->
-['n', 'unk', 'kan', 'nya']
-    <!-- <par n="unk', 'kan']"/> -->
-['n', 'unk', 'kan']
-    <!-- <par n="unk', 'nya']"/> -->
-['n', 'unk', 'nya']
-    <!-- <par n="unk', 'unk', 'red']"/> -->
-['n', 'unk', 'unk', 'red']
-    <!-- <par n="unk', 'unk']"/> -->
-['n', 'unk', 'unk']
-    <!-- <par n="unk']"/> -->
-['n', 'unk']
     <!-- <par n="yang__rel"/> -->
     <e lm="yang"><i>yang</i><par n="yang__rel"/></e>
   </section>
