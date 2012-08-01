@@ -363,11 +363,27 @@
       </p>
     </e>
     </pardef>
+    <pardef n="berkekalannya__adj">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="actio"/><s n="ber-an"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="berkeadilan__adj">
     <e>
       <p>
         <l></l>
         <r><s n="adj"/><s n="actio"/><s n="ber"/><s n="ke-an"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="berbahagianya__adj">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="actio"/><s n="ber"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -559,7 +575,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="ber"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="ber"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -567,7 +583,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="ber"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="ber"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -587,23 +603,23 @@
       </p>
     </e>
     </pardef>
-    <pardef n="kepemudaan-kepemudaan__adj">
+    <pardef n="kepengecutan-kepengecutan__adj">
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="peN"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="peN"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
-    <pardef n="kepemudaan-kepemudaannya__adj">
+    <pardef n="kepengecutan-kepengecutannya__adj">
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="peN"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="peN"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
-    <pardef n="kepemudaan__adj">
+    <pardef n="kepengecutan__adj">
     <e>
       <p>
         <l></l>
@@ -611,7 +627,7 @@
       </p>
     </e>
     </pardef>
-    <pardef n="kepemudaannya__adj">
+    <pardef n="kepengecutannya__adj">
     <e>
       <p>
         <l></l>
@@ -623,7 +639,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -631,7 +647,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -639,7 +655,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="se"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="se"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -647,7 +663,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="se"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="se"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -687,7 +703,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="ter"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="ter"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -695,7 +711,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="ter"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="ke-an"/><s n="ter"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -719,7 +735,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="pe-an"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="pe-an"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -727,7 +743,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="pe-an"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="pe-an"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -751,7 +767,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="pe"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="pe"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -759,7 +775,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="pe"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="pe"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -783,7 +799,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="peN-an"/><s n="per"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="peN-an"/><s n="per"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -791,7 +807,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="peN-an"/><s n="per"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="peN-an"/><s n="per"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -815,7 +831,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="peN-an"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="peN-an"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -823,7 +839,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="peN-an"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="peN-an"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -847,7 +863,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="peN"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="peN"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -855,7 +871,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="peN"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="peN"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -879,7 +895,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="per-an"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="per-an"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -887,7 +903,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="per-an"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="per-an"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -911,7 +927,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="per"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="per"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -919,7 +935,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="per"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="per"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -943,7 +959,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adj"/><s n="subst"/><s n="san"/><s n="pl"/></r>
+        <r><s n="adj"/><s n="subst"/><s n="san"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1023,7 +1039,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adv"/><s n="subst"/><s n="ke-an"/><s n="pl"/></r>
+        <r><s n="adv"/><s n="subst"/><s n="ke-an"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1031,7 +1047,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="adv"/><s n="subst"/><s n="ke-an"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="adv"/><s n="subst"/><s n="ke-an"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1256,6 +1272,22 @@
       <p>
         <l></l>
         <r><s n="n"/><s n="actio"/><s n="actv"/><s n="si"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="menertawakan__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="actio"/><s n="actv"/><s n="ter"/><s n="kan"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="menertawakannya__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="actio"/><s n="actv"/><s n="ter"/><s n="kan"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1511,7 +1543,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="ke-an"/><s n="ber"/><s n="pl"/></r>
+        <r><s n="n"/><s n="ke-an"/><s n="ber"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1519,7 +1551,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="ke-an"/><s n="ber"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="ke-an"/><s n="ber"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1543,7 +1575,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="ke-an"/><s n="peN"/><s n="pl"/></r>
+        <r><s n="n"/><s n="ke-an"/><s n="peN"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1551,7 +1583,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="ke-an"/><s n="peN"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="ke-an"/><s n="peN"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1575,7 +1607,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="ke-an"/><s n="pl"/></r>
+        <r><s n="n"/><s n="ke-an"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1583,7 +1615,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="ke-an"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="ke-an"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1607,7 +1639,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="ke-an"/><s n="ter"/><s n="pl"/></r>
+        <r><s n="n"/><s n="ke-an"/><s n="ter"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1615,7 +1647,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="ke-an"/><s n="ter"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="ke-an"/><s n="ter"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1639,7 +1671,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="pe-an"/><s n="pl"/></r>
+        <r><s n="n"/><s n="pe-an"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1647,7 +1679,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="pe-an"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="pe-an"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1671,7 +1703,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="pe"/><s n="pl"/></r>
+        <r><s n="n"/><s n="pe"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1679,7 +1711,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="pe"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="pe"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1703,7 +1735,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN-an"/><s n="ber"/><s n="pl"/></r>
+        <r><s n="n"/><s n="peN-an"/><s n="ber"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1711,7 +1743,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN-an"/><s n="ber"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="peN-an"/><s n="ber"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1735,7 +1767,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN-an"/><s n="per"/><s n="pl"/></r>
+        <r><s n="n"/><s n="peN-an"/><s n="per"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1743,7 +1775,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN-an"/><s n="per"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="peN-an"/><s n="per"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1767,7 +1799,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN-an"/><s n="pl"/></r>
+        <r><s n="n"/><s n="peN-an"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1775,7 +1807,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN-an"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="peN-an"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1799,7 +1831,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN-an"/><s n="ter"/><s n="pl"/></r>
+        <r><s n="n"/><s n="peN-an"/><s n="ter"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1807,7 +1839,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN-an"/><s n="ter"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="peN-an"/><s n="ter"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1831,7 +1863,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN"/><s n="ber"/><s n="pl"/></r>
+        <r><s n="n"/><s n="peN"/><s n="ber"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1839,7 +1871,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN"/><s n="ber"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="peN"/><s n="ber"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1863,7 +1895,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN"/><s n="per"/><s n="pl"/></r>
+        <r><s n="n"/><s n="peN"/><s n="per"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1871,7 +1903,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN"/><s n="per"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="peN"/><s n="per"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1895,7 +1927,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN"/><s n="pl"/></r>
+        <r><s n="n"/><s n="peN"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1903,7 +1935,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="peN"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1911,7 +1943,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN"/><s n="se"/><s n="pl"/></r>
+        <r><s n="n"/><s n="peN"/><s n="se"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1919,7 +1951,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="peN"/><s n="se"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="peN"/><s n="se"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1959,7 +1991,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="per-an"/><s n="pl"/></r>
+        <r><s n="n"/><s n="per-an"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1967,7 +1999,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="per-an"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="per-an"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -1991,7 +2023,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="per"/><s n="pl"/></r>
+        <r><s n="n"/><s n="per"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -1999,7 +2031,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="per"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="per"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2023,7 +2055,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="pl"/></r>
+        <r><s n="n"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2031,7 +2063,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2039,7 +2071,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="san"/><s n="pl"/></r>
+        <r><s n="n"/><s n="san"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2047,7 +2079,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="n"/><s n="san"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="n"/><s n="san"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2183,7 +2215,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="prn"/><s n="p1"/><s n="pl"/></r>
+        <r><s n="prn"/><s n="p1"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2199,7 +2231,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="prn"/><s n="p2"/><s n="pl"/></r>
+        <r><s n="prn"/><s n="p2"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2215,7 +2247,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="prn"/><s n="p3"/><s n="pl"/></r>
+        <r><s n="prn"/><s n="p3"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2377,6 +2409,14 @@
       </p>
     </e>
     </pardef>
+    <pardef n="berhubungannya__vblex">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="vblex"/><s n="ber-an"/><s n="nya"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="berkewajiban__vblex">
     <e>
       <p>
@@ -2517,7 +2557,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="ber"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="ber"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2525,7 +2565,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="ber"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="ber"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2549,7 +2589,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="pe"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="pe"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2557,7 +2597,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="pe"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="pe"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2581,7 +2621,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="peN"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="peN"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2589,7 +2629,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="peN"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="peN"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2613,7 +2653,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2621,7 +2661,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2645,7 +2685,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="ter"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="ter"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2653,7 +2693,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="ter"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="ter"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2677,7 +2717,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="pe-an"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="pe-an"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2685,7 +2725,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="pe-an"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="pe-an"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2709,7 +2749,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="pe"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="pe"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2717,7 +2757,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="pe"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="pe"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2741,7 +2781,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2749,7 +2789,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2773,7 +2813,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="peN"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="peN"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2781,7 +2821,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="peN"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="peN"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2805,7 +2845,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="per-an"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="per-an"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2813,7 +2853,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="per-an"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="per-an"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2837,7 +2877,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="per"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="per"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2845,7 +2885,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="per"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="per"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -2869,7 +2909,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="san"/><s n="pl"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="san"/><s n="red"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -2877,7 +2917,7 @@
     <e>
       <p>
         <l></l>
-        <r><s n="vblex"/><s n="subst"/><s n="san"/><s n="pl"/><s n="nya"/></r>
+        <r><s n="vblex"/><s n="subst"/><s n="san"/><s n="red"/><s n="pl"/><s n="nya"/></r>
       </p>
     </e>
     </pardef>
@@ -3029,20 +3069,10 @@
     <!-- <par n="akhiran-akhiran__n"/> -->
     <e lm="ajar"><p><l>ajaran-ajaran</l><r>ajar</r></p><par n="akhiran-akhiran__n"/></e>
     <e lm="alas"><p><l>alasan-alasan</l><r>alas</r></p><par n="akhiran-akhiran__n"/></e>
-    <e lm="arak"><p><l>arak-arakan</l><r>arak</r></p><par n="akhiran-akhiran__n"/></e>
-    <e lm="batu"><p><l>batu-batuan</l><r>batu</r></p><par n="akhiran-akhiran__n"/></e>
-    <e lm="biji"><p><l>biji-bijian</l><r>biji</r></p><par n="akhiran-akhiran__n"/></e>
-    <e lm="buah"><p><l>buah-buahan</l><r>buah</r></p><par n="akhiran-akhiran__n"/></e>
     <e lm="gerak"><p><l>gerakan-gerakan</l><r>gerak</r></p><par n="akhiran-akhiran__n"/></e>
-    <e lm="kacang"><p><l>kacang-kacangan</l><r>kacang</r></p><par n="akhiran-akhiran__n"/></e>
     <e lm="lapis"><p><l>lapisan-lapisan</l><r>lapis</r></p><par n="akhiran-akhiran__n"/></e>
-    <e lm="obat"><p><l>obat-obatan</l><r>obat</r></p><par n="akhiran-akhiran__n"/></e>
     <e lm="pandang"><p><l>pandangan-pandangan</l><r>pandang</r></p><par n="akhiran-akhiran__n"/></e>
-    <e lm="polong"><p><l>polong-polongan</l><r>polong</r></p><par n="akhiran-akhiran__n"/></e>
     <e lm="potong"><p><l>potongan-potongan</l><r>potong</r></p><par n="akhiran-akhiran__n"/></e>
-    <e lm="puji"><p><l>puji-pujian</l><r>puji</r></p><par n="akhiran-akhiran__n"/></e>
-    <e lm="sayur"><p><l>sayur-sayuran</l><r>sayur</r></p><par n="akhiran-akhiran__n"/></e>
-    <e lm="tari"><p><l>tari-tarian</l><r>tari</r></p><par n="akhiran-akhiran__n"/></e>
     <e lm="tindak"><p><l>tindakan-tindakan</l><r>tindak</r></p><par n="akhiran-akhiran__n"/></e>
     <e lm="ucap"><p><l>ucapan-ucapan</l><r>ucap</r></p><par n="akhiran-akhiran__n"/></e>
     <!-- <par n="akhiran__n"/> -->
@@ -3678,19 +3708,15 @@
     <e lm="catat"><p><l>catatan-catatan</l><r>catat</r></p><par n="bacaan-bacaan__vblex"/></e>
     <e lm="gagas"><p><l>gagasan-gagasan</l><r>gagas</r></p><par n="bacaan-bacaan__vblex"/></e>
     <e lm="hubung"><p><l>hubungan-hubungan</l><r>hubung</r></p><par n="bacaan-bacaan__vblex"/></e>
-    <e lm="iring"><p><l>iring-iringan</l><r>iring</r></p><par n="bacaan-bacaan__vblex"/></e>
     <e lm="jabat"><p><l>jabatan-jabatan</l><r>jabat</r></p><par n="bacaan-bacaan__vblex"/></e>
-    <e lm="kenang"><p><l>kenang-kenangan</l><r>kenang</r></p><par n="bacaan-bacaan__vblex"/></e>
     <e lm="lapor"><p><l>laporan-laporan</l><r>lapor</r></p><par n="bacaan-bacaan__vblex"/></e>
     <e lm="lukis"><p><l>lukisan-lukisan</l><r>lukis</r></p><par n="bacaan-bacaan__vblex"/></e>
-    <e lm="mati"><p><l>mati-matian</l><r>mati</r></p><par n="bacaan-bacaan__vblex"/></e>
     <e lm="pasuk"><p><l>pasukan-pasukan</l><r>pasuk</r></p><par n="bacaan-bacaan__vblex"/></e>
     <e lm="salur"><p><l>saluran-saluran</l><r>salur</r></p><par n="bacaan-bacaan__vblex"/></e>
     <e lm="serang"><p><l>serangan-serangan</l><r>serang</r></p><par n="bacaan-bacaan__vblex"/></e>
     <e lm="tuduh"><p><l>tuduhan-tuduhan</l><r>tuduh</r></p><par n="bacaan-bacaan__vblex"/></e>
     <e lm="tuju"><p><l>tujuan-tujuan</l><r>tuju</r></p><par n="bacaan-bacaan__vblex"/></e>
     <e lm="tulis"><p><l>tulisan-tulisan</l><r>tulis</r></p><par n="bacaan-bacaan__vblex"/></e>
-    <e lm="tumbuh"><p><l>tumbuh-tumbuhan</l><r>tumbuh</r></p><par n="bacaan-bacaan__vblex"/></e>
     <e lm="urus"><p><l>urusan-urusan</l><r>urus</r></p><par n="bacaan-bacaan__vblex"/></e>
     <!-- <par n="bacaan-bacaannya__vblex"/> -->
     <e lm="tulis"><p><l>tulisan-tulisannya</l><r>tulis</r></p><par n="bacaan-bacaannya__vblex"/></e>
@@ -5605,6 +5631,8 @@
     <e lm="serat"><p><l>berserat</l><r>serat</r></p><par n="berbahagia__adj"/></e>
     <e lm="tahan"><p><l>bertahan</l><r>tahan</r></p><par n="berbahagia__adj"/></e>
     <e lm="tualang"><p><l>bertualang</l><r>tualang</r></p><par n="berbahagia__adj"/></e>
+    <!-- <par n="berbahagianya__adj"/> -->
+    <e lm="sama"><p><l>bersamanya</l><r>sama</r></p><par n="berbahagianya__adj"/></e>
     <!-- <par n="berbicara__vblex"/> -->
     <e lm="ada"><p><l>berada</l><r>ada</r></p><par n="berbicara__vblex"/></e>
     <e lm="adu"><p><l>beradu</l><r>adu</r></p><par n="berbicara__vblex"/></e>
@@ -5788,11 +5816,6 @@
     <e lm="daya"><p><l>pemberdayaan</l><r>daya</r></p><par n="berpengalaman__n"/></e>
     <e lm="henti"><p><l>pemberhentian</l><r>henti</r></p><par n="berpengalaman__n"/></e>
     <e lm="laku"><p><l>pemberlakuan</l><r>laku</r></p><par n="berpengalaman__n"/></e>
-    <!-- <par n="besaran-besaran__adj"/> -->
-    <e lm="besar"><p><l>besar-besaran</l><r>besar</r></p><par n="besaran-besaran__adj"/></e>
-    <e lm="kecil"><p><l>kecil-kecilan</l><r>kecil</r></p><par n="besaran-besaran__adj"/></e>
-    <e lm="sakit"><p><l>sakit-sakitan</l><r>sakit</r></p><par n="besaran-besaran__adj"/></e>
-    <e lm="terang"><p><l>terang-terangan</l><r>terang</r></p><par n="besaran-besaran__adj"/></e>
     <!-- <par n="besaran__adj"/> -->
     <e lm="andal"><p><l>andalan</l><r>andal</r></p><par n="besaran__adj"/></e>
     <e lm="berantak"><p><l>berantakan</l><r>berantak</r></p><par n="besaran__adj"/></e>
