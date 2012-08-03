@@ -14,6 +14,7 @@
 /buscaPar.xsl -text
 /configure.ac -text
 dev/README -text
+dev/bidix/bidix.id-ms.txt -text
 dev/id.coverage-summary.txt -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
