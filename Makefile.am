@@ -15,33 +15,23 @@ TARGETS_COMMON = $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 
 # Indonesian transducer
 	
-.deps/$(LANG1).dix:
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	xsltproc buscaPar.xsl $(BASENAME).$(LANG1).metadix | uniq >$$$$tmp1 && \
-	xsltproc $$$$tmp1 $(BASENAME).$(LANG1).metadix > $@ && rm $$$$tmp1
-	
-$(PREFIX1).automorf.bin: .deps/$(LANG1).dix
-	apertium-validate-dictionary .deps/$(LANG1).dix
-	lt-comp lr .deps/$(LANG1).dix $@
+$(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
+	lt-comp lr $(BASENAME).$(LANG1).dix $@
 
-$(PREFIX2).autogen.bin: .deps/$(LANG1).dix
-	apertium-validate-dictionary .deps/$(LANG1).dix
-	lt-comp rl .deps/$(LANG1).dix $@
+$(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
+	lt-comp rl $(BASENAME).$(LANG1).dix $@
 
 # Malaysian transducer
 
-.deps/$(LANG2).dix:
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	xsltproc buscaPar.xsl $(BASENAME).$(LANG2).metadix | uniq >$$$$tmp1 && \
-	xsltproc $$$$tmp1 $(BASENAME).$(LANG2).metadix > $@ && rm $$$$tmp1
+$(PREFIX2).automorf.bin: $(BASENAME).$(LANG2).dix
+	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
+	lt-comp lr $(BASENAME).$(LANG2).dix $@
 
-$(PREFIX2).automorf.bin: .deps/$(LANG2).dix
-	apertium-validate-dictionary .deps/$(LANG2).dix
-	lt-comp lr .deps/$(LANG2).dix $@
-
-$(PREFIX1).autogen.bin: .deps/$(LANG2).dix
-	apertium-validate-dictionary .deps/$(LANG2).dix
-	lt-comp rl .deps/$(LANG2).dix $@
+$(PREFIX1).autogen.bin: $(BASENAME).$(LANG2).dix
+	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
+	lt-comp rl $(BASENAME).$(LANG2).dix $@
 	
 # Bilingual dictionaries
 
@@ -111,4 +101,4 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_id_msdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_id_msdir)
 
-CLEANFILES = -r $(TARGETS_COMMON) .deps/
+CLEANFILES = -r $(TARGETS_COMMON)

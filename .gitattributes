@@ -7,11 +7,10 @@
 /README -text
 /apertium-id-ms.id-ms.dix -text
 /apertium-id-ms.id-ms.t1x -text
-/apertium-id-ms.id.metadix -text
+/apertium-id-ms.id.dix -text
 /apertium-id-ms.ms-id.t1x -text
-/apertium-id-ms.ms.metadix -text
+/apertium-id-ms.ms.dix -text
 /autogen.sh -text
-/buscaPar.xsl -text
 /configure.ac -text
 dev/README -text
 dev/bidix/bidix.id-ms.txt -text
