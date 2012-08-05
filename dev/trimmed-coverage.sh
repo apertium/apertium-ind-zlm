@@ -12,7 +12,7 @@ SED=gsed
 # This file is kept even after the script is ended:
 needed=/tmp/corpus-stat-all-needed.txt
 
-covgoal="70" # percent goal we aim for this week
+covgoal="80" # percent goal we aim for this week
 
 
 cd "$(dirname $0)"
