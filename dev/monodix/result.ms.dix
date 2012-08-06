@@ -2991,9 +2991,7 @@
     <e lm="Vatican"><i>Vatican</i><par n="Indonesia__np"/></e>
     <e lm="Yunani"><i>Yunani</i><par n="Indonesia__np"/></e>
     <e lm="british"><i>british</i><par n="Indonesia__np"/></e>
-    <e lm="fandy"><i>fandy</i><par n="Indonesia__np"/></e>
     <e lm="france"><i>france</i><par n="Indonesia__np"/></e>
-    <e lm="jesus"><i>jesus</i><par n="Indonesia__np"/></e>
     <!-- <par n="Maria__np"/> -->
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
     <e lm="Mary"><i>Mary</i><par n="Maria__np"/></e>
@@ -5091,6 +5089,7 @@
     <e lm="peka"><i>peka</i><par n="baik__adj"/></e>
     <e lm="pekat"><i>pekat</i><par n="baik__adj"/></e>
     <e lm="pelan"><i>pelan</i><par n="baik__adj"/></e>
+    <e lm="pelbagai"><i>pelbagai</i><par n="baik__adj"/></e>
     <e lm="pelik"><i>pelik</i><par n="baik__adj"/></e>
     <e lm="peluh"><i>peluh</i><par n="baik__adj"/></e>
     <e lm="pembolehubah"><i>pembolehubah</i><par n="baik__adj"/></e>
@@ -5975,7 +5974,6 @@
     <e lm="ji"><i>ji</i><par n="dua__num"/></e>
     <e lm="lapan"><i>lapan</i><par n="dua__num"/></e>
     <e lm="lima"><i>lima</i><par n="dua__num"/></e>
-    <e lm="pelbagai"><i>pelbagai</i><par n="dua__num"/></e>
     <e lm="per"><i>per</i><par n="dua__num"/></e>
     <e lm="perdua"><i>perdua</i><par n="dua__num"/></e>
     <e lm="perempat"><i>perempat</i><par n="dua__num"/></e>

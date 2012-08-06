@@ -4868,6 +4868,7 @@
     <e lm="peka"><i>peka</i><par n="baik__adj"/></e>
     <e lm="pekat"><i>pekat</i><par n="baik__adj"/></e>
     <e lm="pelan"><i>pelan</i><par n="baik__adj"/></e>
+    <e lm="pelbagai"><i>pelbagai</i><par n="baik__adj"/></e>
     <e lm="pelik"><i>pelik</i><par n="baik__adj"/></e>
     <e lm="pelit"><i>pelit</i><par n="baik__adj"/></e>
     <e lm="penasaran"><i>penasaran</i><par n="baik__adj"/></e>
@@ -5976,7 +5977,6 @@
     <e lm="lima"><i>lima</i><par n="dua__num"/></e>
     <e lm="miliar"><i>miliar</i><par n="dua__num"/></e>
     <e lm="nol"><i>nol</i><par n="dua__num"/></e>
-    <e lm="pelbagai"><i>pelbagai</i><par n="dua__num"/></e>
     <e lm="per"><i>per</i><par n="dua__num"/></e>
     <e lm="perdelapan"><i>perdelapan</i><par n="dua__num"/></e>
     <e lm="perdua"><i>perdua</i><par n="dua__num"/></e>
