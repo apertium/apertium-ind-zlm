@@ -100,15 +100,42 @@
   </sdefs>
 
   <section id="main" type="standard">
-    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
-    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
-    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
-    <e><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
-    <e><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
-    <e><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
-    <e><p><l><s n="num"/><s n="percent"/></l><r><s n="num"/><s n="percent"/></r></p></e>
-    <e><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
-    <e><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><p><l>akan<b/>tetapi<s n="cnjcoo"/></l><r>akan<b/>tetapi<s n="cnjcoo"/></r></p></e>
+    <e><p><l>biarpun<b/>demikian<s n="cnjadv"/></l><r>biarpun<b/>demikian<s n="cnjadv"/></r></p></e>
+    <e><p><l>bila<s n="cnjsub"/></l><r>bila<s n="cnjsub"/></r></p></e>
+    <e><p><l>bilamana<s n="cnjsub"/></l><r>bilamana<s n="cnjsub"/></r></p></e>
+    <e><p><l>ini<s n="det"/><s n="dem"/></l><r>ini<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>itu<s n="det"/><s n="dem"/></l><r>itu<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>karena<s n="cnjsub"/></l><r>kerana<s n="cnjsub"/></r></p></e>
+    <e r="RL"><p><l>ketika<s n="cnjsub"/></l><r>apabila<s n="cnjsub"/></r></p></e>
+    <e r="RL"><p><l>maka<b/>dari<b/>itu<s n="cnjadv"/></l><r>maka<b/>dari<b/>itu<s n="cnjadv"/></r></p></e>
+    <e><p><l>maka<b/>dari<b/>itu<s n="cnjadv"/></l><r>maka<b/>itu<s n="cnjadv"/></r></p></e>
+    <e><p><l>meskipun<b/>demikian<s n="cnjadv"/></l><r>meskipun<b/>demikian<s n="cnjadv"/></r></p></e>
+    <e><p><l>namun<b/>demikian<s n="cnjadv"/></l><r>namun<b/>demikian<s n="cnjadv"/></r></p></e>
+    <e><p><l>oleh<b/>karena<b/>itu<s n="cnjadv"/></l><r>oleh<b/>itu<s n="cnjadv"/></r></p></e>
+    <e><p><l>oleh<b/>karena<s n="cnjsub"/></l><r>oleh<b/>kerana<s n="cnjsub"/></r></p></e>
+    <e r="RL"><p><l>oleh<b/>karena<s n="pr"/></l><r>dari<b/>kerana<s n="pr"/></r></p></e>
+    <e><p><l>oleh<b/>karena<s n="pr"/></l><r>oleh<b/>kerana<s n="pr"/></r></p></e>
+    <e><p><l>oleh<b/>sebab<b/>itu<s n="cnjadv"/></l><r>oleh<b/>sebab<b/>itu<s n="cnjadv"/></r></p></e>
+    <e r="RL"><p><l>oleh<b/>sebab<b/>itu<s n="cnjadv"/></l><r>sebab<b/>itu<s n="cnjadv"/></r></p></e>
+    <e><p><l>oleh<b/>sebab<s n="cnjsub"/></l><r>oleh<b/>sebab<s n="cnjsub"/></r></p></e>
+    <e><p><l>sampai<b/>jumpa<s n="ij"/></l><r>sampai<b/>jumpa<s n="ij"/></r></p></e>
+    <e><p><l>sampai<s n="cnjsub"/></l><r>sampai<s n="cnjsub"/></r></p></e>
+    <e><p><l>sebelum<s n="cnjsub"/></l><r>sebelum<s n="cnjsub"/></r></p></e>
+    <e><p><l>sehabis<s n="cnjsub"/></l><r>sehabis<s n="cnjsub"/></r></p></e>
+    <e><p><l>selamat<b/>datang<s n="ij"/></l><r>selamat<b/>datang<s n="ij"/></r></p></e>
+    <e><p><l>selamat<b/>jalan<s n="ij"/></l><r>selamat<b/>jalan<s n="ij"/></r></p></e>
+    <e><p><l>selamat<b/>malam<s n="ij"/></l><r>selamat<b/>malam<s n="ij"/></r></p></e>
+    <e><p><l>selamat<b/>pagi<s n="ij"/></l><r>selamat<b/>pagi<s n="ij"/></r></p></e>
+    <e><p><l>selamat<b/>sore<s n="ij"/></l><r>selamat<b/>petang<s n="ij"/></r></p></e>
+    <e><p><l>setelah<s n="cnjsub"/></l><r>selepas<s n="cnjsub"/></r></p></e>
+    <e><p><l>sesudah<s n="cnjsub"/></l><r>sesudah<s n="cnjsub"/></r></p></e>
+    <e><p><l>supaya<b/>jangan<s n="cnjsub"/></l><r>supaya<b/>jangan<s n="cnjsub"/></r></p></e>
+    <e><p><l>tanpa<s n="cnjsub"/></l><r>tanpa<s n="cnjsub"/></r></p></e>
+    <e><p><l>terima<b/>kasih<s n="ij"/></l><r>terima<b/>kasih<s n="ij"/></r></p></e>
+    <e><p><l>walaupun<b/>demikian<s n="cnjadv"/></l><r>walaupun<b/>demikian<s n="cnjadv"/></r></p></e>
+
+  
     <e><p><l>ab<s n="n"/></l><r>ab<s n="n"/></r></p></e>
     <e><p><l>aba<s n="n"/></l><r>aba<s n="n"/></r></p></e>
     <e><p><l>abad<s n="n"/></l><r>abad<s n="n"/></r></p></e>
@@ -848,7 +875,7 @@
     <e><p><l>ayam<s n="n"/></l><r>ayam<s n="n"/></r></p></e>
     <e><p><l>ayat<s n="n"/></l><r>ayat<s n="n"/></r></p></e>
     <e><p><l>ayo<s n="ij"/></l><r>ayo<s n="ij"/></r></p></e>
-    <e><p><l>ayo<s n="ij"/></l><r>ayuh<s n="ij"/></r></p></e>
+    <e r="RL"><p><l>ayo<s n="ij"/></l><r>ayuh<s n="ij"/></r></p></e>
     <e><p><l>ayu<s n="adj"/></l><r>ayu<s n="adj"/></r></p></e>
     <e><p><l>ayun<s n="n"/></l><r>ayun<s n="n"/></r></p></e>
     <e><p><l>ayun<s n="n"/><s n="actio"/><s n="ber"/></l><r>ayun<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>

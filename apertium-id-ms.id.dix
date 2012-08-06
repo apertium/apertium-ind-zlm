@@ -3014,8 +3014,6 @@
     <e lm="ah"><i>ah</i><par n="aduh__ij"/></e>
     <e lm="alamak"><i>alamak</i><par n="aduh__ij"/></e>
     <e lm="alhamdulillah"><i>alhamdulillah</i><par n="aduh__ij"/></e>
-    <e lm="amboi"><i>amboi</i><par n="aduh__ij"/></e>
-    <e lm="astaga"><i>astaga</i><par n="aduh__ij"/></e>
     <e lm="ayo"><i>ayo</i><par n="aduh__ij"/></e>
     <e lm="cih"><i>cih</i><par n="aduh__ij"/></e>
     <e lm="cis"><i>cis</i><par n="aduh__ij"/></e>
@@ -3025,13 +3023,10 @@
     <e lm="ha"><i>ha</i><par n="aduh__ij"/></e>
     <e lm="hai"><i>hai</i><par n="aduh__ij"/></e>
     <e lm="halo"><i>halo</i><par n="aduh__ij"/></e>
-    <e lm="hayo"><i>hayo</i><par n="aduh__ij"/></e>
     <e lm="hoi"><i>hoi</i><par n="aduh__ij"/></e>
-    <e lm="horas"><i>horas</i><par n="aduh__ij"/></e>
     <e lm="hore"><i>hore</i><par n="aduh__ij"/></e>
     <e lm="huh"><i>huh</i><par n="aduh__ij"/></e>
     <e lm="hus"><i>hus</i><par n="aduh__ij"/></e>
-    <e lm="lho"><i>lho</i><par n="aduh__ij"/></e>
     <e lm="maaf"><i>maaf</i><par n="aduh__ij"/></e>
     <e lm="nah"><i>nah</i><par n="aduh__ij"/></e>
     <e lm="oh"><i>oh</i><par n="aduh__ij"/></e>
@@ -3044,10 +3039,8 @@
     <e lm="selamat sore"><i>selamat<b/>sore</i><par n="aduh__ij"/></e>
     <e lm="terima kasih"><i>terima<b/>kasih</i><par n="aduh__ij"/></e>
     <e lm="uh"><i>uh</i><par n="aduh__ij"/></e>
-    <e lm="waduh"><i>waduh</i><par n="aduh__ij"/></e>
     <e lm="wah"><i>wah</i><par n="aduh__ij"/></e>
     <e lm="wahai"><i>wahai</i><par n="aduh__ij"/></e>
-    <e lm="walah"><i>walah</i><par n="aduh__ij"/></e>
     <e lm="weh"><i>weh</i><par n="aduh__ij"/></e>
     <!-- <par n="akhiran-akhiran__n"/> -->
     <e lm="ajar"><p><l>ajaran-ajaran</l><r>ajar</r></p><par n="akhiran-akhiran__n"/></e>
@@ -3337,6 +3330,7 @@
     <e lm="beri"><i>beri</i><par n="baca__vblex"/></e>
     <e lm="beristirahat"><i>beristirahat</i><par n="baca__vblex"/></e>
     <e lm="berontak"><i>berontak</i><par n="baca__vblex"/></e>
+    <e lm="bersin"><i>bersin</i><par n="baca__vblex"/></e>
     <e lm="bertapak"><i>bertapak</i><par n="baca__vblex"/></e>
     <e lm="besut"><i>besut</i><par n="baca__vblex"/></e>
     <e lm="biak"><i>biak</i><par n="baca__vblex"/></e>
@@ -4875,6 +4869,7 @@
     <e lm="pekat"><i>pekat</i><par n="baik__adj"/></e>
     <e lm="pelan"><i>pelan</i><par n="baik__adj"/></e>
     <e lm="pelik"><i>pelik</i><par n="baik__adj"/></e>
+    <e lm="pelit"><i>pelit</i><par n="baik__adj"/></e>
     <e lm="penasaran"><i>penasaran</i><par n="baik__adj"/></e>
     <e lm="pendek"><i>pendek</i><par n="baik__adj"/></e>
     <e lm="penting"><i>penting</i><par n="baik__adj"/></e>
@@ -5254,6 +5249,7 @@
     <e lm="argumen"><p><l>berargumen</l><r>argumen</r></p><par n="beragama__n"/></e>
     <e lm="arti"><p><l>berarti</l><r>arti</r></p><par n="beragama__n"/></e>
     <e lm="asal"><p><l>berasal</l><r>asal</r></p><par n="beragama__n"/></e>
+    <e lm="asas"><p><l>berasas</l><r>asas</r></p><par n="beragama__n"/></e>
     <e lm="asimilasi"><p><l>berasimilasi</l><r>asimilasi</r></p><par n="beragama__n"/></e>
     <e lm="asosiasi"><p><l>berasosiasi</l><r>asosiasi</r></p><par n="beragama__n"/></e>
     <e lm="aspal"><p><l>beraspal</l><r>aspal</r></p><par n="beragama__n"/></e>
@@ -5799,6 +5795,7 @@
     <e lm="sahaja"><p><l>bersahaja</l><r>sahaja</r></p><par n="berlangsung__adv"/></e>
     <!-- <par n="berorientasikan__n"/> -->
     <e lm="anggota"><p><l>beranggotakan</l><r>anggota</r></p><par n="berorientasikan__n"/></e>
+    <e lm="asas"><p><l>berasaskan</l><r>asas</r></p><par n="berorientasikan__n"/></e>
     <e lm="basis"><p><l>berbasiskan</l><r>basis</r></p><par n="berorientasikan__n"/></e>
     <e lm="ciri"><p><l>bercirikan</l><r>ciri</r></p><par n="berorientasikan__n"/></e>
     <e lm="dasar"><p><l>berdasarkan</l><r>dasar</r></p><par n="berorientasikan__n"/></e>
@@ -8852,6 +8849,7 @@
     <e lm="komedian"><i>komedian</i><par n="kata__n"/></e>
     <e lm="komentar"><i>komentar</i><par n="kata__n"/></e>
     <e lm="komentator"><i>komentator</i><par n="kata__n"/></e>
+    <e lm="komersialisasi"><i>komersialisasi</i><par n="kata__n"/></e>
     <e lm="komet"><i>komet</i><par n="kata__n"/></e>
     <e lm="komik"><i>komik</i><par n="kata__n"/></e>
     <e lm="komikus"><i>komikus</i><par n="kata__n"/></e>
@@ -10673,6 +10671,7 @@
     <e lm="ring"><i>ring</i><par n="kata__n"/></e>
     <e lm="ringgit"><i>ringgit</i><par n="kata__n"/></e>
     <e lm="rini"><i>rini</i><par n="kata__n"/></e>
+    <e lm="rinitis"><i>rinitis</i><par n="kata__n"/></e>
     <e lm="risa"><i>risa</i><par n="kata__n"/></e>
     <e lm="risalah"><i>risalah</i><par n="kata__n"/></e>
     <e lm="riset"><i>riset</i><par n="kata__n"/></e>
@@ -11094,6 +11093,7 @@
     <e lm="soba"><i>soba</i><par n="kata__n"/></e>
     <e lm="soda"><i>soda</i><par n="kata__n"/></e>
     <e lm="sodium"><i>sodium</i><par n="kata__n"/></e>
+    <e lm="sofitel"><i>sofitel</i><par n="kata__n"/></e>
     <e lm="sok"><i>sok</i><par n="kata__n"/></e>
     <e lm="soket"><i>soket</i><par n="kata__n"/></e>
     <e lm="soko"><i>soko</i><par n="kata__n"/></e>
@@ -12497,6 +12497,7 @@
     <e lm="dingin"><p><l>mendinginkan</l><r>dingin</r></p><par n="mengacakkan__adj"/></e>
     <e lm="galak"><p><l>menggalakkan</l><r>galak</r></p><par n="mengacakkan__adj"/></e>
     <e lm="gembira"><p><l>menggembirakan</l><r>gembira</r></p><par n="mengacakkan__adj"/></e>
+    <e lm="gempar"><p><l>menggemparkan</l><r>gempar</r></p><par n="mengacakkan__adj"/></e>
     <e lm="hangat"><p><l>menghangatkan</l><r>hangat</r></p><par n="mengacakkan__adj"/></e>
     <e lm="haram"><p><l>mengharamkan</l><r>haram</r></p><par n="mengacakkan__adj"/></e>
     <e lm="harum"><p><l>mengharumkan</l><r>harum</r></p><par n="mengacakkan__adj"/></e>
@@ -13104,6 +13105,7 @@
     <e lm="guna"><p><l>menggunakannya</l><r>guna</r></p><par n="mengajarkannya__n"/></e>
     <e lm="henti"><p><l>menghentikannya</l><r>henti</r></p><par n="mengajarkannya__n"/></e>
     <e lm="izin"><p><l>mengizinkannya</l><r>izin</r></p><par n="mengajarkannya__n"/></e>
+    <e lm="kata"><p><l>mengatakannya</l><r>kata</r></p><par n="mengajarkannya__n"/></e>
     <e lm="laksana"><p><l>melaksanakannya</l><r>laksana</r></p><par n="mengajarkannya__n"/></e>
     <e lm="laku"><p><l>melakukannya</l><r>laku</r></p><par n="mengajarkannya__n"/></e>
     <e lm="letak"><p><l>meletakkannya</l><r>letak</r></p><par n="mengajarkannya__n"/></e>
@@ -14990,19 +14992,10 @@
     <e lm="tebal"><p><l>setebal</l><r>tebal</r></p><par n="sebaik__adj"/></e>
     <e lm="tiap"><p><l>setiap</l><r>tiap</r></p><par n="sebaik__adj"/></e>
     <!-- <par n="sebuah__det"/> -->
-    <e lm="delapan"><p><l>kedelapan</l><r>delapan</r></p><par n="sebuah__det"/></e>
-    <e lm="dua"><p><l>kedua</l><r>dua</r></p><par n="sebuah__det"/></e>
-    <e lm="empat"><p><l>keempat</l><r>empat</r></p><par n="sebuah__det"/></e>
-    <e lm="enam"><p><l>keenam</l><r>enam</r></p><par n="sebuah__det"/></e>
-    <e lm="lima"><p><l>kelima</l><r>lima</r></p><par n="sebuah__det"/></e>
     <e lm="sebuah"><i>sebuah</i><par n="sebuah__det"/></e>
     <e lm="seekor"><i>seekor</i><par n="sebuah__det"/></e>
-    <e lm="sembilan"><p><l>kesembilan</l><r>sembilan</r></p><par n="sebuah__det"/></e>
     <e lm="seorang"><i>seorang</i><par n="sebuah__det"/></e>
-    <e lm="sepuluh"><p><l>kesepuluh</l><r>sepuluh</r></p><par n="sebuah__det"/></e>
     <e lm="suatu"><i>suatu</i><par n="sebuah__det"/></e>
-    <e lm="tiga"><p><l>ketiga</l><r>tiga</r></p><par n="sebuah__det"/></e>
-    <e lm="tujuh"><p><l>ketujuh</l><r>tujuh</r></p><par n="sebuah__det"/></e>
     <!-- <par n="sekelas__n"/> -->
     <e lm="arah"><p><l>searah</l><r>arah</r></p><par n="sekelas__n"/></e>
     <e lm="banding"><p><l>sebanding</l><r>banding</r></p><par n="sekelas__n"/></e>

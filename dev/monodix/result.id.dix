@@ -3014,8 +3014,6 @@
     <e lm="ah"><i>ah</i><par n="aduh__ij"/></e>
     <e lm="alamak"><i>alamak</i><par n="aduh__ij"/></e>
     <e lm="alhamdulillah"><i>alhamdulillah</i><par n="aduh__ij"/></e>
-    <e lm="amboi"><i>amboi</i><par n="aduh__ij"/></e>
-    <e lm="astaga"><i>astaga</i><par n="aduh__ij"/></e>
     <e lm="ayo"><i>ayo</i><par n="aduh__ij"/></e>
     <e lm="cih"><i>cih</i><par n="aduh__ij"/></e>
     <e lm="cis"><i>cis</i><par n="aduh__ij"/></e>
@@ -3025,13 +3023,10 @@
     <e lm="ha"><i>ha</i><par n="aduh__ij"/></e>
     <e lm="hai"><i>hai</i><par n="aduh__ij"/></e>
     <e lm="halo"><i>halo</i><par n="aduh__ij"/></e>
-    <e lm="hayo"><i>hayo</i><par n="aduh__ij"/></e>
     <e lm="hoi"><i>hoi</i><par n="aduh__ij"/></e>
-    <e lm="horas"><i>horas</i><par n="aduh__ij"/></e>
     <e lm="hore"><i>hore</i><par n="aduh__ij"/></e>
     <e lm="huh"><i>huh</i><par n="aduh__ij"/></e>
     <e lm="hus"><i>hus</i><par n="aduh__ij"/></e>
-    <e lm="lho"><i>lho</i><par n="aduh__ij"/></e>
     <e lm="maaf"><i>maaf</i><par n="aduh__ij"/></e>
     <e lm="nah"><i>nah</i><par n="aduh__ij"/></e>
     <e lm="oh"><i>oh</i><par n="aduh__ij"/></e>
@@ -3044,10 +3039,8 @@
     <e lm="selamat sore"><i>selamat<b/>sore</i><par n="aduh__ij"/></e>
     <e lm="terima kasih"><i>terima<b/>kasih</i><par n="aduh__ij"/></e>
     <e lm="uh"><i>uh</i><par n="aduh__ij"/></e>
-    <e lm="waduh"><i>waduh</i><par n="aduh__ij"/></e>
     <e lm="wah"><i>wah</i><par n="aduh__ij"/></e>
     <e lm="wahai"><i>wahai</i><par n="aduh__ij"/></e>
-    <e lm="walah"><i>walah</i><par n="aduh__ij"/></e>
     <e lm="weh"><i>weh</i><par n="aduh__ij"/></e>
     <!-- <par n="akhiran-akhiran__n"/> -->
     <e lm="ajar"><p><l>ajaran-ajaran</l><r>ajar</r></p><par n="akhiran-akhiran__n"/></e>
@@ -14999,19 +14992,10 @@
     <e lm="tebal"><p><l>setebal</l><r>tebal</r></p><par n="sebaik__adj"/></e>
     <e lm="tiap"><p><l>setiap</l><r>tiap</r></p><par n="sebaik__adj"/></e>
     <!-- <par n="sebuah__det"/> -->
-    <e lm="delapan"><p><l>kedelapan</l><r>delapan</r></p><par n="sebuah__det"/></e>
-    <e lm="dua"><p><l>kedua</l><r>dua</r></p><par n="sebuah__det"/></e>
-    <e lm="empat"><p><l>keempat</l><r>empat</r></p><par n="sebuah__det"/></e>
-    <e lm="enam"><p><l>keenam</l><r>enam</r></p><par n="sebuah__det"/></e>
-    <e lm="lima"><p><l>kelima</l><r>lima</r></p><par n="sebuah__det"/></e>
     <e lm="sebuah"><i>sebuah</i><par n="sebuah__det"/></e>
     <e lm="seekor"><i>seekor</i><par n="sebuah__det"/></e>
-    <e lm="sembilan"><p><l>kesembilan</l><r>sembilan</r></p><par n="sebuah__det"/></e>
     <e lm="seorang"><i>seorang</i><par n="sebuah__det"/></e>
-    <e lm="sepuluh"><p><l>kesepuluh</l><r>sepuluh</r></p><par n="sebuah__det"/></e>
     <e lm="suatu"><i>suatu</i><par n="sebuah__det"/></e>
-    <e lm="tiga"><p><l>ketiga</l><r>tiga</r></p><par n="sebuah__det"/></e>
-    <e lm="tujuh"><p><l>ketujuh</l><r>tujuh</r></p><par n="sebuah__det"/></e>
     <!-- <par n="sekelas__n"/> -->
     <e lm="arah"><p><l>searah</l><r>arah</r></p><par n="sekelas__n"/></e>
     <e lm="banding"><p><l>sebanding</l><r>banding</r></p><par n="sekelas__n"/></e>
