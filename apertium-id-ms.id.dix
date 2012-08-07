@@ -6155,7 +6155,7 @@
     <e lm="sebanyak-banyaknya"><i>sebanyak-banyaknya</i><par n="ingin__adv"/></e>
     <e lm="sebanyaknya"><i>sebanyaknya</i><par n="ingin__adv"/></e>
     <e lm="sebenarnya"><i>sebenarnya</i><par n="ingin__adv"/></e>
-    <e lm="sebentar lagi "><i>sebentar<b/>lagi</i><par n="ingin__adv"/></e>
+    <e lm="sebentar lagi"><i>sebentar<b/>lagi</i><par n="ingin__adv"/></e>
     <e lm="sebentar-sebentar"><i>sebentar-sebentar</i><par n="ingin__adv"/></e>
     <e lm="seberapa"><i>seberapa</i><par n="ingin__adv"/></e>
     <e lm="sebesar-besarnya"><i>sebesar-besarnya</i><par n="ingin__adv"/></e>
@@ -6202,9 +6202,9 @@
     <e lm="selari"><i>selari</i><par n="ingin__adv"/></e>
     <e lm="selayaknya"><i>selayaknya</i><par n="ingin__adv"/></e>
     <e lm="selengkapnya"><i>selengkapnya</i><par n="ingin__adv"/></e>
-    <e lm="selewat"><i>selewat</i><par n="ingin__adv"/></e>
     <e lm="selulus"><i>selulus</i><par n="ingin__adv"/></e>
     <e lm="semakin"><i>semakin</i><par n="ingin__adv"/></e>
+    <e lm="semaksimal"><i>semaksimal</i><par n="ingin__adv"/></e>
     <e lm="semalam"><i>semalam</i><par n="ingin__adv"/></e>
     <e lm="semata-mata"><i>semata-mata</i><par n="ingin__adv"/></e>
     <e lm="sembunyi-sembunyi"><i>sembunyi-sembunyi</i><par n="ingin__adv"/></e>
@@ -13619,6 +13619,7 @@
     <e lm="dapat"><p><l>mendapatkan</l><r>dapat</r></p><par n="mengemudiankan__adv"/></e>
     <e lm="harus"><p><l>mengharuskan</l><r>harus</r></p><par n="mengemudiankan__adv"/></e>
     <e lm="ingin"><p><l>menginginkan</l><r>ingin</r></p><par n="mengemudiankan__adv"/></e>
+    <e lm="kurang"><p><l>mengurangkan</l><r>kurang</r></p><par n="mengemudiankan__adv"/></e>
     <e lm="langsung"><p><l>melangsungkan</l><r>langsung</r></p><par n="mengemudiankan__adv"/></e>
     <e lm="mungkin"><p><l>memungkinkan</l><r>mungkin</r></p><par n="mengemudiankan__adv"/></e>
     <e lm="perlu"><p><l>memerlukan</l><r>perlu</r></p><par n="mengemudiankan__adv"/></e>

@@ -197,6 +197,22 @@
     <e><p><l>siapa<b/>saja<s n="prn"/></l><r>siapa<b/>saja<s n="prn"/></r></p></e>
     <e><p><l>siapapun<s n="prn"/></l><r>sesiapapun<s n="prn"/></r></p></e>
     <e r="RL"><p><l>siapapun<s n="prn"/></l><r>siapapun<s n="prn"/></r></p></e>
+    <e><p><l>dari<b/>mana<s n="adv"/></l><r>dari<b/>mana<s n="adv"/></r></p></e>
+    <e><p><l>di<b/>mana<s n="adv"/></l><r>di<b/>mana<s n="adv"/></r></p></e>
+    <e><p><l>ke<b/>mana<s n="adv"/></l><r>ke<b/>mana<s n="adv"/></r></p></e>
+    <e><p><l>bilamanakah<s n="adv"/></l><r>bilamanakah<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>kapankah<s n="adv"/></l><r>bilakah<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>kapankah<s n="adv"/></l><r>kapankah<s n="adv"/></r></p></e>
+    <e><p><l>dari<b/>manakah<s n="adv"/></l><r>dari<b/>manakah<s n="adv"/></r></p></e>
+    <e><p><l>di<b/>manakah<s n="adv"/></l><r>di<b/>manakah<s n="adv"/></r></p></e>
+    <e><p><l>ke<b/>manakah<s n="adv"/></l><r>ke<b/>manakah<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>kenapakah<s n="adv"/></l><r>kenapakah<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>mengapakah<s n="adv"/></l><r>mengapakah<s n="adv"/></r></p></e>
+    <e><p><l>sebentar<b/>lagi<s n="adv"/></l><r>sebentar<b/>lagi<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>sekurang-kurangnya<s n="adv"/></l><r>sekurang-kurangnya<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>sahaja<s n="adv"/></l><r>sahaja<s n="adv"/></r></p></e>
+    <e><p><l>sahaja<s n="adv"/><s n="actio"/><s n="ber"/></l><r>sahaja<s n="adv"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>kurang<s n="adv"/><s n="actio"/><s n="actv"/><s n="kan"/></l><r>kurang<s n="adv"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
     
     <e><p><l>ab<s n="n"/></l><r>ab<s n="n"/></r></p></e>
     <e><p><l>aba<s n="n"/></l><r>aba<s n="n"/></r></p></e>
@@ -4999,7 +5015,7 @@
     <e r="LR"><p><l>kiper<s n="n"/></l><r>jaga<s n="vblex"/><s n="subst"/><s n="peN"/></r></p></e>
     <e><p><l>kiprah<s n="n"/></l><r>kiprah<s n="n"/></r></p></e>
     <e><p><l>kiprah<s n="n"/><s n="actio"/><s n="ber"/></l><r>berkiprah<s n="vblex"/></r></p></e>
-    <e r="LR"><p><l>kira-kira<s n="adv"/></l><r>kira-kira<s n="adv"/></r></p></e>
+    <e><p><l>kira-kira<s n="adv"/></l><r>kira-kira<s n="adv"/></r></p></e>
     <e r="LR"><p><l>kira<s n="n"/><s n="actio"/><s n="actv"/></l><r>kira<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
     <e><p><l>kira<s n="n"/><s n="actio"/><s n="actv"/><s n="per-kan"/></l><r>anggar<s n="adv"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
     <e r="RL"><p><l>kira<s n="n"/><s n="actio"/><s n="actv"/><s n="per-kan"/></l><r>jangka<s n="n"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
@@ -5511,7 +5527,7 @@
     <e r="LR"><p><l>kupu<s n="n"/></l><r>rama<s n="n"/></r></p></e>
     <e><p><l>kura-kura<s n="n"/></l><r>kura-kura<s n="n"/></r></p></e>
     <e><p><l>kurang<s n="adv"/></l><r>kurang<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>kurang<s n="adv"/><s n="actio"/><s n="ber"/></l><r>kurang<s n="adv"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>kurang<s n="adv"/><s n="actio"/><s n="ber"/></l><r>kurang<s n="adv"/><s n="actio"/><s n="ber"/></r></p></e>
     <e><p><l>kurang<s n="adv"/><s n="subst"/><s n="ke-an"/><s n="sg"/></l><r>kurang<s n="adv"/><s n="subst"/><s n="ke-an"/><s n="sg"/></r></p></e>
     <e><p><l>kuras<s n="n"/><s n="actio"/><s n="actv"/></l><r>menyalirkan<s n="vblex"/></r></p></e>
     <e><p><l>kurator<s n="n"/></l><r>kurator<s n="n"/></r></p></e>
@@ -6443,7 +6459,6 @@
     <e><p><l>matrikulasi<s n="n"/></l><r>matrikulasi<s n="n"/></r></p></e>
     <e><p><l>matrilineal<s n="adj"/></l><r>matrilineal<s n="adj"/></r></p></e>
     <e><p><l>mau<s n="adv"/></l><r>mahu<s n="adv"/></r></p></e>
-    <e r="LR"><p><l>mau<s n="adv"/></l><r>mau<s n="adv"/></r></p></e>
     <e r="RL"><p><l>mau<s n="adv"/></l><r>mau<s n="adv"/></r></p></e>
     <e><p><l>mau<s n="adv"/><s n="subst"/><s n="ke-an"/></l><r>kemahuan<s n="n"/></r></p></e>
     <e><p><l>maulana<s n="n"/></l><r>maulana<s n="n"/></r></p></e>
@@ -6827,7 +6842,7 @@
     <e><p><l>mundur<s n="vblex"/><s n="subst"/><s n="ke-an"/></l><r>kemunduran<s n="n"/></r></p></e>
     <e><p><l>mungil<s n="adj"/></l><r>mungil<s n="adj"/></r></p></e>
     <e><p><l>mungkin<s n="adv"/></l><r>mungkin<s n="adv"/></r></p></e>
-    <e><p><l>mungkin<s n="adv"/></l><r>mungkin<s n="adv"/><s n="subst"/><s n="ke-an"/><s n="sg"/><s n="nya"/></r></p></e>
+    <!-- <e><p><l>mungkin<s n="adv"/></l><r>mungkin<s n="adv"/><s n="subst"/><s n="ke-an"/><s n="sg"/><s n="nya"/></r></p></e> -->
     <e><p><l>mungkin<s n="adv"/><s n="actio"/><s n="actv"/><s n="kan"/></l><r>boleh<s n="adv"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
     <e r="RL"><p><l>mungkin<s n="adv"/><s n="actio"/><s n="actv"/><s n="kan"/></l><r>mungkin<s n="adv"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
     <e><p><l>mungkin<s n="adv"/><s n="actio"/><s n="actv"/><s n="kan"/><s n="nya"/></l><r>boleh<s n="adv"/><s n="actio"/><s n="actv"/><s n="kan"/><s n="nya"/></r></p></e>
@@ -8827,7 +8842,6 @@
     <e r="LR"><p><l>sah<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>sah<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
     <e r="LR"><p><l>sah<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>sah<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></r></p></e>
     <e><p><l>sahabat<s n="n"/></l><r>sahabat<s n="n"/></r></p></e>
-    <e><p><l>sahaja<s n="adv"/></l><r>sahaja<s n="adv"/></r></p></e>
     <e><p><l>saham<s n="n"/></l><r>saham<s n="n"/></r></p></e>
     <e><p><l>sahara<s n="n"/></l><r>sahara<s n="n"/></r></p></e>
     <e><p><l>sahib<s n="n"/></l><r>sahib<s n="n"/></r></p></e>
@@ -9158,8 +9172,8 @@
     <e><p><l>sekali-sekali<s n="adv"/></l><r>sekali-sekali<s n="adv"/></r></p></e>
     <e><p><l>sekali<s n="adv"/></l><r>sekali<s n="adv"/></r></p></e>
     <e><p><l>sekalian<s n="adv"/></l><r>sekalian<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>sekaligus<s n="adv"/></l><r>sekali<s n="adv"/></r></p></e>
-    <e><p><l>sekaligus<s n="adv"/></l><r>sekaligus<s n="adv"/></r></p></e>
+    <e><p><l>sekaligus<s n="adv"/></l><r>sekali<b/>gus<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>sekaligus<s n="adv"/></l><r>sekaligus<s n="adv"/></r></p></e>
     <e><p><l>sekalipun<s n="cnjsub"/></l><r>sekalipun<s n="cnjsub"/></r></p></e>
     <e><p><l>sekam<s n="n"/></l><r>sekam<s n="n"/></r></p></e>
     <e><p><l>sekar<s n="n"/></l><r>sekar<s n="n"/></r></p></e>
@@ -9250,7 +9264,7 @@
     <e><p><l>selesai<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>selesai<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
     <e><p><l>selesai<s n="vblex"/><s n="subst"/><s n="peN-an"/></l><r>penyiapan<s n="n"/></r></p></e>
     <e><p><l>selesai<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>penyiapan<s n="n"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>selewat<s n="adv"/></l><r>selewat<s n="adv"/></r></p></e>
+    <!-- <e r="LR"><p><l>selewat<s n="adv"/></l><r>selewat<s n="adv"/></r></p></e> -->
     <e><p><l>seleweng<s n="vblex"/></l><r>seleweng<s n="vblex"/></r></p></e>
     <e><p><l>selidik<s n="adj"/><s n="actio"/><s n="actv"/><s n="si"/></l><r>siasat<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
     <e r="LR"><p><l>selidik<s n="adj"/><s n="subst"/><s n="peN"/><s n="sg"/></l><r>penyiasat<s n="n"/><s n="sg"/></r></p></e>
@@ -9536,7 +9550,7 @@
     <e><p><l>setengah<s n="num"/></l><r>setengah<s n="num"/></r></p></e>
     <e><p><l>seteru<s n="n"/><s n="actio"/><s n="ber"/></l><r>berseteru<s n="vblex"/></r></p></e>
     <e><p><l>seteru<s n="n"/><s n="per-an"/></l><r>perseteruan<s n="n"/></r></p></e>
-    <e r="LR"><p><l>seterusnya<s n="adv"/></l><r>seterusnya<s n="adv"/></r></p></e>
+    <e><p><l>seterusnya<s n="adv"/></l><r>seterusnya<s n="adv"/></r></p></e>
     <e><p><l>setia<s n="adj"/></l><r>setia<s n="adj"/></r></p></e>
     <e><p><l>setiawan<s n="adj"/></l><r>setiawan<s n="adj"/></r></p></e>
     <e r="LR"><p><l>setidak-tidaknya<s n="adv"/></l><r>setidak-tidaknya<s n="adv"/></r></p></e>
@@ -10727,7 +10741,7 @@
     <e><p><l>tiba<s n="vblex"/></l><r>tiba<s n="vblex"/></r></p></e>
     <e><p><l>tidak-tidak<s n="adv"/></l><r>tidak-tidak<s n="adv"/></r></p></e>
     <!-- <e r="LR"><p><l>tidak<s n="adv"/></l><r>apa-apa<s n="prn"/><s n="tn"/></r></p></e> -->
-    <e r="LR"><p><l>tidak<s n="adv"/></l><r>tiada<s n="vblex"/></r></p></e>
+    <!-- <e r="LR"><p><l>tidak<s n="adv"/></l><r>tiada<s n="vblex"/></r></p></e> -->
     <e r="RL"><p><l>tidak<s n="adv"/></l><r>tiada<s n="vblex"/></r></p></e>
     <e><p><l>tidak<s n="adv"/></l><r>tidak<s n="adv"/></r></p></e>
     <e r="RL"><p><l>tidak<s n="adv"/></l><r>tidak<s n="adv"/></r></p></e>

@@ -6165,6 +6165,7 @@
     <e lm="sebanyak-banyaknya"><i>sebanyak-banyaknya</i><par n="ingin__adv"/></e>
     <e lm="sebanyaknya"><i>sebanyaknya</i><par n="ingin__adv"/></e>
     <e lm="sebenarnya"><i>sebenarnya</i><par n="ingin__adv"/></e>
+    <e lm="sebentar lagi"><i>sebentar<b/>lagi</i><par n="ingin__adv"/></e>
     <e lm="sebentar-sebentar"><i>sebentar-sebentar</i><par n="ingin__adv"/></e>
     <e lm="seberapa"><i>seberapa</i><par n="ingin__adv"/></e>
     <e lm="sebesar-besarnya"><i>sebesar-besarnya</i><par n="ingin__adv"/></e>
@@ -6190,6 +6191,7 @@
     <e lm="sekadar"><i>sekadar</i><par n="ingin__adv"/></e>
     <e lm="sekala"><i>sekala</i><par n="ingin__adv"/></e>
     <e lm="sekali"><i>sekali</i><par n="ingin__adv"/></e>
+    <e lm="sekali gus"><i>sekali<b/>gus</i><par n="ingin__adv"/></e>
     <e lm="sekali-kali"><i>sekali-kali</i><par n="ingin__adv"/></e>
     <e lm="sekali-sekali"><i>sekali-sekali</i><par n="ingin__adv"/></e>
     <e lm="sekalian"><i>sekalian</i><par n="ingin__adv"/></e>
@@ -12051,6 +12053,7 @@
     <!-- <par n="keesokannya__adv"/> -->
     <e lm="boleh"><p><l>kebolehannya</l><r>boleh</r></p><par n="keesokannya__adv"/></e>
     <e lm="ingin"><p><l>keinginannya</l><r>ingin</r></p><par n="keesokannya__adv"/></e>
+    <e lm="kurang"><p><l>kekurangannya</l><r>kurang</r></p><par n="keesokannya__adv"/></e>
     <e lm="mungkin"><p><l>kemungkinannya</l><r>mungkin</r></p><par n="keesokannya__adv"/></e>
     <!-- <par n="kependiaman__vblex"/> -->
     <e lm="pimpin"><p><l>kepemimpinan</l><r>pimpin</r></p><par n="kependiaman__vblex"/></e>
@@ -12944,6 +12947,8 @@
     <e lm="tunai"><p><l>menunaikan</l><r>tunai</r></p><par n="mengemudiankan__adv"/></e>
     <!-- <par n="mengemudiankannya__adv"/> -->
     <e lm="boleh"><p><l>membolehkannya</l><r>boleh</r></p><par n="mengemudiankannya__adv"/></e>
+    <e lm="dapat"><p><l>mendapatkannya</l><r>dapat</r></p><par n="mengemudiankannya__adv"/></e>
+    <e lm="ingin"><p><l>menginginkannya</l><r>ingin</r></p><par n="mengemudiankannya__adv"/></e>
     <!-- <par n="menghormati__adj"/> -->
     <e lm="baik"><p><l>membaiki</l><r>baik</r></p><par n="menghormati__adj"/></e>
     <e lm="cinta"><p><l>mencintai</l><r>cinta</r></p><par n="menghormati__adj"/></e>
