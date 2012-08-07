@@ -2959,10 +2959,12 @@
     <e lm="Boston"><i>Boston</i><par n="Indonesia__np"/></e>
     <e lm="Brazil"><i>Brazil</i><par n="Indonesia__np"/></e>
     <e lm="Britain"><i>Britain</i><par n="Indonesia__np"/></e>
+    <e lm="British"><i>British</i><par n="Indonesia__np"/></e>
     <e lm="California"><i>California</i><par n="Indonesia__np"/></e>
     <e lm="China"><i>China</i><par n="Indonesia__np"/></e>
     <e lm="Eropah"><i>Eropah</i><par n="Indonesia__np"/></e>
     <e lm="Filipina"><i>Filipina</i><par n="Indonesia__np"/></e>
+    <e lm="France"><i>France</i><par n="Indonesia__np"/></e>
     <e lm="India"><i>India</i><par n="Indonesia__np"/></e>
     <e lm="Indonesia"><i>Indonesia</i><par n="Indonesia__np"/></e>
     <e lm="Inggeris"><i>Inggeris</i><par n="Indonesia__np"/></e>
@@ -2990,8 +2992,6 @@
     <e lm="Turki"><i>Turki</i><par n="Indonesia__np"/></e>
     <e lm="Vatican"><i>Vatican</i><par n="Indonesia__np"/></e>
     <e lm="Yunani"><i>Yunani</i><par n="Indonesia__np"/></e>
-    <e lm="British"><i>British</i><par n="Indonesia__np"/></e>
-    <e lm="France"><i>France</i><par n="Indonesia__np"/></e>
     <!-- <par n="Maria__np"/> -->
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
     <e lm="Mary"><i>Mary</i><par n="Maria__np"/></e>
@@ -8143,6 +8143,7 @@
     <e lm="inframerah"><i>inframerah</i><par n="kata__n"/></e>
     <e lm="infrastruktur"><i>infrastruktur</i><par n="kata__n"/></e>
     <e lm="ingatannya"><i>ingatannya</i><par n="kata__n"/></e>
+    <e lm="inggris"><i>inggris</i><par n="kata__n"/></e>
     <e lm="inhibitor"><i>inhibitor</i><par n="kata__n"/></e>
     <e lm="inisial"><i>inisial</i><par n="kata__n"/></e>
     <e lm="inisiasi"><i>inisiasi</i><par n="kata__n"/></e>
@@ -13974,6 +13975,8 @@
     <e lm="semua"><i>semua</i><par n="seseorang__prn"/></e>
     <e lm="seseorang"><i>seseorang</i><par n="seseorang__prn"/></e>
     <e lm="sesiapa"><i>sesiapa</i><par n="seseorang__prn"/></e>
+    <e lm="sesiapa pun"><i>sesiapa<b/>pun</i><par n="seseorang__prn"/></e>
+    <e lm="sesiapapun"><i>sesiapapun</i><par n="seseorang__prn"/></e>
     <e lm="sesuatu"><i>sesuatu</i><par n="seseorang__prn"/></e>
     <e lm="siapa pun"><i>siapa<b/>pun</i><par n="seseorang__prn"/></e>
     <e lm="siapa saja"><i>siapa<b/>saja</i><par n="seseorang__prn"/></e>
