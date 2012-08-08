@@ -247,6 +247,44 @@
     <e><p><l>suki<s n="adj"/></l><r>suki<s n="adj"/></r></p></e>
     <e><p><l>tembus<s n="vblex"/></l><r>lut<s n="adj"/></r></p></e>
     <e><p><l>tenteram<s n="adj"/><s n="subst"/><s n="ke-an"/><s n="sg"/></l><r>tenteram<s n="adj"/><s n="subst"/><s n="ke-an"/><s n="sg"/></r></p></e>
+    <e><p><l>aib<s n="adj"/><b/></l><r>aib<s n="adj"/></r></p></e>
+    <e><p><l>anatomis<s n="adj"/><b/></l><r>anatomis<s n="adj"/></r></p></e>
+    <e><p><l>astronomis<s n="adj"/><b/></l><r>astronomi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>berisik<s n="adj"/><b/></l><r>bising<s n="adj"/></r></p></e>
+    <e><p><l>botanis<s n="adj"/><b/></l><r>botani<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>durhaka<s n="adj"/><b/></l><r>derhaka<s n="adj"/></r></p></e>
+    <e><p><l>elementer<s n="adj"/><b/></l><r>asas<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>encer<s n="adj"/><b/></l><r>nipis<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>evolusioner<s n="adj"/><b/></l><r>evolusi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>fisis<s n="adj"/><b/></l><r>fizikal<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>fit<s n="adj"/><b/></l><r>fit<s n="adj"/></r></p></e>
+    <e><p><l>gondrong<s n="adj"/><b/></l><r>gondrong<s n="adj"/></r></p></e>
+    <e><p><l>hewani<s n="adj"/><b/></l><r>haiwan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>ihram<s n="adj"/><b/></l><r>ihram<s n="adj"/></r></p></e>
+    <e><p><l>kadru<s n="adj"/><b/></l><r>kadru<s n="adj"/></r></p></e>
+    <e><p><l>katai<s n="adj"/><b/></l><r>kerdil<s n="adj"/></r></p></e>
+    <e><p><l>kimiawi<s n="adj"/><b/></l><r>kimia<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>komplementer<s n="adj"/><b/></l><r>lengkap<s n="adj"/><s n="subst"/><s n="pe"/><s n="sg"/></r></p></e>
+    <e><p><l>komplit<s n="adj"/><b/></l><r>lengkap<s n="adj"/></r></p></e>
+    <e><p><l>magnetis<s n="adj"/><b/></l><r>magnetik<s n="adj"/></r></p></e>
+    <e><p><l>opsional<s n="adj"/><b/></l><r>opsyen<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>optis<s n="adj"/><b/></l><r>optik<s n="adj"/></r></p></e>
+    <e><p><l>orisinal<s n="adj"/><b/></l><r>orisinil<s n="adj"/></r></p></e>
+    <e><p><l>orisinil<s n="adj"/><b/></l><r>orisinil<s n="adj"/></r></p></e>
+    <e><p><l>otonom<s n="adj"/><b/></l><r>autonomi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>pelbagai<s n="adj"/><b/></l><r>pelbagai<s n="adj"/></r></p></e>
+    <e><p><l>pelit<s n="adj"/><b/></l><r>kedekut<s n="adj"/></r></p></e>
+    <e><p><l>piawai<s n="adj"/><b/></l><r>pakar<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>radial<s n="adj"/><b/></l><r>jejarian<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>retas<s n="adj"/><s n="subst"/><s n="per"/><s n="sg"/><b/></l><r>godam<s n="n"/><s n="peN"/><s n="sg"/></r></p></e>
+    <e><p><l>rusak<s n="adj"/><s n="actio"/><s n="actv"/><b/></l><r>rosak<s n="adj"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>rusak<s n="adj"/><s n="actio"/><s n="actv"/><s n="kan"/><b/></l><r>rosak<s n="adj"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>rusak<s n="adj"/><s n="subst"/><s n="ke-an"/><s n="sg"/><b/></l><r>rosak<s n="adj"/><s n="subst"/><s n="ke-an"/><s n="sg"/></r></p></e>
+    <e><p><l>silindris<s n="adj"/><b/></l><r>silinder<s n="n"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>soliter<s n="adj"/><b/></l><r>bersendirian<s n="adv"/></r></p></e>
+    <e><p><l>spasial<s n="adj"/><b/></l><r>spatial<s n="adj"/></r></p></e>
+    <e><p><l>tunanetra<s n="adj"/><b/></l><r>buta<s n="adj"/></r></p></e>
+    <e><p><l>yunior<s n="adj"/></l><r>junior<s n="adj"/></r></p></e>
     
     <e><p><l>ab<s n="n"/></l><r>ab<s n="n"/></r></p></e>
     <e><p><l>aba<s n="n"/></l><r>aba<s n="n"/></r></p></e>
