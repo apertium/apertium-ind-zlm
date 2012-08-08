@@ -712,7 +712,7 @@
     <e><p><l>angka<s n="n"/><s n="sg"/></l><r>angka<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>angkasa<s n="n"/></l><r>angkasa<s n="n"/></r></p></e>
     <e><p><l>angkat<s n="vblex"/></l><r>angkat<s n="vblex"/></r></p></e>
-    <e><p><l>angkat<s n="vblex"/></l><r>perisian<s n="adj"/></r></p></e>
+    <!-- <e><p><l>angkat<s n="vblex"/></l><r>perisian<s n="adj"/></r></p></e> -->
     <e><p><l>angkat<s n="vblex"/><s n="actv"/></l><r>angkat<s n="vblex"/><s n="actv"/></r></p></e>
     <e><p><l>angkat<s n="vblex"/><s n="actv"/><s n="nya"/></l><r>mengangkatnya<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>angkat<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>lantik<s n="vblex"/><s n="subst"/><s n="pe-an"/><s n="sg"/></r></p></e>
@@ -2020,7 +2020,8 @@
     <e r="LR"><p><l>cengkih<s n="n"/></l><r>cengkih<s n="n"/></r></p></e>
     <e><p><l>cepat-cepat<s n="adv"/></l><r>cepat-cepat<s n="adv"/></r></p></e>
     <e><p><l>cepat<s n="adj"/></l><r>cepat<s n="adj"/></r></p></e>
-    <e><p><l>cepat<s n="adj"/></l><r>laju<s n="adj"/></r></p></e>
+    <e><p><l>cepat<s n="adj"/><s n="actio"/><s n="ber"/><s n="ke-an"/></l><r>laju<s n="adj"/><s n="actio"/><s n="ber"/><s n="ke-an"/></r></p></e>
+    <e><p><l>cepat<s n="adj"/><s n="subst"/><s n="ke-an"/></l><r>laju<s n="adj"/><s n="subst"/><s n="ke-an"/></r></p></e>
     <e r="RL"><p><l>cepat<s n="adj"/></l><r>pantas<s n="adj"/></r></p></e>
     <e r="RL"><p><l>cepat<s n="adj"/><s n="se"/></l><r>secepat<s n="adv"/></r></p></e>
     <e><p><l>cepat<s n="adj"/><s n="se"/></l><r>selaju<s n="vblex"/></r></p></e>
@@ -11018,6 +11019,7 @@
     <e><p><l>tsunami<s n="n"/></l><r>tsunami<s n="n"/></r></p></e>
     <e r="RL"><p><l>tua<s n="adj"/></l><r>bapa<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>tua<s n="adj"/></l><r>tua<s n="adj"/></r></p></e>
+    <e><p><l>tua<s n="adj"/><s n="subst"/><s n="peN-an"/></l><r>tua<s n="adj"/><s n="subst"/><s n="peN-an"/></r></p></e>
     <e><p><l>tua<s n="adj"/><s n="ter"/></l><r>tua<s n="adj"/><s n="ter"/></r></p></e>
     <e><p><l>tuah<s n="n"/></l><r>tuah<s n="n"/></r></p></e>
     <e><p><l>tuai<s n="n"/></l><r>tuai<s n="n"/></r></p></e>
@@ -11293,7 +11295,6 @@
     <e><p><l>unggas<s n="n"/></l><r>unggas<s n="n"/></r></p></e>
     <!-- <e><p><l>unggul<s n="adj"/></l><r>cemerlang<s n="adj"/></r></p></e> -->
     <e><p><l>unggul<s n="adj"/></l><r>unggul<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>unggul<s n="adj"/><s n="subst"/><s n="ke-an"/><s n="sg"/></l><r>unggul<s n="adj"/><s n="subst"/><s n="ke-an"/><s n="sg"/></r></p></e>
     <e><p><l>unggun<s n="n"/></l><r>unggun<s n="n"/></r></p></e>
     <e r="RL"><p><l>ungkap<s n="vblex"/></l><r>luah<s n="n"/><s n="actio"/></r></p></e>
     <e><p><l>ungkap<s n="vblex"/><s n="actv"/></l><r>merungkai<s n="vblex"/></r></p></e>
