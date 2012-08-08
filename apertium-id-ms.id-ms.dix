@@ -213,6 +213,40 @@
     <e r="LR"><p><l>sahaja<s n="adv"/></l><r>sahaja<s n="adv"/></r></p></e>
     <e><p><l>sahaja<s n="adv"/><s n="actio"/><s n="ber"/></l><r>sahaja<s n="adv"/><s n="actio"/><s n="ber"/></r></p></e>
     <e><p><l>kurang<s n="adv"/><s n="actio"/><s n="actv"/><s n="kan"/></l><r>kurang<s n="adv"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>bati<s n="adj"/><s n="se"/></l><r>bati<s n="adj"/><s n="se"/></r></p></e>
+    <e><p><l>asimetris<s n="adj"/></l><r>asimetri<s n="adj"/></r></p></e>
+    <e><p><l>bengkok<s n="n"/><s n="sg"/></l><r>lengkok<s n="adj"/></r></p></e>
+    <e><p><l>bernas<s n="adj"/></l><r>bernas<s n="adj"/></r></p></e>
+    <e><p><l>congkak<s n="adj"/></l><r>bongkak<s n="adj"/></r></p></e>
+    <e><p><l>dasar<s n="n"/><s n="sg"/><s n="nya"/></l><r>asasnya<s n="adj"/></r></p></e>
+    <e><p><l>demokratis<s n="adj"/></l><r>demokratik<s n="adj"/></r></p></e>
+    <e><p><l>estetik<s n="adj"/></l><r>estetik<s n="adj"/></r></p></e>
+    <e><p><l>gempar<s n="adj"/><s n="actio"/><s n="actv"/><s n="kan"/></l><r>gempar<s n="adj"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>genetik<s n="adj"/><s n="nya"/></l><r>genetiknya<s n="adj"/></r></p></e>
+    <e><p><l>hancur<s n="adj"/></l><r>kecai<s n="adj"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>hidrolik<s n="adj"/></l><r>hidraulik<s n="adj"/></r></p></e>
+    <e><p><l>kikir<s n="n"/><s n="sg"/></l><r>lokek<s n="adj"/></r></p></e>
+    <e><p><l>kosmik<s n="adj"/></l><r>kosmik<s n="adj"/></r></p></e>
+    <e><p><l>koyak<s n="adj"/></l><r>koyak<s n="adj"/></r></p></e>
+    <e><p><l>lalai<s n="adj"/></l><r>lalai<s n="adj"/></r></p></e>
+    <e><p><l>langka<s n="adj"/></l><r>nadir<s n="adj"/></r></p></e>
+    <e><p><l>lantai<s n="n"/><s n="sg"/></l><r>aras<s n="adj"/></r></p></e>
+    <e><p><l>layar<s n="n"/><s n="sg"/></l><r>papar<s n="adj"/><s n="subst"/><s n="san"/><s n="sg"/></r></p></e>
+    <e><p><l>maha<s n="adj"/></l><r>maha<s n="adj"/></r></p></e>
+    <e><p><l>nonong<s n="adj"/></l><r>nonong<s n="adj"/></r></p></e>
+    <e><p><l>paleolitik<s n="adj"/></l><r>paleolitik<s n="adj"/></r></p></e>
+    <e><p><l>perangko<s n="n"/><s n="sg"/></l><r>setem<s n="adj"/></r></p></e>
+    <e><p><l>pra<s n="adj"/></l><r>pra<s n="adj"/></r></p></e>
+    <e><p><l>salah<b/>guna<s n="adj"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>salah<b/>guna<s n="adj"/><s n="subst"/><s n="peN-an"/><s n="sg"/></r></p></e>
+    <e><p><l>salah<s n="adj"/></l><r>silap<s n="adj"/></r></p></e>
+    <e><p><l>samawi<s n="adj"/></l><r>samawi<s n="adj"/></r></p></e>
+    <e><p><l>senang<s n="adj"/><s n="actio"/><s n="actv"/><s n="kan"/></l><r>seronok<s n="adj"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>senang<s n="adj"/><s n="subst"/><s n="ke-an"/><s n="sg"/></l><r>seronok<s n="adj"/><s n="subst"/><s n="ke-an"/><s n="sg"/></r></p></e>
+    <e><p><l>serentak<s n="adj"/></l><r>serentak<s n="adj"/></r></p></e>
+    <e><p><l>setuju<s n="adj"/></l><r>bersetuju<s n="adj"/></r></p></e>
+    <e><p><l>suki<s n="adj"/></l><r>suki<s n="adj"/></r></p></e>
+    <e><p><l>tembus<s n="vblex"/></l><r>lut<s n="adj"/></r></p></e>
+    <e><p><l>tenteram<s n="adj"/><s n="subst"/><s n="ke-an"/><s n="sg"/></l><r>tenteram<s n="adj"/><s n="subst"/><s n="ke-an"/><s n="sg"/></r></p></e>
     
     <e><p><l>ab<s n="n"/></l><r>ab<s n="n"/></r></p></e>
     <e><p><l>aba<s n="n"/></l><r>aba<s n="n"/></r></p></e>
