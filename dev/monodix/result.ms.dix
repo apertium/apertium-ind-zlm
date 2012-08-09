@@ -3435,7 +3435,6 @@
     <e lm="hinggap"><i>hinggap</i><par n="baca__vblex"/></e>
     <e lm="hitung"><i>hitung</i><par n="baca__vblex"/></e>
     <e lm="hubung"><i>hubung</i><par n="baca__vblex"/></e>
-    <e lm="huru"><i>huru</i><par n="baca__vblex"/></e>
     <e lm="ikut"><i>ikut</i><par n="baca__vblex"/></e>
     <e lm="inap"><i>inap</i><par n="baca__vblex"/></e>
     <e lm="ingat"><i>ingat</i><par n="baca__vblex"/></e>
@@ -3868,7 +3867,6 @@
     <e lm="naik"><i>naik</i><par n="baca__vblex"/></e>
     <e lm="nala"><i>nala</i><par n="baca__vblex"/></e>
     <e lm="nampak"><i>nampak</i><par n="baca__vblex"/></e>
-    <e lm="nj"><i>nj</i><par n="baca__vblex"/></e>
     <e lm="over"><i>over</i><par n="baca__vblex"/></e>
     <e lm="pajang"><i>pajang</i><par n="baca__vblex"/></e>
     <e lm="pakai"><i>pakai</i><par n="baca__vblex"/></e>
@@ -4449,7 +4447,6 @@
     <e lm="berperikemanusiaan"><i>berperikemanusiaan</i><par n="baik__adj"/></e>
     <e lm="berperlembagaan"><i>berperlembagaan</i><par n="baik__adj"/></e>
     <e lm="berpilih"><i>berpilih</i><par n="baik__adj"/></e>
-    <e lm="berprestij"><i>berprestij</i><par n="baik__adj"/></e>
     <e lm="bersepadu"><i>bersepadu</i><par n="baik__adj"/></e>
     <e lm="bersetuju"><i>bersetuju</i><par n="baik__adj"/></e>
     <e lm="bersih"><i>bersih</i><par n="baik__adj"/></e>
@@ -5852,7 +5849,7 @@
     <e lm="urus"><p><l>berurusan</l><r>urus</r></p><par n="berhubungan__vblex"/></e>
     <!-- <par n="berkeadilan__adj"/> -->
     <e lm="laju"><p><l>berkelajuan</l><r>laju</r></p><par n="berkeadilan__adj"/></e>
-    <e lm="layak"><p><l>berkelayakan</l><r>layak</r></p><par n="berkeadilan__adj"/></e>
+	<e lm="layak"><p><l>berkelayakan</l><r>layak</r></p><par n="berkeadilan__adj"/></e>
     <e lm="mampu"><p><l>berkemampuan</l><r>mampu</r></p><par n="berkeadilan__adj"/></e>
     <e lm="panjang"><p><l>berkepanjangan</l><r>panjang</r></p><par n="berkeadilan__adj"/></e>
     <e lm="penting"><p><l>berkepentingan</l><r>penting</r></p><par n="berkeadilan__adj"/></e>
@@ -7967,6 +7964,7 @@
     <e lm="humus"><i>humus</i><par n="kata__n"/></e>
     <e lm="hun"><i>hun</i><par n="kata__n"/></e>
     <e lm="hurikan"><i>hurikan</i><par n="kata__n"/></e>
+    <e lm="huru-hara"><i>huru-hara</i><par n="kata__n"/></e>
     <e lm="huruf"><i>huruf</i><par n="kata__n"/></e>
     <e lm="hut"><i>hut</i><par n="kata__n"/></e>
     <e lm="hutan"><i>hutan</i><par n="kata__n"/></e>
@@ -12220,6 +12218,7 @@
     <e lm="teliti"><p><l>meneliti</l><r>teliti</r></p><par n="mengacak__adj"/></e>
     <e lm="tentu"><p><l>menentu</l><r>tentu</r></p><par n="mengacak__adj"/></e>
     <e lm="timbang"><p><l>menimbang</l><r>timbang</r></p><par n="mengacak__adj"/></e>
+    <e lm="urai"><p><l>mengurai</l><r>urai</r></p><par n="mengacak__adj"/></e>
     <!-- <par n="mengacakkan__adj"/> -->
     <e lm="abadi"><p><l>mengabadikan</l><r>abadi</r></p><par n="mengacakkan__adj"/></e>
     <e lm="abai"><p><l>mengabaikan</l><r>abai</r></p><par n="mengacakkan__adj"/></e>
