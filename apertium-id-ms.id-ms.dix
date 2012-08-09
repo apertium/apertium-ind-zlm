@@ -339,6 +339,33 @@
     <e><p><l>tumbuk<s n="n"/><s n="actio"/><s n="actv"/></l><r>menumbuk<s n="vblex"/></r></p></e>
     <e><p><l>turut<s n="vblex"/><s n="ber"/></l><r>berturut<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>urai<s n="adj"/><s n="actio"/><s n="actv"/></l><r>orak<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>ambil<b/>alih<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>ambil<b/>alih<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></r></p></e>
+    <e><p><l>angga<s n="vblex"/></l><r>tanduk<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>bentur<s n="vblex"/><s n="ber-an"/></l><r>canggah<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>beri<b/>tahu<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>memberitahu<s n="vblex"/></r></p></e>
+    <e><p><l>beri<b/>tahu<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>notis<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>bersin<s n="vblex"/></l><r>bersin<s n="vblex"/></r></p></e>
+    <e><p><l>bidik<s n="vblex"/><s n="actv"/></l><r>bidik<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>cegat<s n="vblex"/><s n="actv"/></l><r>cegat<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>gugat<s n="vblex"/><s n="ter"/></l><r>defendan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>hantam<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></l><r>hentam<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></r></p></e>
+    <e><p><l>ikut<b/>serta<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>ikut<b/>serta<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>ikut<b/>serta<s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="sg"/></l><r>serta<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></r></p></e>
+    <e><p><l>kembang<b/>biak<s n="vblex"/><s n="subst"/><s n="per-an"/><s n="sg"/></l><r>biak<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></r></p></e>
+    <e><p><l>kutat<s n="vblex"/><s n="ber"/></l><r>tinggal<s n="vblex"/></r></p></e>
+    <e><p><l>luap<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></l><r>limpah<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></r></p></e>
+    <e><p><l>lucut<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></l><r>nyahcas<s n="vblex"/></r></p></e>
+    <e><p><l>pantik<s n="vblex"/><s n="subst"/><s n="peN"/><s n="sg"/></l><r>cucuh<s n="vblex"/><s n="subst"/><s n="peN"/><s n="sg"/></r></p></e>
+    <e><p><l>piknik<s n="vblex"/></l><r>berkelah<s n="vblex"/></r></p></e>
+    <e><p><l>pindai<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>imbas<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>salip<s n="vblex"/><s n="actv"/></l><r>pintas<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>sebar<b/>luas<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>sebar<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>tanggung<b/>jawab<s n="vblex"/><s n="subst"/><s n="per-an"/><s n="sg"/></l><r>tanggungjawab<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>tukik<s n="vblex"/></l><r>tukik<s n="vblex"/></r></p></e>
+    <e><p><l>tular<s n="vblex"/><s n="actv"/></l><r>jangkit<s n="vblex"/><s n="ber"/></r></p></e>
+    <e><p><l>ulur<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>hulur<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>ungsi<s n="vblex"/><s n="actv"/></l><r>ungsi<s n="vblex"/><s n="actv"/></r></p></e>
+    <e><p><l>ungsi<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>ungsi<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></r></p></e>
     
     <e><p><l>ab<s n="n"/></l><r>ab<s n="n"/></r></p></e>
     <e><p><l>aba<s n="n"/></l><r>aba<s n="n"/></r></p></e>
