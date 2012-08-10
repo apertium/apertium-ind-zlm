@@ -3299,6 +3299,7 @@
     <e lm="ambruk"><i>ambruk</i><par n="baca__vblex"/></e>
     <e lm="angga"><i>angga</i><par n="baca__vblex"/></e>
     <e lm="anggap"><i>anggap</i><par n="baca__vblex"/></e>
+    <e lm="anggur"><i>anggur</i><par n="baca__vblex"/></e>
     <e lm="angkat"><i>angkat</i><par n="baca__vblex"/></e>
     <e lm="angkut"><i>angkut</i><par n="baca__vblex"/></e>
     <e lm="anjal"><i>anjal</i><par n="baca__vblex"/></e>
@@ -3373,6 +3374,7 @@
     <e lm="drop"><i>drop</i><par n="baca__vblex"/></e>
     <e lm="duduk"><i>duduk</i><par n="baca__vblex"/></e>
     <e lm="dukung"><i>dukung</i><par n="baca__vblex"/></e>
+    <e lm="elak"><i>elak</i><par n="baca__vblex"/></e>
     <e lm="gagal"><i>gagal</i><par n="baca__vblex"/></e>
     <e lm="gaib"><i>gaib</i><par n="baca__vblex"/></e>
     <e lm="gantung"><i>gantung</i><par n="baca__vblex"/></e>
@@ -3932,6 +3934,7 @@
     <e lm="tagih"><p><l>tagihan</l><r>tagih</r></p><par n="bacaan__vblex"/></e>
     <e lm="takluk"><p><l>taklukan</l><r>takluk</r></p><par n="bacaan__vblex"/></e>
     <e lm="tamat"><p><l>tamatan</l><r>tamat</r></p><par n="bacaan__vblex"/></e>
+    <e lm="tampar"><p><l>tamparan</l><r>tampar</r></p><par n="bacaan__vblex"/></e>
     <e lm="tanam"><p><l>tanaman</l><r>tanam</r></p><par n="bacaan__vblex"/></e>
     <e lm="tanggung"><p><l>tanggungan</l><r>tanggung</r></p><par n="bacaan__vblex"/></e>
     <e lm="tangkap"><p><l>tangkapan</l><r>tangkap</r></p><par n="bacaan__vblex"/></e>
@@ -6389,9 +6392,12 @@
     <e lm="baling"><p><l>baling-baling</l><r>baling</r></p><par n="kata-kata__n"/></e>
     <e lm="bayang"><p><l>bayang-bayang</l><r>bayang</r></p><par n="kata-kata__n"/></e>
     <e lm="cita"><p><l>cita-cita</l><r>cita</r></p><par n="kata-kata__n"/></e>
+    <e lm="departemen-departemen"><p><l>departemen-departemen</l><r>departemen</r></p><par n="kata-kata__n"/></e>
     <e lm="detik"><p><l>detik-detik</l><r>detik</r></p><par n="kata-kata__n"/></e>
     <e lm="kantor"><p><l>kantor-kantor</l><r>kantor</r></p><par n="kata-kata__n"/></e>
     <e lm="kelompok"><p><l>kelompok-kelompok</l><r>kelompok</r></p><par n="kata-kata__n"/></e>
+    <e lm="komponis-komponis"><p><l>komponis-komponis</l><r>komponis</r></p><par n="kata-kata__n"/></e>
+    <e lm="kondisi-kondisi"><p><l>kondisi-kondisi</l><r>kondisi</r></p><par n="kata-kata__n"/></e>
     <e lm="kue"><p><l>kue-kue</l><r>kue</r></p><par n="kata-kata__n"/></e>
     <e lm="laki"><p><l>laki-laki</l><r>laki</r></p><par n="kata-kata__n"/></e>
     <e lm="layang"><p><l>layang-layang</l><r>layang</r></p><par n="kata-kata__n"/></e>
@@ -6401,6 +6407,7 @@
     <e lm="rempah"><p><l>rempah-rempah</l><r>rempah</r></p><par n="kata-kata__n"/></e>
     <e lm="sela"><p><l>sela-sela</l><r>sela</r></p><par n="kata-kata__n"/></e>
     <e lm="sia"><p><l>sia-sia</l><r>sia</r></p><par n="kata-kata__n"/></e>
+    <e lm="tim-tim"><p><l>tim-tim</l><r>tim</r></p><par n="kata-kata__n"/></e>
     <!-- <par n="kata__n"/> -->
     <e lm="Agustus"><i>Agustus</i><par n="kata__n"/></e>
     <e lm="Alkitab"><i>Alkitab</i><par n="kata__n"/></e>
@@ -11777,7 +11784,13 @@
     <e lm="akibat"><p><l>akibatnya</l><r>akibat</r></p><par n="katanya__n"/></e>
     <e lm="dasar"><p><l>dasarnya</l><r>dasar</r></p><par n="katanya__n"/></e>
 	<e lm="favorit"><p><l>favoritnya</l><r>favorit</r></p><par n="katanya__n"/></e>
+    <e lm="jumlahnya"><p><l>jumlahnya</l><r>jumlah</r></p><par n="katanya__n"/></e>
+    <e lm="kantornya"><p><l>kantornya</l><r>kantor</r></p><par n="katanya__n"/></e>
+    <e lm="kelompoknya"><p><l>kelompoknya</l><r>kelompok</r></p><par n="katanya__n"/></e>
+    <e lm="kontribusinya"><p><l>kontribusinya</l><r>kontribusi</r></p><par n="katanya__n"/></e>
     <e lm="nanti"><p><l>nantinya</l><r>nanti</r></p><par n="katanya__n"/></e>
+    <e lm="posisinya"><p><l>posisinya</l><r>posisi</r></p><par n="katanya__n"/></e>
+    <e lm="produksinya"><p><l>produksinya</l><r>produksi</r></p><par n="katanya__n"/></e>
     <e lm="tadi"><p><l>tadinya</l><r>tadi</r></p><par n="katanya__n"/></e>
     <e lm="tangan"><p><l>tangannya</l><r>tangan</r></p><par n="katanya__n"/></e>
     <!-- <par n="keabadian-keabadian__adj"/> -->
@@ -13246,6 +13259,7 @@
     <e lm="penggal"><p><l>memenggal</l><r>penggal</r></p><par n="mengalir__vblex"/></e>
     <e lm="peras"><p><l>memeras</l><r>peras</r></p><par n="mengalir__vblex"/></e>
     <e lm="periksa"><p><l>memeriksa</l><r>periksa</r></p><par n="mengalir__vblex"/></e>
+    <e lm="perkosa"><p><l>memperkosa</l><r>perkosa</r></p><par n="mengalir__vblex"/></e>
     <e lm="petik"><p><l>memetik</l><r>petik</r></p><par n="mengalir__vblex"/></e>
     <e lm="pilih"><p><l>memilih</l><r>pilih</r></p><par n="mengalir__vblex"/></e>
     <e lm="pimpin"><p><l>memimpin</l><r>pimpin</r></p><par n="mengalir__vblex"/></e>
@@ -13285,6 +13299,7 @@
     <e lm="sedot"><p><l>menyedot</l><r>sedot</r></p><par n="mengalir__vblex"/></e>
     <e lm="selam"><p><l>menyelam</l><r>selam</r></p><par n="mengalir__vblex"/></e>
     <e lm="selinap"><p><l>menyelinap</l><r>selinap</r></p><par n="mengalir__vblex"/></e>
+    <e lm="selundup"><p><l>menyelundup</l><r>selundup</r></p><par n="mengalir__vblex"/></e>
     <e lm="sembelih"><p><l>menyembelih</l><r>sembelih</r></p><par n="mengalir__vblex"/></e>
     <e lm="sentuh"><p><l>menyentuh</l><r>sentuh</r></p><par n="mengalir__vblex"/></e>
     <e lm="serah"><p><l>menyerah</l><r>serah</r></p><par n="mengalir__vblex"/></e>
@@ -14013,6 +14028,7 @@
     <e lm="adu"><p><l>pengaduan</l><r>adu</r></p><par n="penarikan__vblex"/></e>
     <e lm="aju"><p><l>pengajuan</l><r>aju</r></p><par n="penarikan__vblex"/></e>
     <e lm="alih"><p><l>pengalihan</l><r>alih</r></p><par n="penarikan__vblex"/></e>
+    <e lm="alir"><p><l>pengaliran</l><r>alir</r></p><par n="penarikan__vblex"/></e>
     <e lm="ambil"><p><l>pengambilan</l><r>ambil</r></p><par n="penarikan__vblex"/></e>
     <e lm="ambil alih"><p><l>pengambilalihan</l><r>ambil<b/>alih</r></p><par n="penarikan__vblex"/></e>
     <e lm="anggur"><p><l>pengangguran</l><r>anggur</r></p><par n="penarikan__vblex"/></e>
@@ -14456,8 +14472,12 @@
     <!-- <par n="penulis-penulis__vblex"/> -->
     <e lm="datang"><p><l>pendatang-pendatang</l><r>datang</r></p><par n="penulis-penulis__vblex"/></e>
     <e lm="duduk"><p><l>penduduk-penduduk</l><r>duduk</r></p><par n="penulis-penulis__vblex"/></e>
+    <e lm="dukung"><p><l>pendukung-pendukung</l><r>dukung</r></p><par n="penulis-penulis__vblex"/></e>
+    <e lm="ikut"><p><l>pengikut-pengikut</l><r>ikut</r></p><par n="penulis-penulis__vblex"/></e>
     <e lm="pimpin"><p><l>pemimpin-pemimpin</l><r>pimpin</r></p><par n="penulis-penulis__vblex"/></e>
     <e lm="tulis"><p><l>penulis-penulis</l><r>tulis</r></p><par n="penulis-penulis__vblex"/></e>
+    <!-- <par n="penulis-penulisnya__vblex"/> -->
+    <e lm="ikut"><p><l>pengikut-pengikutnya</l><r>ikut</r></p><par n="penulis-penulisnya__vblex"/></e>
     <!-- <par n="penulis__vblex"/> -->
     <e lm="adang"><p><l>pengadang</l><r>adang</r></p><par n="penulis__vblex"/></e>
     <e lm="ambil"><p><l>pengambil</l><r>ambil</r></p><par n="penulis__vblex"/></e>
@@ -14572,12 +14592,14 @@
     <e lm="tolong"><p><l>penolong</l><r>tolong</r></p><par n="penulis__vblex"/></e>
     <e lm="tonton"><p><l>penonton</l><r>tonton</r></p><par n="penulis__vblex"/></e>
     <e lm="toreh"><p><l>penoreh</l><r>toreh</r></p><par n="penulis__vblex"/></e>
+    <e lm="tukar"><p><l>penukar</l><r>tukar</r></p><par n="penulis__vblex"/></e>
     <e lm="tulis"><p><l>penulis</l><r>tulis</r></p><par n="penulis__vblex"/></e>
     <e lm="tumpang"><p><l>penumpang</l><r>tumpang</r></p><par n="penulis__vblex"/></e>
     <e lm="tunggang"><p><l>penunggang</l><r>tunggang</r></p><par n="penulis__vblex"/></e>
     <e lm="tunjang"><p><l>penunjang</l><r>tunjang</r></p><par n="penulis__vblex"/></e>
     <e lm="tunjuk"><p><l>penunjuk</l><r>tunjuk</r></p><par n="penulis__vblex"/></e>
     <e lm="tuntut"><p><l>penuntut</l><r>tuntut</r></p><par n="penulis__vblex"/></e>
+    <e lm="ubah"><p><l>pengubah</l><r>ubah</r></p><par n="penulis__vblex"/></e>
     <e lm="ungsi"><p><l>pengungsi</l><r>ungsi</r></p><par n="penulis__vblex"/></e>
     <e lm="urus"><p><l>pengurus</l><r>urus</r></p><par n="penulis__vblex"/></e>
     <!-- <par n="penulisnya__vblex"/> -->
