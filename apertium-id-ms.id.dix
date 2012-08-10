@@ -12539,7 +12539,6 @@
     <e lm="abdi"><p><l>mengabdi</l><r>abdi</r></p><par n="mengajar__n"/></e>
     <e lm="adopsi"><p><l>mengadopsi</l><r>adopsi</r></p><par n="mengajar__n"/></e>
     <e lm="ajar"><p><l>mengajar</l><r>ajar</r></p><par n="mengajar__n"/></e>
-    <e lm="akomodasi"><p><l>mengakomodasi</l><r>akomodasi</r></p><par n="mengajar__n"/></e>
     <e lm="akses"><p><l>mengakses</l><r>akses</r></p><par n="mengajar__n"/></e>
     <e lm="akuisisi"><p><l>mengakuisisi</l><r>akuisisi</r></p><par n="mengajar__n"/></e>
     <e lm="ambang"><p><l>mengambang</l><r>ambang</r></p><par n="mengajar__n"/></e>
@@ -12972,7 +12971,6 @@
     <e lm="presentasi"><p><l>mempresentasikan</l><r>presentasi</r></p><par n="mengajarkan__n"/></e>
     <e lm="proklamasi"><p><l>memproklamasikan</l><r>proklamasi</r></p><par n="mengajarkan__n"/></e>
     <e lm="promosi"><p><l>mempromosikan</l><r>promosi</r></p><par n="mengajarkan__n"/></e>
-    <e lm="proyeksi"><p><l>memproyeksikan</l><r>proyeksi</r></p><par n="mengajarkan__n"/></e>
     <e lm="pusat"><p><l>memusatkan</l><r>pusat</r></p><par n="mengajarkan__n"/></e>
     <e lm="rahasia"><p><l>merahasiakan</l><r>rahasia</r></p><par n="mengajarkan__n"/></e>
     <e lm="ramal"><p><l>meramalkan</l><r>ramal</r></p><par n="mengajarkan__n"/></e>
@@ -13524,6 +13522,7 @@
     <e lm="pantul"><p><l>memantulkan</l><r>pantul</r></p><par n="mengalirkan__vblex"/></e>
     <e lm="pecah"><p><l>memecahkan</l><r>pecah</r></p><par n="mengalirkan__vblex"/></e>
     <e lm="peduli"><p><l>memedulikan</l><r>peduli</r></p><par n="mengalirkan__vblex"/></e>
+    <e lm="peduli"><p><l>mempedulikan</l><r>peduli</r></p><par n="mengalirkan__vblex"/></e>
     <e lm="pelihara"><p><l>memeliharakan</l><r>pelihara</r></p><par n="mengalirkan__vblex"/></e>
     <e lm="perhati"><p><l>memperhatikan</l><r>perhati</r></p><par n="mengalirkan__vblex"/></e>
     <e lm="pindah"><p><l>memindahkan</l><r>pindah</r></p><par n="mengalirkan__vblex"/></e>
