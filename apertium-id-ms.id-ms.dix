@@ -300,7 +300,7 @@
     <e><p><l>beri<b/>tahu<s n="vblex"/><s n="actv"/></l><r>memberitahu<s n="vblex"/></r></p></e>
     <e><p><l>bersin<s n="vblex"/></l><r>bersin<s n="vblex"/></r></p></e>
     <e><p><l>bertapak<s n="vblex"/></l><r>bertapak<s n="vblex"/></r></p></e>
-    <e><p><l>bertentangan<s n="vblex"/></l><r>bertentangan<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>bertentangan<s n="vblex"/></l><r>bertentangan<s n="vblex"/></r></p></e>
     <e><p><l>capai<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>capai<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></r></p></e>
     <e><p><l>capai<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/><s n="nya"/></l><r>capai<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/><s n="nya"/></r></p></e>
     <e><p><l>debat<s n="n"/><s n="actio"/><s n="ber"/></l><r>berhujah<s n="vblex"/></r></p></e>
@@ -456,6 +456,176 @@
     <e><p><l>titik<b/>berat<s n="n"/><s n="actio"/><s n="actv"/><s n="kan"/></l><r>menitikberatkan<s n="vblex"/></r></p></e>
     <e><p><l>tukar<s n="vblex"/><s n="subst"/><s n="peN"/><s n="sg"/></l><r>tukar<s n="vblex"/><s n="subst"/><s n="peN"/><s n="sg"/></r></p></e>
     <e><p><l>tulis<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></l><r>tulis<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></r></p></e>
+
+    <e><p><l>Belanda<s n="np"/><s n="loc"/><s n="sg"/></l><r>belanda<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>Cina<s n="np"/><s n="loc"/><s n="sg"/></l><r>cina<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>Dr<s n="n"/><s n="sg"/></l><r>Dr<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>Inggris<s n="np"/><s n="loc"/><s n="sg"/></l><r>inggris<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>Jupiter<s n="n"/><s n="sg"/></l><r>musytari<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>Persia<s n="np"/><s n="loc"/><s n="sg"/></l><r>parsi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>Sanskerta<s n="n"/><s n="sg"/></l><r>sanskrit<s n="n"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>adil<s n="adj"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>tribunal<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>adjektiva<s n="n"/><s n="sg"/></l><r>adjektif<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>aksara<s n="n"/><s n="sg"/></l><r>aksara<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>aku<s n="prn"/><s n="enc"/><s n="p1"/><s n="sg"/></l><r>aku<s n="prn"/><s n="enc"/><s n="p1"/><s n="sg"/></r></p></e>
+    <e><p><l>alergi<s n="n"/><s n="sg"/></l><r>alergi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>aliansi<s n="n"/><s n="sg"/></l><r>pakatan<s n="n"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>alim<s n="adj"/></l><r>zuhud<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>alis<s n="n"/><s n="sg"/></l><r>kening<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>aman<s n="adj"/><s n="subst"/><s n="ke-an"/><s n="sg"/><s n="nya"/></l><r>keselamatannya<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>amat<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>pemerhatian<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>anak<s n="n"/><s n="san"/><s n="sg"/></l><r>anakan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>anestesia<s n="n"/><s n="sg"/></l><r>anestesia<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>anggar<s n="n"/><s n="san"/><s n="sg"/></l><r>anggaran<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>aren<s n="n"/><s n="sg"/></l><r>melaka<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>arktik<s n="n"/><s n="sg"/></l><r>artik<s n="n"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>atur<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>tadbir<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>badminton<s n="n"/><s n="sg"/></l><r>badminton<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>bagian<s n="n"/><s n="sg"/></l><r>seksyen<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>baju<s n="n"/><s n="sg"/></l><r>sut<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>banding<s n="n"/><s n="actio"/><s n="pasv"/><s n="per-kan"/></l><r>banding<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>baptis<s n="n"/><s n="san"/><s n="sg"/></l><r>pembaptisan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>barli<s n="n"/><s n="sg"/></l><r>barli<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>baru<s n="adj"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>pembaharuan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>batas<s n="n"/><s n="actio"/><s n="ber-an"/></l><r>jiran<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>belok<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></l><r>selekoh<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>berang-berang<s n="n"/><s n="sg"/></l><r>memerang<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>berkas<s n="n"/><s n="sg"/></l><r>fail<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>bertentangan<s n="vblex"/></l><r>canggah<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>bumiputra<s n="n"/><s n="sg"/></l><r>bumiputra<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>cakram<s n="n"/><s n="sg"/></l><r>cakera<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>cakrawala<s n="n"/><s n="sg"/></l><r>cakerawala<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>camar<s n="n"/><s n="sg"/></l><r>camar<s n="n"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>campur<s n="vblex"/></l><r>rojak<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>capai<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/><s n="nya"/></l><r>capai<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/><s n="nya"/></r></p></e>
+    <e><p><l>cegah<s n="vblex"/><s n="subst"/><s n="peN"/><s n="sg"/></l><r>pencegah<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>cetak<s n="n"/><s n="peN"/><s n="sg"/></l><r>penjaring<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>cetak<s n="n"/><s n="sg"/></l><r>cetak<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>cetak<s n="n"/><s n="sg"/></l><r>cetak<s n="n"/><s n="peN"/><s n="sg"/></r></p></e>
+    <e><p><l>chip<s n="n"/><s n="sg"/></l><r>cip<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>cicak<s n="n"/><s n="sg"/></l><r>cicak<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>ciri<s n="n"/><s n="actio"/><s n="ber-kan"/></l><r>ciri<s n="n"/><s n="actio"/><s n="ber-kan"/></r></p></e>
+    <e><p><l>cumi-cumi<s n="n"/><s n="sg"/></l><r>sotong<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>dahulu<s n="n"/><s n="actio"/><s n="ter"/></l><r>dahulu<s n="n"/><s n="actio"/><s n="ter"/></r></p></e>
+    <e><p><l>dasar<s n="n"/><s n="actio"/><s n="ber-kan"/></l><r>asas<s n="n"/><s n="actio"/><s n="ber-kan"/></r></p></e>
+    <e><p><l>diusapkan<s n="vblex"/><s n="pasv"/><s n="kan"/></l><r>sapu<s n="n"/><s n="actio"/><s n="pasv"/></r></p></e>
+    <e><p><l>dwibahasa<s n="n"/><s n="sg"/></l><r>dwibahasa<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>ekskresi<s n="n"/><s n="sg"/></l><r>perkumuhan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>elektroda<s n="n"/><s n="sg"/></l><r>elektrod<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>faks<s n="n"/><s n="sg"/></l><r>faks<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>fans<s n="n"/><s n="sg"/></l><r>minat<s n="n"/><s n="pe"/><s n="red"/><s n="pl"/></r></p></e>
+    <e><p><l>firdaus<s n="n"/><s n="sg"/></l><r>jannah<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>fon<s n="n"/><s n="sg"/></l><r>fon<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>galas<s n="n"/><s n="sg"/></l><r>galas<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>genetik<s n="n"/><s n="sg"/></l><r>genetik<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>gubuk<s n="n"/><s n="sg"/></l><r>gubuk<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>herba<s n="n"/><s n="sg"/></l><r>herba<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>hierarki<s n="n"/><s n="sg"/></l><r>hierarki<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>hindi<s n="n"/><s n="sg"/></l><r>hindi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>hipnosis<s n="n"/><s n="sg"/></l><r>hipnosis<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>ibadah<s n="n"/><s n="sg"/></l><r>sembahyang<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>iman<s n="n"/><s n="actio"/><s n="ber"/></l><r>mukmin<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>jenis<b/>kelamin<s n="n"/><s n="sg"/></l><r>jantina<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>jimat<s n="n"/><s n="sg"/></l><r>azimat<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>kabah<s n="n"/><s n="sg"/></l><r>*kaabah</r></p></e>
+    <e><p><l>kandung<s n="n"/><s n="sg"/></l><r>pundi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>karakter<s n="n"/><s n="sg"/></l><r>watak<s n="n"/><s n="per-an"/><s n="sg"/></r></p></e>
+    <e><p><l>karakter<s n="n"/><s n="sg"/></l><r>watak<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>karang<s n="n"/><s n="san"/><s n="sg"/></l><r>sejambak<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>kejam<s n="adj"/><s n="subst"/><s n="ke-an"/><s n="sg"/></l><r>kezaliman<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>kemudi<s n="n"/><s n="actio"/><s n="actv"/></l><r>pandu<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>kilau<s n="n"/><s n="sg"/></l><r>kilau<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>kolom<s n="n"/><s n="sg"/></l><r>turus<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>kosa<s n="n"/><s n="sg"/></l><r>kosa<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>kritik<s n="n"/><s n="sg"/></l><r>kritikan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>laut<s n="n"/><s n="sg"/></l><r>marin<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>lokalisasi<s n="n"/><s n="sg"/></l><r>penyetempatan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>luas<s n="adj"/><s n="nya"/></l><r>luasnya<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>mentimun<s n="n"/><s n="sg"/></l><r>timun<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>milik<s n="n"/><s n="ke-an"/><s n="pe"/><s n="sg"/></l><r>milik<s n="n"/><s n="pe-an"/><s n="sg"/></r></p></e>
+    <e><p><l>minat<s n="n"/><s n="sg"/><s n="nya"/></l><r>minatnya<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>mohon<s n="vblex"/><s n="subst"/><s n="pe"/></l><r>pemohon<s n="n"/></r></p></e>
+    <e><p><l>mohon<s n="vblex"/><s n="subst"/><s n="per-an"/></l><r>mohon<s n="vblex"/><s n="subst"/><s n="per-an"/></r></p></e>
+    <e><p><l>moncong<s n="n"/><s n="sg"/></l><r>muncung<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>mortar<s n="n"/><s n="sg"/></l><r>mortar<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>mulai<s n="vblex"/><s n="actv"/></l><r>mula<s n="n"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>mulai<s n="vblex"/><s n="pasv"/></l><r>mula<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>narkotika<s n="n"/><s n="sg"/></l><r>narkotik<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>nilai<s n="n"/><s n="actio"/><s n="ber"/></l><r>nilai<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>obat<s n="n"/><s n="sg"/></l><r>dadah<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>otobiografi<s n="n"/><s n="sg"/></l><r>autobiografi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>pandemik<s n="adj"/></l><r>pandemik<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>pangkal<s n="n"/><s n="san"/><s n="sg"/></l><r>pengkalan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>partisi<s n="n"/><s n="sg"/></l><r>partition<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>paviliun<s n="n"/><s n="sg"/></l><r>pavilion<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>penyatuan<s n="n"/><s n="sg"/></l><r>penyatuan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>perguruan<b/>tinggi<s n="n"/><s n="sg"/></l><r>kolej<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>perolehan<s n="n"/><s n="sg"/></l><r>perolehan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>petaling<s n="n"/><s n="sg"/></l><r>petaling<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>petas<s n="n"/><s n="san"/><s n="sg"/></l><r>mercun<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>pinang<s n="n"/><s n="sg"/></l><r>pinang<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>pinus<s n="n"/><s n="sg"/></l><r>pain<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>praktek<s n="n"/><s n="sg"/></l><r>amal<s n="n"/><s n="peN-an"/><s n="sg"/></r></p></e>
+    <e><p><l>primata<s n="n"/><s n="sg"/></l><r>primate<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>psikiatri<s n="n"/><s n="sg"/></l><r>psikiatri<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>pusat<s n="n"/><s n="actio"/><s n="ber"/></l><r>pangkal<s n="n"/><s n="actio"/><s n="ber-an"/></r></p></e>
+    <e><p><l>pusat<s n="n"/><s n="actio"/><s n="ber"/></l><r>pusat<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>putra<s n="n"/><s n="sg"/></l><r>putera<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>putri<s n="n"/><s n="sg"/></l><r>puteri<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>rangkong<s n="n"/><s n="sg"/></l><r>enggang<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>rinci<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></l><r>butiran<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>rinitis<s n="n"/><s n="sg"/></l><r>rinitis<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>rumah<b/>sakit<s n="n"/><s n="sg"/></l><r>hospital<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>saudara<s n="n"/><s n="sg"/></l><r>ikhwan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>savana<s n="n"/><s n="sg"/></l><r>savana<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>sedia<s n="vblex"/><s n="actv"/><s n="kan"/></l><r>bekal<s n="n"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>sedia<s n="vblex"/><s n="subst"/><s n="peN"/><s n="sg"/></l><r>bekal<s n="n"/><s n="peN"/><s n="sg"/></r></p></e>
+    <e><p><l>sedia<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>bekal<s n="n"/><s n="peN-an"/><s n="sg"/></r></p></e>
+    <e><p><l>sedia<s n="vblex"/><s n="subst"/><s n="per-an"/><s n="sg"/></l><r>inventori<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>sembahyang<s n="n"/><s n="actio"/><s n="ber"/></l><r>sembahyang<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+    <e><p><l>sentimeter<s n="n"/><s n="sg"/></l><r>sentimeter<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>sersan<s n="n"/><s n="sg"/></l><r>sarjan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>shalat<s n="n"/><s n="sg"/></l><r>solat<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>siber<s n="n"/><s n="sg"/></l><r>siber<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>sifat<s n="n"/><s n="sg"/></l><r>ciri<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>situs<s n="n"/><s n="red"/><s n="pl"/></l><r>tapak-tapak<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>suap<s n="n"/><s n="san"/><s n="sg"/></l><r>suap<s n="n"/><s n="san"/><s n="sg"/></r></p></e>
+    <e><p><l>sunting<s n="n"/><s n="san"/><s n="sg"/></l><r>sunting<s n="n"/><s n="san"/><s n="sg"/></r></p></e>
+    <e><p><l>surat<s n="n"/><s n="actio"/><s n="actv"/></l><r>menyurat<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>susun<s n="n"/><s n="actio"/><s n="actv"/></l><r>gubal<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>sutra<s n="n"/><s n="sg"/></l><r>sutera<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>tabung<s n="n"/><s n="sg"/></l><r>balang<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>takraw<s n="n"/><s n="sg"/></l><r>takraw<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>tala<s n="n"/><s n="peN"/><s n="sg"/></l><r>tala<s n="n"/><s n="peN"/><s n="sg"/></r></p></e>
+    <e><p><l>talib<s n="n"/><s n="sg"/></l><r>talib<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>tanggap<s n="adj"/><s n="actio"/><s n="actv"/><s n="si"/></l><r>sahut<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e><p><l>tanggung<b/>jawab<s n="n"/><s n="actio"/><s n="ber"/></l><r>bertanggungjawab<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>taoisme<s n="n"/><s n="sg"/></l><r>taoisme<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>terang<s n="adj"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>taklimat<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>terong<s n="n"/><s n="sg"/></l><r>terung<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>tetikus<s n="n"/><s n="sg"/></l><r>tetikus<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>tuju<s n="vblex"/><s n="ter"/></l><r>tumpu<s n="n"/><s n="actio"/><s n="ter"/></r></p></e>
+    <e><p><l>tunjang<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></l><r>elaun<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>undi<s n="n"/><s n="san"/><s n="sg"/></l><r>undi<s n="n"/><s n="san"/><s n="sg"/></r></p></e>
+    <e><p><l>warga<b/>negara<s n="n"/><s n="ke-an"/><s n="sg"/></l><r>warga<b/>negara<s n="n"/><s n="ke-an"/><s n="sg"/></r></p></e>
+    <e><p><l>wudhu<s n="n"/><s n="sg"/></l><r>wuduk<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>zikir<s n="n"/><s n="sg"/></l><r>zikir<s n="n"/><s n="sg"/></r></p></e>
+
+    <e><p><l>Kamboja<s n="np"/><s n="loc"/><s n="sg"/></l><r>kemboja<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>berkah<s n="n"/><s n="ke-an"/><s n="sg"/></l><r>keberkatan<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>karnival<s n="n"/><s n="sg"/></l><r>karnival<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>karpet<s n="n"/><s n="sg"/></l><r>karpet<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>kelasi<s n="n"/><s n="sg"/></l><r>kelasi<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>kuali<s n="n"/><s n="sg"/></l><r>kuali<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>kuasa<s n="n"/><s n="sg"/></l><r>kudrat<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>kubur<s n="n"/><s n="sg"/></l><r>lahad<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>legion<s n="n"/><s n="sg"/></l><r>legion<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>limbat<s n="n"/><s n="sg"/></l><r>limbat<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>lintang<s n="n"/><s n="sg"/></l><r>latitud<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>lipas<s n="n"/><s n="sg"/></l><r>lipas<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>pacu<s n="n"/><s n="actio"/><s n="actv"/></l><r>pecut<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+    <e r="RL"><p><l>pilih<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>undi<s n="n"/><s n="peN-an"/><s n="sg"/></r></p></e>
+    <e><p><l>tanggung<b/>jawab<s n="n"/><s n="sg"/></l><r>tanggungjawabnya<s n="n"/><s n="sg"/></r></p></e>
     
     <e><p><l>ab<s n="n"/></l><r>ab<s n="n"/></r></p></e>
     <e><p><l>aba<s n="n"/></l><r>aba<s n="n"/></r></p></e>
@@ -1438,7 +1608,7 @@
     <e r="RL"><p><l>baru<s n="adj"/></l><r>baharu<s n="adj"/></r></p></e>
     <e><p><l>baru<s n="adj"/></l><r>baru<s n="adj"/></r></p></e>
     <e><p><l>baru<s n="adj"/><s n="actio"/><s n="actv"/><s n="per-i"/></l><r>mengemaskini<s n="vblex"/></r></p></e>
-    <e r="LR"><p><l>baru<s n="adj"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>kemas<s n="adj"/></r></p></e>
+    <!-- <e r="LR"><p><l>baru<s n="adj"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>kemas<s n="adj"/></r></p></e> -->
     <e><p><l>baru<s n="adj"/><s n="ter"/></l><r>baru<s n="adj"/><s n="ter"/></r></p></e>
     <e><p><l>baruna<s n="n"/></l><r>baruna<s n="n"/></r></p></e>
     <e r="LR"><p><l>bas<s n="n"/></l><r>bas<s n="n"/></r></p></e>
@@ -4453,7 +4623,7 @@
     <e r="LR"><p><l>jilbab<s n="n"/></l><r>tudung<s n="n"/></r></p></e>
     <e><p><l>jilid<s n="n"/></l><r>jilid<s n="n"/></r></p></e>
     <e><p><l>jim<s n="n"/></l><r>jim<s n="n"/></r></p></e>
-    <e r="LR"><p><l>jimat<s n="n"/><s n="sg"/></l><r>jimat<s n="adj"/></r></p></e>
+    <!-- <e r="LR"><p><l>jimat<s n="n"/><s n="sg"/></l><r>jimat<s n="adj"/></r></p></e> -->
     <e><p><l>jin<s n="n"/></l><r>jin<s n="n"/></r></p></e>
     <e><p><l>jinak<s n="adj"/></l><r>jinak<s n="adj"/></r></p></e>
     <e><p><l>jingga<s n="n"/></l><r>jingga<s n="n"/></r></p></e>
@@ -5836,7 +6006,7 @@
     <e><p><l>lagu<s n="n"/></l><r>lagu<s n="n"/></r></p></e>
     <e><p><l>laguna<s n="n"/></l><r>laguna<s n="n"/></r></p></e>
     <e><p><l>lahan<s n="n"/></l><r>lahan<s n="n"/></r></p></e>
-    <e r="LR"><p><l>lahap<s n="adj"/><s n="subst"/><s n="pe"/></l><r>death<s n="n"/></r></p></e>
+    <!-- <e r="LR"><p><l>lahap<s n="adj"/><s n="subst"/><s n="pe"/></l><r>death<s n="n"/></r></p></e> -->
     <e><p><l>lahar<s n="n"/></l><r>lahar<s n="n"/></r></p></e>
     <e><p><l>lahat<s n="n"/></l><r>lahat<s n="n"/></r></p></e>
     <e><p><l>lahir<s n="vblex"/></l><r>lahir<s n="vblex"/></r></p></e>
