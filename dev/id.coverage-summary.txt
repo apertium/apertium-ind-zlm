@@ -1,15 +1,22 @@
-Number of tokenised words in the corpus:  36050830
-Number of known words in the corpus:  28912547
-Coverage: 80.1 %
+Number of tokenised words in the corpus:         19021087
+Number of tokenised words unknown to analyser:    3686092  —  19.4 % of tokens had *
+                          unknown to bidix:             0  —   0.0 % of tokens had @
+     w/transfer errors or unknown to generator:         0  —   0.0 % of tokens had #
+
+Error-free coverage of analyser only:            15334995  —  80.6 % of tokens had no *
+Error-free coverage of analyser and bidix:       15334995  —  80.6 % of tokens had no */@
+Error-free coverage of the full translator:      15334995  —  80.6 % of tokens had no */@/#
+
 Top unknown words in the corpus:
-29111 ^tanggal/*tanggal$
-26297 ^lainnya/*lainnya$
-23517 ^dikenal/*dikenal$
-21570 ^terdapat/*terdapat$
-19155 ^km/*km$
-18716 ^terjadi/*terjadi$
-17362 ^Aceh/*Aceh$
-17109 ^an/*an$
-15371 ^I/*I$
-15029 ^II/*II$
-Tokens needed to get 80 %: -71883 . Corresponding wordlist in /tmp/id/corpus-stat-needed.txt
+18581 ^*digunakan$
+16545 ^*disebut$
+15908 ^*lainnya$
+14941 ^*dikenal$
+13217 ^*sekitar$
+12474 ^*terdapat$
+12395 ^*jiwa$
+11586 ^*km$
+10453 ^*an$
+10107 ^*and$
+
+Goal of 80 % bidix-trimmed coverage reached!

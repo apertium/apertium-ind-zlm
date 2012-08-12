@@ -1,15 +1,23 @@
-Number of tokenised words in the corpus:  19543205
-Number of known words in the corpus:  15164208
-Coverage: 77.5 %
+Number of tokenised words in the corpus:         12613364
+Number of tokenised words unknown to analyser:    2579336  —  20.4 % of tokens had *
+                          unknown to bidix:             0  —   0.0 % of tokens had @
+     w/transfer errors or unknown to generator:         0  —   0.0 % of tokens had #
+
+Error-free coverage of analyser only:            10034028  —  79.6 % of tokens had no *
+Error-free coverage of analyser and bidix:       10034028  —  79.6 % of tokens had no */@
+Error-free coverage of the full translator:      10034028  —  79.6 % of tokens had no */@/#
+
 Top unknown words in the corpus:
-19572 ^and/*and$
-15923 ^Amerika/*Amerika$
-14216 ^a/*a$
-13435 ^dikenali/*dikenali$
-12841 ^to/*to$
-12021 ^s/*s$
-11969 ^terdapat/*terdapat$
-11961 ^Pencapaian/*Pencapaian$
-11440 ^an/*an$
-11152 ^ringkasnya/*ringkasnya$
-Tokens needed to get 80 %: 470356 . Corresponding wordlist in /tmp/ms/corpus-stat-needed.txt
+21259 ^*laut$
+17260 ^*seramai$
+17058 ^*and$
+12642 ^*digunakan$
+12106 ^*a$
+10169 ^*dikenali$
+9004 ^*ringkasnya$
+8537 ^*bahagian$
+8511 ^*s$
+8195 ^*an$
+
+Tokens needed to get 80 % bidix-trimmed coverage (no */@/#): 56663
+Storing corresponding wordlist in /tmp/corpus-stat-all-needed.txt
