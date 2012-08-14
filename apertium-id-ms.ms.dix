@@ -6230,7 +6230,10 @@
     <e lm="ampun"><p><l>diampuni</l><r>ampun</r></p><par n="diajari__n"/></e>
     <e lm="tangan"><p><l>ditangani</l><r>tangan</r></p><par n="diajari__n"/></e>
     <!-- <par n="diajarkan__n"/> -->
+    <e lm="guna"><p><l>digunakan</l><r>guna</r></p><par n="diajarkan__n"/></e>
     <e lm="maksud"><p><l>dimaksudkan</l><r>maksud</r></p><par n="diajarkan__n"/></e>
+    <!-- <par n="dialiri__vblex"/> -->
+    <e lm="kenal"><p><l>dikenali</l><r>kenal</r></p><par n="dialiri__vblex"/></e>
     <!-- <par n="dibaca__vblex"/> -->
     <e lm="bakar"><p><l>dibakar</l><r>bakar</r></p><par n="dibaca__vblex"/></e>
     <e lm="jual"><p><l>dijual</l><r>jual</r></p><par n="dibaca__vblex"/></e>
@@ -7022,6 +7025,7 @@
     <e lm="bah"><i>bah</i><par n="kata__n"/></e>
     <e lm="bahadur"><i>bahadur</i><par n="kata__n"/></e>
     <e lm="bahagia"><i>bahagia</i><par n="kata__n"/></e>
+    <e lm="bahagian"><i>bahagian</i><par n="kata__n"/></e>
     <e lm="bahan"><i>bahan</i><par n="kata__n"/></e>
     <e lm="bahar"><i>bahar</i><par n="kata__n"/></e>
     <e lm="bahasa"><i>bahasa</i><par n="kata__n"/></e>
@@ -9281,6 +9285,7 @@
     <e lm="lateks"><i>lateks</i><par n="kata__n"/></e>
     <e lm="latitud"><i>latitud</i><par n="kata__n"/></e>
     <e lm="lauk"><i>lauk</i><par n="kata__n"/></e>
+    <e lm="laut"><i>laut</i><par n="kata__n"/></e>
     <e lm="lautan"><i>lautan</i><par n="kata__n"/></e>
     <e lm="lava"><i>lava</i><par n="kata__n"/></e>
     <e lm="lavender"><i>lavender</i><par n="kata__n"/></e>
@@ -14722,6 +14727,7 @@
     <e lm="marak"><p><l>semarak</l><r>marak</r></p><par n="sebaik__adj"/></e>
     <e lm="panjang"><p><l>sepanjang</l><r>panjang</r></p><par n="sebaik__adj"/></e>
     <e lm="penuh"><p><l>sepenuh</l><r>penuh</r></p><par n="sebaik__adj"/></e>
+    <e lm="ramai"><p><l>seramai</l><r>ramai</r></p><par n="sebaik__adj"/></e>
     <e lm="rata"><p><l>serata</l><r>rata</r></p><par n="sebaik__adj"/></e>
     <e lm="sama"><p><l>sesama</l><r>sama</r></p><par n="sebaik__adj"/></e>
     <e lm="tebal"><p><l>setebal</l><r>tebal</r></p><par n="sebaik__adj"/></e>

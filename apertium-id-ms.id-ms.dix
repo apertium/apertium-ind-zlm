@@ -483,7 +483,8 @@
     <e><p><l>arktik<s n="n"/><s n="sg"/></l><r>artik<s n="n"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>atur<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></l><r>tadbir<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>badminton<s n="n"/><s n="sg"/></l><r>badminton<s n="n"/><s n="sg"/></r></p></e>
-    <e><p><l>bagian<s n="n"/><s n="sg"/></l><r>seksyen<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>bagian<s n="n"/><s n="sg"/></l><r>bahagian<s n="n"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>bagian<s n="n"/><s n="sg"/></l><r>seksyen<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>baju<s n="n"/><s n="sg"/></l><r>sut<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>banding<s n="n"/><s n="actio"/><s n="pasv"/><s n="per-kan"/></l><r>banding<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
     <e><p><l>baptis<s n="n"/><s n="san"/><s n="sg"/></l><r>pembaptisan<s n="n"/><s n="sg"/></r></p></e>
@@ -540,7 +541,8 @@
     <e><p><l>kolom<s n="n"/><s n="sg"/></l><r>turus<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>kosa<s n="n"/><s n="sg"/></l><r>kosa<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>kritik<s n="n"/><s n="sg"/></l><r>kritikan<s n="n"/><s n="sg"/></r></p></e>
-    <e><p><l>laut<s n="n"/><s n="sg"/></l><r>marin<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>laut<s n="n"/><s n="sg"/></l><r>laut<s n="n"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>laut<s n="n"/><s n="sg"/></l><r>marin<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>lokalisasi<s n="n"/><s n="sg"/></l><r>penyetempatan<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>luas<s n="adj"/><s n="nya"/></l><r>luasnya<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>mentimun<s n="n"/><s n="sg"/></l><r>timun<s n="n"/><s n="sg"/></r></p></e>
@@ -3958,6 +3960,7 @@
     <e><p><l>gun<s n="n"/></l><r>gun<s n="n"/></r></p></e>
     <e><p><l>guna<s n="n"/></l><r>guna<s n="n"/></r></p></e>
     <e><p><l>guna<s n="n"/><s n="actio"/><s n="actv"/><s n="kan"/></l><r>guna<s n="n"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+    <e><p><l>guna<s n="n"/><s n="actio"/><s n="pasv"/><s n="kan"/></l><r>guna<s n="n"/><s n="actio"/><s n="pasv"/><s n="kan"/></r></p></e>
     <e r="RL"><p><l>guna<s n="n"/><s n="actio"/><s n="actv"/><s n="kan"/></l><r>mengguna<s n="vblex"/></r></p></e>
     <e><p><l>guna<s n="n"/><s n="actio"/><s n="actv"/><s n="kan"/><s n="nya"/></l><r>guna<s n="n"/><s n="actio"/><s n="actv"/><s n="kan"/><s n="nya"/></r></p></e>
     <e><p><l>guna<s n="n"/><s n="actio"/><s n="actv"/><s n="per-kan"/></l><r>guna<s n="n"/><s n="actio"/><s n="actv"/><s n="per-kan"/></r></p></e>

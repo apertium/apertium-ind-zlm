@@ -6012,10 +6012,13 @@
     <e lm="ampun"><p><l>diampuni</l><r>ampun</r></p><par n="diajari__n"/></e>
     <e lm="tangan"><p><l>ditangani</l><r>tangan</r></p><par n="diajari__n"/></e>
     <!-- <par n="diajarkan__n"/> -->
+    <e lm="guna"><p><l>digunakan</l><r>guna</r></p><par n="diajarkan__n"/></e>
     <e lm="kendali"><p><l>dikendalikan</l><r>kendali</r></p><par n="diajarkan__n"/></e>
     <e lm="maksud"><p><l>dimaksudkan</l><r>maksud</r></p><par n="diajarkan__n"/></e>
     <!-- <par n="diajarnya__n"/> -->
     <e lm="kandung"><p><l>dikandungnya</l><r>kandung</r></p><par n="diajarnya__n"/></e>
+    <!-- <par n="dialiri__vblex"/> -->
+    <e lm="kenal"><p><l>dikenali</l><r>kenal</r></p><par n="dialiri__vblex"/></e>
     <!-- <par n="dialirkan__vblex"/> -->
     <e lm="diusapkan"><i>diusapkan</i><par n="dialirkan__vblex"/></e>
     <!-- <par n="dibaca__vblex"/> -->
