@@ -1,0 +1,50 @@
+This directory contains the necessary files needed to automatically generate linguistic data for Indonesian and Malay transducers (i.e. Apertium's .dix files).
+
+== How to use ==
+To generate Indonesian monolingual dictionary:
+$ cat wordlist.id | sh create-monodix.sh id > ../../apertium-id-ms.id.dix
+
+To generate Malaysian monolingual dictionary:
+$ cat wordlist.ms | sh create-monodix.sh ms > ../../apertium-id-ms.ms.dix
+
+== To add a new word ==
+Create a new entry in manual.*.txt, and rerun the above commands.
+
+== To add a new paradigm ==
+Create a new entry in paradigms.txt, and rerun the above commands. Alternatively, add the new paradigm in header.txt.
+
+== List of files ==
+=== The scripts ===
+* create-monodix.sh
+Use this to generate the dictionary files.
+
+* analyzer.py
+A Python script that is used to generate an Apertium dictionary entry given a surface form. It makes use of KBBI dictionary from Kateglo to lemmatize and POS-tag the input, and hand-coded linguistic knowledge of the language to identify the morphemes. Finally it assigns a suitable paradigm and format the output to comply with the dictionary's format.
+
+* paradigms-gen.py
+Convert the data in paradigms.txt to XML.
+
+* sort-dic.py
+Organize dictionary entries according to paradigm names, sort words alphabetically.
+
+* kateglo.py
+Used to download the KBBI dictionary from http://kateglo.bahtera.org/.
+
+=== The data ===
+* kateglo.txt
+This is the KBBI dictionary downloaded from http://kateglo.bahtera.org/.
+
+* wordlist.id & wordlist.ms
+Lists of words, sorted alphabetically, taken mainly from Wikipedia corpus.
+
+* manual.id.txt & manual.ms.txt
+Each contains a list of dictionary entries (words) that have been added manually.
+
+* exceptions.txt
+This file contains a list of words that have been excluded from the dictionary for some reasons (uncommon words, etc.).
+
+* paradigms.txt
+List of paradigms, in non-XML format.
+
+* header.txt, middle.txt, footer.txt
+Files with the beginning, middle and ending part of the dictionary.

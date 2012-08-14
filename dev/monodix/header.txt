@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
+  <sdefs>
+    <!-- POS categories -->
+    <sdef n="n"/>
+    <sdef n="vblex"/>
+    <sdef n="adj"/>
+    <sdef n="adv"/>
+    <sdef n="mod"/>
+    <sdef n="det"/>
+    <sdef n="prn"/>
+    <sdef n="pr"/>
+    <sdef n="num"/>
+    <sdef n="np"/>
+    <sdef n="ij"/>
+    <sdef n="cnjcoo"/>
+    <sdef n="cnjsub"/>
+    <sdef n="cnjadv"/>
+    <sdef n="part"/>
+    
+    <!-- Gender -->
+    <sdef n="f"/>
+    <sdef n="m"/>
+    <sdef n="mf"/>
+
+    <!-- Number -->
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="sp"/>
+    <sdef n="card"/>
+    <sdef n="ord"/>
+    <sdef n="coll"/>
+    
+    <!-- Person -->
+    <sdef n="p1"/>
+    <sdef n="p2"/>
+    <sdef n="p3"/>
+    
+    <!-- Adj -->
+    <sdef n="sup"/>
+    
+    <!-- Case -->
+    <sdef n="loc"/>
+    
+    <!-- Voice -->
+    <sdef n="actv"/>
+    <sdef n="pasv"/>
+    
+    <!-- Affixes -->
+    <sdef n="ber-an"/>
+    <sdef n="ber-kan"/>
+    <sdef n="ber"/>
+    <sdef n="kan"/>
+    <sdef n="ke-an"/>
+    <sdef n="ke"/>
+    <sdef n="pe-an"/>
+    <sdef n="pe"/>
+    <sdef n="peN-an"/>
+    <sdef n="peN"/>
+    <sdef n="per-an"/>
+    <sdef n="per-i"/>
+    <sdef n="per-kan"/>
+    <sdef n="per"/>
+    <sdef n="san"/>
+    <sdef n="se"/>
+    <sdef n="si"/>
+    <sdef n="ter"/>
+
+    <sdef n="kah"/>
+    <sdef n="pun"/>
+    <sdef n="nya"/>
+    
+    <!-- Reduplication -->
+    <sdef n="red"/>
+    
+    <sdef n="tn"/>
+    <sdef n="dem"/>
+    <sdef n="itg"/>
+    <sdef n="neg"/>
+    <sdef n="subj"/>
+    <sdef n="obj"/>
+    <sdef n="pro"/>
+    <sdef n="enc"/>
+    <sdef n="pos"/>
+    <sdef n="rel"/>
+    <sdef n="ind"/>
+    <sdef n="subst"/>
+    <sdef n="actio"/>
+    <sdef n="attr"/>
+    
+    <sdef n="sent"/>
+    <sdef n="cm"/> 
+    <sdef n="lpar"/> 
+    <sdef n="rpar"/> 
+    <sdef n="lquest"/> 
+    <sdef n="apos"/> 
+    <sdef n="percent"/>
+    <sdef n="guio"/>
+  </sdefs>
+  <pardefs>
+    <pardef n="guionet">
+    <e>
+      <p>
+        <l>-</l>
+        <r>-<s n="guio"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="coma">
+    <e>
+      <p>
+        <l>,</l>
+        <r>,<s n="cm"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="aposchar">
+    <e>
+        <i>'</i>
+    </e>
+    <e r="LR">
+      <p>
+        <l>’</l>
+        <r>'</r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="cometa">
+    <e>
+        <par n="aposchar"/> 
+      <p>
+        <l></l>
+        <r><s n="apos"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="numeros">
+    <e>
+      <re>[0-9]+([.,][0-9]+)?</re>
+      <p>
+        <l></l>
+        <r><s n="num"/></r>
+      </p>
+    </e>
+    <e>
+      <re>[0-9]+([.,][0-9]+)?%</re>
+      <p>
+        <l></l>
+        <r><s n="num"/><s n="percent"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="separa">
+    <e>
+      <re>[.\?;:!]</re>
+      <p>
+        <l></l>
+        <r><s n="sent"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="separ">
+    <e>
+      <re>[¿¡]</re>
+      <p>
+        <l></l>
+        <r><s n="lquest"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="paresq">
+    <e>
+      <re>[\(\[]</re>
+      <p>
+        <l></l>
+        <r><s n="lpar"/></r>
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="pardret">
+    <e>
+      <re>[\)\]]</re>
+      <p>
+        <l></l>
+        <r><s n="rpar"/></r>
+      </p>
+    </e>
+    </pardef>
