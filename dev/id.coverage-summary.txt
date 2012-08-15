@@ -1,14 +1,13 @@
 Number of tokenised words in the corpus:         19021087
-Number of tokenised words unknown to analyser:    3686092  —  19.4 % of tokens had *
+Number of tokenised words unknown to analyser:    3666976  —  19.3 % of tokens had *
                           unknown to bidix:             0  —   0.0 % of tokens had @
      w/transfer errors or unknown to generator:         0  —   0.0 % of tokens had #
 
-Error-free coverage of analyser only:            15334995  —  80.6 % of tokens had no *
-Error-free coverage of analyser and bidix:       15334995  —  80.6 % of tokens had no */@
-Error-free coverage of the full translator:      15334995  —  80.6 % of tokens had no */@/#
+Error-free coverage of analyser only:            15354111  —  80.7 % of tokens had no *
+Error-free coverage of analyser and bidix:       15354111  —  80.7 % of tokens had no */@
+Error-free coverage of the full translator:      15354111  —  80.7 % of tokens had no */@/#
 
 Top unknown words in the corpus:
-18581 ^*digunakan$
 16545 ^*disebut$
 15908 ^*lainnya$
 14941 ^*dikenal$
@@ -18,5 +17,6 @@ Top unknown words in the corpus:
 11586 ^*km$
 10453 ^*an$
 10107 ^*and$
+9443 ^*dilakukan$
 
 Goal of 80 % bidix-trimmed coverage reached!

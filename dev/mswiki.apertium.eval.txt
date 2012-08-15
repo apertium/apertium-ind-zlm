@@ -1,0 +1,28 @@
+Test file: 'mswiki.apertium-ms-id.txt'
+Reference file 'mswiki.apertium-ms-id.postedited.txt'
+
+Statistics about input files
+-------------------------------------------------------
+Number of words in reference: 2084
+Number of words in test: 2081
+Number of unknown words (marked with a star) in test: 256
+Percentage of unknown words: 12.30 %
+
+Results when removing unknown-word marks (stars)
+-------------------------------------------------------
+Edit distance: 158
+Word error rate (WER): 7.58 %
+Number of position-independent correct words: 1945
+Position-independent word error rate (PER): 6.67 %
+
+Results when unknown-word marks (stars) are not removed
+-------------------------------------------------------
+Edit distance: 336
+Word Error Rate (WER): 16.12 %
+Number of position-independent correct words: 1767
+Position-independent word error rate (PER): 15.21 %
+
+Statistics about the translation of unknown words
+-------------------------------------------------------
+Number of unknown words which were free rides: 178
+Percentage of unknown words that were free rides: 69.53 %
