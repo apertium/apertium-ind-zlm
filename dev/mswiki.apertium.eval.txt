@@ -26,3 +26,33 @@ Statistics about the translation of unknown words
 -------------------------------------------------------
 Number of unknown words which were free rides: 178
 Percentage of unknown words that were free rides: 69.53 %
+
+
+Test file: 'mswiki.apertium-id-ms.txt'
+Reference file 'mswiki.ms.txt'
+
+Statistics about input files
+-------------------------------------------------------
+Number of words in reference: 2079
+Number of words in test: 2084
+Number of unknown words (marked with a star) in test: 211
+Percentage of unknown words: 10.12 %
+
+Results when removing unknown-word marks (stars)
+-------------------------------------------------------
+Edit distance: 300
+Word error rate (WER): 14.43 %
+Number of position-independent correct words: 1805
+Position-independent word error rate (PER): 13.42 %
+
+Results when unknown-word marks (stars) are not removed
+-------------------------------------------------------
+Edit distance: 477
+Word Error Rate (WER): 22.94 %
+Number of position-independent correct words: 1628
+Position-independent word error rate (PER): 21.93 %
+
+Statistics about the translation of unknown words
+-------------------------------------------------------
+Number of unknown words which were free rides: 177
+Percentage of unknown words that were free rides: 83.89 %

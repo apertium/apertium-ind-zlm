@@ -26,3 +26,33 @@ Statistics about the translation of unknown words
 -------------------------------------------------------
 Number of unknown words which were free rides: 0
 Percentage of unknown words that were free rides: 0%
+
+
+Test file: 'mswiki.google-id-ms.txt'
+Reference file 'mswiki.ms.txt'
+
+Statistics about input files
+-------------------------------------------------------
+Number of words in reference: 2079
+Number of words in test: 2092
+Number of unknown words (marked with a star) in test: 
+Percentage of unknown words: 0.00 %
+
+Results when removing unknown-word marks (stars)
+-------------------------------------------------------
+Edit distance: 289
+Word error rate (WER): 13.90 %
+Number of position-independent correct words: 1823
+Position-independent word error rate (PER): 12.94 %
+
+Results when unknown-word marks (stars) are not removed
+-------------------------------------------------------
+Edit distance: 289
+Word Error Rate (WER): 13.90 %
+Number of position-independent correct words: 1823
+Position-independent word error rate (PER): 12.94 %
+
+Statistics about the translation of unknown words
+-------------------------------------------------------
+Number of unknown words which were free rides: 0
+Percentage of unknown words that were free rides: 0%

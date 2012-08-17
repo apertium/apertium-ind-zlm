@@ -37,9 +37,11 @@ dev/monodix/sort-dic.py -text
 dev/monodix/wordlist.id -text
 dev/monodix/wordlist.ms -text
 dev/ms.coverage-summary.txt -text
+dev/mswiki.apertium-id-ms.txt -text
 dev/mswiki.apertium-ms-id.postedited.txt -text
 dev/mswiki.apertium-ms-id.txt -text
 dev/mswiki.apertium.eval.txt -text
+dev/mswiki.google-id-ms.txt -text
 dev/mswiki.google-ms-id.postedited.txt -text
 dev/mswiki.google-ms-id.txt -text
 dev/mswiki.google.eval.txt -text
