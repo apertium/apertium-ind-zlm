@@ -60,4 +60,10 @@ dev/trimmed-coverage.sh -text
 /id-ms.prob -text svneol=unset#unset
 /modes.xml -text
 /ms-id.prob -text svneol=unset#unset
+paper/Makefile -text
+paper/coling2012.sty -text
+paper/colingbiblio.bib -text
+paper/id-ms.coling2012.tex -text
+paper/paralist.sty -text
+paper/titlesec.sty -text
 /principal.xsl -text
