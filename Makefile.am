@@ -72,6 +72,9 @@ modes/$(PREFIX2).mode: modes.xml
 # Installation
 
 EXTRA_DIST=$(PREFIX1).prob $(PREFIX2).prob \
+           $(BASENAME).$(LANG1).dix \
+           $(BASENAME).$(LANG2).dix \
+           $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(PREFIX1).t1x \
            $(BASENAME).$(PREFIX2).t1x \
            modes.xml
