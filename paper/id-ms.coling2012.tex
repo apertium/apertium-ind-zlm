@@ -4,36 +4,35 @@
 \documentclass[10pt,a5paper,twoside]{article}
 \usepackage{coling2012}
 
-\title{Article Title: document template for COLING-2012}
+\title{Rule-based Machine Translation between Indonesian and Malaysian}
 
 %for authors: in case of more than four author names ref. to commented line below 
 %\author{$Annie~SMITH^{1, 2}~~~LI~Xiao Dong^{1, 3}$\\$~~~Third~Author^{1, 2}~~~Fourth~Author^{1, 3}~~~ Fifth~Author^{2, 3}$\\
-\author{$Annie~SMITH^{1, 2}~~~LI~Xiao Dong^{1, 3}$\\
-{\small  	(1) INSTITUTE\_1, address 1\\ 
- 		(2) INSTITUTE\_2, address 2\\
-		(3) INSTITUTE\_3, address 3\\
-  \texttt{Annie.Smith@institute.edu.ca, Li.Xiao-Dong@iitb.ac.in} \\ 
+\author{$Raymond~Hendy~Susanto^{1}$\\
+{\small  	(1) Department of Computer Science, National University of Singapore\\ 
+ 		%(2) INSTITUTE\_2, address 2\\
+		%(3) INSTITUTE\_3, address 3\\
+  \texttt{raymondhs@nus.edu.sg} \\ 
 }}
 
 \begin{document}
 \maketitle
 %% The first mandatory ABSTRACT (\abstractEn) section below is for the English language
 \abstractEn{  %ABSTRACT}{
-Place for the abstract in English (maximum 150 words). \\	
-This is a template for the submissions and proceedings of COLING-2012 and associated events. The Programme Committee and the Organizing Committee want to encourage participants to read as many contributions as possible during the conference and the workshops, and to lower the number of copies and the unit cost of paper proceedings. To ensure very good readability on PC screens as well as good readability of the paper in proceedings, authors are encouraged to use the \emph{Charter} font (for LaTeX) and the \emph{Charis} or \emph{Georgia} font (for MS or Libre Office word processors) if they can, otherwise please use \emph{Times New Roman}. Also, \emph{the format will be A5} (2 pages on screen, 1 page on a larger standard format in print). The title of the article is in 14pt, bold, centered. Authors are in italics, 11pt, centered; affiliations in 9pt.  E-mail addresses are in Courier New, 10pt, centered.}
+We describe the development of a bidirectional machine translation system between Indonesian and Malaysian, two closely related Austronesian languages widely spoken by 180 million speakers around the world. The system is based on the re-use of free and publicly available resources, such as the Apertium machine translation platform and Wikipedia. We also present our approaches to overcome the data scarcity problems in both languages by exploiting the morphology similarities between the two.}
 
 %for authors: the line below is for instruction purposes and can be commented
-\textbf{AT SUBMISSION TIME, PLEASE ANONYMISE everywhere, REPLACING NAMES BY DUMMIES LIKE John DOE\_1, Jack DOE\_2.}
+%\textbf{AT SUBMISSION TIME, PLEASE ANONYMISE everywhere, REPLACING NAMES BY DUMMIES LIKE John DOE\_1, Jack DOE\_2.}
 
 %for authors: the abstract section below is optional and can be commented otherwise
 %% The second ABSTRACT (\abstractOL) given below is for the optional language
-\abstractOL{ %TITLE AND ABSTRACT IN ANOTHER LANGUAGE, $L_{2}$ (OPTIONAL, AND ON SAME PAGE)}{
-\\\\
-{\centering{{\Large{\textbf{Translation in $L_{2}$ of the article title}}} (if option used):14pt, bold,centered}}\\\\
-The translation of the title and abstract in another language $L_{2}$ is optional.  If the title is translated, the abstract must also be translated, as exactly as possible. In that case, put an abstract in $L_{2}$ (maximum 170 words as translation expands text length) here.\\\\
-Apart from enhancing visibility in one’s own national scientific communities, these parallel abstracts might be the seed for a multilingual natural parallel corpus in computational linguistics.
-Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? 
-}
+% \abstractOL{ %TITLE AND ABSTRACT IN ANOTHER LANGUAGE, $L_{2}$ (OPTIONAL, AND ON SAME PAGE)}{
+% \\\\
+% {\centering{{\Large{\textbf{Translation in $L_{2}$ of the article title}}} (if option used):14pt, bold,centered}}\\\\
+% The translation of the title and abstract in another language $L_{2}$ is optional.  If the title is translated, the abstract must also be translated, as exactly as possible. In that case, put an abstract in $L_{2}$ (maximum 170 words as translation expands text length) here.\\\\
+% Apart from enhancing visibility in one’s own national scientific communities, these parallel abstracts might be the seed for a multilingual natural parallel corpus in computational linguistics.
+% Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? 
+% }
 
 %%-------------
 %for authors: if only English language option is chosen comment the \abstractOL section above and use \keywordsEn below 
@@ -41,7 +40,7 @@ Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitar
 
 %for authors: for keywords section either use \keywordsEn OR \keywordsOL below as relevant
 %Example for English only keywords list
-%\keywordsEn{Here a list of keywords in English}
+\keywordsEn{machine translation, Malay languages, morphology}
 
 %Example for English + optional language keywords list
 %\keywordsOL{Here a list of keywords in English}
