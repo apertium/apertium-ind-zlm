@@ -48,11 +48,18 @@ We describe the development of a bidirectional machine translation system betwee
 %%--------------
 
 \newpage
-%================================================================
-% section 1
-\section{Optional condensed 2-page version in $L_{2}$ (1st section if present)}
-If the “other language” option is used on the first page, it is possible to put here a condensed version of the paper in the same L2 language. It should take no more than 2 pages.\\
-The remaining of this section is not an example of a condensed version, rather a quick experiment to translate the above sentence with 2 widely known MT systems (PE below means  PostEditing).
+\section{Introduction}
+
+\section{System}
+The system is based on the Apertium machine translation platform \citep{forcada11a}.\footnote{\url{http://www.apertium.org}} The platform was originally aimed at the Romance languages of the Iberian peninsula, but has also been adapted for other, more distantly related language pairs. The whole platform, both programs and data, are licensed under the Free Software Foundation's General Public Licence\footnote{\url{http://www.fsf.org/licensing/licenses/gpl.html}} (GPL) and all the software and data for the 33 supported language pairs (and the other pairs being worked on) is available for download from the project website.
+\subsection{Architecture of the system}
+\subsection{Morphological transducers}
+There is one publicly available morphological tool for Indonesian, namely MorphInd \citep{larasati2011indonesian}. However, MorphInd is only designed for analysis, while we wanted the dictionary to be able to be used for both morphological analysis and generation. Moreover, there are rarely linguistic resources and tools available for Malaysian language. \citet{Baldwin06opensource} has developed a free/open-source lemmatiser for Malay, but this does not meet our need either since we wanted to include other important morphological information in our Malaysian transducer, such as parts of speech and affixes. Thus, we decided to build the morphological transducers from scratch.
+
+Similar to most Apertium language pairs, the morphological transducers for both Indonesian and Malaysian are constructed using \emph{lttoolbox}, a toolbox for morphological analysis and generation that is available under free/open-source licence. The monolingual dictionary for each language is provided as XML-formatted entries, which is then compiled into a fast finite state transducers using the toolbox.
+\subsubsection{Indonesian morphological transducer}
+\subsubsection{Malaysian morphological transducer}
+\subsection{Bilingual dictionary}
 
 % section 2
 \section{Main content of the paper (in English)}
@@ -84,7 +91,7 @@ The recent JEP-TALN-RECITAL-2012 conferences have successfully addressed that pr
 %% end font size testing -----------
 -
 % 2.2.1
-\subsubsection{Document format \& character fonts}
+\subsubsection{Document format\& character fonts}
 \emph{Submissions will be in PDF, with page dimensions of 150 mm x 210 mm, and margins of 5 mm on all sides.} That corresponds to A5 (148.2 mm x 209.9 mm) with 4.1 mm horizontal margins and 5 mm vertical margins.  To get the same layout on an A4 format while preparing a submission, choose A4 and put the margins at 35 mm (horizontal) and 48.3 mm (vertical).
 \newpage
 \emph{No header or footer should be present in submissions.}
@@ -216,7 +223,6 @@ Thanks to Gilles S\'erasset for having kindly shared with us the templates he de
 
 \bibliographystyle{apa}
 
-\bibliography{colingbiblio}
-\nocite{TALN2007,LaigneletRioult09,LanglaisPatry07,au1972,cks1981,mb2012}
+\bibliography{id-ms.coling2012}
 
 \end{document}

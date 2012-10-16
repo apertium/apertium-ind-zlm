@@ -63,6 +63,7 @@ dev/trimmed-coverage.sh -text
 paper/Makefile -text
 paper/coling2012.sty -text
 paper/colingbiblio.bib -text
+paper/id-ms.coling2012.bib -text
 paper/id-ms.coling2012.tex -text
 paper/paralist.sty -text
 paper/titlesec.sty -text
