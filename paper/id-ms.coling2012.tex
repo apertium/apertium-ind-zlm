@@ -58,7 +58,13 @@ There is one publicly available morphological tool for Indonesian, namely MorphI
 
 Similar to most Apertium language pairs, the morphological transducers for both Indonesian and Malaysian are constructed using \emph{lttoolbox}, a toolbox for morphological analysis and generation that is available under free/open-source licence. The monolingual dictionary for each language is provided as XML-formatted entries, which is then compiled into a fast finite state transducers using the toolbox.
 \subsubsection{Indonesian morphological transducer}
+The words were added semi-automatically to the Indonesian morphological analyser based on frequency, with the most frequent words being added first. The frequency list was taken from a database dump of the Indonesian Wikipedia. For each word in the frequency list, we obtained its lemma and part of speech information from Kateglo\footnote{\url{http://kateglo.bahtera.org/}}, an online Indonesian dictionary with over 70,000 entries licensed under CC BY-SA 3.0\footnote{\url{http://creativecommons.org/licenses/by-sa/3.0/}}. Since we also wanted to include affix information in our analyser, we wrote a rule-based morpheme separator to decompose a given Indonesian surface form into their constituent morphemes, also by making use of the lemma information from Kateglo. Moreover, closed classes (e.g. pronouns, conjunctions) were added by hand.
 \subsubsection{Malaysian morphological transducer}
+A frequency list for Malaysian was also created based on a database dump of the Malaysian Wikipedia. Unlike Indonesian, we barely found a comprehensive Malaysian dictionary with adequate morphological information, such as lemma and part of speech. Hence, the Malaysian analyser was built using the two strategies below.
+
+First, Malaysian words that also exist as an Indonesian word were assumed to share the same morphological information (i.e. the same lemma and part of speech), and added automatically to the analyser. Although this method may introduce a number of false friends (e.g. \emph{polisi} means `policy' in Malay but `police' in Indonesian), the benefit outweighs the risk since there is huge overlap in the lexicons of the two languages. Moreover, most of these false friends usually belong to the same part of speech.
+
+Second, we also added Malaysian words which appear in our bilingual lexicon. Our approaches to building the bilingual dictionary is presented in the following section.
 \subsection{Bilingual dictionary}
 
 % section 2
