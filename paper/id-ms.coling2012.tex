@@ -51,20 +51,63 @@ We describe the development of a bidirectional machine translation system betwee
 \section{Introduction}
 
 \section{System}
-The system is based on the Apertium machine translation platform \citep{forcada11a}.\footnote{\url{http://www.apertium.org}} The platform was originally aimed at the Romance languages of the Iberian peninsula, but has also been adapted for other, more distantly related language pairs. The whole platform, both programs and data, are licensed under the Free Software Foundation's General Public Licence\footnote{\url{http://www.fsf.org/licensing/licenses/gpl.html}} (GPL) and all the software and data for the 33 supported language pairs (and the other pairs being worked on) is available for download from the project website.
+The system is based on the Apertium machine translation platform \citep{apertium/2011}.\footnote{\url{http://www.apertium.org}} The platform was originally aimed at the Romance languages of the Iberian peninsula, but has also been adapted for other, more distantly related language pairs. The whole platform, both programs and data, are licensed under the Free Software Foundation's General Public Licence\footnote{\url{http://www.fsf.org/licensing/licenses/gpl.html}} (GPL) and all the software and data for the 33 supported language pairs (and the other pairs being worked on) is available for download from the project website.
+
 \subsection{Architecture of the system}
+
+\begin{figure*}[htbp]
+\begin{center}
+ \includegraphics[width=0.8\textwidth]{architecture.pdf}
+\end{center}
+\caption{The pipeline architecture of the Apertium system.}
+\label{fig:modules}
+\end{figure*}
+
+The Apertium translation engine consists of a Unix-style \emph{pipeline} or
+\emph{assembly line} with the following modules (see Fig.~\ref{fig:modules}):  
+\begin{itemize}
+\item A \emph{deformatter} which encapsulates the format information
+ in the input as \emph{superblanks} that will then be seen
+ as blanks between words by the other modules.
+\item A \emph{morphological analyser} which segments the text in
+  surface forms (SF) (\emph{words}, or, where detected, multi-word lexical
+  units or MWLUs) and for each, delivers one or more \emph{lexical
+    forms} (LF) consisting of \emph{lemma}, \emph{lexical category} and
+  morphological information. 
+\item A \emph{morphological disambiguator} (constraint grammar) which chooses, using linguistic rules
+  the most adequate sequence of morphological analyses for an ambiguous sentence. 
+\item A \emph{lexical transfer} module which reads each SL LF 
+  and delivers the corresponding target-language (TL) LF
+  by looking it up in a bilingual dictionary encoded as an FST
+  compiled from the corresponding XML file. The lexical transfer module may
+  return more than one TL LF for a single SL LF.
+\item A \emph{lexical selection} module which chooses, based on context 
+  rules the most adequate translation of ambiguous source language LFs.
+\item A \emph{structural transfer} module which
+    performs local syntactic operations, is compiled from XML files containing rules that 
+    associate an \emph{action} to each defined LF \emph{pattern}. Patterns are applied left-to-right, and the 
+    longest matching pattern is always selected.
+\item A \emph{morphological generator} which delivers a TL SF
+ for each TL LF, by suitably inflecting it. 
+\item A \emph{reformatter} which de-encapsulates any format
+  information.
+\end{itemize}
+
 \subsection{Morphological transducers}
 There is one publicly available morphological tool for Indonesian, namely MorphInd \citep{larasati2011indonesian}. However, MorphInd is only designed for analysis, while we wanted the dictionary to be able to be used for both morphological analysis and generation. Moreover, there are rarely linguistic resources and tools available for Malaysian language. \citet{Baldwin06opensource} has developed a free/open-source lemmatiser for Malay, but this does not meet our need either since we wanted to include other important morphological information in our Malaysian transducer, such as parts of speech and affixes. Thus, we decided to build the morphological transducers from scratch.
 
 Similar to most Apertium language pairs, the morphological transducers for both Indonesian and Malaysian are constructed using \emph{lttoolbox}, a toolbox for morphological analysis and generation that is available under free/open-source licence. The monolingual dictionary for each language is provided as XML-formatted entries, which is then compiled into a fast finite state transducers using the toolbox.
+
 \subsubsection{Indonesian morphological transducer}
 The words were added semi-automatically to the Indonesian morphological analyser based on frequency, with the most frequent words being added first. The frequency list was taken from a database dump of the Indonesian Wikipedia. For each word in the frequency list, we obtained its lemma and part of speech information from Kateglo\footnote{\url{http://kateglo.bahtera.org/}}, an online Indonesian dictionary with over 70,000 entries licensed under CC BY-SA 3.0\footnote{\url{http://creativecommons.org/licenses/by-sa/3.0/}}. Since we also wanted to include affix information in our analyser, we wrote a rule-based morpheme separator to decompose a given Indonesian surface form into their constituent morphemes, also by making use of the lemma information from Kateglo. Moreover, closed classes (e.g. pronouns, conjunctions) were added by hand.
+
 \subsubsection{Malaysian morphological transducer}
 A frequency list for Malaysian was also created based on a database dump of the Malaysian Wikipedia. Unlike Indonesian, we barely found a comprehensive Malaysian dictionary with adequate morphological information, such as lemma and part of speech. Hence, the Malaysian analyser was built using the two strategies below.
 
 First, Malaysian words that also exist as an Indonesian word were assumed to share the same morphological information (i.e. the same lemma and part of speech), and added automatically to the analyser. Although this method may introduce a number of false friends (e.g. \emph{polisi} means `policy' in Malay but `police' in Indonesian), the benefit outweighs the risk since there is huge overlap in the lexicons of the two languages. Moreover, most of these false friends usually belong to the same part of speech.
 
-Second, we also added Malaysian words which appear in our bilingual lexicon. Our approaches to building the bilingual dictionary is presented in the following section.
+Second, we also added Malaysian words which appear in our bilingual lexicon. Since every entry in a bilingual lexicon is a pair of words with the same meaning, we can assume that these words also belong to the same part of speech most of the time. Our approaches to building the bilingual dictionary are presented in the following section.
+
 \subsection{Bilingual dictionary}
 
 % section 2
