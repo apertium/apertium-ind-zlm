@@ -3,7 +3,8 @@
 %% Optional instructions for authors within the tex file are provided as comments and start with 'for authors:...'
 \documentclass[10pt,a5paper,twoside]{article}
 \usepackage{coling2012}
-
+\usepackage{booktabs}
+\usepackage{multirow}
 \title{Rule-based Machine Translation between Indonesian and Malaysian}
 
 %for authors: in case of more than four author names ref. to commented line below 
@@ -111,7 +112,7 @@ Second, we also added Malaysian words which appear in our bilingual lexicon. Sin
 \subsection{Bilingual dictionary}
 There is no freely available bilingual dictionary between Indonesian and Malaysian, so we had to build the dictionary from scratch. At the moment, the bilingual dictionary contains 12,142 entries, which was developed in several ways described below.
 
-First, most of the entries were added using automatic word alignments. We created an Indonesian-Malaysian parallel corpus by translating many articles taken from Malaysian Wikipedia. The translation process is mostly automatic, with the help of existing Malaysian-Indonesian machine translation system such as Google Translate.\footnote{\url{http://translate.google.com/}}
+First, most of the entries were added using automatic word alignments. We created an Indonesian-Malaysian parallel corpus by translating many articles taken from Malaysian Wikipedia. The translation process is mostly automatic, with the help of existing Malaysian-Indonesian machine translation systems such as Google Translate.\footnote{\url{http://translate.google.com/}}
 
 Next the Wikipedia corpus is tagged using our morphological analyser, and word alignments were created by running \texttt{Giza++} \citep{Och2003align} on the tagged corpus. We fed the probabilistic dictionary into the \texttt{ReTraTos} toolbox \citep{Caseli2006retratos}, which extracts both phrases and single-word translations from alignments, and converts them into Apertium translation entries. The \texttt{ReTraTos} method gave us about 12,000 translation entries, but also required a manual check due the amount of noise in the resulting data.
 
@@ -123,9 +124,54 @@ The output from the morphological analysis is disambiguated using Apertium's sta
 \subsection{Lexical selection rules}
 Given the closeness of the languages, lexical selection is not a large problem between Indonesian and Malaysian. However, a number of rules can be written for ambiguous words; for example, the Malaysian preposition \emph{daripada} `from (to explain the origin of something), than (comparison)' can be translated into Indonesian as either \emph{dari} `from' or \emph{daripada} `than (comparison)', depending on the surrounding context.
 
-Another example is the copulas \emph{adalah} and \emph{ialah} (both meaning `be'), which exist in both Indonesian and Malaysian, but have a slightly different usage in each language. In Malaysian, \emph{adalah} is used before an adjective phrase or a prepositional phrase and \emph{ialah} is used only before a noun phrase. In comparison to Indonesian, there are no strict rules governing the use of the two words, and their usage is more interchangeable.
+Another example is the copulas \emph{adalah} and \emph{ialah} (both meaning `be'), which exist in both Indonesian and Malaysian, but have a slightly different usage in each language. In Malaysian, \emph{adalah} is used before an adjective phrase or a prepositional phrase, and \emph{ialah} is used only before a noun phrase. In comparison to Indonesian, there are no strict rules governing the use of the two words, and their usage is more interchangeable.
 \subsection{Transfer rules}
 There are barely differences between the grammar of Indonesian and Malaysian, in that the structure of words, phrases, clauses, and sentences are almost exactly the same. That said, the lexical transfer between the two languages works by simple word substitution in most cases.
+
+\section{Evaluation}
+The system was evaluated in four ways. The first was the coverage\footnote{Here coverage is defined as \emph{na\"ive coverage}, that is for any given surface form at least one analysis is returned by our monolingual dictionaries} of the system. The second was the word error rate (WER) of the translation output for our test data set. The third was an analysis of the errors found by the second evaluation. Lastly, we did a comparative evaluation with an existing system.
+
+\subsection{Coverage}
+Lexical coverage of the system is calculated over the Indonesian and Malaysian Wikipedias, as shown in Table~\ref{table:coverage}. The database dump of the Indonesian Wikipedia\footnote{\url{http://id.wikipedia.org/}; \texttt{idwiki-20120429-pages-articles.xml.bz2}} was from the 29th April 2012, and that of Malaysian Wikipedia\footnote{\url{http://ms.wikipedia.org/}; \texttt{mswiki-20120428-pages-articles.xml.bz2}} from the 28th April 2012. Both database dumps were stripped of formatting.
+
+\begin{table}[htbp]
+  \begin{center}
+  \begin{tabular}{lrr}
+  \toprule
+  Corpus & Tokens & Coverage\\
+  \midrule
+  Indonesian Wikipedia & 19,021,087 & 80.70\% \\
+  \midrule
+  Malaysian Wikipedia & 12,613,364 & 80.10\% \\
+  \bottomrule
+  \end{tabular}
+  \caption{Na\"ive vocabulary coverage over Wikipedia.}
+  \label{table:coverage}
+  \end{center}
+\end{table}
+
+\subsection{Quantitative}
+We tested our system on a 2,084 word text taken from various articles in Malaysian Wikipedia. The translation quality was measured using Word Error Rate (WER), a metric based on the Levenshtein distance \citep{levenshtein/1966}. We calculated the WER for each sentence using the \texttt{\small{apertium-eval-translator}}\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/trunk/apertium-eval-translator/}} tool. The WER metric was preferred to other MT metric such as BLEU \citep{Papineni2002bleu} for assessing the postediting effort required.
+
+For the Malaysian to Indonesian direction, the sentences were translated by the system, and then postedited by a native Indonesian speaker. For the Indonesian to Malaysian direction, we used the reference translation, as postedited by the native speaker and used it as a source of Indonesian to be translated to Malaysian, then the original Malaysian sentence was used as the reference translation.
+
+\begin{table}[htbp]
+  \begin{center}
+  \begin{tabular}{ccrrr}
+  \toprule
+  Corpus                 & Direction         & Tokens  & Unknown & WER  \\
+  \midrule
+  \multirow{2}{*}{Malaysian Wikipedia} & id$\rightarrow$ms & 2,079     & 211  & 14.43\% \\
+                          & ms$\rightarrow$id & 2,084     & 256  & 7.58\%  \\
+  \bottomrule
+  \end{tabular}
+    \caption{Word error rate over the Malaysian Wikipedia test data.}
+    \label{table:wer}
+  \end{center}
+\end{table}
+
+\subsection{Qualitative}
+
 % section 2
 \section{Main content of the paper (in English)}
 % subsection 2.1
