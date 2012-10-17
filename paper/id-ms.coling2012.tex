@@ -1,9 +1,13 @@
 %% Example of a LaTeX source file for a COLING-2012 submission
 %% last updated: July 10, 2012
-\documentclass[10pt,a5paper,twoside]{article}
+%\documentclass[10pt,a5paper,twoside]{article}
+\documentclass[10pt,twoside]{article}
 \usepackage{coling2012}
 \usepackage{booktabs}
+\usepackage{times}
 \usepackage{multirow}
+\usepackage{alltt}
+\usepackage[small,bf]{caption}
 
 \newcommand{\tag}[1]{{\small{\texttt{#1}}}}
 
@@ -86,13 +90,16 @@ Second, we also added Malaysian words which appear in our bilingual lexicon. Sin
 \subsection{Bilingual dictionary}
 
 \begin{figure*}[htbp]
-\begin{texttt}
+\begin{center}
 \begin{small}
-<e r="RL"><p>\&<l>\textbf{kemarin}<s n="adv"/></l><r>\textbf{kelmarin}<s n="adv"/></r></p></e>
+\begin{alltt}
+<e r="RL"><p><l>\textbf{kemarin}<s n="adv"/></l>
+             <r>\textbf{kelmarin}<s n="adv"/></r></p></e>
+\end{alltt}
 \end{small}
-\end{texttt}
 \caption{Example entries from the bilingual transfer lexicon. Indonesian is on the left, and Malay on the right. The attributes \texttt{LR} and \texttt{RL} indicate the direction restrictions.}
 \label{fig:bidix}
+\end{center}
 %\vspace{-1em}
 \end{figure*}
 
