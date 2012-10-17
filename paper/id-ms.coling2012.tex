@@ -116,6 +116,16 @@ First, most of the entries were added using automatic word alignments. We create
 Next the Wikipedia corpus is tagged using our morphological analyser, and word alignments were created by running \texttt{Giza++} \citep{Och2003align} on the tagged corpus. We fed the probabilistic dictionary into the \texttt{ReTraTos} toolbox \citep{Caseli2006retratos}, which extracts both phrases and single-word translations from alignments, and converts them into Apertium translation entries. The \texttt{ReTraTos} method gave us about 12,000 translation entries, but also required a manual check due the amount of noise in the resulting data.
 
 Finally, some entries were added manually, which included closed classes and words that frequently appeared in Wikipedia but were not yet added to the bilingual dictionary.
+
+\subsection{Disambiguation}
+The output from the morphological analysis is disambiguated using Apertium's statistical disambiguator module. The module implements a bigram part-of-speech tagger based on hidden Markov models (HMM). To improve the accuracy of our disambiguator, a Constraint Grammar \citep{Karlsson1990cg} could be used as a pre-disambiguator module before feeding the input to the HMM, which is left for future work.
+
+\subsection{Lexical selection rules}
+Given the closeness of the languages, lexical selection is not a large problem between Indonesian and Malaysian. However, a number of rules can be written for ambiguous words; for example, the Malaysian preposition \emph{daripada} `from (to explain the origin of something), than (comparison)' can be translated into Indonesian as either \emph{dari} `from' or \emph{daripada} `than (comparison)', depending on the surrounding context.
+
+Another example is the copulas \emph{adalah} and \emph{ialah} (both meaning `be'), which exist in both Indonesian and Malaysian, but have a slightly different usage in each language. In Malaysian, \emph{adalah} is used before an adjective phrase or a prepositional phrase and \emph{ialah} is used only before a noun phrase. In comparison to Indonesian, there are no strict rules governing the use of the two words, and their usage is more interchangeable.
+\subsection{Transfer rules}
+There are barely differences between the grammar of Indonesian and Malaysian, in that the structure of words, phrases, clauses, and sentences are almost exactly the same. That said, the lexical transfer between the two languages works by simple word substitution in most cases.
 % section 2
 \section{Main content of the paper (in English)}
 % subsection 2.1
