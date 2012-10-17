@@ -51,7 +51,7 @@ We describe the development of a bidirectional machine translation system betwee
 \section{Introduction}
 
 \section{System}
-The system is based on the Apertium machine translation platform \citep{apertium/2011}.\footnote{\url{http://www.apertium.org}} The platform was originally aimed at the Romance languages of the Iberian peninsula, but has also been adapted for other, more distantly related language pairs. The whole platform, both programs and data, are licensed under the Free Software Foundation's General Public Licence\footnote{\url{http://www.fsf.org/licensing/licenses/gpl.html}} (GPL) and all the software and data for the 33 supported language pairs (and the other pairs being worked on) is available for download from the project website.
+The system is based on the Apertium machine translation platform \citep{apertium/2011}.\footnote{\url{http://www.apertium.org/}} The platform was originally aimed at the Romance languages of the Iberian peninsula, but has also been adapted for other, more distantly related language pairs. The whole platform, both programs and data, are licensed under the Free Software Foundation's General Public Licence\footnote{\url{http://www.fsf.org/licensing/licenses/gpl.html}} (GPL) and all the software and data for the 33 supported language pairs (and the other pairs being worked on) is available for download from the project website.
 
 \subsection{Architecture of the system}
 
@@ -109,7 +109,13 @@ First, Malaysian words that also exist as an Indonesian word were assumed to sha
 Second, we also added Malaysian words which appear in our bilingual lexicon. Since every entry in a bilingual lexicon is a pair of words with the same meaning, we can assume that these words also belong to the same part of speech most of the time. Our approaches to building the bilingual dictionary are presented in the following section.
 
 \subsection{Bilingual dictionary}
+There is no freely available bilingual dictionary between Indonesian and Malaysian, so we had to build the dictionary from scratch. At the moment, the bilingual dictionary contains 12,142 entries, which was developed in several ways described below.
 
+First, most of the entries were added using automatic word alignments. We created an Indonesian-Malaysian parallel corpus by translating many articles taken from Malaysian Wikipedia. The translation process is mostly automatic, with the help of existing Malaysian-Indonesian machine translation system such as Google Translate.\footnote{\url{http://translate.google.com/}}
+
+Next the Wikipedia corpus is tagged using our morphological analyser, and word alignments were created by running \texttt{Giza++} \citep{Och2003align} on the tagged corpus. We fed the probabilistic dictionary into the \texttt{ReTraTos} toolbox \citep{Caseli2006retratos}, which extracts both phrases and single-word translations from alignments, and converts them into Apertium translation entries. The \texttt{ReTraTos} method gave us about 12,000 translation entries, but also required a manual check due the amount of noise in the resulting data.
+
+Finally, some entries were added manually, which included closed classes and words that frequently appeared in Wikipedia but were not yet added to the bilingual dictionary.
 % section 2
 \section{Main content of the paper (in English)}
 % subsection 2.1
