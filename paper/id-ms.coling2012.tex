@@ -3,7 +3,7 @@
 \documentclass[10pt,a5paper,twoside]{article}
 \usepackage{coling2012}
 \usepackage{booktabs}
-\usepackage{times}
+%\usepackage{times}
 \usepackage{multirow}
 \usepackage{alltt}
 \usepackage[small,bf]{caption}
@@ -94,6 +94,8 @@ Second, we also added Malaysian words which appear in our bilingual lexicon. Sin
 \begin{alltt}
 <e r="RL"><p><l>\textbf{kemarin}<s n="adv"/></l>
              <r>\textbf{kelmarin}<s n="adv"/></r></p></e>
+<e r="LR"><p><l>\textbf{kemarin}<s n="adv"/></l>
+             <r>\textbf{semalam}<s n="adv"/></r></p></e>
 \end{alltt}
 \end{small}
 \caption{Example entries from the bilingual transfer lexicon. Indonesian is on the left, and Malay on the right. The attributes \texttt{LR} and \texttt{RL} indicate the direction restrictions.}
@@ -157,7 +159,7 @@ Lexical coverage of the system is calculated over the Indonesian and Malaysian W
   \begin{center}
   \begin{tabular}{ccc}
   \toprule
-  Corpus & Tokens & Coverage\\
+  \bf{Corpus} & \bf{Tokens} & \bf{Coverage}\\
   \midrule
   Indonesian Wikipedia & 19,021,087 & 80.70\% \\
   \midrule
@@ -178,7 +180,7 @@ For the Malaysian to Indonesian direction, the sentences were translated by the 
   \begin{center}
   \begin{tabular}{ccccc}
   \toprule
-  Corpus                 & Direction         & Tokens  & Unknown & WER  \\
+  \bf{Corpus}                 & \bf{Direction}         & \bf{Tokens}  & \bf{Unknown} & \bf{WER}  \\
   \midrule
   \multirow{2}{*}{Malaysian Wikipedia} & id$\rightarrow$ms & 2,079     & 211  & 14.43\% (83.89\%) \\
                           & ms$\rightarrow$id & 2,084     & 256  & 7.58\% (69.53\%)  \\
@@ -200,7 +202,7 @@ We compared our system to another MT system for Indonesian to Malaysian and Mala
   \begin{center}
   \begin{tabular}{clc}
   \toprule
-  Dir.                 & System         & WER  \\
+  \bf{Dir.}                 & \bf{System}         & \bf{WER}  \\
   \midrule
   \multirow{2}{*}{id$\rightarrow$ms} & \small{Apertium} & 14.43\% \\
                                      & \small{Google} & 13.90\% \\
@@ -214,7 +216,31 @@ We compared our system to another MT system for Indonesian to Malaysian and Mala
   \end{center}
 \end{table}
 
-We notice from Table~\ref{table:comp} that Google outperforms the Apertium system in both translation directions. For Malaysian to Indonesian, the error rate is reduced by almost a half. It is also interesting that both systems perform almost as worse for Indonesian to Malaysian, perhaps due to the fact that translating from Indonesian to Malaysian is more ambiguous then translating to Indonesian.
+We notice from Table~\ref{table:comp} that Google outperforms the Apertium system in both translation directions. For Malaysian to Indonesian, the error rate is reduced by almost a half. It is also interesting that both systems perform almost as worse for Indonesian to Malaysian, perhaps due to the fact that translating from Indonesian to Malaysian is more ambiguous then translating to Indonesian. Google seems to have a greater vocabulary coverage than Apertium, as exemplified in the first example in Table~\ref{table:ex}. The Malaysian word \emph{mencuba} (`try') is unknown to the Apertium system (denoted by the asterisk), whereas it is correctly translated by Google as \emph{mencoba}.
+
+Moreover, in many cases, Google seems to be performing better in picking the most natural translations. In the second example, it translates the noun phrase \emph{kuasa ketenteraan} (`military power') to \emph{kekuatan militer}, which sounds much more natural than \emph{kuasa ketentaraan}.
+
+\begin{table}[htbp]
+  \begin{center}
+  \begin{tabular}{llc}
+  \toprule
+  Source & Para saintis \textbf{mencuba} menjawab pertanyaan tersebut.\\
+  Apertium & Para ilmuwan \textbf{*mencuba} menjawab pertanyaan tersebut.\\
+  Google & Para ilmuwan \textbf{mencuba} menjawab pertanyaan tersebut.\\
+  Reference & Para ilmuwan \textbf{mencoba} menjawab pertanyaan tersebut.\\
+  & `Scientist are trying to answer that question.'\\
+  \midrule
+  Source & Sebuah \textbf{kuasa ketenteraan} yang disegani.\\
+  Apertium & Sebuah \textbf{kuasa ketentaraan} yang disegani.\\
+  Google & Sebuah \textbf{kekuatan militer} yang disegani.\\
+  Reference & Sebuah \textbf{kekuatan militer} yang disegani.\\
+  & `A respectable military power.'\\
+  \bottomrule
+  \end{tabular}
+    \caption{Example translations from Malaysian to Indonesian.}
+    \label{table:ex}
+  \end{center}
+\end{table}
 
 \section*{Conclusion and future work}
 
