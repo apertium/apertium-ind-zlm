@@ -6,6 +6,7 @@
 %\usepackage{times}
 \usepackage{multirow}
 \usepackage{alltt}
+\usepackage{linguex}
 \usepackage[small,bf]{caption}
 
 \newcommand{\tag}[1]{{\small{\texttt{#1}}}}
@@ -43,9 +44,9 @@ The development of this system is motivated by an early prototype Apertium syste
 \begin{itemize}
 \item{Morphological analyser: We wanted to create a morphological analyser which is not only robust, but also does not overgenerate too much. Both Indonesian and Malaysian morphology are characterized by rich derivational morphology, but poor inflectional morphology, unlike some other morphologically-complex languages such as Arabic and Turkish. Moreover, each root undergoes an idiosyncratic subset of these derivational processes (i.e. we cannot simply apply the derivational affixes to new words).}
 \item{Bidirectional: A new translation direction from Malaysian to Indonesian was added, and used as the starting point instead of the opposite direction, since translating from Indonesian to Malaysian appears to be more ambiguous in general.}
-\item{Evaluation: Finally, we performed a quality evaluation of our system, which was not done before.}
+\item{Evaluation: Finally, we performed a quality evaluation of our system, which has not been done before.}
 \end{itemize}
-There also exists a statistical machine translation system that has been developed for this language pair, that is Google Translate\footnote{\url{http://translate.google.com/}}, a web-based multilingual translation system.
+Furthermore, there exists a statistical machine translation system that has been developed for this language pair, that is Google Translate\footnote{\url{http://translate.google.com/}}, a web-based multilingual translation system.
 
 \section{System}
 \label{sec:sys}
@@ -119,7 +120,7 @@ Second, we also added Malaysian words which appear in our bilingual lexicon. Sin
 <e><p><l>\textbf{karena}<s n="cnjsub"/></l><r>\textbf{kerana}<s n="cnjsub"/></r></p></e>
 \end{alltt}
 \end{small}
-\caption{Example entries from the bilingual lexicon. Indonesian is on the left, and Malay on the right.}
+\caption{Example entries from the bilingual lexicon. Indonesian is on the left, and Malaysian on the right.}
 \label{fig:bidix}
 \end{center}
 %\vspace{-1em}
@@ -172,7 +173,7 @@ There are barely differences between the grammar of Indonesian and Malaysian, in
 
 \section{Evaluation}
 \label{sec:eval}
-The system was evaluated in four ways. The first was the coverage\footnote{Here coverage is defined as \emph{na\"ive coverage}, that is for any given surface form at least one analysis is returned by our monolingual dictionaries} of the system. The second was the word error rate (WER) of the translation output for our test data set. The third was an analysis of the errors found by the second evaluation. Lastly, we did a comparative evaluation with an existing system.
+The system was evaluated in three ways. The first was the coverage\footnote{Here coverage is defined as \emph{na\"ive coverage}, that is for any given surface form at least one analysis is returned by our monolingual dictionaries} of the system. The second was the word error rate (WER) of the translation output for our test data set, together with the error analysis of the translations. Lastly, we did a comparative evaluation with an existing system.
 
 \subsection{Coverage}
 Lexical coverage of the system is calculated over the Indonesian and Malaysian Wikipedias, as shown in Table~\ref{table:coverage}. The database dump of the Indonesian Wikipedia\footnote{\url{http://id.wikipedia.org/}; \texttt{idwiki-20120429-pages-articles.xml.bz2}} was from the 29th April 2012, and that of Malaysian Wikipedia\footnote{\url{http://ms.wikipedia.org/}; \texttt{mswiki-20120428-pages-articles.xml.bz2}} from the 28th April 2012. Both database dumps were stripped of formatting.
@@ -193,7 +194,7 @@ Lexical coverage of the system is calculated over the Indonesian and Malaysian W
   \end{center}
 \end{table}
 
-\subsection{Quantitative}
+\subsection{Quantitative and Qualitative}
 We tested our system on a 2,084 word text taken from various articles in Malaysian Wikipedia. The translation quality was measured using Word Error Rate (WER), a metric based on the Levenshtein distance \citep{levenshtein/1966}. We calculated the WER for each sentence using the \texttt{\small{apertium-eval-translator}}\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/trunk/apertium-eval-translator/}} tool. The WER metric was preferred to other MT metric such as BLEU \citep{Papineni2002bleu} for assessing the postediting effort required.
 
 For the Malaysian to Indonesian direction, the sentences were translated by the system, and then postedited by a native Indonesian speaker. For the Indonesian to Malaysian direction, we used the reference translation, as postedited by the native speaker and used it as a source of Indonesian to be translated to Malaysian, then the original Malaysian sentence was used as the reference translation.
@@ -213,9 +214,9 @@ For the Malaysian to Indonesian direction, the sentences were translated by the 
   \end{center}
 \end{table}
 
-We consider the WER of our system, as depicted in Table~\ref{table:wer} is quite acceptable for post-editing. Moreover, many of the unknown words are \emph{free rides}, which will not affect the final quality of the final translation.
+We consider the WER of our system, as depicted in Table~\ref{table:wer} is quite acceptable for postediting. Moreover, many of the unknown words are \emph{free rides}, which will not affect the final quality of the translation.
 
-\subsection{Qualitative}
+As a direction for future improvement, we did an error analysis by reviewing the translation outputs from our system. Most of the translation errors were due to the mistakes and gaps in our analyser. Specifically, many of the stems do not have the complete set of its derived forms. As a result, it cannot provide analysis for a unknown derived wordform even if the stem already exists in the analyser. Moreover, the analyser cannot handle clitics attached to unknown words (e.g. possessive enclitic \emph{-nya}). These errors can be fixed by a more thorough revision of the morphological analyser. Lastly, the system is often not capable of choosing the most suitable translation given a particular context. A lexical selection module can be written to alleviate this problem.
 
 \subsection{Comparative}
 We compared our system to another MT system for Indonesian to Malaysian and Malaysian to Indonesian, Google Translate, a web-based statistical machine translation system. The evaluation was performed the same way: the test data was translated with Google Translate, then postedited.
