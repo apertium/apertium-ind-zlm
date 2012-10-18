@@ -21,14 +21,34 @@
 \maketitle
 
 \abstractEn{
-We describe the development of a bidirectional machine translation system between Indonesian and Malaysian, two closely related Austronesian languages widely spoken by 180 million speakers around the world. The system is based on the re-use of free and publicly available resources, such as the Apertium machine translation platform and Wikipedia. We also present our approaches to overcome the data scarcity problems in both languages by exploiting the morphology similarities between the two.}
+We describe the development of a bidirectional machine translation system between Indonesian and Malaysian, two closely related Austronesian languages natively spoken by 40 million people. The system is based on the re-use of free and publicly available resources, such as the Apertium machine translation platform and Wikipedia. We also present our approaches to overcome the data scarcity problems in both languages by exploiting the morphology similarities between the two.}
 
 \keywordsEn{machine translation, Malay languages, morphology}
 
 \newpage
 \section{Introduction}
+In this paper we describe the development of \texttt{\small{apertium-id-ms}}, a bidirectional Indonesian and Malaysian machine translation system based on the Apertium platform. The paper is laid out as follows: Section~\ref{sec:lang} gives a brief description of the two languages; Section~\ref{sec:prev} gives a short review of the previous work in Indonesian-Malaysian language pair; Section~\ref{sec:sys} describes the system and the creation of the resources; Section~\ref{sec:eval} presents an evaluation of the system, and finally we describes future work that could be done and some concluding remarks.
+
+\section{Languages}
+\label{sec:lang}
+Indonesian (\emph{Bahasa Indonesia}) and Malaysian (\emph{Bahasa Malaysia}) are standards of the Malay language, a major language of the Austronesian family. Indonesian is spoken by 23 million people, mostly from Indonesia, but also widespread in the Netherlands, the Philippines, Saudi Arabia, Singapore, and the United States. Malaysian has 10 million speakers across the Peninsular Malaysia, and other speakers coming from parts of Sarawak, Indonesia (Sumatra), Singapore, and United States.
+
+Indonesian and Malaysian are closely related; both languages are mutually intelligible to a great extent. The morphology of the two languages are the same, where agglutination is used extensively (by means of affixation, reduplication, and compounding), although some affixes are more frequently used in one language over the other. For instance, the prefix \emph{juru-} is often used in Malaysian to indicate an actor characterized by the stem it is attached to. While this affixation also happens in Indonesian, they are not as frequently found in Malaysian.
+
+The main difference between Indonesian and Malaysian languages lies in their vocabulary: the Indonesian language is largely influenced by the Dutch and Javanese, whereas the Malaysian language has many words borrowed from English, e.g. \emph{dokter} vs. \emph{doktor} (`doctor') and \emph{tas} vs. \emph{beg} (`bag'). Moreover, there are frequent minor spelling differences, e.g. \emph{kabar} vs. \emph{khabar} (`news') and \emph{mau} vs. \emph{mahu} (`want').
+
+\section{Previous work}
+\label{sec:prev}
+The development of this system is motivated by an early prototype Apertium system developed in \citep{larasati2010study}. However, most of the components in the prototype were completely redesigned, and the direction of the development was based on the following rationale:
+\begin{itemize}
+\item{Morphological analyser: We wanted to create a morphological analyser which is not only robust, but also does not overgenerate too much. Both Indonesian and Malaysian morphology are characterized by rich derivational morphology, but poor inflectional morphology, unlike some other morphologically-complex languages such as Arabic and Turkish. Moreover, each root undergoes an idiosyncratic subset of these derivational processes (i.e. we cannot simply apply the derivational affixes to new words).}
+\item{Bidirectional: A new translation direction from Malaysian to Indonesian was added, and used as the starting point instead of the opposite direction, since translating from Indonesian to Malaysian appears to be more ambiguous in general.}
+\item{Evaluation: Finally, we performed a quality evaluation of our system, which was not done before.}
+\end{itemize}
+There also exists a statistical machine translation system that has been developed for this language pair, that is Google Translate\footnote{\url{http://translate.google.com/}}, a web-based multilingual translation system.
 
 \section{System}
+\label{sec:sys}
 The system is based on the Apertium machine translation platform \citep{apertium/2011}.\footnote{\url{http://www.apertium.org/}} The platform was originally aimed at the Romance languages of the Iberian peninsula, but has also been adapted for other, more distantly related language pairs. The whole platform, both programs and data, are licensed under the Free Software Foundation's General Public Licence\footnote{\url{http://www.fsf.org/licensing/licenses/gpl.html}} (GPL) and all the software and data for the 33 supported language pairs (and the other pairs being worked on) is available for download from the project website.
 
 \subsection{Architecture of the system}
@@ -92,13 +112,14 @@ Second, we also added Malaysian words which appear in our bilingual lexicon. Sin
 \begin{center}
 \begin{small}
 \begin{alltt}
-<e r="RL"><p><l>\textbf{kemarin}<s n="adv"/></l>
-             <r>\textbf{kelmarin}<s n="adv"/></r></p></e>
-<e r="LR"><p><l>\textbf{kemarin}<s n="adv"/></l>
-             <r>\textbf{semalam}<s n="adv"/></r></p></e>
+<e><p><l>\textbf{mobil}<s n="n"/></l><r>\textbf{kereta}<s n="n"/></r></p></e>
+<e><p><l>\textbf{mobilitas}<s n="n"/></l><r>\textbf{mobiliti}<s n="n"/></r></p></e>
+<e><p><l>\textbf{sepeda}<s n="n"/></l><r>\textbf{basikal}<s n="n"/></r></p></e>
+<e><p><l>\textbf{modern}<s n="adj"/></l><r>\textbf{moden}<s n="adj"/></r></p></e>
+<e><p><l>\textbf{karena}<s n="cnjsub"/></l><r>\textbf{kerana}<s n="cnjsub"/></r></p></e>
 \end{alltt}
 \end{small}
-\caption{Example entries from the bilingual transfer lexicon. Indonesian is on the left, and Malay on the right. The attributes \texttt{LR} and \texttt{RL} indicate the direction restrictions.}
+\caption{Example entries from the bilingual lexicon. Indonesian is on the left, and Malay on the right.}
 \label{fig:bidix}
 \end{center}
 %\vspace{-1em}
@@ -106,7 +127,7 @@ Second, we also added Malaysian words which appear in our bilingual lexicon. Sin
 
 There is no freely available bilingual dictionary between Indonesian and Malaysian, so we had to build the dictionary from scratch. At the moment, the bilingual dictionary contains 12,142 entries, which was developed in several ways described below.
 
-First, most of the entries were added using automatic word alignments. We created an Indonesian-Malaysian parallel corpus by translating many articles taken from Malaysian Wikipedia. The translation process is mostly automatic, with the help of existing Malaysian-Indonesian machine translation systems such as Google Translate.\footnote{\url{http://translate.google.com/}}
+First, most of the entries were added using automatic word alignments. We created an Indonesian-Malaysian parallel corpus by translating many articles taken from Malaysian Wikipedia. The translation process is mostly automatic, with the help of existing Malaysian-Indonesian machine translation systems such as Google Translate.
 
 Next the Wikipedia corpus is tagged using our morphological analyser, and word alignments were created by running \texttt{Giza++} \citep{Och2003align} on the tagged corpus. We fed the probabilistic dictionary into the \texttt{ReTraTos} toolbox \citep{Caseli2006retratos}, which extracts both phrases and single-word translations from alignments, and converts them into Apertium translation entries. The \texttt{ReTraTos} method gave us about 12,000 translation entries, but also required a manual check due the amount of noise in the resulting data.
 
@@ -150,6 +171,7 @@ There are barely differences between the grammar of Indonesian and Malaysian, in
 \end{table*}
 
 \section{Evaluation}
+\label{sec:eval}
 The system was evaluated in four ways. The first was the coverage\footnote{Here coverage is defined as \emph{na\"ive coverage}, that is for any given surface form at least one analysis is returned by our monolingual dictionaries} of the system. The second was the word error rate (WER) of the translation output for our test data set. The third was an analysis of the errors found by the second evaluation. Lastly, we did a comparative evaluation with an existing system.
 
 \subsection{Coverage}
@@ -178,9 +200,9 @@ For the Malaysian to Indonesian direction, the sentences were translated by the 
 
 \begin{table}[htbp]
   \begin{center}
-  \begin{tabular}{ccccc}
+  \begin{tabular}{ccccr}
   \toprule
-  \bf{Corpus}                 & \bf{Direction}         & \bf{Tokens}  & \bf{Unknown} & \bf{WER}  \\
+  \bf{Corpus}                 & \bf{Direction}         & \bf{Tokens}  & \bf{Unknown} & \multicolumn{1}{c}{\bf{WER}}  \\
   \midrule
   \multirow{2}{*}{Malaysian Wikipedia} & id$\rightarrow$ms & 2,079     & 211  & 14.43\% (83.89\%) \\
                           & ms$\rightarrow$id & 2,084     & 256  & 7.58\% (69.53\%)  \\
@@ -200,15 +222,15 @@ We compared our system to another MT system for Indonesian to Malaysian and Mala
 
 \begin{table}[htbp]
   \begin{center}
-  \begin{tabular}{clc}
+  \begin{tabular}{clr}
   \toprule
-  \bf{Dir.}                 & \bf{System}         & \bf{WER}  \\
+  \bf{Dir.}                 & \bf{System}         & \multicolumn{1}{c}{\bf{WER}}  \\
   \midrule
-  \multirow{2}{*}{id$\rightarrow$ms} & \small{Apertium} & 14.43\% \\
-                                     & \small{Google} & 13.90\% \\
+  \multirow{2}{*}{id$\rightarrow$ms} & Apertium & 14.43\% \\
+                                     & Google & 13.90\% \\
   \midrule
-  \multirow{2}{*}{ms$\rightarrow$id} & \small{Apertium} & 7.58\% \\
-                                     & \small{Google} & 4.07\% \\
+  \multirow{2}{*}{ms$\rightarrow$id} & Apertium & 7.58\% \\
+                                     & Google & 4.07\% \\
   \bottomrule
   \end{tabular}
     \caption{Accuracy comparison between the two systems.}
@@ -216,7 +238,7 @@ We compared our system to another MT system for Indonesian to Malaysian and Mala
   \end{center}
 \end{table}
 
-We notice from Table~\ref{table:comp} that Google outperforms the Apertium system in both translation directions. For Malaysian to Indonesian, the error rate is reduced by almost a half. It is also interesting that both systems perform almost as worse for Indonesian to Malaysian, perhaps due to the fact that translating from Indonesian to Malaysian is more ambiguous then translating to Indonesian. Google seems to have a greater vocabulary coverage than Apertium, as exemplified in the first example in Table~\ref{table:ex}. The Malaysian word \emph{mencuba} (`try') is unknown to the Apertium system (denoted by the asterisk), whereas it is correctly translated by Google as \emph{mencoba}.
+We notice from Table~\ref{table:comp} that Google outperforms the Apertium system in both translation directions. For Malaysian to Indonesian, the error rate is reduced by almost a half. It is also interesting that both systems perform almost as worse for Indonesian to Malaysian, perhaps due to the fact that translating from Indonesian to Malaysian is more ambiguous than translating to Indonesian. Google seems to have a greater vocabulary coverage than Apertium, as exemplified in the first example in Table~\ref{table:ex}. The Malaysian word \emph{mencuba} (`try') is unknown to the Apertium system (denoted by the asterisk), whereas it is correctly translated by Google as \emph{mencoba}.
 
 Moreover, in many cases, Google seems to be performing better in picking the most natural translations. In the second example, it translates the noun phrase \emph{kuasa ketenteraan} (`military power') to \emph{kekuatan militer}, which sounds much more natural than \emph{kuasa ketentaraan}.
 
@@ -228,7 +250,7 @@ Moreover, in many cases, Google seems to be performing better in picking the mos
   Apertium & Para ilmuwan \textbf{*mencuba} menjawab pertanyaan tersebut.\\
   Google & Para ilmuwan \textbf{mencuba} menjawab pertanyaan tersebut.\\
   Reference & Para ilmuwan \textbf{mencoba} menjawab pertanyaan tersebut.\\
-  & `Scientist are trying to answer that question.'\\
+  & `Scientists are trying to answer that question.'\\
   \midrule
   Source & Sebuah \textbf{kuasa ketenteraan} yang disegani.\\
   Apertium & Sebuah \textbf{kuasa ketentaraan} yang disegani.\\
@@ -243,11 +265,14 @@ Moreover, in many cases, Google seems to be performing better in picking the mos
 \end{table}
 
 \section*{Conclusion and future work}
+\label{sec:con}
 
 \section*{Acknowledgments}
+Development of the system was funded as part of the Google Summer of Code\footnote{\url{http://code.google.com/soc/}}, an annual program sponsored by Google, Inc. to promote students' participation in open-source software projects.
 
 \bibliographystyle{apa}
 
 \bibliography{id-ms.coling2012}
+\nocite{lewis09}
 
 \end{document}
