@@ -61,12 +61,13 @@ dev/trimmed-coverage.sh -text
 /modes.xml -text
 /ms-id.prob -text svneol=unset#unset
 paper/Makefile -text
+paper/apa.bst -text
 paper/architecture.pdf -text
 paper/coling2012.sty -text
 paper/colingbiblio.bib -text
 paper/id-ms.coling2012.bib -text
 paper/id-ms.coling2012.tex -text
-paper/mathdesign.sty -text
+paper/o.mathdesign.sty -text
 paper/paralist.sty -text
 paper/titlesec.sty -text
 /principal.xsl -text
