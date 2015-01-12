@@ -1,0 +1,9 @@
+Komputer merupakan mesin boleh atur cara yang direka untuk membaca dan melaksanakan urutan sesebuah senarai arahan yang membuatkan ia melakukan operasi aritmetik dan logik berdasarkan angka binari. Pada asasnya, komputer terdiri dari ingatan jangka pendek dan ingatan jangka panjang untuk peyimpanan data; dan unit pemprosesan pusat yang berfungsi sebagai unit kawalan serta mengandungi unit logik aritmetik. Aksesori (contohnya papan kekunci, tetikus atau kad grafik) boleh dihubungkan supaya komputer dapat menerima input luar dan memaparkan output.
+
+Unit pemproses komputer melaksanakan siri arahan yang membuatkan ia membaca, memanipulasi dan kemudian menyimpan data. Ujian dan arahan loncat membenarkannya untuk bergerak di dalam ruang program dan oleh itu melaksanakan arahan berlainan sebagai fungsi dari kedudukan semasa dari mesin itu atau persekitarannya.
+
+Komputer boleh juga bertindak balas terhadap sampukan yang membuatkan ia melaksanakan set arahan tertentu dan kemudian kembali meneruskan apa yang ia sedang buat sebelum sampukan.
+
+Komputer elektronik pertama telah dibangunkan pada pertengahan abad ke-20 (1940-1945). Dengan saiz seumpama sebuah bilik besar, ia memerlukan kuasa yang banyak seumpama beberapa ratus komputer peribadi (PC) moden.
+
+Komputer moden yang berasaskan litar bersepadu adalah berjuta, malah berbilion kali lebih berupaya berbanding komputer-komputer terawal, dan memerlukan ruang yang kecil sahaja. Komputer ringkas adalah cukup kecil untuk dimuatkan dalam peranti mudah alih, dan komputer mudah alih boleh dikuasakan dengan bateri kecil. Komputer peribadi dalam berbagai reka bentuk adalah lambang Era Maklumat dan apa yang kebanyakan orang anggap sebagai "komputer". Pun begitu, komputer terbenam yang didapati dalam pelbagai alat, daripada pemain MP3 sehinggalah jet pejuang dan daripada permainan sehinggalah robot industri adalah yang paling banyak.
