@@ -10,8 +10,15 @@ BASENAME=apertium-$(PREFIX1)
 
 TARGETS_COMMON = $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 	$(PREFIX1).automorf.bin $(PREFIX1).autogen.bin $(PREFIX1).t1x.bin \
-	$(PREFIX2).automorf.bin $(PREFIX2).autogen.bin $(PREFIX2).t1x.bin \
-	$(PREFIX1).mode $(PREFIX2).mode modes
+	$(PREFIX2).automorf.bin $(PREFIX2).autogen.bin $(PREFIX2).t1x.bin
+
+# This include defines goals for install-modes, .deps/.d and .mode files:
+@ap_include@
+
+
+###############################################################################
+## Transducers, disambiguation rules, transfer
+###############################################################################
 
 # Indonesian transducer
 
@@ -57,19 +64,10 @@ empty.bin: empty.t1x
 	apertium-validate-transfer empty.t1x
 	apertium-preprocess-transfer empty.t1x $@
 
-# Modes
 
-modes/$(PREFIX1).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-modes/$(PREFIX2).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-# Installation
+###############################################################################
+## Distribution
+###############################################################################
 
 EXTRA_DIST=$(PREFIX1).prob $(PREFIX2).prob \
            $(BASENAME).$(LANG1).dix \
@@ -79,30 +77,41 @@ EXTRA_DIST=$(PREFIX1).prob $(PREFIX2).prob \
            $(BASENAME).$(PREFIX2).t1x \
            modes.xml
 
-apertium_id_msmodesdir=$(prefix)/share/apertium/modes/
+###############################################################################
+## Installation
+###############################################################################
+
 apertium_id_msdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_id_ms_DATA=$(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
+# Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
+apertium_id_ms_DATA=$(TARGETS_COMMON) \
                     $(PREFIX1).prob $(PREFIX2).prob \
-		    $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
-		    $(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
-		    $(PREFIX1).t1x.bin $(PREFIX2).t1x.bin \
-		    $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX2).t1x \
-		    modes.xml
+		    $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX2).t1x
 
-noinst_DATA=modes/$(PREFIX1).mode modes/$(PREFIX2).mode
 
-install-data-local:
-	mv modes modes~
-	$(prefix)/bin/apertium-gen-modes modes.xml $(BASENAME)
-	rm -rf modes
-	mv modes~ modes
-	test -d $(DESTDIR)$(apertium_id_msmodesdir) || mkdir $(DESTDIR)$(apertium_id_msmodesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_id_msmodesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_id_msmodesdir)
-	rm $(PREFIX1).mode
-	rm $(PREFIX2).mode
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_id_msdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_id_msdir)
+# All modes are created by the same goal, listing several will just give problems with make -j2
+noinst_DATA=modes/$(PREFIX1).mode
 
-CLEANFILES = -r $(TARGETS_COMMON)
+install-data-local: install-modes
+
+
+###############################################################################
+## Cleanup
+###############################################################################
+
+CLEANFILES = $(TARGETS_COMMON)
+clean-local: 
+	-rm -rf .deps modes
+
+###############################################################################
+## Test
+###############################################################################
+
+test: all
+	echo "TODO" | apertium -d . id-ms | tee .test-mt
+	@echo "TODO" > .test-ref
+	@diff .test-ref .test-mt
+	echo "TODO" | apertium -d . ms-id | tee .test-mt
+	@echo "TODO" > .test-ref
+	@diff .test-ref .test-mt
+	@rm .test-ref .test-mt
