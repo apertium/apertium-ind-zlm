@@ -2,7 +2,7 @@
 ## Makefile for Indonesian--Malaysian
 ###############################################################################
 
-VERSION=0.1.0
+VERSION=0.1.1
 LANG1=ind
 LANG2=zlm
 PREFIX1=$(LANG1)-$(LANG2)
