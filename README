@@ -1,76 +1,80 @@
-Indonesian and Malaysian
-
-                            apertium-id-ms
+Indonesian and Malaysian: `apertium-ind-zlm`
 ===============================================================================
 
-This is an Apertium language pair for translating between Indonesian
-and Malaysian. What you can use this language package for:
+This is an Apertium language pair for translating between Indonesian and
+Malaysian. What you can use this language package for:
 
-* Translating from Indonesian to Malaysian
-* Morphological analysis of Indonesian
-* Part-of-speech tagging of Indonesian
+* Translating between Indonesian and Malaysian
+* Morphological analysis of Indonesian and Malaysian
+* Part-of-speech tagging of Indonesian and Malaysian
+
+For information on the latter two points, see subheading "For more
+information" below.
 
 Requirements
-===============================================================================
+-------------------------------------------------------------------------------
 
 You will need the following software installed:
 
-* lttoolbox (>= 3.1.2)
-* apertium (>= 3.1.1)
+* lttoolbox (>= 3.3.0)
+* apertium (>= 3.3.0)
+* vislcg3 (>= 0.9.9.10297)
+* apertium-ind
+* apertium-zlm
 
-If this does not make any sense, we recommend you look at: www.apertium.org
+If this does not make any sense, we recommend you look at: www.apertium.org.
 
 Compiling
-===============================================================================
+-------------------------------------------------------------------------------
 
 Given the requirements being installed, you should be able to just run:
 
-$ ./configure 
-$ make
-# make install
+    $ ./configure
+    $ make
+    # make install
 
-You can use ./autogen.sh instead of ./configure if you're compiling
-from SVN. If you're using a --prefix to ./configure or ./autogen.sh,
-make sure it's the same one you used to install apertium itself.
+You can use `./autogen.sh` instead of `./configure` you're compiling from
+source. If you installed any prerequisite language packages using a `--prefix`
+to `./configure`, make sure to give the same `--prefix` to `./configure` here.
 
 Testing
-============
+-------------------------------------------------------------------------------
 
 If you are in the source directory after running make, the following
 commands should work:
 
-$ echo "Oleh karena itu mereka tidak bisa bermain di luar." | apertium -d . id-ms
-Oleh itu mereka tidak boleh bermain di luar.
+    $  echo "TODO test sentence 1" | apertium -d . ind-zlm
+    TODO test translated sentence 1
 
-After installing somewhere in $PATH, you should be able to do eg.
+    $ echo "TODO test sentence 2" | apertium -d . zlm-ind
+    TODO test translated sentence 2
 
-$ echo "Oleh karena itu mereka tidak bisa bermain di luar." | apertium id-ms
-Oleh itu mereka tidak boleh bermain di luar.
+After installing somewhere in `$PATH`, you should be able to do e.g.
+
+    $  echo "TODO test sentence 1" | apertium ind-zlm
+    TODO test translated sentence 1
 
 Files and data
-===============================================================================
+-------------------------------------------------------------------------------
 
-* apertium-id-ms.id.dix       	   - Monolingual dictionary for Indonesian
-* apertium-id-ms.ms.dix       	   - Monolingual dictionary for Malaysian
-* apertium-id-ms.id-ms.t1x    	   - Transfer rules for Indonesian-to-Malaysian translation
-* apertium-id-ms.id-ms.dix    	   - Bilingual dictionary
-* id-ms.prob                  	   - Tagger model for Indonesian
-* modes.xml                        - Translation modes
-
+* `apertium-ind-zlm.ind-zlm.dix`  - Bilingual dictionary
+* `apertium-ind-zlm.ind-zlm.t1x`  - Transfer rules for translating into Malaysian
+* `apertium-ind-zlm.zlm-ind.t1x`  - Transfer rules for translating into Indonesian
+* `modes.xml`                     - Translation modes
 
 For more information
-===============================================================================
+-------------------------------------------------------------------------------
 
 * http://wiki.apertium.org/wiki/Installation
+* http://wiki.apertium.org/wiki/apertium-ind-zlm
 * http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
-* http://wiki.apertium.org/wiki/Indonesian_and_Malaysian
 
 Help and support
-===============================================================================
+-------------------------------------------------------------------------------
 
 If you need help using this language pair or data, you can contact:
 
 * Mailing list: apertium-stuff@lists.sourceforge.net
-* IRC: #apertium on irc.freenode.net
+* IRC: `#apertium` on `irc.freenode.net`
 
 See also the file AUTHORS included in this distribution.

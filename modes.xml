@@ -1,120 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <!-- id -> ms -->
-  
-  <mode name="id-ms" install="yes">
+  <!-- ind → zlm -->
+
+  <mode name="ind-zlm" install="yes" gendebug="yes">
     <pipeline>
-      <program name="lt-proc">
-        <file name="id-ms.automorf.bin"/>
+      <program name="lt-proc -w">
+        <file name="ind-zlm.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="ind-zlm.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="id-ms.prob"/>
+        <file name="ind-zlm.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-id-ms.id-ms.t1x"/>
-        <file name="id-ms.t1x.bin"/>
-        <file name="id-ms.autobil.bin"/>
+        <file name="apertium-ind-zlm.ind-zlm.t1x"/>
+        <file name="ind-zlm.t1x.bin"/>
+        <file name="ind-zlm.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="id-ms.autogen.bin"/>
+        <file name="ind-zlm.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="ind-zlm.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
-  
-  <mode name="id-ms-morph" install="no">
+
+  <!-- zlm → ind -->
+
+  <mode name="zlm-ind" install="yes" gendebug="yes">
     <pipeline>
-      <program name="lt-proc">
-        <file name="id-ms.automorf.bin"/>
+      <program name="lt-proc -w">
+        <file name="zlm-ind.automorf.bin"/>
       </program>
-    </pipeline>
-  </mode>
-  
-  <mode name="id-ms-tagger" install="no">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="id-ms.automorf.bin"/>
+
+
+      <program name="cg-proc -w">
+        <file name="zlm-ind.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="id-ms.prob"/>
-      </program>
-    </pipeline>
-  </mode>
-  
-  <mode name="id-ms-transfer" install="no">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="id-ms.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="id-ms.prob"/>
-      </program>
-	  <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="apertium-id-ms.id-ms.t1x"/>
-        <file name="id-ms.t1x.bin"/>
-        <file name="id-ms.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  
-  <!-- ms -> id -->
-  
-  <mode name="ms-id" install="yes">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="ms-id.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="ms-id.prob"/>
+        <file name="zlm-ind.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-id-ms.ms-id.t1x"/>
-        <file name="ms-id.t1x.bin"/>
-        <file name="ms-id.autobil.bin"/>
+        <file name="apertium-ind-zlm.zlm-ind.t1x"/>
+        <file name="zlm-ind.t1x.bin"/>
+        <file name="zlm-ind.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="ms-id.autogen.bin"/>
+        <file name="zlm-ind.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="zlm-ind.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
-  
-  <mode name="ms-id-morph" install="no">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="ms-id.automorf.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  
-  <mode name="ms-id-tagger" install="no">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="ms-id.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="ms-id.prob"/>
-      </program>
-    </pipeline>
-  </mode>
-  
-  <mode name="ms-id-transfer" install="no">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="ms-id.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="ms-id.prob"/>
-      </program>
-	  <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="apertium-id-ms.ms-id.t1x"/>
-        <file name="ms-id.t1x.bin"/>
-        <file name="ms-id.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  
 </modes>
+

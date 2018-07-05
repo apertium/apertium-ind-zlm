@@ -1,5 +1,5 @@
 echo "==Indonesian->Malaysian===========================";
-bash inconsistency.sh id-ms > /tmp/id-ms.testvoc; bash inconsistency-summary.sh /tmp/id-ms.testvoc id-ms
+bash inconsistency.sh ind-zlm > /tmp/ind-zlm.testvoc; bash inconsistency-summary.sh /tmp/ind-zlm.testvoc ind-zlm
 echo ""
 echo "==Malaysian->Indonesian===========================";
-bash inconsistency.sh ms-id > /tmp/ms-id.testvoc; bash inconsistency-summary.sh /tmp/ms-id.testvoc ms-id
+bash inconsistency.sh zlm-ind > /tmp/zlm-ind.testvoc; bash inconsistency-summary.sh /tmp/zlm-ind.testvoc zlm-ind
