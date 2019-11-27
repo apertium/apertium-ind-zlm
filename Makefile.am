@@ -2,7 +2,6 @@
 ## Makefile for Indonesian--Malaysian
 ###############################################################################
 
-VERSION=0.1.1
 LANG1=ind
 LANG2=zlm
 PREFIX1=$(LANG1)-$(LANG2)
@@ -174,4 +173,3 @@ test: all
 	@echo "house" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
-
