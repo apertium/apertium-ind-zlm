@@ -18,3 +18,5 @@
 /.deps
 /config.in
 /config
+/*-*.prob
+/test/*-output.txt

@@ -1,0 +1,94 @@
+[0bAC7f-HSW9B#0] ^pendua/*pendua$
+[/0bAC7f-HSW9B]
+[1D385Hz08SHx#0] ^besar/besar<adj>$
+[/1D385Hz08SHx]
+[1yYIiXyrmcU_#0] ^kiriman/kirim<vblex><subst><san><sg>$
+[/1yYIiXyrmcU_]
+[23h7x8QgEcnW#0] ^pembesar-pembesar/besar<adj><subst><peN><red><pl>$
+[/23h7x8QgEcnW]
+[2qACgPrd1bSb#0] ^perbesaran/*perbesaran$
+[/2qACgPrd1bSb]
+[3ZcLmYfvg04H#0] ^pembesaran/besar<adj><subst><peN-an><sg>$
+[/3ZcLmYfvg04H]
+[3vO0h6UogaTP#0] ^pembatas/batas<n><peN><sg>$
+[/3vO0h6UogaTP]
+[557V8zB8a1BS#0] ^membatas/*membatas$
+[/557V8zB8a1BS]
+[5koU9BIp_2Nv#0] ^pengirim/kirim<vblex><subst><peN><sg>$^-/-<guio>$^pengirim/kirim<vblex><subst><peN><sg>$
+[/5koU9BIp_2Nv]
+[63Xi4lOUlqXX#0] ^kirim/kirim<vblex>$^-/-<guio>$^mengirim/kirim<vblex><actv>$
+[/63Xi4lOUlqXX]
+[8phQCRTDQc1e#0] ^penduaan/*penduaan$^-/-<guio>$^penduaan/*penduaan$
+[/8phQCRTDQc1e]
+[95RED0uX4uqg#0] ^membataskan/*membataskan$
+[/95RED0uX4uqg]
+[9WbqDipUbf-w#0] ^kirim/kirim<vblex>$
+[/9WbqDipUbf-w]
+[Ej4OI1pROiJv#0] ^besaran/besaran<n><sg>$
+[/Ej4OI1pROiJv]
+[FIRpEDY1mXAj#0] ^kiriman/kirim<vblex><subst><san><sg>$^-/-<guio>$^kiriman/kirim<vblex><subst><san><sg>$
+[/FIRpEDY1mXAj]
+[FV-s-XkvM8Uq#0] ^besar/besar<adj>$^-/-<guio>$^besar/besar<adj>$
+[/FV-s-XkvM8Uq]
+[GttFDBi5ZlFC#0] ^batasan/batas<n><san><sg>$
+[/GttFDBi5ZlFC]
+[N-PQ1TkncvYw#0] ^duaan/*duaan$
+[/N-PQ1TkncvYw]
+[NJoJnjBTvEF-#0] ^besaran/besaran<n><sg>$^-/-<guio>$^besaran/besaran<n><sg>$
+[/NJoJnjBTvEF-]
+[OMcvMazQFl3R#0] ^mengirim/kirim<vblex><actv>$
+[/OMcvMazQFl3R]
+[OXf2yFxk2wXZ#0] ^pengirim/kirim<vblex><subst><peN><sg>$
+[/OXf2yFxk2wXZ]
+[Q_y2JhpGrVHT#0] ^membatasi/batas<n><actio><actv><si>$
+[/Q_y2JhpGrVHT]
+[QxDTrdwibSzY#0] ^Pendukungan/*Pendukungan$
+[/QxDTrdwibSzY]
+[QzNN1PkDjdnm#0] ^duaan/*duaan$^-/-<guio>$^duaan/*duaan$
+[/QzNN1PkDjdnm]
+[SuekiXFIJwz4#0] ^Toko/Toko<n><sg>$
+[/SuekiXFIJwz4]
+[TnPhgaDI_3V1#0] ^perduaan/*perduaan$^-/-<guio>$^perduaan/*perduaan$
+[/TnPhgaDI_3V1]
+[VKyc7dEwpWEv#0] ^penduaan/*penduaan$
+[/VKyc7dEwpWEv]
+[X9RvKVZaf67e#0] ^Toko/Toko<n><sg>$^-/-<guio>$^toko/toko<n><sg>$
+[/X9RvKVZaf67e]
+[Yy_EV5PLz7ck#0] ^pembatasan/batas<n><peN-an><sg>$^-/-<guio>$^pembatasan/batas<n><peN-an><sg>$
+[/Yy_EV5PLz7ck]
+[_YIdB4yjpfJN#0] ^pengiriman/kirim<vblex><subst><peN-an><sg>$^-/-<guio>$^pengiriman/kirim<vblex><subst><peN-an><sg>$
+[/_YIdB4yjpfJN]
+[_Ytxgu2gRbTs#0] ^pendua/*pendua$^-/-<guio>$^pendua/*pendua$
+[/_Ytxgu2gRbTs]
+[ao9wT0S66PS9#0] ^pembesaran/besar<adj><subst><peN-an><sg>$^-/-<guio>$^pembesaran/besar<adj><subst><peN-an><sg>$
+[/ao9wT0S66PS9]
+[cisaV5TxnyVX#0] ^batasan/batas<n><san><sg>$^-/-<guio>$^batasan/batas<n><san><sg>$
+[/cisaV5TxnyVX]
+[dyp0GuekNhXJ#0] ^pengiriman/kirim<vblex><subst><peN-an><sg>$
+[/dyp0GuekNhXJ]
+[jy2_YO7uvfcG#0] ^pembesar/besar<adj><subst><peN><sg>$
+[/jy2_YO7uvfcG]
+[lIq_YPi34AvV#0] ^perbesaran/*perbesaran$^-/-<guio>$^perbesaran/*perbesaran$
+[/lIq_YPi34AvV]
+[lvlVnCFcL1Ux#0] ^toko/toko<n><sg>$
+[/lvlVnCFcL1Ux]
+[mXaDD4lsOhtZ#0] ^toko/toko<n><sg>$^-/-<guio>$^toko/toko<n><sg>$
+[/mXaDD4lsOhtZ]
+[o1Ii9FcPWZAj#0] ^kirim/kirim<vblex>$^-/-<guio>$^kirim/kirim<vblex>$
+[/o1Ii9FcPWZAj]
+[pTiwlL-ryGae#0] ^pembatasan/batas<n><peN-an><sg>$
+[/pTiwlL-ryGae]
+[phH7iCKEdfnR#0] ^perduaan/*perduaan$
+[/phH7iCKEdfnR]
+[pkX8_63bWCq-#0] ^pembatas/batas<n><peN><sg>$^-/-<guio>$^pembatas/batas<n><peN><sg>$
+[/pkX8_63bWCq-]
+[qo7qKx1QxHQ5#0] ^perbatasan/batas<n><per-an><sg>$^-/-<guio>$^perbatasan/batas<n><per-an><sg>$
+[/qo7qKx1QxHQ5]
+[rzW9kCc_LSW3#0] ^dua/dua<num>$
+[/rzW9kCc_LSW3]
+[tbON_tUPMFsS#0] ^perbatasan/batas<n><per-an><sg>$
+[/tbON_tUPMFsS]
+[tmXy9nNxIq3i#0] ^Pendukungan/*Pendukungan$^-/-<guio>$^pendukungan/*pendukungan$
+[/tmXy9nNxIq3i]
+[u95W06MCNkO9#0] ^buku/buku<n><sg>$ ^ini/ini<det><dem>/ini<prn><dem>$
+[/u95W06MCNkO9]

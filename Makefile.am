@@ -166,10 +166,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "house" | apertium -d . ind-zlm | tee .test-mt
-	@echo "house" > .test-ref
-	@diff .test-ref .test-mt
-	echo "house" | apertium -d . zlm-ind | tee .test-mt
-	@echo "house" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
+	apertium-regtest test
